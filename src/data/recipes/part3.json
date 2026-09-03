@@ -335,7 +335,7 @@
     "id": "d-apfelstrudel",
     "title": "Apfelstrudel mit Blätterteig",
     "description": "Schneller Apfelstrudel aus fertigem Blätterteig mit zimtiger Apfel-Rosinen-Füllung – knusprig außen, saftig innen und perfekt mit Vanilleeis.",
-    "emoji": "🥧",
+    "emoji": "🍎",
     "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
@@ -704,7 +704,7 @@
     "id": "d-bratapfel",
     "title": "Bratapfel mit Mandel-Rosinen-Füllung",
     "description": "Im Ofen gebackene Äpfel mit einer Füllung aus Mandeln, Rosinen, Honig und Zimt – duftet nach Weihnachten und schmeckt mit Vanillesahne am besten.",
-    "emoji": "🍎",
+    "emoji": "🎄",
     "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
@@ -1638,7 +1638,7 @@
     "id": "d-schokopudding",
     "title": "Selbstgemachter Schokoladenpudding",
     "description": "Kein Pulver aus der Tüte: intensiver Schokopudding aus Milch, Zartbitterschokolade und Kakao – in 15 Minuten gekocht und herrlich cremig.",
-    "emoji": "🍮",
+    "emoji": "🥄",
     "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
@@ -2143,7 +2143,7 @@
     "id": "d-kaesekuchen",
     "title": "Klassischer Käsekuchen mit Mürbeteigboden",
     "description": "Cremiger Quark-Käsekuchen auf knusprigem Mürbeteig – hoch, saftig und ohne Risse dank langsamem Backen und Abkühlen im Ofen.",
-    "emoji": "🍰",
+    "emoji": "🥮",
     "category": "backen",
     "cuisine": "deutsch",
     "diet": [
@@ -3049,7 +3049,7 @@
     "id": "d-overnight-oats-beeren",
     "title": "Overnight Oats mit Beeren",
     "description": "Haferflocken, die über Nacht in Hafermilch und Sojajoghurt quellen – morgens nur noch Beeren und Mandelmus drauf, fertig ist das vegane Frühstück.",
-    "emoji": "🫐",
+    "emoji": "🫙",
     "category": "fruehstueck",
     "cuisine": "international",
     "diet": [
@@ -3336,127 +3336,93 @@
     ]
   },
   {
-    "id": "d-shakshuka",
-    "title": "Shakshuka mit Feta",
-    "description": "In würziger Tomaten-Paprika-Sauce pochierte Eier mit Kreuzkümmel und Feta – ein herzhaftes Frühstück direkt aus der Pfanne.",
-    "emoji": "🍳",
+    "id": "d-bircher-muesli",
+    "title": "Bircher Müsli mit Apfel und Nüssen",
+    "description": "Das Schweizer Frühstücks-Original: über Nacht eingeweichte Haferflocken mit geriebenem Apfel, Joghurt und gerösteten Haselnüssen – cremig, frisch und sättigend.",
+    "emoji": "🍎",
     "category": "fruehstueck",
-    "cuisine": "orientalisch",
+    "cuisine": "international",
     "diet": [
-      "vegetarisch",
-      "lowcarb",
-      "kalorienarm",
-      "glutenfrei"
+      "vegetarisch"
     ],
-    "timeMinutes": 35,
+    "timeMinutes": 10,
     "difficulty": "einfach",
     "servings": 2,
     "nutrition": {
       "kcal": 390,
-      "protein": 22,
-      "carbs": 18,
-      "fat": 27
+      "protein": 14,
+      "carbs": 52,
+      "fat": 13
     },
     "ingredients": [
       {
-        "key": "olivenoel",
-        "name": "Olivenöl",
-        "amount": 2,
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "apfel",
+        "name": "Apfel, mit Schale gerieben",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "haselnuesse",
+        "name": "Haselnüsse, grob gehackt",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
         "unit": "EL"
       },
       {
-        "key": "zwiebel",
-        "name": "Zwiebel",
+        "key": "zimt",
+        "name": "Zimt",
         "amount": 1,
-        "unit": "Stück"
+        "unit": "Prise"
       },
       {
-        "key": "knoblauch",
-        "name": "Knoblauch",
-        "amount": 2,
-        "unit": "Zehe"
-      },
-      {
-        "key": "paprika",
-        "name": "Rote Paprika",
-        "amount": 1,
-        "unit": "Stück"
-      },
-      {
-        "key": "tomaten-dose",
-        "name": "Gehackte Tomaten (Dose)",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "key": "kreuzkuemmel",
-        "name": "Kreuzkümmel, gemahlen",
-        "amount": 1,
-        "unit": "TL"
-      },
-      {
-        "key": "paprikapulver",
-        "name": "Geräuchertes Paprikapulver",
-        "amount": 1,
-        "unit": "TL"
-      },
-      {
-        "key": "chiliflocken",
-        "name": "Chiliflocken",
-        "amount": 0.5,
-        "unit": "TL"
-      },
-      {
-        "key": "eier",
-        "name": "Eier",
-        "amount": 4,
-        "unit": "Stück"
-      },
-      {
-        "key": "feta",
-        "name": "Feta",
-        "amount": 60,
-        "unit": "g"
-      },
-      {
-        "key": "petersilie",
-        "name": "Petersilie",
-        "amount": 0.5,
-        "unit": "Bund"
-      },
-      {
-        "key": "salz",
-        "name": "Salz",
-        "amount": null,
-        "unit": ""
-      },
-      {
-        "key": "pfeffer",
-        "name": "Pfeffer",
-        "amount": null,
-        "unit": ""
-      },
-      {
-        "key": "koriander",
-        "name": "Frischer Koriander",
+        "key": "beeren",
+        "name": "Frische Beeren zum Servieren",
         "amount": 1,
         "unit": "Handvoll",
         "optional": true
       }
     ],
     "steps": [
-      "Würfle Zwiebel und Paprika fein und hacke den Knoblauch. Erhitze das Olivenöl in einer großen Pfanne und dünste Zwiebel und Paprika 5 Minuten bei mittlerer Hitze an.",
-      "Gib Knoblauch, Kreuzkümmel, Paprikapulver und Chiliflocken dazu und röste die Gewürze 1 Minute mit an.",
-      "Gieße die Tomaten dazu, würze mit Salz und Pfeffer und lass die Sauce 10 Minuten offen einköcheln, bis sie dick wird.",
-      "Drücke mit einem Löffel 4 Mulden in die Sauce und schlage in jede ein Ei. Salze die Eier leicht.",
-      "Decke die Pfanne ab und lass die Eier bei kleiner Hitze 6–8 Minuten stocken, bis das Eiweiß fest und das Eigelb noch weich ist.",
-      "Bröckle den Feta darüber, streue Petersilie und Koriander darauf und serviere die Shakshuka direkt aus der Pfanne."
+      "Vermische am Vorabend die Haferflocken mit Milch und Joghurt in einer Schüssel und stelle sie abgedeckt für mindestens 6 Stunden in den Kühlschrank.",
+      "Reibe morgens den Apfel mit Schale grob und träufle sofort den Zitronensaft darüber, damit er nicht braun wird.",
+      "Röste die gehackten Haselnüsse 3 Minuten in einer Pfanne ohne Fett, bis sie duften, und lasse sie kurz abkühlen.",
+      "Rühre den geriebenen Apfel, Honig und Zimt unter die eingeweichten Haferflocken. Ist die Masse zu fest, gib einen Schuss Milch dazu.",
+      "Verteile das Müsli auf zwei Schalen, streue die Haselnüsse darüber und garniere nach Belieben mit frischen Beeren."
     ],
     "tags": [
-      "herzhaft",
-      "wochenende",
-      "lowcarb",
-      "gaeste"
+      "schnell",
+      "meal-prep",
+      "klassiker",
+      "ohne-backen"
     ]
   },
   {
@@ -3671,7 +3637,7 @@
     "id": "d-chia-pudding-mango",
     "title": "Chia-Pudding mit Mango",
     "description": "Cremiger Chia-Pudding mit Mandelmilch und Vanille, getoppt mit frischer Mango, Limette und gerösteten Kokosraspeln – am Vorabend vorbereitet.",
-    "emoji": "🥭",
+    "emoji": "🥥",
     "category": "fruehstueck",
     "cuisine": "international",
     "diet": [
@@ -4556,62 +4522,63 @@
     ]
   },
   {
-    "id": "d-bruschetta",
-    "title": "Bruschetta al Pomodoro",
-    "description": "Geröstetes Ciabatta, mit Knoblauch abgerieben und mit marinierten Tomaten, Basilikum und gutem Olivenöl belegt – die italienische Vorspeise für Sommerabende.",
-    "emoji": "🍅",
+    "id": "d-caprese-spiesse",
+    "title": "Caprese-Spieße mit Balsamico-Glasur",
+    "description": "Cherrytomaten, Mini-Mozzarella und Basilikum auf kleinen Spießen, mit eingekochtem Balsamico beträufelt – der schnellste Party-Snack aus Italien.",
+    "emoji": "🍡",
     "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch",
-      "vegan",
-      "kalorienarm"
+      "lowcarb",
+      "kalorienarm",
+      "glutenfrei"
     ],
     "timeMinutes": 20,
     "difficulty": "einfach",
     "servings": 4,
     "nutrition": {
-      "kcal": 280,
-      "protein": 7,
-      "carbs": 38,
-      "fat": 11
+      "kcal": 210,
+      "protein": 12,
+      "carbs": 6,
+      "fat": 15
     },
     "ingredients": [
       {
-        "key": "baguette",
-        "name": "Ciabatta oder Baguette",
-        "amount": 1,
-        "unit": "Stück"
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 250,
+        "unit": "g"
       },
       {
-        "key": "tomate",
-        "name": "Reife Tomaten",
-        "amount": 5,
-        "unit": "Stück"
-      },
-      {
-        "key": "knoblauch",
-        "name": "Knoblauch",
-        "amount": 2,
-        "unit": "Zehe"
+        "key": "mozzarella",
+        "name": "Mini-Mozzarella-Kugeln",
+        "amount": 250,
+        "unit": "g"
       },
       {
         "key": "basilikum",
-        "name": "Basilikum",
+        "name": "Basilikumblätter",
         "amount": 1,
         "unit": "Bund"
       },
       {
-        "key": "olivenoel",
-        "name": "Olivenöl",
-        "amount": 4,
-        "unit": "EL"
+        "key": "balsamico",
+        "name": "Balsamico-Essig",
+        "amount": 100,
+        "unit": "ml"
       },
       {
-        "key": "balsamico",
-        "name": "Balsamico",
+        "key": "honig",
+        "name": "Honig",
         "amount": 1,
         "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
       },
       {
         "key": "salz",
@@ -4626,26 +4593,25 @@
         "unit": ""
       },
       {
-        "key": "zwiebel",
-        "name": "Rote Zwiebel",
-        "amount": 0.5,
-        "unit": "Stück",
+        "key": "pinienkerne",
+        "name": "Pinienkerne, geröstet",
+        "amount": 2,
+        "unit": "EL",
         "optional": true
       }
     ],
     "steps": [
-      "Entkerne die Tomaten und würfle sie klein. Hacke 1 Knoblauchzehe und die Zwiebel fein und schneide das Basilikum in Streifen.",
-      "Mische Tomaten, Knoblauch, Zwiebel, Basilikum, 2 EL Olivenöl, Balsamico, Salz und Pfeffer und lass alles 10 Minuten ziehen.",
-      "Schneide das Brot in 12 Scheiben (ca. 1,5 cm dick) und röste sie im Ofen bei 220 °C Grillfunktion oder in einer Grillpfanne 2–3 Minuten pro Seite goldbraun.",
-      "Reibe die heißen Brotscheiben mit der halbierten zweiten Knoblauchzehe ab und beträufle sie mit dem restlichen Olivenöl.",
-      "Verteile die Tomatenmischung mit einem Löffel auf den Scheiben und serviere die Bruschetta sofort."
+      "Koche den Balsamico mit dem Honig in einem kleinen Topf bei mittlerer Hitze etwa 8 Minuten ein, bis er sirupartig wird, und lasse ihn abkühlen.",
+      "Wasche die Cherrytomaten, tupfe die Mozzarella-Kugeln trocken und zupfe die Basilikumblätter ab.",
+      "Stecke abwechselnd eine Tomate, ein Basilikumblatt und eine Mozzarella-Kugel auf kleine Holzspieße, bis alles aufgebraucht ist.",
+      "Lege die Spieße auf eine Platte, beträufle sie mit Olivenöl und der Balsamico-Glasur und würze mit Salz und Pfeffer.",
+      "Bestreue die Spieße nach Belieben mit gerösteten Pinienkernen und serviere sie sofort oder gut gekühlt."
     ],
     "tags": [
       "schnell",
+      "party",
       "sommer",
-      "gaeste",
-      "vegan",
-      "klassiker"
+      "gaeste"
     ]
   },
   {
