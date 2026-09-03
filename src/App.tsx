@@ -19,10 +19,10 @@ const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRE
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
 const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
 
-const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
-  { view: 'rezepte', label: 'Rezepte', icon: <IconBook /> },
-  { view: 'vorrat', label: 'Was hab ich da?', icon: <IconBasket /> },
-  { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart /> },
+const NAV: { view: View; label: string; icon: React.ReactNode; big: React.ReactNode }[] = [
+  { view: 'rezepte', label: 'Rezepte', icon: <IconBook />, big: <IconBook width={44} height={44} strokeWidth={1.6} /> },
+  { view: 'vorrat', label: 'Was hab ich da?', icon: <IconBasket />, big: <IconBasket width={44} height={44} strokeWidth={1.6} /> },
+  { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart />, big: <IconHeart width={44} height={44} strokeWidth={1.6} /> },
 ]
 
 type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
@@ -104,17 +104,31 @@ export default function App() {
     </nav>
   )
 
+  const onStart = route.view === 'start' && !route.recipeId
+
   return (
-    <div className="app">
+    <div className={`app ${onStart ? 'is-start' : ''}`}>
       <header className="topbar">
         <div className="topbar-inner">
-          <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
-          {tabs('nav')}
+          <a className="brand" href="#/" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
+          {!onStart && tabs('nav')}
         </div>
       </header>
-      {tabs('tabbar')}
+      {!onStart && tabs('tabbar')}
 
-      <main className="main">
+      <main className={`main ${onStart ? 'main-start' : ''}`}>
+        {onStart && (
+          <nav className="start" aria-label="Hauptnavigation">
+            {NAV.map((n) => (
+              <button key={n.view} className={`start-tile ${n.view}`} onClick={() => navigate(n.view)}>
+                <span className="start-icon">{n.big}</span>
+                <span className="start-label">{n.label}</span>
+                {n.view === 'gespeichert' && savedSet.set.size > 0 && <span className="start-count">{savedSet.set.size}</span>}
+              </button>
+            ))}
+          </nav>
+        )}
+
         {route.recipeId && !detail && (
           <div className="empty">
             <div className="ico"><IconSearch /></div>

@@ -67,7 +67,7 @@ export function PantryPicker({ pantry, onToggle, onClear, onReplace }: Props) {
         </div>
         <div className="pantry-selected">
           {selected.length === 0
-            ? <span className="hint">Noch leer. Such oben eine Zutat oder tippe unten eine beliebte an.</span>
+            ? <span className="hint">Noch leer. Such oben eine Zutat und füge sie hinzu.</span>
             : selected.map((i) => (
               <button key={i.key} className="chip sm" onClick={() => onToggle(i.key)} aria-label={`${i.name} entfernen`}>
                 {i.name} <span className="x"><IconX width={14} height={14} /></span>
@@ -76,27 +76,24 @@ export function PantryPicker({ pantry, onToggle, onClear, onReplace }: Props) {
         </div>
       </div>
 
-      {popular.length > 0 && (
-        <div>
-          <div className="eyebrow" style={{ marginBottom: 8 }}>Beliebte Zutaten</div>
-          <div className="chips">
-            {popular.map((i) => (
-              <button key={i.key} className="chip sm soft" onClick={() => onToggle(i.key)}>+ {i.name}</button>
-            ))}
+      <details className="browse">
+        <summary>Vorschläge und alle Zutaten <IconChevronDown width={16} height={16} /></summary>
+        {popular.length > 0 && (
+          <div className="group">
+            <h4>Beliebte Zutaten</h4>
+            <div className="chips">
+              {popular.map((i) => (
+                <button key={i.key} className="chip sm soft" onClick={() => onToggle(i.key)}>+ {i.name}</button>
+              ))}
+            </div>
+          </div>
+        )}
+        <div className="group">
+          <h4>Set laden</h4>
+          <div className="pantry-sets">
+            {SETS.map((s) => <button key={s.label} onClick={() => onReplace([...pantry, ...s.keys])}>{s.label}</button>)}
           </div>
         </div>
-      )}
-
-      <div>
-        <div className="eyebrow" style={{ marginBottom: 6 }}>Set laden</div>
-        <div className="pantry-sets">
-          {SETS.map((s) => <button key={s.label} onClick={() => onReplace([...pantry, ...s.keys])}>{s.label}</button>)}
-        </div>
-        <p className="hint" style={{ marginTop: 8 }}>Salz, Pfeffer, Öl und Gewürze setzen wir voraus.</p>
-      </div>
-
-      <details className="browse">
-        <summary>Alle Zutaten nach Kategorie <IconChevronDown width={16} height={16} /></summary>
         {Object.entries(INGREDIENT_GROUPS).map(([group, items]) => {
           const list = items.filter((i) => !i.staple)
           if (list.length === 0) return null

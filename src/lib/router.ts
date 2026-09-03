@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'react'
 
-export type View = 'rezepte' | 'vorrat' | 'gespeichert'
+export type View = 'start' | 'rezepte' | 'vorrat' | 'gespeichert'
 
 export interface Route {
   view: View
   recipeId: string | null
 }
 
-const VIEWS: View[] = ['rezepte', 'vorrat', 'gespeichert']
+const VIEWS: View[] = ['start', 'rezepte', 'vorrat', 'gespeichert']
 const LEGACY: Record<string, View> = { entdecken: 'rezepte', neu: 'rezepte', konfigurator: 'vorrat' }
 
 function parse(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean)
   if (parts[0] === 'rezept' && parts[1]) return { view: 'rezepte', recipeId: decodeURIComponent(parts[1]) }
   const raw = parts[0] ?? ''
-  const view = VIEWS.includes(raw as View) ? (raw as View) : LEGACY[raw] ?? 'rezepte'
+  if (!raw) return { view: 'start', recipeId: null }
+  const view = VIEWS.includes(raw as View) ? (raw as View) : LEGACY[raw] ?? 'start'
   return { view, recipeId: null }
 }
 
@@ -29,7 +30,7 @@ export function useRoute(): Route {
 }
 
 export function navigate(view: View) {
-  window.location.hash = `#/${view}`
+  window.location.hash = view === 'start' ? '#/' : `#/${view}`
 }
 
 export function openRecipe(id: string) {
