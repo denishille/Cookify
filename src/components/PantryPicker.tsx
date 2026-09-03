@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { INGREDIENT_GROUPS, INGREDIENT_BY_KEY, POPULAR_KEYS } from '../data'
+import { INGREDIENT_GROUPS, INGREDIENT_BY_KEY } from '../data'
 import { INGREDIENT_GROUP_LABELS } from '../types'
 import { IconChevronDown, IconSearch, IconX } from './Icons'
 
@@ -7,16 +7,9 @@ interface Props {
   pantry: Set<string>
   onToggle: (key: string) => void
   onClear: () => void
-  onReplace: (keys: string[]) => void
 }
 
-const SETS: { label: string; keys: string[] }[] = [
-  { label: 'Grundvorrat', keys: ['zwiebel', 'knoblauch', 'eier', 'milch', 'butter', 'sahne', 'joghurt', 'parmesan', 'mehl', 'speisestaerke', 'zucker', 'honig', 'reis', 'nudeln', 'spaghetti', 'kartoffel', 'haferflocken', 'tomaten-dose', 'tomatenmark', 'gemuesebruehe', 'sojasauce', 'senf', 'zitrone', 'petersilie'] },
-  { label: 'Gemüsekiste', keys: ['karotte', 'paprika', 'zucchini', 'brokkoli', 'tomate', 'gurke', 'spinat', 'champignons', 'salat', 'zwiebel'] },
-  { label: 'Protein-Woche', keys: ['haehnchenbrust', 'eier', 'quark', 'skyr', 'lachs', 'kichererbsen', 'tofu', 'haferflocken', 'brokkoli', 'reis'] },
-]
-
-export function PantryPicker({ pantry, onToggle, onClear, onReplace }: Props) {
+export function PantryPicker({ pantry, onToggle, onClear }: Props) {
   const [query, setQuery] = useState('')
 
   const results = useMemo(() => {
@@ -28,7 +21,6 @@ export function PantryPicker({ pantry, onToggle, onClear, onReplace }: Props) {
   }, [query])
 
   const selected = [...pantry].map((k) => INGREDIENT_BY_KEY.get(k)).filter((i) => i !== undefined)
-  const popular = POPULAR_KEYS.filter((k) => !pantry.has(k)).slice(0, 14).map((k) => INGREDIENT_BY_KEY.get(k)).filter((i) => i !== undefined)
 
   return (
     <div className="panel">
@@ -77,23 +69,7 @@ export function PantryPicker({ pantry, onToggle, onClear, onReplace }: Props) {
       </div>
 
       <details className="browse">
-        <summary>Vorschläge und alle Zutaten <IconChevronDown width={16} height={16} /></summary>
-        {popular.length > 0 && (
-          <div className="group">
-            <h4>Beliebte Zutaten</h4>
-            <div className="chips">
-              {popular.map((i) => (
-                <button key={i.key} className="chip sm soft" onClick={() => onToggle(i.key)}>+ {i.name}</button>
-              ))}
-            </div>
-          </div>
-        )}
-        <div className="group">
-          <h4>Set laden</h4>
-          <div className="pantry-sets">
-            {SETS.map((s) => <button key={s.label} onClick={() => onReplace([...pantry, ...s.keys])}>{s.label}</button>)}
-          </div>
-        </div>
+        <summary>Alle Zutaten nach Kategorie <IconChevronDown width={16} height={16} /></summary>
         {Object.entries(INGREDIENT_GROUPS).map(([group, items]) => {
           const list = items.filter((i) => !i.staple)
           if (list.length === 0) return null

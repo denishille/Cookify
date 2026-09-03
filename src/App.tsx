@@ -183,7 +183,7 @@ export default function App() {
             <h1 className="h1">Was hab ich da?</h1>
             <div className="split">
               <div className="sticky">
-                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} onReplace={pantrySet.replace} />
+                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} />
               </div>
               <div>
                 {pantrySet.set.size === 0 ? (

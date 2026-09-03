@@ -380,9 +380,6 @@ svg { flex-shrink: 0; }
 .pantry-selected { display: flex; flex-wrap: wrap; gap: 8px; min-height: 36px; }
 .pantry-selected .chip { background: var(--green-soft); border-color: transparent; color: var(--green); }
 .pantry-selected .chip:hover { background: var(--surface-2); color: var(--danger); }
-.pantry-sets { display: flex; flex-wrap: wrap; gap: 6px; }
-.pantry-sets button { font-size: 0.82rem; font-weight: 600; color: var(--green); padding: 4px 8px; border-radius: 6px; }
-.pantry-sets button:hover { background: var(--green-soft); }
 
 details.browse > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.9rem; color: var(--green); }
 details.browse > summary::-webkit-details-marker { display: none; }
