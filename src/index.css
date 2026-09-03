@@ -149,15 +149,19 @@ svg { flex-shrink: 0; }
 .main { width: 100%; max-width: 1160px; margin: 0 auto; padding: 28px 20px 48px; }
 
 /* ---------- Konfigurator (Rezepte-Seite) ---------- */
-.cfg { margin-top: 18px; display: grid; gap: 12px; }
-.cfg-row { display: grid; grid-template-columns: 1fr; gap: 6px; align-items: start; }
-@media (min-width: 640px) { .cfg-row { grid-template-columns: 96px 1fr; gap: 12px; } .cfg-label { padding-top: 7px; } }
-.cfg-label { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-.cfg .chips { gap: 6px; }
-.cfg-selects { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cfg { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.cfg .select { min-width: 150px; flex: 1 1 150px; max-width: 220px; }
 .select.on { border-color: var(--green); color: var(--green); }
 .btn.ghost { border-color: transparent; color: var(--muted); }
 .btn.ghost:hover { color: var(--text); }
+
+/* Vorschläge des Tages: seitlich scrollen */
+.strip {
+  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+  margin: 0 -20px; padding: 4px 20px 10px;
+}
+.strip::-webkit-scrollbar { display: none; }
+.strip .card { flex: 0 0 min(250px, 72vw); scroll-snap-align: start; }
 
 .results { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--border); }
 .results-tools { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }

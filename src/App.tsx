@@ -7,6 +7,7 @@ import { isoWeek, weekLte } from './lib/week'
 import { rankByPantry } from './lib/match'
 import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
+import { dailyPicks } from './lib/daily'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
@@ -19,6 +20,7 @@ const CURRENT_WEEK = isoWeek()
 const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRENT_WEEK))
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
 const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
+const DAILY = dailyPicks(AVAILABLE, 5)
 
 const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
   { view: 'rezepte', label: 'Rezepte', icon: <IconBook /> },
@@ -135,6 +137,15 @@ export default function App() {
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
             <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} />
+
+            {!configured && (
+              <div className="section">
+                <div className="section-head"><h2>Vorschläge des Tages</h2></div>
+                <div className="strip">
+                  {DAILY.map((r) => <RecipeCard key={r.id} {...card(r)} />)}
+                </div>
+              </div>
+            )}
 
             {configured && (
               <div className="section results">
