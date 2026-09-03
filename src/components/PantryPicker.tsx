@@ -10,7 +10,7 @@ interface Props {
 }
 
 const PRESETS: { label: string; keys: string[] }[] = [
-  { label: '🧅 Grundvorrat', keys: ['zwiebel', 'knoblauch', 'eier', 'milch', 'butter', 'mehl', 'reis', 'nudeln', 'kartoffel', 'tomaten-dose', 'gemuesebruehe', 'zucker'] },
+  { label: '🧅 Grundvorrat', keys: ['zwiebel', 'knoblauch', 'eier', 'milch', 'butter', 'sahne', 'joghurt', 'parmesan', 'mehl', 'speisestaerke', 'zucker', 'honig', 'reis', 'nudeln', 'spaghetti', 'kartoffel', 'haferflocken', 'tomaten-dose', 'tomatenmark', 'gemuesebruehe', 'sojasauce', 'senf', 'zitrone', 'petersilie'] },
   { label: '🥦 Gemüsekiste', keys: ['karotte', 'paprika', 'zucchini', 'brokkoli', 'tomate', 'gurke', 'spinat', 'champignons', 'salat', 'zwiebel'] },
   { label: '🍗 Protein-Woche', keys: ['haehnchenbrust', 'eier', 'quark', 'skyr', 'lachs', 'kichererbsen', 'tofu', 'haferflocken', 'brokkoli', 'reis'] },
 ]

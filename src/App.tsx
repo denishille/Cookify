@@ -54,7 +54,7 @@ export default function App() {
   const savedSet = usePersistentSet('kitchenaid.saved')
   const pantrySet = usePersistentSet('kitchenaid.pantry')
   const [seenWeek, setSeenWeek] = usePersistentState<string>('kitchenaid.seenWeek', '')
-  const [maxMissing, setMaxMissing] = usePersistentState<number>('kitchenaid.maxMissing', 2)
+  const [maxMissing, setMaxMissing] = usePersistentState<number>('kitchenaid.maxMissing', 3)
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [query, setQuery] = useState('')
@@ -156,9 +156,9 @@ export default function App() {
                   <div className="filter-row">
                     <span className="filter-label">Fehlende Zutaten erlaubt</span>
                     <div className="chips">
-                      {[0, 1, 2, 3, 5].map((n) => (
+                      {[0, 1, 2, 3, 5, 99].map((n) => (
                         <button key={n} className={`chip ${maxMissing === n ? 'on' : ''}`} onClick={() => setMaxMissing(n)}>
-                          {n === 0 ? 'Keine – alles da' : `bis zu ${n}`}
+                          {n === 0 ? 'Keine – alles da' : n === 99 ? 'Egal, nach Treffern sortieren' : `bis zu ${n}`}
                         </button>
                       ))}
                     </div>
@@ -181,6 +181,9 @@ export default function App() {
                     <div className="section-title" style={{ marginTop: 0 }}>
                       Das kannst du kochen <span className="count">{pantryResults.length} Treffer</span>
                     </div>
+                    {pantryResults.length < 5 && maxMissing < 99 && (
+                      <p className="hint" style={{ marginTop: -6, marginBottom: 12 }}>Wenige Treffer? Erlaube mehr fehlende Zutaten oder lade das Set „Grundvorrat“.</p>
+                    )}
                     <div className="grid">
                       {pantryResults.slice(0, 60).map((m) => (
                         <RecipeCard key={m.recipe.id} {...cardProps(m.recipe)} match={m} />
