@@ -1,0 +1,5753 @@
+[
+  {
+    "id": "m-wiener-schnitzel",
+    "title": "Schnitzel Wiener Art",
+    "description": "Dünn geklopftes Schweineschnitzel in goldbrauner Panade, außen knusprig, innen saftig – mit Zitrone und Kartoffelsalat der Inbegriff der deutschen Sonntagsküche.",
+    "emoji": "🍖",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 42,
+      "carbs": 32,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "schweineschnitzel",
+        "name": "Schweineschnitzel (à 150 g)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butterschmalz oder Butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 0.5,
+        "unit": "Bund",
+        "optional": true
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Lege die Schnitzel zwischen Frischhaltefolie und klopfe sie mit einem Fleischklopfer auf etwa 5 mm Dicke. Salze und pfeffere beide Seiten.",
+      "Stelle drei flache Teller bereit: Mehl, verquirlte Eier und Semmelbrösel. Wende die Schnitzel nacheinander in Mehl, Ei und Bröseln, drücke die Panade nur leicht an.",
+      "Erhitze Butterschmalz mit einem Schuss Öl in einer großen Pfanne bei mittelhoher Hitze, bis ein paar Brösel darin sofort aufschäumen.",
+      "Brate die Schnitzel je 2–3 Minuten pro Seite goldbraun. Schwenke die Pfanne dabei leicht, damit das Fett über die Panade läuft und sie schön souffliert.",
+      "Lasse die Schnitzel kurz auf Küchenpapier abtropfen und serviere sie sofort mit Zitronenspalten und gehackter Petersilie. Dazu passt Kartoffelsalat oder Bratkartoffeln."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "feierabend",
+      "sonntag"
+    ]
+  },
+  {
+    "id": "m-rindergulasch",
+    "title": "Klassisches Rindergulasch",
+    "description": "Butterzartes Rindfleisch in kräftiger Paprika-Zwiebel-Sauce, das zwei Stunden sanft schmort. Perfekt für das Wochenende und beim Aufwärmen noch besser.",
+    "emoji": "🥘",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 150,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 480,
+      "protein": 46,
+      "carbs": 14,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "rindfleisch",
+        "name": "Rindfleisch aus der Schulter, gewürfelt",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver edelsüß",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Kümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Rotwein",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Rinder- oder Gemüsebrühe",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblätter",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Tupfe das Fleisch trocken und brate es portionsweise in 2 EL Öl in einem großen Schmortopf bei hoher Hitze rundherum kräftig an. Nimm es heraus und stelle es beiseite.",
+      "Schäle und würfle die Zwiebeln, brate sie im selben Topf bei mittlerer Hitze 8–10 Minuten goldbraun. Gib gehackten Knoblauch und Tomatenmark dazu und röste beides 1 Minute mit.",
+      "Nimm den Topf kurz vom Herd, rühre Paprikapulver und Kümmel ein (es darf nicht verbrennen) und lösche sofort mit Rotwein ab.",
+      "Gib das Fleisch samt Saft zurück, gieße die Brühe an, lege die Lorbeerblätter dazu und würze mit Salz und Pfeffer.",
+      "Lasse das Gulasch zugedeckt bei kleiner Hitze 2 Stunden schmoren, rühre gelegentlich um. In den letzten 20 Minuten die gewürfelte Paprika dazugeben.",
+      "Schmecke das Gulasch ab und serviere es mit Spätzle, Knödeln oder Salzkartoffeln."
+    ],
+    "tags": [
+      "klassiker",
+      "wochenende",
+      "comfort-food",
+      "winter",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-rinderrouladen",
+    "title": "Rinderrouladen mit Rotkohl",
+    "description": "Mit Senf, Speck und Gurke gefüllte Rouladen, langsam in dunkler Sauce geschmort. Ein Festtagsklassiker, der mit Rotkohl und Klößen jedes Familienessen krönt.",
+    "emoji": "🥩",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 130,
+    "difficulty": "anspruchsvoll",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 52,
+      "carbs": 18,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "rindfleisch",
+        "name": "Rinderrouladen (à 180 g)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "senf",
+        "name": "Mittelscharfer Senf",
+        "amount": 4,
+        "unit": "TL"
+      },
+      {
+        "key": "speck",
+        "name": "Frühstücksspeck",
+        "amount": 8,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "essiggurken",
+        "name": "Gewürzgurken",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sellerie",
+        "name": "Knollensellerie",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Rotwein",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Rinderbrühe",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "rotkohl",
+        "name": "Rotkohl (Glas oder frisch gekocht)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Breite die Rouladen aus, würze sie mit Salz und Pfeffer und bestreiche jede mit 1 TL Senf. Belege sie mit 2 Scheiben Speck, einer längs geviertelten Gurke und ein paar Zwiebelstreifen.",
+      "Rolle die Rouladen von der schmalen Seite her fest auf, schlage die Ränder ein und fixiere sie mit Rouladennadeln oder Küchengarn.",
+      "Brate die Rouladen in 2 EL Öl in einem Bräter bei hoher Hitze rundherum 5 Minuten kräftig an und nimm sie heraus.",
+      "Schwitze die restlichen Zwiebeln, Karotte und Sellerie in Würfeln 5 Minuten an, röste das Tomatenmark 1 Minute mit und lösche mit Rotwein ab. Lasse den Wein um die Hälfte einkochen.",
+      "Gieße die Brühe an, lege die Rouladen zurück und schmore sie zugedeckt bei 160 °C im Ofen 90 Minuten, dabei einmal wenden.",
+      "Nimm die Rouladen heraus, püriere die Sauce mit dem Gemüse oder passiere sie durch ein Sieb, koche sie sämig ein und schmecke sie ab.",
+      "Erwärme den Rotkohl und serviere die Rouladen mit Sauce, Rotkohl und Kartoffelklößen."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "wochenende",
+      "winter"
+    ]
+  },
+  {
+    "id": "m-frikadellen",
+    "title": "Saftige Frikadellen",
+    "description": "Die klassischen Hackbällchen aus der Pfanne mit eingeweichtem Brötchen, Zwiebeln und Senf – warm mit Kartoffelpüree oder kalt aufs Brot ein Dauerbrenner.",
+    "emoji": "🍽️",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 34,
+      "carbs": 16,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Altbackenes Brötchen",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "senf",
+        "name": "Mittelscharfer Senf",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Weiche das Brötchen 10 Minuten in der Milch ein und drücke es danach gut aus. Würfle die Zwiebel fein.",
+      "Verknete Hackfleisch, Brötchen, Zwiebel, Ei, Senf, Petersilie, Paprikapulver, 1 TL Salz und Pfeffer gründlich zu einer glatten Masse. Ist sie zu weich, gib Semmelbrösel dazu.",
+      "Forme mit feuchten Händen 8 flache Frikadellen von etwa 2 cm Dicke.",
+      "Erhitze 3 EL Öl in einer großen Pfanne bei mittlerer Hitze und brate die Frikadellen 5–6 Minuten pro Seite, bis sie durchgegart und schön braun sind.",
+      "Serviere sie heiß mit Kartoffelpüree und Rahmgemüse oder kalt mit Senf im Brötchen."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "meal-prep",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "m-koenigsberger-klopse",
+    "title": "Königsberger Klopse",
+    "description": "Zarte Fleischklößchen in cremiger Kapernsauce mit einem Hauch Zitrone – ein ostpreußischer Klassiker, der mit Salzkartoffeln und Roter Bete serviert wird.",
+    "emoji": "🍲",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 50,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 540,
+      "protein": 33,
+      "carbs": 20,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch (oder Kalbshack)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Altbackenes Brötchen",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sardellen",
+        "name": "Sardellenfilets",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Brühe",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "kapern",
+        "name": "Kapern mit etwas Lake",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone (Saft)",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Weiche das Brötchen in Wasser ein, drücke es aus. Hacke Zwiebel und Sardellen fein und verknete alles mit Hackfleisch, Ei, Salz und Pfeffer. Forme 12 Klopse.",
+      "Bringe die Brühe mit dem Lorbeerblatt in einem weiten Topf zum Sieden. Lasse die Klopse darin bei kleiner Hitze 15 Minuten gar ziehen – nicht kochen. Nimm sie heraus und siebe die Brühe.",
+      "Schmelze die Butter in einem Topf, rühre das Mehl ein und schwitze es 1 Minute an. Gieße nach und nach 600 ml der heißen Brühe unter Rühren an, damit keine Klümpchen entstehen.",
+      "Lasse die Sauce 5 Minuten köcheln, rühre Sahne, Kapern samt 1 EL Lake und Zitronensaft ein. Schmecke mit Salz, Pfeffer und eventuell einer Prise Zucker ab.",
+      "Gib die Klopse in die Sauce und erwärme sie 5 Minuten darin. Serviere mit Salzkartoffeln und Roter Bete."
+    ],
+    "tags": [
+      "klassiker",
+      "comfort-food",
+      "gaeste",
+      "winter"
+    ]
+  },
+  {
+    "id": "m-kasseler-sauerkraut",
+    "title": "Kasseler mit Sauerkraut und Püree",
+    "description": "Saftiger Kasselerbraten auf mildem Sauerkraut mit Apfel und Wacholder, dazu cremiges Kartoffelpüree – deftig, ehrlich und mit wenig Aufwand aus einem Topf.",
+    "emoji": "🥬",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 75,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 590,
+      "protein": 40,
+      "carbs": 38,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "kasseler",
+        "name": "Kasselerbraten (ohne Knochen)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "sauerkraut",
+        "name": "Sauerkraut",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "apfel",
+        "name": "Säuerlicher Apfel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "speck",
+        "name": "Durchwachsener Speck",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Kümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein oder Apfelsaft",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Mehligkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Speck und Zwiebel und brate beides in einem großen Topf bei mittlerer Hitze 4 Minuten an. Gib den geriebenen Apfel, Sauerkraut, Lorbeer und Kümmel dazu.",
+      "Gieße den Weißwein an, lege das Kasseler auf das Kraut und lasse alles zugedeckt bei kleiner Hitze 50 Minuten schmoren. Wende das Fleisch nach der Hälfte der Zeit.",
+      "Schäle inzwischen die Kartoffeln, koche sie in Salzwasser 20 Minuten weich und gieße sie ab.",
+      "Stampfe die Kartoffeln mit heißer Milch und Butter zu einem cremigen Püree und würze es mit Salz und frisch geriebener Muskatnuss.",
+      "Schneide das Kasseler in Scheiben und richte es auf dem Sauerkraut mit dem Püree an. Dazu passt scharfer Senf."
+    ],
+    "tags": [
+      "klassiker",
+      "winter",
+      "one-pot",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "m-jaegerschnitzel",
+    "title": "Jägerschnitzel mit Champignonrahmsauce",
+    "description": "Naturschnitzel vom Schwein mit einer cremigen Pilzsauce aus Champignons, Speck und Sahne – der Klassiker aus dem Landgasthof, zu Hause in 30 Minuten fertig.",
+    "emoji": "🍄",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "lowcarb"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 470,
+      "protein": 40,
+      "carbs": 8,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "schweineschnitzel",
+        "name": "Schweineschnitzel (à 150 g)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "champignons",
+        "name": "Braune Champignons",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "speck",
+        "name": "Speckwürfel",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Brühe",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "senf",
+        "name": "Senf",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Klopfe die Schnitzel leicht flach, würze sie mit Salz und Pfeffer. Putze die Champignons und schneide sie in Scheiben, würfle die Zwiebel.",
+      "Brate die Schnitzel in 2 EL Öl bei hoher Hitze 2–3 Minuten pro Seite goldbraun und halte sie im Ofen bei 80 °C warm.",
+      "Brate im selben Bratfett Speck und Zwiebel 3 Minuten an, gib die Butter und die Champignons dazu und brate sie bei hoher Hitze 5 Minuten, bis sie Farbe nehmen.",
+      "Lösche mit Brühe ab, rühre Sahne und Senf ein und lasse die Sauce 5 Minuten sämig einkochen. Schmecke mit Salz und Pfeffer ab.",
+      "Lege die Schnitzel zurück in die Sauce, streue Petersilie darüber und serviere mit Spätzle, Pommes oder Bratkartoffeln."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "feierabend",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "m-currywurst-hausgemacht",
+    "title": "Currywurst mit hausgemachter Sauce",
+    "description": "Knusprig gebratene Bratwurst unter einer fruchtig-scharfen Currysauce aus Tomaten, Zwiebeln und Gewürzen – der Imbissklassiker in der selbst gemachten Version.",
+    "emoji": "🌭",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 26,
+      "carbs": 24,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "bratwurst",
+        "name": "Grobe Bratwürste",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "passata",
+        "name": "Passata",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "essig",
+        "name": "Apfelessig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver rosenscharf",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "worcestersauce",
+        "name": "Worcestersauce",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "broetchen",
+        "name": "Brötchen",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle die Zwiebel fein und dünste sie in 1 EL Öl in einem kleinen Topf 4 Minuten glasig.",
+      "Rühre 1 EL Currypulver und das Paprikapulver ein, gieße Passata, Ketchup, Essig, Zucker und Worcestersauce dazu und lasse die Sauce 15 Minuten bei kleiner Hitze dicklich einkochen. Schmecke mit Salz und Pfeffer ab.",
+      "Brate die Bratwürste in einer Pfanne mit 1 EL Öl bei mittlerer Hitze 10–12 Minuten rundherum knusprig braun.",
+      "Schneide die Würste in Stücke, übergieße sie mit der heißen Sauce und bestäube sie mit dem restlichen Currypulver.",
+      "Serviere die Currywurst mit Brötchen oder Pommes."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "kinder",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "m-ofen-haehnchenschenkel",
+    "title": "Knusprige Hähnchenschenkel vom Blech",
+    "description": "Hähnchenschenkel mit Rosmarin und Knoblauch, die zusammen mit Kartoffeln und Karotten auf einem Blech garen – kaum Arbeit, viel Aroma und ein knuspriger Abschluss.",
+    "emoji": "🍗",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 65,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 44,
+      "carbs": 36,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkel",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Festkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Rosmarin, frisch",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Schneide die Kartoffeln in Spalten, die Karotten in dicke Stifte und die Zwiebeln in Viertel.",
+      "Vermische das Gemüse auf einem tiefen Blech mit 2 EL Olivenöl, den angedrückten Knoblauchzehen, Rosmarin, Salz und Pfeffer.",
+      "Reibe die Hähnchenschenkel mit 2 EL Olivenöl, Paprikapulver, Salz, Pfeffer und dem Abrieb der Zitrone ein und lege sie mit der Haut nach oben auf das Gemüse.",
+      "Backe alles 45–50 Minuten, bis die Haut knusprig ist und der Fleischsaft klar austritt. Wende das Gemüse nach 25 Minuten einmal.",
+      "Beträufle das Hähnchen mit Zitronensaft und serviere es direkt vom Blech."
+    ],
+    "tags": [
+      "ofengericht",
+      "feierabend",
+      "kinder",
+      "einfach"
+    ]
+  },
+  {
+    "id": "m-forelle-muellerin",
+    "title": "Forelle Müllerin Art",
+    "description": "Ganze Forelle in Mehl gewendet und in brauner Butter gebraten, mit Zitrone, Petersilie und Mandeln – ein einfaches Fischgericht mit großem Auftritt.",
+    "emoji": "🐟",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "lowcarb"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 46,
+      "carbs": 14,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "forelle",
+        "name": "Küchenfertige Forellen (à 300 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kleine Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Kartoffeln in Salzwasser 20 Minuten gar. Wasche die Forellen innen und außen, tupfe sie trocken und schneide die Haut beidseitig zweimal schräg ein.",
+      "Würze die Forellen innen und außen mit Salz und Pfeffer, beträufle sie mit dem Saft einer halben Zitrone und wende sie in Mehl. Klopfe überschüssiges Mehl ab.",
+      "Erhitze 1 EL Öl und 20 g Butter in einer großen Pfanne bei mittlerer Hitze. Brate die Forellen 5–6 Minuten pro Seite, bis die Haut knusprig ist und sich die Rückenflosse leicht ziehen lässt.",
+      "Nimm die Fische heraus, wische die Pfanne aus und lasse die restliche Butter darin bei mittlerer Hitze schäumen. Röste die Mandelblättchen 2 Minuten goldbraun, gib Petersilie und den restlichen Zitronensaft dazu.",
+      "Übergieße die Forellen mit der Mandelbutter und serviere sie mit den Kartoffeln und Zitronenspalten."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "fisch",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "m-matjes-hausfrauenart",
+    "title": "Matjes nach Hausfrauenart",
+    "description": "Zarte Matjesfilets in einer cremigen Sauce aus Schmand, Apfel, Zwiebel und Gewürzgurken – dazu Pellkartoffeln. Norddeutsch, erfrischend und ganz ohne Herd für die Sauce.",
+    "emoji": "🐠",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 610,
+      "protein": 28,
+      "carbs": 40,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hering",
+        "name": "Matjesfilets",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "apfel",
+        "name": "Säuerlicher Apfel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "essiggurken",
+        "name": "Gewürzgurken",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "dill",
+        "name": "Dill, gehackt",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone (Saft)",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kleine festkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Wasche die Kartoffeln und koche sie mit Schale in Salzwasser etwa 20–25 Minuten gar.",
+      "Verrühre inzwischen Schmand, Joghurt, Zitronensaft, Zucker, Salz und Pfeffer zu einer glatten Sauce.",
+      "Schneide Apfel, Zwiebel und Gewürzgurken in feine Würfel oder Streifen und hebe sie mit dem Dill unter die Sauce.",
+      "Tupfe die Matjesfilets trocken, schneide sie in mundgerechte Stücke und lege sie in die Sauce. Lasse alles mindestens 10 Minuten im Kühlschrank durchziehen.",
+      "Pelle die Kartoffeln, richte sie mit dem Matjes an und bestreue alles mit etwas Dill."
+    ],
+    "tags": [
+      "klassiker",
+      "sommer",
+      "schnell",
+      "fisch"
+    ]
+  },
+  {
+    "id": "m-krustenbraten-biersauce",
+    "title": "Krustenbraten mit Biersauce",
+    "description": "Schweinebraten mit krachender Kruste und dunkler Sauce aus Malzbier, Zwiebeln und Wurzelgemüse. Bayerische Wirtshausküche für ein gemütliches Sonntagsessen.",
+    "emoji": "🍺",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 170,
+    "difficulty": "anspruchsvoll",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 48,
+      "carbs": 12,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "schweinefleisch",
+        "name": "Schweinebraten mit Schwarte (Schulter)",
+        "amount": 1800,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sellerie",
+        "name": "Knollensellerie",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Kümmel",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "bier",
+        "name": "Dunkles Bier oder Malzbier",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Brühe",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "senf",
+        "name": "Senf",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide die Schwarte mit einem scharfen Messer rautenförmig ein, ohne ins Fleisch zu schneiden. Reibe den Braten rundherum mit Salz, Pfeffer, Kümmel und gepresstem Knoblauch ein, die Fleischseite zusätzlich mit Senf.",
+      "Heize den Ofen auf 160 °C Ober-/Unterhitze vor. Schneide Zwiebeln, Karotten und Sellerie grob und brate sie in einem Bräter in 2 EL Öl 5 Minuten an. Röste das Tomatenmark kurz mit.",
+      "Gieße Bier und Brühe an, lege den Braten mit der Schwarte nach oben hinein (die Schwarte darf nicht in der Flüssigkeit liegen) und schiebe den Bräter offen in den Ofen.",
+      "Gare den Braten 2 Stunden und übergieße das Fleisch (nicht die Schwarte) alle 30 Minuten mit Bratensaft.",
+      "Erhöhe die Temperatur auf 230 °C Grill/Oberhitze und lasse die Schwarte 10–15 Minuten aufpoppen, bis sie knusprig ist. Behalte sie im Auge, damit sie nicht verbrennt.",
+      "Nimm den Braten heraus und lasse ihn 10 Minuten ruhen. Passiere die Sauce durch ein Sieb, koche sie ein, binde sie bei Bedarf mit angerührter Stärke und schmecke sie ab.",
+      "Schneide den Braten in Scheiben und serviere ihn mit Sauce, Semmelknödeln und Krautsalat."
+    ],
+    "tags": [
+      "klassiker",
+      "wochenende",
+      "gaeste",
+      "ofengericht"
+    ]
+  },
+  {
+    "id": "m-spaghetti-bolognese",
+    "title": "Spaghetti Bolognese",
+    "description": "Ein langsam geschmortes Ragù aus Rinderhack, Wurzelgemüse, Rotwein und Tomaten, das seine Zeit braucht und mit jeder Minute besser wird. Der Familienliebling schlechthin.",
+    "emoji": "🍝",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 90,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 38,
+      "carbs": 78,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "stangensellerie",
+        "name": "Stangensellerie",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Rotwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "spaghetti",
+        "name": "Spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan, gerieben",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel, Karotte und Sellerie sehr fein. Dünste das Gemüse in 2 EL Olivenöl in einem weiten Topf 8 Minuten weich, bis es süßlich duftet.",
+      "Gib das Hackfleisch dazu und brate es bei hoher Hitze krümelig und braun, etwa 8 Minuten. Röste gehackten Knoblauch und Tomatenmark 1 Minute mit.",
+      "Lösche mit Rotwein ab und lasse ihn fast vollständig verkochen. Gieße die Tomaten und die Milch dazu, würze mit Salz und Pfeffer.",
+      "Lasse das Ragù bei kleinster Hitze mindestens 60 Minuten offen köcheln, rühre gelegentlich um und gib bei Bedarf etwas Wasser dazu.",
+      "Koche die Spaghetti in reichlich Salzwasser nach Packungsangabe al dente, gieße sie ab und mische sie mit dem Ragù.",
+      "Serviere die Bolognese mit frisch geriebenem Parmesan."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "meal-prep",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "m-saltimbocca",
+    "title": "Saltimbocca alla Romana",
+    "description": "Hauchdünne Schweineschnitzel mit Parmaschinken und Salbei, kurz gebraten und mit Weißweinbutter abgelöscht. Römische Küche, die in 25 Minuten auf dem Teller ist.",
+    "emoji": "🌿",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "lowcarb"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 420,
+      "protein": 44,
+      "carbs": 6,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "schweineschnitzel",
+        "name": "Dünne Schweine- oder Kalbsschnitzel (à 70 g)",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "schinken",
+        "name": "Parmaschinken",
+        "amount": 8,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "salbei",
+        "name": "Salbeiblätter",
+        "amount": 16,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "weisswein",
+        "name": "Trockener Weißwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat (als Beilage)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Klopfe die Schnitzel dünn, pfeffere sie leicht (salzen nicht nötig, der Schinken ist salzig). Belege jedes mit einer Scheibe Schinken und zwei Salbeiblättern und fixiere alles mit einem Zahnstocher.",
+      "Wende die Schnitzel nur auf der Fleischseite leicht in Mehl.",
+      "Erhitze 1 EL Olivenöl und 20 g Butter in einer großen Pfanne bei hoher Hitze. Brate die Saltimbocca mit der Schinkenseite nach unten 2 Minuten, wende sie und brate sie 1 weitere Minute. Halte sie warm.",
+      "Lösche die Pfanne mit Weißwein ab, kratze den Bratensatz los und lasse den Wein 2 Minuten einkochen. Schwenke die restliche Butter und einen Spritzer Zitronensaft ein.",
+      "Dünste den Spinat in einer zweiten Pfanne mit etwas Olivenöl 3 Minuten zusammen, salze ihn und serviere ihn mit den Saltimbocca und der Sauce."
+    ],
+    "tags": [
+      "schnell",
+      "gaeste",
+      "lowcarb",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "m-lachs-zitronen-pasta",
+    "title": "Cremige Zitronen-Lachs-Pasta",
+    "description": "Lachswürfel in einer leichten Sauce aus Crème fraîche, Zitrone und Dill, mit Erbsen und Nudeln – ein feines Feierabendessen, das in 20 Minuten steht.",
+    "emoji": "🍋",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 42,
+      "carbs": 84,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "lachs",
+        "name": "Lachsfilet ohne Haut",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "nudeln",
+        "name": "Tagliatelle",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "erbsen",
+        "name": "TK-Erbsen",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb und Saft)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "dill",
+        "name": "Dill, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Tagliatelle in Salzwasser nach Packungsangabe al dente, gib die Erbsen in den letzten 2 Minuten dazu. Fange 100 ml Nudelwasser ab.",
+      "Schneide den Lachs in 3 cm große Würfel und würze sie mit Salz und Pfeffer. Würfle Schalotte und Knoblauch fein.",
+      "Brate die Lachswürfel in 1 EL Olivenöl bei mittelhoher Hitze 2 Minuten pro Seite an und nimm sie aus der Pfanne.",
+      "Dünste Schalotte und Knoblauch 2 Minuten in der Pfanne, rühre Crème fraîche, Zitronenabrieb, 2 EL Zitronensaft und das Nudelwasser ein und lasse die Sauce kurz aufkochen.",
+      "Gib Nudeln, Erbsen, Lachs und Dill in die Sauce, schwenke alles vorsichtig durch und serviere mit gehobeltem Parmesan."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "fisch",
+      "frühling"
+    ]
+  },
+  {
+    "id": "m-lasagne-classica",
+    "title": "Lasagne al Forno",
+    "description": "Schichten aus würzigem Hackfleischragù, cremiger Béchamel und Nudelplatten unter einer goldenen Käsekruste. Ein Wochenendprojekt, das eine ganze Familie satt und glücklich macht.",
+    "emoji": "🧀",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 100,
+    "difficulty": "mittel",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 680,
+      "protein": 38,
+      "carbs": 48,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 700,
+        "unit": "ml"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "lasagneplatten",
+        "name": "Lasagneplatten",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Geriebener Käse (Mozzarella/Parmesan)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle die Zwiebel fein und dünste sie in 2 EL Olivenöl 5 Minuten. Gib das Hackfleisch dazu und brate es 8 Minuten krümelig an.",
+      "Röste Knoblauch und Tomatenmark 1 Minute mit, gib die Tomaten dazu, würze mit Salz und Pfeffer und lasse das Ragù 25 Minuten köcheln.",
+      "Für die Béchamel schmelze die Butter, rühre das Mehl ein und gieße unter Rühren nach und nach die Milch an. Lasse die Sauce 5 Minuten köcheln und würze sie mit Salz, Pfeffer und Muskat.",
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor. Verteile etwas Béchamel in einer Auflaufform (ca. 25 × 35 cm) und schichte abwechselnd Nudelplatten, Ragù und Béchamel, bis alles aufgebraucht ist. Schließe mit Béchamel ab.",
+      "Bestreue die Lasagne mit Käse und backe sie 40 Minuten, bis die Oberfläche goldbraun ist und die Nudeln weich sind.",
+      "Lasse die Lasagne 10 Minuten ruhen, damit sie sich gut schneiden lässt, und serviere sie mit grünem Salat."
+    ],
+    "tags": [
+      "klassiker",
+      "ofengericht",
+      "kinder",
+      "wochenende",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-spaghetti-vongole",
+    "title": "Spaghetti alle Vongole",
+    "description": "Frische Venusmuscheln, Knoblauch, Chili, Weißwein und Petersilie – mehr braucht dieses neapolitanische Nudelgericht nicht. Schmeckt nach Urlaub und ist in 25 Minuten fertig.",
+    "emoji": "🐚",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 30,
+      "carbs": 82,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "muscheln",
+        "name": "Frische Venusmuscheln (Vongole)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "spaghetti",
+        "name": "Spaghetti",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chili",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "weisswein",
+        "name": "Trockener Weißwein",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 150,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "petersilie",
+        "name": "Glatte Petersilie, gehackt",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Lege die Muscheln 15 Minuten in kaltes Salzwasser, damit sie Sand abgeben. Sortiere geöffnete Muscheln aus, die sich beim Anklopfen nicht schließen.",
+      "Koche die Spaghetti in Salzwasser 1 Minute kürzer als auf der Packung angegeben und fange 100 ml Nudelwasser ab.",
+      "Erhitze das Olivenöl in einer großen Pfanne und dünste in Scheiben geschnittenen Knoblauch und Chiliringe 1 Minute bei mittlerer Hitze, ohne dass sie braun werden. Gib die halbierten Tomaten dazu.",
+      "Gib die Muscheln und den Weißwein in die Pfanne, decke sie zu und lasse die Muscheln bei hoher Hitze 3–4 Minuten dämpfen, bis sie sich geöffnet haben. Entferne geschlossene Muscheln.",
+      "Gib die Spaghetti mit etwas Nudelwasser und der Petersilie in die Pfanne und schwenke alles 1 Minute, bis sich die Sauce sämig um die Nudeln legt.",
+      "Schmecke mit Pfeffer, wenig Salz und einem Spritzer Zitrone ab und serviere sofort."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "gaeste",
+      "fisch"
+    ]
+  },
+  {
+    "id": "m-pollo-cacciatore",
+    "title": "Pollo alla Cacciatora",
+    "description": "Hähnchenschenkel nach Jägerart, geschmort mit Tomaten, Paprika, Oliven, Rosmarin und Weißwein. Ein rustikaler italienischer Schmortopf mit knusprigem Brot zum Tunken.",
+    "emoji": "🍅",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 75,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 42,
+      "carbs": 14,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkel, geteilt in Ober- und Unterkeule",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Stückige Tomaten (Dose)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "oliven",
+        "name": "Schwarze Oliven",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Rosmarin",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würze die Hähnchenteile mit Salz und Pfeffer und brate sie in 3 EL Olivenöl in einem Schmortopf bei hoher Hitze auf der Hautseite 6 Minuten knusprig an, wende sie kurz und nimm sie heraus.",
+      "Brate Zwiebelstreifen, Paprikastreifen und geviertelte Champignons im Bratfett 6 Minuten an, gib gehackten Knoblauch dazu.",
+      "Lösche mit Weißwein ab, lasse ihn 2 Minuten einkochen, gib Tomaten, Rosmarin, Lorbeer und Oliven dazu und würze mit Salz und Pfeffer.",
+      "Lege das Hähnchen mit der Haut nach oben in die Sauce und schmore alles zugedeckt bei kleiner Hitze 40 Minuten, bis das Fleisch fast vom Knochen fällt.",
+      "Lasse die Sauce zum Schluss offen 5 Minuten einkochen und serviere das Gericht mit Ciabatta, Polenta oder Kartoffeln."
+    ],
+    "tags": [
+      "one-pot",
+      "wochenende",
+      "comfort-food",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "m-garnelen-risotto",
+    "title": "Garnelen-Risotto mit Zitrone",
+    "description": "Cremiges Risotto mit knackigen Garnelen, Zitrone, Erbsen und Parmesan – langsam gerührt und in 40 Minuten ein elegantes Abendessen.",
+    "emoji": "🍤",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 30,
+      "carbs": 68,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "garnelen",
+        "name": "Garnelen, geschält",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "risottoreis",
+        "name": "Risottoreis (Arborio/Carnaroli)",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Schalotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüse- oder Fischbrühe, heiß",
+        "amount": 1200,
+        "unit": "ml"
+      },
+      {
+        "key": "erbsen",
+        "name": "TK-Erbsen",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan, gerieben",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Schalotten und Knoblauch fein. Dünste die Schalotten in 2 EL Olivenöl in einem weiten Topf 3 Minuten glasig, gib den Reis dazu und röste ihn 2 Minuten, bis die Körner glasig sind.",
+      "Lösche mit Weißwein ab und rühre, bis er aufgesogen ist. Gib dann kellenweise heiße Brühe dazu und rühre regelmäßig, bis die Flüssigkeit jeweils aufgenommen ist – insgesamt etwa 18 Minuten.",
+      "Brate währenddessen die Garnelen mit dem Knoblauch in 1 EL Olivenöl bei hoher Hitze 2 Minuten pro Seite, würze mit Salz, Pfeffer und dem Abrieb der Zitrone.",
+      "Rühre in den letzten 3 Minuten die Erbsen ins Risotto. Nimm den Topf vom Herd und rühre Butter, Parmesan und 2 EL Zitronensaft ein. Das Risotto soll schön fließend sein.",
+      "Schmecke ab, verteile das Risotto auf Teller, lege die Garnelen darauf und bestreue alles mit Petersilie."
+    ],
+    "tags": [
+      "gaeste",
+      "fisch",
+      "comfort-food",
+      "frühling"
+    ]
+  },
+  {
+    "id": "m-teriyaki-lachs",
+    "title": "Teriyaki-Lachs mit Sesam-Reis",
+    "description": "Lachsfilet in glänzender Teriyaki-Glasur aus Sojasauce, Honig und Ingwer, dazu Reis und knackiger Pak Choi. In 20 Minuten auf dem Tisch und voller Umami.",
+    "emoji": "🍱",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 690,
+      "protein": 40,
+      "carbs": 72,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "lachs",
+        "name": "Lachsfilet mit Haut (à 180 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig oder Mirin",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer, gerieben",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "sushireis",
+        "name": "Sushireis oder Jasminreis",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Wasche den Reis, bis das Wasser klar bleibt, und koche ihn mit 220 ml Wasser und einer Prise Salz zugedeckt 12 Minuten bei kleiner Hitze. Lasse ihn 5 Minuten nachquellen.",
+      "Verrühre Sojasauce, Honig, Reisessig, Ingwer und gepressten Knoblauch zur Teriyaki-Sauce.",
+      "Brate den Lachs in 1 EL Öl bei mittelhoher Hitze zuerst 4 Minuten auf der Hautseite, wende ihn und brate ihn 1 Minute weiter.",
+      "Gieße die Sauce in die Pfanne und lasse sie 2–3 Minuten einkochen, dabei den Lachs immer wieder mit der Glasur übergießen, bis sie sirupartig ist.",
+      "Halbiere den Pak Choi und brate ihn in einer zweiten Pfanne mit Sesamöl 3 Minuten, bis die Stiele bissfest sind. Serviere Lachs und Pak Choi auf dem Reis, bestreut mit Sesam und Frühlingszwiebelringen."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "fisch",
+      "asiatisch"
+    ]
+  },
+  {
+    "id": "m-pad-thai-garnelen",
+    "title": "Pad Thai mit Garnelen",
+    "description": "Gebratene Reisnudeln mit Garnelen, Ei, Sprossen und Erdnüssen in einer süß-sauren Sauce aus Fischsauce, Tamarinde und Limette – das thailändische Streetfood aus dem Wok.",
+    "emoji": "🍜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 34,
+      "carbs": 74,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "garnelen",
+        "name": "Garnelen, geschält",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "reisnudeln",
+        "name": "Breite Reisnudeln",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "fischsauce",
+        "name": "Fischsauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker oder Palmzucker",
+        "amount": 1.5,
+        "unit": "EL"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "essig",
+        "name": "Tamarindenpaste oder Reisessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "sprossen",
+        "name": "Mungbohnensprossen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "erdnuesse",
+        "name": "Erdnüsse, gehackt",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Weiche die Reisnudeln nach Packungsangabe in warmem Wasser ein, bis sie biegsam, aber noch fest sind, und gieße sie ab.",
+      "Verrühre Fischsauce, Zucker, Tamarinde und den Saft einer halben Limette zur Sauce.",
+      "Erhitze 2 EL Öl in einem Wok bei hoher Hitze, brate die Garnelen mit gehacktem Knoblauch 2 Minuten an und schiebe sie an den Rand.",
+      "Schlage die Eier in die Mitte, verrühre sie 30 Sekunden zu Rührei und mische sie unter die Garnelen.",
+      "Gib Nudeln und Sauce dazu und brate alles 2–3 Minuten unter ständigem Wenden, bis die Nudeln die Sauce aufgesogen haben und weich sind.",
+      "Hebe Frühlingszwiebeln und die Hälfte der Sprossen unter. Serviere mit den restlichen Sprossen, Erdnüssen, Chiliflocken und Limettenspalten."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "wok",
+      "fisch"
+    ]
+  },
+  {
+    "id": "m-miso-ramen-schweinebauch",
+    "title": "Miso-Ramen mit Schweinebauch und Ei",
+    "description": "Kräftige Miso-Brühe mit Ingwer und Knoblauch, knuspriger Schweinebauch, wachsweiches Ei, Pak Choi und Ramen-Nudeln – eine Schüssel, die glücklich macht.",
+    "emoji": "🥢",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 44,
+      "carbs": 66,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "schweinefleisch",
+        "name": "Schweinebauch ohne Schwarte",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "ramen-nudeln",
+        "name": "Ramen-Nudeln",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "miso",
+        "name": "Misopaste (hell)",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "mais",
+        "name": "Mais (Dose)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "nori",
+        "name": "Nori-Blatt",
+        "amount": 1,
+        "unit": "Stück",
+        "optional": true
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide den Schweinebauch in 1 cm dicke Scheiben, würze ihn mit Salz und 1 EL Sojasauce und brate ihn in einer Pfanne bei mittlerer Hitze 12–15 Minuten knusprig, dabei mehrfach wenden.",
+      "Koche die Eier 6,5 Minuten, schrecke sie in Eiswasser ab und pelle sie. Wenn du Zeit hast, lege sie 30 Minuten in 2 EL Sojasauce mit etwas Wasser ein.",
+      "Dünste geriebenen Ingwer und gehackten Knoblauch in Sesamöl in einem Topf 1 Minute an, gieße die Brühe an und lasse sie 10 Minuten köcheln.",
+      "Nimm den Topf vom Herd und rühre die Misopaste mit etwas Brühe glatt, dann in die Brühe ein. Miso nicht mehr kochen lassen. Schmecke mit Sojasauce ab.",
+      "Koche die Ramen-Nudeln nach Packungsangabe, blanchiere den geviertelten Pak Choi die letzte Minute mit und gieße alles ab.",
+      "Verteile Nudeln auf zwei Schüsseln, gieße die heiße Brühe darüber und belege mit Schweinebauch, halbiertem Ei, Pak Choi, Mais, Frühlingszwiebelringen und Nori-Streifen."
+    ],
+    "tags": [
+      "comfort-food",
+      "winter",
+      "wochenende",
+      "suppe"
+    ]
+  },
+  {
+    "id": "m-bibimbap-rind",
+    "title": "Bibimbap mit Rindfleisch",
+    "description": "Koreanische Reisschüssel mit mariniertem Rindfleisch, buntem Gemüse, Spiegelei und scharfer Gochujang-Sauce – alles kräftig vermischt und knusprig vom Pfannenboden.",
+    "emoji": "🍚",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 42,
+      "carbs": 80,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "rindfleisch",
+        "name": "Rinderhüfte, in dünnen Streifen",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "reis",
+        "name": "Rundkornreis",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "sprossen",
+        "name": "Sojasprossen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sriracha",
+        "name": "Gochujang oder Sriracha",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Mariniere das Rindfleisch mit 2 EL Sojasauce, 1 EL Sesamöl, gepresstem Knoblauch und Zucker mindestens 15 Minuten.",
+      "Koche den Reis mit 250 ml Wasser zugedeckt 12 Minuten bei kleiner Hitze und lasse ihn 5 Minuten quellen.",
+      "Schneide Karotte und Zucchini in feine Streifen, die Champignons in Scheiben. Brate jedes Gemüse nacheinander 2–3 Minuten in etwas Sesamöl an und würze es mit einer Prise Salz. Blanchiere Spinat und Sprossen je 1 Minute und mische sie mit 1 EL Sojasauce.",
+      "Brate das Rindfleisch in einer sehr heißen Pfanne 3 Minuten scharf an.",
+      "Brate zwei Spiegeleier mit flüssigem Dotter.",
+      "Verteile den Reis auf zwei Schüsseln, ordne Fleisch und Gemüse fächerförmig darauf an, setze das Spiegelei in die Mitte und gib Gochujang und Sesam dazu. Vor dem Essen alles kräftig vermischen."
+    ],
+    "tags": [
+      "bowl",
+      "gaeste",
+      "meal-prep",
+      "asiatisch"
+    ]
+  },
+  {
+    "id": "m-rotes-thai-curry-huhn",
+    "title": "Rotes Thai-Curry mit Hähnchen",
+    "description": "Cremiges Kokoscurry mit roter Currypaste, Hähnchenbrust, Bambus, Paprika und Thai-Basilikum – in 30 Minuten aus einem Topf, so gut wie beim Thai um die Ecke.",
+    "emoji": "🍛",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 38,
+      "carbs": 56,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "currypaste",
+        "name": "Rote Currypaste",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gruene-bohnen",
+        "name": "Grüne Bohnen",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "fischsauce",
+        "name": "Fischsauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "basilikum",
+        "name": "Thai-Basilikum",
+        "amount": 1,
+        "unit": "Handvoll"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Jasmin- oder Basmatireis",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis nach Packungsangabe. Schneide die Hähnchenbrust in 2 cm große Stücke, Paprika und Zucchini in Streifen, die Bohnen in Hälften.",
+      "Erhitze 1 EL Öl in einem großen Topf oder Wok, röste die Currypaste 1 Minute an und gieße 200 ml des festen Teils der Kokosmilch dazu. Lasse alles 3 Minuten köcheln, bis sich das Öl absetzt.",
+      "Gib das Hähnchen dazu und brate es 3 Minuten in der Paste an. Gieße die restliche Kokosmilch an und lasse alles 5 Minuten köcheln.",
+      "Gib Bohnen, Paprika und Zucchini dazu und koche das Curry weitere 6–8 Minuten, bis das Gemüse bissfest und das Fleisch gar ist.",
+      "Würze mit Fischsauce, Zucker und dem Saft der Limette ab, rühre das Thai-Basilikum unter und serviere das Curry mit Reis."
+    ],
+    "tags": [
+      "schnell",
+      "one-pot",
+      "feierabend",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-cashew-haehnchen-wok",
+    "title": "Cashew-Hähnchen aus dem Wok",
+    "description": "Zartes Hähnchen mit gerösteten Cashews, Paprika und Frühlingszwiebeln in einer glänzenden Sauce aus Sojasauce, Honig und Ingwer – das Lieblingsgericht vom Chinesen in 20 Minuten.",
+    "emoji": "🥜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 46,
+      "carbs": 58,
+      "fat": 24
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "cashews",
+        "name": "Cashewkerne",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Reis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Setze den Reis auf. Schneide das Hähnchen in 2 cm große Würfel und mische es mit der Speisestärke, 1 EL Sojasauce und Pfeffer.",
+      "Verrühre die restliche Sojasauce mit Honig, Reisessig, Sesamöl und 3 EL Wasser zur Sauce. Röste die Cashews in einem trockenen Wok 2 Minuten goldbraun und nimm sie heraus.",
+      "Erhitze 2 EL Öl im Wok bei sehr hoher Hitze und brate das Hähnchen 4 Minuten, bis es rundherum gebräunt ist. Nimm es heraus.",
+      "Brate Paprikawürfel, gehackten Knoblauch und feine Ingwerstreifen 2 Minuten im Wok, gib das Hähnchen zurück und gieße die Sauce dazu. Lasse alles 1–2 Minuten einkochen, bis die Sauce glänzt.",
+      "Rühre Cashews und Frühlingszwiebelringe unter und serviere sofort mit Reis."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "wok",
+      "kinder"
+    ]
+  },
+  {
+    "id": "m-rindfleisch-brokkoli",
+    "title": "Rindfleisch mit Brokkoli in Austernsauce",
+    "description": "Hauchdünne Rindfleischstreifen, zart durch die Velveting-Technik, mit knackigem Brokkoli in einer würzigen Sauce – das Take-away-Gericht in 20 Minuten selbst gebraten.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 610,
+      "protein": 44,
+      "carbs": 60,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "key": "rindersteak",
+        "name": "Rinderhüfte oder Flanksteak",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "worcestersauce",
+        "name": "Austernsauce (oder Worcestersauce)",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "reis",
+        "name": "Reis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Setze den Reis auf. Schneide das Rindfleisch quer zur Faser in sehr dünne Streifen und mische es mit Natron, 1 TL Stärke und 1 EL Sojasauce. Lasse es 10 Minuten stehen.",
+      "Teile den Brokkoli in kleine Röschen und blanchiere ihn 2 Minuten in kochendem Salzwasser, dann abgießen.",
+      "Verrühre die restliche Sojasauce, Austernsauce, Zucker, Brühe und 1 TL Stärke zur Sauce.",
+      "Erhitze 2 EL Öl in einem Wok bei höchster Hitze und brate das Fleisch in zwei Portionen je 1–2 Minuten scharf an, bis es gebräunt ist. Nimm es heraus.",
+      "Brate gehackten Knoblauch und Ingwer 30 Sekunden, gib Brokkoli und Fleisch zurück, gieße die Sauce an und lasse sie 1 Minute unter Rühren andicken. Pfeffere und serviere mit Reis."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "wok",
+      "lowfat"
+    ]
+  },
+  {
+    "id": "m-sesam-thunfischsteak",
+    "title": "Thunfischsteak in Sesamkruste",
+    "description": "Kurz gebratenes Thunfischsteak mit knuspriger Sesamkruste und rosa Kern, dazu ein Gurken-Avocado-Salat mit Soja-Limetten-Dressing. In 15 Minuten ein echtes Highlight.",
+    "emoji": "🎋",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "lowcarb",
+      "laktosefrei",
+      "glutenfrei"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 48,
+      "carbs": 12,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "thunfischsteak",
+        "name": "Thunfischsteaks (à 180 g, Sushi-Qualität)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam (hell und schwarz gemischt)",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce (glutenfrei: Tamari)",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer, gerieben",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "radieschen",
+        "name": "Radieschen",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Verrühre Sojasauce, Limettensaft, Honig, Ingwer und Sesamöl zum Dressing.",
+      "Schneide Gurke, Avocado und Radieschen in dünne Scheiben und mische sie mit der Hälfte des Dressings.",
+      "Tupfe die Thunfischsteaks trocken, salze und pfeffere sie und drücke sie von beiden Seiten fest in den Sesam.",
+      "Erhitze 1 EL Öl in einer Pfanne bei sehr hoher Hitze und brate die Steaks je 1 Minute pro Seite – innen sollen sie noch rosa sein.",
+      "Schneide den Thunfisch in Scheiben, richte ihn auf dem Salat an und beträufle ihn mit dem restlichen Dressing."
+    ],
+    "tags": [
+      "schnell",
+      "lowcarb",
+      "gaeste",
+      "sommer",
+      "fisch"
+    ]
+  },
+  {
+    "id": "m-chili-limetten-tintenfisch",
+    "title": "Knuspriger Tintenfisch mit Chili und Limette",
+    "description": "Tintenfischringe in hauchdünner Stärkekruste, im Wok mit Knoblauch, Chili und Frühlingszwiebeln geschwenkt – schnell, knusprig und erfrischend mit Limette.",
+    "emoji": "🦑",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei",
+      "glutenfrei"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 36,
+      "carbs": 62,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "tintenfisch",
+        "name": "Tintenfischtuben, küchenfertig",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chilis",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fischsauce",
+        "name": "Fischsauce",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl zum Braten",
+        "amount": 5,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis nach Packungsangabe. Schneide die Tintenfischtuben in 1 cm breite Ringe, tupfe sie sehr trocken und mische sie mit Salz, Pfeffer und der Speisestärke.",
+      "Erhitze das Öl in einem Wok bei hoher Hitze, bis es flimmert. Brate die Ringe in zwei Portionen je 2 Minuten knusprig und lasse sie auf Küchenpapier abtropfen.",
+      "Gieße bis auf 1 EL das Öl ab und brate Knoblauchscheiben, Chiliringe und die weißen Teile der Frühlingszwiebeln 30 Sekunden an.",
+      "Gib den Tintenfisch zurück, würze mit Fischsauce und dem Saft der Limette und schwenke alles 30 Sekunden durch.",
+      "Streue Koriander und das Grün der Frühlingszwiebeln darüber und serviere sofort mit Reis."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "fisch",
+      "wok"
+    ]
+  },
+  {
+    "id": "m-chicken-tikka-masala",
+    "title": "Chicken Tikka Masala",
+    "description": "In Joghurt und Gewürzen mariniertes Hähnchen, scharf angebraten und in einer samtigen Tomaten-Sahne-Sauce mit Garam Masala geschmort. Indischer Klassiker mit Naan und Reis.",
+    "emoji": "🫕",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 44,
+      "carbs": 20,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "garam-masala",
+        "name": "Garam Masala",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer, gerieben",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Passierte Tomaten (Dose)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide das Hähnchen in 3 cm große Stücke und mariniere es mit Joghurt, 1 EL Garam Masala, Kurkuma, Kreuzkümmel, Paprikapulver, der Hälfte von Ingwer und Knoblauch sowie 1 TL Salz mindestens 30 Minuten (besser über Nacht).",
+      "Brate das Hähnchen in einer sehr heißen Pfanne oder unter dem Ofengrill bei 250 °C etwa 8 Minuten, bis es dunkle Röststellen hat. Es muss noch nicht ganz durch sein.",
+      "Schmelze die Butter in einem Topf und dünste die fein gewürfelten Zwiebeln 8 Minuten goldbraun. Gib restlichen Ingwer, Knoblauch und 1 EL Garam Masala dazu und röste 1 Minute.",
+      "Gieße die Tomaten an, lasse die Sauce 10 Minuten köcheln und rühre dann die Sahne ein.",
+      "Gib das Hähnchen in die Sauce und lasse alles 10 Minuten sanft ziehen. Schmecke mit Salz ab und serviere mit Koriander, Basmatireis und Naan."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "comfort-food",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-butter-chicken",
+    "title": "Butter Chicken (Murgh Makhani)",
+    "description": "Das mildeste und cremigste aller Currys: Hähnchen in einer buttrigen Tomatensauce mit Cashews, Honig und Gewürzen. Ein Wohlfühlessen für die ganze Familie.",
+    "emoji": "🧈",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 50,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 42,
+      "carbs": 24,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkelfleisch ohne Knochen",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "garam-masala",
+        "name": "Garam Masala",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken oder Kashmiri-Chili",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "cashews",
+        "name": "Cashewkerne",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide das Hähnchen in mundgerechte Stücke und mische es mit Joghurt, 1 TL Garam Masala, Kurkuma, Chili und 1 TL Salz. Lasse es 20 Minuten marinieren.",
+      "Brate das Hähnchen in 20 g Butter bei hoher Hitze 5 Minuten an, bis es Farbe hat, und nimm es heraus.",
+      "Dünste die gehackte Zwiebel in der restlichen Butter 5 Minuten, gib gehackten Knoblauch und Ingwer dazu und brate 1 Minute weiter.",
+      "Gib die Tomaten, Cashews und 100 ml Wasser dazu und lasse alles 15 Minuten köcheln. Püriere die Sauce anschließend sehr fein.",
+      "Rühre Sahne, Honig und 1 TL Garam Masala ein, gib das Hähnchen zurück und lasse alles 10 Minuten bei kleiner Hitze fertig garen. Schmecke mit Salz ab und serviere mit Reis oder Naan."
+    ],
+    "tags": [
+      "kinder",
+      "comfort-food",
+      "meal-prep",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "m-lamm-rogan-josh",
+    "title": "Lamm Rogan Josh",
+    "description": "Kaschmirisches Lammcurry mit Joghurt, Kardamom, Zimt und viel Paprika, das langsam schmort, bis das Fleisch zerfällt. Tiefrot, aromatisch und nicht zu scharf.",
+    "emoji": "🐑",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 120,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 44,
+      "carbs": 14,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "lamm",
+        "name": "Lammschulter, gewürfelt",
+        "amount": 900,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver (edelsüß + etwas rosenscharf)",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kardamom",
+        "name": "Kardamomkapseln",
+        "amount": 6,
+        "unit": "Stück"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimtstange",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "koriander-gemahlen",
+        "name": "Koriander, gemahlen",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "garam-masala",
+        "name": "Garam Masala",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Brate das Lamm portionsweise in 3 EL Öl in einem Schmortopf bei hoher Hitze rundherum braun an und nimm es heraus.",
+      "Röste Kardamom und Zimtstange 30 Sekunden im Öl, gib die fein gewürfelten Zwiebeln dazu und brate sie 10 Minuten goldbraun.",
+      "Gib geriebenen Ingwer, gehackten Knoblauch, Paprikapulver, Koriander und Kreuzkümmel dazu und röste alles 1 Minute. Rühre das Tomatenmark ein.",
+      "Nimm den Topf von der Hitze und rühre den Joghurt löffelweise ein, damit er nicht gerinnt. Gib das Fleisch zurück, 300 ml Wasser und 1,5 TL Salz dazu.",
+      "Lasse das Curry zugedeckt bei kleiner Hitze 90 Minuten schmoren, bis das Lamm butterweich ist. Nimm zum Schluss den Deckel ab und lasse die Sauce 10 Minuten eindicken.",
+      "Rühre Garam Masala ein, schmecke ab und serviere mit Basmatireis oder Naan."
+    ],
+    "tags": [
+      "wochenende",
+      "gaeste",
+      "winter",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "m-chili-con-carne",
+    "title": "Chili con Carne",
+    "description": "Herzhafter Eintopf aus Rinderhack, Kidneybohnen, Mais und Tomaten mit Kreuzkümmel und geräuchertem Paprika. Reicht für viele, schmeckt aufgewärmt noch besser.",
+    "emoji": "🌶️",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "einfach",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 480,
+      "protein": 34,
+      "carbs": 34,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chilis",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "kidneybohnen",
+        "name": "Kidneybohnen (Dose, abgetropft)",
+        "amount": 480,
+        "unit": "g"
+      },
+      {
+        "key": "mais",
+        "name": "Mais (Dose, abgetropft)",
+        "amount": 280,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebeln, Knoblauch, Paprika und Chilis. Brate das Hackfleisch in 2 EL Öl in einem großen Topf bei hoher Hitze 8 Minuten krümelig und braun an.",
+      "Gib Zwiebeln, Knoblauch, Paprika und Chili dazu und brate alles 5 Minuten mit.",
+      "Rühre Tomatenmark, Kreuzkümmel, Paprikapulver und Oregano ein und röste die Gewürze 1 Minute.",
+      "Gib die Tomaten und 200 ml Wasser dazu, würze mit Salz und lasse das Chili bei kleiner Hitze 30 Minuten köcheln.",
+      "Rühre Bohnen und Mais ein und koche alles weitere 10 Minuten. Schmecke mit Salz und Chili ab.",
+      "Serviere das Chili mit Reis, Brot oder Tortillachips, nach Belieben mit saurer Sahne und Käse."
+    ],
+    "tags": [
+      "one-pot",
+      "meal-prep",
+      "gaeste",
+      "winter",
+      "klassiker"
+    ]
+  },
+  {
+    "id": "m-haehnchen-tacos",
+    "title": "Hähnchen-Tacos mit Mango-Salsa",
+    "description": "Würzig marinierte Hähnchenstreifen aus der Pfanne, frische Mango-Salsa, Avocado und Limette in warmen Tortillas – bunt, schnell und perfekt für Freunde am Tisch.",
+    "emoji": "🌮",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 580,
+      "protein": 40,
+      "carbs": 56,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "limette",
+        "name": "Limetten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "mango",
+        "name": "Mango",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tortillas",
+        "name": "Kleine Tortillas",
+        "amount": 12,
+        "unit": "Stück"
+      },
+      {
+        "key": "eisbergsalat",
+        "name": "Eisbergsalat",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide das Hähnchen in Streifen und mische es mit 2 EL Olivenöl, Paprikapulver, Kreuzkümmel, Chiliflocken, Saft einer Limette, Salz und Pfeffer.",
+      "Würfle Mango und die halbe rote Zwiebel fein, mische beides mit gehacktem Koriander, Saft der zweiten Limette und einer Prise Salz zur Salsa.",
+      "Brate das Hähnchen in einer heißen Pfanne 6–7 Minuten unter Wenden, bis es gar ist und Röststellen hat.",
+      "Erwärme die Tortillas in einer trockenen Pfanne je 30 Sekunden pro Seite oder im Ofen bei 160 °C in Alufolie 5 Minuten.",
+      "Belege die Tortillas mit Salatstreifen, Hähnchen, Mango-Salsa, Avocadoscheiben und den restlichen Zwiebelringen und serviere sofort."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "gaeste",
+      "kinder"
+    ]
+  },
+  {
+    "id": "m-beef-burritos",
+    "title": "Beef-Burritos mit Reis und Bohnen",
+    "description": "Prall gefüllte Weizentortillas mit Hackfleisch, Reis, schwarzen Bohnen, Käse und Salsa, fest gerollt und knusprig angebraten – ideal zum Mitnehmen und Vorbereiten.",
+    "emoji": "🌯",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 42,
+      "carbs": 72,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "reis",
+        "name": "Reis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "schwarze-bohnen",
+        "name": "Schwarze Bohnen (Dose, abgetropft)",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "tortillas",
+        "name": "Große Weizentortillas",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar, gerieben",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis nach Packungsangabe. Würfle Zwiebel, Knoblauch und Tomaten.",
+      "Brate das Hackfleisch in 1 EL Öl 6 Minuten krümelig an, gib Zwiebel und Knoblauch dazu und brate 3 Minuten weiter. Würze mit Kreuzkümmel, Paprikapulver, Tomatenmark, Salz und Pfeffer und rühre die Bohnen und 100 ml Wasser ein. 5 Minuten köcheln.",
+      "Erwärme die Tortillas kurz, damit sie biegsam sind. Verteile Reis, Hackfleischmischung, Käse und Tomatenwürfel mittig auf jede Tortilla, aber lasse die Ränder frei.",
+      "Klappe die kurzen Seiten ein und rolle die Burritos von unten her fest auf.",
+      "Brate die Burritos mit der Naht nach unten in einer trockenen Pfanne bei mittlerer Hitze je 2 Minuten pro Seite goldbraun und serviere sie nach Belieben mit Salsa oder saurer Sahne."
+    ],
+    "tags": [
+      "meal-prep",
+      "kinder",
+      "feierabend",
+      "to-go"
+    ]
+  },
+  {
+    "id": "m-fisch-tacos-kabeljau",
+    "title": "Baja Fish Tacos",
+    "description": "Kabeljau in knuspriger Bierteig-Hülle, dazu knackiger Krautsalat und cremige Limetten-Sauce in Maistortillas – der Streetfood-Hit von der mexikanischen Pazifikküste.",
+    "emoji": "🥑",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 34,
+      "carbs": 62,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "kabeljau",
+        "name": "Kabeljaufilet",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "bier",
+        "name": "Helles Bier, kalt",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "weisskohl",
+        "name": "Weißkohl oder Spitzkohl",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "Limetten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "joghurt",
+        "name": "Joghurt",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sriracha",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "tortillas",
+        "name": "Kleine Maistortillas",
+        "amount": 12,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl zum Frittieren",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Hoble den Kohl fein, mische ihn mit dem Saft einer Limette, 1 TL Salz und gehacktem Koriander und lasse ihn ziehen. Verrühre Mayonnaise, Joghurt, Sriracha und den Saft der zweiten Limette zur Sauce.",
+      "Schneide den Kabeljau in 3 cm breite Streifen, salze und pfeffere sie und tupfe sie trocken.",
+      "Verquirle Mehl, Backpulver, 0,5 TL Salz und das kalte Bier zu einem glatten Teig.",
+      "Erhitze das Öl in einem Topf auf 180 °C. Ziehe die Fischstreifen durch den Teig und frittiere sie in Portionen 3–4 Minuten goldbraun. Lasse sie auf Küchenpapier abtropfen.",
+      "Erwärme die Tortillas in einer trockenen Pfanne und belege sie mit Krautsalat, Fisch und Sauce. Sofort servieren."
+    ],
+    "tags": [
+      "sommer",
+      "gaeste",
+      "fisch",
+      "streetfood"
+    ]
+  },
+  {
+    "id": "m-classic-cheeseburger",
+    "title": "Classic Cheeseburger",
+    "description": "Saftiges Rinderpatty mit geschmolzenem Cheddar, Röstzwiebeln, Gurke und Burger-Sauce im gebutterten Brioche-Bun – der Diner-Klassiker aus der Gusspfanne.",
+    "emoji": "🍔",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 40,
+      "carbs": 40,
+      "fat": 44
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack (20 % Fett)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Burger-Buns (Brioche)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar in Scheiben",
+        "amount": 4,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "essiggurken",
+        "name": "Gewürzgurken",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "eisbergsalat",
+        "name": "Eisbergsalat",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "senf",
+        "name": "Senf",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Verrühre Mayonnaise, Ketchup, Senf und einen fein gehackten Teil der Gurke zur Burger-Sauce. Schneide Tomate, restliche Gurke und Zwiebel in Scheiben.",
+      "Teile das Hackfleisch ohne Kneten in 4 Portionen und forme lockere Patties, etwas größer als die Buns. Drücke eine Delle in die Mitte, damit sie sich nicht wölben.",
+      "Erhitze eine Gusspfanne mit 1 EL Öl bei hoher Hitze. Salze und pfeffere die Patties direkt vor dem Braten und brate sie 3 Minuten pro Seite. Lege nach dem Wenden den Käse auf.",
+      "Halbiere die Buns, bestreiche die Schnittflächen mit Butter und röste sie in der Pfanne 1 Minute goldbraun.",
+      "Bestreiche beide Bun-Hälften mit Sauce und schichte Salat, Patty mit Käse, Tomate, Gurke und Zwiebel. Sofort servieren, am besten mit Pommes."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "schnell",
+      "grillen"
+    ]
+  },
+  {
+    "id": "m-pulled-pork",
+    "title": "Pulled Pork aus dem Ofen",
+    "description": "Schweinenacken mit Gewürzkruste, der über Stunden im Ofen gart, bis er sich mit der Gabel zerzupfen lässt. Mit BBQ-Sauce und Krautsalat im Bun ein echtes Wochenendprojekt.",
+    "emoji": "🐖",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 360,
+    "difficulty": "mittel",
+    "servings": 8,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 46,
+      "carbs": 42,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "schweinefleisch",
+        "name": "Schweinenacken ohne Knochen",
+        "amount": 2000,
+        "unit": "g"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "senf",
+        "name": "Senf",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchpulver oder gepresster Knoblauch",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "essig",
+        "name": "Apfelessig",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Brühe",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "bbq-sauce",
+        "name": "BBQ-Sauce",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "broetchen",
+        "name": "Burger-Buns",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "weisskohl",
+        "name": "Weißkohl für Krautsalat",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Mische Zucker, Paprikapulver, Kreuzkümmel, Knoblauch, 1 EL Salz und 1 TL Pfeffer zum Rub. Reibe das Fleisch mit Senf ein und massiere den Rub rundherum ein. Lasse es am besten über Nacht im Kühlschrank ziehen.",
+      "Heize den Ofen auf 120 °C Ober-/Unterhitze vor. Lege das Fleisch in einen Bräter, gieße Essig und Brühe an und decke den Bräter fest mit Deckel oder Alufolie ab.",
+      "Gare das Fleisch 5 Stunden im Ofen. Nimm die Abdeckung für die letzten 45 Minuten ab, damit sich eine dunkle Kruste bildet. Die Kerntemperatur sollte etwa 90 °C erreichen.",
+      "Lasse das Fleisch 20 Minuten ruhen und zerzupfe es mit zwei Gabeln. Mische es mit dem Bratensaft und der Hälfte der BBQ-Sauce.",
+      "Hoble den Kohl fein, mische ihn mit Mayonnaise, einem Spritzer Essig, Salz und Pfeffer zum Krautsalat.",
+      "Fülle die getoasteten Buns mit Pulled Pork, Krautsalat und der restlichen BBQ-Sauce."
+    ],
+    "tags": [
+      "wochenende",
+      "gaeste",
+      "ofengericht",
+      "bbq",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-bbq-spareribs",
+    "title": "BBQ-Spareribs mit Honigglasur",
+    "description": "Schweinerippchen, die erst zart im Ofen vorgaren und dann mit klebriger Honig-BBQ-Glasur auf dem Grill oder unter dem Ofengrill karamellisieren. Fingerfood für Fleischfans.",
+    "emoji": "🔥",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 180,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 52,
+      "carbs": 26,
+      "fat": 52
+    },
+    "ingredients": [
+      {
+        "key": "schweinefleisch",
+        "name": "Spareribs (Schweinerippchen)",
+        "amount": 2000,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch, gepresst",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "bbq-sauce",
+        "name": "BBQ-Sauce",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "essig",
+        "name": "Apfelessig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "mais",
+        "name": "Maiskolben (Beilage)",
+        "amount": 4,
+        "unit": "Stück",
+        "optional": true
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Ziehe die Silberhaut auf der Knochenseite der Rippchen mit Küchenpapier ab. Mische Paprikapulver, Zucker, Knoblauch, Kreuzkümmel, Chiliflocken, 1 EL Salz und 1 TL Pfeffer und reibe die Ribs damit ein.",
+      "Heize den Ofen auf 140 °C Ober-/Unterhitze vor. Wickle die Rippchen fest in Alufolie, lege sie auf ein Blech und gare sie 2,5 Stunden, bis sich das Fleisch leicht vom Knochen löst.",
+      "Verrühre BBQ-Sauce, Honig und Essig zur Glasur.",
+      "Packe die Ribs aus, bestreiche sie dick mit Glasur und grille sie auf dem heißen Grill oder unter dem Ofengrill bei 230 °C 8–10 Minuten, dabei zweimal wenden und erneut bestreichen, bis die Glasur klebrig karamellisiert.",
+      "Schneide die Ribs zwischen den Knochen in Stücke und serviere sie mit gegrillten Maiskolben und Krautsalat."
+    ],
+    "tags": [
+      "grillen",
+      "wochenende",
+      "gaeste",
+      "bbq",
+      "sommer"
+    ]
+  },
+  {
+    "id": "m-cajun-garnelen-polenta",
+    "title": "Cajun-Garnelen auf cremiger Polenta",
+    "description": "Scharf gewürzte Garnelen mit Chorizo, Paprika und Knoblauchbutter auf butterweicher Käsepolenta – Südstaaten-Komfort in 20 Minuten, angelehnt an Shrimp and Grits.",
+    "emoji": "🦐",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 40,
+      "carbs": 48,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "garnelen",
+        "name": "Große Garnelen, geschält",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "chorizo",
+        "name": "Chorizo",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Cayenne oder Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "polenta",
+        "name": "Polenta (Instant)",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar, gerieben",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Bringe Milch und 250 ml Wasser mit 1 TL Salz zum Kochen, rühre die Polenta ein und lasse sie unter Rühren 5 Minuten quellen. Rühre Butter und Cheddar unter und halte sie warm.",
+      "Mische die Garnelen mit Paprikapulver, Cayenne, Salz und Pfeffer.",
+      "Brate die in Scheiben geschnittene Chorizo in einer Pfanne bei mittlerer Hitze 3 Minuten aus, bis das Fett ausgetreten ist. Gib Paprikawürfel dazu und brate sie 3 Minuten mit.",
+      "Gib die Garnelen und den gehackten Knoblauch in die Pfanne und brate alles 2 Minuten pro Seite, bis die Garnelen rosa sind. Spritze Zitronensaft darüber.",
+      "Verteile die Polenta auf Teller, gib Garnelen und Chorizo mit dem Pfannensaft darauf und streue Frühlingszwiebelringe darüber."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "fisch",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "m-meal-prep-haehnchen-reis-brokkoli",
+    "title": "Meal-Prep-Boxen: Hähnchen, Reis und Brokkoli",
+    "description": "Die Fitness-Klassikerbox: saftige Hähnchenbrust in Zitronen-Kräuter-Marinade, lockerer Reis und knackiger Brokkoli mit Sesam – in 35 Minuten fünf Boxen für die Woche.",
+    "emoji": "🥡",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 5,
+    "nutrition": {
+      "kcal": 390,
+      "protein": 42,
+      "carbs": 38,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust",
+        "amount": 900,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce (Tamari)",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Mische Hähnchenbrust mit Olivenöl, Zitronenabrieb und -saft, gepresstem Knoblauch, Paprikapulver, Oregano, Salz und Pfeffer und lasse es kurz ziehen. Koche den Reis nach Packungsangabe.",
+      "Heize den Ofen auf 200 °C Umluft vor. Lege das Hähnchen auf ein Blech mit Backpapier und backe es 20–22 Minuten, bis die Kerntemperatur 74 °C erreicht.",
+      "Teile den Brokkoli in Röschen, dämpfe oder blanchiere ihn 4 Minuten, bis er bissfest ist, und schrecke ihn kalt ab, damit er grün bleibt.",
+      "Mische den Brokkoli mit Sojasauce und Sesam. Schneide das ausgeruhte Hähnchen in Scheiben.",
+      "Verteile Reis, Hähnchen und Brokkoli auf 5 Boxen. Im Kühlschrank halten sie 4 Tage, zum Aufwärmen 2 Minuten in der Mikrowelle."
+    ],
+    "tags": [
+      "meal-prep",
+      "fitness",
+      "kalorienarm",
+      "einfach"
+    ]
+  },
+  {
+    "id": "m-koefte-joghurtsauce",
+    "title": "Köfte mit Joghurt-Minz-Sauce",
+    "description": "Würzige Lamm-Rind-Hackfleischröllchen mit Kreuzkümmel, Petersilie und Zwiebel, gegrillt oder gebraten, dazu kühle Joghurtsauce und Bulgur – türkischer Alltagsgenuss.",
+    "emoji": "🧆",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 38,
+      "carbs": 44,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "lamm",
+        "name": "Lammhack",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Pul Biber / Chiliflocken",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "griechischer-joghurt",
+        "name": "Griechischer Joghurt",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "minze",
+        "name": "Minze, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "bulgur",
+        "name": "Bulgur",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Bulgur mit 500 ml Salzwasser 10 Minuten und lasse ihn 5 Minuten zugedeckt quellen.",
+      "Reibe die Zwiebel fein, drücke die Flüssigkeit aus. Verknete sie mit Hackfleisch, gepresstem Knoblauch, Petersilie, Kreuzkümmel, Chiliflocken, Semmelbröseln, 1,5 TL Salz und Pfeffer 3 Minuten kräftig.",
+      "Forme mit feuchten Händen 12 längliche Köfte von etwa 8 cm Länge und drücke sie leicht flach.",
+      "Verrühre Joghurt mit Minze, einer Prise Salz und einer halben gepressten Knoblauchzehe zur Sauce.",
+      "Brate die Köfte in 2 EL Olivenöl bei mittelhoher Hitze 4 Minuten pro Seite oder grille sie 8 Minuten unter Wenden.",
+      "Serviere die Köfte mit Bulgur und der Joghurtsauce, nach Belieben mit Tomatenspalten."
+    ],
+    "tags": [
+      "grillen",
+      "schnell",
+      "meal-prep",
+      "sommer"
+    ]
+  },
+  {
+    "id": "m-chicken-shawarma",
+    "title": "Chicken Shawarma mit Knoblauchsauce",
+    "description": "Hähnchenschenkel in einer Marinade aus Zitrone, Kreuzkümmel, Kurkuma und Paprika, im Ofen geröstet und in Pita mit Tomate, Gurke und Knoblauch-Joghurt serviert.",
+    "emoji": "🥙",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 50,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 44,
+      "carbs": 48,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkelfleisch ohne Knochen",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 5,
+        "unit": "Zehe"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "koriander-gemahlen",
+        "name": "Koriander, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "pita",
+        "name": "Pita-Brote",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Mische 3 EL Olivenöl, Zitronensaft, 3 gepresste Knoblauchzehen, Kreuzkümmel, Kurkuma, Paprikapulver, Koriander, 1,5 TL Salz und Pfeffer. Wende das Hähnchen darin und lasse es mindestens 20 Minuten marinieren.",
+      "Heize den Ofen auf 220 °C Umluft vor. Verteile das Hähnchen auf einem Blech und röste es 25 Minuten, bis es dunkle Ränder hat. Wende es nach der Hälfte.",
+      "Verrühre Joghurt mit 2 gepressten Knoblauchzehen, einem Spritzer Zitrone und Salz zur Knoblauchsauce.",
+      "Schneide das Hähnchen in dünne Streifen. Würfle Tomaten und Gurke.",
+      "Erwärme die Pitas kurz, öffne sie und fülle sie mit Hähnchen, Tomaten, Gurke und reichlich Knoblauchsauce."
+    ],
+    "tags": [
+      "ofengericht",
+      "streetfood",
+      "feierabend",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "m-lamm-tajine-datteln",
+    "title": "Lamm-Tajine mit Datteln und Kichererbsen",
+    "description": "Marokkanischer Schmortopf mit Lamm, Datteln, Kichererbsen, Zimt und Ras-el-Hanout-Gewürzen, der süß und würzig zugleich ist. Mit Couscous ein Festessen für kalte Tage.",
+    "emoji": "🍯",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 120,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 46,
+      "carbs": 62,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "lamm",
+        "name": "Lammschulter, gewürfelt",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer, gerieben",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "koriander-gemahlen",
+        "name": "Koriander, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen (Dose, abgetropft)",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "datteln",
+        "name": "Datteln, entsteint",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "couscous",
+        "name": "Couscous",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Brate das Lamm in 3 EL Olivenöl in einer Tajine oder einem Schmortopf portionsweise bei hoher Hitze braun an und nimm es heraus.",
+      "Dünste die gewürfelten Zwiebeln 6 Minuten, gib Knoblauch, Ingwer, Zimt, Kreuzkümmel und Koriander dazu und röste alles 1 Minute.",
+      "Gib das Fleisch zurück, Tomaten und 300 ml Wasser dazu, würze mit Salz und Pfeffer und schmore alles zugedeckt bei kleiner Hitze 75 Minuten.",
+      "Rühre Kichererbsen und halbierte Datteln ein und schmore weitere 20 Minuten, bis das Lamm zart ist und die Sauce dicklich.",
+      "Übergieße den Couscous mit 300 ml kochendem Salzwasser und 1 EL Olivenöl, lasse ihn 5 Minuten quellen und lockere ihn mit einer Gabel auf.",
+      "Serviere die Tajine auf dem Couscous, nach Belieben mit gerösteten Mandeln bestreut."
+    ],
+    "tags": [
+      "wochenende",
+      "gaeste",
+      "winter",
+      "one-pot"
+    ]
+  },
+  {
+    "id": "m-haehnchen-kebab-spiesse",
+    "title": "Hähnchen-Kebab-Spieße vom Grill",
+    "description": "Saftige Hähnchenspieße in Joghurt-Zitronen-Marinade mit Sumach-Zwiebeln und Fladenbrot – auf dem Grill oder in der Grillpfanne, ideal für laue Sommerabende.",
+    "emoji": "🍢",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 540,
+      "protein": 48,
+      "carbs": 40,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust oder -schenkelfleisch",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprika",
+        "name": "Paprika",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "pita",
+        "name": "Fladenbrot oder Pita",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide das Hähnchen in 3 cm große Würfel und mische es mit Joghurt, 2 EL Olivenöl, Zitronenabrieb, Saft einer halben Zitrone, gepresstem Knoblauch, Paprikapulver, Kreuzkümmel, Oregano, Salz und Pfeffer. Lasse es 20 Minuten marinieren.",
+      "Schneide eine Zwiebel in feine Ringe und mische sie mit gehackter Petersilie, dem restlichen Zitronensaft und einer Prise Salz.",
+      "Schneide Paprika und die zweite Zwiebel in grobe Stücke und stecke sie abwechselnd mit dem Fleisch auf 8 Spieße. Holzspieße vorher 20 Minuten wässern.",
+      "Grille die Spieße bei mittelhoher, direkter Hitze 12–14 Minuten, dabei alle 3 Minuten drehen, bis das Fleisch gar ist und Röststellen hat.",
+      "Röste das Fladenbrot kurz auf dem Grill und serviere die Spieße mit den Sumach-Zwiebeln und Joghurt oder Hummus."
+    ],
+    "tags": [
+      "grillen",
+      "sommer",
+      "gaeste",
+      "einfach"
+    ]
+  },
+  {
+    "id": "m-bulgur-hackfleisch-pfanne",
+    "title": "Orientalische Bulgur-Hackfleisch-Pfanne",
+    "description": "Hackfleisch mit Bulgur, Kichererbsen, Paprika und warmen Gewürzen in nur einer Pfanne – ein schnelles, sättigendes Feierabendessen, das sich prima vorkochen lässt.",
+    "emoji": "🌾",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 580,
+      "protein": 34,
+      "carbs": 58,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "bulgur",
+        "name": "Bulgur",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen (Dose, abgetropft)",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel, Knoblauch und Paprika. Brate das Hackfleisch in 2 EL Olivenöl in einer tiefen Pfanne bei hoher Hitze 6 Minuten krümelig an.",
+      "Gib Zwiebel, Knoblauch und Paprika dazu und brate 4 Minuten weiter. Rühre Tomatenmark, Kreuzkümmel und Paprikapulver ein und röste 1 Minute.",
+      "Gib Bulgur, Kichererbsen und Brühe dazu, würze mit Salz und Pfeffer und bringe alles zum Kochen.",
+      "Lasse die Pfanne zugedeckt bei kleiner Hitze 12 Minuten köcheln, bis der Bulgur die Flüssigkeit aufgesogen hat. Rühre zwischendurch einmal um.",
+      "Lockere den Bulgur mit einer Gabel auf, streue Petersilie darüber und serviere nach Belieben mit Joghurt."
+    ],
+    "tags": [
+      "one-pot",
+      "schnell",
+      "meal-prep",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "m-coq-au-vin",
+    "title": "Coq au Vin",
+    "description": "Hähnchen in Rotwein geschmort, mit Speck, Champignons, Perlzwiebeln und Thymian – das französische Bistro-Gericht, das mit Baguette und Zeit am besten schmeckt.",
+    "emoji": "🍷",
+    "category": "hauptgericht",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 105,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 48,
+      "carbs": 14,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkel",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "speck",
+        "name": "Speck, gewürfelt",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Schalotten oder Perlzwiebeln",
+        "amount": 12,
+        "unit": "Stück"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Kräftiger Rotwein",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "thymian",
+        "name": "Thymian",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblätter",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Brate den Speck in einem Bräter bei mittlerer Hitze 5 Minuten aus und nimm ihn heraus. Würze die Hähnchenschenkel mit Salz und Pfeffer und brate sie im Speckfett auf der Hautseite 6 Minuten kräftig an, wende sie kurz und nimm sie heraus.",
+      "Brate die geschälten Schalotten 5 Minuten im Bräter an, gib Knoblauch und Tomatenmark dazu und bestäube alles mit Mehl. Rühre 1 Minute.",
+      "Lösche mit Rotwein ab, gieße die Brühe an und lege Thymian, Lorbeer, Speck und Hähnchen wieder hinein. Bringe alles zum Kochen.",
+      "Schmore das Coq au Vin zugedeckt bei 170 °C im Ofen oder bei kleiner Hitze auf dem Herd 60 Minuten.",
+      "Brate die halbierten Champignons in der Butter 5 Minuten goldbraun und gib sie für die letzten 10 Minuten in den Bräter.",
+      "Nimm das Hähnchen heraus, koche die Sauce bei Bedarf offen 5–10 Minuten sämig ein und schmecke sie ab. Serviere mit Baguette oder Kartoffelpüree."
+    ],
+    "tags": [
+      "klassiker",
+      "wochenende",
+      "gaeste",
+      "winter"
+    ]
+  },
+  {
+    "id": "m-boeuf-bourguignon",
+    "title": "Boeuf Bourguignon",
+    "description": "Burgunder Rinderschmortopf mit Rotwein, Speck, Pilzen und Perlzwiebeln, der drei Stunden im Ofen zu tiefem, samtigem Geschmack reift. Ein Klassiker für besondere Anlässe.",
+    "emoji": "🍇",
+    "category": "hauptgericht",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 210,
+    "difficulty": "anspruchsvoll",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 580,
+      "protein": 48,
+      "carbs": 12,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "rindfleisch",
+        "name": "Rindfleisch (Schulter oder Wade), in 4 cm Würfeln",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "key": "speck",
+        "name": "Durchwachsener Speck, gewürfelt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel und 12 Perlzwiebeln",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Burgunder oder anderer kräftiger Rotwein",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Rinderbrühe",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "thymian",
+        "name": "Thymian",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblätter",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 160 °C Ober-/Unterhitze vor. Brate den Speck in einem großen Bräter 5 Minuten knusprig und nimm ihn heraus.",
+      "Tupfe das Rindfleisch trocken, salze und pfeffere es und brate es portionsweise in 2 EL Öl bei hoher Hitze rundherum dunkelbraun an. Nimm es heraus.",
+      "Brate die gewürfelte Zwiebel 5 Minuten an, gib den Knoblauch dazu, bestäube alles mit Mehl und rühre 2 Minuten.",
+      "Gib Fleisch und Speck zurück, gieße Rotwein und Brühe an, lege Thymian und Lorbeer dazu und bringe alles zum Kochen.",
+      "Schmore das Bourguignon zugedeckt 2,5–3 Stunden im Ofen, bis das Fleisch mit der Gabel zerfällt.",
+      "Brate in den letzten 20 Minuten die Perlzwiebeln und halbierten Champignons in der Butter 8 Minuten goldbraun und rühre sie in den Schmortopf.",
+      "Schmecke die Sauce ab und serviere das Gericht mit Kartoffelpüree oder Baguette."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "wochenende",
+      "winter",
+      "ofengericht"
+    ]
+  },
+  {
+    "id": "m-entenbrust-orange",
+    "title": "Entenbrust mit Orangensauce",
+    "description": "Rosa gebratene Entenbrust mit knuspriger Haut und einer glänzenden Sauce aus Orangensaft, Honig und Balsamico – französische Eleganz in 40 Minuten für zwei.",
+    "emoji": "🦆",
+    "category": "hauptgericht",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "lowcarb"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 44,
+      "carbs": 18,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "ente",
+        "name": "Entenbrustfilets (à 300 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "orange",
+        "name": "Orangen",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "orangensaft",
+        "name": "Orangensaft",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamico",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Brühe",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "butter",
+        "name": "Kalte Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "thymian",
+        "name": "Thymian",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "gruene-bohnen",
+        "name": "Grüne Bohnen (Beilage)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor. Schneide die Haut der Entenbrust rautenförmig ein, ohne ins Fleisch zu schneiden, und würze mit Salz und Pfeffer.",
+      "Lege die Entenbrust mit der Hautseite nach unten in eine kalte Pfanne und lasse sie bei mittlerer Hitze 8 Minuten aus, bis die Haut goldbraun und knusprig ist. Wende sie und brate 1 Minute.",
+      "Gare die Entenbrust im Ofen 8–10 Minuten (Kerntemperatur 56–58 °C für rosa) und lasse sie danach 5 Minuten in Alufolie ruhen.",
+      "Gieße bis auf 1 EL das Entenfett ab, dünste die gewürfelte Schalotte 2 Minuten darin, gib Honig dazu und lasse ihn leicht karamellisieren. Lösche mit Balsamico, Orangensaft und Brühe ab und lasse alles mit dem Thymian auf ein Drittel einkochen.",
+      "Filetiere eine Orange, gib die Filets in die Sauce und montiere sie mit kalter Butter. Schmecke mit Salz und Pfeffer ab.",
+      "Koche die Bohnen 6 Minuten in Salzwasser. Schneide die Entenbrust in Scheiben und serviere sie mit Sauce und Bohnen."
+    ],
+    "tags": [
+      "gaeste",
+      "festlich",
+      "lowcarb",
+      "winter"
+    ]
+  },
+  {
+    "id": "m-kabeljau-mediterran-ofen",
+    "title": "Kabeljau aus dem Ofen mit Tomaten und Oliven",
+    "description": "Kabeljaufilet auf einem Bett aus Cherrytomaten, Oliven, Kapern und Knoblauch, mit Olivenöl und Zitrone im Ofen gegart – leicht, mediterran und in 30 Minuten fertig.",
+    "emoji": "🫒",
+    "category": "hauptgericht",
+    "cuisine": "mediterran",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei",
+      "lowcarb",
+      "kalorienarm"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 360,
+      "protein": 38,
+      "carbs": 10,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "kabeljau",
+        "name": "Kabeljaufilet (à 180 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "Schwarze Oliven",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "kapern",
+        "name": "Kapern",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum",
+        "amount": 1,
+        "unit": "Handvoll"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Halbiere die Tomaten, schneide die Zucchini in dünne Scheiben und den Knoblauch in Scheiben.",
+      "Vermische Tomaten, Zucchini, Oliven, Kapern und Knoblauch in einer Auflaufform mit 2 EL Olivenöl, Oregano, Salz und Pfeffer und röste alles 10 Minuten im Ofen.",
+      "Würze den Kabeljau mit Salz, Pfeffer und Zitronenabrieb und lege ihn auf das Gemüse. Beträufle ihn mit dem restlichen Olivenöl und etwas Zitronensaft.",
+      "Backe alles weitere 12–14 Minuten, bis der Fisch gerade eben glasig durch ist und sich leicht in Lamellen teilen lässt.",
+      "Streue Basilikum darüber und serviere mit Baguette oder Kartoffeln."
+    ],
+    "tags": [
+      "ofengericht",
+      "schnell",
+      "kalorienarm",
+      "fisch",
+      "sommer"
+    ]
+  },
+  {
+    "id": "m-dorade-vom-grill",
+    "title": "Gegrillte Dorade mit Zitrone und Kräutern",
+    "description": "Ganze Dorade, gefüllt mit Zitrone, Knoblauch und Rosmarin, auf dem Grill knusprig gegart und mit Kräuteröl serviert – ein sommerliches Fischgericht wie am Mittelmeer.",
+    "emoji": "🌊",
+    "category": "hauptgericht",
+    "cuisine": "mediterran",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei",
+      "lowcarb"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 480,
+      "protein": 46,
+      "carbs": 6,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "dorade",
+        "name": "Küchenfertige Doraden (à 400 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronen",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Rosmarin",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "thymian",
+        "name": "Thymian",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 5,
+        "unit": "EL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL",
+        "optional": true
+      },
+      {
+        "key": "fenchel",
+        "name": "Fenchel (zum Mitgrillen)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Grill auf mittelhohe direkte Hitze vor (ca. 200 °C) und öle den Rost gut ein. Tupfe die Doraden trocken und schneide die Haut auf beiden Seiten dreimal schräg ein.",
+      "Würze die Fische innen und außen mit Salz und Pfeffer und fülle die Bauchhöhle mit Zitronenscheiben, Knoblauchscheiben, Rosmarin und Thymian. Reibe die Außenseite mit 2 EL Olivenöl ein.",
+      "Schneide den Fenchel in 1 cm dicke Scheiben, bestreiche ihn mit Öl und salze ihn.",
+      "Grille die Doraden 6–7 Minuten pro Seite, ohne sie zu bewegen, bis die Haut knusprig ist und sich löst. Grille den Fenchel gleichzeitig 5 Minuten pro Seite.",
+      "Verrühre gehackte Petersilie, den Saft einer Zitrone, 3 EL Olivenöl, Chiliflocken und Salz zum Kräuteröl und träufle es über Fisch und Fenchel."
+    ],
+    "tags": [
+      "grillen",
+      "sommer",
+      "gaeste",
+      "fisch",
+      "lowcarb"
+    ]
+  }
+]
