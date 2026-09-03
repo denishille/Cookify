@@ -4,11 +4,12 @@ Rezept-App mit über 200 Rezepten. Gib an, was du zuhause hast, und KitchenAid s
 
 ## Funktionen
 
-- **Rezept-Konfigurator** – Zutaten aus dem Vorrat anklicken (oder Sets wie „Grundvorrat“ laden), einstellen, wie viele Zutaten fehlen dürfen, und passende Rezepte mit Trefferquote und Fehlliste bekommen. Salz, Pfeffer, Öl und gängige Gewürze zählen als Grundvorrat.
-- **Entdecken** – Volltextsuche, Filter nach Ernährung, Kategorie, Küche, Dauer und Schwierigkeit, Sortierung nach Zeit, Kalorien oder Protein, „Überrasch mich“.
+- **Was hab ich da?** – Zutaten suchen oder aus den beliebtesten antippen (oder Sets wie „Grundvorrat“ laden), wählen, ob alles da sein muss oder bis zu drei Zutaten fehlen dürfen, und passende Rezepte mit Trefferquote und Fehlliste bekommen. Salz, Pfeffer, Öl und gängige Gewürze zählen als Grundvorrat.
+- **Rezepte** – Volltextsuche, Schnellfilter-Chips (Vegetarisch, Vegan, unter 30 Min, Nachspeisen …), ausführliche Filter nach Kategorie, Küche, Dauer und Schwierigkeit hinter einem Filter-Button, Sortierung nach Zeit, Kalorien oder Protein, Zufallsrezept. Oben erscheint jede Woche der Abschnitt „Neu diese Woche“.
 - **Rezeptseite** – Portionen hoch- und runterrechnen, Zutaten mit dem Vorrat abgleichen, Schritte abhaken, Nährwerte, Teilen-Link, ähnliche Rezepte.
 - **Gespeichert** – Favoriten und Vorrat bleiben im Browser (localStorage) erhalten.
-- **Neu diese Woche** – jedes Rezept hat eine ISO-Kalenderwoche, ab der es sichtbar ist. Die App blendet automatisch jeden Montag die nächste Charge ein, ohne Deployment.
+- **Wöchentlich neu** – jedes Rezept hat eine ISO-Kalenderwoche, ab der es sichtbar ist. Die App blendet automatisch jeden Montag die nächste Charge ein, ohne Deployment.
+- **Design** – aufgeräumter Look nach dem Vorbild von Kochbox-Apps: Weiß, Grün, große Rezeptkacheln, Outfit und Manrope von Google Fonts.
 
 ## Entwicklung
 

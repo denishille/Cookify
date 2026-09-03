@@ -5,28 +5,32 @@ import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek, weekLte, formatWeek, addWeeks } from './lib/week'
 import { rankByPantry } from './lib/match'
+import { applyFilters, activeCount, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
-import { Filters } from './components/Filters'
-import { applyFilters, EMPTY_FILTERS, type FilterState } from './lib/filters'
+import { QuickFilters, FilterPanel } from './components/Filters'
+import { IconBasket, IconBook, IconDice, IconFilter, IconHeart, IconSearch, IconSparkle, IconX } from './components/Icons'
 
 const CURRENT_WEEK = isoWeek()
-
-/** Alle Rezepte, die bis einschließlich dieser Woche freigeschaltet sind. */
 const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRENT_WEEK))
 const UPCOMING: Recipe[] = ALL_RECIPES.filter((r) => !weekLte(r.addedWeek, CURRENT_WEEK))
 const NEW_THIS_WEEK = AVAILABLE.filter((r) => r.addedWeek === CURRENT_WEEK)
+const NEXT_WEEK_COUNT = UPCOMING.filter((r) => r.addedWeek === addWeeks(CURRENT_WEEK, 1)).length
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
 
-const NAV: { view: View; label: string; icon: string }[] = [
-  { view: 'konfigurator', label: 'Konfigurator', icon: '🧑‍🍳' },
-  { view: 'entdecken', label: 'Entdecken', icon: '🔍' },
-  { view: 'neu', label: 'Neu', icon: '✨' },
-  { view: 'gespeichert', label: 'Gespeichert', icon: '❤️' },
+const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
+  { view: 'rezepte', label: 'Rezepte', icon: <IconBook /> },
+  { view: 'vorrat', label: 'Was hab ich da?', icon: <IconBasket /> },
+  { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart /> },
 ]
 
-type Sort = 'relevanz' | 'neu' | 'schnell' | 'kcal' | 'protein'
+type Sort = 'standard' | 'neu' | 'schnell' | 'kcal' | 'protein'
+const MISSING_OPTIONS: { value: number; label: string }[] = [
+  { value: 0, label: 'Alles da' },
+  { value: 3, label: 'Bis zu 3 fehlen' },
+  { value: 99, label: 'Alle Treffer' },
+]
 
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
   const copy = [...list]
@@ -45,7 +49,7 @@ function related(recipe: Recipe): Recipe[] {
     .filter((r) => r.id !== recipe.id)
     .map((r) => ({ r, s: (r.category === recipe.category ? 2 : 0) + (r.cuisine === recipe.cuisine ? 1 : 0) + r.ingredients.filter((i) => keys.has(i.key)).length * 0.5 }))
     .sort((a, b) => b.s - a.s)
-    .slice(0, 5)
+    .slice(0, 6)
     .map((x) => x.r)
 }
 
@@ -53,80 +57,68 @@ export default function App() {
   const route = useRoute()
   const savedSet = usePersistentSet('kitchenaid.saved')
   const pantrySet = usePersistentSet('kitchenaid.pantry')
-  const [seenWeek, setSeenWeek] = usePersistentState<string>('kitchenaid.seenWeek', '')
-  const [maxMissing, setMaxMissing] = usePersistentState<number>('kitchenaid.maxMissing', 3)
+  const [storedMissing, setMaxMissing] = usePersistentState<number>('kitchenaid.maxMissing', 3)
+  const maxMissing = MISSING_OPTIONS.some((o) => o.value === storedMissing) ? storedMissing : 3
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
+  const [panelOpen, setPanelOpen] = useState(false)
   const [query, setQuery] = useState('')
-  const [sort, setSort] = useState<Sort>('relevanz')
+  const [sort, setSort] = useState<Sort>('standard')
 
-  const newBadge = NEW_THIS_WEEK.length > 0 && seenWeek !== CURRENT_WEEK ? NEW_THIS_WEEK.length : 0
-
-  const go = (view: View) => {
-    if (view === 'neu') setSeenWeek(CURRENT_WEEK)
-    navigate(view)
-  }
-
+  const pantryKey = [...pantrySet.set].sort().join(',')
   const pantryResults = useMemo(
-    () => rankByPantry(applyFilters(AVAILABLE, pantryFilters), pantrySet.set, maxMissing),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [pantrySet.set.size, [...pantrySet.set].join(','), maxMissing, pantryFilters],
+    () => rankByPantry(applyFilters(AVAILABLE, pantryFilters), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing),
+    [pantryKey, maxMissing, pantryFilters],
   )
 
-  const discoverResults = useMemo(() => {
-    const q = query.trim().toLowerCase()
+  const q = query.trim().toLowerCase()
+  const browsing = !q && isEmpty(filters)
+  const results = useMemo(() => {
     const base = applyFilters(AVAILABLE, filters).filter((r) =>
       !q || r.title.toLowerCase().includes(q) || r.description.toLowerCase().includes(q) ||
       r.tags.some((t) => t.includes(q)) || r.ingredients.some((i) => i.name.toLowerCase().includes(q)),
     )
     return sortRecipes(base, sort)
-  }, [query, filters, sort])
+  }, [q, filters, sort])
 
   const savedRecipes = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
-
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
 
   const surprise = () => {
-    const pool = discoverResults.length ? discoverResults : AVAILABLE
+    const pool = results.length ? results : AVAILABLE
     openRecipe(pool[Math.floor(Math.random() * pool.length)].id)
   }
 
-  const cardProps = (r: Recipe) => ({
-    recipe: r,
-    saved: savedSet.has(r.id),
-    onToggleSave: savedSet.toggle,
-    isNew: r.addedWeek === CURRENT_WEEK,
-  })
+  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK })
 
-  const nextWeekCount = UPCOMING.filter((r) => r.addedWeek === addWeeks(CURRENT_WEEK, 1)).length
+  const tabs = (className: string) => (
+    <nav className={className} aria-label="Hauptnavigation">
+      {NAV.map((n) => (
+        <button key={n.view} className={`tab ${route.view === n.view && !detail ? 'active' : ''}`} onClick={() => navigate(n.view)} aria-current={route.view === n.view && !detail ? 'page' : undefined}>
+          {n.icon}
+          <span>{n.label}</span>
+          {n.view === 'gespeichert' && savedSet.set.size > 0 && <span className="count">{savedSet.set.size}</span>}
+        </button>
+      ))}
+    </nav>
+  )
 
   return (
     <div className="app">
-      <header className="header">
-        <div className="header-inner">
-          <a className="brand" href="#/konfigurator">
-            <span className="brand-mark">🍳</span>
-            <span>KitchenAid<small>{AVAILABLE.length} Rezepte · {formatWeek(CURRENT_WEEK)}</small></span>
-          </a>
-          <nav className="nav">
-            {NAV.map((n) => (
-              <button key={n.view} className={route.view === n.view && !detail ? 'active' : ''} onClick={() => go(n.view)}>
-                <span className="ico">{n.icon}</span>
-                <span>{n.label}</span>
-                {n.view === 'neu' && newBadge > 0 && <span className="badge">{newBadge}</span>}
-                {n.view === 'gespeichert' && savedSet.set.size > 0 && <span className="badge" style={{ background: 'var(--text-muted)' }}>{savedSet.set.size}</span>}
-              </button>
-            ))}
-          </nav>
+      <header className="topbar">
+        <div className="topbar-inner">
+          <a className="brand" href="#/rezepte"><span className="brand-mark">K</span><span className="brand-name">KitchenAid</span></a>
+          {tabs('nav')}
         </div>
       </header>
+      {tabs('tabbar')}
 
       <main className="main">
         {route.recipeId && !detail && (
           <div className="empty">
-            <div className="big">🤷</div>
-            Dieses Rezept gibt es (noch) nicht.
-            <div style={{ marginTop: 12 }}><button className="btn" onClick={() => navigate('entdecken')}>Zu allen Rezepten</button></div>
+            <div className="ico"><IconSearch /></div>
+            <h3>Dieses Rezept gibt es (noch) nicht.</h3>
+            <button className="btn primary" onClick={() => navigate('rezepte')}>Zu allen Rezepten</button>
           </div>
         )}
 
@@ -140,55 +132,103 @@ export default function App() {
             onTogglePantry={pantrySet.toggle}
             related={related(detail)}
             isNew={detail.addedWeek === CURRENT_WEEK}
+            savedIds={savedSet.set}
           />
         )}
 
-        {!route.recipeId && route.view === 'konfigurator' && (
+        {!route.recipeId && route.view === 'rezepte' && (
           <>
-            <h1 className="page-title">Rezept-Konfigurator</h1>
-            <p className="page-sub">Wähle aus, was du zuhause hast, und wir finden das passende Gericht.</p>
-            <div className="two-col">
+            <h1 className="h1">Was kochen wir heute?</h1>
+            <p className="lead">{AVAILABLE.length} Rezepte, jede Woche kommen neue dazu.</p>
+
+            <div className="controls">
+              <div className="searchbox">
+                <IconSearch />
+                <input placeholder="Gericht oder Zutat suchen …" value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Rezepte durchsuchen" />
+                {query && <button className="clear" onClick={() => setQuery('')} aria-label="Suche löschen"><IconX width={16} height={16} /></button>}
+              </div>
+              <button className={`btn ${panelOpen || activeCount(filters) ? 'on' : ''}`} onClick={() => setPanelOpen((o) => !o)} aria-expanded={panelOpen}>
+                <IconFilter width={18} height={18} /> Filter {activeCount(filters) > 0 && <span className="n">{activeCount(filters)}</span>}
+              </button>
+              <select className="select" value={sort} onChange={(e) => setSort(e.target.value as Sort)} aria-label="Sortierung">
+                <option value="standard">Sortieren</option>
+                <option value="neu">Neueste zuerst</option>
+                <option value="schnell">Schnellste zuerst</option>
+                <option value="kcal">Wenigste Kalorien</option>
+                <option value="protein">Meistes Protein</option>
+              </select>
+              <button className="btn icon" onClick={surprise} aria-label="Zufälliges Rezept" title="Überrasch mich"><IconDice /></button>
+            </div>
+            <div style={{ marginTop: 14 }}><QuickFilters value={filters} onChange={setFilters} /></div>
+            {panelOpen && <FilterPanel value={filters} onChange={setFilters} onClose={() => setPanelOpen(false)} />}
+
+            {browsing && NEW_THIS_WEEK.length > 0 && (
+              <div className="section">
+                <div className="section-head">
+                  <h2><IconSparkle width={20} height={20} style={{ color: 'var(--green)', verticalAlign: -3, marginRight: 6 }} />Neu diese Woche</h2>
+                  <span className="sub">{formatWeek(CURRENT_WEEK)}{NEXT_WEEK_COUNT > 0 && ` · nächste Woche ${NEXT_WEEK_COUNT} weitere`}</span>
+                </div>
+                <div className="grid">{NEW_THIS_WEEK.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+              </div>
+            )}
+
+            <div className="section">
+              <div className="section-head">
+                <h2>{browsing ? 'Alle Rezepte' : 'Ergebnisse'}</h2>
+                <span className="sub">{results.length} {results.length === 1 ? 'Rezept' : 'Rezepte'}</span>
+              </div>
+              {results.length === 0 ? (
+                <div className="empty">
+                  <div className="ico"><IconSearch /></div>
+                  <h3>Nichts gefunden</h3>
+                  <p>Probier einen anderen Begriff oder setz die Filter zurück.</p>
+                  <button className="btn" onClick={() => { setQuery(''); setFilters(EMPTY_FILTERS) }}>Zurücksetzen</button>
+                </div>
+              ) : (
+                <div className="grid">{results.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+              )}
+            </div>
+          </>
+        )}
+
+        {!route.recipeId && route.view === 'vorrat' && (
+          <>
+            <h1 className="h1">Was hab ich da?</h1>
+            <p className="lead">Sag uns, was im Kühlschrank ist. Wir zeigen dir, was du daraus kochen kannst.</p>
+            <div className="split">
               <div className="sticky">
                 <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} onReplace={pantrySet.replace} />
               </div>
               <div>
-                <div className="panel" style={{ marginBottom: 14 }}>
-                  <div className="filter-row">
-                    <span className="filter-label">Fehlende Zutaten erlaubt</span>
-                    <div className="chips">
-                      {[0, 1, 2, 3, 5, 99].map((n) => (
-                        <button key={n} className={`chip ${maxMissing === n ? 'on' : ''}`} onClick={() => setMaxMissing(n)}>
-                          {n === 0 ? 'Keine – alles da' : n === 99 ? 'Egal, nach Treffern sortieren' : `bis zu ${n}`}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                  <Filters value={pantryFilters} onChange={setPantryFilters} compact />
-                </div>
-
                 {pantrySet.set.size === 0 ? (
                   <div className="empty">
-                    <div className="big">🧺</div>
-                    Füge links Zutaten hinzu, um Vorschläge zu bekommen.
-                  </div>
-                ) : pantryResults.length === 0 ? (
-                  <div className="empty">
-                    <div className="big">🍽️</div>
-                    Mit diesem Vorrat passt gerade nichts. Erlaube mehr fehlende Zutaten oder füge etwas hinzu.
+                    <div className="ico"><IconBasket /></div>
+                    <h3>Dein Vorrat ist noch leer</h3>
+                    <p>Füge ein paar Zutaten hinzu, dann geht es los.</p>
                   </div>
                 ) : (
                   <>
-                    <div className="section-title" style={{ marginTop: 0 }}>
-                      Das kannst du kochen <span className="count">{pantryResults.length} Treffer</span>
+                    <div className="results-head">
+                      <div className="segmented" role="group" aria-label="Fehlende Zutaten">
+                        {MISSING_OPTIONS.map((o) => (
+                          <button key={o.value} className={maxMissing === o.value ? 'on' : ''} onClick={() => setMaxMissing(o.value)}>{o.label}</button>
+                        ))}
+                      </div>
+                      <span className="hint">{pantryResults.length} {pantryResults.length === 1 ? 'Treffer' : 'Treffer'}</span>
                     </div>
-                    {pantryResults.length < 5 && maxMissing < 99 && (
-                      <p className="hint" style={{ marginTop: -6, marginBottom: 12 }}>Wenige Treffer? Erlaube mehr fehlende Zutaten oder lade das Set „Grundvorrat“.</p>
+                    <div style={{ marginBottom: 18 }}><QuickFilters value={pantryFilters} onChange={setPantryFilters} /></div>
+                    {pantryResults.length === 0 ? (
+                      <div className="empty">
+                        <div className="ico"><IconBasket /></div>
+                        <h3>Noch kein passendes Rezept</h3>
+                        <p>Erlaube fehlende Zutaten oder füge etwas hinzu.</p>
+                        {maxMissing !== 99 && <button className="btn" onClick={() => setMaxMissing(99)}>Alle Treffer zeigen</button>}
+                      </div>
+                    ) : (
+                      <div className="grid">
+                        {pantryResults.slice(0, 60).map((m) => <RecipeCard key={m.recipe.id} {...card(m.recipe)} match={m} />)}
+                      </div>
                     )}
-                    <div className="grid">
-                      {pantryResults.slice(0, 60).map((m) => (
-                        <RecipeCard key={m.recipe.id} {...cardProps(m.recipe)} match={m} />
-                      ))}
-                    </div>
                   </>
                 )}
               </div>
@@ -196,83 +236,19 @@ export default function App() {
           </>
         )}
 
-        {!route.recipeId && route.view === 'entdecken' && (
-          <>
-            <h1 className="page-title">Rezepte entdecken</h1>
-            <p className="page-sub">{AVAILABLE.length} Rezepte – von schnell bis festlich, von vegan bis Steak.</p>
-            <div className="toolbar">
-              <input className="input grow" placeholder="Suche nach Gericht, Zutat oder Tag …" value={query} onChange={(e) => setQuery(e.target.value)} />
-              <select className="select" value={sort} onChange={(e) => setSort(e.target.value as Sort)}>
-                <option value="relevanz">Sortierung: Standard</option>
-                <option value="neu">Neueste zuerst</option>
-                <option value="schnell">Schnellste zuerst</option>
-                <option value="kcal">Wenigste Kalorien</option>
-                <option value="protein">Meistes Protein</option>
-              </select>
-              <button className="btn" onClick={surprise}>🎲 Überrasch mich</button>
-            </div>
-            <div className="panel" style={{ marginBottom: 16 }}>
-              <Filters value={filters} onChange={setFilters} />
-            </div>
-            {discoverResults.length === 0 ? (
-              <div className="empty"><div className="big">🔍</div>Nichts gefunden. Probier andere Filter.</div>
-            ) : (
-              <div className="grid">
-                {discoverResults.map((r) => <RecipeCard key={r.id} {...cardProps(r)} />)}
-              </div>
-            )}
-          </>
-        )}
-
-        {!route.recipeId && route.view === 'neu' && (
-          <>
-            <div className="week-banner">
-              <h2>✨ Neu in {formatWeek(CURRENT_WEEK)}</h2>
-              <p>
-                {NEW_THIS_WEEK.length > 0
-                  ? `${NEW_THIS_WEEK.length} neue Rezepte sind diese Woche dazugekommen.`
-                  : 'Diese Woche gab es keinen Nachschub – nächste Woche geht es weiter.'}
-                {nextWeekCount > 0 && ` Nächste Woche kommen ${nextWeekCount} weitere.`}
-              </p>
-            </div>
-            {NEW_THIS_WEEK.length > 0 && (
-              <div className="grid">
-                {NEW_THIS_WEEK.map((r) => <RecipeCard key={r.id} {...cardProps(r)} />)}
-              </div>
-            )}
-            {(() => {
-              const older = [...new Set(AVAILABLE.map((r) => r.addedWeek))]
-                .filter((w) => w !== CURRENT_WEEK)
-                .sort()
-                .reverse()
-                .slice(0, 4)
-              return older.map((w) => {
-                const list = AVAILABLE.filter((r) => r.addedWeek === w)
-                return (
-                  <div key={w}>
-                    <div className="section-title">{formatWeek(w)} <span className="count">{list.length} Rezepte</span></div>
-                    <div className="grid">{list.map((r) => <RecipeCard key={r.id} {...cardProps(r)} />)}</div>
-                  </div>
-                )
-              })
-            })()}
-          </>
-        )}
-
         {!route.recipeId && route.view === 'gespeichert' && (
           <>
-            <h1 className="page-title">Gespeicherte Rezepte</h1>
-            <p className="page-sub">Deine Favoriten, direkt auf diesem Gerät gespeichert.</p>
+            <h1 className="h1">Gespeichert</h1>
+            <p className="lead">Deine Favoriten, auf diesem Gerät gespeichert.</p>
             {savedRecipes.length === 0 ? (
-              <div className="empty">
-                <div className="big">🤍</div>
-                Noch nichts gespeichert. Tippe auf das Herz bei einem Rezept.
-                <div style={{ marginTop: 12 }}><button className="btn primary" onClick={() => navigate('entdecken')}>Rezepte entdecken</button></div>
+              <div className="empty" style={{ marginTop: 22 }}>
+                <div className="ico"><IconHeart /></div>
+                <h3>Noch nichts gespeichert</h3>
+                <p>Tipp auf das Herz bei einem Rezept, dann findest du es hier wieder.</p>
+                <button className="btn primary" onClick={() => navigate('rezepte')}>Rezepte ansehen</button>
               </div>
             ) : (
-              <div className="grid">
-                {savedRecipes.map((r) => <RecipeCard key={r.id} {...cardProps(r)} />)}
-              </div>
+              <div className="grid" style={{ marginTop: 22 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
             )}
           </>
         )}

@@ -29,3 +29,13 @@ export const INGREDIENTS: IngredientDef[] = Object.values(INGREDIENT_GROUPS).fla
 export const INGREDIENT_BY_KEY: Map<string, IngredientDef> = new Map(INGREDIENTS.map((i) => [i.key, i]))
 
 export const STAPLE_KEYS: Set<string> = new Set(INGREDIENTS.filter((i) => i.staple).map((i) => i.key))
+
+/** Die am häufigsten benötigten Zutaten (ohne Grundvorrat), für die Schnellauswahl. */
+export const POPULAR_KEYS: string[] = (() => {
+  const count = new Map<string, number>()
+  for (const r of ALL_RECIPES) {
+    const keys = new Set(r.ingredients.filter((i) => !i.optional && !STAPLE_KEYS.has(i.key)).map((i) => i.key))
+    for (const k of keys) count.set(k, (count.get(k) ?? 0) + 1)
+  }
+  return [...count.entries()].sort((a, b) => b[1] - a[1]).slice(0, 20).map(([k]) => k)
+})()

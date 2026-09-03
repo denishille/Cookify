@@ -1,7 +1,10 @@
+import type { CSSProperties } from 'react'
 import type { Recipe } from '../types'
-import { CATEGORY_LABELS, DIET_LABELS } from '../types'
+import { DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import type { MatchResult } from '../lib/match'
 import { openRecipe } from '../lib/router'
+import { TILE_COLORS } from '../lib/tiles'
+import { IconClock, IconHeart } from './Icons'
 
 interface Props {
   recipe: Recipe
@@ -14,45 +17,51 @@ interface Props {
 export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props) {
   const pct = match ? Math.round(match.score * 100) : null
   return (
-    <article className="card" onClick={() => openRecipe(recipe.id)} role="link" tabIndex={0}
-      onKeyDown={(e) => { if (e.key === 'Enter') openRecipe(recipe.id) }}>
-      {isNew && <span className="card-new">NEU</span>}
-      <button
-        className={`card-fav ${saved ? 'on' : ''}`}
-        aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'}
-        onClick={(e) => { e.stopPropagation(); onToggleSave(recipe.id) }}
-      >
-        {saved ? '❤️' : '🤍'}
-      </button>
-      <div className="card-top">
-        <div className="card-emoji" aria-hidden>{recipe.emoji}</div>
-        <div className="card-head">
-          <div className="card-title">{recipe.title}</div>
-          <div className="card-meta">
-            <span>⏱ {recipe.timeMinutes} Min</span>
-            <span>{CATEGORY_LABELS[recipe.category]}</span>
-            <span>{recipe.nutrition.kcal} kcal</span>
-          </div>
-        </div>
+    <article
+      className="card"
+      role="link"
+      tabIndex={0}
+      onClick={() => openRecipe(recipe.id)}
+      onKeyDown={(e) => { if (e.key === 'Enter') openRecipe(recipe.id) }}
+    >
+      <div className="tile" style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
+        {isNew && <span className="badge-new">Neu</span>}
+        <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>
+        <button
+          className={`fav ${saved ? 'on' : ''}`}
+          aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'}
+          aria-pressed={saved}
+          onClick={(e) => { e.stopPropagation(); onToggleSave(recipe.id) }}
+        >
+          <IconHeart filled={saved} width={18} height={18} />
+        </button>
       </div>
-      <p className="card-desc">{recipe.description}</p>
-      {recipe.diet.length > 0 && (
-        <div className="chips">
-          {recipe.diet.slice(0, 3).map((d) => <span key={d} className="pill diet">{DIET_LABELS[d]}</span>)}
+      <div className="card-body">
+        <h3 className="card-title">{recipe.title}</h3>
+        <p className="card-sub">{recipe.description}</p>
+        <div className="meta">
+          <IconClock /> {recipe.timeMinutes} Min
+          <span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}
+          <span className="dot" /> {recipe.nutrition.kcal} kcal
         </div>
-      )}
-      {match && pct !== null && (
-        <>
-          <div className="match-line">
-            <span>{match.have.length} von {match.required.length} Zutaten da</span>
-            <span style={{ color: pct === 100 ? 'var(--green)' : 'var(--amber)' }}>{pct} %</span>
+        {recipe.diet.length > 0 && !match && (
+          <div className="pills">
+            {recipe.diet.slice(0, 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
           </div>
-          <div className={`match-bar ${pct < 100 ? 'partial' : ''}`}><div style={{ width: `${pct}%` }} /></div>
-          {match.missing.length > 0 && (
-            <div className="missing">Fehlt: <b>{match.missing.map((m) => m.name).join(', ')}</b></div>
-          )}
-        </>
-      )}
+        )}
+        {match && pct !== null && (
+          <div className="match">
+            <div className="match-line">
+              <span>{match.have.length} von {match.required.length} Zutaten da</span>
+              <span style={{ color: pct === 100 ? 'var(--green)' : 'var(--amber)' }}>{pct} %</span>
+            </div>
+            <div className={`match-bar ${pct < 100 ? 'partial' : ''}`}><div style={{ width: `${pct}%` }} /></div>
+            {match.missing.length > 0 && (
+              <div className="match-missing">Fehlt: <b>{match.missing.map((m) => m.name).join(', ')}</b></div>
+            )}
+          </div>
+        )}
+      </div>
     </article>
   )
 }
