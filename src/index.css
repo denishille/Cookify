@@ -154,7 +154,7 @@ svg { flex-shrink: 0; }
 .searchbox.lg svg:first-child { left: 18px; width: 22px; height: 22px; }
 .config-grid { display: grid; grid-template-columns: 1fr; gap: 22px 40px; }
 @media (min-width: 900px) { .config-grid { grid-template-columns: 1fr 1fr; } }
-.config-grid .filter-row { gap: 10px; }
+.config-grid .filter-row { gap: 10px; align-content: start; }
 .config-foot { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding-top: 6px; border-top: 1px solid var(--border); padding-top: 20px; }
 
 /* ---------- Typography helpers ---------- */
