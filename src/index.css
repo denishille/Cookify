@@ -158,7 +158,7 @@ svg { flex-shrink: 0; }
 /* Vorschläge des Tages: seitlich scrollen */
 .strip {
   display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
-  margin: 0 -20px; padding: 4px 20px 10px;
+  margin: 0 -20px; padding: 4px 20px 10px; scroll-padding-inline: 20px;
 }
 .strip::-webkit-scrollbar { display: none; }
 .strip .card { flex: 0 0 min(250px, 72vw); scroll-snap-align: start; }
@@ -456,7 +456,7 @@ details.browse[open] > summary svg { transform: rotate(180deg); }
 .nutrition b { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; }
 .nutrition small { color: var(--muted); font-size: 0.78rem; }
 
-.related { display: flex; gap: 12px; overflow-x: auto; scrollbar-width: none; margin: 0 -20px; padding: 4px 20px 8px; }
+.related { display: flex; gap: 12px; overflow-x: auto; scrollbar-width: none; margin: 0 -20px; padding: 4px 20px 8px; scroll-padding-inline: 20px; }
 .related::-webkit-scrollbar { display: none; }
 .related .card { width: 170px; flex-shrink: 0; }
 
