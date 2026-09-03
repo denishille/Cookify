@@ -1,0 +1,4843 @@
+[
+  {
+    "id": "d-tiramisu",
+    "title": "Klassisches Tiramisu",
+    "description": "Cremige Mascarpone-Schichten, in Espresso getränkte Löffelbiskuits und eine Haube aus Kakao – der italienische Dessert-Klassiker, der über Nacht am besten wird.",
+    "emoji": "🍰",
+    "category": "nachspeise",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 270,
+    "difficulty": "mittel",
+    "servings": 8,
+    "nutrition": {
+      "kcal": 440,
+      "protein": 9,
+      "carbs": 35,
+      "fat": 29
+    },
+    "ingredients": [
+      {
+        "key": "loeffelbiskuits",
+        "name": "Löffelbiskuits",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "mascarpone",
+        "name": "Mascarpone",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier (sehr frisch)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "kaffee",
+        "name": "Espresso, abgekühlt",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver zum Bestäuben",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      }
+    ],
+    "steps": [
+      "Koche 250 ml Espresso und lass ihn in einer flachen Schale vollständig abkühlen.",
+      "Trenne die Eier. Schlage die Eigelbe mit Zucker und Vanillezucker etwa 3 Minuten hellcremig, bis sich der Zucker aufgelöst hat.",
+      "Rühre die Mascarpone löffelweise unter die Eigelbmasse, bis eine glatte Creme entsteht.",
+      "Schlage die Eiweiße mit einer Prise Salz steif und hebe sie vorsichtig in zwei Portionen unter die Mascarpone-Creme.",
+      "Tauche die Löffelbiskuits kurz (1–2 Sekunden pro Seite) in den Espresso und lege damit den Boden einer Auflaufform (ca. 20 x 30 cm) aus.",
+      "Verteile die Hälfte der Creme darauf, dann eine zweite Schicht getränkte Biskuits und zum Schluss die restliche Creme glatt streichen.",
+      "Decke die Form ab und stelle das Tiramisu mindestens 4 Stunden, besser über Nacht, in den Kühlschrank.",
+      "Bestäube das Tiramisu kurz vor dem Servieren dick mit Kakao."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "ohne-backen",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-panna-cotta",
+    "title": "Panna Cotta mit Himbeersauce",
+    "description": "Zarte Vanille-Sahnecreme, die auf dem Teller sanft wackelt, dazu eine fruchtig-säuerliche Himbeersauce – elegant und mit nur wenigen Zutaten gemacht.",
+    "emoji": "🍮",
+    "category": "nachspeise",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 260,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 460,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 38
+    },
+    "ingredients": [
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleschote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gelatine",
+        "name": "Blattgelatine",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "himbeeren",
+        "name": "Himbeeren (frisch oder TK)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "minze",
+        "name": "Minze zum Garnieren",
+        "amount": 4,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Weiche die Gelatine 5 Minuten in kaltem Wasser ein.",
+      "Schlitze die Vanilleschote längs auf und kratze das Mark heraus. Gib Mark, Schote, Sahne und Zucker in einen Topf und erhitze alles unter Rühren, bis es kurz aufkocht.",
+      "Nimm den Topf vom Herd, entferne die Schote und lass die Sahne 2 Minuten abkühlen. Drücke die Gelatine aus und rühre sie in der heißen Sahne auf, bis sie sich vollständig aufgelöst hat.",
+      "Fülle die Masse in 4 Förmchen oder Gläser (je ca. 150 ml) und stelle sie mindestens 4 Stunden kalt.",
+      "Püriere für die Sauce die Himbeeren mit Puderzucker und Zitronensaft und streiche sie nach Belieben durch ein Sieb.",
+      "Stürze die Panna Cotta auf Teller (Förmchen kurz in heißes Wasser tauchen) oder serviere sie im Glas, mit Himbeersauce und Minze."
+    ],
+    "tags": [
+      "gaeste",
+      "klassiker",
+      "ohne-backen",
+      "sommer"
+    ]
+  },
+  {
+    "id": "d-mousse-au-chocolat",
+    "title": "Mousse au Chocolat",
+    "description": "Luftig-schaumige Schokoladenmousse aus nur wenigen Zutaten – intensiv schokoladig und auf der Zunge schmelzend.",
+    "emoji": "🍫",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 210,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 555,
+      "protein": 9,
+      "carbs": 32,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade (70 %)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier (sehr frisch)",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kaffee",
+        "name": "Espresso",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Hacke die Schokolade grob und schmilz sie mit der Butter über einem heißen Wasserbad. Rühre den Espresso ein und lass die Masse lauwarm abkühlen.",
+      "Trenne die Eier. Schlage die Eigelbe mit der Hälfte des Zuckers 2 Minuten cremig und rühre sie unter die lauwarme Schokolade.",
+      "Schlage die Sahne steif und stelle sie kalt.",
+      "Schlage die Eiweiße mit Salz und dem restlichen Zucker zu festem Schnee.",
+      "Hebe zuerst die Sahne, dann in zwei Portionen den Eischnee vorsichtig unter die Schokoladenmasse – nicht rühren, damit die Luft erhalten bleibt.",
+      "Fülle die Mousse in Gläser und stelle sie mindestens 3 Stunden in den Kühlschrank."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "ohne-backen",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-creme-brulee",
+    "title": "Crème brûlée",
+    "description": "Seidige Vanillecreme unter einer knackigen Karamellkruste – das Knacken beim ersten Löffel gehört einfach dazu.",
+    "emoji": "🔥",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 180,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 495,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "eier",
+        "name": "Eigelb",
+        "amount": 5,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleschote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker für die Kruste",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      }
+    ],
+    "steps": [
+      "Heize den Backofen auf 150 °C Ober-/Unterhitze vor und stelle 4 flache, ofenfeste Förmchen in eine tiefe Auflaufform.",
+      "Kratze das Vanillemark aus der Schote. Erhitze Sahne, Milch, Vanillemark und Schote in einem Topf, bis es fast kocht, und lass alles 10 Minuten ziehen.",
+      "Verrühre die Eigelbe mit Zucker und Salz, ohne sie schaumig zu schlagen. Gieße die warme Sahne (ohne Schote) langsam unter Rühren dazu.",
+      "Verteile die Creme auf die Förmchen. Fülle die Auflaufform so weit mit heißem Wasser, dass die Förmchen zur Hälfte darin stehen.",
+      "Backe die Creme 35–40 Minuten, bis sie am Rand fest ist und in der Mitte noch leicht wackelt.",
+      "Lass die Förmchen abkühlen und stelle sie mindestens 2 Stunden in den Kühlschrank.",
+      "Bestreue jede Creme vor dem Servieren mit 1 EL braunem Zucker und karamellisiere ihn mit einem Küchenbrenner oder 2–3 Minuten unter dem heißen Grill."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "suess",
+      "franzoesisch"
+    ]
+  },
+  {
+    "id": "d-apfelstrudel",
+    "title": "Apfelstrudel mit Blätterteig",
+    "description": "Schneller Apfelstrudel aus fertigem Blätterteig mit zimtiger Apfel-Rosinen-Füllung – knusprig außen, saftig innen und perfekt mit Vanilleeis.",
+    "emoji": "🥧",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "einfach",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 390,
+      "protein": 5,
+      "carbs": 52,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "blaetterteig",
+        "name": "Blätterteig (Rolle, ca. 275 g)",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "apfel",
+        "name": "Äpfel (säuerlich, z. B. Boskoop)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "eier",
+        "name": "Ei zum Bestreichen",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Schäle die Äpfel, entkerne sie und schneide sie in dünne Scheiben. Mische sie mit Zitronensaft, Zucker, Zimt und Rosinen.",
+      "Röste die Semmelbrösel in 20 g Butter in einer Pfanne 3 Minuten goldbraun und lass sie kurz abkühlen.",
+      "Rolle den Blätterteig samt Backpapier aus und streue die gerösteten Brösel längs auf die Mitte, dabei an den Rändern je 3 cm frei lassen.",
+      "Verteile die Apfelmischung auf den Bröseln, klappe die kurzen Seiten ein und rolle den Strudel mithilfe des Backpapiers von der langen Seite her auf.",
+      "Lege den Strudel mit der Naht nach unten auf ein Backblech, bestreiche ihn mit verquirltem Ei und der restlichen zerlassenen Butter.",
+      "Backe den Strudel 30–35 Minuten goldbraun, lass ihn 10 Minuten ruhen und bestäube ihn mit Puderzucker."
+    ],
+    "tags": [
+      "klassiker",
+      "winter",
+      "gaeste",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-kaiserschmarrn",
+    "title": "Kaiserschmarrn mit Apfelmus",
+    "description": "Fluffiger, karamellisierter Pfannkuchenschmarrn nach österreichischer Art mit Rosinen und Puderzucker – dazu ein Klecks Apfelmus.",
+    "emoji": "🥞",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 790,
+      "protein": 22,
+      "carbs": 105,
+      "fat": 28
+    },
+    "ingredients": [
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 40,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "apfelmus",
+        "name": "Apfelmus",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Trenne die Eier. Verrühre Eigelbe, Milch, Mehl, Vanillezucker und die Hälfte des Zuckers zu einem glatten Teig.",
+      "Schlage die Eiweiße mit Salz und dem restlichen Zucker steif und hebe sie locker unter den Teig.",
+      "Erhitze 20 g Butter in einer großen beschichteten Pfanne bei mittlerer Hitze. Gieße den Teig hinein, streue die Rosinen darüber und backe ihn zugedeckt 4–5 Minuten, bis die Unterseite goldbraun ist.",
+      "Teile den Schmarrn mit zwei Pfannenwendern in Viertel, wende sie und backe sie weitere 3 Minuten.",
+      "Zerreiße den Schmarrn in mundgerechte Stücke, gib die restliche Butter und 1 EL Puderzucker dazu und lass alles 2 Minuten bei höherer Hitze karamellisieren.",
+      "Bestäube den Kaiserschmarrn mit dem restlichen Puderzucker und serviere ihn sofort mit Apfelmus."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "kinder",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-milchreis-zimt",
+    "title": "Cremiger Milchreis mit Zimt und Kirschen",
+    "description": "Sämiger Milchreis wie aus der Kindheit, mit Vanille gekocht und mit Zimtzucker und warmen Kirschen serviert.",
+    "emoji": "🍚",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 530,
+      "protein": 13,
+      "carbs": 90,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "milchreis",
+        "name": "Milchreis",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleschote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker für den Zimtzucker",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kirschen",
+        "name": "Sauerkirschen (Glas, mit Saft)",
+        "amount": 350,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Bringe die Milch mit Zucker, Salz, dem Vanillemark und der ausgekratzten Schote in einem großen Topf zum Kochen.",
+      "Rühre den Milchreis ein und lass ihn bei kleinster Hitze 25–30 Minuten zugedeckt quellen. Rühre alle paar Minuten um, damit nichts ansetzt.",
+      "Erwärme währenddessen die Kirschen mit ihrem Saft in einem kleinen Topf 5 Minuten bei mittlerer Hitze.",
+      "Mische Zimt und braunen Zucker zum Zimtzucker.",
+      "Rühre die Butter unter den fertigen Milchreis und entferne die Vanilleschote.",
+      "Verteile den Milchreis auf Schalen, bestreue ihn mit Zimtzucker und serviere die warmen Kirschen dazu."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "winter",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-schoko-lava-cake",
+    "title": "Schoko-Lava-Cake",
+    "description": "Kleine warme Schokoküchlein mit flüssigem Kern – in 12 Minuten gebacken und mit einer Kugel Vanilleeis ein echter Showstopper.",
+    "emoji": "🌋",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 600,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakao für die Förmchen",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "eis-vanille",
+        "name": "Vanilleeis zum Servieren",
+        "amount": 200,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Fette 4 Muffin- oder Souffléförmchen mit etwas Butter ein und stäube sie mit Kakao aus.",
+      "Schmilz Schokolade und Butter über dem Wasserbad und lass die Masse 5 Minuten abkühlen.",
+      "Schlage Eier, Zucker und Salz mit dem Handrührgerät 3 Minuten hellschaumig.",
+      "Rühre die Schokoladenbutter unter die Eiermasse und siebe zum Schluss das Mehl darüber. Hebe es nur kurz unter.",
+      "Verteile den Teig auf die Förmchen und backe die Küchlein 10–12 Minuten – der Rand ist fest, die Mitte noch weich.",
+      "Lass die Küchlein 1 Minute ruhen, stürze sie auf Teller und serviere sie sofort mit Vanilleeis."
+    ],
+    "tags": [
+      "gaeste",
+      "schnell",
+      "suess",
+      "schokolade"
+    ]
+  },
+  {
+    "id": "d-bratapfel",
+    "title": "Bratapfel mit Mandel-Rosinen-Füllung",
+    "description": "Im Ofen gebackene Äpfel mit einer Füllung aus Mandeln, Rosinen, Honig und Zimt – duftet nach Weihnachten und schmeckt mit Vanillesahne am besten.",
+    "emoji": "🍎",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 425,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 25
+    },
+    "ingredients": [
+      {
+        "key": "apfel",
+        "name": "Äpfel (z. B. Boskoop)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, gemahlen",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, gehackt",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "orangensaft",
+        "name": "Orangensaft",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 100,
+        "unit": "ml",
+        "optional": true
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor. Wasche die Äpfel und schneide oben einen Deckel ab. Höhle das Kerngehäuse mit einem Kugelausstecher oder Teelöffel aus, ohne den Boden zu durchstechen.",
+      "Verknete gemahlene Mandeln, Walnüsse, Rosinen, Honig, weiche Butter und Zimt zu einer Füllung.",
+      "Fülle die Äpfel großzügig damit, setze die Deckel wieder auf und stelle sie in eine Auflaufform.",
+      "Gieße den Orangensaft in die Form und backe die Äpfel 30 Minuten, bis sie weich sind und die Füllung leicht gebräunt ist.",
+      "Schlage die Sahne mit Vanillezucker halbsteif.",
+      "Serviere die Bratäpfel warm mit etwas Bratensaft aus der Form und der Vanillesahne."
+    ],
+    "tags": [
+      "weihnachten",
+      "winter",
+      "klassiker",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-rote-gruetze",
+    "title": "Rote Grütze",
+    "description": "Norddeutscher Klassiker aus roten Beeren und Kirschen, mit Speisestärke leicht gebunden – fruchtig, erfrischend und ganz ohne tierische Zutaten.",
+    "emoji": "🍒",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 145,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 235,
+      "protein": 3,
+      "carbs": 50,
+      "fat": 1
+    },
+    "ingredients": [
+      {
+        "key": "beeren",
+        "name": "Gemischte rote Beeren (TK: Johannisbeeren, Himbeeren, Erdbeeren)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "kirschen",
+        "name": "Sauerkirschen (Glas, abgetropft)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "orangensaft",
+        "name": "Kirsch- oder Orangensaft",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sojajoghurt",
+        "name": "Vanille-Sojajoghurt zum Servieren",
+        "amount": 200,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Gib die Beeren, die Kirschen, 150 ml Saft, Zucker und Vanillezucker in einen Topf und bringe alles bei mittlerer Hitze zum Kochen.",
+      "Lass die Früchte 5 Minuten köcheln, bis die Beeren aufgetaut und weich sind.",
+      "Rühre die Speisestärke mit den restlichen 50 ml kaltem Saft glatt und gieße sie unter Rühren in die kochenden Früchte.",
+      "Lass die Grütze 1–2 Minuten sprudelnd kochen, bis sie andickt, und schmecke sie mit Zitronensaft ab.",
+      "Fülle die Rote Grütze in Schalen, lass sie abkühlen und stelle sie mindestens 2 Stunden kalt.",
+      "Serviere sie mit Vanille-Sojajoghurt oder pflanzlicher Vanillesauce."
+    ],
+    "tags": [
+      "klassiker",
+      "sommer",
+      "kalorienarm",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-cheesecake-im-glas",
+    "title": "Cheesecake im Glas ohne Backen",
+    "description": "Knuspriger Keksboden, luftige Frischkäsecreme mit Zitrone und frische Erdbeeren – ein Cheesecake, der ohne Ofen auskommt und in Gläsern serviert wird.",
+    "emoji": "🥛",
+    "category": "nachspeise",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 85,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 505,
+      "protein": 9,
+      "carbs": 40,
+      "fat": 35
+    },
+    "ingredients": [
+      {
+        "key": "butterkekse",
+        "name": "Butterkekse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, zerlassen",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "frischkaese",
+        "name": "Doppelrahm-Frischkäse",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "griechischer-joghurt",
+        "name": "Griechischer Joghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb und Saft)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "erdbeeren",
+        "name": "Erdbeeren",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "minze",
+        "name": "Minze zum Garnieren",
+        "amount": 4,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Zerbrösele die Butterkekse in einem Gefrierbeutel mit dem Nudelholz fein und vermische sie mit der zerlassenen Butter.",
+      "Verteile die Keksmasse auf 4 Gläser und drücke sie mit einem Löffel leicht fest.",
+      "Verrühre Frischkäse, griechischen Joghurt, Puderzucker, Vanillezucker, Zitronenabrieb und 2 EL Zitronensaft zu einer glatten Creme.",
+      "Fülle die Creme auf die Keksböden und stelle die Gläser mindestens 1 Stunde in den Kühlschrank.",
+      "Würfle die Erdbeeren klein, mische sie mit dem Zucker und lass sie 10 Minuten Saft ziehen.",
+      "Verteile die Erdbeeren kurz vor dem Servieren auf der Creme und garniere mit Minze."
+    ],
+    "tags": [
+      "ohne-backen",
+      "sommer",
+      "gaeste",
+      "schnell"
+    ]
+  },
+  {
+    "id": "d-nicecream-schoko",
+    "title": "Schoko-Nicecream aus gefrorenen Bananen",
+    "description": "Cremiges Eis ganz ohne Eismaschine: gefrorene Bananen, Kakao und ein Löffel Erdnussbutter werden einfach püriert – vegan und in 10 Minuten fertig.",
+    "emoji": "🍌",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 300,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "key": "banane",
+        "name": "Reife Bananen, in Scheiben eingefroren",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "hafermilch",
+        "name": "Hafermilch",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 1,
+        "unit": "TL",
+        "optional": true
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade, gehackt",
+        "amount": 20,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Schneide die Bananen am Vortag in Scheiben und friere sie auf einem Teller mindestens 6 Stunden ein.",
+      "Gib die gefrorenen Bananenscheiben mit Kakao, Erdnussbutter, Vanille, Salz und Hafermilch in einen leistungsstarken Mixer oder eine Küchenmaschine.",
+      "Püriere alles 2–3 Minuten und schiebe die Masse zwischendurch mit einem Löffel vom Rand nach unten, bis eine cremige Eismasse entsteht.",
+      "Schmecke die Nicecream mit Ahornsirup ab, falls du es süßer magst.",
+      "Serviere das Eis sofort als Softeis oder friere es 30 Minuten ein, um Kugeln formen zu können. Bestreue es mit gehackter Schokolade."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "vegan",
+      "ohne-backen"
+    ]
+  },
+  {
+    "id": "d-obstsalat-minze",
+    "title": "Sommerlicher Obstsalat mit Limette und Minze",
+    "description": "Bunter Obstsalat aus Melone, Erdbeeren, Mango und Kiwi mit einem Limetten-Minz-Dressing – frisch, leicht und perfekt für heiße Tage.",
+    "emoji": "🍉",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 180,
+      "protein": 2,
+      "carbs": 40,
+      "fat": 1
+    },
+    "ingredients": [
+      {
+        "key": "wassermelone",
+        "name": "Wassermelone",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "erdbeeren",
+        "name": "Erdbeeren",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "mango",
+        "name": "Mango",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kiwi",
+        "name": "Kiwis",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "trauben",
+        "name": "Weintrauben, kernlos",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "heidelbeeren",
+        "name": "Heidelbeeren",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "agavendicksaft",
+        "name": "Agavendicksaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "minze",
+        "name": "Minze",
+        "amount": 1,
+        "unit": "Handvoll"
+      }
+    ],
+    "steps": [
+      "Schneide die Wassermelone in 2 cm große Würfel und entferne dabei die Kerne.",
+      "Putze die Erdbeeren und halbiere sie. Schäle Mango und Kiwis und schneide sie in mundgerechte Stücke. Halbiere die Trauben.",
+      "Vermische alle Früchte mit den Heidelbeeren in einer großen Schüssel.",
+      "Verrühre Limettensaft und -abrieb mit dem Agavendicksaft und gieße das Dressing über den Salat.",
+      "Schneide die Minze in feine Streifen, hebe sie unter und lass den Obstsalat 10 Minuten im Kühlschrank durchziehen."
+    ],
+    "tags": [
+      "sommer",
+      "schnell",
+      "kalorienarm",
+      "vegan",
+      "kinder"
+    ]
+  },
+  {
+    "id": "d-brownies",
+    "title": "Saftige Schoko-Brownies",
+    "description": "Außen mit knuspriger Kruste, innen schokoladig-fudgy: klassische Brownies mit Walnüssen, die in unter einer Stunde auf dem Tisch stehen.",
+    "emoji": "🟫",
+    "category": "nachspeise",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 50,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 390,
+      "protein": 6,
+      "carbs": 33,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, grob gehackt",
+        "amount": 80,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und lege eine Backform (ca. 20 x 30 cm) mit Backpapier aus.",
+      "Schmilz Schokolade und Butter bei kleiner Hitze in einem Topf und lass die Masse 5 Minuten abkühlen.",
+      "Schlage Eier, Zucker und Vanillezucker 3 Minuten mit dem Handrührgerät schaumig und rühre die Schokoladenbutter unter.",
+      "Siebe Mehl, Kakao und Salz darüber und hebe alles nur so lange unter, bis kein Mehl mehr sichtbar ist. Rühre die Walnüsse ein.",
+      "Streiche den Teig in die Form und backe die Brownies 25 Minuten – die Mitte darf noch leicht feucht sein.",
+      "Lass die Brownies in der Form vollständig abkühlen und schneide sie in 12 Stücke."
+    ],
+    "tags": [
+      "klassiker",
+      "schokolade",
+      "kinder",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "d-skyr-beeren-creme",
+    "title": "Skyr-Beeren-Creme mit Proteinpulver",
+    "description": "Proteinreiches Dessert in 10 Minuten: cremiger Skyr mit Vanille-Proteinpulver, frischen Beeren und gerösteten Mandeln – sättigend und trotzdem leicht.",
+    "emoji": "🫐",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "proteinreich",
+      "kalorienarm",
+      "glutenfrei"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 315,
+      "protein": 36,
+      "carbs": 26,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "skyr",
+        "name": "Skyr natur",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "proteinpulver",
+        "name": "Proteinpulver Vanille",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "beeren",
+        "name": "Gemischte Beeren",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokosraspeln",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Röste die Mandelblättchen in einer Pfanne ohne Fett 2–3 Minuten goldbraun und lass sie abkühlen.",
+      "Verrühre Skyr, Proteinpulver, Vanille und die Hälfte des Honigs zu einer glatten Creme. Ist sie zu fest, gib 1–2 EL Milch oder Wasser dazu.",
+      "Zerdrücke die Hälfte der Beeren mit einer Gabel und mische sie mit Zitronensaft und dem restlichen Honig.",
+      "Schichte die Skyr-Creme und das Beerenmus abwechselnd in zwei Gläser.",
+      "Belege die Creme mit den restlichen Beeren, Mandeln, Zimt und Kokosraspeln und serviere sie sofort."
+    ],
+    "tags": [
+      "schnell",
+      "proteinreich",
+      "kalorienarm",
+      "fitness"
+    ]
+  },
+  {
+    "id": "d-crepes-apfelmus",
+    "title": "Crêpes mit Apfelmus und Zimt",
+    "description": "Hauchdünne französische Pfannkuchen, gefüllt mit warmem Apfelmus und Zimt – schnell gemacht und ein Hit bei Groß und Klein.",
+    "emoji": "🍏",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch",
+      "kalorienarm"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 385,
+      "protein": 11,
+      "carbs": 55,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "apfelmus",
+        "name": "Apfelmus",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Verquirle Mehl, Milch, Eier, Zucker, Vanillezucker und Salz mit einem Schneebesen zu einem dünnflüssigen, klümpchenfreien Teig. Lass ihn 10 Minuten quellen.",
+      "Schmilz die Hälfte der Butter, rühre sie unter den Teig und erwärme das Apfelmus mit dem Zimt bei kleiner Hitze.",
+      "Erhitze eine beschichtete Pfanne (ca. 24 cm) bei mittlerer bis hoher Hitze und fette sie mit etwas Butter ein.",
+      "Gieße eine kleine Kelle Teig hinein, schwenke die Pfanne, damit der Boden dünn bedeckt ist, und backe den Crêpe 1–2 Minuten, bis der Rand sich löst. Wende ihn und backe ihn weitere 30 Sekunden.",
+      "Backe so 8 Crêpes und halte sie auf einem Teller unter einem Tuch warm.",
+      "Bestreiche jeden Crêpe mit warmem Zimt-Apfelmus, falte ihn zu Vierteln und bestäube ihn mit Puderzucker."
+    ],
+    "tags": [
+      "schnell",
+      "kinder",
+      "klassiker",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-affogato",
+    "title": "Affogato al Caffè",
+    "description": "Das schnellste italienische Dessert: eine Kugel Vanilleeis, mit heißem Espresso übergossen, dazu gehobelte Schokolade und geröstete Mandeln.",
+    "emoji": "☕",
+    "category": "nachspeise",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 400,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "eis-vanille",
+        "name": "Vanilleeis",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "kaffee",
+        "name": "Espresso, frisch gebrüht",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade, gehobelt",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "butterkekse",
+        "name": "Cantuccini oder Amaretti",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne, geschlagen",
+        "amount": 50,
+        "unit": "ml",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Röste die Mandelblättchen in einer Pfanne ohne Fett 2 Minuten goldgelb und lass sie abkühlen.",
+      "Stelle zwei Gläser oder Tassen 10 Minuten ins Gefrierfach, damit das Eis nicht zu schnell schmilzt.",
+      "Setze in jedes Glas zwei Kugeln Vanilleeis und brühe den Espresso frisch auf.",
+      "Gieße den heißen Espresso direkt am Tisch über das Eis.",
+      "Bestreue den Affogato mit Schokolade, Mandeln und einer Prise Kakao, gib nach Belieben einen Klecks Sahne dazu und serviere die Kekse zum Tunken."
+    ],
+    "tags": [
+      "schnell",
+      "gaeste",
+      "kaffee",
+      "sommer"
+    ]
+  },
+  {
+    "id": "d-rhabarber-crumble",
+    "title": "Rhabarber-Erdbeer-Crumble",
+    "description": "Säuerlicher Rhabarber und süße Erdbeeren unter knusprigen Haferstreuseln mit Kokosöl – ein veganer Frühlingsklassiker, warm aus dem Ofen.",
+    "emoji": "🌿",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 55,
+    "difficulty": "einfach",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 475,
+      "protein": 6,
+      "carbs": 65,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "rhabarber",
+        "name": "Rhabarber",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "erdbeeren",
+        "name": "Erdbeeren",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "kokosoel",
+        "name": "Kokosöl, fest",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 40,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor. Putze den Rhabarber und schneide ihn in 2 cm lange Stücke, halbiere die Erdbeeren.",
+      "Mische die Früchte mit Zucker, Vanillezucker und Speisestärke und gib sie in eine Auflaufform (ca. 20 x 25 cm).",
+      "Verknete Mehl, Haferflocken, braunen Zucker, Zimt, Salz und das feste Kokosöl mit den Fingerspitzen zu groben Streuseln.",
+      "Verteile die Streusel und die Mandelblättchen locker über den Früchten.",
+      "Backe den Crumble 35 Minuten, bis die Streusel goldbraun sind und der Fruchtsaft am Rand blubbert.",
+      "Lass den Crumble 10 Minuten abkühlen und serviere ihn warm, nach Belieben mit pflanzlicher Vanillesauce."
+    ],
+    "tags": [
+      "vegan",
+      "fruehling",
+      "gaeste",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-schokopudding",
+    "title": "Selbstgemachter Schokoladenpudding",
+    "description": "Kein Pulver aus der Tüte: intensiver Schokopudding aus Milch, Zartbitterschokolade und Kakao – in 15 Minuten gekocht und herrlich cremig.",
+    "emoji": "🍮",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 135,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 380,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne für die Sahnehaube",
+        "amount": 100,
+        "unit": "ml",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verrühre Speisestärke, Kakao und Zucker mit 100 ml der kalten Milch klümpchenfrei.",
+      "Erhitze die restliche Milch mit Salz und der grob gehackten Schokolade unter Rühren, bis die Schokolade geschmolzen ist und die Milch fast kocht.",
+      "Gieße die Stärkemischung unter ständigem Rühren in die heiße Milch und lass den Pudding 1–2 Minuten sprudelnd kochen, bis er dick wird.",
+      "Rühre den Vanilleextrakt ein und fülle den Pudding in 4 Schälchen. Lege Frischhaltefolie direkt auf die Oberfläche, damit sich keine Haut bildet.",
+      "Stelle den Pudding mindestens 2 Stunden kalt.",
+      "Schlage die Sahne steif und serviere den Pudding mit einer Sahnehaube."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "schokolade",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-mango-kokos-creme",
+    "title": "Mango-Kokos-Creme",
+    "description": "Samtige Creme aus reifer Mango und kalter Kokosmilch mit Limette und Kardamom – vegan, glutenfrei und wunderbar erfrischend.",
+    "emoji": "🥭",
+    "category": "nachspeise",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 80,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 360,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "mango",
+        "name": "Reife Mangos",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch (Dose, über Nacht gekühlt)",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "agavendicksaft",
+        "name": "Agavendicksaft",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kardamom",
+        "name": "Kardamom, gemahlen",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokosraspeln",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pistazien",
+        "name": "Pistazien, gehackt",
+        "amount": 20,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "minze",
+        "name": "Minze",
+        "amount": 4,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Öffne die gekühlte Kokosmilch und schöpfe den festen weißen Teil in eine Schüssel. Das Kokoswasser brauchst du nicht.",
+      "Schäle die Mangos, schneide das Fruchtfleisch vom Stein und stelle ein paar Würfel zum Garnieren beiseite.",
+      "Püriere das restliche Mangofleisch mit Limettensaft, Agavendicksaft, Vanille und Kardamom zu einem feinen Mus.",
+      "Schlage die feste Kokoscreme mit dem Handrührgerät 2 Minuten cremig und hebe das Mangomus unter.",
+      "Fülle die Creme in 4 Gläser und stelle sie 1 Stunde kalt.",
+      "Röste die Kokosraspeln 2 Minuten in einer Pfanne ohne Fett goldgelb und streue sie mit den Mangowürfeln, Pistazien und Minze über die Creme."
+    ],
+    "tags": [
+      "vegan",
+      "sommer",
+      "ohne-backen",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "d-bananenbrot",
+    "title": "Saftiges Bananenbrot mit Walnüssen",
+    "description": "Die beste Verwendung für überreife Bananen: ein saftiges, leicht zimtiges Bananenbrot mit Walnüssen und Schokostückchen.",
+    "emoji": "🍞",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 75,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 260,
+      "protein": 5,
+      "carbs": 33,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "banane",
+        "name": "Sehr reife Bananen",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, zerlassen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, gehackt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade, gehackt",
+        "amount": 60,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 175 °C Ober-/Unterhitze vor und lege eine Kastenform (ca. 25 cm) mit Backpapier aus.",
+      "Zerdrücke die Bananen mit einer Gabel zu Mus und verrühre sie mit Eiern, zerlassener Butter, braunem Zucker und Vanillezucker.",
+      "Mische Mehl, Backpulver, Natron, Zimt und Salz in einer zweiten Schüssel und rühre die trockenen Zutaten nur kurz unter die Bananenmasse.",
+      "Hebe Walnüsse und Schokolade unter und fülle den Teig in die Form.",
+      "Backe das Bananenbrot 50–55 Minuten, bis ein Holzstäbchen sauber herauskommt. Decke es nach 40 Minuten mit Alufolie ab, falls es zu dunkel wird.",
+      "Lass das Brot 15 Minuten in der Form abkühlen und dann auf einem Gitter vollständig auskühlen."
+    ],
+    "tags": [
+      "klassiker",
+      "meal-prep",
+      "kinder",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-zimtschnecken",
+    "title": "Fluffige Zimtschnecken mit Frischkäse-Frosting",
+    "description": "Weiche Hefeschnecken mit einer Füllung aus Butter, braunem Zucker und viel Zimt, warm mit cremigem Frischkäse-Frosting überzogen.",
+    "emoji": "🥐",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 150,
+    "difficulty": "mittel",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 365,
+      "protein": 7,
+      "carbs": 55,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Trockenhefe",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "milch",
+        "name": "Milch, lauwarm",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "frischkaese",
+        "name": "Frischkäse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verrühre Mehl, Trockenhefe, Zucker und Salz. Gib lauwarme Milch, das Ei und 80 g weiche Butter dazu und knete alles 8 Minuten zu einem glatten, elastischen Teig.",
+      "Decke den Teig ab und lass ihn an einem warmen Ort 60 Minuten gehen, bis er sich verdoppelt hat.",
+      "Verrühre für die Füllung 60 g weiche Butter mit braunem Zucker und Zimt zu einer streichfähigen Paste.",
+      "Rolle den Teig auf bemehlter Fläche zu einem Rechteck (ca. 30 x 40 cm) aus, bestreiche ihn mit der Zimtfüllung und rolle ihn von der langen Seite fest auf.",
+      "Schneide die Rolle in 12 Scheiben und setze sie mit Abstand in eine gefettete Auflaufform. Lass sie abgedeckt weitere 30 Minuten gehen.",
+      "Backe die Schnecken bei 180 °C Ober-/Unterhitze 20–25 Minuten goldbraun.",
+      "Verrühre Frischkäse, die restlichen 20 g Butter und Puderzucker zu einem Frosting und verteile es auf den noch warmen Zimtschnecken."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "winter",
+      "suess",
+      "hefeteig"
+    ]
+  },
+  {
+    "id": "d-apfelkuchen-versunken",
+    "title": "Versunkener Apfelkuchen",
+    "description": "Lockerer Rührteig, in den saftige Apfelspalten einsinken – der klassische Sonntagskuchen, der mit Puderzucker und Zimt immer gelingt.",
+    "emoji": "🥧",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 80,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 280,
+      "protein": 5,
+      "carbs": 40,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "apfel",
+        "name": "Äpfel (säuerlich)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 30,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 175 °C Ober-/Unterhitze vor und fette eine Springform (26 cm) ein.",
+      "Schäle die Äpfel, viertle sie, entferne das Kerngehäuse und schneide die Viertel oben mehrfach längs ein. Beträufle sie mit Zitronensaft.",
+      "Schlage Butter, Zucker und Vanillezucker 3 Minuten cremig und rühre die Eier einzeln unter.",
+      "Mische Mehl und Backpulver, rühre sie mit der Milch kurz unter den Teig und streiche ihn in die Form.",
+      "Drücke die Apfelviertel mit der eingeschnittenen Seite nach oben leicht in den Teig und bestreue sie mit Zimt und Mandelblättchen.",
+      "Backe den Kuchen 45–50 Minuten goldbraun, lass ihn 15 Minuten in der Form abkühlen und bestäube ihn mit Puderzucker."
+    ],
+    "tags": [
+      "klassiker",
+      "herbst",
+      "gaeste",
+      "kaffee"
+    ]
+  },
+  {
+    "id": "d-kaesekuchen",
+    "title": "Klassischer Käsekuchen mit Mürbeteigboden",
+    "description": "Cremiger Quark-Käsekuchen auf knusprigem Mürbeteig – hoch, saftig und ohne Risse dank langsamem Backen und Abkühlen im Ofen.",
+    "emoji": "🍰",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 100,
+    "difficulty": "mittel",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 365,
+      "protein": 14,
+      "carbs": 40,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, kalt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "quark",
+        "name": "Magerquark",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Vanillepuddingpulver",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Neutrales Pflanzenöl",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb und Saft)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 2,
+        "unit": "Packung"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      }
+    ],
+    "steps": [
+      "Verknete Mehl, kalte Butter in Stücken, 70 g Zucker, Backpulver, 1 Ei und Salz rasch zu einem Mürbeteig. Wickle ihn in Folie und stelle ihn 30 Minuten kalt.",
+      "Heize den Ofen auf 170 °C Ober-/Unterhitze vor. Rolle den Teig aus und lege eine gefettete Springform (26 cm) damit aus, dabei einen 3 cm hohen Rand formen.",
+      "Verrühre Quark, die restlichen 150 g Zucker, Vanillezucker, Puddingpulver, Öl, Zitronenabrieb und 2 EL Zitronensaft glatt.",
+      "Trenne die restlichen 3 Eier. Rühre die Eigelbe unter die Quarkmasse, schlage die Eiweiße steif und hebe sie vorsichtig unter.",
+      "Fülle die Masse auf den Boden und backe den Kuchen 60 Minuten, bis die Oberfläche goldgelb ist und die Mitte nur noch leicht wackelt.",
+      "Schalte den Ofen aus und lass den Kuchen bei leicht geöffneter Tür 30 Minuten im Ofen abkühlen, damit er nicht einfällt.",
+      "Lass den Käsekuchen vollständig auskühlen und stelle ihn vor dem Anschneiden 2 Stunden in den Kühlschrank."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "kaffee",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "description": "Amerikanische Cookies mit knusprigem Rand, weichem Kern und vielen Schokostückchen – ein Teig, den du auch portionsweise einfrieren kannst.",
+    "emoji": "🍪",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "einfach",
+    "servings": 20,
+    "nutrition": {
+      "kcal": 210,
+      "protein": 3,
+      "carbs": 25,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade, grob gehackt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, gehackt",
+        "amount": 50,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Schlage die weiche Butter mit braunem Zucker und Zucker 2 Minuten cremig. Rühre Ei und Vanilleextrakt unter.",
+      "Mische Mehl, Natron und Salz und rühre sie nur kurz unter die Buttermasse. Hebe Schokolade und Walnüsse unter.",
+      "Stelle den Teig 30 Minuten in den Kühlschrank, damit die Cookies beim Backen nicht zu flach laufen.",
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und lege zwei Bleche mit Backpapier aus.",
+      "Forme aus dem Teig 20 Kugeln (je ca. 40 g) und setze sie mit 5 cm Abstand auf die Bleche.",
+      "Backe die Cookies 10–12 Minuten, bis die Ränder goldbraun sind und die Mitte noch weich aussieht. Lass sie 5 Minuten auf dem Blech fest werden."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "schokolade",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-heidelbeer-muffins",
+    "title": "Heidelbeer-Muffins",
+    "description": "Luftige Muffins mit frischen Heidelbeeren und einem Hauch Zitrone – in 45 Minuten fertig und ideal für Frühstück, Brunch oder die Brotdose.",
+    "emoji": "🧁",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 240,
+      "protein": 4,
+      "carbs": 34,
+      "fat": 10
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 280,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Neutrales Pflanzenöl",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "heidelbeeren",
+        "name": "Heidelbeeren",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Haferflocken zum Bestreuen",
+        "amount": 2,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und setze 12 Papierförmchen in ein Muffinblech.",
+      "Mische Mehl, Zucker, Backpulver und Salz in einer großen Schüssel.",
+      "Verquirle Eier, Milch, Öl, Vanillezucker und Zitronenabrieb in einer zweiten Schüssel.",
+      "Gieße die flüssigen Zutaten zu den trockenen und rühre nur so lange, bis kein Mehl mehr zu sehen ist – Klümpchen sind in Ordnung.",
+      "Wende die Heidelbeeren in 1 EL Mehl und hebe sie vorsichtig unter den Teig.",
+      "Verteile den Teig auf die Förmchen, bestreue ihn mit Haferflocken und backe die Muffins 20–22 Minuten, bis sie goldbraun sind."
+    ],
+    "tags": [
+      "schnell",
+      "kinder",
+      "meal-prep",
+      "sommer"
+    ]
+  },
+  {
+    "id": "d-vollkornbrot-kerne",
+    "title": "Schnelles Vollkornbrot mit Kernen",
+    "description": "Saftiges Vollkornbrot mit Sonnenblumen- und Kürbiskernen, das ohne langes Kneten auskommt – nur rühren, gehen lassen und backen.",
+    "emoji": "🥖",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 120,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 260,
+      "protein": 10,
+      "carbs": 36,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "vollkornmehl",
+        "name": "Weizen- oder Dinkelvollkornmehl",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Trockenhefe",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser, lauwarm",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "essig",
+        "name": "Essig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sonnenblumenkerne",
+        "name": "Sonnenblumenkerne",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "leinsamen",
+        "name": "Leinsamen",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Haferflocken",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verrühre Vollkornmehl, Trockenhefe, Salz, Zucker, Leinsamen, Haferflocken und je 40 g Sonnenblumen- und Kürbiskerne in einer großen Schüssel.",
+      "Gib lauwarmes Wasser und Essig dazu und verrühre alles mit einem Holzlöffel 2 Minuten zu einem klebrigen, zähen Teig.",
+      "Fülle den Teig in eine gefettete Kastenform (ca. 25 cm), streiche ihn glatt und bestreue ihn mit den restlichen Kernen.",
+      "Decke die Form ab und lass den Teig an einem warmen Ort 45 Minuten gehen, bis er deutlich aufgegangen ist.",
+      "Backe das Brot bei 200 °C Ober-/Unterhitze 50 Minuten. Stelle eine Schale Wasser mit in den Ofen, damit die Kruste schön wird.",
+      "Stürze das Brot aus der Form und lass es auf einem Gitter vollständig auskühlen, bevor du es anschneidest."
+    ],
+    "tags": [
+      "vegan",
+      "herzhaft",
+      "meal-prep",
+      "vollkorn"
+    ]
+  },
+  {
+    "id": "d-pizzabroetchen",
+    "title": "Pizzabrötchen mit Käse und Gemüse",
+    "description": "Fluffige Hefebrötchen mit Tomatensauce, Paprika, Champignons und Käse – der perfekte Party-Snack, auch kalt noch lecker.",
+    "emoji": "🍕",
+    "category": "backen",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 100,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 195,
+      "protein": 8,
+      "carbs": 27,
+      "fat": 6
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Trockenhefe",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser, lauwarm",
+        "amount": 220,
+        "unit": "ml"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Geriebener Käse (Gouda oder Mozzarella)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "Schwarze Oliven, gehackt",
+        "amount": 50,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verknete Mehl, Trockenhefe, Zucker, Salz, lauwarmes Wasser und 2 EL Olivenöl 8 Minuten zu einem glatten Teig. Lass ihn abgedeckt 45 Minuten gehen.",
+      "Würfle Paprika, Champignons und Zwiebel sehr fein und brate sie in 1 EL Olivenöl 5 Minuten an. Lass das Gemüse abkühlen.",
+      "Rolle den Teig auf bemehlter Fläche zu einem Rechteck (ca. 30 x 40 cm) aus und bestreiche ihn mit Tomatenmark. Bestreue ihn mit Oregano.",
+      "Verteile Gemüse, Oliven und 120 g Käse auf dem Teig und rolle ihn von der langen Seite her fest auf.",
+      "Schneide die Rolle in 12 Scheiben, setze sie auf ein Backblech mit Backpapier und bestreue sie mit dem restlichen Käse.",
+      "Backe die Pizzabrötchen bei 200 °C Ober-/Unterhitze 18–20 Minuten goldbraun."
+    ],
+    "tags": [
+      "herzhaft",
+      "party",
+      "kinder",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-scones",
+    "title": "Britische Scones mit Marmelade",
+    "description": "Lockere, leicht süße Scones, die in 15 Minuten im Ofen aufgehen – warm mit Erdbeermarmelade und Crème fraîche zur Teatime servieren.",
+    "emoji": "🫖",
+    "category": "backen",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 8,
+    "nutrition": {
+      "kcal": 335,
+      "protein": 7,
+      "carbs": 45,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 3,
+        "unit": "TL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, kalt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 60,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "marmelade",
+        "name": "Erdbeermarmelade",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche (statt Clotted Cream)",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor und lege ein Blech mit Backpapier aus.",
+      "Mische Mehl, Backpulver, Zucker und Salz. Reibe die kalte Butter in Flöckchen mit den Fingerspitzen hinein, bis die Masse krümelig ist.",
+      "Verquirle Milch und Ei, halte 2 EL zum Bestreichen zurück und rühre den Rest mit den Rosinen rasch unter die Krümel, bis ein weicher Teig entsteht.",
+      "Drücke den Teig auf bemehlter Fläche 3 cm dick flach und steche 8 Kreise (ca. 6 cm) aus.",
+      "Setze die Scones auf das Blech, bestreiche sie mit der restlichen Ei-Milch und backe sie 13–15 Minuten goldbraun.",
+      "Serviere die Scones noch warm, aufgebrochen, mit Marmelade und Crème fraîche."
+    ],
+    "tags": [
+      "schnell",
+      "kaffee",
+      "gaeste",
+      "klassiker"
+    ]
+  },
+  {
+    "id": "d-marmorkuchen",
+    "title": "Marmorkuchen aus der Gugelhupfform",
+    "description": "Der Klassiker für jeden Kindergeburtstag: saftiger Rührkuchen mit hellem und dunklem Teig, marmoriert und mit Schokoglasur überzogen.",
+    "emoji": "🎂",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 80,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 410,
+      "protein": 7,
+      "carbs": 48,
+      "fat": 21
+    },
+    "ingredients": [
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 3,
+        "unit": "TL"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 130,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade für die Glasur",
+        "amount": 100,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 175 °C Ober-/Unterhitze vor und fette eine Gugelhupfform (ca. 24 cm) gründlich ein.",
+      "Schlage Butter, Zucker, Vanillezucker und Salz 4 Minuten hellcremig und rühre die Eier einzeln je 30 Sekunden unter.",
+      "Mische Mehl und Backpulver und rühre sie abwechselnd mit 100 ml Milch kurz unter den Teig.",
+      "Fülle zwei Drittel des Teigs in die Form. Rühre unter das restliche Drittel Kakao und die übrigen 30 ml Milch und gib den dunklen Teig darauf.",
+      "Ziehe mit einer Gabel spiralförmig durch beide Teige, um das Marmormuster zu erzeugen.",
+      "Backe den Kuchen 50–55 Minuten (Stäbchenprobe), lass ihn 15 Minuten in der Form ruhen und stürze ihn auf ein Gitter.",
+      "Schmilz die Schokolade über dem Wasserbad und überziehe den ausgekühlten Kuchen damit."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "kaffee",
+      "geburtstag"
+    ]
+  },
+  {
+    "id": "d-zitronenkuchen",
+    "title": "Saftiger Zitronenkuchen mit Zuckerguss",
+    "description": "Ein einfacher Rührkuchen mit viel frischer Zitrone und Joghurt, der besonders saftig bleibt – gekrönt von einem knackigen Zitronenguss.",
+    "emoji": "🍋",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 70,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 350,
+      "protein": 6,
+      "carbs": 50,
+      "fat": 14
+    },
+    "ingredients": [
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Neutrales Pflanzenöl",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitronen",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker für den Guss",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 175 °C Ober-/Unterhitze vor und fette eine Kastenform (ca. 25 cm) ein.",
+      "Reibe die Schale von 2 Zitronen ab und presse alle 3 Zitronen aus.",
+      "Schlage Eier, Zucker und Vanillezucker 3 Minuten schaumig. Rühre Öl, Joghurt, Zitronenabrieb und 4 EL Zitronensaft unter.",
+      "Mische Mehl, Backpulver und Salz und rühre sie kurz unter den Teig. Fülle ihn in die Form.",
+      "Backe den Kuchen 45 Minuten, bis ein Holzstäbchen sauber herauskommt, und lass ihn 10 Minuten in der Form abkühlen.",
+      "Verrühre Puderzucker mit 3 EL Zitronensaft zu einem dicken Guss und verteile ihn auf dem noch lauwarmen Kuchen."
+    ],
+    "tags": [
+      "klassiker",
+      "sommer",
+      "kaffee",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-focaccia-rosmarin",
+    "title": "Rosmarin-Focaccia mit Tomaten",
+    "description": "Luftiges italienisches Fladenbrot mit knuspriger Olivenöl-Kruste, Rosmarin, Cherrytomaten und grobem Salz – ideal zum Grillen oder als Vorspeise.",
+    "emoji": "🫓",
+    "category": "backen",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 150,
+    "difficulty": "mittel",
+    "servings": 8,
+    "nutrition": {
+      "kcal": 325,
+      "protein": 8,
+      "carbs": 48,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl (Type 550)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Trockenhefe",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser, lauwarm",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz (plus grobes Salz zum Bestreuen)",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Frische Rosmarinzweige",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "Schwarze Oliven",
+        "amount": 60,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verrühre Mehl, Trockenhefe, Zucker und Salz. Gib Wasser und 3 EL Olivenöl dazu und knete alles 10 Minuten zu einem weichen, klebrigen Teig.",
+      "Lass den Teig abgedeckt an einem warmen Ort 60 Minuten gehen, bis er sich verdoppelt hat.",
+      "Gib 2 EL Olivenöl auf ein Backblech, lege den Teig darauf und ziehe ihn mit geölten Händen vorsichtig zu einem Rechteck auseinander. Lass ihn weitere 30 Minuten gehen.",
+      "Heize den Ofen auf 220 °C Ober-/Unterhitze vor. Drücke mit den Fingerspitzen tiefe Mulden in den Teig.",
+      "Verteile halbierte Cherrytomaten, Oliven, in Scheiben geschnittenen Knoblauch und Rosmarinnadeln darauf, beträufle alles mit dem restlichen Olivenöl und bestreue es mit grobem Salz.",
+      "Backe die Focaccia 22–25 Minuten goldbraun und lass sie 10 Minuten abkühlen, bevor du sie in Stücke schneidest."
+    ],
+    "tags": [
+      "vegan",
+      "herzhaft",
+      "sommer",
+      "gaeste",
+      "hefeteig"
+    ]
+  },
+  {
+    "id": "d-overnight-oats-beeren",
+    "title": "Overnight Oats mit Beeren",
+    "description": "Haferflocken, die über Nacht in Hafermilch und Sojajoghurt quellen – morgens nur noch Beeren und Mandelmus drauf, fertig ist das vegane Frühstück.",
+    "emoji": "🫐",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "kalorienarm"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 380,
+      "protein": 11,
+      "carbs": 55,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "hafermilch",
+        "name": "Hafermilch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "sojajoghurt",
+        "name": "Sojajoghurt natur",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "chiasamen",
+        "name": "Chiasamen",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "beeren",
+        "name": "Gemischte Beeren (frisch oder TK)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "mandelmus",
+        "name": "Mandelmus",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "banane",
+        "name": "Banane",
+        "amount": 1,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verrühre Haferflocken, Chiasamen, Zimt, Hafermilch, Sojajoghurt und Ahornsirup in einer Schüssel.",
+      "Verteile die Mischung auf zwei Gläser mit Deckel und stelle sie mindestens 6 Stunden oder über Nacht in den Kühlschrank.",
+      "Rühre die Oats am Morgen um und gib bei Bedarf einen Schluck Hafermilch dazu, falls sie zu fest sind.",
+      "Belege die Oats mit Beeren und Bananenscheiben und gib je einen halben Esslöffel Mandelmus darauf."
+    ],
+    "tags": [
+      "meal-prep",
+      "vegan",
+      "schnell",
+      "ohne-kochen"
+    ]
+  },
+  {
+    "id": "d-porridge-banane",
+    "title": "Cremiger Porridge mit Banane und Erdnussbutter",
+    "description": "Warmer Haferbrei, langsam in Milch gekocht, mit karamellisierter Banane, Erdnussbutter und Honig – das Frühstück, das lange satt hält.",
+    "emoji": "🥣",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 1,
+    "nutrition": {
+      "kcal": 590,
+      "protein": 17,
+      "carbs": 80,
+      "fat": 15
+    },
+    "ingredients": [
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "banane",
+        "name": "Banane",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "leinsamen",
+        "name": "Leinsamen, geschrotet",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "heidelbeeren",
+        "name": "Heidelbeeren",
+        "amount": 50,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Gib Haferflocken, Milch, Wasser und Salz in einen kleinen Topf und bringe alles unter Rühren zum Kochen.",
+      "Lass den Porridge bei kleiner Hitze 5 Minuten köcheln und rühre dabei regelmäßig, bis er cremig ist.",
+      "Schneide die Banane in Scheiben und brate sie in einer beschichteten Pfanne ohne Fett 2 Minuten pro Seite goldbraun.",
+      "Rühre die Leinsamen unter den Porridge und fülle ihn in eine Schale.",
+      "Belege den Porridge mit Bananenscheiben, Heidelbeeren, einem Klecks Erdnussbutter, Honig und Zimt."
+    ],
+    "tags": [
+      "schnell",
+      "winter",
+      "saettigend",
+      "klassiker"
+    ]
+  },
+  {
+    "id": "d-buttermilch-pancakes",
+    "title": "Fluffige Buttermilch-Pancakes",
+    "description": "Dicke, luftige amerikanische Pancakes mit Buttermilch, die im Stapel mit Ahornsirup und Beeren serviert werden – der perfekte Wochenendstart.",
+    "emoji": "🥞",
+    "category": "fruehstueck",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 3,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 17,
+      "carbs": 100,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "buttermilch",
+        "name": "Buttermilch",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 6,
+        "unit": "EL"
+      },
+      {
+        "key": "beeren",
+        "name": "Beeren",
+        "amount": 150,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Mische Mehl, Zucker, Backpulver, Natron und Salz in einer großen Schüssel.",
+      "Verquirle Buttermilch, Eier, Vanille und 20 g zerlassene Butter und rühre die Mischung nur kurz unter die trockenen Zutaten – der Teig darf klumpig sein. Lass ihn 5 Minuten ruhen.",
+      "Erhitze eine beschichtete Pfanne bei mittlerer Hitze und fette sie mit etwas Butter ein.",
+      "Gib pro Pancake eine kleine Kelle Teig (ca. 3 EL) in die Pfanne und backe ihn 2 Minuten, bis Bläschen an der Oberfläche platzen. Wende ihn und backe ihn 1 weitere Minute.",
+      "Halte die fertigen Pancakes im Ofen bei 80 °C warm und backe den restlichen Teig zu etwa 12 Pancakes aus.",
+      "Staple die Pancakes, gib Beeren darauf und übergieße sie großzügig mit Ahornsirup."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "wochenende",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-shakshuka",
+    "title": "Shakshuka mit Feta",
+    "description": "In würziger Tomaten-Paprika-Sauce pochierte Eier mit Kreuzkümmel und Feta – ein herzhaftes Frühstück direkt aus der Pfanne.",
+    "emoji": "🍳",
+    "category": "fruehstueck",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "lowcarb",
+      "kalorienarm",
+      "glutenfrei"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 390,
+      "protein": 22,
+      "carbs": 18,
+      "fat": 27
+    },
+    "ingredients": [
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "feta",
+        "name": "Feta",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "koriander",
+        "name": "Frischer Koriander",
+        "amount": 1,
+        "unit": "Handvoll",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel und Paprika fein und hacke den Knoblauch. Erhitze das Olivenöl in einer großen Pfanne und dünste Zwiebel und Paprika 5 Minuten bei mittlerer Hitze an.",
+      "Gib Knoblauch, Kreuzkümmel, Paprikapulver und Chiliflocken dazu und röste die Gewürze 1 Minute mit an.",
+      "Gieße die Tomaten dazu, würze mit Salz und Pfeffer und lass die Sauce 10 Minuten offen einköcheln, bis sie dick wird.",
+      "Drücke mit einem Löffel 4 Mulden in die Sauce und schlage in jede ein Ei. Salze die Eier leicht.",
+      "Decke die Pfanne ab und lass die Eier bei kleiner Hitze 6–8 Minuten stocken, bis das Eiweiß fest und das Eigelb noch weich ist.",
+      "Bröckle den Feta darüber, streue Petersilie und Koriander darauf und serviere die Shakshuka direkt aus der Pfanne."
+    ],
+    "tags": [
+      "herzhaft",
+      "wochenende",
+      "lowcarb",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "d-ruehrei-raeucherlachs",
+    "title": "Cremiges Rührei mit Räucherlachs",
+    "description": "Langsam gerührte, cremige Eier mit Räucherlachs, Schnittlauch und einem Spritzer Zitrone auf geröstetem Vollkornbrot – proteinreich und in 15 Minuten fertig.",
+    "emoji": "🥚",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 33,
+      "carbs": 22,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 5,
+        "unit": "Stück"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "raeucherlachs",
+        "name": "Räucherlachs",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "brot",
+        "name": "Vollkornbrot",
+        "amount": 2,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "frischkaese",
+        "name": "Frischkäse",
+        "amount": 2,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verquirle die Eier mit Sahne, einer Prise Salz und Pfeffer. Schneide den Schnittlauch in feine Röllchen und den Lachs in Streifen.",
+      "Röste die Brotscheiben im Toaster oder in einer Pfanne goldbraun und bestreiche sie nach Belieben mit Frischkäse.",
+      "Schmilz die Butter in einer beschichteten Pfanne bei niedriger Hitze und gieße die Eier hinein.",
+      "Rühre die Eier mit einem Holzlöffel langsam und ständig, bis sie nach etwa 3–4 Minuten cremig stocken. Nimm die Pfanne vom Herd, solange sie noch leicht feucht sind.",
+      "Hebe den Lachs und die Hälfte des Schnittlauchs unter das Rührei.",
+      "Verteile das Rührei auf dem Brot, beträufle es mit Zitronensaft und bestreue es mit dem restlichen Schnittlauch."
+    ],
+    "tags": [
+      "schnell",
+      "proteinreich",
+      "herzhaft",
+      "wochenende"
+    ]
+  },
+  {
+    "id": "d-granola-nuss",
+    "title": "Selbstgemachtes Nuss-Granola",
+    "description": "Knuspriges Granola aus Haferflocken, Nüssen, Kernen und Kokos, mit Ahornsirup und Kokosöl im Ofen geröstet – hält im Glas zwei Wochen.",
+    "emoji": "🌰",
+    "category": "fruehstueck",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "kalorienarm"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 10,
+    "nutrition": {
+      "kcal": 375,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "key": "haferflocken",
+        "name": "Kernige Haferflocken",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, grob gehackt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, grob gehackt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "sonnenblumenkerne",
+        "name": "Sonnenblumenkerne",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokoschips oder Kokosraspeln",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "kokosoel",
+        "name": "Kokosöl",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen oder getrocknete Cranberrys",
+        "amount": 60,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 160 °C Ober-/Unterhitze vor und lege ein Backblech mit Backpapier aus.",
+      "Mische Haferflocken, Mandeln, Walnüsse, Kürbis- und Sonnenblumenkerne, Zimt und Salz in einer großen Schüssel.",
+      "Schmilz das Kokosöl, verrühre es mit Ahornsirup und Vanille und gieße die Mischung über die trockenen Zutaten. Mische alles gründlich, bis alles benetzt ist.",
+      "Verteile das Granola flach auf dem Blech und backe es 25 Minuten. Rühre nach 12 Minuten einmal um und streue die Kokosraspeln darüber.",
+      "Lass das Granola auf dem Blech vollständig auskühlen – erst dann wird es richtig knusprig. Mische die Rosinen unter.",
+      "Fülle das Granola in ein luftdichtes Glas; es hält sich etwa 2 Wochen."
+    ],
+    "tags": [
+      "meal-prep",
+      "vegan",
+      "knusprig",
+      "vorrat"
+    ]
+  },
+  {
+    "id": "d-chia-pudding-mango",
+    "title": "Chia-Pudding mit Mango",
+    "description": "Cremiger Chia-Pudding mit Mandelmilch und Vanille, getoppt mit frischer Mango, Limette und gerösteten Kokosraspeln – am Vorabend vorbereitet.",
+    "emoji": "🥭",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 250,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 310,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 16
+    },
+    "ingredients": [
+      {
+        "key": "chiasamen",
+        "name": "Chiasamen",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "mandelmilch",
+        "name": "Mandelmilch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "mango",
+        "name": "Reife Mango",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokosraspeln",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 50,
+        "unit": "ml",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verrühre Chiasamen, Mandelmilch, Ahornsirup und Vanille in einer Schüssel gründlich.",
+      "Rühre nach 10 Minuten noch einmal kräftig um, damit keine Klumpen entstehen, und stelle den Pudding abgedeckt mindestens 4 Stunden oder über Nacht kalt.",
+      "Schäle die Mango, schneide die Hälfte in Würfel und püriere die andere Hälfte mit Limettensaft und Kokosmilch zu einem Mus.",
+      "Röste die Kokosraspeln in einer Pfanne ohne Fett 1–2 Minuten goldgelb.",
+      "Schichte Chia-Pudding und Mangomus in zwei Gläser und belege sie mit Mangowürfeln und Kokosraspeln."
+    ],
+    "tags": [
+      "meal-prep",
+      "vegan",
+      "sommer",
+      "ohne-kochen"
+    ]
+  },
+  {
+    "id": "d-french-toast",
+    "title": "French Toast mit Zimt und Beeren",
+    "description": "Dicke Brotscheiben, in Vanille-Zimt-Eiermilch getränkt und in Butter goldbraun gebraten – mit Ahornsirup und frischen Beeren ein Frühstück wie im Diner.",
+    "emoji": "🍯",
+    "category": "fruehstueck",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 480,
+      "protein": 14,
+      "carbs": 62,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "toast",
+        "name": "Toastbrot oder Brioche, dick geschnitten",
+        "amount": 4,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "beeren",
+        "name": "Frische Beeren",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "TL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Verquirle Eier, Milch, Zucker, Vanillezucker, Zimt und Salz in einer flachen Schale.",
+      "Lege die Brotscheiben nacheinander in die Eiermilch und lass sie pro Seite 20 Sekunden vollsaugen.",
+      "Erhitze die Butter in einer großen Pfanne bei mittlerer Hitze, bis sie schäumt.",
+      "Brate die Scheiben 2–3 Minuten pro Seite goldbraun und knusprig.",
+      "Richte den French Toast auf Tellern an, gib Beeren darauf, übergieße ihn mit Ahornsirup und bestäube ihn mit Puderzucker."
+    ],
+    "tags": [
+      "schnell",
+      "kinder",
+      "wochenende",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-avocado-toast-ei",
+    "title": "Avocado-Toast mit pochiertem Ei",
+    "description": "Knuspriges Sauerteigbrot mit zerdrückter Avocado, Zitrone und Chiliflocken, darauf ein perfekt pochiertes Ei mit flüssigem Kern.",
+    "emoji": "🥑",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "kalorienarm"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 340,
+      "protein": 12,
+      "carbs": 25,
+      "fat": 21
+    },
+    "ingredients": [
+      {
+        "key": "brot",
+        "name": "Sauerteigbrot",
+        "amount": 2,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "avocado",
+        "name": "Reife Avocado",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Eier (sehr frisch)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "essig",
+        "name": "Essig für das Pochierwasser",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 6,
+        "unit": "Stück",
+        "optional": true
+      },
+      {
+        "key": "sprossen",
+        "name": "Sprossen oder Kresse",
+        "amount": 1,
+        "unit": "Handvoll",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Bringe in einem Topf reichlich Wasser mit dem Essig zum Sieden – es soll nur leicht simmern, nicht sprudelnd kochen.",
+      "Zerdrücke das Avocadofleisch mit einer Gabel, mische es mit Zitronensaft, Salz und Pfeffer.",
+      "Röste die Brotscheiben im Toaster oder in einer Pfanne knusprig und bestreiche sie dick mit der Avocadocreme.",
+      "Schlage jedes Ei in eine Tasse, rühre im Wasser einen Strudel und lass das Ei in die Mitte gleiten. Pochiere es 3 Minuten und hebe es mit einer Schaumkelle heraus.",
+      "Setze die pochierten Eier auf die Toasts, beträufle sie mit Olivenöl und bestreue sie mit Chiliflocken, Salz und Pfeffer.",
+      "Garniere mit halbierten Cherrytomaten und Sprossen."
+    ],
+    "tags": [
+      "schnell",
+      "herzhaft",
+      "trend",
+      "kalorienarm"
+    ]
+  },
+  {
+    "id": "d-smoothie-bowl-beeren",
+    "title": "Beeren-Smoothie-Bowl",
+    "description": "Dickflüssiger Beeren-Bananen-Smoothie zum Löffeln, mit Granola, Kiwi, Chiasamen und Kokos bunt belegt – vegan und in 10 Minuten fertig.",
+    "emoji": "🍓",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 1,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 12,
+      "carbs": 75,
+      "fat": 14
+    },
+    "ingredients": [
+      {
+        "key": "beeren",
+        "name": "Gemischte Beeren (TK)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "banane",
+        "name": "Banane, gefroren",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sojajoghurt",
+        "name": "Sojajoghurt natur",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "hafermilch",
+        "name": "Hafermilch",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "key": "granola",
+        "name": "Granola",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "kiwi",
+        "name": "Kiwi",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "chiasamen",
+        "name": "Chiasamen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokosraspeln",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "mandelmus",
+        "name": "Mandelmus",
+        "amount": 1,
+        "unit": "TL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Gib die gefrorenen Beeren, die gefrorene Banane, Sojajoghurt und Hafermilch in einen leistungsstarken Mixer.",
+      "Mixe alles 1–2 Minuten zu einer dicken, cremigen Masse. Gib nur schluckweise mehr Hafermilch dazu, damit der Smoothie löffelfest bleibt.",
+      "Fülle den Smoothie in eine Schale und streiche die Oberfläche glatt.",
+      "Schäle die Kiwi und schneide sie in Scheiben. Belege die Bowl in Reihen mit Kiwi, Granola, Chiasamen und Kokosraspeln.",
+      "Träufle zum Schluss Mandelmus darüber und iss die Bowl sofort, solange sie kalt ist."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "vegan",
+      "ohne-kochen"
+    ]
+  },
+  {
+    "id": "d-protein-pancakes-skyr",
+    "title": "Protein-Pancakes mit Skyr",
+    "description": "Fluffige Pancakes aus Haferflocken, Eiern, Skyr und Vanille-Proteinpulver – über 50 g Eiweiß pro Portion und trotzdem ein Genuss.",
+    "emoji": "💪",
+    "category": "fruehstueck",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch",
+      "proteinreich"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 1,
+    "nutrition": {
+      "kcal": 670,
+      "protein": 55,
+      "carbs": 55,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "skyr",
+        "name": "Skyr natur",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "proteinpulver",
+        "name": "Proteinpulver Vanille",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "banane",
+        "name": "Banane",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kokosoel",
+        "name": "Kokosöl zum Braten",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "beeren",
+        "name": "Beeren",
+        "amount": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Püriere Eier, 100 g Skyr, Haferflocken, Proteinpulver, Backpulver, die halbe Banane, Zimt und Salz mit dem Stabmixer zu einem glatten Teig. Lass ihn 5 Minuten quellen.",
+      "Erhitze das Kokosöl in einer beschichteten Pfanne bei mittlerer Hitze.",
+      "Gib je 2 EL Teig pro Pancake in die Pfanne und backe sie 2 Minuten, bis sich Bläschen bilden. Wende sie und backe sie 1–2 weitere Minuten.",
+      "Backe den restlichen Teig zu etwa 6 kleinen Pancakes aus.",
+      "Staple die Pancakes, gib den restlichen Skyr und die Beeren darauf und serviere sie sofort."
+    ],
+    "tags": [
+      "proteinreich",
+      "fitness",
+      "schnell",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-gemuese-omelett-feta",
+    "title": "Gemüse-Omelett mit Spinat und Feta",
+    "description": "Luftiges Omelett mit frischem Spinat, Cherrytomaten, Frühlingszwiebel und Feta – lowcarb, proteinreich und in 15 Minuten auf dem Teller.",
+    "emoji": "🧀",
+    "category": "fruehstueck",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch",
+      "proteinreich",
+      "lowcarb",
+      "glutenfrei"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 1,
+    "nutrition": {
+      "kcal": 515,
+      "protein": 28,
+      "carbs": 7,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "feta",
+        "name": "Feta",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Frischer Spinat",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 6,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 60,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Schneide die Frühlingszwiebel in Ringe, halbiere die Tomaten und schneide die Champignons in Scheiben. Verquirle die Eier mit Milch, Salz und Pfeffer.",
+      "Erhitze das Olivenöl in einer beschichteten Pfanne (ca. 24 cm) und brate Champignons und Frühlingszwiebel 3 Minuten an.",
+      "Gib Spinat und Tomaten dazu und lass den Spinat 1 Minute zusammenfallen.",
+      "Gieße die Eier über das Gemüse, reduziere die Hitze und lass das Omelett 4–5 Minuten stocken, bis es nur noch obenauf leicht feucht ist.",
+      "Bröckle den Feta auf eine Hälfte, klappe das Omelett zusammen und lass es noch 1 Minute in der Pfanne.",
+      "Bestreue das Omelett mit Schnittlauch und serviere es sofort."
+    ],
+    "tags": [
+      "schnell",
+      "lowcarb",
+      "proteinreich",
+      "herzhaft"
+    ]
+  },
+  {
+    "id": "d-energy-balls-dattel",
+    "title": "Dattel-Kakao-Energy-Balls",
+    "description": "Kleine Kraftkugeln aus Datteln, Haferflocken, Mandeln und Kakao, in Kokosraspeln gewälzt – der ideale Snack für Büro, Sport oder unterwegs.",
+    "emoji": "⚡",
+    "category": "snack",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "kalorienarm"
+    ],
+    "timeMinutes": 50,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 125,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 5
+    },
+    "ingredients": [
+      {
+        "key": "datteln",
+        "name": "Weiche Datteln (z. B. Medjool), entsteint",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakaopulver",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokosraspeln zum Wälzen",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "chiasamen",
+        "name": "Chiasamen",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Weiche die Datteln 10 Minuten in heißem Wasser ein, falls sie nicht sehr weich sind, und gieße sie ab.",
+      "Mahle die Mandeln und Haferflocken in der Küchenmaschine grob.",
+      "Gib Datteln, Kakao, Erdnussbutter, Vanille, Salz und Chiasamen dazu und mixe alles zu einer klebrigen Masse. Gib esslöffelweise Wasser dazu, bis die Masse zusammenhält.",
+      "Forme mit feuchten Händen 12 Kugeln (je ca. 30 g) und wälze sie in Kokosraspeln.",
+      "Stelle die Energy Balls 30 Minuten in den Kühlschrank, damit sie fest werden. Im Kühlschrank halten sie sich etwa 1 Woche."
+    ],
+    "tags": [
+      "meal-prep",
+      "vegan",
+      "ohne-backen",
+      "fitness"
+    ]
+  },
+  {
+    "id": "d-hummus",
+    "title": "Cremiger Hummus",
+    "description": "Besonders samtiger Hummus aus Kichererbsen, Tahini, Zitrone und Kreuzkümmel – der Trick: die Kichererbsen mit Natron kurz weichkochen und eiskaltes Wasser unterrühren.",
+    "emoji": "🧆",
+    "category": "snack",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 150,
+      "protein": 5,
+      "carbs": 12,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen (Dose, abgetropft)",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "tahini",
+        "name": "Tahini",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone (Saft)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser, eiskalt",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 2,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Koche die abgetropften Kichererbsen mit dem Natron in reichlich Wasser 10 Minuten, bis sie sehr weich sind, und gieße sie ab.",
+      "Püriere Tahini, Zitronensaft und Knoblauch 1 Minute in der Küchenmaschine, bis eine helle, cremige Paste entsteht.",
+      "Gib die warmen Kichererbsen, Kreuzkümmel und Salz dazu und mixe alles 2 Minuten sehr fein.",
+      "Lass bei laufendem Mixer das eiskalte Wasser und 2 EL Olivenöl einlaufen und mixe weitere 2 Minuten, bis der Hummus seidig ist.",
+      "Schmecke mit Salz und Zitrone ab, streiche den Hummus in eine Schale und ziehe mit dem Löffel eine Mulde.",
+      "Beträufle den Hummus mit dem restlichen Olivenöl und bestreue ihn mit Paprikapulver und Petersilie. Serviere ihn mit Gemüsesticks oder Fladenbrot."
+    ],
+    "tags": [
+      "vegan",
+      "meal-prep",
+      "klassiker",
+      "dip"
+    ]
+  },
+  {
+    "id": "d-guacamole",
+    "title": "Guacamole",
+    "description": "Klassische mexikanische Avocadocreme mit Limette, roter Zwiebel, Tomate, Koriander und Jalapeño – grob zerdrückt, damit sie schön stückig bleibt.",
+    "emoji": "🌶️",
+    "category": "snack",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "lowcarb",
+      "kalorienarm"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 200,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "avocado",
+        "name": "Reife Avocados",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "koriander",
+        "name": "Frischer Koriander",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "chili",
+        "name": "Jalapeño oder grüne Chili",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "Prise",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Würfle die Zwiebel sehr fein, entkerne Tomate und Chili und würfle beide klein. Hacke Koriander und Knoblauch.",
+      "Halbiere die Avocados, entferne den Kern und löffle das Fruchtfleisch in eine Schüssel.",
+      "Zerdrücke die Avocados mit einer Gabel grob und mische sofort den Limettensaft unter, damit die Creme nicht braun wird.",
+      "Rühre Zwiebel, Tomate, Chili, Knoblauch, Koriander, Salz und Kreuzkümmel unter.",
+      "Schmecke die Guacamole mit Salz und Limette ab und serviere sie sofort mit Tortilla-Chips oder Gemüsesticks."
+    ],
+    "tags": [
+      "schnell",
+      "vegan",
+      "party",
+      "dip",
+      "sommer"
+    ]
+  },
+  {
+    "id": "d-bruschetta",
+    "title": "Bruschetta al Pomodoro",
+    "description": "Geröstetes Ciabatta, mit Knoblauch abgerieben und mit marinierten Tomaten, Basilikum und gutem Olivenöl belegt – die italienische Vorspeise für Sommerabende.",
+    "emoji": "🍅",
+    "category": "snack",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "kalorienarm"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 280,
+      "protein": 7,
+      "carbs": 38,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "baguette",
+        "name": "Ciabatta oder Baguette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Reife Tomaten",
+        "amount": 5,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamico",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 0.5,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Entkerne die Tomaten und würfle sie klein. Hacke 1 Knoblauchzehe und die Zwiebel fein und schneide das Basilikum in Streifen.",
+      "Mische Tomaten, Knoblauch, Zwiebel, Basilikum, 2 EL Olivenöl, Balsamico, Salz und Pfeffer und lass alles 10 Minuten ziehen.",
+      "Schneide das Brot in 12 Scheiben (ca. 1,5 cm dick) und röste sie im Ofen bei 220 °C Grillfunktion oder in einer Grillpfanne 2–3 Minuten pro Seite goldbraun.",
+      "Reibe die heißen Brotscheiben mit der halbierten zweiten Knoblauchzehe ab und beträufle sie mit dem restlichen Olivenöl.",
+      "Verteile die Tomatenmischung mit einem Löffel auf den Scheiben und serviere die Bruschetta sofort."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "gaeste",
+      "vegan",
+      "klassiker"
+    ]
+  },
+  {
+    "id": "d-ofen-kichererbsen",
+    "title": "Knusprige Ofen-Kichererbsen",
+    "description": "Geröstete Kichererbsen mit geräuchertem Paprika, Kreuzkümmel und Chili – ein knuspriger, proteinreicher Snack als Alternative zu Chips.",
+    "emoji": "🫘",
+    "category": "snack",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 210,
+      "protein": 9,
+      "carbs": 24,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen (2 Dosen, abgetropft)",
+        "amount": 480,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb)",
+        "amount": 0.5,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Spüle die Kichererbsen ab und tupfe sie mit einem Küchentuch sehr gründlich trocken – je trockener, desto knuspriger.",
+      "Verteile die Kichererbsen auf einem Backblech mit Backpapier und röste sie 15 Minuten ohne Öl vor.",
+      "Mische Olivenöl, Paprikapulver, Kreuzkümmel, Kurkuma, Chiliflocken, Salz und Pfeffer in einer Schüssel.",
+      "Schwenke die heißen Kichererbsen in der Gewürzmischung, verteile sie wieder auf dem Blech und röste sie weitere 15–20 Minuten, bis sie goldbraun und knusprig sind. Rühre zwischendurch einmal um.",
+      "Lass die Kichererbsen auf dem Blech 10 Minuten abkühlen und bestreue sie mit Zitronenabrieb. Am besten noch am selben Tag essen."
+    ],
+    "tags": [
+      "knusprig",
+      "vegan",
+      "party",
+      "kalorienarm"
+    ]
+  },
+  {
+    "id": "d-protein-riegel",
+    "title": "Protein-Riegel ohne Backen",
+    "description": "Selbstgemachte Riegel aus Haferflocken, Erdnussbutter, Honig und Proteinpulver, mit Zartbitterschokolade überzogen – ohne Ofen, in 20 Minuten vorbereitet.",
+    "emoji": "🏋️",
+    "category": "snack",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch",
+      "kalorienarm"
+    ],
+    "timeMinutes": 80,
+    "difficulty": "einfach",
+    "servings": 10,
+    "nutrition": {
+      "kcal": 255,
+      "protein": 11,
+      "carbs": 24,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "proteinpulver",
+        "name": "Proteinpulver (Vanille oder Schoko)",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, gehackt",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "chiasamen",
+        "name": "Chiasamen",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Lege eine kleine Auflaufform (ca. 20 x 15 cm) mit Backpapier aus.",
+      "Mische Haferflocken, Proteinpulver, gehackte Mandeln, Chiasamen und Salz in einer Schüssel.",
+      "Erwärme Erdnussbutter und Honig in einem kleinen Topf bei niedriger Hitze 2 Minuten, bis die Masse flüssig ist, und rühre Vanille und Milch ein.",
+      "Gieße die warme Erdnussbuttermischung über die trockenen Zutaten und verknete alles zu einer festen, klebrigen Masse.",
+      "Drücke die Masse fest und gleichmäßig in die Form.",
+      "Schmilz die Schokolade über dem Wasserbad, verteile sie auf der Masse und stelle die Form 1 Stunde in den Kühlschrank.",
+      "Schneide die Platte in 10 Riegel. Im Kühlschrank halten sie sich etwa 1 Woche."
+    ],
+    "tags": [
+      "meal-prep",
+      "ohne-backen",
+      "fitness",
+      "protein"
+    ]
+  }
+]
