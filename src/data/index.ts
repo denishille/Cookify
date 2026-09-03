@@ -1,8 +1,8 @@
-import type { Recipe, IngredientDef } from '../types'
+import type { Recipe, IngredientDef, RecipeSource } from '../types'
 import ingredientsJson from './ingredients.json'
 import scheduleJson from './schedule.json'
 
-type RawRecipe = Omit<Recipe, 'addedWeek'> & { addedWeek?: string }
+type RawRecipe = Omit<Recipe, 'addedWeek' | 'source'> & { addedWeek?: string; source?: RecipeSource }
 
 /** Rezepte, die noch keiner Woche zugeordnet sind, gelten als "seit immer" verfügbar. */
 const DEFAULT_WEEK = '2026-W01'
@@ -10,6 +10,10 @@ const DEFAULT_WEEK = '2026-W01'
 const schedule = scheduleJson as Record<string, string>
 
 const modules = import.meta.glob<RawRecipe[]>('./recipes/*.json', { eager: true, import: 'default' })
+
+/** Recherchierte Quellen (src/data/sources/*.json), Schlüssel = Rezept-id. */
+const sourceModules = import.meta.glob<Record<string, RecipeSource>>('./sources/*.json', { eager: true, import: 'default' })
+const SOURCES: Record<string, RecipeSource> = Object.assign({}, ...Object.values(sourceModules))
 
 const seen = new Set<string>()
 export const ALL_RECIPES: Recipe[] = Object.keys(modules)
@@ -20,7 +24,7 @@ export const ALL_RECIPES: Recipe[] = Object.keys(modules)
     seen.add(r.id)
     return true
   })
-  .map((r) => ({ ...r, addedWeek: r.addedWeek ?? schedule[r.id] ?? DEFAULT_WEEK }))
+  .map((r) => ({ ...r, addedWeek: r.addedWeek ?? schedule[r.id] ?? DEFAULT_WEEK, source: r.source ?? SOURCES[r.id] }))
 
 export const INGREDIENT_GROUPS: Record<string, IngredientDef[]> = ingredientsJson
 

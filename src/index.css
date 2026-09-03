@@ -294,6 +294,23 @@ svg { flex-shrink: 0; }
 .meta { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.82rem; font-weight: 500; margin-top: 4px; flex-wrap: wrap; }
 .meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--border); }
 .meta svg { width: 15px; height: 15px; }
+.rating { display: flex; align-items: center; gap: 5px; font-size: 0.82rem; color: var(--text); margin-top: 2px; }
+.rating svg { color: var(--amber); }
+.rating b { font-weight: 700; }
+.rating span { color: var(--muted); }
+.rating .site { margin-left: 2px; }
+.rating .site::before { content: '·'; margin-right: 5px; }
+
+.source-box {
+  display: flex; align-items: center; gap: 12px; margin-top: 8px;
+  padding: 12px 14px; border-radius: var(--r); background: var(--surface);
+  color: var(--text); text-decoration: none; transition: background 0.12s ease;
+}
+.source-box:hover { background: var(--green-soft); }
+.source-star { width: 36px; height: 36px; border-radius: 50%; background: var(--amber-soft); color: var(--amber); display: grid; place-items: center; flex-shrink: 0; }
+.source-text { flex: 1; font-size: 0.92rem; line-height: 1.35; }
+.source-text small { display: block; color: var(--muted); font-size: 0.8rem; }
+.source-box > svg { color: var(--muted); }
 .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 .pill {
   display: inline-flex; align-items: center; height: 22px; padding: 0 8px; border-radius: 999px;

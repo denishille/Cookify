@@ -5,14 +5,16 @@ import { EMPTY_FILTERS, QUICK_FILTERS, isEmpty, sameFilters, type FilterState } 
 interface Props {
   value: FilterState
   onChange: (next: FilterState) => void
+  /** Bewertungsfilter nur anbieten, wenn es bewertete Rezepte gibt */
+  hasRatings?: boolean
 }
 
 /** Eine Zeile Schnellfilter-Chips. Ein Chip setzt genau einen Zustand, „Alle“ setzt zurück. */
-export function QuickFilters({ value, onChange }: Props) {
+export function QuickFilters({ value, onChange, hasRatings }: Props) {
   return (
     <div className="chips scroll" role="group" aria-label="Schnellfilter">
       <button className={`chip ${isEmpty(value) ? 'on' : ''}`} onClick={() => onChange(EMPTY_FILTERS)}>Alle</button>
-      {QUICK_FILTERS.map((qf) => {
+      {QUICK_FILTERS.filter((qf) => hasRatings || !qf.state.topRated).map((qf) => {
         const on = sameFilters(value, qf.state)
         return (
           <button key={qf.id} className={`chip ${on ? 'on' : ''}`} onClick={() => onChange(on ? EMPTY_FILTERS : qf.state)}>
@@ -25,13 +27,21 @@ export function QuickFilters({ value, onChange }: Props) {
 }
 
 /** Ausführliche Filter, aufklappbar hinter dem Filter-Button. */
-export function FilterPanel({ value, onChange, onClose }: Props & { onClose: () => void }) {
+export function FilterPanel({ value, onChange, onClose, hasRatings }: Props & { onClose: () => void }) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
   const toggleDiet = (d: Diet) =>
     set({ diets: value.diets.includes(d) ? value.diets.filter((x) => x !== d) : [...value.diets, d] })
 
   return (
     <div className="filter-panel" role="region" aria-label="Filter">
+      {hasRatings && (
+        <div className="filter-row">
+          <span className="eyebrow">Bewertung</span>
+          <div className="chips">
+            <button className={`chip sm ${value.topRated ? 'on' : ''}`} onClick={() => set({ topRated: !value.topRated })}>★ Top bewertet (ab 4,5 und 50 Stimmen)</button>
+          </div>
+        </div>
+      )}
       <div className="filter-row">
         <span className="eyebrow">Ernährung</span>
         <div className="chips">

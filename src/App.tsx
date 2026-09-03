@@ -6,6 +6,7 @@ import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek, weekLte, formatWeek, addWeeks } from './lib/week'
 import { rankByPantry } from './lib/match'
 import { applyFilters, activeCount, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
+import { ratingScore } from './lib/rating'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
@@ -19,6 +20,7 @@ const UPCOMING: Recipe[] = ALL_RECIPES.filter((r) => !weekLte(r.addedWeek, CURRE
 const NEW_THIS_WEEK = AVAILABLE.filter((r) => r.addedWeek === CURRENT_WEEK)
 const NEXT_WEEK_COUNT = UPCOMING.filter((r) => r.addedWeek === addWeeks(CURRENT_WEEK, 1)).length
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
+const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
 
 const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
   { view: 'rezepte', label: 'Rezepte', icon: <IconBook /> },
@@ -26,7 +28,7 @@ const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
   { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart /> },
 ]
 
-type Sort = 'standard' | 'neu' | 'schnell' | 'kcal' | 'protein'
+type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
 const MISSING_OPTIONS: { value: number; label: string }[] = [
   { value: 0, label: 'Alles da' },
   { value: 3, label: 'Bis zu 3 fehlen' },
@@ -36,6 +38,7 @@ const MISSING_OPTIONS: { value: number; label: string }[] = [
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
   const copy = [...list]
   switch (sort) {
+    case 'bewertung': return copy.sort((a, b) => ratingScore(b) - ratingScore(a))
     case 'neu': return copy.sort((a, b) => (a.addedWeek < b.addedWeek ? 1 : a.addedWeek > b.addedWeek ? -1 : a.title.localeCompare(b.title, 'de')))
     case 'schnell': return copy.sort((a, b) => a.timeMinutes - b.timeMinutes)
     case 'kcal': return copy.sort((a, b) => a.nutrition.kcal - b.nutrition.kcal)
@@ -153,6 +156,7 @@ export default function App() {
               </button>
               <select className="select" value={sort} onChange={(e) => setSort(e.target.value as Sort)} aria-label="Sortierung">
                 <option value="standard">Sortieren</option>
+                {HAS_RATINGS && <option value="bewertung">Beste Bewertung</option>}
                 <option value="neu">Neueste zuerst</option>
                 <option value="schnell">Schnellste zuerst</option>
                 <option value="kcal">Wenigste Kalorien</option>
@@ -160,8 +164,8 @@ export default function App() {
               </select>
               <button className="btn icon" onClick={surprise} aria-label="Zufälliges Rezept" title="Überrasch mich"><IconDice /></button>
             </div>
-            <div style={{ marginTop: 14 }}><QuickFilters value={filters} onChange={setFilters} /></div>
-            {panelOpen && <FilterPanel value={filters} onChange={setFilters} onClose={() => setPanelOpen(false)} />}
+            <div style={{ marginTop: 14 }}><QuickFilters value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} /></div>
+            {panelOpen && <FilterPanel value={filters} onChange={setFilters} onClose={() => setPanelOpen(false)} hasRatings={HAS_RATINGS} />}
 
             {browsing && NEW_THIS_WEEK.length > 0 && (
               <div className="section">
@@ -217,7 +221,7 @@ export default function App() {
                       </div>
                       <span className="hint">{pantryResults.length} {pantryResults.length === 1 ? 'Treffer' : 'Treffer'}</span>
                     </div>
-                    <div style={{ marginBottom: 18 }}><QuickFilters value={pantryFilters} onChange={setPantryFilters} /></div>
+                    <div style={{ marginBottom: 18 }}><QuickFilters value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} /></div>
                     {pantryResults.length === 0 ? (
                       <div className="empty">
                         <div className="ico"><IconBasket /></div>

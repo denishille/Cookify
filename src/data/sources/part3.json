@@ -1,0 +1,152 @@
+{
+  "d-tiramisu": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/tiramisu-das-einfache-originalrezept-38227.html",
+    "title": "Tiramisu - original italienisches Rezept (einfach & cremig) | LECKER"
+  },
+  "d-panna-cotta": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/panna-cotta-mit-himbeersosse-0",
+    "title": "Panna cotta mit Himbeersauce Rezept | EAT SMARTER"
+  },
+  "d-mousse-au-chocolat": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/mousse-au-chocolat-rezept-zum-selbermachen-77404.html",
+    "title": "Klassische Mousse au Chocolat Rezept | LECKER"
+  },
+  "d-creme-brulee": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/creme-brulee-das-franzoesische-original-rezept-75096.html",
+    "title": "Crème brûlée - das französische Original-Rezept | LECKER"
+  },
+  "d-apfelstrudel": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/apfelstrudel-mit-blaetterteig-83050.html",
+    "title": "Apfelstrudel mit Blätterteig Rezept | LECKER"
+  },
+  "d-kaiserschmarrn": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/kaiserschmarrn-mit-apfelmus-22337.html",
+    "title": "Kaiserschmarrn - das Original-Rezept | LECKER"
+  },
+  "d-milchreis-zimt": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/milchreis-mit-kirschen-zimtzucker-48301.html",
+    "title": "Milchreis mit Kirschen & Zimtzucker Rezept | LECKER"
+  },
+  "d-schoko-lava-cake": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/lava-cake-77259.html",
+    "title": "Lava-Cake Rezept | LECKER"
+  },
+  "d-bratapfel": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/brataepfel-mit-mandeln-und-rosinen-88077",
+    "title": "Gefüllte Bratäpfel mit Vanillesauce Rezept | Küchengötter"
+  },
+  "d-rote-gruetze": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/rote-gruetze-grundrezept-84155.html",
+    "title": "Rote Grütze nach Omas Rezept | LECKER"
+  },
+  "d-cheesecake-im-glas": {
+    "site": "einfachkochen.de",
+    "url": "https://www.einfachkochen.de/rezepte/cheesecake-im-glas-geniales-rezept-ohne-backen",
+    "title": "Cheesecake im Glas – geniales Rezept ohne Backen"
+  },
+  "d-nicecream-schoko": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/schoko-nicecream",
+    "title": "Schoko-Nicecream Rezept | EAT SMARTER"
+  },
+  "d-obstsalat-minze": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/obstsalat/",
+    "title": "Obstsalat mit bunten Beeren, Weintrauben und Apfel"
+  },
+  "d-brownies": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/klassischer-brownie-34788.html",
+    "title": "Klassischer Brownie - das extra saftige Rezept | LECKER"
+  },
+  "d-skyr-beeren-creme": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/beerenstarke-skyr-creme-80040.html",
+    "title": "Beerenstarke Skyr-Creme Rezept | LECKER"
+  },
+  "d-affogato": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/54854-rzpt-affogato-al-caffe",
+    "title": "Affogato al caffè Rezept - [ESSEN UND TRINKEN]"
+  },
+  "d-rhabarber-crumble": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/erdbeer-rhabarber-crumble-64808.html",
+    "title": "Erdbeer-Rhabarber-Crumble - das beste Rezept | LECKER"
+  },
+  "d-schokopudding": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/schokopudding-selber-machen-das-beste-rezept-69655.html",
+    "title": "Schokopudding selber machen - das beste Rezept | LECKER"
+  },
+  "d-mango-kokos-creme": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/schnelle-kokos-mango-creme-28350",
+    "title": "Schnelle Kokos-Mango-Creme Rezept | Küchengötter"
+  },
+  "d-crepes-apfelmus": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/35165-rzpt-zimt-crepes",
+    "title": "Zimt-Crêpes Rezept - [ESSEN UND TRINKEN]"
+  },
+  "d-bananenbrot": {
+    "site": "rewe.de",
+    "url": "https://www.rewe.de/rezepte/saftiges-bananenbrot/",
+    "title": "Saftiges Bananenbrot mit Walnüssen Rezept - REWE.de"
+  },
+  "d-zimtschnecken": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/zimtschnecken/",
+    "title": "Zimtschnecken ▷ extra fluffig & saftig | mit Frischkäse-Glasur"
+  },
+  "d-apfelkuchen-versunken": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/versunkener-apfelkuchen-nach-omas-rezept-30093.html",
+    "title": "Versunkener Apfelkuchen nach Omas Rezept | LECKER"
+  },
+  "d-kaesekuchen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/klassischer-kaesekuchen-mit-muerbeteigboden-20359.html",
+    "title": "Klassischer Käsekuchen mit Mürbeteigboden Rezept | LECKER"
+  },
+  "d-chocolate-chip-cookies": {
+    "site": "lecker.de",
+    "url": "https://lecker.de/chocolate-chip-cookies-schnell-angeruehrter-teig-75715.html",
+    "title": "Chocolate Chip Cookies Rezept | LECKER"
+  },
+  "d-heidelbeer-muffins": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/heidelbeer-muffins-78542",
+    "title": "Heidelbeer-Muffins Rezept | Küchengötter"
+  },
+  "d-vollkornbrot-kerne": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/dinkel-vollkornbrot-mit-leinsamen/",
+    "title": "Dinkel-Vollkornbrot Rezept – in 10 Minuten zubereitet"
+  },
+  "d-pizzabroetchen": {
+    "site": "einfachkochen.de",
+    "url": "https://www.einfachkochen.de/rezepte/vegetarische-pizzabroetchen-schnell-und-einfach",
+    "title": "Vegetarische Pizzabrötchen – das weltbeste Rezept – SO gut"
+  },
+  "d-scones": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/scones-rezept-very-british-und-ganz-einfach-51676.html",
+    "title": "Scones-Rezept - very British und ganz einfach | LECKER"
+  },
+  "d-marmorkuchen": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/marmorkuchen-aus-der-guglhupfform-20343",
+    "title": "Marmorkuchen Rezept | Marmorkuchen mit Rum | Küchengötter"
+  }
+}

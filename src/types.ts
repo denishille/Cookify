@@ -27,6 +27,15 @@ export interface Nutrition {
   fat: number
 }
 
+/** Recherchierte Quelle: ein passendes, gut bewertetes Originalrezept auf einer bekannten Seite. */
+export interface RecipeSource {
+  site: string
+  url: string
+  title?: string
+  rating?: number
+  ratingCount?: number
+}
+
 export interface Recipe {
   id: string
   title: string
@@ -44,6 +53,7 @@ export interface Recipe {
   tags: string[]
   /** ISO-Woche (z. B. "2026-W36"), ab der das Rezept in der App sichtbar ist. */
   addedWeek: string
+  source?: RecipeSource
 }
 
 export interface IngredientDef {

@@ -39,6 +39,9 @@ if (existsSync(outFile)) {
 const ingredients = JSON.parse(readFileSync(join(root, 'src/data/ingredients.json'), 'utf8'))
 const keys = Object.values(ingredients).flat().map((i) => i.key)
 const schema = readFileSync(join(root, 'src/data/RECIPE_SCHEMA.md'), 'utf8')
+const candidatesFile = join(root, 'src/data/candidates.json')
+/** Recherchierte, gut bewertete Gerichte (scripts/research-sources.mjs --discover), die es noch nicht gibt. */
+const candidates = existsSync(candidatesFile) ? JSON.parse(readFileSync(candidatesFile, 'utf8')) : []
 const existingTitles = readdirSync(recipesDir)
   .filter((f) => f.endsWith('.json'))
   .flatMap((f) => JSON.parse(readFileSync(join(recipesDir, f), 'utf8')))
@@ -69,11 +72,12 @@ const Recipe = z.object({
   tags: z.array(z.string()),
 })
 
-const Output = z.object({ recipes: z.array(Recipe) })
+const Output = z.object({ recipes: z.array(Recipe.extend({ basedOn: z.string().nullable() })) })
 
 const client = new Anthropic()
 
-console.log(`Erzeuge ${count} Rezepte für ${targetWeek} …`)
+const pool = candidates.filter((c) => !c.usedWeek).slice(0, count * 3)
+console.log(`Erzeuge ${count} Rezepte für ${targetWeek} … (${pool.length} recherchierte Kandidaten)`)
 const response = await client.messages.parse({
   model: 'claude-opus-5',
   max_tokens: 16000,
@@ -90,6 +94,11 @@ const response = await client.messages.parse({
         'mindestens ein Fleisch- oder Fischgericht, ein vegetarisches oder veganes Hauptgericht, eine Nachspeise oder ein Frühstück, ' +
         'und eine Suppe oder ein Salat. Passe die Rezepte zur Jahreszeit dieser Woche an. ' +
         `Ids beginnen mit "wk-${targetWeek.toLowerCase()}-". ` +
+        (pool.length
+          ? 'Wähle die Gerichte bevorzugt aus dieser Liste beliebter, sehr gut bewerteter Gerichte (eigene Rezeptur schreiben, nichts abschreiben) ' +
+            'und trage im Feld "basedOn" exakt die URL des gewählten Eintrags ein, sonst null:\n' +
+            pool.map((c) => `- ${c.title} (${c.rating} Sterne, ${c.ratingCount ?? '?'} Bewertungen) ${c.url}`).join('\n') + '\n\n'
+          : 'Trage im Feld "basedOn" null ein. ') +
         'Diese Titel gibt es schon, vermeide sie und sehr ähnliche Gerichte:\n' + existingTitles.join('; '),
     },
   ],
@@ -105,8 +114,14 @@ if (!response.parsed_output) {
   process.exit(1)
 }
 
-const recipes = response.parsed_output.recipes.map((r) => ({ ...r, addedWeek: targetWeek }))
+const recipes = response.parsed_output.recipes.map(({ basedOn, ...r }) => {
+  const c = basedOn ? candidates.find((x) => x.url === basedOn) : undefined
+  if (c) c.usedWeek = targetWeek
+  const source = c ? { site: c.site, url: c.url, title: c.title, rating: c.rating, ratingCount: c.ratingCount } : undefined
+  return { ...r, addedWeek: targetWeek, ...(source ? { source } : {}) }
+})
 writeFileSync(outFile, JSON.stringify(recipes, null, 2) + '\n')
+if (candidates.length) writeFileSync(candidatesFile, JSON.stringify(candidates, null, 2) + '\n')
 console.log(`Geschrieben: ${outFile} (${recipes.length} Rezepte)`)
 
 const check = spawnSync('node', [join(root, 'scripts/validate-recipes.mjs')], { stdio: 'inherit' })

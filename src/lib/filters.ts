@@ -1,4 +1,5 @@
-import type { Category, Cuisine, Diet, Difficulty } from '../types'
+import type { Category, Cuisine, Diet, Difficulty, Recipe } from '../types'
+import { isTopRated } from './rating'
 
 export interface FilterState {
   category: Category | ''
@@ -6,23 +7,26 @@ export interface FilterState {
   cuisine: Cuisine | ''
   maxTime: number
   difficulty: Difficulty | ''
+  /** nur Rezepte, deren Quelle sehr gut und oft bewertet ist */
+  topRated: boolean
 }
 
-export const EMPTY_FILTERS: FilterState = { category: '', diets: [], cuisine: '', maxTime: 0, difficulty: '' }
+export const EMPTY_FILTERS: FilterState = { category: '', diets: [], cuisine: '', maxTime: 0, difficulty: '', topRated: false }
 
-export function applyFilters<T extends { category: Category; diet: Diet[]; cuisine: Cuisine; timeMinutes: number; difficulty: Difficulty }>(items: T[], f: FilterState): T[] {
+export function applyFilters(items: Recipe[], f: FilterState): Recipe[] {
   return items.filter((r) =>
     (!f.category || r.category === f.category) &&
     f.diets.every((d) => r.diet.includes(d)) &&
     (!f.cuisine || r.cuisine === f.cuisine) &&
     (!f.maxTime || r.timeMinutes <= f.maxTime) &&
-    (!f.difficulty || r.difficulty === f.difficulty),
+    (!f.difficulty || r.difficulty === f.difficulty) &&
+    (!f.topRated || isTopRated(r)),
   )
 }
 
 /** Anzahl aktiver Kriterien, für die Zahl am Filter-Button. */
 export function activeCount(f: FilterState): number {
-  return (f.category ? 1 : 0) + f.diets.length + (f.cuisine ? 1 : 0) + (f.maxTime ? 1 : 0) + (f.difficulty ? 1 : 0)
+  return (f.category ? 1 : 0) + f.diets.length + (f.cuisine ? 1 : 0) + (f.maxTime ? 1 : 0) + (f.difficulty ? 1 : 0) + (f.topRated ? 1 : 0)
 }
 
 export function isEmpty(f: FilterState): boolean {
@@ -39,6 +43,7 @@ export interface QuickFilter {
 const q = (id: string, label: string, patch: Partial<FilterState>): QuickFilter => ({ id, label, state: { ...EMPTY_FILTERS, ...patch } })
 
 export const QUICK_FILTERS: QuickFilter[] = [
+  q('top', 'Top bewertet', { topRated: true }),
   q('vegetarisch', 'Vegetarisch', { diets: ['vegetarisch'] }),
   q('vegan', 'Vegan', { diets: ['vegan'] }),
   q('schnell', 'Unter 30 Min', { maxTime: 30 }),
@@ -51,6 +56,6 @@ export const QUICK_FILTERS: QuickFilter[] = [
 ]
 
 export function sameFilters(a: FilterState, b: FilterState): boolean {
-  return a.category === b.category && a.cuisine === b.cuisine && a.maxTime === b.maxTime && a.difficulty === b.difficulty &&
+  return a.category === b.category && a.cuisine === b.cuisine && a.maxTime === b.maxTime && a.difficulty === b.difficulty && a.topRated === b.topRated &&
     a.diets.length === b.diets.length && a.diets.every((d) => b.diets.includes(d))
 }

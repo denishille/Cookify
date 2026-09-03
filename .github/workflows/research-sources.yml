@@ -1,0 +1,44 @@
+name: Quellen und Bewertungen recherchieren
+
+# Aktualisiert die Bewertungen der verlinkten Originalrezepte, sucht Quellen für Rezepte ohne Quelle
+# und sammelt neue, gut bewertete Gerichte als Kandidaten für den Wochen-Nachschub.
+# Braucht für --fill und --discover das Secret BRAVE_API_KEY (Brave Search API, kostenloser Tarif).
+on:
+  schedule:
+    - cron: '0 4 * * 0'   # sonntags, vor dem Rezept-Nachschub am Montag
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: 'Anzahl neuer Kandidaten (0 = keine Suche)'
+        required: false
+        default: '20'
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Bewertungen aktualisieren
+        run: node scripts/research-sources.mjs --refresh --limit 150
+      - name: Fehlende Quellen und neue Kandidaten
+        if: ${{ secrets.BRAVE_API_KEY != '' }}
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: node scripts/research-sources.mjs --fill --limit 40 --discover ${{ github.event.inputs.discover || '20' }}
+      - name: Änderungen committen
+        run: |
+          if [ -z "$(git status --porcelain src/data)" ]; then echo "Keine Änderungen."; exit 0; fi
+          git config user.name "cookify-bot"
+          git config user.email "cookify-bot@users.noreply.github.com"
+          git add src/data
+          git commit -m "Quellen: Bewertungen aktualisiert, Kandidaten ergänzt"
+          git pull --rebase origin "$(git rev-parse --abbrev-ref HEAD)"
+          git push

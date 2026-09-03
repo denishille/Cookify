@@ -5,7 +5,8 @@ import type { MatchResult } from '../lib/match'
 import { openRecipe } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
-import { IconClock, IconHeart } from './Icons'
+import { IconClock, IconHeart, IconStar } from './Icons'
+import { formatCount, formatRating } from '../lib/rating'
 
 interface Props {
   recipe: Recipe
@@ -46,6 +47,14 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props)
           <span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}
           <span className="dot" /> {recipe.nutrition.kcal} kcal
         </div>
+        {recipe.source?.rating !== undefined && (
+          <div className="rating">
+            <IconStar width={14} height={14} />
+            <b>{formatRating(recipe.source.rating)}</b>
+            {recipe.source.ratingCount !== undefined && <span>({formatCount(recipe.source.ratingCount)})</span>}
+            <span className="site">{recipe.source.site}</span>
+          </div>
+        )}
         {recipe.diet.length > 0 && !match && (
           <div className="pills">
             {recipe.diet.slice(0, 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}

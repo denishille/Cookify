@@ -12,7 +12,8 @@
     "recipes:schedule": "node scripts/assign-weeks.mjs",
     "recipes:weekly": "node scripts/generate-weekly.mjs",
     "recipes:images": "node scripts/generate-images.mjs",
-    "logo": "node scripts/make-logo.mjs"
+    "logo": "node scripts/make-logo.mjs",
+    "recipes:sources": "node scripts/research-sources.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

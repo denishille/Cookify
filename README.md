@@ -37,6 +37,16 @@ Zwei Mechanismen, die sich ergänzen:
 1. **Vorbereitete Pipeline** – 50 Rezepte in `part5.json` sind auf die kommenden Wochen verteilt und erscheinen automatisch. Läuft ohne externe Dienste.
 2. **Automatische Generierung** – der Workflow `.github/workflows/weekly-recipes.yml` läuft jeden Montag und erzeugt mit der Claude API fünf neue Rezepte für die Folgewoche (`scripts/generate-weekly.mjs`). Dafür muss das Repository-Secret `ANTHROPIC_API_KEY` gesetzt sein. Die Rezepte werden validiert und als `weekly-<Woche>.json` committet. Ohne Secret wird der Schritt übersprungen. Manuell: `ANTHROPIC_API_KEY=… npm run recipes:weekly -- --week 2026-W45 --count 5`.
 
+## Quellen und Bewertungen
+
+Jedes Rezept ist ein eigener Text, verlinkt aber ein passendes, möglichst gut und oft bewertetes Originalrezept auf einer bekannten Seite (EatSmarter, lecker.de, kochbar, HelloFresh, KptnCook …). Die App zeigt Sternewert und Stimmenzahl auf der Karte, auf der Rezeptseite gibt es den Link zum Original. Filter „Top bewertet“ (ab 4,5 Sternen und 50 Stimmen) und Sortierung „Beste Bewertung“ nutzen diese Daten.
+
+- `src/data/sources/*.json` ordnet Rezept-IDs eine Quelle zu (`site`, `url`, `title`, optional `rating`, `ratingCount`). Die ersten Zuordnungen stammen aus einer Websuche-Recherche, `auto.json` schreibt die Pipeline.
+- `scripts/research-sources.mjs` liest die öffentlichen schema.org-Rezeptmetadaten (JSON-LD) der Quellseiten: `--refresh` aktualisiert Bewertungen, `--fill` sucht Quellen für Rezepte ohne Quelle, `--discover N` sammelt neue, sehr gut bewertete Gerichte in `src/data/candidates.json`. Für Suche braucht es `BRAVE_API_KEY` (Brave Search API, kostenloser Tarif).
+- Der wöchentliche Rezept-Nachschub wählt seine Gerichte bevorzugt aus den Kandidaten und schreibt dazu eine eigene Rezeptur; die Quelle mit Bewertung hängt am Rezept.
+- Workflow `.github/workflows/research-sources.yml`: sonntags automatisch, manuell mit Angabe der Kandidatenzahl.
+- Bewusst ausgelassen: chefkoch.de blockiert automatisierte Zugriffe und Crawler. Rezepttexte und Fotos werden von keiner Seite übernommen.
+
 ## Rezeptbilder
 
 Die App zeigt für jedes Rezept ein Foto, sobald `src/assets/recipes/<id>.jpg` existiert; fehlt es, bleibt die Emoji-Kachel. Die Bilder entstehen per KI:

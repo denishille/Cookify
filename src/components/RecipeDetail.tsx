@@ -6,7 +6,8 @@ import { back } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
-import { IconCheck, IconChevronLeft, IconClock, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare } from './Icons'
+import { IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
+import { formatCount, formatRating, isTopRated } from '../lib/rating'
 
 interface Props {
   recipe: Recipe
@@ -90,6 +91,24 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
           {recipe.diet.map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
           {recipe.tags.map((t) => <span key={t} className="pill">{t}</span>)}
         </div>
+        {recipe.source && (
+          <a className="source-box" href={recipe.source.url} target="_blank" rel="noopener noreferrer">
+            <span className="source-star"><IconStar /></span>
+            <span className="source-text">
+              {recipe.source.rating !== undefined ? (
+                <>
+                  <b>{formatRating(recipe.source.rating)} von 5</b>
+                  {recipe.source.ratingCount !== undefined && <> bei {formatCount(recipe.source.ratingCount)} Bewertungen</>}
+                  {' '}auf {recipe.source.site}{isTopRated(recipe) && ' · Community-Favorit'}
+                </>
+              ) : (
+                <>Vorbild auf {recipe.source.site}</>
+              )}
+              <small>Unsere eigene Version. Original ansehen</small>
+            </span>
+            <IconExternal />
+          </a>
+        )}
         <div className="actions">
           <button className={`btn ${saved ? '' : 'primary'}`} onClick={() => onToggleSave(recipe.id)}>
             <IconHeart filled={saved} width={18} height={18} /> {saved ? 'Gespeichert' : 'Speichern'}
