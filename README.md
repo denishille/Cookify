@@ -35,7 +35,7 @@ npm run lint
 Zwei Mechanismen, die sich ergänzen:
 
 1. **Vorbereitete Pipeline** – 50 Rezepte in `part5.json` sind auf die kommenden Wochen verteilt und erscheinen automatisch. Läuft ohne externe Dienste.
-2. **Automatische Generierung** – der Workflow `.github/workflows/weekly-recipes.yml` läuft jeden Montag und erzeugt mit der Claude API fünf neue Rezepte für die Folgewoche (`scripts/generate-weekly.mjs`). Dafür muss das Repository-Secret `ANTHROPIC_API_KEY` gesetzt sein. Die Rezepte werden validiert und als `weekly-<Woche>.json` committet. Ohne Secret wird der Schritt übersprungen. Manuell: `ANTHROPIC_API_KEY=… npm run recipes:weekly -- --week 2026-W45 --count 5`.
+2. **Generierung per Skript** – `scripts/generate-weekly.mjs` erzeugt mit der Claude API neue Rezepte für eine Woche und legt sie als `weekly-<Woche>.json` ab: `ANTHROPIC_API_KEY=… npm run recipes:weekly -- --week 2026-W45 --count 5`.
 
 ## Quellen und Bewertungen
 
@@ -43,8 +43,8 @@ Jedes Rezept ist ein eigener Text, verlinkt aber ein passendes, möglichst gut u
 
 - `src/data/sources/*.json` ordnet Rezept-IDs eine Quelle zu (`site`, `url`, `title`, optional `rating`, `ratingCount`). Die ersten Zuordnungen stammen aus einer Websuche-Recherche, `auto.json` schreibt die Pipeline.
 - `scripts/research-sources.mjs` liest die öffentlichen schema.org-Rezeptmetadaten (JSON-LD) der Quellseiten: `--refresh` aktualisiert Bewertungen, `--fill` sucht Quellen für Rezepte ohne Quelle, `--discover N` sammelt neue, sehr gut bewertete Gerichte in `src/data/candidates.json`. Für Suche braucht es `BRAVE_API_KEY` (Brave Search API, kostenloser Tarif).
-- Der wöchentliche Rezept-Nachschub wählt seine Gerichte bevorzugt aus den Kandidaten und schreibt dazu eine eigene Rezeptur; die Quelle mit Bewertung hängt am Rezept.
-- Workflow `.github/workflows/research-sources.yml`: sonntags automatisch, manuell mit Angabe der Kandidatenzahl.
+- Der Rezept-Generator wählt seine Gerichte bevorzugt aus den Kandidaten und schreibt dazu eine eigene Rezeptur; die Quelle mit Bewertung hängt am Rezept.
+- Aufruf lokal, z. B. `npm run recipes:sources -- --refresh` oder `BRAVE_API_KEY=… npm run recipes:sources -- --fill --discover 20`.
 - Bewusst ausgelassen: chefkoch.de blockiert automatisierte Zugriffe und Crawler. Rezepttexte und Fotos werden von keiner Seite übernommen.
 
 ## Rezeptbilder
@@ -52,8 +52,7 @@ Jedes Rezept ist ein eigener Text, verlinkt aber ein passendes, möglichst gut u
 Die App zeigt für jedes Rezept ein Foto, sobald `src/assets/recipes/<id>.jpg` existiert; fehlt es, bleibt die Emoji-Kachel. Die Bilder entstehen per KI:
 
 - `scripts/generate-images.mjs` baut aus Titel, Beschreibung und Hauptzutaten einen Foto-Prompt („professional food photography …“), ruft den Bildgenerator auf und speichert 800×600-JPEGs. Anbieter nach gesetztem Schlüssel: `OPENAI_API_KEY` (gpt-image-1) oder `REPLICATE_API_TOKEN` (Flux Schnell, deutlich günstiger).
-- Der Workflow `.github/workflows/generate-images.yml` läuft manuell über *Actions → Rezeptbilder erzeugen → Run workflow* (optional mit Limit oder Rezept-IDs) und automatisch nach jedem wöchentlichen Rezept-Nachschub. Er committet die Bilder direkt in den Branch.
-- Lokal: `OPENAI_API_KEY=… npm run recipes:images -- --limit 10`, Prompts ansehen mit `npm run recipes:images -- --dry-run`.
+- Aufruf lokal: `OPENAI_API_KEY=… npm run recipes:images -- --limit 10`, Prompts ansehen mit `npm run recipes:images -- --dry-run`.
 
 ## Deployment
 
