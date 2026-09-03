@@ -1,0 +1,51 @@
+name: Wöchentlicher Rezept-Nachschub
+
+# Läuft jeden Montag um 05:00 UTC und erzeugt Rezepte für die FOLGENDE Woche,
+# damit sie pünktlich zum nächsten Montag in der App erscheinen.
+# Benötigt das Repository-Secret ANTHROPIC_API_KEY. Ohne Secret passiert nichts –
+# die App schaltet dann weiterhin die vorbereiteten Rezepte aus der Pipeline frei.
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'ISO-Woche, z. B. 2026-W40 (leer = nächste Woche)'
+        required: false
+      count:
+        description: 'Anzahl Rezepte'
+        required: false
+        default: '5'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Rezepte erzeugen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.week }}" ]; then ARGS="$ARGS --week ${{ github.event.inputs.week }}"; fi
+          if [ -n "${{ github.event.inputs.count }}" ]; then ARGS="$ARGS --count ${{ github.event.inputs.count }}"; fi
+          node scripts/generate-weekly.mjs $ARGS
+      - name: Änderungen committen
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain src/data/recipes)" ]; then
+            echo "Keine neuen Rezepte."
+            exit 0
+          fi
+          git config user.name "kitchenaid-bot"
+          git config user.email "kitchenaid-bot@users.noreply.github.com"
+          git add src/data/recipes
+          git commit -m "Rezepte: wöchentlicher Nachschub"
+          git push
