@@ -29,7 +29,7 @@ const discoverN = Number(opt('--discover', '0'))
 /** Seiten, deren Rezeptseiten wir als Quelle verlinken. chefkoch.de bewusst nicht: verbietet automatisierte Abfragen. */
 export const ALLOWED_SITES = ['eatsmarter.de', 'lecker.de', 'kochbar.de', 'hellofresh.de', 'kptncook.com', 'essen-und-trinken.de', 'kuechengoetter.de', 'einfachkochen.de', 'springlane.de', 'gaumenfreundin.de', 'emmikochteinfach.de', 'malteskitchen.de', 'brigitte.de', 'rewe.de', 'edeka.de']
 
-const UA = 'CookifyBot/1.0 (+https://github.com/denishille/kitchenaid; liest nur schema.org-Rezeptmetadaten)'
+const UA = 'CookifyBot/1.0 (+https://github.com/denishille/Cookify; liest nur schema.org-Rezeptmetadaten)'
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 function siteOf(url) {
