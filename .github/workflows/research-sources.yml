@@ -19,6 +19,8 @@ permissions:
 jobs:
   research:
     runs-on: ubuntu-latest
+    env:
+      BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,9 +31,7 @@ jobs:
       - name: Bewertungen aktualisieren
         run: node scripts/research-sources.mjs --refresh --limit 150
       - name: Fehlende Quellen und neue Kandidaten
-        if: ${{ secrets.BRAVE_API_KEY != '' }}
-        env:
-          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        if: ${{ env.BRAVE_API_KEY != '' }}
         run: node scripts/research-sources.mjs --fill --limit 40 --discover ${{ github.event.inputs.discover || '20' }}
       - name: Änderungen committen
         run: |
