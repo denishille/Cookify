@@ -5,13 +5,13 @@ import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek, weekLte } from './lib/week'
 import { rankByPantry } from './lib/match'
-import { applyFilters, activeCount, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
+import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
-import { QuickFilters, FilterPanel } from './components/Filters'
-import { IconBasket, IconBook, IconDice, IconFilter, IconHeart, IconSearch, IconX } from './components/Icons'
+import { QuickFilters, FilterGroups } from './components/Filters'
+import { IconBasket, IconBook, IconDice, IconHeart, IconSearch, IconX } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -19,10 +19,10 @@ const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRE
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
 const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
 
-const NAV: { view: View; label: string; icon: React.ReactNode; big: React.ReactNode }[] = [
-  { view: 'rezepte', label: 'Rezepte', icon: <IconBook />, big: <IconBook width={44} height={44} strokeWidth={1.6} /> },
-  { view: 'vorrat', label: 'Was hab ich da?', icon: <IconBasket />, big: <IconBasket width={44} height={44} strokeWidth={1.6} /> },
-  { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart />, big: <IconHeart width={44} height={44} strokeWidth={1.6} /> },
+const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
+  { view: 'rezepte', label: 'Rezepte', icon: <IconBook /> },
+  { view: 'vorrat', label: 'Was hab ich da?', icon: <IconBasket /> },
+  { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart /> },
 ]
 
 type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
@@ -62,9 +62,11 @@ export default function App() {
   const maxMissing = MISSING_OPTIONS.some((o) => o.value === storedMissing) ? storedMissing : 3
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
-  const [panelOpen, setPanelOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState<Sort>('standard')
+  /** Treffer erst zeigen, wenn im Konfigurator etwas angetippt oder eingetippt wurde. */
+  const [touched, setTouched] = useState(false)
+  const touch = <T,>(fn: (v: T) => void) => (v: T) => { setTouched(true); fn(v) }
 
   const pantryKey = [...pantrySet.set].sort().join(',')
   const pantryResults = useMemo(
@@ -104,30 +106,17 @@ export default function App() {
     </nav>
   )
 
-  const onStart = route.view === 'start' && !route.recipeId
-
   return (
-    <div className={`app ${onStart ? 'is-start' : ''}`}>
+    <div className="app">
       <header className="topbar">
         <div className="topbar-inner">
-          <a className="brand" href="#/" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
-          {!onStart && tabs('nav')}
+          <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
+          {tabs('nav')}
         </div>
       </header>
-      {!onStart && tabs('tabbar')}
+      {tabs('tabbar')}
 
-      <main className={`main ${onStart ? 'main-start' : ''}`}>
-        {onStart && (
-          <nav className="start" aria-label="Hauptnavigation">
-            {NAV.map((n) => (
-              <button key={n.view} className={`start-tile ${n.view}`} onClick={() => navigate(n.view)}>
-                <span className="start-icon">{n.big}</span>
-                <span className="start-label">{n.label}</span>
-                {n.view === 'gespeichert' && savedSet.set.size > 0 && <span className="start-count">{savedSet.set.size}</span>}
-              </button>
-            ))}
-          </nav>
-        )}
+      <main className="main">
 
         {route.recipeId && !detail && (
           <div className="empty">
@@ -155,44 +144,50 @@ export default function App() {
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
 
-            <div className="controls">
-              <div className="searchbox">
+            <section className="config" aria-label="Rezept-Konfigurator">
+              <div className="searchbox lg">
                 <IconSearch />
-                <input placeholder="Gericht oder Zutat suchen …" value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Rezepte durchsuchen" />
+                <input placeholder="Gericht oder Zutat suchen …" value={query} onChange={touch((e: React.ChangeEvent<HTMLInputElement>) => setQuery(e.target.value))} aria-label="Rezepte durchsuchen" />
                 {query && <button className="clear" onClick={() => setQuery('')} aria-label="Suche löschen"><IconX width={16} height={16} /></button>}
               </div>
-              <button className={`btn ${panelOpen || activeCount(filters) ? 'on' : ''}`} onClick={() => setPanelOpen((o) => !o)} aria-expanded={panelOpen}>
-                <IconFilter width={18} height={18} /> Filter {activeCount(filters) > 0 && <span className="n">{activeCount(filters)}</span>}
-              </button>
-              <select className="select" value={sort} onChange={(e) => setSort(e.target.value as Sort)} aria-label="Sortierung">
-                <option value="standard">Sortieren</option>
-                {HAS_RATINGS && <option value="bewertung">Beste Bewertung</option>}
-                <option value="neu">Neueste zuerst</option>
-                <option value="schnell">Schnellste zuerst</option>
-                <option value="kcal">Wenigste Kalorien</option>
-                <option value="protein">Meistes Protein</option>
-              </select>
-              <button className="btn icon" onClick={surprise} aria-label="Zufälliges Rezept" title="Überrasch mich"><IconDice /></button>
-            </div>
-            <div style={{ marginTop: 14 }}><QuickFilters value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} /></div>
-            {panelOpen && <FilterPanel value={filters} onChange={setFilters} onClose={() => setPanelOpen(false)} hasRatings={HAS_RATINGS} />}
-
-            <div className="section">
-              <div className="section-head">
-                <h2>{browsing ? 'Alle Rezepte' : 'Ergebnisse'}</h2>
-                <span className="sub">{results.length} {results.length === 1 ? 'Rezept' : 'Rezepte'}</span>
-              </div>
-              {results.length === 0 ? (
-                <div className="empty">
-                  <div className="ico"><IconSearch /></div>
-                  <h3>Nichts gefunden</h3>
-                  <p>Probier einen anderen Begriff oder setz die Filter zurück.</p>
+              <FilterGroups value={filters} onChange={touch(setFilters)} hasRatings={HAS_RATINGS} />
+              <div className="config-foot">
+                <select className="select" value={sort} onChange={touch((e: React.ChangeEvent<HTMLSelectElement>) => setSort(e.target.value as Sort))} aria-label="Sortierung">
+                  <option value="standard">Sortieren</option>
+                  {HAS_RATINGS && <option value="bewertung">Beste Bewertung</option>}
+                  <option value="neu">Neueste zuerst</option>
+                  <option value="schnell">Schnellste zuerst</option>
+                  <option value="kcal">Wenigste Kalorien</option>
+                  <option value="protein">Meistes Protein</option>
+                </select>
+                <button className="btn" onClick={surprise}><IconDice width={18} height={18} /> Überrasch mich</button>
+                {(!touched || !browsing) && (
+                  <button className="btn soft" onClick={() => { setTouched(true); setFilters(EMPTY_FILTERS); setQuery('') }}>Alle Rezepte zeigen</button>
+                )}
+                {touched && (query || !browsing) && (
                   <button className="btn" onClick={() => { setQuery(''); setFilters(EMPTY_FILTERS) }}>Zurücksetzen</button>
+                )}
+              </div>
+            </section>
+
+            {touched && (
+              <div className="section">
+                <div className="section-head">
+                  <h2>{browsing ? 'Alle Rezepte' : 'Ergebnisse'}</h2>
+                  <span className="sub">{results.length} {results.length === 1 ? 'Rezept' : 'Rezepte'}</span>
                 </div>
-              ) : (
-                <div className="grid">{results.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
-              )}
-            </div>
+                {results.length === 0 ? (
+                  <div className="empty">
+                    <div className="ico"><IconSearch /></div>
+                    <h3>Nichts gefunden</h3>
+                    <p>Probier einen anderen Begriff oder setz die Filter zurück.</p>
+                    <button className="btn" onClick={() => { setQuery(''); setFilters(EMPTY_FILTERS) }}>Zurücksetzen</button>
+                  </div>
+                ) : (
+                  <div className="grid">{results.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+                )}
+              </div>
+            )}
           </>
         )}
 
