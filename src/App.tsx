@@ -11,6 +11,7 @@ import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
 import { QuickFilters, FilterPanel } from './components/Filters'
 import { IconBasket, IconBook, IconDice, IconFilter, IconHeart, IconSearch, IconSparkle, IconX } from './components/Icons'
+import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
 const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRENT_WEEK))
@@ -55,9 +56,9 @@ function related(recipe: Recipe): Recipe[] {
 
 export default function App() {
   const route = useRoute()
-  const savedSet = usePersistentSet('kitchenaid.saved')
-  const pantrySet = usePersistentSet('kitchenaid.pantry')
-  const [storedMissing, setMaxMissing] = usePersistentState<number>('kitchenaid.maxMissing', 3)
+  const savedSet = usePersistentSet('cookify.saved')
+  const pantrySet = usePersistentSet('cookify.pantry')
+  const [storedMissing, setMaxMissing] = usePersistentState<number>('cookify.maxMissing', 3)
   const maxMissing = MISSING_OPTIONS.some((o) => o.value === storedMissing) ? storedMissing : 3
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
@@ -107,7 +108,7 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <div className="topbar-inner">
-          <a className="brand" href="#/rezepte"><span className="brand-mark">K</span><span className="brand-name">KitchenAid</span></a>
+          <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
           {tabs('nav')}
         </div>
       </header>

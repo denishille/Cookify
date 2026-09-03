@@ -1,6 +1,8 @@
-# 🍳 KitchenAid
+# Cookify
 
-Rezept-App mit über 200 Rezepten. Gib an, was du zuhause hast, und KitchenAid schlägt dir Gerichte vor. Oder stöbere von Grund auf nach Kategorie, Ernährungsform (vegetarisch, vegan, proteinreich, Low Carb …), Küche und Zeit. Rezepte lassen sich speichern, und jede Woche werden neue Rezepte freigeschaltet.
+<img src="public/logo.svg" alt="Cookify" width="320">
+
+Rezept-App mit über 200 Rezepten. Gib an, was du zuhause hast, und Cookify schlägt dir Gerichte vor. Oder stöbere von Grund auf nach Kategorie, Ernährungsform (vegetarisch, vegan, proteinreich, Low Carb …), Küche und Zeit. Rezepte lassen sich speichern, und jede Woche werden neue Rezepte freigeschaltet.
 
 ## Funktionen
 
@@ -10,6 +12,7 @@ Rezept-App mit über 200 Rezepten. Gib an, was du zuhause hast, und KitchenAid s
 - **Gespeichert** – Favoriten und Vorrat bleiben im Browser (localStorage) erhalten.
 - **Wöchentlich neu** – jedes Rezept hat eine ISO-Kalenderwoche, ab der es sichtbar ist. Die App blendet automatisch jeden Montag die nächste Charge ein, ohne Deployment.
 - **Design** – aufgeräumter Look nach dem Vorbild von Kochbox-Apps: Weiß, Grün, große Rezeptkacheln, Outfit und Manrope von Google Fonts.
+- **Logo** – Wort- und Bildmarke liegen als fontunabhängige SVG-Pfade in `public/logo.svg` und `public/favicon.svg`; `npm run logo` erzeugt sie neu aus Fredoka SemiBold (`scripts/make-logo.mjs`).
 
 ## Entwicklung
 

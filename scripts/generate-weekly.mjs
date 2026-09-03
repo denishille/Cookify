@@ -78,7 +78,7 @@ const response = await client.messages.parse({
   model: 'claude-opus-5',
   max_tokens: 16000,
   system: [
-    'Du schreibst Rezepte für die deutsche Rezept-App KitchenAid. Antworte ausschließlich mit den Rezeptdaten im geforderten Format.',
+    'Du schreibst Rezepte für die deutsche Rezept-App Cookify. Antworte ausschließlich mit den Rezeptdaten im geforderten Format.',
     'Halte dich exakt an dieses Schema und diese Regeln:\n\n' + schema,
     'Erlaubte Zutaten-Keys (nur diese verwenden):\n' + keys.join(', '),
   ].join('\n\n'),

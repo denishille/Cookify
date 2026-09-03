@@ -44,8 +44,8 @@ jobs:
             echo "Keine neuen Rezepte."
             exit 0
           fi
-          git config user.name "kitchenaid-bot"
-          git config user.email "kitchenaid-bot@users.noreply.github.com"
+          git config user.name "cookify-bot"
+          git config user.email "cookify-bot@users.noreply.github.com"
           git add src/data/recipes
           git commit -m "Rezepte: wöchentlicher Nachschub"
           git push
