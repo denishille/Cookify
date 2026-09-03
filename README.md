@@ -66,4 +66,4 @@ Projekteinstellungen in Cloudflare:
 
 Die Routen laufen über den URL-Hash (`#/rezept/<id>`), deshalb ist keine SPA-Rewrite-Regel nötig – der Server liefert immer `index.html`.
 
-Auch die automatischen Commits der wöchentlichen Workflows (neue Rezepte, Bilder) lösen ein Deployment aus, die frischen Rezepte gehen also ohne Zutun live.
+Jeder Push auf den Produktionsbranch, auch mit neuen Rezepten oder Bildern aus den Skripten, löst ein Deployment aus.
