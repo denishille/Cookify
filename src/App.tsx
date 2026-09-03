@@ -3,7 +3,7 @@ import { ALL_RECIPES } from './data'
 import type { Recipe } from './types'
 import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
-import { isoWeek, weekLte, formatWeek, addWeeks } from './lib/week'
+import { isoWeek, weekLte } from './lib/week'
 import { rankByPantry } from './lib/match'
 import { applyFilters, activeCount, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
@@ -11,14 +11,11 @@ import { RecipeCard } from './components/RecipeCard'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
 import { QuickFilters, FilterPanel } from './components/Filters'
-import { IconBasket, IconBook, IconDice, IconFilter, IconHeart, IconSearch, IconSparkle, IconX } from './components/Icons'
+import { IconBasket, IconBook, IconDice, IconFilter, IconHeart, IconSearch, IconX } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
 const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRENT_WEEK))
-const UPCOMING: Recipe[] = ALL_RECIPES.filter((r) => !weekLte(r.addedWeek, CURRENT_WEEK))
-const NEW_THIS_WEEK = AVAILABLE.filter((r) => r.addedWeek === CURRENT_WEEK)
-const NEXT_WEEK_COUNT = UPCOMING.filter((r) => r.addedWeek === addWeeks(CURRENT_WEEK, 1)).length
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
 const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
 
@@ -143,7 +140,6 @@ export default function App() {
         {!route.recipeId && route.view === 'rezepte' && (
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
-            <p className="lead">{AVAILABLE.length} Rezepte, jede Woche kommen neue dazu.</p>
 
             <div className="controls">
               <div className="searchbox">
@@ -167,16 +163,6 @@ export default function App() {
             <div style={{ marginTop: 14 }}><QuickFilters value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} /></div>
             {panelOpen && <FilterPanel value={filters} onChange={setFilters} onClose={() => setPanelOpen(false)} hasRatings={HAS_RATINGS} />}
 
-            {browsing && NEW_THIS_WEEK.length > 0 && (
-              <div className="section">
-                <div className="section-head">
-                  <h2><IconSparkle width={20} height={20} style={{ color: 'var(--green)', verticalAlign: -3, marginRight: 6 }} />Neu diese Woche</h2>
-                  <span className="sub">{formatWeek(CURRENT_WEEK)}{NEXT_WEEK_COUNT > 0 && ` · nächste Woche ${NEXT_WEEK_COUNT} weitere`}</span>
-                </div>
-                <div className="grid">{NEW_THIS_WEEK.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
-              </div>
-            )}
-
             <div className="section">
               <div className="section-head">
                 <h2>{browsing ? 'Alle Rezepte' : 'Ergebnisse'}</h2>
@@ -199,7 +185,6 @@ export default function App() {
         {!route.recipeId && route.view === 'vorrat' && (
           <>
             <h1 className="h1">Was hab ich da?</h1>
-            <p className="lead">Sag uns, was im Kühlschrank ist. Wir zeigen dir, was du daraus kochen kannst.</p>
             <div className="split">
               <div className="sticky">
                 <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} onReplace={pantrySet.replace} />
@@ -244,7 +229,6 @@ export default function App() {
         {!route.recipeId && route.view === 'gespeichert' && (
           <>
             <h1 className="h1">Gespeichert</h1>
-            <p className="lead">Deine Favoriten, auf diesem Gerät gespeichert.</p>
             {savedRecipes.length === 0 ? (
               <div className="empty" style={{ marginTop: 22 }}>
                 <div className="ico"><IconHeart /></div>
