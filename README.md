@@ -34,6 +34,14 @@ Zwei Mechanismen, die sich ergänzen:
 1. **Vorbereitete Pipeline** – 50 Rezepte in `part5.json` sind auf die kommenden Wochen verteilt und erscheinen automatisch. Läuft ohne externe Dienste.
 2. **Automatische Generierung** – der Workflow `.github/workflows/weekly-recipes.yml` läuft jeden Montag und erzeugt mit der Claude API fünf neue Rezepte für die Folgewoche (`scripts/generate-weekly.mjs`). Dafür muss das Repository-Secret `ANTHROPIC_API_KEY` gesetzt sein. Die Rezepte werden validiert und als `weekly-<Woche>.json` committet. Ohne Secret wird der Schritt übersprungen. Manuell: `ANTHROPIC_API_KEY=… npm run recipes:weekly -- --week 2026-W45 --count 5`.
 
+## Rezeptbilder
+
+Die App zeigt für jedes Rezept ein Foto, sobald `src/assets/recipes/<id>.jpg` existiert; fehlt es, bleibt die Emoji-Kachel. Die Bilder entstehen per KI:
+
+- `scripts/generate-images.mjs` baut aus Titel, Beschreibung und Hauptzutaten einen Foto-Prompt („professional food photography …“), ruft den Bildgenerator auf und speichert 800×600-JPEGs. Anbieter nach gesetztem Schlüssel: `OPENAI_API_KEY` (gpt-image-1) oder `REPLICATE_API_TOKEN` (Flux Schnell, deutlich günstiger).
+- Der Workflow `.github/workflows/generate-images.yml` läuft manuell über *Actions → Rezeptbilder erzeugen → Run workflow* (optional mit Limit oder Rezept-IDs) und automatisch nach jedem wöchentlichen Rezept-Nachschub. Er committet die Bilder direkt in den Branch.
+- Lokal: `OPENAI_API_KEY=… npm run recipes:images -- --limit 10`, Prompts ansehen mit `npm run recipes:images -- --dry-run`.
+
 ## Deployment
 
 `.github/workflows/deploy.yml` baut die App bei jedem Push auf `main` und veröffentlicht sie auf GitHub Pages (in den Repo-Einstellungen unter *Pages* die Quelle „GitHub Actions“ wählen).

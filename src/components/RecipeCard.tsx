@@ -4,6 +4,7 @@ import { DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import type { MatchResult } from '../lib/match'
 import { openRecipe } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
+import { recipeImage } from '../lib/images'
 import { IconClock, IconHeart } from './Icons'
 
 interface Props {
@@ -16,6 +17,7 @@ interface Props {
 
 export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props) {
   const pct = match ? Math.round(match.score * 100) : null
+  const img = recipeImage(recipe.id)
   return (
     <article
       className="card"
@@ -24,9 +26,9 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props)
       onClick={() => openRecipe(recipe.id)}
       onKeyDown={(e) => { if (e.key === 'Enter') openRecipe(recipe.id) }}
     >
-      <div className="tile" style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
+      <div className={`tile ${img ? 'photo' : ''}`} style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
         {isNew && <span className="badge-new">Neu</span>}
-        <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>
+        {img ? <img src={img} alt="" loading="lazy" decoding="async" /> : <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>}
         <button
           className={`fav ${saved ? 'on' : ''}`}
           aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'}

@@ -4,6 +4,7 @@ import { CATEGORY_LABELS, CUISINE_LABELS, DIET_LABELS, DIFFICULTY_LABELS } from 
 import { STAPLE_KEYS } from '../data'
 import { back } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
+import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
 import { IconCheck, IconChevronLeft, IconClock, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare } from './Icons'
 
@@ -44,6 +45,7 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
     return () => clearTimeout(t)
   }, [toast])
 
+  const img = recipeImage(recipe.id)
   const factor = servings / recipe.servings
   const need = recipe.ingredients.filter((i) => !i.optional && !STAPLE_KEYS.has(i.key))
   const haveCount = need.filter((i) => pantry.has(i.key)).length
@@ -66,9 +68,9 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
     <div className="detail">
       <button className="backlink" onClick={back}><IconChevronLeft /> Zurück</button>
 
-      <div className="tile lg" style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
+      <div className={`tile lg ${img ? 'photo' : ''}`} style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
         {isNew && <span className="badge-new">Neu diese Woche</span>}
-        <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>
+        {img ? <img src={img} alt={recipe.title} decoding="async" /> : <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>}
         <button className={`fav ${saved ? 'on' : ''}`} aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'} aria-pressed={saved} onClick={() => onToggleSave(recipe.id)}>
           <IconHeart filled={saved} />
         </button>

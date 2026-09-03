@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "recipes:validate": "node scripts/validate-recipes.mjs",
     "recipes:schedule": "node scripts/assign-weeks.mjs",
-    "recipes:weekly": "node scripts/generate-weekly.mjs"
+    "recipes:weekly": "node scripts/generate-weekly.mjs",
+    "recipes:images": "node scripts/generate-images.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -23,6 +24,7 @@
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
     "oxlint": "^1.79.0",
+    "sharp": "^0.35.4",
     "typescript": "~6.0.2",
     "vite": "^8.2.2",
     "zod": "^4.5.4"

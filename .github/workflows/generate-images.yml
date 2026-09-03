@@ -1,0 +1,58 @@
+name: Rezeptbilder erzeugen
+
+# Erzeugt fotorealistische KI-Bilder für alle Rezepte ohne Bild und committet sie.
+# Benötigt EIN Secret: OPENAI_API_KEY (gpt-image-1) oder REPLICATE_API_TOKEN (Flux Schnell).
+# Läuft manuell (workflow_dispatch) und automatisch nach dem wöchentlichen Rezept-Nachschub.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Höchstens so viele Bilder erzeugen (leer = alle fehlenden)'
+        required: false
+      ids:
+        description: 'Nur diese Rezept-IDs, kommagetrennt (optional)'
+        required: false
+  workflow_run:
+    workflows: ['Wöchentlicher Rezept-Nachschub']
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recipe-images
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Bilder erzeugen
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"; fi
+          if [ -n "${{ github.event.inputs.ids }}" ]; then ARGS="$ARGS --ids ${{ github.event.inputs.ids }}"; fi
+          node scripts/generate-images.mjs $ARGS
+      - name: Bilder committen
+        run: |
+          if [ -z "$(git status --porcelain src/assets/recipes)" ]; then
+            echo "Keine neuen Bilder."
+            exit 0
+          fi
+          git config user.name "kitchenaid-bot"
+          git config user.email "kitchenaid-bot@users.noreply.github.com"
+          git add src/assets/recipes
+          git commit -m "Rezeptbilder: $(git status --porcelain src/assets/recipes | wc -l | tr -d ' ') neue Bilder"
+          git pull --rebase origin "$(git rev-parse --abbrev-ref HEAD)"
+          git push
