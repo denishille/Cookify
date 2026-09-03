@@ -19,7 +19,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --bg: #17140f;
     --bg-elev: #211d17;
     --bg-muted: #2b261f;
@@ -35,6 +35,23 @@
     --amber-soft: #3d3012;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
   }
+}
+
+:root[data-theme='dark'] {
+    --bg: #17140f;
+    --bg-elev: #211d17;
+    --bg-muted: #2b261f;
+    --border: #3a332a;
+    --text: #f3ede4;
+    --text-muted: #a89d90;
+    --accent: #f0693d;
+    --accent-strong: #ff8358;
+    --accent-soft: #3d251a;
+    --green: #5cc78a;
+    --green-soft: #1f3a2b;
+    --amber: #e5a52c;
+    --amber-soft: #3d3012;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 * { box-sizing: border-box; }
@@ -260,7 +277,13 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
   flex-shrink: 0;
 }
 
+.card-head {
+  min-width: 0;
+  padding-right: 34px;
+}
+
 .card-title {
+  overflow-wrap: anywhere;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.25;

@@ -26,7 +26,7 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props)
       </button>
       <div className="card-top">
         <div className="card-emoji" aria-hidden>{recipe.emoji}</div>
-        <div style={{ paddingRight: 36 }}>
+        <div className="card-head">
           <div className="card-title">{recipe.title}</div>
           <div className="card-meta">
             <span>⏱ {recipe.timeMinutes} Min</span>
