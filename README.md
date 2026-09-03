@@ -57,4 +57,14 @@ Die App zeigt für jedes Rezept ein Foto, sobald `src/assets/recipes/<id>.jpg` e
 
 ## Deployment
 
-`.github/workflows/deploy.yml` baut die App bei jedem Push auf `main` und veröffentlicht sie auf GitHub Pages (in den Repo-Einstellungen unter *Pages* die Quelle „GitHub Actions“ wählen).
+Die App liegt auf **Cloudflare Pages**, angebunden über die Git-Integration: Cloudflare baut bei jedem Push auf den Produktionsbranch selbst, es braucht dafür keinen Workflow und kein API-Token im Repository.
+
+Projekteinstellungen in Cloudflare:
+
+- Build command: `npm run recipes:validate && npm run build`
+- Build output directory: `dist`
+- Root directory: `/`
+
+Die Routen laufen über den URL-Hash (`#/rezept/<id>`), deshalb ist keine SPA-Rewrite-Regel nötig – der Server liefert immer `index.html`.
+
+Auch die automatischen Commits der wöchentlichen Workflows (neue Rezepte, Bilder) lösen ein Deployment aus, die frischen Rezepte gehen also ohne Zutun live.
