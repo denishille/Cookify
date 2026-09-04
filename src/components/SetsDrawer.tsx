@@ -37,7 +37,6 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
         <button className="drawer-handle" onClick={onOpen} aria-label="Sets öffnen" title="Sets">
           <IconChevronLeft width={16} height={16} />
           <IconLayers width={18} height={18} />
-          <span>Sets</span>
         </button>
       )}
       {open && <div className="drawer-backdrop" onClick={onClose} />}

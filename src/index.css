@@ -420,11 +420,9 @@ svg { flex-shrink: 0; }
   display: flex; flex-direction: column; align-items: center; gap: 6px;
   padding: 12px 6px 12px 8px; border-radius: 14px 0 0 14px;
   background: var(--green); color: #fff; box-shadow: var(--shadow);
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em;
   transition: transform 0.15s ease;
 }
 .drawer-handle:hover { transform: translateY(-50%) translateX(-2px); }
-.drawer-handle span { writing-mode: vertical-rl; }
 .drawer-backdrop { position: fixed; inset: 0; z-index: 26; background: rgba(20, 30, 24, 0.35); }
 .drawer {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 27; width: min(380px, 88vw);
