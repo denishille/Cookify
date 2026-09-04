@@ -1241,5 +1241,534 @@
     "title": "Wok-Nudeln mit Gemüse: Blitzrezept",
     "rating": 5,
     "ratingCount": 52
+  },
+  "i-kokos-curry-ramen": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/kokos-curry-ramen/",
+    "title": "15 Minuten Kokos-Curry-Ramen"
+  },
+  "i-amerikaner": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/amerikaner-backen-82231.html",
+    "title": "Amerikaner backen Rezept",
+    "rating": 3.9,
+    "ratingCount": 20
+  },
+  "i-backfisch-mit-remoulade": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/backfisch-mit-remoulade-14401",
+    "title": "Backfisch mit Remoulade"
+  },
+  "i-bauerntopf-mit-hackfleisch": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/bauerntopf-mit-hackfleisch",
+    "title": "Bauerntopf Rezept: einfach wie von Oma",
+    "rating": 3.8,
+    "ratingCount": 24
+  },
+  "i-bayerischer-wurstsalat": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/bayrischer-wurstsalat/",
+    "title": "Bayrischer Wurstsalat mit Radieschen, Rettich und Gewürzgurken",
+    "rating": 4.8,
+    "ratingCount": 32
+  },
+  "i-berliner-pfannkuchen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/berliner-selber-backen/",
+    "title": "Berliner selber machen",
+    "rating": 5,
+    "ratingCount": 17
+  },
+  "i-blumenkohl-kaesesuppe": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/blumenkohl-kasesuppe-f4fa",
+    "title": "Blumenkohl-Käsesuppe"
+  },
+  "i-blumenkohlauflauf-mit-schinken": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/blumenkohlauflauf-bechamelsauce-kochschinken/",
+    "title": "Blumenkohlauflauf mit Schinken | mit Käse überbacken",
+    "rating": 4.9,
+    "ratingCount": 63
+  },
+  "i-bounty-pudding-oats": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/bounty-pudding-oats/",
+    "title": "Bounty-Pudding-Oats – Frühstück mal anders!",
+    "rating": 4,
+    "ratingCount": 4
+  },
+  "i-brioche-burger-buns": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/brioche-burgerbrotchen-b571",
+    "title": "Brioche-Burgerbrötchen",
+    "rating": 3.8,
+    "ratingCount": 5
+  },
+  "i-ceci-al-pomodoro": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/ceci-al-pomodoro",
+    "title": "Ceci al pomodoro"
+  },
+  "i-christstollen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/christstollen-nach-omas-rezept-64002.html",
+    "title": "Christstollen - nach Omas Rezept Rezept",
+    "rating": 4.7,
+    "ratingCount": 37
+  },
+  "i-banoffee-pie": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/banoffee-pie",
+    "title": "Cremigster Banoffee-Pie nur echt nach diesem Rezept",
+    "rating": 3.7,
+    "ratingCount": 49
+  },
+  "i-croissants": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/croissant-rezept-13827136.html",
+    "title": "Croissants selber machen - schnelles Rezept",
+    "rating": 3.7,
+    "ratingCount": 9
+  },
+  "i-currywurst-pommes-suppe": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/currywurst-pommes-suppe/",
+    "title": "Currywurst-Pommes-Suppe",
+    "rating": 4.4,
+    "ratingCount": 5
+  },
+  "i-daim-torte": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/daim-torte-rezept",
+    "title": "Daim Torte - bestes Rezept zum Selbermachen",
+    "rating": 3.6,
+    "ratingCount": 12
+  },
+  "i-kaesesahnetorte": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/kaese-sahne-torte-ohne-gelatine",
+    "title": "Das beste Rezept für Käsesahnetorte: Klassiker einfach selbst gebacken",
+    "rating": 4.4,
+    "ratingCount": 191
+  },
+  "i-black-bean-burger-mit-walnuessen": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/weltbester-black-bean-burger/",
+    "title": "Der weltbeste Black Bean Burger mit Walnüssen und Burgersauce"
+  },
+  "i-vegane-crepes": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/die-besten-veganen-crepes/",
+    "title": "Die besten veganen Crêpes"
+  },
+  "i-fluffige-vegane-pancakes": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/die-fluffigsten-veganen-pancakes-pancake-day-special/",
+    "title": "Die fluffigsten veganen Pancakes {Pancake Day Special}"
+  },
+  "i-vegane-lasagne-bolognese": {
+    "site": "eat-this.org",
+    "url": "https://eat-this.org/vegane-lasagne/",
+    "title": "Die perfekte, klassische vegane Lasagne Bolognese"
+  },
+  "i-klassischer-eiersalat": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/eiersalat-rezept/",
+    "title": "Eiersalat ganz klassisch und einfach",
+    "rating": 5,
+    "ratingCount": 77
+  },
+  "i-gemuesereis-aus-dem-ofen": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/einfacher-gemuesereis-aus-dem-ofen/",
+    "title": "Einfacher Gemüsereis aus dem Ofen"
+  },
+  "i-erdbeermarmelade": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/erdbeermarmelade-grundrezept-81659.html",
+    "title": "Erdbeermarmelade mit nur drei Zutaten Rezept",
+    "rating": 4.7,
+    "ratingCount": 122
+  },
+  "i-feenkuss-dessert-mit-toffifee": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/feenkuss-dessert-im-glas-mit-toffifee-ohne-kochen",
+    "title": "Feenkuss Dessert im Glas mit Toffifee",
+    "rating": 4.3,
+    "ratingCount": 131
+  },
+  "i-flaedlesuppe": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/flaedlesuppe-67915.html",
+    "title": "Flädlesuppe Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-frankfurter-gruene-sosse": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/frankfurter-gruene-sosse/",
+    "title": "Frankfurter Grüne Soße: Klassisches Rezept",
+    "rating": 5,
+    "ratingCount": 18
+  },
+  "i-klassischer-gaensebraten": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/gaensebraten-so-gehts-schritt-fuer-schritt-72588.html",
+    "title": "Gänsebraten - das klassische Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-gefuellte-schmorgurken-mit-hackfleisch": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/gefuellte-schmorgurken-mit-hackfleisch-67691",
+    "title": "Gefüllte Schmorgurken mit Hackfleisch",
+    "rating": 4.4,
+    "ratingCount": 152
+  },
+  "i-gruenes-thai-curry": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/gruenes-thai-curry-mit-zucchini-auberginen/",
+    "title": "Grünes Thai-Curry"
+  },
+  "i-ossobuco-alla-milanese": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/ossobuco",
+    "title": "Italienisches Ossobuco einfach butterzart schmoren",
+    "rating": 4,
+    "ratingCount": 1
+  },
+  "i-kalbsleber-berliner-art": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/kalbsleber-berliner-art-60158.html",
+    "title": "Kalbsleber „Berliner Art“ Rezept",
+    "rating": 4.7,
+    "ratingCount": 14
+  },
+  "i-kartoffelgulasch": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kartoffelgulasch/",
+    "title": "Kartoffelgulasch",
+    "rating": 5,
+    "ratingCount": 100
+  },
+  "i-klare-ochsenschwanzsuppe": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/41487-rzpt-klare-ochsenschwanzsuppe",
+    "title": "Klare Ochsenschwanzsuppe Rezept",
+    "rating": 3,
+    "ratingCount": 88
+  },
+  "i-kaese-sahne-torte": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/kaese-sahne-torte/",
+    "title": "Klassische Käse-Sahne-Torte | herrlich locker &amp; extra cremig",
+    "rating": 5,
+    "ratingCount": 52
+  },
+  "i-klassischer-heringssalat": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/heringssalat/",
+    "title": "Klassischer Heringssalat nach bestem Rezept",
+    "rating": 5,
+    "ratingCount": 17
+  },
+  "i-knuspriger-griechischer-nudelsalat": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/griechischer-nudelsalat-vegan/",
+    "title": "Knuspriger griechischer Nudelsalat mit veganem Feta und Oliven"
+  },
+  "i-kokosmakronen-mit-schokolade": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/kokosmakronen-schokolade/",
+    "title": "Kokosmakronen mit Schokolade - so einfach gemacht!",
+    "rating": 5,
+    "ratingCount": 9
+  },
+  "i-kraeftiges-bauernbrot-mit-sauerteig": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/53651-rzpt-kraeftiges-bauernbrot-mit-sauerteig",
+    "title": "Kräftiges Bauernbrot (mit Sauerteig) Rezept"
+  },
+  "i-kraeuterbutter": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kraeuterbutter-selber-machen/",
+    "title": "Kräuterbutter selber machen: Einfach &amp; schnell",
+    "rating": 5,
+    "ratingCount": 35
+  },
+  "i-kuerbiseintopf-mit-hokkaido-und-kichererbsen": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/kuerbiseintopf-mit-geroestetem-hokkaido-kichererbsen-harissa/",
+    "title": "Kürbiseintopf mit geröstetem Hokkaido, Kichererbsen & Harissa"
+  },
+  "i-lachs-im-blaetterteig": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/lachs-im-blatterteig-634b",
+    "title": "Lachs im Blätterteig"
+  },
+  "i-leberknoedelsuppe": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/leberknoedelsuppe-rezept-13571596.html",
+    "title": "Leberknödelsuppe: einfach selber machen",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-letscho": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/letscho",
+    "title": "Letscho - DER ungarische Paprikaeintopf",
+    "rating": 3.8,
+    "ratingCount": 4
+  },
+  "i-linsensuppe-mit-wuerstchen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/linsensuppe-mit-wuerstchen/",
+    "title": "Linsensuppe mit Würstchen",
+    "rating": 5,
+    "ratingCount": 18
+  },
+  "i-maccaroni-wirsing-auflauf": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/maccaroni-wirsing-auflauf/",
+    "title": "Maccaroni-Wirsing-Auflauf aus dem Ofen",
+    "rating": 4,
+    "ratingCount": 3
+  },
+  "i-maxi-king-dessert": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/maxi-king-dessert-d037",
+    "title": "Maxi King Dessert",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-mediterraner-zwiebel-gemuese-kuchen": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/zwiebel-gemuese-kuchen/",
+    "title": "Mediterraner Zwiebel-Gemüse-Kuchen"
+  },
+  "i-moehreneintopf-mit-mettwurst": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/moehreneintopf",
+    "title": "Möhreneintopf ganz einfach - Omas Rezept",
+    "rating": 4.5,
+    "ratingCount": 16
+  },
+  "i-nuernberger-elisenlebkuchen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/elisen-lebkuchen/",
+    "title": "Nürnberger Elisen Lebkuchen - saftig &amp; lecker | Rezept ohne Mehl",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "i-rhabarberkuchen-mit-baiser": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/rhabarberkuchen-baiser-oma/",
+    "title": "Omas saftiger Rhabarberkuchen mit Baiser",
+    "rating": 4.9,
+    "ratingCount": 124
+  },
+  "i-zuercher-geschnetzeltes": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/geschnetzeltes-zuericher-art",
+    "title": "Original Geschnetzeltes nach Züricher Art",
+    "rating": 4.7,
+    "ratingCount": 6
+  },
+  "i-pastasalat-mit-geroesteten-tomaten-und-veganem-moz": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/pastasalat-mit-geroesteten-tomaten-veganem-mozzarella/",
+    "title": "Pastasalat mit gerösteten Tomaten &amp; veganem Mozzarella"
+  },
+  "i-rahmschnitzel-mit-pfifferlingen-und-spaetzle": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/rahmschnitzel-und-spaetzle-30477.html",
+    "title": "Rahmschnitzel und Spätzle Rezept",
+    "rating": 3,
+    "ratingCount": 1
+  },
+  "i-rahmspinat": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/rahmspinat-das-beste-rezept-131473.html",
+    "title": "Rahmspinat zubereiten - das beste Rezept Rezept"
+  },
+  "i-zitronen-joghurt-kuchen": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2021/05/rezept-fur-soften-zitronen-joghurt-kuchen-ciambella/",
+    "title": "Rezept für soften Zitronen-Joghurt Kuchen – ein einfacher italienischer Ciambella mal anders"
+  },
+  "i-zitronen-streuselkuchen": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2021/01/zitronenkuchen-streuselkuchen-rezept-lemon-crumb-cake/",
+    "title": "Rezept für Zitronenkuchen-Streuselkuchen - lemon crumb cake recipe"
+  },
+  "i-rosenkohl-mit-speck": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/rosenkohl-mit-speck-2235",
+    "title": "Rosenkohl mit Speck",
+    "rating": 4.5,
+    "ratingCount": 70
+  },
+  "i-rotkaeppchen-torte": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/rotkappchen-torte-einfach-wie-von-oma",
+    "title": "Rotkäppchen-Torte einfach wie von Oma",
+    "rating": 4.6,
+    "ratingCount": 102
+  },
+  "i-sauerteigbrot-ohne-hefe": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/sauerteigbrot-backen-rezept-ohne-hefe-80185.html",
+    "title": "Sauerteigbrot backen - Rezept ohne Hefe Rezept",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-klassischer-schichtsalat": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schichtsalat/",
+    "title": "Schichtsalat klassisch und einfach – der Beste!",
+    "rating": 5,
+    "ratingCount": 65
+  },
+  "i-germknoedel-mit-mohnbutter": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/germknoedel-mit-vanillesosse-7651.html",
+    "title": "Schmeckt wie auf der Alm: Germknödel nach Omas Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-veganes-zucchini-gratin-mit-knusperkruste": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/schnelles-veganes-zucchini-gratin-mit-knusperkruste/",
+    "title": "Schnelles veganes Zucchini-Gratin mit Knusperkruste"
+  },
+  "i-schwedische-faecherkartoffeln-mit-kaesekruste": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/schwedische-kartoffeln",
+    "title": "Schwedische Kartoffeln mit knuspriger Käsekruste",
+    "rating": 4.5,
+    "ratingCount": 4
+  },
+  "i-senfeier-in-senfsosse": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/senfeier-eier-in-senfossse/",
+    "title": "Senfeier - Eier in Senfsoße | Rezept meiner Oma",
+    "rating": 4.9,
+    "ratingCount": 117
+  },
+  "i-suedtiroler-spinatrollen-mit-tomatensauce": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/spinatrollen-aus-sudtirol-mit-tomatensauce-eeff",
+    "title": "Spinatrollen aus Südtirol mit Tomatensauce",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-spritzgebaeck": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/spritzgebaeck-backen-so-gehts-51548.html",
+    "title": "Spritzgebäck - Omas einfaches Grundrezept Rezept",
+    "rating": 5,
+    "ratingCount": 6
+  },
+  "i-streuselkuchen-vom-blech": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/streuselkuchen-blech/",
+    "title": "Streuselkuchen vom Blech mit Butterstreusel",
+    "rating": 4.8,
+    "ratingCount": 13
+  },
+  "i-tofu-katsu-bowl": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/tofu-katsu-bowl-mit-geschmortem-gemuese/",
+    "title": "Tofu-Katsu-Bowl mit geschmortem Gemüse"
+  },
+  "i-ueberbackener-chicoree": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/ueberbackener-chicoree-12083534.html",
+    "title": "Überbackener Chicorée – schnell & einfach",
+    "rating": 4.1,
+    "ratingCount": 593
+  },
+  "i-vegane-gyros-broetchen": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/vegane-gyros-broetchen/",
+    "title": "Vegane Gyros-Brötchen – Für Pflanzenfresser",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-vegane-knoblauch-kaese-champignons": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/knoblauch-kaese-champignons/",
+    "title": "Vegane Knoblauch-Käse-Champignons aus der Pfanne",
+    "rating": 4.5,
+    "ratingCount": 9
+  },
+  "i-vegane-linsenfrikadellen": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-linsenfrikadellen/",
+    "title": "Vegane Linsenfrikadellen"
+  },
+  "i-vegane-reis-wuerstchen-pfanne": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/reis-wuerstchen-pfanne/",
+    "title": "Vegane Reis-Würstchen-Pfanne - One Pot, Baby!",
+    "rating": 4.9,
+    "ratingCount": 8
+  },
+  "i-veganer-espresso-cheesecake": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganer-espresso-cheesecake/",
+    "title": "Veganer Espresso-Cheesecake ohne Backen"
+  },
+  "i-veganer-kaesekuchen-ohne-boden": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganer-kaesekuchen-ohne-boden/",
+    "title": "Veganer Käsekuchen ohne Boden"
+  },
+  "i-veganer-tofu-fleischsalat": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/veganer-tofu-fleischsalat/",
+    "title": "Veganer Tofu-Fleischsalat – Perfekt zur Brotzeit!",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-erdnuss-jackfruit-curry-mit-kurkuma": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganes-erdnuss-curry-mit-jackfruit/",
+    "title": "Veganes Erdnuss-Jackfruit-Curry mit Kurkuma"
+  },
+  "i-veganes-wuerstchen-gulasch-mit-kartoffeln": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/veganes-wuerstchen-gulasch/",
+    "title": "Veganes Würstchen-Gulasch mit Kartoffeln",
+    "rating": 4.6,
+    "ratingCount": 5
+  },
+  "i-veganes-erdbeer-schoko-dessert": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/yogurette-dessert/",
+    "title": "Veganes Yogurette-Dessert - Super Easy!",
+    "rating": 4,
+    "ratingCount": 132
+  },
+  "i-wuerziger-nacho-pasta-salat": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/nacho-pasta-salat/",
+    "title": "Würziger Nacho-Pasta-Salat",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-zimtschnecken-kuchen": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2023/09/zimtschnecken-kuchen-rezept-cinnamon-roll-pound-cake/",
+    "title": "Zimtschnecken Kuchen Rezept – cinnamon roll pound cake"
+  },
+  "i-zimtsterne": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/zimtsterne-71589",
+    "title": "Zimtsterne",
+    "rating": 5,
+    "ratingCount": 16
   }
 }
