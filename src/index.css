@@ -286,12 +286,13 @@ svg { flex-shrink: 0; }
 
 .segmented { display: inline-flex; background: var(--surface); border-radius: 999px; padding: 4px; gap: 2px; }
 .segmented button {
-  height: 34px; padding: 0 14px; border-radius: 999px;
+  height: 34px; padding: 0 14px; border-radius: 999px; white-space: nowrap;
   font-size: 0.85rem; font-weight: 600; color: var(--muted);
   transition: background 0.12s ease, color 0.12s ease;
 }
+@media (max-width: 420px) { .segmented button { padding: 0 10px; font-size: 0.82rem; } .segmented .seg button { padding: 0 4px; } }
 .segmented button.on { background: var(--bg); color: var(--text); box-shadow: var(--shadow-sm); }
-.segmented .seg { display: inline-flex; align-items: center; height: 34px; padding: 0 6px 0 4px; border-radius: 999px; color: var(--muted); }
+.segmented .seg { display: inline-flex; align-items: center; height: 34px; padding: 0 6px 0 4px; border-radius: 999px; color: var(--muted); white-space: nowrap; }
 .segmented .seg.on { background: var(--bg); color: var(--text); box-shadow: var(--shadow-sm); }
 .segmented .seg button { height: 34px; padding: 0 6px; color: inherit; }
 .segmented .seg .mini {
