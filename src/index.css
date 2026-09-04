@@ -144,7 +144,10 @@ svg { flex-shrink: 0; }
 .ing-cart { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: var(--muted); flex-shrink: 0; }
 .ing-cart:hover { background: var(--surface); color: var(--green); }
 .settings-list { display: grid; gap: 2px; }
-.settings-list .multi-item { font-size: 0.98rem; padding: 10px 8px; }
+.settings-list .multi-item { font-size: 0.98rem; padding: 10px 8px; align-items: flex-start; }
+.settings-list .multi-item > span:not(.box) { min-width: 0; white-space: normal; }
+.settings-list .multi-item small { display: block; margin-top: 2px; font-weight: 500; font-size: 0.78rem; line-height: 1.35; color: var(--muted); }
+.settings-list .multi-item .box { margin-top: 2px; }
 
 .nav { display: none; }
 .tabbar {
@@ -407,8 +410,9 @@ svg { flex-shrink: 0; }
 .fav.on { color: var(--danger); }
 .fav-hide { right: 50px; }
 .fav-hide.on { color: var(--green); }
-.tile.lg .fav-hide { right: 62px; }
 .tile.lg .fav { width: 42px; height: 42px; top: 12px; right: 12px; }
+/* nach .tile.lg .fav, sonst gewinnt dessen right-Wert bei gleicher Spezifität */
+.tile.lg .fav-hide { right: 62px; }
 
 .card-body { display: flex; flex-direction: column; gap: 4px; padding: 0 2px; }
 .card-title { font-family: var(--font-display); font-weight: 600; font-size: 1.02rem; line-height: 1.25; overflow-wrap: anywhere; }

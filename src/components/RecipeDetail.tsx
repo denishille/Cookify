@@ -6,7 +6,7 @@ import { back } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
-import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
+import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconEye, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar, IconThumbDown } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { adaptRecipe, recipeFructose, type DietOptions } from '../lib/adapt'
 import { useSwipeRight } from '../lib/swipe'
@@ -21,6 +21,8 @@ interface Props {
   isNew: boolean
   savedIds: Set<string>
   activeDiets: Diet[]
+  hidden?: boolean
+  onToggleHide?: (id: string) => void
   dietOpts?: DietOptions
   onAddIngredientToList: (ing: Ingredient) => void
   onAddRecipeToList: (factor: number) => number
@@ -45,7 +47,7 @@ function formatAmount(amount: number | null, factor: number): string {
   return v.toFixed(1).replace('.', ',')
 }
 
-export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, dietOpts = {}, onAddIngredientToList, onAddRecipeToList }: Props) {
+export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, hidden = false, onToggleHide, dietOpts = {}, onAddIngredientToList, onAddRecipeToList }: Props) {
   const [servings, setServings] = useState(recipe.servings)
   const [done, setDone] = useState<Set<number>>(new Set())
   const [toast, setToast] = useState<string | null>(null)
@@ -95,6 +97,13 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
         <button className={`fav ${saved ? 'on' : ''}`} aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'} aria-pressed={saved} onClick={() => onToggleSave(recipe.id)}>
           <IconHeart filled={saved} />
         </button>
+        {onToggleHide && (
+          <button className={`fav fav-hide ${hidden ? 'on' : ''}`} title={hidden ? 'Wieder einblenden' : 'Ausblenden'}
+            aria-label={hidden ? 'Rezept wieder einblenden' : 'Rezept ausblenden'} aria-pressed={hidden}
+            onClick={() => { onToggleHide(recipe.id); setToast(hidden ? 'Wieder eingeblendet' : 'Ausgeblendet, du findest es unter Alle Rezepte') }}>
+            {hidden ? <IconEye /> : <IconThumbDown />}
+          </button>
+        )}
       </div>
 
       <div className="detail-head">

@@ -239,6 +239,8 @@ export default function App() {
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
             activeDiets={activeDiets}
+            hidden={hiddenSet.has(detail.id)}
+            onToggleHide={toggleHidden}
             dietOpts={dietOpts}
             onAddIngredientToList={(ing) => shopping.addIngredient(ing, detail.title)}
             onAddRecipeToList={(factor) => shopping.addRecipe(detail, pantrySet.set, factor)}

@@ -42,7 +42,6 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
 
         <div className="drawer-section">
           <span className="eyebrow">Meine Ernährungsform</span>
-          <p className="hint">Gilt überall in der App. Mehrere Angaben müssen alle zutreffen.</p>
           <div className="settings-list" role="group" aria-label="Ernährungsform">
             {(Object.keys(DIET_LABELS) as Diet[]).filter((d) => d !== 'lowfodmap').map((d) => {
               const on = globalDiets.includes(d)
@@ -57,32 +56,21 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
         </div>
 
         <div className="drawer-section">
-          <span className="eyebrow">Rezepte anpassen</span>
           <div className="settings-list">
             <button className={`multi-item ${adapt ? 'on' : ''}`} onClick={() => onAdaptChange(!adapt)} aria-pressed={adapt}>
-              <span className="box">{adapt && <IconCheck width={14} height={14} />}</span>Ersatz vorschlagen
+              <span className="box">{adapt && <IconCheck width={14} height={14} />}</span>
+              <span>Ersatz vorschlagen<small>Auch Rezepte zeigen, bei denen wenige Zutaten getauscht werden</small></span>
             </button>
+            {globalDiets.includes('fruktosefrei') && (
+              <button className={`multi-item ${strictFructose ? 'on' : ''}`} onClick={() => onStrictFructoseChange(!strictFructose)} aria-pressed={strictFructose}>
+                <span className="box">{strictFructose && <IconCheck width={14} height={14} />}</span>
+                <span>Fruchtzucker streng<small>Ganzer Gehalt statt nur der Überschuss, dann fällt auch Obst wie Orangen raus</small></span>
+              </button>
+            )}
           </div>
-          <p className="hint">An: Rezepte, bei denen nur wenige Zutaten nicht passen, zeigen wir mit Ersatz – etwa Zucker durch Traubenzucker oder Sahne durch Hafercreme. Aus: Du siehst nur Rezepte, die von sich aus passen.</p>
         </div>
 
-        {globalDiets.includes('fruktosefrei') && (
-          <div className="drawer-section">
-            <span className="eyebrow">Fruchtzucker</span>
-            <div className="settings-list">
-              <button className={`multi-item ${strictFructose ? 'on' : ''}`} onClick={() => onStrictFructoseChange(!strictFructose)} aria-pressed={strictFructose}>
-                <span className="box">{strictFructose && <IconCheck width={14} height={14} />}</span>Streng rechnen
-              </button>
-            </div>
-            <p className="hint">
-              Normal zählt der Fruchtzucker, der über den Traubenzucker hinausgeht – so viel wie der Körper schlecht aufnimmt.
-              Eine Orange hat davon kaum etwas und darf bleiben, ein Apfel nicht. Streng zählt der gesamte Fruchtzucker,
-              dann fällt auch die Orange raus. Erlaubt sind {strictFructose ? '0,8' : '2,5'} g je Portion.
-            </p>
-          </div>
-        )}
-
-        <p className="hint" style={{ marginTop: 'auto' }}>Wird auf diesem Gerät gespeichert, genau wie Favoriten, Vorrat und Sets.</p>
+        <p className="hint" style={{ marginTop: 'auto' }}>Alles bleibt auf diesem Gerät.</p>
       </aside>
     </>
   )
