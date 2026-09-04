@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { INGREDIENT_GROUPS, INGREDIENT_BY_KEY } from '../data'
 import { INGREDIENT_GROUP_LABELS } from '../types'
 import type { PantrySet } from '../lib/sets'
@@ -16,6 +16,13 @@ interface Props {
 
 export function PantryPicker({ pantry, onToggle, onClear, sets, onApplySet, onSaveSet, onDeleteSet }: Props) {
   const [query, setQuery] = useState('')
+  const inputRef = useRef<HTMLInputElement>(null)
+  /** Zutat übernehmen, Feld leeren und den Fokus behalten, damit man direkt die nächste tippen kann. */
+  const add = (key: string) => {
+    if (!pantry.has(key)) onToggle(key)
+    setQuery('')
+    requestAnimationFrame(() => inputRef.current?.focus())
+  }
   const [naming, setNaming] = useState(false)
   const [setName, setSetName] = useState('')
   const saveSet = () => {
@@ -41,13 +48,16 @@ export function PantryPicker({ pantry, onToggle, onClear, sets, onApplySet, onSa
         <div className="searchbox">
           <IconSearch />
           <input
-            placeholder="z. B. Hähnchen, Reis, Feta …"
+            ref={inputRef}
+            placeholder="Zutat tippen, Enter fügt hinzu …"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
-              if (e.key === 'Enter' && results[0]) { onToggle(results[0].key); setQuery('') }
+              if (e.key === 'Enter' && results[0]) { e.preventDefault(); add(results[0].key) }
               if (e.key === 'Escape') setQuery('')
             }}
+            autoComplete="off"
+            enterKeyHint="done"
             aria-label="Zutat suchen"
           />
           {query && <button className="clear" onClick={() => setQuery('')} aria-label="Suche löschen"><IconX width={16} height={16} /></button>}
@@ -55,9 +65,9 @@ export function PantryPicker({ pantry, onToggle, onClear, sets, onApplySet, onSa
         {query && (
           <div className="chips" style={{ marginTop: 10 }}>
             {results.length === 0 && <span className="hint">Nichts gefunden.</span>}
-            {results.map((i) => (
-              <button key={i.key} className={`chip sm soft ${pantry.has(i.key) ? 'on' : ''}`} onClick={() => { onToggle(i.key); setQuery('') }}>
-                {i.name}
+            {results.map((i, idx) => (
+              <button key={i.key} className={`chip sm soft ${pantry.has(i.key) ? 'on' : ''}`} onMouseDown={(e) => e.preventDefault()} onClick={() => add(i.key)}>
+                {i.name}{idx === 0 && !pantry.has(i.key) && <span className="kbd">↵</span>}
               </button>
             ))}
           </div>

@@ -411,6 +411,7 @@ svg { flex-shrink: 0; }
 .pantry-selected .chip { background: var(--green-soft); border-color: transparent; color: var(--green); }
 .pantry-selected .chip:hover { background: var(--surface-2); color: var(--danger); }
 
+.kbd { margin-left: 6px; font-size: 0.7rem; opacity: 0.6; }
 .set-form { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
 .input-sm { flex: 1 1 160px; height: 36px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg); }
 .input-sm:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
