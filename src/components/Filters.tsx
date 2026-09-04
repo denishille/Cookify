@@ -8,7 +8,6 @@ interface Props {
   value: FilterState
   onChange: (next: FilterState) => void
   /** Bewertungsfilter nur anbieten, wenn es bewertete Rezepte gibt */
-  hasRatings?: boolean
   /** Zusätzliche Felder, die vor den Filtern stehen */
   children?: React.ReactNode
   /** Kategorie-Feld ausblenden (Vorratsseite) */
@@ -66,7 +65,7 @@ function MultiSelect({ options, value, onChange, label }: { options: MultiOption
 }
 
 /** Der Konfigurator: drei Dropdowns – Ernährung (Mehrfachauswahl), Kategorie, Dauer. */
-export function FilterGroups({ value, onChange, hasRatings, children, hideCategory, hideTime, pool, globalDiets = [] }: Props) {
+export function FilterGroups({ value, onChange, children, hideCategory, hideTime, pool, globalDiets = [] }: Props) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
   const covered = new Set<Diet>(globalDiets.flatMap((d) => [d, ...(IMPLIES[d] ?? [])]))
   const dietCount = (d: Diet) => (pool ? pool.filter((r) => r.diet.includes(d)).length : 1)
@@ -74,16 +73,15 @@ export function FilterGroups({ value, onChange, hasRatings, children, hideCatego
     ...(Object.keys(DIET_LABELS) as Diet[])
       .filter((d) => !covered.has(d) && (value.diets.includes(d) || dietCount(d) > 0))
       .map((d) => ({ value: d, label: DIET_LABELS[d] })),
-    ...(hasRatings ? [{ value: 'top', label: '★ Top bewertet' }] : []),
   ]
   const categories = (Object.keys(CATEGORY_LABELS) as Category[]).filter((c) => !pool || value.category === c || pool.some((r) => r.category === c))
-  const dietValue = [...value.diets, ...(value.topRated ? ['top'] : [])]
+  const dietValue = value.diets
   return (
     <div className="cfg">
       <div className="cfg-field">
         <span>Ernährung</span>
         <MultiSelect label="Ernährung" options={dietOptions} value={dietValue}
-          onChange={(next) => set({ diets: next.filter((v) => v !== 'top') as Diet[], topRated: next.includes('top') })} />
+          onChange={(next) => set({ diets: next as Diet[] })} />
       </div>
       {!hideCategory && (
         <label className="cfg-field">
@@ -106,8 +104,8 @@ export function FilterGroups({ value, onChange, hasRatings, children, hideCatego
           </select>
         </label>
       )}
-      {!isEmpty(value) && <button className="btn ghost cfg-reset" onClick={() => onChange(EMPTY_FILTERS)}>Zurücksetzen</button>}
       {children}
+      {!isEmpty(value) && <button className="btn ghost cfg-reset" onClick={() => onChange(EMPTY_FILTERS)}>Zurücksetzen</button>}
     </div>
   )
 }

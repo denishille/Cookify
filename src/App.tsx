@@ -5,7 +5,7 @@ import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek } from './lib/week'
 import { rankByPantry } from './lib/match'
-import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
+import { applyFilters, isEmpty, rankByQuery, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
 import { adaptRecipe } from './lib/adapt'
@@ -21,7 +21,7 @@ import { SettingsDrawer } from './components/SettingsDrawer'
 import { ShoppingDrawer } from './components/ShoppingDrawer'
 import { useShoppingList } from './lib/shopping'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings } from './components/Icons'
+import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings, IconX } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -155,7 +155,9 @@ export default function App() {
   const [allFilters, setAllFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [allSort, setAllSort] = useState<Sort>('standard')
   const allBase = applyFilters(AVAILABLE, allFilters, dietOpts)
-  const allList = allSort === 'standard' ? [...allBase].sort((a, b) => a.title.localeCompare(b.title, 'de')) : sortRecipes(allBase, allSort)
+  const allList = allSort === 'standard'
+    ? (allFilters.query.trim() ? rankByQuery(allBase, allFilters.query) : [...allBase].sort((a, b) => a.title.localeCompare(b.title, 'de')))
+    : sortRecipes(allBase, allSort)
 
   const pantryKey = [...pantrySet.set].sort().join(',')
   const pantryResults = rankByPantry(applyFilters(AVAILABLE, pantryFilters, dietOpts), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
@@ -246,7 +248,7 @@ export default function App() {
         {!route.recipeId && route.view === 'rezepte' && (
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
-            <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} pool={AVAILABLE} globalDiets={globalDiets}>
+            <FilterGroups value={filters} onChange={setFilters} pool={AVAILABLE} globalDiets={globalDiets}>
               <button className="btn primary block" onClick={() => navigate('alle')}>Alle Rezepte</button>
             </FilterGroups>
 
@@ -324,7 +326,7 @@ export default function App() {
                       </div>
                       <span className="hint">{pantryResults.length} Treffer</span>
                     </div>
-                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} hideCategory pool={AVAILABLE} globalDiets={globalDiets} />
+                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hideCategory pool={AVAILABLE} globalDiets={globalDiets} />
                     <div style={{ height: 18 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
@@ -351,7 +353,23 @@ export default function App() {
               <h1 className="h1">Alle Rezepte</h1>
               <span className="sub">{allList.length} {allList.length === 1 ? 'Rezept' : 'Rezepte'}</span>
             </div>
-            <FilterGroups value={allFilters} onChange={setAllFilters} hasRatings={HAS_RATINGS} hideTime pool={AVAILABLE} globalDiets={globalDiets}>
+            <div className="searchbox" style={{ marginTop: 16 }}>
+              <IconSearch />
+              <input
+                type="text"
+                placeholder="Rezept oder Zutat suchen …"
+                value={allFilters.query}
+                onChange={(e) => setAllFilters({ ...allFilters, query: e.target.value })}
+                aria-label="Rezepte durchsuchen"
+                autoComplete="off"
+              />
+              {allFilters.query && (
+                <button className="clear" onClick={() => setAllFilters({ ...allFilters, query: '' })} aria-label="Suche löschen">
+                  <IconX width={16} height={16} />
+                </button>
+              )}
+            </div>
+            <FilterGroups value={allFilters} onChange={setAllFilters} hideTime pool={AVAILABLE} globalDiets={globalDiets}>
               <label className="cfg-field">
                 <span>Sortierung</span>
                 <select className={`select ${allSort !== 'standard' ? 'on' : ''}`} value={allSort} onChange={(e) => setAllSort(e.target.value as Sort)}>
@@ -365,7 +383,11 @@ export default function App() {
               </label>
             </FilterGroups>
             {allList.length === 0 ? (
-              <div className="empty" style={{ marginTop: 18 }}><div className="ico"><IconSearch /></div><h3>Nichts gefunden</h3><p>Nimm einen Filter raus.</p></div>
+              <div className="empty" style={{ marginTop: 18 }}>
+                <div className="ico"><IconSearch /></div>
+                <h3>Nichts gefunden</h3>
+                <p>{allFilters.query.trim() ? `Für „${allFilters.query.trim()}“ gibt es kein Rezept. Versuch ein anderes Wort.` : 'Nimm einen Filter raus.'}</p>
+              </div>
             ) : (
               <div className="list" style={{ marginTop: 18 }}>
                 {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}

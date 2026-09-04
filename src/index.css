@@ -267,13 +267,16 @@ svg { flex-shrink: 0; }
 
 /* ---------- Controls ---------- */
 .searchbox { position: relative; flex: 1 1 260px; }
-.searchbox svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+/* nur das Lupensymbol, nicht das X im Löschen-Knopf */
+.searchbox > svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); }
 .searchbox input {
   width: 100%; height: 46px; padding: 0 40px 0 42px;
   border-radius: 999px; border: 1px solid var(--border); background: var(--bg);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .searchbox input::placeholder { color: var(--muted); }
+/* Das eigene Löschkreuz reicht, das native von type="search" stört daneben */
+.searchbox input::-webkit-search-cancel-button, .searchbox input::-webkit-search-decoration { appearance: none; display: none; }
 .searchbox input:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
 .searchbox .clear { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); padding: 4px; border-radius: 50%; }
 .searchbox .clear:hover { background: var(--surface-2); }
