@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { PantrySet } from '../lib/sets'
 import { INGREDIENT_BY_KEY } from '../data'
-import { IconChevronLeft, IconPlus, IconX } from './Icons'
+import { IconChevronLeft, IconLayers, IconPlus, IconX } from './Icons'
 
 interface Props {
   open: boolean
@@ -35,7 +35,8 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
     <>
       {!open && (
         <button className="drawer-handle" onClick={onOpen} aria-label="Sets öffnen" title="Sets">
-          <IconChevronLeft width={18} height={18} />
+          <IconChevronLeft width={16} height={16} />
+          <IconLayers width={18} height={18} />
         </button>
       )}
       {open && <div className="drawer-backdrop" onClick={onClose} />}
