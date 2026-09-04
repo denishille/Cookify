@@ -8,13 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "recipes:validate": "node scripts/validate-recipes.mjs",
+    "recipes:validate": "node scripts/validate-recipes.mjs && node scripts/validate-recipes.mjs src/data/backlog/*.json",
     "recipes:schedule": "node scripts/assign-weeks.mjs",
     "recipes:weekly": "node scripts/generate-weekly.mjs",
     "recipes:images": "node scripts/generate-images.mjs",
     "logo": "node scripts/make-logo.mjs",
     "recipes:sources": "node scripts/research-sources.mjs",
-    "recipes:import": "node scripts/import-recipes.mjs"
+    "recipes:import": "node scripts/import-recipes.mjs",
+    "recipes:promote": "node scripts/promote.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

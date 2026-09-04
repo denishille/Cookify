@@ -25,7 +25,7 @@ npm run lint
 
 ## Rezeptdaten
 
-- Rezepte liegen als JSON in `src/data/recipes/*.json`, das Schema steht in `src/data/RECIPE_SCHEMA.md`.
+- In der App sichtbar sind nur die Rezepte in `src/data/recipes/*.json` (aktuell `live.json`). Der große Bestand liegt im Backlog `src/data/backlog/*.json` und wird nicht gebündelt. `npm run recipes:promote -- <id …>` holt Rezepte aus dem Backlog ins Live-Set, `--back` schiebt sie zurück, `--list` zeigt den Live-Bestand. Das Schema steht in `src/data/RECIPE_SCHEMA.md`.
 - Zutaten verwenden ein kontrolliertes Vokabular aus `src/data/ingredients.json`, damit das Matching mit dem Vorrat funktioniert.
 - `npm run recipes:validate` prüft alle Rezeptdateien gegen Schema und Vokabular (läuft auch in CI).
 - `src/data/schedule.json` ordnet jeder Rezept-ID die Woche zu, ab der sie sichtbar ist. `npm run recipes:schedule` verteilt neue, noch nicht eingeplante Rezepte automatisch: Start-Bestand sofort, Pipeline (`part5.json`) ab nächster Woche in Vierergruppen.
