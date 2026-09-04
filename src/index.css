@@ -80,6 +80,13 @@ body {
   color: var(--text);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  touch-action: manipulation; /* kein Zoom per Doppeltipp */
+  -webkit-text-size-adjust: 100%;
+}
+/* iOS zoomt in Eingabefelder mit Schrift unter 16px hinein – auf dem Handy deshalb mindestens 16px */
+@media (max-width: 820px) {
+  input, select, textarea, .select, .multi-btn, .input-sm, .searchbox input { font-size: 16px; }
+  .segmented .seg .mini { font-size: 16px; }
 }
 
 button, input, select { font: inherit; color: inherit; }
