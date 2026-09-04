@@ -131,18 +131,16 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
           <p className="hint" style={{ marginBottom: 6 }}>{haveCount} von {need.length} Zutaten im Vorrat. Tipp auf den Kreis, um eine Zutat als vorhanden zu markieren.</p>
           <ul className="ing">
             {recipe.ingredients.map((ing, i) => {
-              const staple = STAPLE_KEYS.has(ing.key)
               const has = pantry.has(ing.key)
               return (
                 <li key={i}>
                   <span className="amt">{formatAmount(ing.amount, factor)} {ing.unit}</span>
                   <span className="nm">{ing.name}{ing.optional && <span className="opt"> · optional</span>}</span>
                   <button
-                    className={`have ${has ? 'on' : ''} ${staple ? 'staple' : ''}`}
+                    className={`have ${has ? 'on' : ''}`}
                     onClick={() => onTogglePantry(ing.key)}
                     aria-label={has ? `${ing.name} aus dem Vorrat entfernen` : `${ing.name} zum Vorrat hinzufügen`}
                     aria-pressed={has}
-                    tabIndex={staple ? -1 : 0}
                   >
                     <IconCheck width={16} height={16} />
                   </button>

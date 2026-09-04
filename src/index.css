@@ -497,7 +497,6 @@ details.browse[open] > summary svg { transform: rotate(180deg); }
 }
 .ing .have:hover { border-color: var(--green); color: var(--green); }
 .ing .have.on { background: var(--green); border-color: var(--green); color: #fff; }
-.ing .have.staple { visibility: hidden; }
 
 .steps { list-style: none; margin: 0; padding: 0; counter-reset: step; display: grid; gap: 6px; }
 .steps li {
