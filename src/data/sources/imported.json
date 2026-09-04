@@ -90,11 +90,6 @@
     "rating": 5,
     "ratingCount": 59
   },
-  "i-sauerbraten": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/sauerbraten-so-geht-der-klassiker-51562.html",
-    "title": "Sauerbraten - so geht der Klassiker Rezept"
-  },
   "i-spaghetti-carbonara": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/spaghetti-carbonara-73209.html",
@@ -361,11 +356,6 @@
     "rating": 5,
     "ratingCount": 131
   },
-  "i-soljanka": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/soljanka-rezept-so-geht-das-original-76502.html",
-    "title": "Soljanka Rezept - so geht das Original Rezept"
-  },
   "i-spitzkohl-hackfleisch-pfanne": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/spitzkohl-hackfleisch-pfanne/",
@@ -485,22 +475,12 @@
     "rating": 5,
     "ratingCount": 56
   },
-  "i-mac-and-cheese-mit-putensteaks": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/maccaroni-and-cheese-29182.html",
-    "title": "Maccaroni and Cheese Rezept"
-  },
   "i-ofengemuese-mit-tahinsauce": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/ofengemuese-mit-tahinsauce-0",
     "title": "Ofengemüse mit Tahinsauce",
     "rating": 5,
     "ratingCount": 30
-  },
-  "i-pfannkuchen-mit-pilzfuellung": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/pfannkuchen-mit-pilzfuellung-10345.html",
-    "title": "Pfannkuchen mit Pilzfüllung Rezept"
   },
   "i-pilzgulasch": {
     "site": "eatsmarter.de",
@@ -677,11 +657,6 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-breakfast-burrito": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/breakfast-burrito-128922.html",
-    "title": "Breakfast Burrito Rezept"
-  },
   "i-cevapcici-mit-djuvec-reis": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/cevapcici-mit-djuvec-reis/",
@@ -703,11 +678,6 @@
     "rating": 4.1,
     "ratingCount": 22
   },
-  "i-eier-speck-muffins": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/eier-speck-muffins-fuer-den-brunch-so-gehts-71611.html",
-    "title": "Eier-Speck-Muffins für den Brunch Rezept"
-  },
   "i-enchiladas-mit-hackfleisch": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/enchiladas-mit-hackfleisch/",
@@ -728,11 +698,6 @@
     "title": "Fischstäbchen selber machen – besser als gekauft",
     "rating": 5,
     "ratingCount": 2
-  },
-  "i-fruehlingsrollen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/fruehlingsrollen-selber-machen-so-gehts-77012.html",
-    "title": "Frühlingsrollen selber machen Rezept"
   },
   "i-scholle-finkenwerder-art": {
     "site": "lecker.de",
@@ -1007,11 +972,6 @@
     "rating": 5,
     "ratingCount": 154
   },
-  "i-eierlikoerkuchen": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/eierlikoerkuchen-einfach-schnell-63628",
-    "title": "Eierlikörkuchen einfach & schnell"
-  },
   "i-zitronencreme-im-glas": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/zitronencreme/",
@@ -1103,11 +1063,6 @@
     "rating": 5,
     "ratingCount": 116
   },
-  "i-kirsch-clafoutis": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/kirsch-clafouti",
-    "title": "Kirsch-Clafouti"
-  },
   "i-kraeuterspaetzle-mit-parmesan": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/kraeuterspaetzle-mit-parmesan",
@@ -1121,11 +1076,6 @@
     "title": "Laugenbrezel: das Grundrezept",
     "rating": 4.2,
     "ratingCount": 12
-  },
-  "i-marokkanischer-suesskartoffel-kichererbsen-eintopf": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/marokkanischer-suesskartoffel-kichererbsen-eintopf-99646",
-    "title": "Marokkanischer Süßkartoffel- Kichererbsen-Eintopf"
   },
   "i-nussecken": {
     "site": "lecker.de",
@@ -1147,11 +1097,6 @@
     "title": "Pasta e fagioli",
     "rating": 5,
     "ratingCount": 4
-  },
-  "i-pizza-ai-funghi": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/pizza-ai-funghi-786",
-    "title": "Pizza ai funghi"
   },
   "i-quarkbaellchen": {
     "site": "lecker.de",
@@ -1223,11 +1168,6 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-vegane-portobello-burger": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/portobello-burger-99895",
-    "title": "Vegane Portobello-Burger"
-  },
   "i-vegane-bohnen-burritos-mit-gemuese": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/vegane-super-bean-burritos-mit-extra-viel-gemuese-86646",
@@ -1241,16 +1181,6 @@
     "title": "Wok-Nudeln mit Gemüse: Blitzrezept",
     "rating": 5,
     "ratingCount": 52
-  },
-  "i-kokos-curry-ramen": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/kokos-curry-ramen/",
-    "title": "15 Minuten Kokos-Curry-Ramen"
-  },
-  "i-backfisch-mit-remoulade": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/backfisch-mit-remoulade-14401",
-    "title": "Backfisch mit Remoulade"
   },
   "i-bayerischer-wurstsalat": {
     "site": "malteskitchen.de",
@@ -1301,37 +1231,12 @@
     "rating": 4.4,
     "ratingCount": 191
   },
-  "i-black-bean-burger-mit-walnuessen": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/weltbester-black-bean-burger/",
-    "title": "Der weltbeste Black Bean Burger mit Walnüssen und Burgersauce"
-  },
-  "i-vegane-crepes": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/die-besten-veganen-crepes/",
-    "title": "Die besten veganen Crêpes"
-  },
-  "i-fluffige-vegane-pancakes": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/die-fluffigsten-veganen-pancakes-pancake-day-special/",
-    "title": "Die fluffigsten veganen Pancakes {Pancake Day Special}"
-  },
-  "i-vegane-lasagne-bolognese": {
-    "site": "eat-this.org",
-    "url": "https://eat-this.org/vegane-lasagne/",
-    "title": "Die perfekte, klassische vegane Lasagne Bolognese"
-  },
   "i-klassischer-eiersalat": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/eiersalat-rezept/",
     "title": "Eiersalat ganz klassisch und einfach",
     "rating": 5,
     "ratingCount": 77
-  },
-  "i-gemuesereis-aus-dem-ofen": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/einfacher-gemuesereis-aus-dem-ofen/",
-    "title": "Einfacher Gemüsereis aus dem Ofen"
   },
   "i-erdbeermarmelade": {
     "site": "lecker.de",
@@ -1375,11 +1280,6 @@
     "rating": 4.4,
     "ratingCount": 152
   },
-  "i-gruenes-thai-curry": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/gruenes-thai-curry-mit-zucchini-auberginen/",
-    "title": "Grünes Thai-Curry"
-  },
   "i-ossobuco-alla-milanese": {
     "site": "simply-yummy.de",
     "url": "https://www.simply-yummy.de/kochen/ossobuco",
@@ -1415,11 +1315,6 @@
     "rating": 5,
     "ratingCount": 17
   },
-  "i-knuspriger-griechischer-nudelsalat": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/griechischer-nudelsalat-vegan/",
-    "title": "Knuspriger griechischer Nudelsalat mit veganem Feta und Oliven"
-  },
   "i-kokosmakronen-mit-schokolade": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/kokosmakronen-schokolade/",
@@ -1427,22 +1322,12 @@
     "rating": 5,
     "ratingCount": 9
   },
-  "i-kraeftiges-bauernbrot-mit-sauerteig": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/53651-rzpt-kraeftiges-bauernbrot-mit-sauerteig",
-    "title": "Kräftiges Bauernbrot (mit Sauerteig) Rezept"
-  },
   "i-kraeuterbutter": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/kraeuterbutter-selber-machen/",
     "title": "Kräuterbutter selber machen: Einfach &amp; schnell",
     "rating": 5,
     "ratingCount": 35
-  },
-  "i-kuerbiseintopf-mit-hokkaido-und-kichererbsen": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/kuerbiseintopf-mit-geroestetem-hokkaido-kichererbsen-harissa/",
-    "title": "Kürbiseintopf mit geröstetem Hokkaido, Kichererbsen & Harissa"
   },
   "i-leberknoedelsuppe": {
     "site": "essen-und-trinken.de",
@@ -1500,26 +1385,6 @@
     "rating": 4.7,
     "ratingCount": 6
   },
-  "i-pastasalat-mit-geroesteten-tomaten-und-veganem-moz": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/pastasalat-mit-geroesteten-tomaten-veganem-mozzarella/",
-    "title": "Pastasalat mit gerösteten Tomaten &amp; veganem Mozzarella"
-  },
-  "i-rahmspinat": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/rahmspinat-das-beste-rezept-131473.html",
-    "title": "Rahmspinat zubereiten - das beste Rezept Rezept"
-  },
-  "i-zitronen-joghurt-kuchen": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2021/05/rezept-fur-soften-zitronen-joghurt-kuchen-ciambella/",
-    "title": "Rezept für soften Zitronen-Joghurt Kuchen – ein einfacher italienischer Ciambella mal anders"
-  },
-  "i-zitronen-streuselkuchen": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2021/01/zitronenkuchen-streuselkuchen-rezept-lemon-crumb-cake/",
-    "title": "Rezept für Zitronenkuchen-Streuselkuchen - lemon crumb cake recipe"
-  },
   "i-rosenkohl-mit-speck": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/rosenkohl-mit-speck-2235",
@@ -1554,11 +1419,6 @@
     "title": "Schmeckt wie auf der Alm: Germknödel nach Omas Rezept Rezept",
     "rating": 5,
     "ratingCount": 4
-  },
-  "i-veganes-zucchini-gratin-mit-knusperkruste": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/schnelles-veganes-zucchini-gratin-mit-knusperkruste/",
-    "title": "Schnelles veganes Zucchini-Gratin mit Knusperkruste"
   },
   "i-schwedische-faecherkartoffeln-mit-kaesekruste": {
     "site": "simply-yummy.de",
@@ -1595,11 +1455,6 @@
     "rating": 4.8,
     "ratingCount": 13
   },
-  "i-tofu-katsu-bowl": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/tofu-katsu-bowl-mit-geschmortem-gemuese/",
-    "title": "Tofu-Katsu-Bowl mit geschmortem Gemüse"
-  },
   "i-ueberbackener-chicoree": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/ueberbackener-chicoree-12083534.html",
@@ -1621,11 +1476,6 @@
     "rating": 4.5,
     "ratingCount": 9
   },
-  "i-vegane-linsenfrikadellen": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-linsenfrikadellen/",
-    "title": "Vegane Linsenfrikadellen"
-  },
   "i-vegane-reis-wuerstchen-pfanne": {
     "site": "toastenstein.com",
     "url": "https://www.toastenstein.com/reis-wuerstchen-pfanne/",
@@ -1633,27 +1483,12 @@
     "rating": 4.9,
     "ratingCount": 8
   },
-  "i-veganer-espresso-cheesecake": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganer-espresso-cheesecake/",
-    "title": "Veganer Espresso-Cheesecake ohne Backen"
-  },
-  "i-veganer-kaesekuchen-ohne-boden": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganer-kaesekuchen-ohne-boden/",
-    "title": "Veganer Käsekuchen ohne Boden"
-  },
   "i-veganer-tofu-fleischsalat": {
     "site": "toastenstein.com",
     "url": "https://www.toastenstein.com/veganer-tofu-fleischsalat/",
     "title": "Veganer Tofu-Fleischsalat – Perfekt zur Brotzeit!",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-erdnuss-jackfruit-curry-mit-kurkuma": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganes-erdnuss-curry-mit-jackfruit/",
-    "title": "Veganes Erdnuss-Jackfruit-Curry mit Kurkuma"
   },
   "i-veganes-wuerstchen-gulasch-mit-kartoffeln": {
     "site": "toastenstein.com",
@@ -1675,11 +1510,6 @@
     "title": "Würziger Nacho-Pasta-Salat",
     "rating": 5,
     "ratingCount": 5
-  },
-  "i-zimtschnecken-kuchen": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2023/09/zimtschnecken-kuchen-rezept-cinnamon-roll-pound-cake/",
-    "title": "Zimtschnecken Kuchen Rezept – cinnamon roll pound cake"
   },
   "i-zimtsterne": {
     "site": "kuechengoetter.de",
@@ -1771,11 +1601,6 @@
     "title": "Chilaquiles-Rezept: Tortilla-Chips mit Salsa",
     "rating": 5,
     "ratingCount": 5
-  },
-  "i-home-style-tofu": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/chinesischer-home-style-tofu/",
-    "title": "Chinesischer „Home Style“ Tofu"
   },
   "i-dal-tadka-mit-apfel-chutney": {
     "site": "eatsmarter.de",
@@ -1945,11 +1770,6 @@
     "rating": 4.9,
     "ratingCount": 40
   },
-  "i-macarona-bil-laban": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-arabische-pasta-mit-joghurtsauce/",
-    "title": "Macarona bil laban – arabische Pasta mit Joghurtsauce und veganem Hack"
-  },
   "i-manti": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/manti-tuerkische-teigtaschen-127612.html",
@@ -1970,11 +1790,6 @@
     "title": "Möhreneintopf auf Hausfrauenart | einfach, klassisch &amp; lecker",
     "rating": 4.8,
     "ratingCount": 48
-  },
-  "i-mohn-apfel-gugelhupf": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2015/11/rezept-fuer-saftigen-apfel-mohn-gugelhupf-mit-schoen-dickem-zuckerguss-apple-poppy-seed-bundt-cake/",
-    "title": "Mohn Apfel Gugelhupf Rezept"
   },
   "i-muhammara": {
     "site": "malteskitchen.de",
@@ -2067,36 +1882,6 @@
     "rating": 5,
     "ratingCount": 115
   },
-  "i-erdbeer-cheesecake-tartes-aus-blaetterteig": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2021/05/rezept-fuer-erdbeer-cheesecake-tartes-aus-blaetterteig/",
-    "title": "Rezept für Erdbeer-Cheesecake Tartes aus Blätterteig"
-  },
-  "i-kirschkuchen-vom-blech-mit-mandeln": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2018/06/kirschkuchenvomblech/",
-    "title": "Rezept für Kirschkuchen vom Blech mit Mandeln - almond cherry tray cake"
-  },
-  "i-buttermilch-pancakes-mit-zimtzucker": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2017/08/ein-rezept-fuer-mini-zucker-und-zimt-pancakes-mit-beeren/",
-    "title": "Rezept für kleine Buttermilch-Pancakes mit Zimtzucker"
-  },
-  "i-selbstgemachte-burger-buns": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2020/05/rezept-fuer-burger-buns-hamburger-broetchen/",
-    "title": "Rezept für selbstgemachte Burger Brötchen Burger Buns"
-  },
-  "i-zimt-milchbroetchen": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2021/02/rezept-fuer-fluffige-zimt-milchbroetchen/",
-    "title": "Rezept für Zimt-Fluffies: fluffige Zimt-Milchbrötchen mit selbstgemachten Zimt-Backchips"
-  },
-  "i-schokobroetchen": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2017/07/mein-liebstes-rezept-fuer-fluffige-muchoflausch-schokobroetchen-aus-hefeteig/",
-    "title": "Rezept Schokobrötchen selber machen"
-  },
   "i-rotes-thai-curry-mit-knusprigem-tofu": {
     "site": "biancazapatka.com",
     "url": "https://biancazapatka.com/de/veganes-thai-curry/",
@@ -2146,11 +1931,6 @@
     "rating": 5,
     "ratingCount": 2
   },
-  "i-sloppy-joe": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/sloppy-joe-74274.html",
-    "title": "Sloppy Joe (Burger mit Hackfleischsoße) Rezept"
-  },
   "i-souvlaki-spiesse": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/griechische-souvlaki-spiesse/",
@@ -2185,11 +1965,6 @@
     "title": "Sushi selber machen - so geht's Rezept",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-tacos-al-pastor": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/tacos-al-pastor-131455.html",
-    "title": "Tacos al pastor Rezept"
   },
   "i-tortellini-al-forno": {
     "site": "gaumenfreundin.de",
@@ -2310,12 +2085,6 @@
     "rating": 4.5,
     "ratingCount": 279
   },
-  "i-cremige-brokkoli-pasta": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/cremige-brokkoli-pasta-98779",
-    "title": "Cremige Brokkoli Pasta (Zero Waste)",
-    "ratingCount": 1
-  },
   "i-birnen-bohnen-und-speck": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/eintopf-birnen-bohnen-speck/",
@@ -2371,11 +2140,6 @@
     "title": "Fischpfanne mit Gemüse",
     "rating": 5,
     "ratingCount": 4
-  },
-  "i-mediterranes-fischragout": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/fischragout-mediterran",
-    "title": "Fischragout mediterran"
   },
   "i-fitmacher-ruehrei": {
     "site": "essen-und-trinken.de",
@@ -2453,11 +2217,6 @@
     "title": "Hähnchen-Marinade – zum Grillen oder Braten",
     "rating": 5,
     "ratingCount": 8
-  },
-  "i-tandoori-haehnchenspiesse-mit-gurken-joghurt": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/haehnchenspiesse-tandoori-mit-joghurt-und-tomaten",
-    "title": "Hähnchenspieße Tandoori mit Joghurt und Tomaten"
   },
   "i-hirschgulasch-mit-zartbitterschokolade": {
     "site": "lecker.de",
@@ -2662,11 +2421,6 @@
     "rating": 5,
     "ratingCount": 106
   },
-  "i-pasta-mit-kokos-garnelen-sauce": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/pasta-mit-kokos-garnelen-sosse",
-    "title": "Pasta mit Kokos-Garnelen-Soße"
-  },
   "i-protein-gnocchi-mit-huettenkaese": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/protein-gnocchi-mit-huettenkaese-96576",
@@ -2695,16 +2449,6 @@
     "rating": 5,
     "ratingCount": 3
   },
-  "i-putengeschnetzeltes-in-senfsauce": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/putengeschnetzeltes-in-senfsauce-22109",
-    "title": "Putengeschnetzeltes in Senfsauce"
-  },
-  "i-quark-aprikosen-gratin": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/34304-rzpt-quark-aprikosen-gratin",
-    "title": "Quark-Aprikosen-Gratin Rezept"
-  },
   "i-low-carb-quarkkeulchen": {
     "site": "simply-yummy.de",
     "url": "https://www.simply-yummy.de/kochen/quarkkeulchen-low-carb",
@@ -2719,22 +2463,12 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-risi-bisi": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/risi-bisi-71046.html",
-    "title": "Risi Bisi Rezept"
-  },
   "i-rosenkohlauflauf-mit-kartoffeln": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/rosenkohlauflauf-mit-kartoffeln/",
     "title": "Rosenkohlauflauf mit Kartoffeln",
     "rating": 5,
     "ratingCount": 174
-  },
-  "i-rote-linsencracker": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-linsencracker-proteinreicher-gesunder-snack/",
-    "title": "Rote Linsencracker – proteinreicher, gesunder Snack"
   },
   "i-rotes-garnelen-curry-mit-zuckerschoten": {
     "site": "eatsmarter.de",
@@ -2763,11 +2497,6 @@
     "title": "Schnittlauch-Hüttenkäse mit Gemüse-Sticks",
     "rating": 5,
     "ratingCount": 2
-  },
-  "i-skyr-auflauf-mit-beeren": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/skyr-auflauf-mit-beeren-97131",
-    "title": "Skyr-Auflauf mit Beeren"
   },
   "i-skyr-blini-mit-konfituere": {
     "site": "essen-und-trinken.de",
@@ -2824,11 +2553,6 @@
     "title": "Thai Mango Linsensalat mit Hähnchen in Sriracha-Erdnuss-Dressing",
     "rating": 4.4,
     "ratingCount": 2998
-  },
-  "i-vegane-mapo-tofu-udon": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-mapo-tofu-udon/",
-    "title": "Vegane Mapo-Tofu-Udon"
   },
   "i-vegane-ramen-suppe": {
     "site": "eatsmarter.de",
@@ -2892,11 +2616,6 @@
     "title": "Bayrischer Kartoffelsalat mit Essig und Öl Rezept Rezept",
     "rating": 4.4,
     "ratingCount": 275
-  },
-  "i-belegte-bagels": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/belegte-bagels",
-    "title": "Belegte Bagels"
   },
   "i-blaetterteigschnecken-mit-spinat-und-feta": {
     "site": "emmikochteinfach.de",
@@ -2996,11 +2715,6 @@
     "rating": 5,
     "ratingCount": 24
   },
-  "i-energy-balls-mit-dattel-und-kakao": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/energy-balls-leckerer-powersnack-mit-viel-protein/",
-    "title": "Energy Balls – leckerer Powersnack mit viel Protein"
-  },
   "i-zitronen-mousse": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/erfrischendes-zitronen-mousse-44071.html",
@@ -3028,11 +2742,6 @@
     "title": "Frühstücks-Burrito",
     "rating": 4.8,
     "ratingCount": 4
-  },
-  "i-gelbes-thai-curry": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganes-gelbes-thai-curry/",
-    "title": "Gelbes Thai Curry"
   },
   "i-gemuesechips-aus-dem-ofen-mit-thymian-und-knoblauc": {
     "site": "kuechengoetter.de",
@@ -3104,11 +2813,6 @@
     "rating": 5,
     "ratingCount": 25
   },
-  "i-herzhaftes-butter-popcorn": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/herzhaftes-butter-popcorn-131190.html",
-    "title": "Herzhaftes Butter-Popcorn Rezept"
-  },
   "i-hokkaido-kuerbissuppe-mit-kartoffeln": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/hokkaido-kuerbissuppe-mit-kartoffeln-schnell-und-gut-14036716.html",
@@ -3130,22 +2834,12 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-italienische-minestrone-mit-pesto": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/italienische-minestrone-mit-pesto-37269",
-    "title": "Italienische Minestrone mit Pesto"
-  },
   "i-kaesecracker": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/60307-rzpt-kaesecracker",
     "title": "KÄSECRACKER Rezept",
     "rating": 4,
     "ratingCount": 4
-  },
-  "i-karamellisiertes-ofengemuese-mit-sesam-und-dill": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2019/10/rezept-karamellisiertes-ofengemuese-kochbuch-edeka-alles-vegetarisch/",
-    "title": "karamellisiertes Ofengemüse mit Sesam und Dill (und Ahornsirup)"
   },
   "i-kartoffelsalat-mit-bruehe": {
     "site": "kuechengoetter.de",
@@ -3224,11 +2918,6 @@
     "rating": 4.5,
     "ratingCount": 143
   },
-  "i-lazy-currynudeln-aus-dem-ofen": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/lazy-currynudeln-aus-dem-ofen/",
-    "title": "Lazy Currynudeln – Reisnudeln, Gemüse & Tofu in Thai-Curry-Sauce aus dem Ofen"
-  },
   "i-thunfisch-auflauf-mit-spinat-und-feta": {
     "site": "simply-yummy.de",
     "url": "https://www.simply-yummy.de/backen/thunfisch-auflauf",
@@ -3242,21 +2931,6 @@
     "title": "Melonen-Tomaten-Gazpacho für heiße Tage Rezept",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-stracciatella-eis": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/mit-und-ohne-eismaschine-stracciatella-eis-selber-machen-129886.html",
-    "title": "Mit und ohne Eismaschine: Stracciatella-Eis selber machen Rezept"
-  },
-  "i-muesliriegel": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/muesliriegel-selber-machen-so-gehts-51083.html",
-    "title": "Müsliriegel selber machen - so geht's Rezept"
-  },
-  "i-muschelnudeln-mit-kuerbis-ricotta-fuellung": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2019/11/kuerbis-ricotta-muschelnudeln-conchiglioni-stuffed-pasta-shells-galbani/",
-    "title": "Muschelnudeln mit Kürbis Ricotta Füllung Conchiglione"
   },
   "i-no-knead-bread": {
     "site": "lecker.de",
@@ -3307,11 +2981,6 @@
     "rating": 4,
     "ratingCount": 24
   },
-  "i-vanille-french-toast": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2020/07/einfaches-bestes-french-toast-rezept/",
-    "title": "Rezept für Vanille French Toast - vanilla french toast recipe"
-  },
   "i-rosenkohl-nudel-pfanne-mit-knoblauch-senf-sauce": {
     "site": "toastenstein.com",
     "url": "https://www.toastenstein.com/rosenkohl-nudel-pfanne/",
@@ -3347,11 +3016,6 @@
     "rating": 5,
     "ratingCount": 303
   },
-  "i-schoko-muesliriegel-mit-mandeln": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/schoko-muesliriegel-mit-mandeln-91543",
-    "title": "Schoko-Müsliriegel mit Mandeln"
-  },
   "i-shakshuka": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/shakshuka-original-rezept/",
@@ -3365,11 +3029,6 @@
     "title": "Spitzkohl-Gnocchi-Pfanne mit Pilzen",
     "rating": 4.4,
     "ratingCount": 18
-  },
-  "i-suesse-smoothie-bowl": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/suesse-smoothie-bowl-97394",
-    "title": "Süße Smoothie-Bowl"
   },
   "i-suesskartoffel-auflauf-mit-hackfleisch-und-feta": {
     "site": "simply-yummy.de",
@@ -3398,16 +3057,6 @@
     "title": "Tomatensuppe aus frischen Tomaten Rezept",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-porridge-grundrezept": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/porridge-grundrezept/",
-    "title": "Unser liebstes Porridge Grundrezept"
-  },
-  "i-vegane-buchweizen-pancakes-mit-mandelmus": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-buchweizen-pancakes-mit-mandelmus/",
-    "title": "Vegane Buchweizen-Pancakes mit Mandelmus"
   },
   "i-warmer-fenchel-orangen-salat-mit-parmesan-crostini": {
     "site": "kuechengoetter.de",
@@ -3479,16 +3128,6 @@
     "rating": 4.1,
     "ratingCount": 13
   },
-  "i-bohnen-burger-mit-veganer-mayonnaise": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/bohnen-burger-mit-veganer-mayonnaise-95930",
-    "title": "Bohnen-Burger mit veganer Mayonnaise"
-  },
-  "i-bohnenpfanne-mit-raeuchertofu": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/41798-rzpt-bohnenpfanne-mit-raeuchertofu",
-    "title": "Bohnenpfanne mit Räuchertofu Rezept"
-  },
   "i-bolognese-ohne-fleisch": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/pasta-bolognese-mit-soja-schnetzel",
@@ -3510,21 +3149,6 @@
     "rating": 5,
     "ratingCount": 21
   },
-  "i-chocolate-cookie-bars": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2023/02/chocolate-cookie-bars-rezept-schoko-cookies-mal-in-quadratform/",
-    "title": "Chocolate Cookie Bars – Schoko Cookies mal in Quadratform"
-  },
-  "i-fluffige-focaccia": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/die-fluffigste-focaccia/",
-    "title": "Die fluffigste Focaccia"
-  },
-  "i-vegane-linsenbolognese": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/die-perfekte-vegane-linsenbolognese/",
-    "title": "Die perfekte vegane Linsenbolognese"
-  },
   "i-dinkelvollkornbrot": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/dinkelvollkornbrot/",
@@ -3545,11 +3169,6 @@
     "title": "Edamame-Salat mit Feta",
     "rating": 4.9,
     "ratingCount": 19
-  },
-  "i-broetchen-ohne-kneten": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/einfache-broetchen-ohne-kneten/",
-    "title": "Einfache Brötchen ohne Kneten"
   },
   "i-apfel-kaesekuchen-im-glas": {
     "site": "toastenstein.com",
@@ -3585,11 +3204,6 @@
     "title": "Fitness-Bowl mit Reis und Teriyaki-Tofu",
     "rating": 4,
     "ratingCount": 2
-  },
-  "i-gebackene-falafel-mit-tahin-joghurt": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/gebackene-falafel-mit-sesam/",
-    "title": "Gebackene Falafel mit Sesam & Tahin-Joghurt"
   },
   "i-gebackener-knusper-tofu": {
     "site": "essen-und-trinken.de",
@@ -3661,11 +3275,6 @@
     "rating": 4.9,
     "ratingCount": 22
   },
-  "i-loaded-hummus-mit-tortilla-chips": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2019/05/hummus-rezept/",
-    "title": "Hummus mit selbstgemachten Tortilla Chips"
-  },
   "i-kaesekuchen-kirschwelle": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/kasekuchen-kirschwelle",
@@ -3693,11 +3302,6 @@
     "title": "Kichererbsen-Curry",
     "rating": 5,
     "ratingCount": 340
-  },
-  "i-kichererbsen-frikadellen": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/50861-rzpt-kichererbsen-frikadellen",
-    "title": "Kichererbsen-Frikadellen Rezept"
   },
   "i-kichererbsensalat-mit-feta": {
     "site": "malteskitchen.de",
@@ -3776,11 +3380,6 @@
     "rating": 5,
     "ratingCount": 8
   },
-  "i-oreo-blondies": {
-    "site": "zuckerzimtundliebe.de",
-    "url": "https://www.zuckerzimtundliebe.de/2023/07/oreo-blondies-rezept-cookies-and-cream-blondies/",
-    "title": "Oreo Blondies Rezept - Cookies n Cream Blondies recipe"
-  },
   "i-oreo-schichtdessert": {
     "site": "simply-yummy.de",
     "url": "https://www.simply-yummy.de/oreo-schichtdessert-schnell-ohne-kochen-im-glas",
@@ -3816,11 +3415,6 @@
     "rating": 5,
     "ratingCount": 2
   },
-  "i-seitan-paprika-gulasch": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/seitan-paprika-gulasch-85546",
-    "title": "Seitan-Paprika-Gulasch"
-  },
   "i-shortbread": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/shortbread-37422",
@@ -3835,16 +3429,6 @@
     "rating": 4.7,
     "ratingCount": 9
   },
-  "i-tempeh-sate-mit-erdnusssauce": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/tempeh-sate-mit-erdnuss-dip/",
-    "title": "Tempeh-Saté mit Erdnuss-Dip"
-  },
-  "i-thai-reisnudeln-mit-erdnusssauce": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/thai-reisnudeln-mit-erdnusssauce/",
-    "title": "Thai-Reisnudeln mit Erdnusssauce"
-  },
   "i-airfryer-tofu-auf-gurkensalat": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/tofu-aus-dem-airfryer-auf-gurkensalat-132618.html",
@@ -3858,11 +3442,6 @@
     "title": "Tofu Buddha Bowl mit cremiger Erdnusssoße dazu Brokkoli und Karotten-Koriander-Salat",
     "rating": 4,
     "ratingCount": 476
-  },
-  "i-tofu-gemuese-curry": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/tofu-gemuese-curry-93271",
-    "title": "Tofu-Gemüse-Curry"
   },
   "i-tofu-katsu-bowl-mit-sweet-chili-zucchini": {
     "site": "hellofresh.de",
@@ -3885,26 +3464,6 @@
     "rating": 5,
     "ratingCount": 2
   },
-  "i-tofu-tikka-masala": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/tofu-tikka-masala/",
-    "title": "Tofu Tikka Masala"
-  },
-  "i-rotes-linsen-dal": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/linsen-dal-basisrezept/",
-    "title": "Unser liebstes Rotes Linsen Dal"
-  },
-  "i-kichererbsen-schoko-brownies": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-kichererbsen-schoko-brownies/",
-    "title": "Vegane Kichererbsen-Schoko-Brownies"
-  },
-  "i-vegane-kokosmakronen-cookies": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/vegane-kokosmakronen-cookies/",
-    "title": "Vegane Kokosmakronen-Cookies wie in New York"
-  },
   "i-vegane-quinoa-bowl-mit-tofu": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/vegane-quinoa-bowl",
@@ -3919,27 +3478,12 @@
     "rating": 5,
     "ratingCount": 22
   },
-  "i-veganer-banoffee-pie": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganer-banoffee-pie/",
-    "title": "Veganer Banoffee Pie"
-  },
-  "i-veganer-mapo-tofu": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganer-mapo-tofu/",
-    "title": "Veganer Mapo Tofu"
-  },
   "i-veganes-tofu-curry-mit-zuckerschoten": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/veganes-curry-mit-tofu",
     "title": "Veganes Curry mit Tofu",
     "rating": 4.7,
     "ratingCount": 23
-  },
-  "i-veganes-tofu-ruehrei-mit-kala-namak": {
-    "site": "eat-this.org",
-    "url": "https://www.eat-this.org/veganes-ruehrei/",
-    "title": "Veganes Rührei mit Tofu und Kala Namak"
   },
   "i-schnelles-tofu-ruehrei": {
     "site": "simply-yummy.de",

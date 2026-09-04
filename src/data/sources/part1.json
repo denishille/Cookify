@@ -1,9 +1,4 @@
 {
-  "m-wiener-schnitzel": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/schnitzel-wiener-art-15000.html",
-    "title": "Schnitzel \"Wiener Art\" Rezept | LECKER"
-  },
   "m-rindergulasch": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/klassisches-rindergulasch/",
@@ -83,11 +78,6 @@
     "title": "Lasagne al forno Rezept | LECKER",
     "rating": 4.3,
     "ratingCount": 27
-  },
-  "m-garnelen-risotto": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/risotto-al-limone-mit-garnelen-129761.html",
-    "title": "Risotto al limone mit Garnelen Rezept | LECKER"
   },
   "m-teriyaki-lachs": {
     "site": "gaumenfreundin.de",
