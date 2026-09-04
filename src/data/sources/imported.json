@@ -1269,7 +1269,8 @@
   "i-blumenkohl-kaesesuppe": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/blumenkohl-kasesuppe-f4fa",
-    "title": "Blumenkohl-Käsesuppe"
+    "title": "Blumenkohl-Käsesuppe",
+    "rating": 1
   },
   "i-blumenkohlauflauf-mit-schinken": {
     "site": "malteskitchen.de",
@@ -1288,7 +1289,8 @@
   "i-ceci-al-pomodoro": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/ceci-al-pomodoro",
-    "title": "Ceci al pomodoro"
+    "title": "Ceci al pomodoro",
+    "rating": 1
   },
   "i-christstollen": {
     "site": "lecker.de",
@@ -1457,7 +1459,8 @@
   "i-lachs-im-blaetterteig": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/lachs-im-blatterteig-634b",
-    "title": "Lachs im Blätterteig"
+    "title": "Lachs im Blätterteig",
+    "rating": 1
   },
   "i-leberknoedelsuppe": {
     "site": "essen-und-trinken.de",
@@ -1490,7 +1493,8 @@
   "i-mediterraner-zwiebel-gemuese-kuchen": {
     "site": "toastenstein.com",
     "url": "https://www.toastenstein.com/zwiebel-gemuese-kuchen/",
-    "title": "Mediterraner Zwiebel-Gemüse-Kuchen"
+    "title": "Mediterraner Zwiebel-Gemüse-Kuchen",
+    "rating": 1
   },
   "i-moehreneintopf-mit-mettwurst": {
     "site": "simply-yummy.de",
@@ -1884,7 +1888,8 @@
   "i-selbstgemachte-kartoffel-gnocchi": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/gnocchi-4d0d",
-    "title": "Gnocchi"
+    "title": "Gnocchi",
+    "rating": 1
   },
   "i-hackfleischpfanne-mit-kritharaki-und-feta": {
     "site": "malteskitchen.de",
