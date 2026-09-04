@@ -1,0 +1,34 @@
+{
+  "title": "Currywurst-Pommes-Suppe",
+  "description": "Für ein Ruhrpottkind ist das der wahr gewordene Suppentraum: vegane Currywurst-Pommes-Suppe! Klingt geil? Schmeckt auch so!",
+  "ingredients": [
+    "700 g Passierte Tomaten",
+    "320 g Kartoffeln",
+    "300 g Vegane Würstchen",
+    "400 ml Gemüsebrühe",
+    "1 Rote Paprika",
+    "1 Rote Zwiebel",
+    "4 TL Currypulver",
+    "3 TL Gewürzketchup",
+    "1 TL Knoblauchpulver",
+    "1 TL Paprikapulver ((geräuchert))",
+    "Salz, Pfeffer"
+  ],
+  "steps": [
+    "Als erstes wird das Gemüse vorbereitet. Dazu die Kartoffel schälen und in Stäbchen, ähnlich wie Pommes, schneiden und die Paprika in Würfel. Beides kurz beiseitestellen.",
+    "Nun die Zwiebel in Würfel schneiden und die Würstchen in Scheiben. Beides in eine Pfanne mit etwas Öl geben und scharf anbraten.",
+    "In der Zwischenzeit passierte Tomaten, Gemüsebrühe, Ketchup und die Gewürze in einen Topf geben und erhitzen. Dann das vorbereitete Gemüse hineingeben.",
+    "Wenn Würstchen und Zwiebeln fertig angebraten sind, mit in den Suppentopf geben und alles gut umrühren.",
+    "Die Suppe köcheln lassen, bis die Kartoffeln gar sind, dann kräftig mit Salz und Pfeffer abschmecken. Fertig!"
+  ],
+  "servings": 4,
+  "image": "https://www.toastenstein.com/wp-content/uploads/2022/02/rezept-currywurst-pommes-suppe-2-scaled.jpg",
+  "source": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/currywurst-pommes-suppe/",
+    "title": "Currywurst-Pommes-Suppe",
+    "rating": 4.4,
+    "ratingCount": 5
+  },
+  "importedAt": "2026-09-04"
+}

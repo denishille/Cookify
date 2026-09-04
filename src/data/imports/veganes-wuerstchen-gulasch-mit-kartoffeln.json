@@ -1,0 +1,37 @@
+{
+  "title": "Veganes Würstchen-Gulasch mit Kartoffeln",
+  "description": "Vielleicht nicht genau so gut wie das von Oma, aber mit unserem Rezept für veganes Würstchen-Gulasch ist man schon auf einem verdammt guten Weg!",
+  "ingredients": [
+    "400 g Kartoffeln",
+    "300 g Cherry Tomaten",
+    "250 g Würstchen ((z.B. \"Sombreros\" von Taifun))",
+    "2 Paprika",
+    "2 Zwiebeln",
+    "3 Knoblauchzehen",
+    "500 ml Gemüsebrühe",
+    "2 EL Tomatenmark",
+    "1 EL Essig",
+    "2 TL Paprika-Pulver ((edelsüß))",
+    "2 TL Paprika-Pulver ((rosenscharf))",
+    "1 Lorbeerblatt",
+    "Pfeffer, Salz"
+  ],
+  "steps": [
+    "Den Knoblauch pellen und fein hacken. Die Kartoffeln und Zwiebeln schälen und zusammen mit dem restlichen Gemüse in grobe Würfel schneiden. Die Paprika kurz beiseite stellen.",
+    "In einen Kochtopf etwas Öl geben, heiß werden lassen und dann Knoblauch, Zwiebeln, Kartoffeln, Tomaten und das Paprikapulver hinzufügen. Für ca. 10 Minuten anbraten und gelegentlich umrühren.",
+    "Nun das Tomatenmark und das Lorbeerblatt in den Topf geben und mit der Gemüsebrühe aufgießen. Durchrühren und zugedeckt für ca. 15 Minuten kochen lassen.",
+    "Die Würstchen in Scheiben schneiden und in einer Pfanne scharf anbraten. Dann zusammen mit der Paprika in den Topf geben und weiter köcheln lassen, bis die Kartoffeln komplett weich sind.",
+    "Das Lorbeerblatt entfernen, mit Salz, Pfeffer und Essig abschmecken und servieren."
+  ],
+  "timeMinutes": 40,
+  "servings": 4,
+  "image": "https://www.toastenstein.com/wp-content/uploads/2019/01/veganes_würstchen_gulasch-scaled.jpg",
+  "source": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/veganes-wuerstchen-gulasch/",
+    "title": "Veganes Würstchen-Gulasch mit Kartoffeln",
+    "rating": 4.6,
+    "ratingCount": 5
+  },
+  "importedAt": "2026-09-04"
+}

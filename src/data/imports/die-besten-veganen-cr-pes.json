@@ -1,0 +1,34 @@
+{
+  "title": "Die besten veganen Crêpes",
+  "description": "It's Crêpes o'clock! Unsere einfachen, superleckeren veganen Crêpes sind in Windeseile gemacht und lassen sich mit den liebsten süßen oder herzhaften Leckereien füllen. Zum Frühstück, Nachtisch oder für zwischendurch einfach genial!",
+  "ingredients": [
+    "160 g Dinkelmehl Type 630",
+    "3 EL Tapiokastärke",
+    "3/4 TL Backpulver",
+    "1 Prise Salz",
+    "160 ml Pflanzenmilch (z. B. Hafermilch)",
+    "160 ml Wasser",
+    "1/2 TL Kokosöl",
+    "2 EL Haselnusscreme",
+    "2 EL Erdnussmus",
+    "2 Bananen"
+  ],
+  "steps": [
+    "Trockenen Zutaten vermengen, anschließend Pflanzenmilch und Wasser hinzufügen und mit der Küchenmaschine oder einem Schneebesen zu einem flüssigen, homogenen Teig verquirlen.",
+    "Etwas Kokosöl in eine heiße Pfanne geben und etwa 1/2 Schöpfkelle Teig in die Mitte gießen. Pfanne sofort vorsichtig schwenken, so dass sich der Teig gleichmäßig dünn verteilt.",
+    "Crêpe bei mittlerer Hitze etwa 1-2 Minuten pro Seite ausbacken. Fertige Crêpes im Backofen warmhalten.",
+    "Für die Saucen jeweils Hasel- und Erdnussmus getrennt in einem Topf erwärmen, bis sie sich etwas verflüssigen. Banane in Scheiben schneiden.",
+    "Crêpes mit Banane füllen und flüssige Nussmuse über die Crêpes träufeln."
+  ],
+  "timeMinutes": 15,
+  "servings": 8,
+  "category": "Frühstück",
+  "cuisine": "Französisch",
+  "image": "https://www.eat-this.org/wp-content/uploads/2018/03/die-besten-veganen-crepes-6.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/die-besten-veganen-crepes/",
+    "title": "Die besten veganen Crêpes"
+  },
+  "importedAt": "2026-09-04"
+}
