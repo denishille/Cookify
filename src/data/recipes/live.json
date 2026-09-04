@@ -4768,5 +4768,493 @@
       "wok",
       "fisch"
     ]
+  },
+  {
+    "id": "d-bratapfel",
+    "title": "Bratapfel mit Mandel-Rosinen-Füllung",
+    "description": "Im Ofen gebackene Äpfel mit einer Füllung aus Mandeln, Rosinen, Honig und Zimt – duftet nach Weihnachten und schmeckt mit Vanillesahne am besten.",
+    "emoji": "🎄",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 425,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 25
+    },
+    "ingredients": [
+      {
+        "key": "apfel",
+        "name": "Äpfel (z. B. Boskoop)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, gemahlen",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, gehackt",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "orangensaft",
+        "name": "Orangensaft",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 100,
+        "unit": "ml",
+        "optional": true
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor. Wasche die Äpfel und schneide oben einen Deckel ab. Höhle das Kerngehäuse mit einem Kugelausstecher oder Teelöffel aus, ohne den Boden zu durchstechen.",
+      "Verknete gemahlene Mandeln, Walnüsse, Rosinen, Honig, weiche Butter und Zimt zu einer Füllung.",
+      "Fülle die Äpfel großzügig damit, setze die Deckel wieder auf und stelle sie in eine Auflaufform.",
+      "Gieße den Orangensaft in die Form und backe die Äpfel 30 Minuten, bis sie weich sind und die Füllung leicht gebräunt ist.",
+      "Schlage die Sahne mit Vanillezucker halbsteif.",
+      "Serviere die Bratäpfel warm mit etwas Bratensaft aus der Form und der Vanillesahne."
+    ],
+    "tags": [
+      "weihnachten",
+      "winter",
+      "klassiker",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-rote-gruetze",
+    "title": "Rote Grütze",
+    "description": "Norddeutscher Klassiker aus roten Beeren und Kirschen, mit Speisestärke leicht gebunden – fruchtig, erfrischend und ganz ohne tierische Zutaten.",
+    "emoji": "🍒",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 145,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 235,
+      "protein": 3,
+      "carbs": 50,
+      "fat": 1
+    },
+    "ingredients": [
+      {
+        "key": "beeren",
+        "name": "Gemischte rote Beeren (TK: Johannisbeeren, Himbeeren, Erdbeeren)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "kirschen",
+        "name": "Sauerkirschen (Glas, abgetropft)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "orangensaft",
+        "name": "Kirsch- oder Orangensaft",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sojajoghurt",
+        "name": "Vanille-Sojajoghurt zum Servieren",
+        "amount": 200,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Gib die Beeren, die Kirschen, 150 ml Saft, Zucker und Vanillezucker in einen Topf und bringe alles bei mittlerer Hitze zum Kochen.",
+      "Lass die Früchte 5 Minuten köcheln, bis die Beeren aufgetaut und weich sind.",
+      "Rühre die Speisestärke mit den restlichen 50 ml kaltem Saft glatt und gieße sie unter Rühren in die kochenden Früchte.",
+      "Lass die Grütze 1–2 Minuten sprudelnd kochen, bis sie andickt, und schmecke sie mit Zitronensaft ab.",
+      "Fülle die Rote Grütze in Schalen, lass sie abkühlen und stelle sie mindestens 2 Stunden kalt.",
+      "Serviere sie mit Vanille-Sojajoghurt oder pflanzlicher Vanillesauce."
+    ],
+    "tags": [
+      "klassiker",
+      "sommer",
+      "kalorienarm",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-schoko-lava-cake",
+    "title": "Schoko-Lava-Cake",
+    "description": "Kleine warme Schokoküchlein mit flüssigem Kern – in 12 Minuten gebacken und mit einer Kugel Vanilleeis ein echter Showstopper.",
+    "emoji": "🌋",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 600,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kakao",
+        "name": "Kakao für die Förmchen",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "eis-vanille",
+        "name": "Vanilleeis zum Servieren",
+        "amount": 200,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Fette 4 Muffin- oder Souffléförmchen mit etwas Butter ein und stäube sie mit Kakao aus.",
+      "Schmilz Schokolade und Butter über dem Wasserbad und lass die Masse 5 Minuten abkühlen.",
+      "Schlage Eier, Zucker und Salz mit dem Handrührgerät 3 Minuten hellschaumig.",
+      "Rühre die Schokoladenbutter unter die Eiermasse und siebe zum Schluss das Mehl darüber. Hebe es nur kurz unter.",
+      "Verteile den Teig auf die Förmchen und backe die Küchlein 10–12 Minuten – der Rand ist fest, die Mitte noch weich.",
+      "Lass die Küchlein 1 Minute ruhen, stürze sie auf Teller und serviere sie sofort mit Vanilleeis."
+    ],
+    "tags": [
+      "gaeste",
+      "schnell",
+      "suess",
+      "schokolade"
+    ]
+  },
+  {
+    "id": "d-vollkornbrot-kerne",
+    "title": "Schnelles Vollkornbrot mit Kernen",
+    "description": "Saftiges Vollkornbrot mit Sonnenblumen- und Kürbiskernen, das ohne langes Kneten auskommt – nur rühren, gehen lassen und backen.",
+    "emoji": "🥖",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 120,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 260,
+      "protein": 10,
+      "carbs": 36,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "vollkornmehl",
+        "name": "Weizen- oder Dinkelvollkornmehl",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Trockenhefe",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser, lauwarm",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "essig",
+        "name": "Essig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sonnenblumenkerne",
+        "name": "Sonnenblumenkerne",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "leinsamen",
+        "name": "Leinsamen",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Haferflocken",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verrühre Vollkornmehl, Trockenhefe, Salz, Zucker, Leinsamen, Haferflocken und je 40 g Sonnenblumen- und Kürbiskerne in einer großen Schüssel.",
+      "Gib lauwarmes Wasser und Essig dazu und verrühre alles mit einem Holzlöffel 2 Minuten zu einem klebrigen, zähen Teig.",
+      "Fülle den Teig in eine gefettete Kastenform (ca. 25 cm), streiche ihn glatt und bestreue ihn mit den restlichen Kernen.",
+      "Decke die Form ab und lass den Teig an einem warmen Ort 45 Minuten gehen, bis er deutlich aufgegangen ist.",
+      "Backe das Brot bei 200 °C Ober-/Unterhitze 50 Minuten. Stelle eine Schale Wasser mit in den Ofen, damit die Kruste schön wird.",
+      "Stürze das Brot aus der Form und lass es auf einem Gitter vollständig auskühlen, bevor du es anschneidest."
+    ],
+    "tags": [
+      "vegan",
+      "herzhaft",
+      "meal-prep",
+      "vollkorn"
+    ]
+  },
+  {
+    "id": "m-beef-burritos",
+    "title": "Beef-Burritos mit Reis und Bohnen",
+    "description": "Prall gefüllte Weizentortillas mit Hackfleisch, Reis, schwarzen Bohnen, Käse und Salsa, fest gerollt und knusprig angebraten – ideal zum Mitnehmen und Vorbereiten.",
+    "emoji": "🌯",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 42,
+      "carbs": 72,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "reis",
+        "name": "Reis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "schwarze-bohnen",
+        "name": "Schwarze Bohnen (Dose, abgetropft)",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "tortillas",
+        "name": "Große Weizentortillas",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar, gerieben",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis nach Packungsangabe. Würfle Zwiebel, Knoblauch und Tomaten.",
+      "Brate das Hackfleisch in 1 EL Öl 6 Minuten krümelig an, gib Zwiebel und Knoblauch dazu und brate 3 Minuten weiter. Würze mit Kreuzkümmel, Paprikapulver, Tomatenmark, Salz und Pfeffer und rühre die Bohnen und 100 ml Wasser ein. 5 Minuten köcheln.",
+      "Erwärme die Tortillas kurz, damit sie biegsam sind. Verteile Reis, Hackfleischmischung, Käse und Tomatenwürfel mittig auf jede Tortilla, aber lasse die Ränder frei.",
+      "Klappe die kurzen Seiten ein und rolle die Burritos von unten her fest auf.",
+      "Brate die Burritos mit der Naht nach unten in einer trockenen Pfanne bei mittlerer Hitze je 2 Minuten pro Seite goldbraun und serviere sie nach Belieben mit Salsa oder saurer Sahne."
+    ],
+    "tags": [
+      "meal-prep",
+      "kinder",
+      "feierabend",
+      "to-go"
+    ]
   }
 ]
