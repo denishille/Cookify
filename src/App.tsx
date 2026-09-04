@@ -16,8 +16,10 @@ import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
 import { SetsDrawer } from './components/SetsDrawer'
 import { SettingsDrawer } from './components/SettingsDrawer'
+import { ShoppingDrawer } from './components/ShoppingDrawer'
+import { useShoppingList } from './lib/shopping'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings } from './components/Icons'
+import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -123,6 +125,12 @@ export default function App() {
   /** Globale Ernährungsform aus den Einstellungen: filtert den gesamten Bestand, bleibt im Browser gespeichert. */
   const [globalDiets, setGlobalDiets] = usePersistentState<Diet[]>('cookify.globalDiets', [])
   const [settingsOpen, setSettingsOpen] = useState(false)
+  const shopping = useShoppingList()
+  const [shopOpen, setShopOpen] = useState(false)
+  const addShoppingKey = (key: string) => {
+    const def = INGREDIENT_BY_KEY.get(key)
+    if (def) shopping.addIngredient({ key, name: def.name, amount: null, unit: '' })
+  }
   /** Ausgeblendete Rezepte (Daumen runter): tauchen nur noch am Ende von „Alle Rezepte“ auf. */
   const hiddenSet = usePersistentSet('cookify.hidden')
   // Bewusst ohne useMemo: bei rund hundert Rezepten ist das Filtern pro Render billig.
@@ -174,6 +182,10 @@ export default function App() {
         <div className="topbar-inner">
           <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
           {tabs('nav')}
+          <button className={`settings-btn cart-btn ${shopping.openCount ? 'on' : ''}`} onClick={() => setShopOpen(true)} aria-label="Einkaufsliste" title="Einkaufsliste">
+            <IconCart />
+            {shopping.openCount > 0 && <span className="cart-count">{shopping.openCount}</span>}
+          </button>
           <button className={`settings-btn ${globalDiets.length ? 'on' : ''}`} onClick={() => setSettingsOpen(true)} aria-label="Einstellungen" title="Einstellungen">
             <IconSettings />
             {globalDiets.length > 0 && <span className="dot" />}
@@ -181,6 +193,8 @@ export default function App() {
         </div>
       </header>
       <SettingsDrawer open={settingsOpen} onClose={() => setSettingsOpen(false)} globalDiets={globalDiets} onChange={setGlobalDiets} />
+      <ShoppingDrawer open={shopOpen} onClose={() => setShopOpen(false)} items={shopping.items} onToggleDone={shopping.toggleDone} onRemove={shopping.remove}
+        onClearDone={shopping.clearDone} onClearAll={shopping.clearAll} onAddKey={addShoppingKey} />
       {tabs('tabbar')}
 
       <main className="main">
@@ -205,6 +219,8 @@ export default function App() {
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
             activeDiets={activeDiets}
+            onAddIngredientToList={(ing) => shopping.addIngredient(ing, detail.title)}
+            onAddRecipeToList={(factor) => shopping.addRecipe(detail, pantrySet.set, factor)}
           />
         )}
 
@@ -291,7 +307,6 @@ export default function App() {
                     <div style={{ height: 18 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
-                        <div className="ico"><IconBasket /></div>
                         <h3>Noch kein passendes Rezept</h3>
                         <p>Erlaube fehlende Zutaten oder füge etwas hinzu.</p>
                         {maxMissing !== 99 && <button className="btn" onClick={() => setMaxMissing(99)}>Alle Treffer zeigen</button>}

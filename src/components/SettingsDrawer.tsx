@@ -36,7 +36,7 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange }: Props) 
           <span className="eyebrow">Meine Ernährungsform</span>
           <p className="hint">Gilt überall in der App: Rezepte, die nicht passen, werden gar nicht erst angezeigt. Mehrere Angaben müssen alle zutreffen.</p>
           <div className="settings-list" role="group" aria-label="Ernährungsform">
-            {(Object.keys(DIET_LABELS) as Diet[]).map((d) => {
+            {(Object.keys(DIET_LABELS) as Diet[]).filter((d) => d !== 'lowfodmap').map((d) => {
               const on = globalDiets.includes(d)
               return (
                 <button key={d} className={`multi-item ${on ? 'on' : ''}`} onClick={() => toggle(d)} aria-pressed={on}>

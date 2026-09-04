@@ -1,12 +1,12 @@
 import { useEffect, useState, type CSSProperties } from 'react'
-import type { Diet, Recipe } from '../types'
+import type { Diet, Ingredient, Recipe } from '../types'
 import { CATEGORY_LABELS, CUISINE_LABELS, DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { STAPLE_KEYS } from '../data'
 import { back } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
-import { IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
+import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { proteinShare } from '../lib/nutrition'
 import { adaptRecipe } from '../lib/adapt'
@@ -21,6 +21,8 @@ interface Props {
   isNew: boolean
   savedIds: Set<string>
   activeDiets: Diet[]
+  onAddIngredientToList: (ing: Ingredient) => void
+  onAddRecipeToList: (factor: number) => number
 }
 
 function formatAmount(amount: number | null, factor: number): string {
@@ -37,7 +39,7 @@ function formatAmount(amount: number | null, factor: number): string {
   return v.toFixed(1).replace('.', ',')
 }
 
-export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets }: Props) {
+export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, onAddIngredientToList, onAddRecipeToList }: Props) {
   const [servings, setServings] = useState(recipe.servings)
   const [done, setDone] = useState<Set<number>>(new Set())
   const [toast, setToast] = useState<string | null>(null)
@@ -121,6 +123,9 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
             <IconHeart filled={saved} width={18} height={18} /> {saved ? 'Gespeichert' : 'Speichern'}
           </button>
           <button className="btn" onClick={share}><IconShare width={18} height={18} /> Teilen</button>
+          <button className="btn" onClick={() => { const n = onAddRecipeToList(factor); setToast(n ? `${n} ${n === 1 ? 'Zutat' : 'Zutaten'} auf der Einkaufsliste` : 'Alles schon im Vorrat') }}>
+            <IconCart width={18} height={18} /> Auf die Einkaufsliste
+          </button>
         </div>
       </div>
 
@@ -161,6 +166,9 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
                     <span className={change ? 'orig' : ''}>{ing.name}</span>{ing.optional && <span className="opt"> · optional</span>}
                     {change && <span className="sub">{change.action === 'ersetzen' ? `→ ${change.by}` : '→ weglassen'}</span>}
                   </span>
+                  <button className="ing-cart" onClick={() => { onAddIngredientToList({ ...ing, amount: ing.amount === null ? null : Math.round(ing.amount * factor * 10) / 10 }); setToast(`${ing.name} auf der Einkaufsliste`) }} aria-label={`${ing.name} auf die Einkaufsliste`} title="Auf die Einkaufsliste">
+                    <IconCart width={16} height={16} />
+                  </button>
                   <button
                     className={`have ${has ? 'on' : ''}`}
                     onClick={() => onTogglePantry(ing.key)}
