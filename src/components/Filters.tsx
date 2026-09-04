@@ -1,37 +1,23 @@
 import type { Category, Diet } from '../types'
 import { CATEGORY_LABELS, DIET_LABELS } from '../types'
-import { EMPTY_FILTERS, QUICK_FILTERS, isEmpty, sameFilters, type FilterState } from '../lib/filters'
+import { EMPTY_FILTERS, isEmpty, type FilterState } from '../lib/filters'
 
 interface Props {
   value: FilterState
   onChange: (next: FilterState) => void
   /** Bewertungsfilter nur anbieten, wenn es bewertete Rezepte gibt */
   hasRatings?: boolean
-}
-
-/** Eine Zeile Schnellfilter-Chips. Ein Chip setzt genau einen Zustand, „Alle“ setzt zurück. */
-export function QuickFilters({ value, onChange, hasRatings }: Props) {
-  return (
-    <div className="chips scroll" role="group" aria-label="Schnellfilter">
-      <button className={`chip ${isEmpty(value) ? 'on' : ''}`} onClick={() => onChange(EMPTY_FILTERS)}>Alle</button>
-      {QUICK_FILTERS.filter((qf) => hasRatings || !qf.state.topRated).map((qf) => {
-        const on = sameFilters(value, qf.state)
-        return (
-          <button key={qf.id} className={`chip ${on ? 'on' : ''}`} onClick={() => onChange(on ? EMPTY_FILTERS : qf.state)}>
-            {qf.label}
-          </button>
-        )
-      })}
-    </div>
-  )
+  /** Zusätzliche Felder, die vor den Filtern stehen (z. B. „Fehlen dürfen“ auf der Vorratsseite) */
+  children?: React.ReactNode
 }
 
 /** Der Konfigurator: drei Dropdowns – Ernährung, Kategorie, Dauer. */
-export function FilterGroups({ value, onChange, hasRatings }: Props) {
+export function FilterGroups({ value, onChange, hasRatings, children }: Props) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
   const diet = value.topRated ? 'top' : (value.diets[0] ?? '')
   return (
     <div className="cfg">
+      {children}
       <label className="cfg-field">
         <span>Ernährung</span>
         <select className={`select ${diet ? 'on' : ''}`} value={diet}

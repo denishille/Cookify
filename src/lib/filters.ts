@@ -32,30 +32,3 @@ export function activeCount(f: FilterState): number {
 export function isEmpty(f: FilterState): boolean {
   return activeCount(f) === 0
 }
-
-/** Schnellfilter-Chips: jeder setzt genau einen Filterzustand. */
-export interface QuickFilter {
-  id: string
-  label: string
-  state: FilterState
-}
-
-const q = (id: string, label: string, patch: Partial<FilterState>): QuickFilter => ({ id, label, state: { ...EMPTY_FILTERS, ...patch } })
-
-export const QUICK_FILTERS: QuickFilter[] = [
-  q('top', 'Top bewertet', { topRated: true }),
-  q('vegetarisch', 'Vegetarisch', { diets: ['vegetarisch'] }),
-  q('vegan', 'Vegan', { diets: ['vegan'] }),
-  q('schnell', 'Unter 30 Min', { maxTime: 30 }),
-  q('protein', 'Proteinreich', { diets: ['proteinreich'] }),
-  q('leicht', 'Kalorienarm', { diets: ['kalorienarm'] }),
-  q('fruehstueck', 'Frühstück', { category: 'fruehstueck' }),
-  q('nachspeise', 'Nachspeisen', { category: 'nachspeise' }),
-  q('suppe', 'Suppen', { category: 'suppe' }),
-  q('salat', 'Salate', { category: 'salat' }),
-]
-
-export function sameFilters(a: FilterState, b: FilterState): boolean {
-  return a.category === b.category && a.cuisine === b.cuisine && a.maxTime === b.maxTime && a.difficulty === b.difficulty && a.topRated === b.topRated &&
-    a.diets.length === b.diets.length && a.diets.every((d) => b.diets.includes(d))
-}

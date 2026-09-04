@@ -12,7 +12,7 @@ import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
-import { QuickFilters, FilterGroups } from './components/Filters'
+import { FilterGroups } from './components/Filters'
 import { IconBasket, IconBook, IconDice, IconHeart, IconSearch } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
@@ -30,9 +30,13 @@ const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
 
 type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
 const MISSING_OPTIONS: { value: number; label: string }[] = [
-  { value: 0, label: 'Alles da' },
-  { value: 3, label: 'Bis zu 3 fehlen' },
-  { value: 99, label: 'Alle Treffer' },
+  { value: 0, label: 'Keine, alles da' },
+  { value: 1, label: 'Bis zu 1' },
+  { value: 2, label: 'Bis zu 2' },
+  { value: 3, label: 'Bis zu 3' },
+  { value: 4, label: 'Bis zu 4' },
+  { value: 5, label: 'Bis zu 5' },
+  { value: 99, label: 'Egal' },
 ]
 
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
@@ -194,15 +198,17 @@ export default function App() {
                   </div>
                 ) : (
                   <>
-                    <div className="results-head">
-                      <div className="segmented" role="group" aria-label="Fehlende Zutaten">
-                        {MISSING_OPTIONS.map((o) => (
-                          <button key={o.value} className={maxMissing === o.value ? 'on' : ''} onClick={() => setMaxMissing(o.value)}>{o.label}</button>
-                        ))}
-                      </div>
+                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS}>
+                      <label className="cfg-field">
+                        <span>Fehlen dürfen</span>
+                        <select className={`select ${maxMissing !== 99 ? 'on' : ''}`} value={maxMissing} onChange={(e) => setMaxMissing(Number(e.target.value))}>
+                          {MISSING_OPTIONS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
+                        </select>
+                      </label>
+                    </FilterGroups>
+                    <div className="results-head" style={{ marginTop: 18 }}>
                       <span className="hint">{pantryResults.length} {pantryResults.length === 1 ? 'Treffer' : 'Treffer'}</span>
                     </div>
-                    <div style={{ marginBottom: 18 }}><QuickFilters value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} /></div>
                     {pantryResults.length === 0 ? (
                       <div className="empty">
                         <div className="ico"><IconBasket /></div>
