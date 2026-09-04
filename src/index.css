@@ -120,6 +120,17 @@ svg { flex-shrink: 0; }
 .brand svg { display: block; }
 @media (max-width: 380px) { .brand svg:last-child { height: 22px; width: auto; } }
 
+.settings-btn {
+  margin-left: auto; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
+  color: var(--muted); position: relative; flex-shrink: 0;
+}
+.settings-btn:hover { background: var(--surface); color: var(--text); }
+.settings-btn.on { color: var(--green); }
+.settings-btn .dot { position: absolute; top: 7px; right: 7px; width: 8px; height: 8px; border-radius: 50%; background: var(--lime); border: 2px solid var(--bg); }
+@media (min-width: 820px) { .settings-btn { margin-left: 8px; } }
+.settings-list { display: grid; gap: 2px; }
+.settings-list .multi-item { font-size: 0.98rem; padding: 10px 8px; }
+
 .nav { display: none; }
 .tabbar {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;

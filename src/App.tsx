@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
-import type { Recipe } from './types'
+import type { Diet, Recipe } from './types'
 import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek } from './lib/week'
@@ -14,16 +14,14 @@ import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
 import { SetsDrawer } from './components/SetsDrawer'
+import { SettingsDrawer } from './components/SettingsDrawer'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconChevronLeft, IconDice, IconHeart, IconSearch } from './components/Icons'
+import { IconBasket, IconBook, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
-/** Alles, was im Live-Bestand liegt, ist sichtbar; die Wochen-Freischaltung steuert nur noch die „Neu“-Marke. */
-const AVAILABLE: Recipe[] = ALL_RECIPES
-const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
-const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
-const DAILY = dailyPicks(AVAILABLE, 5)
+const BY_ID = new Map(ALL_RECIPES.map((r) => [r.id, r]))
+const HAS_RATINGS = ALL_RECIPES.some((r) => r.source?.rating !== undefined)
 
 const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
   { view: 'rezepte', label: 'Rezepte', icon: <IconBook /> },
@@ -31,7 +29,7 @@ const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
   { view: 'gespeichert', label: 'Gespeichert', icon: <IconHeart /> },
 ]
 
-type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
+type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'langsam' | 'kcal' | 'protein'
 const MISSING_CHOICES = [0, 1, 2, 3, 4, 5, 6, 8, 10]
 
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
@@ -40,15 +38,16 @@ function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
     case 'bewertung': return copy.sort((a, b) => ratingScore(b) - ratingScore(a))
     case 'neu': return copy.sort((a, b) => (a.addedWeek < b.addedWeek ? 1 : a.addedWeek > b.addedWeek ? -1 : a.title.localeCompare(b.title, 'de')))
     case 'schnell': return copy.sort((a, b) => a.timeMinutes - b.timeMinutes)
+    case 'langsam': return copy.sort((a, b) => b.timeMinutes - a.timeMinutes)
     case 'kcal': return copy.sort((a, b) => a.nutrition.kcal - b.nutrition.kcal)
     case 'protein': return copy.sort((a, b) => b.nutrition.protein - a.nutrition.protein)
     default: return copy
   }
 }
 
-function related(recipe: Recipe): Recipe[] {
+function related(recipe: Recipe, pool: Recipe[]): Recipe[] {
   const keys = new Set(recipe.ingredients.map((i) => i.key))
-  return AVAILABLE
+  return pool
     .filter((r) => r.id !== recipe.id)
     .map((r) => ({ r, s: (r.category === recipe.category ? 2 : 0) + (r.cuisine === recipe.cuisine ? 1 : 0) + r.ingredients.filter((i) => keys.has(i.key)).length * 0.5 }))
     .sort((a, b) => b.s - a.s)
@@ -104,15 +103,29 @@ export default function App() {
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sort, setSort] = useState<Sort>('standard')
 
+  /** Globale Ernährungsform aus den Einstellungen: filtert den gesamten Bestand, bleibt im Browser gespeichert. */
+  const [globalDiets, setGlobalDiets] = usePersistentState<Diet[]>('cookify.globalDiets', [])
+  const [settingsOpen, setSettingsOpen] = useState(false)
+  const AVAILABLE = useMemo(() => (globalDiets.length ? ALL_RECIPES.filter((r) => globalDiets.every((d) => r.diet.includes(d))) : ALL_RECIPES), [globalDiets])
+  const DAILY = useMemo(() => dailyPicks(AVAILABLE, 5), [AVAILABLE])
+
+  /** Alle-Rezepte-Liste: eigene Filter und Sortierung */
+  const [allFilters, setAllFilters] = useState<FilterState>(EMPTY_FILTERS)
+  const [allSort, setAllSort] = useState<Sort>('standard')
+  const allList = useMemo(() => {
+    const base = applyFilters(AVAILABLE, allFilters)
+    return allSort === 'standard' ? [...base].sort((a, b) => a.title.localeCompare(b.title, 'de')) : sortRecipes(base, allSort)
+  }, [AVAILABLE, allFilters, allSort])
+
   const pantryKey = [...pantrySet.set].sort().join(',')
   const pantryResults = useMemo(
     () => rankByPantry(applyFilters(AVAILABLE, pantryFilters), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing),
-    [pantryKey, maxMissing, pantryFilters],
+    [AVAILABLE, pantryKey, maxMissing, pantryFilters],
   )
 
   /** Treffer gibt es nur, wenn im Konfigurator etwas gesetzt ist. */
   const configured = !isEmpty(filters)
-  const results = useMemo(() => sortRecipes(applyFilters(AVAILABLE, filters), sort), [filters, sort])
+  const results = useMemo(() => sortRecipes(applyFilters(AVAILABLE, filters), sort), [AVAILABLE, filters, sort])
 
   const savedRecipes = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
@@ -142,8 +155,13 @@ export default function App() {
         <div className="topbar-inner">
           <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
           {tabs('nav')}
+          <button className={`settings-btn ${globalDiets.length ? 'on' : ''}`} onClick={() => setSettingsOpen(true)} aria-label="Einstellungen" title="Einstellungen">
+            <IconSettings />
+            {globalDiets.length > 0 && <span className="dot" />}
+          </button>
         </div>
       </header>
+      <SettingsDrawer open={settingsOpen} onClose={() => setSettingsOpen(false)} globalDiets={globalDiets} onChange={setGlobalDiets} />
       {tabs('tabbar')}
 
       <main className="main">
@@ -164,7 +182,7 @@ export default function App() {
             onToggleSave={savedSet.toggle}
             pantry={pantrySet.set}
             onTogglePantry={togglePantry}
-            related={related(detail)}
+            related={related(detail, AVAILABLE)}
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
           />
@@ -275,13 +293,28 @@ export default function App() {
             <button className="backlink" onClick={() => navigate('gespeichert')}><IconChevronLeft /> Gespeichert</button>
             <div className="section-head" style={{ marginTop: 6 }}>
               <h1 className="h1">Alle Rezepte</h1>
-              <span className="sub">{AVAILABLE.length} Rezepte</span>
+              <span className="sub">{allList.length} {allList.length === 1 ? 'Rezept' : 'Rezepte'}</span>
             </div>
-            <div className="list" style={{ marginTop: 16 }}>
-              {[...AVAILABLE].sort((a, b) => a.title.localeCompare(b.title, 'de')).map((r) => (
-                <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} />
-              ))}
-            </div>
+            <FilterGroups value={allFilters} onChange={setAllFilters} hasRatings={HAS_RATINGS} hideTime>
+              <label className="cfg-field">
+                <span>Sortierung</span>
+                <select className={`select ${allSort !== 'standard' ? 'on' : ''}`} value={allSort} onChange={(e) => setAllSort(e.target.value as Sort)}>
+                  <option value="standard">A bis Z</option>
+                  <option value="schnell">Dauer: kurz zuerst</option>
+                  <option value="langsam">Dauer: lang zuerst</option>
+                  <option value="kcal">Wenigste Kalorien</option>
+                  <option value="protein">Meistes Protein</option>
+                  {HAS_RATINGS && <option value="bewertung">Beste Bewertung</option>}
+                </select>
+              </label>
+            </FilterGroups>
+            {allList.length === 0 ? (
+              <div className="empty" style={{ marginTop: 18 }}><div className="ico"><IconSearch /></div><h3>Nichts gefunden</h3><p>Nimm einen Filter raus.</p></div>
+            ) : (
+              <div className="list" style={{ marginTop: 18 }}>
+                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} />)}
+              </div>
+            )}
           </>
         )}
 

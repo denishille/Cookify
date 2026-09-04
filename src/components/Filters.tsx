@@ -13,6 +13,8 @@ interface Props {
   children?: React.ReactNode
   /** Kategorie-Feld ausblenden (Vorratsseite) */
   hideCategory?: boolean
+  /** Dauer-Feld ausblenden (Alle-Rezepte-Liste sortiert stattdessen) */
+  hideTime?: boolean
 }
 
 interface MultiOption { value: string; label: string }
@@ -57,7 +59,7 @@ function MultiSelect({ options, value, onChange, label }: { options: MultiOption
 }
 
 /** Der Konfigurator: drei Dropdowns – Ernährung (Mehrfachauswahl), Kategorie, Dauer. */
-export function FilterGroups({ value, onChange, hasRatings, children, hideCategory }: Props) {
+export function FilterGroups({ value, onChange, hasRatings, children, hideCategory, hideTime }: Props) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
   const dietOptions: MultiOption[] = [
     ...(Object.keys(DIET_LABELS) as Diet[]).map((d) => ({ value: d, label: DIET_LABELS[d] })),
@@ -81,16 +83,18 @@ export function FilterGroups({ value, onChange, hasRatings, children, hideCatego
           </select>
         </label>
       )}
-      <label className="cfg-field">
-        <span>Dauer</span>
-        <select className={`select ${value.maxTime ? 'on' : ''}`} value={value.maxTime} onChange={(e) => set({ maxTime: Number(e.target.value) })}>
-          <option value={0}>Alle</option>
-          <option value={15}>bis 15 Min</option>
-          <option value={30}>bis 30 Min</option>
-          <option value={45}>bis 45 Min</option>
-          <option value={60}>bis 60 Min</option>
-        </select>
-      </label>
+      {!hideTime && (
+        <label className="cfg-field">
+          <span>Dauer</span>
+          <select className={`select ${value.maxTime ? 'on' : ''}`} value={value.maxTime} onChange={(e) => set({ maxTime: Number(e.target.value) })}>
+            <option value={0}>Alle</option>
+            <option value={15}>bis 15 Min</option>
+            <option value={30}>bis 30 Min</option>
+            <option value={45}>bis 45 Min</option>
+            <option value={60}>bis 60 Min</option>
+          </select>
+        </label>
+      )}
       {!isEmpty(value) && <button className="btn ghost cfg-reset" onClick={() => onChange(EMPTY_FILTERS)}>Zurücksetzen</button>}
     </div>
   )
