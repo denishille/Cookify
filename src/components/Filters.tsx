@@ -29,7 +29,7 @@ function MultiSelect({ options, value, onChange, label }: { options: MultiOption
   }, [open])
   const toggle = (v: string) => onChange(value.includes(v) ? value.filter((x) => x !== v) : [...value, v])
   const chosen = options.filter((o) => value.includes(o.value))
-  const text = chosen.length === 0 ? 'Alle' : chosen.length <= 2 ? chosen.map((o) => o.label).join(', ') : `${chosen.length} gewählt`
+  const text = chosen.length === 0 ? 'Alle' : chosen.length === 1 ? chosen[0].label : `${chosen.length} gewählt`
   return (
     <div className="multi" ref={ref}>
       <button type="button" className={`select multi-btn ${chosen.length ? 'on' : ''}`} onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={label}>
