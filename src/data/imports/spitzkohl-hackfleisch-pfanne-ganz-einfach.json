@@ -1,0 +1,33 @@
+{
+  "title": "Spitzkohl-Hackfleisch-Pfanne, ganz einfach",
+  "description": "Meine Spitzkohl-Hackfleisch-Pfanne ist ganz einfach und in gerade einmal 20 Minuten zubereitet und herrlich deftig.",
+  "ingredients": [
+    "1 kleiner Spitzkohl (ca. 800 g)",
+    "500 g Rinderhackfleisch",
+    "1 EL Olivenöl",
+    "Salz und Pfeffer",
+    "1 Prise Muskat",
+    "2 TL Paprikapulver edelsüß",
+    "4 EL Schmand",
+    "Petersilie (zum Garnieren)"
+  ],
+  "steps": [
+    "Spitzkohl halbieren und den Strunk entfernen und in mundgerechte Stücke schneiden.",
+    "Öl in einer Pfanne erhitzen und das Hackfleisch anbraten. Spitzkohl zugeben und für ca. 10 Minuten mitbraten, bis er leicht gebräunt ist. Mit Salz, Pfeffer, Muskat und Paprikapulver abschmecken. Der Kohl sollte noch etwas Biss haben.",
+    "Die Spitzkohl-Hackfleisch-Pfanne mit Schmand und frischer Petersilie servieren."
+  ],
+  "timeMinutes": 20,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/10/Spitzkohl-Hackfleisch-Pfanne-schnell.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/spitzkohl-hackfleisch-pfanne/",
+    "title": "Spitzkohl-Hackfleisch-Pfanne, ganz einfach",
+    "rating": 5,
+    "ratingCount": 50
+  },
+  "importedAt": "2026-09-04"
+}

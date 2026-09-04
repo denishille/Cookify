@@ -1,0 +1,34 @@
+{
+  "title": "Strammer Max",
+  "description": "Der Stramme Max mit Kräuterbutter, Schinken, Gurke und Spiegelei von EAT SMARTER hält dank des Roggenbrotes lange satt und wirkt zellschützend.",
+  "ingredients": [
+    "4 größere Scheibe Roggenmischbrote",
+    "100 g Kräuterbutter",
+    "100 g gekochter Schinken (8 Scheiben)",
+    "4 Eier",
+    "1 EL Butterschmalz",
+    "0.5 Salatgurke",
+    "8 Gewürzgurken",
+    "2 Stiele Petersilie",
+    "Salz",
+    "Pfeffer"
+  ],
+  "steps": [
+    "Von der Kräuterbutter 4 Scheiben für die Garnitur abschneiden, den Rest auf die 4 Brote streichen. Gurke waschen, trocken reiben in dünne Scheiben hobeln und auf Brot verteilen. Mit Salz und Pfeffer würzen und je zwei Schinkenscheiben darauflegen.",
+    "Butter in einer Pfanne bei mittlerer Hitze erwärmen, 4 Speigeleier braten und je ein Ei auf eine Brotscheibe legen.",
+    "Petersilie waschen, trocken schütteln, einige Blätter beiseitelegen und den Rest fein hacken. Die Brote mit der gehackten Petersilie bestreuen. Auf Tellern anrichten, eine Scheibe Kräuterbutter dazugeben und den Strammen Max mit den beiseitegelegten Petersilienblättern garnieren. Essiggurken als Beilage reichen."
+  ],
+  "timeMinutes": 20,
+  "servings": 4,
+  "category": "Frühstück",
+  "cuisine": "Deutsche",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/strammer-max-originalrezept-115703.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/strammer-max-originalrezept",
+    "title": "Strammer Max",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "importedAt": "2026-09-04"
+}

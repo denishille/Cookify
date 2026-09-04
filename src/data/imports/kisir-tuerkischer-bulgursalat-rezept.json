@@ -1,0 +1,36 @@
+{
+  "title": "Kisir (Türkischer Bulgursalat) Rezept",
+  "description": "In der Türkei ist Kisir ein echter Klassiker. Mit unserem Rezept gelingt dir der traditionelle Bulgursalat ganz einfach!",
+  "ingredients": [
+    "250 g Bulgur",
+    "Salz",
+    "2 EL Tomatenmark",
+    "2 EL Ajvar",
+    "1 Bund Lauchzwiebeln",
+    "1 Bund glatte Petersilie",
+    "1 Zitrone",
+    "5 EL Olivenöl",
+    "2-3 EL Granatapfelsaft",
+    "Edelsüßpaprika",
+    "Pfeffer",
+    "8 Blätter Kopfsalat"
+  ],
+  "steps": [
+    "Bulgur waschen, in einem Sieb abtropfen lassen. Mit 500 ml Wasser aufkochen, mit Salz würzen und ca. 7 Minuten bei schwacher Hitze im offenen Topf ausquellen lassen. Vom Herd ziehen, Tomatenmark und Ajvar unterrühren, ca. 30 Minuten abkühlen lassen.",
+    "Lauchzwiebeln putzen, waschen und in feine Ringe schneiden. Petersilie waschen, trocken schütteln. Blätter abzupfen und hacken. Zitrone auspressen und Saft mit Öl und Granatafelsaft unter den Bulgur mischen. Mit Paprika, Salz und Pfeffer abschmecken.",
+    "Salatblätter waschen, putzen, trocken tupfen und mit dem Bulgursalat auf Tellern anrichten."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Rezepte,Salat-Rezepte,Bulgursalat,Vegan,Türkische Rezepte,Grillen",
+  "image": "https://images.lecker.de/kisir-turkischer-bulgursalat/1x1,id=7873ce27,b=lecker,w=1600,h=,ca=12.5,0,87.5,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/kisir-tuerkischer-bulgursalat-80005.html",
+    "title": "Kisir (Türkischer Bulgursalat) Rezept",
+    "rating": 4,
+    "ratingCount": 19
+  },
+  "importedAt": "2026-09-04"
+}
