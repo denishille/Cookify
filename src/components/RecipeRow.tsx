@@ -4,7 +4,7 @@ import { DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { openRecipe } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
-import { formatRating } from '../lib/rating'
+import { formatCount, formatRating } from '../lib/rating'
 import { IconClock, IconEye, IconHeart, IconStar, IconThumbDown } from './Icons'
 
 interface Props {
@@ -31,8 +31,17 @@ export function RecipeRow({ recipe, saved, onToggleSave, hidden, onToggleHide, a
           <IconClock /> {recipe.timeMinutes} Min
           <span className="row-diff"><span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}</span>
           <span className="dot" /> {recipe.nutrition.kcal} kcal
-          {recipe.source?.rating !== undefined && <><span className="dot" /><IconStar width={13} height={13} style={{ color: 'var(--amber)' }} /> {formatRating(recipe.source.rating)}</>}
         </div>
+        {recipe.source && (
+          <div className="rating sm">
+            {recipe.source.rating !== undefined && <>
+              <IconStar width={12} height={12} />
+              <b>{formatRating(recipe.source.rating)}</b>
+              {recipe.source.ratingCount !== undefined && <span>({formatCount(recipe.source.ratingCount)})</span>}
+            </>}
+            <span className="site">{recipe.source.site}</span>
+          </div>
+        )}
         {adapted > 0 && <div className="row-adapt">Anpassbar · {adapted} {adapted === 1 ? 'Zutat' : 'Zutaten'}</div>}
       </div>
       <div className="row-pills">

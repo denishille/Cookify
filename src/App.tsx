@@ -14,6 +14,8 @@ import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
+import { ScrollStrip } from './components/ScrollStrip'
+import { useScrollMemory } from './lib/scrollMemory'
 import { SetsDrawer } from './components/SetsDrawer'
 import { SettingsDrawer } from './components/SettingsDrawer'
 import { ShoppingDrawer } from './components/ShoppingDrawer'
@@ -111,7 +113,15 @@ export default function App() {
     offerUndo(`${before.length} Zutaten entfernt`, () => pantrySet.replace(before))
     pantrySet.clear()
   }
-  const saveSet = (next: PantrySet) => setSets((prev) => (prev.some((x) => x.id === next.id) ? prev.map((x) => (x.id === next.id ? next : x)) : [...prev, next]))
+  const saveSet = (next: PantrySet) => {
+    const before = sets.find((x) => x.id === next.id)
+    setSets((prev) => (prev.some((x) => x.id === next.id) ? prev.map((x) => (x.id === next.id ? next : x)) : [...prev, next]))
+    // Ist das Set gerade im Vorrat, wandern Änderungen direkt mit hinein.
+    if (before && before.keys.every((k) => pantrySet.set.has(k))) {
+      const removed = before.keys.filter((k) => !next.keys.includes(k))
+      pantrySet.replace([...[...pantrySet.set].filter((k) => !removed.includes(k)), ...next.keys])
+    }
+  }
   const deleteSet = (id: string) => {
     const idx = sets.findIndex((x) => x.id === id)
     if (idx < 0) return
@@ -155,6 +165,8 @@ export default function App() {
   const savedRecipes = savedAll.filter((r) => adaptRecipe(r, globalDiets).ok)
   const savedUnfit = savedAll.length - savedRecipes.length
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
+  // Beim Zurück landet man wieder an der Stelle, an der man weggeklickt hat.
+  useScrollMemory(route.recipeId ? `rezept:${route.recipeId}` : `view:${route.view}`)
 
   const surprise = () => {
     const pool = results.length ? results : AVAILABLE
@@ -229,14 +241,16 @@ export default function App() {
         {!route.recipeId && route.view === 'rezepte' && (
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
-            <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} pool={AVAILABLE} globalDiets={globalDiets} />
+            <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} pool={AVAILABLE} globalDiets={globalDiets}>
+              <button className="btn primary block" onClick={() => navigate('alle')}>Alle Rezepte anzeigen</button>
+            </FilterGroups>
 
             {!configured && (
               <div className="section">
                 <div className="section-head"><h2>Vorschläge des Tages</h2></div>
-                <div className="strip">
+                <ScrollStrip storeKey="daily">
                   {DAILY.map((r) => <RecipeCard key={r.id} {...card(r)} />)}
-                </div>
+                </ScrollStrip>
               </div>
             )}
 

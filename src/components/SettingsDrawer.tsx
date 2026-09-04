@@ -1,7 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import type { Diet } from '../types'
 import { DIET_LABELS } from '../types'
 import { IconCheck, IconX } from './Icons'
+import { useScrollLock, useSwipeRight } from '../lib/swipe'
 
 interface Props {
   open: boolean
@@ -16,17 +17,20 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange }: Props) 
     if (!open) return
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
     document.addEventListener('keydown', onKey)
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = prev }
+    return () => document.removeEventListener('keydown', onKey)
   }, [open, onClose])
+
+  const asideRef = useRef<HTMLElement>(null)
+  const dragX = useSwipeRight(asideRef, open, onClose)
+  useScrollLock(open)
 
   const toggle = (d: Diet) => onChange(globalDiets.includes(d) ? globalDiets.filter((x) => x !== d) : [...globalDiets, d])
 
   return (
     <>
       {open && <div className="drawer-backdrop" onClick={onClose} />}
-      <aside className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Einstellungen">
+      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Einstellungen"
+        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}>
         <div className="drawer-head">
           <h2>Einstellungen</h2>
           <button className="btn icon sm" onClick={onClose} aria-label="Schließen"><IconX width={18} height={18} /></button>

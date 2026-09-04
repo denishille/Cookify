@@ -17,7 +17,14 @@ function daySeed(date = new Date()): number {
   return h >>> 0
 }
 
-const SWEET = new Set(['nachspeise', 'backen'])
+const SWEET_CATEGORIES = new Set(['nachspeise', 'backen'])
+const SWEET_WORDS = /kuchen|torte|waffel|pfannkuchen|pancake|crepe|muffin|keks|cookie|brownie|creme|crème|tiramisu|eis\b|dessert|schoko|zimt|marmelade|pudding|milchreis|grießbrei|griessbrei|porridge|granola|müsli|muesli|kaiserschmarrn|strudel|tarte|donut|zupfkuchen|schmarrn|brioche|hefezopf|franzbrötchen|zimtschnecke|streusel|kompott|mousse|panna cotta|quarkbällchen|buchtel|dampfnudel|windbeutel|clafouti|trifle|crumble|banana bread|bananenbrot/i
+
+/** Süß im Sinne der Vorschläge: Kategorie oder ein eindeutig süßes Wort in Titel und Tags. */
+export function isSweet(r: Recipe): boolean {
+  if (SWEET_CATEGORIES.has(r.category)) return true
+  return SWEET_WORDS.test(`${r.title} ${r.tags.join(' ')}`)
+}
 
 /**
  * Vorschläge des Tages: vier deftige Rezepte (möglichst verschiedene Kategorien, keine Getränke)
@@ -26,8 +33,8 @@ const SWEET = new Set(['nachspeise', 'backen'])
 export function dailyPicks(pool: Recipe[], n = 5, date = new Date()): Recipe[] {
   const rand = rng(daySeed(date))
   const shuffled = [...pool].sort(() => rand() - 0.5)
-  const hearty = shuffled.filter((r) => !SWEET.has(r.category) && r.category !== 'getraenk')
-  const sweet = shuffled.filter((r) => SWEET.has(r.category))
+  const hearty = shuffled.filter((r) => !isSweet(r) && r.category !== 'getraenk')
+  const sweet = shuffled.filter((r) => isSweet(r))
   const picks: Recipe[] = []
   const usedCategories = new Set<string>()
   for (const r of hearty) {
@@ -40,7 +47,8 @@ export function dailyPicks(pool: Recipe[], n = 5, date = new Date()): Recipe[] {
     if (!picks.includes(r)) picks.push(r)
   }
   if (sweet[0]) picks.push(sweet[0])
-  for (const r of shuffled) {
+  // Auffüllen nur mit Herzhaftem, damit höchstens ein süßes Rezept in der Reihe steht.
+  for (const r of hearty) {
     if (picks.length >= n) break
     if (!picks.includes(r)) picks.push(r)
   }

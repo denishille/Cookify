@@ -80,7 +80,6 @@ export function FilterGroups({ value, onChange, hasRatings, children, hideCatego
   const dietValue = [...value.diets, ...(value.topRated ? ['top'] : [])]
   return (
     <div className="cfg">
-      {children}
       <div className="cfg-field">
         <span>Ernährung</span>
         <MultiSelect label="Ernährung" options={dietOptions} value={dietValue}
@@ -108,6 +107,7 @@ export function FilterGroups({ value, onChange, hasRatings, children, hideCatego
         </label>
       )}
       {!isEmpty(value) && <button className="btn ghost cfg-reset" onClick={() => onChange(EMPTY_FILTERS)}>Zurücksetzen</button>}
+      {children}
     </div>
   )
 }

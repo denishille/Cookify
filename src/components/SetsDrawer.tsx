@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import type { Diet } from '../types'
 import type { PantrySet } from '../lib/sets'
 import { slugId } from '../lib/sets'
 import { INGREDIENT_BY_KEY } from '../data'
 import { IngredientPicker } from './IngredientPicker'
+import { useScrollLock, useSwipeRight } from '../lib/swipe'
 import { IconChevronLeft, IconLayers, IconPlus, IconX } from './Icons'
 
 interface Props {
@@ -24,54 +25,9 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
 
   const close = () => { setEditing(null); onClose() }
 
-  /** Wischen nach rechts schließt die Schublade; sie folgt dabei dem Finger. Native Listener, damit
-   *  preventDefault greift und die Seite beim seitlichen Wischen nicht mitscrollt. */
   const asideRef = useRef<HTMLElement>(null)
-  const [dragX, setDragX] = useState(0)
-  useEffect(() => {
-    const el = asideRef.current
-    if (!el || !open) return
-    let st: { x: number; y: number; t: number; horizontal: boolean | null; dx: number } | null = null
-    const onStart = (e: TouchEvent) => { const t = e.touches[0]; st = { x: t.clientX, y: t.clientY, t: Date.now(), horizontal: null, dx: 0 } }
-    const onMove = (e: TouchEvent) => {
-      if (!st) return
-      const t = e.touches[0]
-      const dx = t.clientX - st.x, dy = t.clientY - st.y
-      if (st.horizontal === null) {
-        if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return
-        st.horizontal = Math.abs(dx) > Math.abs(dy) * 1.2
-      }
-      if (!st.horizontal) return
-      e.preventDefault()
-      st.dx = Math.max(0, dx)
-      setDragX(st.dx)
-    }
-    const onEnd = () => {
-      if (!st) return
-      const { horizontal, dx, t } = st
-      st = null
-      setDragX(0)
-      if (!horizontal) return
-      if (dx > 90 || (dx > 40 && Date.now() - t < 300)) close()
-    }
-    el.addEventListener('touchstart', onStart, { passive: true })
-    el.addEventListener('touchmove', onMove, { passive: false })
-    el.addEventListener('touchend', onEnd)
-    el.addEventListener('touchcancel', onEnd)
-    return () => {
-      el.removeEventListener('touchstart', onStart); el.removeEventListener('touchmove', onMove)
-      el.removeEventListener('touchend', onEnd); el.removeEventListener('touchcancel', onEnd)
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open])
-
-  /** Solange die Schublade offen ist, scrollt die Seite dahinter nicht. */
-  useEffect(() => {
-    if (!open) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => { document.body.style.overflow = prev }
-  }, [open])
+  const dragX = useSwipeRight(asideRef, open, close)
+  useScrollLock(open)
 
   const startNew = () => setEditing({ id: '', name: '', keys: [...pantry] })
   const toggleKey = (key: string) =>

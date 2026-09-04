@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Diet } from '../types'
 import type { ShoppingItem } from '../lib/shopping'
 import { IngredientPicker } from './IngredientPicker'
 import { IconCheck, IconX } from './Icons'
+import { useScrollLock, useSwipeRight } from '../lib/swipe'
 
 interface Props {
   open: boolean
@@ -29,11 +30,14 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
     if (!open) return
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
     document.addEventListener('keydown', onKey)
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = prev }
+    return () => document.removeEventListener('keydown', onKey)
   }, [open, onClose])
 
+  const asideRef = useRef<HTMLElement>(null)
+  const dragX = useSwipeRight(asideRef, open, onClose)
+  useScrollLock(open)
+
+  const recipes = [...new Set(items.filter((x) => !x.done && x.from).map((x) => x.from as string))]
   const openItems = items.filter((x) => !x.done)
   const doneItems = items.filter((x) => x.done)
   const selectedKeys = new Set(openItems.map((x) => x.key))
@@ -52,7 +56,8 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
   return (
     <>
       {open && <div className="drawer-backdrop" onClick={onClose} />}
-      <aside className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Einkaufsliste">
+      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Einkaufsliste"
+        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}>
         <div className="drawer-head">
           <h2>Einkaufsliste{openItems.length > 0 && <span className="count-pill">{openItems.length}</span>}</h2>
           <button className="btn icon sm" onClick={onClose} aria-label="Schließen"><IconX width={18} height={18} /></button>
@@ -67,7 +72,9 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
                 <button className="btn sm" onClick={() => setAdding(false)}>Fertig</button>
               </>
             )}
-          <p className="hint">Ganze Rezepte kommen über „Auf die Einkaufsliste“ auf der Rezeptseite dazu, einzelne Zutaten dort über das Korb-Symbol.</p>
+          {recipes.length > 0
+            ? <p className="hint">Hier findest du die Zutaten für: <b>{recipes.join(', ')}</b></p>
+            : <p className="hint">Ganze Rezepte kommen über „Auf die Einkaufsliste“ auf der Rezeptseite dazu, einzelne Zutaten dort über das Korb-Symbol.</p>}
         </div>
 
         {items.length === 0 ? (

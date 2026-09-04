@@ -1,11 +1,4 @@
 {
-  "i-bami-goreng": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/bami-goreng-16425.html",
-    "title": "Bami Goreng Rezept",
-    "rating": 3.7,
-    "ratingCount": 3
-  },
   "i-bayerische-creme": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/bayerische-creme-13388.html",
@@ -31,7 +24,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/dampfnudeln-51066",
     "title": "Dampfnudeln mit Krusterl",
-    "rating": 0.8,
+    "rating": 4,
     "ratingCount": 303
   },
   "i-erdbeer-tiramisu": {
@@ -162,22 +155,15 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/buffalo-chicken-wings-45400",
     "title": "Buffalo Chicken Wings",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 25
   },
   "i-croque-monsieur": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/croque-monsieur-2413",
     "title": "Croque Monsieur mit Gruyère",
-    "rating": 0.8,
+    "rating": 4,
     "ratingCount": 5
-  },
-  "i-eggs-benedict": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/55962-rzpt-eggs-benedict",
-    "title": "Eggs Benedict Rezept",
-    "rating": 3.8,
-    "ratingCount": 40
   },
   "i-gegrillter-lachs-mit-ofentomaten": {
     "site": "essen-und-trinken.de",
@@ -211,7 +197,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/hack-nudelauflauf-54",
     "title": "Hack-Nudelauflauf",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 28
   },
   "i-haehnchen-korma": {
@@ -274,7 +260,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/kartoffelauflauf-mit-hackfleisch-und-brokkoli-15955",
     "title": "Kartoffelauflauf mit Hackfleisch und Brokkoli",
-    "rating": 0.8,
+    "rating": 4,
     "ratingCount": 73
   },
   "i-kartoffelsalat-mit-mayonnaise": {
@@ -290,13 +276,6 @@
     "title": "Kisir (Türkischer Bulgursalat) Rezept",
     "rating": 4,
     "ratingCount": 19
-  },
-  "i-club-sandwich": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/44936-rzpt-klassisches-club-sandwich",
-    "title": "Klassisches Club-Sandwich Rezept",
-    "rating": 3.8,
-    "ratingCount": 9
   },
   "i-lachsburger-mit-schnittlauchcreme": {
     "site": "malteskitchen.de",
@@ -365,7 +344,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/salade-nicoise-au-thon-nizza-salat-mit-thunfisch-80184",
     "title": "Salade niçoise au thon - Nizza-Salat mit Thunfisch",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 15
   },
   "i-champignoncremesuppe": {
@@ -419,7 +398,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/waermender-apfel-zimt-porridge-68000",
     "title": "Wärmender Apfel-Zimt-Porridge",
-    "rating": 0.9,
+    "rating": 4.5,
     "ratingCount": 33
   },
   "i-zucchinipuffer": {
@@ -428,13 +407,6 @@
     "title": "Zucchinipuffer, einfach und schnell",
     "rating": 5,
     "ratingCount": 508
-  },
-  "i-zuercher-geschnetzeltes": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/87999-rzpt-zuercher-geschnetzeltes",
-    "title": "Zürcher Geschnetzeltes Rezept",
-    "rating": 3.7,
-    "ratingCount": 26
   },
   "i-zwiebel-sahne-haehnchen-aus-dem-ofen": {
     "site": "emmikochteinfach.de",
@@ -449,13 +421,6 @@
     "title": "Bienenstich - das klassische Rezept Rezept",
     "rating": 4.2,
     "ratingCount": 41
-  },
-  "i-blumenkohlsteaks-mit-suesskartoffeln": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/blumenkohlsteaks-mit-suesskartoffeln-aus-dem-ofen-82609.html",
-    "title": "Blumenkohlsteaks mit Süßkartoffeln aus dem Ofen Rezept",
-    "rating": 3.7,
-    "ratingCount": 24
   },
   "i-broetchen-wie-vom-baecker": {
     "site": "gaumenfreundin.de",
@@ -482,15 +447,8 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/gelbes-kokos-linsen-curry-95473",
     "title": "Gelbes Kokos-Linsen-Curry",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 1
-  },
-  "i-gemuesepizza-vom-blech": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/gemuesepizza-vom-blech-22343.html",
-    "title": "Gemüsepizza vom Blech Rezept",
-    "rating": 3.2,
-    "ratingCount": 9
   },
   "i-parmigiana-di-melanzane": {
     "site": "essen-und-trinken.de",
@@ -539,13 +497,6 @@
     "rating": 5,
     "ratingCount": 30
   },
-  "i-cacio-e-pepe": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/pastaliebling-cacio-e-pepe-rezept-12081096.html",
-    "title": "Pastaliebling Cacio e pepe Rezept",
-    "rating": 3.2,
-    "ratingCount": 32
-  },
   "i-pfannkuchen-mit-pilzfuellung": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/pfannkuchen-mit-pilzfuellung-10345.html",
@@ -564,13 +515,6 @@
     "title": "Rote-Bete-Risotto Rezept",
     "rating": 4,
     "ratingCount": 81
-  },
-  "i-russischer-zupfkuchen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/russischer-zupfkuchen-72740.html",
-    "title": "Russischer Zupfkuchen - das beste Rezept Rezept",
-    "rating": 3.7,
-    "ratingCount": 176
   },
   "i-sellerieschnitzel": {
     "site": "eatsmarter.de",
@@ -618,7 +562,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/suedtiroler-spinatknoedel-2955",
     "title": "Südtiroler Spinatknödel",
-    "rating": 0.9,
+    "rating": 4.5,
     "ratingCount": 477
   },
   "i-tomatenrisotto-mit-honigtomaten": {
@@ -660,15 +604,8 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/vegane-quinoa-bowl-mit-kuerbis-und-tofu-tahin-dressing-95936",
     "title": "Vegane Quinoa-Bowl mit Kürbis und Tofu-Tahin-Dressing",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 1
-  },
-  "i-vegetarisches-kartoffelgulasch": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/51652-rzpt-vegetarisches-kartoffelgulasch",
-    "title": "Vegetarisches Kartoffelgulasch Rezept",
-    "rating": 4.1,
-    "ratingCount": 12
   },
   "i-hefezopf": {
     "site": "emmikochteinfach.de",
@@ -740,13 +677,6 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-boeuf-stroganoff": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/boeuf-stroganoff-61367.html",
-    "title": "Boeuf Stroganoff Rezept",
-    "rating": 3.9,
-    "ratingCount": 28
-  },
   "i-breakfast-burrito": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/breakfast-burrito-128922.html",
@@ -803,13 +733,6 @@
     "site": "lecker.de",
     "url": "https://www.lecker.de/fruehlingsrollen-selber-machen-so-gehts-77012.html",
     "title": "Frühlingsrollen selber machen Rezept"
-  },
-  "i-garnelen-kokos-curry": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/garnelen-kokos-curry-62220.html",
-    "title": "Garnelen-Kokos-Curry Rezept",
-    "rating": 3,
-    "ratingCount": 5
   },
   "i-scholle-finkenwerder-art": {
     "site": "lecker.de",
@@ -916,20 +839,6 @@
     "rating": 4.8,
     "ratingCount": 13
   },
-  "i-backfisch-mit-remoulade": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/knuspriger-backfisch-mit-remoulade-16688.html",
-    "title": "Knuspriger Backfisch mit Remoulade Rezept",
-    "rating": 3.3,
-    "ratingCount": 18
-  },
-  "i-knuspriges-brathaehnchen-mit-ofengemuese": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/knuspriges-brathaehnchen-19453.html",
-    "title": "Knuspriges Brathähnchen Rezept",
-    "rating": 3.9,
-    "ratingCount": 7
-  },
   "i-koettbullar-in-rahmsosse": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/koettbullar-rezept/",
@@ -937,18 +846,11 @@
     "rating": 5,
     "ratingCount": 31
   },
-  "i-selbstgemachter-leberkaese": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/leberkaese-selber-machen-12162",
-    "title": "Leberkäse selber machen",
-    "rating": 0.6,
-    "ratingCount": 11
-  },
   "i-omas-rotkohlsalat": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/omas-rotkohlsalat-86157",
     "title": "Omas Rotkohlsalat",
-    "rating": 0.8,
+    "rating": 4,
     "ratingCount": 42
   },
   "i-orangen-fenchel-salat-mit-walnuessen": {
@@ -957,13 +859,6 @@
     "title": "Orangen-Fenchel-Salat mit Walnüssen Rezept",
     "rating": 4,
     "ratingCount": 16
-  },
-  "i-paella-mit-haehnchen-und-garnelen": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/paella-mit-haehnchen-und-garnelen",
-    "title": "Paella mit Hähnchen und Garnelen",
-    "rating": 3.8,
-    "ratingCount": 4
   },
   "i-paprikaschnitzel": {
     "site": "lecker.de",
@@ -1007,13 +902,6 @@
     "rating": 4.8,
     "ratingCount": 20
   },
-  "i-rosmarin-lammkeule-mit-knoblauch": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/rosmarin-lammkeule-mit-knoblauch-73025",
-    "title": "Rosmarin-Lammkeule mit Knoblauch",
-    "rating": 0.5,
-    "ratingCount": 2
-  },
   "i-schweinefilet-im-speckmantel": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/schweinefilet-im-speckmantel/",
@@ -1034,20 +922,6 @@
     "title": "Serbische Bohnensuppe Rezept",
     "rating": 4,
     "ratingCount": 17
-  },
-  "i-spaghetti-mit-thunfisch-tomaten-sosse": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/spaghetti-mit-thunfisch-tomaten-sosse-44763.html",
-    "title": "Spaghetti mit Thunfisch-Tomaten-Soße Rezept",
-    "rating": 3.4,
-    "ratingCount": 31
-  },
-  "i-spinatsalat-mit-erdbeeren": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/49270-rzpt-spinatsalat-mit-erdbeeren",
-    "title": "Spinatsalat mit Erdbeeren Rezept",
-    "rating": 1.6,
-    "ratingCount": 5
   },
   "i-tacos-mit-hackfleisch": {
     "site": "gaumenfreundin.de",
@@ -1090,13 +964,6 @@
     "title": "Arancini – einfach & knusprig",
     "rating": 5,
     "ratingCount": 12
-  },
-  "i-auberginen-curry-mit-hackbaellchen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/auberginen-curry-zum-wegtraeumen-78626.html",
-    "title": "Auberginen-Curry zum Wegträumen Rezept",
-    "rating": 3.9,
-    "ratingCount": 27
   },
   "i-baguette": {
     "site": "gaumenfreundin.de",
@@ -1159,13 +1026,6 @@
     "rating": 5,
     "ratingCount": 39
   },
-  "i-knusprige-roesti": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/extra-knusprige-roesti-80984.html",
-    "title": "Extra knusprige Rösti Rezept",
-    "rating": 3.5,
-    "ratingCount": 12
-  },
   "i-falafel": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/falafel-selber-machen-das-beste-rezept-77411.html",
@@ -1215,18 +1075,11 @@
     "rating": 4.4,
     "ratingCount": 8638
   },
-  "i-herrencreme": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/38297-rzpt-herrencreme",
-    "title": "Herrencreme mit Rum & Schokoraspeln",
-    "rating": 3.7,
-    "ratingCount": 3
-  },
   "i-gado-gado": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/gado-gado-95931",
     "title": "Indonesisches Gado Gado",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 1
   },
   "i-joghurt-beeren-eis-am-stiel": {
@@ -1353,7 +1206,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/tarte-tatin-franzoesische-apfeltarte-4191",
     "title": "Tarte tatin (französische Apfeltarte)",
-    "rating": 0.9,
+    "rating": 4.5,
     "ratingCount": 141
   },
   "i-ueberbackene-nachos-mit-salsa-und-kaese": {
@@ -1367,7 +1220,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/vegane-linsen-pilz-burger-94847",
     "title": "Vegane Linsen-Pilz-Burger",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 1
   },
   "i-vegane-portobello-burger": {
@@ -1379,7 +1232,7 @@
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/vegane-super-bean-burritos-mit-extra-viel-gemuese-86646",
     "title": "Vegane Super-Bean-Burritos mit extra viel Gemüse",
-    "rating": 1,
+    "rating": 5,
     "ratingCount": 1
   },
   "i-wok-nudeln-mit-gemuese": {

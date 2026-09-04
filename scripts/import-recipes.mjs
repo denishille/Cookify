@@ -70,7 +70,11 @@ export function parseRecipe(html, url) {
     }
     collect(r.recipeInstructions)
     const ar = r.aggregateRating ?? {}
-    const rating = Number(ar.ratingValue), count = Number(ar.ratingCount ?? ar.reviewCount)
+    const best = Number(ar.bestRating)
+    // Manche Seiten liefern 0–1 statt 0–5 (kuechengoetter). Auf die 5er-Skala normalisieren.
+    const value = Number(ar.ratingValue)
+    const scale = Number.isFinite(best) && best > 0 ? 5 / best : value > 0 && value <= 1 ? 5 : 1
+    const rating = value * scale, count = Number(ar.ratingCount ?? ar.reviewCount)
     const img = [].concat(r.image ?? [])[0]
     const image = typeof img === 'string' ? img : img?.url ?? img?.contentUrl ?? undefined
     const yieldText = text(Array.isArray(r.recipeYield) ? r.recipeYield[0] : r.recipeYield)

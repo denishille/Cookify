@@ -58,14 +58,16 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, 
         <p className="card-sub">{recipe.description}</p>
         <div className="meta">
           <IconClock /> {recipe.timeMinutes} Min
-          <span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}
+          <span className="card-diff"><span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}</span>
           <span className="dot" /> {recipe.nutrition.kcal} kcal
         </div>
-        {recipe.source?.rating !== undefined && (
+        {recipe.source && (
           <div className="rating">
-            <IconStar width={14} height={14} />
-            <b>{formatRating(recipe.source.rating)}</b>
-            {recipe.source.ratingCount !== undefined && <span>({formatCount(recipe.source.ratingCount)})</span>}
+            {recipe.source.rating !== undefined && <>
+              <IconStar width={14} height={14} />
+              <b>{formatRating(recipe.source.rating)}</b>
+              {recipe.source.ratingCount !== undefined && <span>({formatCount(recipe.source.ratingCount)})</span>}
+            </>}
             <span className="site">{recipe.source.site}</span>
           </div>
         )}

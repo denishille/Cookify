@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties } from 'react'
+import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import type { Diet, Ingredient, Recipe } from '../types'
 import { CATEGORY_LABELS, CUISINE_LABELS, DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { STAPLE_KEYS } from '../data'
@@ -9,6 +9,7 @@ import { RecipeCard } from './RecipeCard'
 import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { adaptRecipe } from '../lib/adapt'
+import { useSwipeRight } from '../lib/swipe'
 
 interface Props {
   recipe: Recipe
@@ -70,11 +71,15 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
     }
   }
 
+  /** Nach rechts wischen geht zurück, wie in den Schubladen. */
+  const rootRef = useRef<HTMLDivElement>(null)
+  const dragX = useSwipeRight(rootRef, true, back)
+
   const toggleStep = (i: number) =>
     setDone((prev) => { const n = new Set(prev); if (n.has(i)) n.delete(i); else n.add(i); return n })
 
   return (
-    <div className="detail">
+    <div className="detail" ref={rootRef} style={dragX ? { transform: `translateX(${dragX}px)`, opacity: Math.max(0.5, 1 - dragX / 400) } : undefined}>
       <button className="backlink" onClick={back}><IconChevronLeft /> Zurück</button>
 
       <div className={`tile lg ${img ? 'photo' : ''}`} style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
