@@ -37,7 +37,7 @@ export function PantryPicker({ pantry, onToggle, onClear }: Props) {
           <IconSearch />
           <input
             ref={inputRef}
-            placeholder="Zutat tippen, Enter fügt hinzu …"
+            placeholder="z. B. Hähnchen, Reis, Feta …"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
@@ -53,9 +53,9 @@ export function PantryPicker({ pantry, onToggle, onClear }: Props) {
         {query && (
           <div className="chips" style={{ marginTop: 10 }}>
             {results.length === 0 && <span className="hint">Nichts gefunden.</span>}
-            {results.map((i, idx) => (
+            {results.map((i) => (
               <button key={i.key} className={`chip sm soft ${pantry.has(i.key) ? 'on' : ''}`} onMouseDown={(e) => e.preventDefault()} onClick={() => add(i.key)}>
-                {i.name}{idx === 0 && !pantry.has(i.key) && <span className="kbd">↵</span>}
+                {i.name}
               </button>
             ))}
           </div>
