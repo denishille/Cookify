@@ -1,0 +1,36 @@
+{
+  "title": "Hähnchen-Bowl mit Reis – fertig in 30 Minuten",
+  "description": "Meine Hähnchen-Bowl mit Reis ist fertig in 30 Minuten – mit Pesto-Hähnchen, Kirschtomaten und grünen Bohnen. Ideal fürs Meal Prep.",
+  "ingredients": [
+    "125 g Naturreis",
+    "400 g Hähnchenbrustfilet",
+    "250 g Kirschtomaten",
+    "2 EL Olivenöl",
+    "1/2 TL Oregano",
+    "Salz und Pfeffer",
+    "200 g grüne Bohnen",
+    "3 EL grünes Pesto ((und evtl. mehr zum Servieren))"
+  ],
+  "steps": [
+    "Backofen auf 180 Grad Ober- und Unterhitze vorheizen.",
+    "Reis nach Packungsangabe zubereiten. Hähnchen in mundgerechte Stücke schneiden.",
+    "Tomaten auf ein mit Backpapier belegtes Blech geben und mit 1 EL Olivenöl, Oregano, Salz und Pfeffer mischen. 15 Minuten backen.",
+    "Grüne Bohnen putzen und die Enden abschneiden. Bohnen für 10 Minuten in kochendes, leicht gesalzenem Wasser kochen.",
+    "1 EL Olivenöl in einer Pfanne erhitzen und das Hähnchen anbraten. Dabei mit Salz und Pfeffer würzen. Dann das Hähnchen mit dem Pesto mischen.",
+    "Pesto-Hähnchen mit Reis, Bohnen und Tomaten servieren."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "keywords": "Einfach, Gesund, Hähnchen",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2020/02/Haehnchen-Bowl-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/haehnchen-bowl/",
+    "title": "Hähnchen-Bowl mit Reis – fertig in 30 Minuten",
+    "rating": 5,
+    "ratingCount": 12
+  },
+  "importedAt": "2026-09-04"
+}

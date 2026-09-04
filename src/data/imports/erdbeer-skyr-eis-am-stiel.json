@@ -1,0 +1,32 @@
+{
+  "title": "Erdbeer-Skyr-Eis am Stiel",
+  "description": "Endlich wieder Erdbeersaison! Bereiten Sie doch mal das Erdbeer-Skyr-Eis am Stiel von EAT SMARTER zu.",
+  "ingredients": [
+    "250 g Erdbeeren",
+    "4 EL Zitronensaft",
+    "3 EL Agavendicksaft",
+    "0.5 Vanilleschote",
+    "200 g Skyr",
+    "200 g griechischer Joghurt",
+    "100 g Schlagsahne",
+    "2 EL Mandelblättchen"
+  ],
+  "steps": [
+    "Erdbeeren putzen, waschen und klein schneiden. Mit 2 EL Zitronensaft und 1 EL Agavendicksaft pürieren. Vanilleschote längs halbieren und das Mark mit einem Messer herauskratzen.",
+    "Skyr mit Joghurt, restlichem Zitronensaft, Vanillemark und restlichem Agavendicksaft cremig rühren. Sahne steif schlagen und unterheben. Die Hälfte der Creme abnehmen und 2⁄3 vom Erdbeerpüree unterrühren.",
+    "Beide Eismassen abwechselnd in Eisförmchen mit Stielen füllen und mindestens 4 Stunden vollständig durchfrieren lassen. Zum Servieren aus den Förmchen lösen. Mit Mandelblättchen bestreuen und mit restlicher Erdbeersauce beträufeln."
+  ],
+  "timeMinutes": 265,
+  "servings": 8,
+  "category": "Dessert",
+  "cuisine": "Deutsche",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/erdbeer-skyr-eis-am-stiel-662159.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/erdbeer-skyr-eis-am-stiel",
+    "title": "Erdbeer-Skyr-Eis am Stiel",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "importedAt": "2026-09-04"
+}

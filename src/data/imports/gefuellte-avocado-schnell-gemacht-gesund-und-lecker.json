@@ -1,0 +1,32 @@
+{
+  "title": "Gefüllte Avocado: Schnell gemacht, gesund und lecker",
+  "description": "Meine gefüllte Avocado mit Tomaten ist perfekt für warme Sommertage – Leicht, gesund und im Handumdrehen zubereitet.",
+  "ingredients": [
+    "1 Avocado",
+    "100 g Tomaten",
+    "1 kleine rote Zwiebel",
+    "2 EL Olivenöl",
+    "1 EL Aceto Balsamico",
+    "Salz und Pfeffer",
+    "1 EL gehacktes Basilikum"
+  ],
+  "steps": [
+    "Die Avocado längst halbieren, den Kern entfernen und die Frucht salzen.",
+    "Tomaten und die Zwiebel würfeln und mit Öl, Balsamico, Salz, Pfeffer und Basilikum in einer Schüssel vermengen.",
+    "Die Tomaten-Zwiebel-Mischung in die Avocado-Hälften geben."
+  ],
+  "timeMinutes": 15,
+  "servings": 2,
+  "category": "Beilage Kleinigkeit",
+  "cuisine": "Mediterran",
+  "keywords": "Avocado, Einfach, Schnell, Snack, vegetarisch",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/04/Gefuellte-Avocado-schnell.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/gefuellte-avocado-mit-himbeeren-pistazien-und-arla-skyr/",
+    "title": "Gefüllte Avocado: Schnell gemacht, gesund und lecker",
+    "rating": 4.9,
+    "ratingCount": 18
+  },
+  "importedAt": "2026-09-04"
+}

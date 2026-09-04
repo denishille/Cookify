@@ -1,0 +1,37 @@
+{
+  "title": "Protein-Pancakes mit Magerquark",
+  "description": "Perfektes Frühstück: Diese Protein-Pancakes mit Magerquark von EAT SMARTER machen lange satt!",
+  "ingredients": [
+    "3 Eier (Größe M)",
+    "30 g Mandelmehl (teilentölt)",
+    "30 g Dinkelmehl Type 1050 (2 EL)",
+    "2 EL Quark (20 % Fett)",
+    "1 TL Weinstein-Backpulver",
+    "1 Prise Zimt",
+    "1 Prise Vanillepulver",
+    "50 ml Milch",
+    "4 TL Rapsöl",
+    "1 EL Mandelstifte (mit Schale; geröstet)",
+    "60 g Heidelbeeren",
+    "2 EL Ahornsirup",
+    "5 g Mandelmus (1 TL)"
+  ],
+  "steps": [
+    "Eier, Mandelmehl, Dinkelmehl, Quark, Backpulver, Zimt, Vanillepulver und Milch in eine große Schüssel geben und zu einem homogenen Teig verrühren. Falls der Teig zu fest ist, einen Schuss Milch hinzugeben.",
+    "2 TL Öl in einer beschichteten Pfanne erhitzen, je 1 EL Teig in die Pfanne geben und 4 bis 6 Pancakes in etwa 3–4 Minuten bei mittlerer Hitze von beiden Seiten goldbraun backen.",
+    "Mandelsplitter in einer heißen Pfanne ohne Fett bei mittlerer Hitze 2–3 Minuten anrösten. Heidelbeeren waschen und trocken tupfen. Pancakes mit den Beeren, Mandelmus, Ahornsirup und Mandelsplittern servieren."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "category": "Frühstück",
+  "cuisine": "Amerikanische",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/protein-pancakes-mit-magerquark-656348-1.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/protein-pancakes-mit-magerquark",
+    "title": "Protein-Pancakes mit Magerquark",
+    "rating": 4,
+    "ratingCount": 18
+  },
+  "importedAt": "2026-09-04"
+}

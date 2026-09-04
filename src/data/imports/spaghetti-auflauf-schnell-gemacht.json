@@ -1,0 +1,36 @@
+{
+  "title": "Spaghetti-Auflauf – schnell gemacht",
+  "description": "Mein einfacher Spaghetti-Auflauf ist ganz schnell gemacht und steht schon in 15 Minuten im Ofen. Die Kombination aus Nudeln, Gemüse und Parmesansoße begeistert die ganze Familie!",
+  "ingredients": [
+    "300 g Spaghetti",
+    "300 g Gemüsemischung Erbsen und Möhren (TK)",
+    "200 g Sahne",
+    "100 ml Milch",
+    "30 g geriebener Parmesan",
+    "1 TL Gemüsebrühpulver",
+    "2 Eigelb",
+    "100 g geriebener Käse",
+    "Salz und Pfeffer",
+    "Muskat"
+  ],
+  "steps": [
+    "Spaghetti nach Packungsangabe al dente kochen. Gemüsemischung auftauen lassen.",
+    "Backofen auf 200 Grad Ober- und Unterhitze vorheizen.",
+    "Sahne, Milch, Parmesan, Gemüsebrühpulver, Eigelbe, Salz, Pfeffer und Muskat verquirlen.",
+    "Spaghetti, Gemüse und die Eier-Sahne-Soße in eine Auflaufform geben und mischen. Alles mit Käse bestreuen und 30 Minuten backen."
+  ],
+  "timeMinutes": 45,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Auflauf, Nudeln",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/01/Spaghetti-Auflauf-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/spaghetti-auflauf/",
+    "title": "Spaghetti-Auflauf – schnell gemacht",
+    "rating": 5,
+    "ratingCount": 8
+  },
+  "importedAt": "2026-09-04"
+}

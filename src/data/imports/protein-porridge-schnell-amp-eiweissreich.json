@@ -1,0 +1,32 @@
+{
+  "title": "Protein-Porridge – schnell &amp; eiweißreich",
+  "description": "Rühr dein Protein-Porridge in ein paar Minuten aus wenigen Basic-Zutaten selbst zusammen – günstiger, cremiger und ohne Zusatzstoffe!",
+  "ingredients": [
+    "300 ml Milch",
+    "100 ml Wasser",
+    "80 g Haferflocken",
+    "25 g Proteinpulver Vanille",
+    "1 TL Zimt",
+    "150 g Skyr (oder Joghurt)",
+    "50 g Himbeeren",
+    "20 g gehackte Mandeln"
+  ],
+  "steps": [
+    "Milch, Wasser, Haferflocken, Eiweißpulver und Zimt in einen Topf geben und aufkochen. Alles bei niedriger Hitze etwa 3 Minuten quellen lassen, bis das Porridge cremig ist.",
+    "Porridge auf 2 Schüsseln verteilen und mit Skyr, Himbeeren und gehackten Mandeln toppen."
+  ],
+  "timeMinutes": 10,
+  "servings": 2,
+  "category": "Frühstück",
+  "cuisine": "Amerikanisch",
+  "keywords": "Frühstück, Porridge",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2026/02/Protein-Porridge-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/protein-porridge/",
+    "title": "Protein-Porridge – schnell &amp; eiweißreich",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "importedAt": "2026-09-04"
+}

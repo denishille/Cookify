@@ -1,0 +1,39 @@
+{
+  "title": "Low Carb Gyros-Rolle, das beste Rezepte",
+  "description": "Die Gyros-Rolle ist ein schnelles und einfaches Low Carb Rezept mit Hähnchen, Tzatziki und Krautsalat.",
+  "ingredients": [
+    "250 g Skyr (oder Magerquark)",
+    "100 g geriebener Käse",
+    "3 Eier",
+    "1 TL Gyros-Gewürz",
+    "2 TL Olivenöl",
+    "400 g Hähnchen-Geschnetzeltes",
+    "1 EL Gyros-Gewürz",
+    "30 g Blattsalat",
+    "50 g Cocktailtomaten",
+    "1/4 Salatgurke",
+    "150 g Tzatziki",
+    "50 g Krautsalat",
+    "Salz und Pfeffer"
+  ],
+  "steps": [
+    "Skyr, Käse, Eier und Gewürze in eine Schüssel geben und verrühren. Auf ein mit Backpapier belegtes Blech geben und bei 180 Grad Ober- und Unterhitze für 20 Minuten backen.",
+    "Salat waschen und in Streifen schneiden. Tomaten und Gurke in Scheiben schneiden.",
+    "Öl in einer Pfanne erhitzen und das Hähnchen anbraten. Daher mit Gyros-Gewürz, Salz und Pfeffer würzen.",
+    "Den fertigen Teig mit Tzatziki bestreichen und mit Salat, Hähnchen, Krautsalat, Tomaten und Gurken belegen. Aufrollen und in dickere Scheiben schneiden."
+  ],
+  "timeMinutes": 40,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Griechisch",
+  "keywords": "Abnehmen, Backofen, Einfach, Hähnchen",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/05/Gyrosrolle-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/low-carb-gyros-rolle-doener-rolle/",
+    "title": "Low Carb Gyros-Rolle, das beste Rezepte",
+    "rating": 5,
+    "ratingCount": 146
+  },
+  "importedAt": "2026-09-04"
+}

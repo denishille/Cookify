@@ -1,0 +1,37 @@
+{
+  "title": "Pasta mit Kokos-Garnelen-Soße",
+  "description": "Pasta mit Kokos-Garnelen-Soße ist ein Rezept mit frischen Zutaten aus der Kategorie Garnelen. Probieren Sie dieses und weitere Rezepte von EAT SMARTER!",
+  "ingredients": [
+    "400 g Spaghetti",
+    "1 Stange Lauch",
+    "12 Garnelen (entdarmt und bis auf Schwanzsegment geschält)",
+    "1 TL Ingwer (frisch gerieben)",
+    "2 Knoblauchzehen (fein gehackt)",
+    "4 EL Öl",
+    "1 Prise Currypulver",
+    "200 g Ananasfruchtfleisch (klein gewürfelt)",
+    "100 ml Gemüsebrühe",
+    "100 ml Kokosmilch",
+    "Zitronensaft",
+    "Meersalz",
+    "Basilikum (geschnitten, zum Garnieren)"
+  ],
+  "steps": [
+    "Spaghetti in Salzwasser bissfest kochen.",
+    "Lauch waschen, putzen und in dünne Streifen schneiden.",
+    "Garnelen waschen und trocken tupfen.",
+    "Ingwer mit Knoblauch und Lauch in 2 EL heißem Öl anschwitzen. Currypulver und Ananas untermengen und mit Brühe sowie Kokosmilch ablöschen. 1-2 Min. köcheln lassen.",
+    "Währenddessen die Garnelen in restlichem heißen Öl 1-2 Min. braten.",
+    "Abgetropfte Spaghetti unter die Sauce schwenken, mit Zitronensaft und Salz abschmecken und auf Schüsseln verteilen. Garnelen darauf legen und mit Basilikum bestreut servieren."
+  ],
+  "timeMinutes": 35,
+  "servings": 4,
+  "cuisine": "Italienische",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/pasta-mit-kokos-garnelen-sosse-112537.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pasta-mit-kokos-garnelen-sosse",
+    "title": "Pasta mit Kokos-Garnelen-Soße"
+  },
+  "importedAt": "2026-09-04"
+}

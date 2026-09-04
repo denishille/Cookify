@@ -1,0 +1,37 @@
+{
+  "title": "Mediterrane Garnelenpfanne",
+  "description": "Mediterrane Garnelenpfanne mit Peperoni, Tomaten, Kapern & Rucola: Chili liefert den sekundären Pflanzenstoff Capsaicin, der die Durchblutung fördert.",
+  "ingredients": [
+    "320 g Garnelen (tiefgekühlt; ohne Kopf und Schale)",
+    "2 rote Peperoni",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "4 mittelgroße Tomaten",
+    "0.5 Zitrone",
+    "150 ml Wasser",
+    "1 EL Olivenöl",
+    "Salz",
+    "Pfeffer",
+    "50 g Rucola",
+    "1 EL Kapern"
+  ],
+  "steps": [
+    "Garnelen antauen lassen, abspülen und trocken tupfen. Peperoni längs halbieren, entkernen und waschen. Zwiebel und Knoblauch schälen und hacken. Tomaten waschen, vierteln, entkernen und fein würfeln.",
+    "Saft der halben Zitrone auspressen. Zitronensaft mit Wasser mischen. Öl in einer Pfanne erhitzen. Garnelen leicht salzen und mit Peperoni im heißen Öl bei starker Hitze rundum 1 Minute anbraten.",
+    "Garnelen aus der Pfanne nehmen. Zwiebel, Knoblauch und Tomaten in das Bratfett geben und 2 Minuten braten. Mit Zitronenwasser ablöschen und ca. 2 Minuten einkochen lassen.",
+    "Garnelen wieder in die Pfanne geben. Kurz erhitzen, salzen und pfeffern. Rucola waschen und trocken schleudern. Kapern abtropfen lassen. Beides unter die Garnelenpfanne mischen und servieren."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "category": "Mittagessen, Abendessen, Hauptspeise",
+  "cuisine": "Italienische, Mediterran",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/mediterrane-garnelenpfanne-4921-1.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/mediterrane-garnelenpfanne",
+    "title": "Mediterrane Garnelenpfanne",
+    "rating": 4.8,
+    "ratingCount": 45
+  },
+  "importedAt": "2026-09-04"
+}

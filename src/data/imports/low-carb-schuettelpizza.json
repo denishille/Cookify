@@ -1,0 +1,32 @@
+{
+  "title": "Low Carb Schüttelpizza",
+  "description": "Meine Schüttelpizza ist ein einfaches Low Carb Blitzrezept, das du mit beliebigem Gemüse kombinieren kannst.",
+  "ingredients": [
+    "250 g gewürfeltes Gemüse (z.B. Paprika, Zucchini, rote Zwiebel)",
+    "300 g Skyr (Alternativ Magerquark oder körnigen Frischkäse)",
+    "3 Eier",
+    "150 g geriebener Käse",
+    "Salz und Pfeffer",
+    "2 TL Pizzagewürz (Alternativ Oregano)"
+  ],
+  "steps": [
+    "Backofen auf 200 Grad Ober- und Unterhitze vorheizen und ein Blech mit Backpapier auslegen. (Alternativ 2 kleiner Backformen verwenden.)",
+    "Das Gemüse klein schneiden.",
+    "Dann alle Zutaten in eine Schüssel geben und mischen.",
+    "Den Teig auf das Backblech streichen und ca. 30 - 35 Minuten backen, bis die Ränder leicht gebräunt sind."
+  ],
+  "timeMinutes": 40,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Backen, Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/10/Schuettelpizza-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schuettelpizza/",
+    "title": "Low Carb Schüttelpizza",
+    "rating": 5,
+    "ratingCount": 339
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Linsennudel-Bowl mit Skyr-Leinöl-Dip",
+  "description": "Die Linsennudel-Bowl mit Skyr-Leinöl-Dip von EAT SMARTER ist das perfekte Sattmacher-Gericht für alle Abnehmwilligen.",
+  "ingredients": [
+    "150 g Linsennudeln",
+    "Salz",
+    "1 Bund Rucola (80 g)",
+    "1 Bund Radieschen",
+    "250 g Kirschtomaten",
+    "150 g Skyr",
+    "2 EL Leinöl",
+    "Pfeffer",
+    "100 g Himbeeren",
+    "8 Artischockenherzen (150 g; Glas, in Öl eingelegt)"
+  ],
+  "steps": [
+    "Nudeln in kochendem Salzwasser nach Packungsanleitung bissfest kochen. Anschließend abgießen und abtropfen lassen.",
+    "Nebenher Rucola waschen, trocken schütteln. Radieschen putzen, waschen, halbieren und in Scheiben schneiden. Tomaten waschen und halbieren.",
+    "Skyr mit 2–3 EL Wasser und Leinöl glatt zu einem Dip rühren, mit Salz und Pfeffer würzen.",
+    "Himbeeren waschen und trocken tupfen. Artischocken abtropfen lassen und vierteln. Nudeln, Rucola, Radieschen und Tomaten in Schalen anrichten, mit Beeren bestreuen und dem Dip servieren."
+  ],
+  "timeMinutes": 20,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Sommer",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/linsennudel-bowl-mit-skyr-leinoel-dip-670153.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/linsennudel-bowl-mit-skyr-leinoel-dip",
+    "title": "Linsennudel-Bowl mit Skyr-Leinöl-Dip",
+    "rating": 4.9,
+    "ratingCount": 17
+  },
+  "importedAt": "2026-09-04"
+}

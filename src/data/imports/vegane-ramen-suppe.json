@@ -1,0 +1,42 @@
+{
+  "title": "Vegane Ramen-Suppe",
+  "description": "Hier wird gezeigt, wie man ein leckeres Ramen Rezept vegan zubereiten kann: Die vegane Ramen-Suppe von EAT SMARTER.",
+  "ingredients": [
+    "150 g Frühlingszwiebeln (1 Bund)",
+    "20 g Ingwer",
+    "4 Knoblauchzehen",
+    "150 g Shiitakepilze",
+    "2 EL Sesamöl",
+    "1 TL rote Currypaste",
+    "1.5 l Gemüsebrühe",
+    "400 g Pak Choi",
+    "400 g Tofu",
+    "5 EL Sojasauce (50 g)",
+    "200 g Ramen-Nudeln",
+    "75 g Sprossenmix",
+    "20 g Koriander (1 Bund)",
+    "2 EL Reisessig (20 g)",
+    "1 EL Reissirup (15 g)",
+    "2 EL schwarzer Sesam (25 g)"
+  ],
+  "steps": [
+    "Frühlingszwiebeln waschen und putzen. Das Grün schräg in Streifen schneiden und für die Garnitur beiseitestellen. Den Rest in feine Ringe schneiden. Ingwer und Knoblauch schälen und in Scheiben schneiden. Pilze putzen und in Scheiben schneiden.",
+    "1 EL Öl in einem Topf erhitzen und das Gemüse darin bei mittlerer Hitze 1–2 Minuten dünsten. Currypaste einrühren und Gemüsebrühe zugießen. Pak Choi waschen, putzen und je nach Größe halbieren oder vierteln. Pak Choi in den Topf geben und bei kleiner Hitze 6–8 Minuten leicht köcheln lassen.",
+    "Inzwischen Tofu in Würfel schneiden. Restliches Öl in einer Pfanne erhitzen und Tofuwürfel darin bei mittlerer bis starker Hitze 3–4 Minuten kräftig anbraten. 1 EL Sojasauce zugießen und 1 Minuten erhitzen. Tofuwürfel beiseitestellen. Ramen in kochendem Wasser 5–6 Minuten garen. Anschließend abgießen.",
+    "Währenddessen Sprossen waschen und abtropfen lassen. Koriander waschen, trocken schütteln und die Blätter abzupfen. Restliche Sojasauce, Reisessig, Reissirup und 1 EL Sesam verrühren und auf 4 Schalen verteilen.",
+    "Vegane Ramen-Suppe in die Schalen geben und Brühe zugießen. Gemüse, Tofuwürfel, Sprossen und Koriander darübergeben und mit restlichem Sesam bestreuen."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "japapanisch",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/vegane-ramen-suppe-670009.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/vegane-ramen-suppe",
+    "title": "Vegane Ramen-Suppe",
+    "rating": 4.9,
+    "ratingCount": 14
+  },
+  "importedAt": "2026-09-04"
+}

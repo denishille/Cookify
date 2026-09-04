@@ -1,0 +1,32 @@
+{
+  "title": "Johannisbeer-Skyr-Eis am Stiel",
+  "description": "Das Johannisbeer-Skyr-Eis am Stiel von EAT SMARTER ist die perfekte Clean-Eating-Erfrischung für den Sommer.",
+  "ingredients": [
+    "250 g rote Johannisbeeren",
+    "1 Bio-Zitrone (Schale)",
+    "3 EL Ahornsirup",
+    "200 g Skyr",
+    "100 g griechischer Joghurt",
+    "100 g Schlagsahne"
+  ],
+  "steps": [
+    "Johannisbeeren von den Rispen zupfen, waschen und zusammen mit der Zitronenschale und 2 EL Ahornsirup fein pürieren. Masse durch ein feines Sieb in eine Schüssel streichen.",
+    "Skyr mit Joghurt in einer weiteren Schüssel verrühren. 1⁄3 davon zum Johannisbeerpüree geben und verrühren.",
+    "Restlichen Ahornsirup in die übrige Skyr-Joghurt-Masse einrühren. Sahne steif schlagen und je die Hälfte auf die beiden Massen verteilen und vorsichtig unterheben.",
+    "Masse abwechselnd in 6 Eisförmchen füllen und noch einmal mit einem Löffel leicht verrühren. Etwa 1 Stunde anfrieren lassen. Dann Holzstiele einstecken und noch 3 Stunden durchfrieren lassen.",
+    "Zum Servieren Eis aus den Förmchen lösen und nach Belieben auf einer gekühlten Schieferplatte anbieten."
+  ],
+  "timeMinutes": 265,
+  "servings": 6,
+  "category": "Dessert",
+  "cuisine": "Deutsche",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/johannisbeer-skyr-eis-am-stiel-656332.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/johannisbeer-skyr-eis-am-stiel",
+    "title": "Johannisbeer-Skyr-Eis am Stiel",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "importedAt": "2026-09-04"
+}

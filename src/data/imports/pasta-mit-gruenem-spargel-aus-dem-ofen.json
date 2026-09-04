@@ -1,0 +1,33 @@
+{
+  "title": "Pasta mit grünem Spargel aus dem Ofen",
+  "description": "Für meine schnelle Pasta mit grünem Spargel, Feta und Tomaten brauchst du gerade einmal 10 Minuten Vorbereitung, eine Handvoll Zutaten und deinen Ofen!",
+  "ingredients": [
+    "1 Knoblauchzehe",
+    "200 g grüner Spargel",
+    "150 g Tagliatelle (oder andere lange Nudeln)",
+    "150 g Kirschtomaten",
+    "150 g Feta",
+    "3 EL Olivenöl",
+    "2 EL Gewürze (z. B. Salz, Pfeffer, Petersilie, Muskat, Schnittlauch)"
+  ],
+  "steps": [
+    "Backofen auf 200 Grad Ober- und Unterhitze vorheizen.",
+    "Knoblauch klein hacken. Die holzigen Enden vom Spargel abschneiden und den Spargel schräg in Stücke schneiden.",
+    "Nudeln, Feta, Tomaten und Spargel in eine Auflaufform geben. Alles mit Olivenöl beträufeln. Gewürze und Knoblauch zugeben. Dann soviel Wasser zugeben, bis die Nudeln vollständig bedeckt sind (bei mir waren es 250 ml) 35 Minuten im Ofen backen und zwischendurch ggf. Wasser nachgießen.",
+    "Einen Schuss Wasser unterheben, alles umrühren und servieren."
+  ],
+  "timeMinutes": 45,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Abendessen, Backofen, Mittagessen, Ofengericht, Spargel, vegetarisch",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/04/Pasta-Spargel-Ofen.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/pasta-mit-spargel/",
+    "title": "Pasta mit grünem Spargel aus dem Ofen",
+    "rating": 5,
+    "ratingCount": 106
+  },
+  "importedAt": "2026-09-04"
+}

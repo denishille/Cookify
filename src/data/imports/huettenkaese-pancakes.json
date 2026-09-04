@@ -1,0 +1,36 @@
+{
+  "title": "Hüttenkäse-Pancakes",
+  "description": "Die Hüttenkäse-Pancakes von EAT SMARTER bringen reichlich Eiweiß auf den Teller und sind der perfekte Start ins Wochenende.",
+  "ingredients": [
+    "0.5 Bio-Zitrone",
+    "400 g Hüttenkäse",
+    "3 Eier",
+    "125 g Dinkelmehl Type 1050",
+    "2 TL Backpulver",
+    "2 EL Rohrohrzucker (à 15 g)",
+    "2 Msp. Vanillepulver",
+    "1 Prise Salz",
+    "2 TL Butter",
+    "500 g Erdbeeren",
+    "4 Stiele Zitronenmelisse"
+  ],
+  "steps": [
+    "Zitronenhälfte heiß abspülen, trocken tupfen, Schale fein abreiben und Saft auspressen. Beides mit Hüttenkäse und Eiern verrühren. In einer weiteren Schüssel Mehl mit Backpulver, 1 EL Zucker, Vanillepulver sowie 1 Prise Salz mischen und zum Hüttenkäse geben. Alles gründlich verrühren.",
+    "Nacheinander insgesamt 8 kleine Pancakes backen. Dazu je 1 TL Butter in einer großen Pfanne erhitzen. 4 Teigkleckse hineingeben und bei mittlerer Hitze pro Seite in 3–4 Minuten goldbraun backen. Restlichen Teig ebenso aufbrauchen.",
+    "Nebenher Erdbeeren putzen, waschen, 1/3 davon klein schneiden und beiseitestellen; den Rest mit übrigem Zucker pürieren. Zitronenmelisse waschen, trocken schütteln und Blättchen abzupfen.",
+    "Hüttenkäse-Pancakes mit Erdbeerpüree beträufeln, restliche Beeren darüber geben und mit Zitronenmelisse garnieren."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Frühstück, Brunch, Dessert",
+  "cuisine": "Europa",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/huettenkaese-pancakes-676959.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/huettenkaese-pancakes",
+    "title": "Hüttenkäse-Pancakes",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "importedAt": "2026-09-04"
+}

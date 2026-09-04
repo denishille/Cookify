@@ -1,0 +1,39 @@
+{
+  "title": "Vegane Mapo-Tofu-Udon",
+  "description": "Mapo-Tofu-Udon gehören zu den Trends, die ihren Hype wirklich verdient haben. Schlüpfrige Udon-Nudeln, eine cremige Seidentofu-Sauce, getoppt mit herzhaft-würzigem veganem Hack. Und dann steht das Ganze auch noch in 20 Minuten auf dem Tisch? Instant-Lieblingsgericht, ehrlich jetzt!",
+  "ingredients": [
+    "400 g Seidentofu",
+    "75 g Sojagranulat",
+    "½ EL dunkle Sojasauce",
+    "2 Zehen Knoblauch",
+    "2 Frühlingszwiebeln",
+    "1 EL Rapsöl",
+    "1 ½ EL Doubanjiang",
+    "400 g Udon-Nudeln",
+    "1 EL Balsamicoessig (oder chin. schwarzer Essig)",
+    "1 EL chinesischer Kochwein (optional)",
+    "½ TL Szechuanpfeffer (optional)"
+  ],
+  "steps": [
+    "Seidentofu etwa 30 Minuten vor der Zubereitung aus dem Kühlschrank nehmen und auf Zimmertemperatur kommen lassen.",
+    "Sojagranulat mit 100 ml kochendem Wasser und dunkler Sojasauce übergießen. Gut verrühren und beiseite stellen.",
+    "Knoblauch fein hacken, Frühlingszwiebel in dünne Ringe schneiden. Seidentofu mit einer Prise Salz im Mixer oder mit dem Pürierstab fein pürieren und beiseite stellen.",
+    "Öl in eine heiße Pfanne geben und Knoblauch und den weißen Teil der Frühlingszwiebeln bei mittlerer Hitze 1-2 Minuten anschwitzen, dabei häufig umrühren.",
+    "Doubanjiang dazu geben und etwa 2 Minuten weiter braten bis sich das rote Öl der Paste etwas absetzt.",
+    "Sojagranulat mit in die Pfanne geben und 2-3 Minuten unter Rühren braten. Parallel dazu 1,5 l Wasser aufkochen und die Udon-Nudeln nach Packungsanweisung etwa 3 Minuten kochen.",
+    "Das Sojahack mit Essig und, falls verwendet, dem Shaoxing-Wein oder der gleichen Menge Wasser ablöschen. Herd auf niedrigste Hitze reduzieren und das Hack bei niedriger Hitze köcheln lassen. Bei Bedarf esslöffelweise Kochwasser von den Nudeln hinzufügen und mit mehr Sojasauce abschmecken.",
+    "Nudeln abgießen, gut abtropfen lassen und auf Schüsseln verteilen. Zuerst die Seidentofu-Sauce darüber geben, dann das Sojahack darauf anrichten und mit dem Frühlingszwiebelgrün und optional fein gemahlenem Szechuanpfeffer toppen."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Chinesisch Japanisch",
+  "keywords": "proteinreich, schnell",
+  "image": "https://www.eat-this.org/wp-content/uploads/2026/04/eat_this_vegane_mapo-tofu-udon_008.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-mapo-tofu-udon/",
+    "title": "Vegane Mapo-Tofu-Udon"
+  },
+  "importedAt": "2026-09-04"
+}

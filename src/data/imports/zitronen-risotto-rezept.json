@@ -1,0 +1,37 @@
+{
+  "title": "Zitronen-Risotto Rezept",
+  "description": "Unser beliebtes Rezept für Zitronen-Risotto und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
+  "ingredients": [
+    "1 Zwiebel",
+    "1 Knoblauchzehe",
+    "550 ml Gemüsebrühe (oder Hühnerbrühe)",
+    "1 EL Olivenöl",
+    "1 EL Butter",
+    "150 g Risotto-Reis",
+    "50 ml Weißwein",
+    "4 El Hartkäse",
+    "Salz",
+    "Pfeffer",
+    "1 Tl Bio-Zitronenschale",
+    "1 EL Zitronensaft",
+    "2 El Basilikumblättchen"
+  ],
+  "steps": [
+    "Zwiebel und Knoblauch fein würfeln. Brühe aufkochen und auf der ausgeschalteten Herdplatte warm halten. Öl und Butter in einemTopf erhitzen und Zwiebeln und Knoblauch darin 2 Min. dünsten. Reis zugeben und unter Rühren 1 Min. mitdünsten.",
+    "Mit Weißwein ablöschen und stark einkochen.",
+    "1/3 der Brühe zugießen und bei mittlerer Hitze unter Rühren einkochen, bis der Reis die Flüssigkeit aufgenommen hat. Diesen Vorgang mit der restlichen Brühe zweimal wiederholen, sodass der Risotto insgesamt 20 Min. kochtund die Reiskörner noch leichten Biss haben.",
+    "2 El Käse untermischen und den Risotto mit Salz, Pfeffer, Zitronenschale und -saft würzen. Falls der Risotto zu fest ist, evtl. noch etwas Brühe unterrühren. Mit dem restlichenParmesan und Basilikum bestreut servieren."
+  ],
+  "timeMinutes": 35,
+  "servings": 2,
+  "keywords": "Zutaten,Obst,Zitronen,Vegetarisch",
+  "image": "https://images.lecker.de/zitronen-risotto/1x1,id=42f5bbd1,b=lecker,w=1600,h=,ca=12.50,0,87.50,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/zitronen-risotto-6989.html",
+    "title": "Zitronen-Risotto Rezept",
+    "rating": 4.5,
+    "ratingCount": 2
+  },
+  "importedAt": "2026-09-04"
+}

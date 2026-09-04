@@ -1,0 +1,28 @@
+{
+  "title": "Beeren-Melonen-Skyr-Smoothie",
+  "description": "Stärken Sie sich nach dem Sport mit diesem fruchtigem Beeren-Melonen-Skyr-Smoothie von EAT SMARTER!",
+  "ingredients": [
+    "200 g Wassermelonenfruchtfleisch",
+    "100 g Erdbeeren",
+    "200 g Skyr",
+    "200 ml Kokoswasser",
+    "1 Prise Vanillepulver",
+    "15 g Schmelzflocken (1 EL; oder zarte Haferflocken)",
+    "30 g Cashewkerne (2 EL)"
+  ],
+  "steps": [
+    "Melonenfruchtfleisch klein schneiden. Beeren putzen, waschen und klein schneiden.",
+    "Melone, Erdbeeren, Skyr, Kokoswasser, Vanille, Schmelzflocken und Cashewkerne in ein Standmixer geben und alles fein pürieren."
+  ],
+  "timeMinutes": 15,
+  "servings": 2,
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/beeren-melonen-skyr-smoothie-656078-3.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/beeren-melonen-skyr-smoothie",
+    "title": "Beeren-Melonen-Skyr-Smoothie",
+    "rating": 5,
+    "ratingCount": 10
+  },
+  "importedAt": "2026-09-04"
+}
