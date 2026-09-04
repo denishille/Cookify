@@ -305,5 +305,4468 @@
       "ohne-backen",
       "suess"
     ]
+  },
+  {
+    "id": "m-rindergulasch",
+    "title": "Klassisches Rindergulasch",
+    "description": "Butterzartes Rindfleisch in kräftiger Paprika-Zwiebel-Sauce, das zwei Stunden sanft schmort. Perfekt für das Wochenende und beim Aufwärmen noch besser.",
+    "emoji": "🥘",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 150,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 480,
+      "protein": 46,
+      "carbs": 14,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "rindfleisch",
+        "name": "Rindfleisch aus der Schulter, gewürfelt",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver edelsüß",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Kümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Rotwein",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Rinder- oder Gemüsebrühe",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblätter",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Tupfe das Fleisch trocken und brate es portionsweise in 2 EL Öl in einem großen Schmortopf bei hoher Hitze rundherum kräftig an. Nimm es heraus und stelle es beiseite.",
+      "Schäle und würfle die Zwiebeln, brate sie im selben Topf bei mittlerer Hitze 8–10 Minuten goldbraun. Gib gehackten Knoblauch und Tomatenmark dazu und röste beides 1 Minute mit.",
+      "Nimm den Topf kurz vom Herd, rühre Paprikapulver und Kümmel ein (es darf nicht verbrennen) und lösche sofort mit Rotwein ab.",
+      "Gib das Fleisch samt Saft zurück, gieße die Brühe an, lege die Lorbeerblätter dazu und würze mit Salz und Pfeffer.",
+      "Lasse das Gulasch zugedeckt bei kleiner Hitze 2 Stunden schmoren, rühre gelegentlich um. In den letzten 20 Minuten die gewürfelte Paprika dazugeben.",
+      "Schmecke das Gulasch ab und serviere es mit Spätzle, Knödeln oder Salzkartoffeln."
+    ],
+    "tags": [
+      "klassiker",
+      "wochenende",
+      "comfort-food",
+      "winter",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-frikadellen",
+    "title": "Saftige Frikadellen",
+    "description": "Die klassischen Hackbällchen aus der Pfanne mit eingeweichtem Brötchen, Zwiebeln und Senf – warm mit Kartoffelpüree oder kalt aufs Brot ein Dauerbrenner.",
+    "emoji": "🍽️",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 34,
+      "carbs": 16,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Altbackenes Brötchen",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "senf",
+        "name": "Mittelscharfer Senf",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Weiche das Brötchen 10 Minuten in der Milch ein und drücke es danach gut aus. Würfle die Zwiebel fein.",
+      "Verknete Hackfleisch, Brötchen, Zwiebel, Ei, Senf, Petersilie, Paprikapulver, 1 TL Salz und Pfeffer gründlich zu einer glatten Masse. Ist sie zu weich, gib Semmelbrösel dazu.",
+      "Forme mit feuchten Händen 8 flache Frikadellen von etwa 2 cm Dicke.",
+      "Erhitze 3 EL Öl in einer großen Pfanne bei mittlerer Hitze und brate die Frikadellen 5–6 Minuten pro Seite, bis sie durchgegart und schön braun sind.",
+      "Serviere sie heiß mit Kartoffelpüree und Rahmgemüse oder kalt mit Senf im Brötchen."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "meal-prep",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "d-panna-cotta",
+    "title": "Panna Cotta mit Himbeersauce",
+    "description": "Zarte Vanille-Sahnecreme, die auf dem Teller sanft wackelt, dazu eine fruchtig-säuerliche Himbeersauce – elegant und mit nur wenigen Zutaten gemacht.",
+    "emoji": "🍮",
+    "category": "nachspeise",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 260,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 460,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 38
+    },
+    "ingredients": [
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleschote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gelatine",
+        "name": "Blattgelatine",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "himbeeren",
+        "name": "Himbeeren (frisch oder TK)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "minze",
+        "name": "Minze zum Garnieren",
+        "amount": 4,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Weiche die Gelatine 5 Minuten in kaltem Wasser ein.",
+      "Schlitze die Vanilleschote längs auf und kratze das Mark heraus. Gib Mark, Schote, Sahne und Zucker in einen Topf und erhitze alles unter Rühren, bis es kurz aufkocht.",
+      "Nimm den Topf vom Herd, entferne die Schote und lass die Sahne 2 Minuten abkühlen. Drücke die Gelatine aus und rühre sie in der heißen Sahne auf, bis sie sich vollständig aufgelöst hat.",
+      "Fülle die Masse in 4 Förmchen oder Gläser (je ca. 150 ml) und stelle sie mindestens 4 Stunden kalt.",
+      "Püriere für die Sauce die Himbeeren mit Puderzucker und Zitronensaft und streiche sie nach Belieben durch ein Sieb.",
+      "Stürze die Panna Cotta auf Teller (Förmchen kurz in heißes Wasser tauchen) oder serviere sie im Glas, mit Himbeersauce und Minze."
+    ],
+    "tags": [
+      "gaeste",
+      "klassiker",
+      "ohne-backen",
+      "sommer"
+    ]
+  },
+  {
+    "id": "s-kuerbissuppe",
+    "title": "Kürbis-Kokos-Suppe",
+    "description": "Samtige Hokkaido-Suppe mit Kokosmilch, Ingwer und einem Spritzer Limette – der Herbstklassiker in vegan.",
+    "emoji": "🎃",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 280,
+      "protein": 5,
+      "carbs": 24,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "kuerbis",
+        "name": "Hokkaido-Kürbis",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer, frisch",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 700,
+        "unit": "ml"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne, geröstet",
+        "amount": 2,
+        "unit": "EL",
+        "optional": true
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Wasche den Hokkaido, halbiere ihn, entferne die Kerne und schneide ihn mit Schale in etwa 2 cm große Würfel.",
+      "Würfle Zwiebel, Knoblauch und Ingwer fein und dünste sie in 2 EL Olivenöl bei mittlerer Hitze 3 Minuten glasig.",
+      "Gib den Kürbis und das Currypulver dazu und röste alles unter Rühren 2 Minuten an.",
+      "Gieße Gemüsebrühe und Kokosmilch an, bringe die Suppe zum Kochen und lass sie zugedeckt 20 Minuten köcheln, bis der Kürbis weich ist.",
+      "Püriere die Suppe mit dem Stabmixer sehr fein und schmecke sie mit Limettensaft, Salz und Pfeffer ab.",
+      "Serviere die Suppe mit gerösteten Kürbiskernen und einem Klecks Kokosmilch obendrauf."
+    ],
+    "tags": [
+      "herbst",
+      "klassiker",
+      "meal-prep",
+      "leicht"
+    ]
+  },
+  {
+    "id": "s-caesar-salad-haehnchen",
+    "title": "Caesar Salad mit Hähnchen",
+    "description": "Knackiger Römersalat mit gebratener Hähnchenbrust, knusprigen Croutons, Parmesan und einem cremigen Dressing mit Sardellen.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 45,
+      "carbs": 25,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "salat",
+        "name": "Römersalat",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbrust",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "baguette",
+        "name": "Baguette oder Ciabatta vom Vortag",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eigelb",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sardellen",
+        "name": "Sardellenfilets",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "senf",
+        "name": "Dijon-Senf",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "worcestersauce",
+        "name": "Worcestersauce",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C vor. Reiße das Brot in mundgerechte Stücke, mische es mit 1 EL Olivenöl und Salz und backe es 10 Minuten knusprig.",
+      "Würze die Hähnchenbrust mit Salz und Pfeffer und brate sie in 1 EL Olivenöl bei mittlerer Hitze 5–6 Minuten pro Seite goldbraun. Lass sie 5 Minuten ruhen und schneide sie in Streifen.",
+      "Zerdrücke für das Dressing Sardellen und Knoblauch zu einer Paste. Verrühre sie mit Eigelb, Senf, Zitronensaft und Worcestersauce und schlage 4 EL Olivenöl langsam unter, bis es cremig ist. Rühre die Hälfte des fein geriebenen Parmesans ein.",
+      "Wasche den Römersalat, schleudere ihn trocken und zupfe die Blätter grob.",
+      "Vermenge den Salat mit dem Dressing, richte Hähnchen und Croutons darauf an und hoble den restlichen Parmesan darüber. Mit Pfeffer servieren."
+    ],
+    "tags": [
+      "klassiker",
+      "proteinreich",
+      "schnell",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "w-baked-oats-heidelbeere",
+    "title": "Baked Oats mit Heidelbeeren",
+    "description": "Gebackene Haferflocken, die wie ein warmer Kuchen aus dem Ofen kommen – mit Banane gesüßt, mit Heidelbeeren gespickt und ideal zum Vorbereiten.",
+    "emoji": "🫐",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "kalorienarm"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 380,
+      "protein": 15,
+      "carbs": 52,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "haferflocken",
+        "name": "Zarte Haferflocken",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "banane",
+        "name": "Reife Banane",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "heidelbeeren",
+        "name": "Heidelbeeren",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und fette zwei kleine ofenfeste Förmchen (je ca. 300 ml) leicht ein.",
+      "Püriere Haferflocken, Banane, Ei, Milch, Backpulver, Zimt, Ahornsirup und eine Prise Salz mit dem Stabmixer etwa 30 Sekunden zu einem glatten Teig.",
+      "Hebe zwei Drittel der Heidelbeeren unter, verteile den Teig auf die Förmchen und drücke die restlichen Beeren oben hinein.",
+      "Backe die Baked Oats 22–25 Minuten, bis die Oberfläche goldbraun ist und die Mitte beim Antippen fest ist.",
+      "Lass sie 5 Minuten abkühlen, setze einen Klecks Erdnussbutter darauf und serviere warm. Abgedeckt halten sie im Kühlschrank 3 Tage."
+    ],
+    "tags": [
+      "frühstück",
+      "meal-prep",
+      "ofen",
+      "haferflocken"
+    ]
+  },
+  {
+    "id": "m-koenigsberger-klopse",
+    "title": "Königsberger Klopse",
+    "description": "Zarte Fleischklößchen in cremiger Kapernsauce mit einem Hauch Zitrone – ein ostpreußischer Klassiker, der mit Salzkartoffeln und Roter Bete serviert wird.",
+    "emoji": "🍲",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 50,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 540,
+      "protein": 33,
+      "carbs": 20,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch (oder Kalbshack)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Altbackenes Brötchen",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sardellen",
+        "name": "Sardellenfilets",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Brühe",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "kapern",
+        "name": "Kapern mit etwas Lake",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone (Saft)",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Weiche das Brötchen in Wasser ein, drücke es aus. Hacke Zwiebel und Sardellen fein und verknete alles mit Hackfleisch, Ei, Salz und Pfeffer. Forme 12 Klopse.",
+      "Bringe die Brühe mit dem Lorbeerblatt in einem weiten Topf zum Sieden. Lasse die Klopse darin bei kleiner Hitze 15 Minuten gar ziehen – nicht kochen. Nimm sie heraus und siebe die Brühe.",
+      "Schmelze die Butter in einem Topf, rühre das Mehl ein und schwitze es 1 Minute an. Gieße nach und nach 600 ml der heißen Brühe unter Rühren an, damit keine Klümpchen entstehen.",
+      "Lasse die Sauce 5 Minuten köcheln, rühre Sahne, Kapern samt 1 EL Lake und Zitronensaft ein. Schmecke mit Salz, Pfeffer und eventuell einer Prise Zucker ab.",
+      "Gib die Klopse in die Sauce und erwärme sie 5 Minuten darin. Serviere mit Salzkartoffeln und Roter Bete."
+    ],
+    "tags": [
+      "klassiker",
+      "comfort-food",
+      "gaeste",
+      "winter"
+    ]
+  },
+  {
+    "id": "m-kasseler-sauerkraut",
+    "title": "Kasseler mit Sauerkraut und Püree",
+    "description": "Saftiger Kasselerbraten auf mildem Sauerkraut mit Apfel und Wacholder, dazu cremiges Kartoffelpüree – deftig, ehrlich und mit wenig Aufwand aus einem Topf.",
+    "emoji": "🥬",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 75,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 590,
+      "protein": 40,
+      "carbs": 38,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "kasseler",
+        "name": "Kasselerbraten (ohne Knochen)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "sauerkraut",
+        "name": "Sauerkraut",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "apfel",
+        "name": "Säuerlicher Apfel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "speck",
+        "name": "Durchwachsener Speck",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Kümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein oder Apfelsaft",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Mehligkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Speck und Zwiebel und brate beides in einem großen Topf bei mittlerer Hitze 4 Minuten an. Gib den geriebenen Apfel, Sauerkraut, Lorbeer und Kümmel dazu.",
+      "Gieße den Weißwein an, lege das Kasseler auf das Kraut und lasse alles zugedeckt bei kleiner Hitze 50 Minuten schmoren. Wende das Fleisch nach der Hälfte der Zeit.",
+      "Schäle inzwischen die Kartoffeln, koche sie in Salzwasser 20 Minuten weich und gieße sie ab.",
+      "Stampfe die Kartoffeln mit heißer Milch und Butter zu einem cremigen Püree und würze es mit Salz und frisch geriebener Muskatnuss.",
+      "Schneide das Kasseler in Scheiben und richte es auf dem Sauerkraut mit dem Püree an. Dazu passt scharfer Senf."
+    ],
+    "tags": [
+      "klassiker",
+      "winter",
+      "one-pot",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "m-jaegerschnitzel",
+    "title": "Jägerschnitzel mit Champignonrahmsauce",
+    "description": "Naturschnitzel vom Schwein mit einer cremigen Pilzsauce aus Champignons, Speck und Sahne – der Klassiker aus dem Landgasthof, zu Hause in 30 Minuten fertig.",
+    "emoji": "🍄",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "lowcarb"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 470,
+      "protein": 40,
+      "carbs": 8,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "schweineschnitzel",
+        "name": "Schweineschnitzel (à 150 g)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "champignons",
+        "name": "Braune Champignons",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "speck",
+        "name": "Speckwürfel",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Brühe",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "senf",
+        "name": "Senf",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Klopfe die Schnitzel leicht flach, würze sie mit Salz und Pfeffer. Putze die Champignons und schneide sie in Scheiben, würfle die Zwiebel.",
+      "Brate die Schnitzel in 2 EL Öl bei hoher Hitze 2–3 Minuten pro Seite goldbraun und halte sie im Ofen bei 80 °C warm.",
+      "Brate im selben Bratfett Speck und Zwiebel 3 Minuten an, gib die Butter und die Champignons dazu und brate sie bei hoher Hitze 5 Minuten, bis sie Farbe nehmen.",
+      "Lösche mit Brühe ab, rühre Sahne und Senf ein und lasse die Sauce 5 Minuten sämig einkochen. Schmecke mit Salz und Pfeffer ab.",
+      "Lege die Schnitzel zurück in die Sauce, streue Petersilie darüber und serviere mit Spätzle, Pommes oder Bratkartoffeln."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "feierabend",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "d-mousse-au-chocolat",
+    "title": "Mousse au Chocolat",
+    "description": "Luftig-schaumige Schokoladenmousse aus nur wenigen Zutaten – intensiv schokoladig und auf der Zunge schmelzend.",
+    "emoji": "🍫",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 210,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 555,
+      "protein": 9,
+      "carbs": 32,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade (70 %)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier (sehr frisch)",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kaffee",
+        "name": "Espresso",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Hacke die Schokolade grob und schmilz sie mit der Butter über einem heißen Wasserbad. Rühre den Espresso ein und lass die Masse lauwarm abkühlen.",
+      "Trenne die Eier. Schlage die Eigelbe mit der Hälfte des Zuckers 2 Minuten cremig und rühre sie unter die lauwarme Schokolade.",
+      "Schlage die Sahne steif und stelle sie kalt.",
+      "Schlage die Eiweiße mit Salz und dem restlichen Zucker zu festem Schnee.",
+      "Hebe zuerst die Sahne, dann in zwei Portionen den Eischnee vorsichtig unter die Schokoladenmasse – nicht rühren, damit die Luft erhalten bleibt.",
+      "Fülle die Mousse in Gläser und stelle sie mindestens 3 Stunden in den Kühlschrank."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "ohne-backen",
+      "suess"
+    ]
+  },
+  {
+    "id": "s-tomatensuppe",
+    "title": "Geröstete Tomatensuppe",
+    "description": "Ofengeröstete Tomaten mit Knoblauch und Basilikum geben dieser Suppe eine intensive, leicht süßliche Tiefe.",
+    "emoji": "🍅",
+    "category": "suppe",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm",
+      "lowcarb"
+    ],
+    "timeMinutes": 55,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 180,
+      "protein": 4,
+      "carbs": 17,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "tomate",
+        "name": "Reife Tomaten",
+        "amount": 1200,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamico",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Viertle die Tomaten, schneide die Zwiebeln in grobe Spalten und drücke die Knoblauchzehen mit der Schale leicht an.",
+      "Verteile alles auf einem Backblech, beträufle es mit 3 EL Olivenöl, streue Zucker, Salz und Pfeffer darüber und röste das Gemüse 35 Minuten, bis die Ränder leicht dunkel sind.",
+      "Drücke den Knoblauch aus der Schale und gib das geröstete Gemüse samt Bratensaft in einen großen Topf.",
+      "Füge Tomatenmark und Gemüsebrühe hinzu und lass die Suppe 10 Minuten leise köcheln.",
+      "Püriere die Suppe fein, streiche sie bei Bedarf durch ein Sieb und schmecke sie mit Balsamico, Salz und Pfeffer ab.",
+      "Zupfe das Basilikum grob und gib es kurz vor dem Servieren über die Suppe."
+    ],
+    "tags": [
+      "sommer",
+      "leicht",
+      "klassiker",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "s-griechischer-salat",
+    "title": "Griechischer Bauernsalat",
+    "description": "Choriatiki wie im Urlaub: Tomaten, Gurke, Paprika, rote Zwiebel, Kalamata-Oliven und ein dickes Stück Feta mit Oregano und Olivenöl.",
+    "emoji": "🫒",
+    "category": "salat",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei",
+      "kalorienarm",
+      "lowcarb"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 290,
+      "protein": 10,
+      "carbs": 9,
+      "fat": 24
+    },
+    "ingredients": [
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Salatgurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Grüne Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "oliven",
+        "name": "Kalamata-Oliven",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Feta",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano, getrocknet",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "essig",
+        "name": "Rotweinessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide die Tomaten in grobe Spalten, die Gurke in dicke Halbmonde und die Paprika in Ringe.",
+      "Schneide die rote Zwiebel in hauchdünne Ringe und lege sie 5 Minuten in kaltes Wasser, damit sie milder wird.",
+      "Gib Tomaten, Gurke, Paprika, abgetropfte Zwiebel und Oliven in eine große Schüssel und salze leicht.",
+      "Beträufle alles mit 4 EL Olivenöl und dem Essig, streue die Hälfte des Oreganos darüber und mische vorsichtig.",
+      "Lege den Feta am Stück oder in dicken Scheiben obenauf, bestreue ihn mit dem restlichen Oregano, Pfeffer und einem Faden Olivenöl und serviere sofort."
+    ],
+    "tags": [
+      "sommer",
+      "schnell",
+      "klassiker",
+      "grillen"
+    ]
+  },
+  {
+    "id": "w-skyr-bowl-beeren",
+    "title": "Skyr-Bowl mit Beeren und Granola",
+    "description": "Proteinreiches Frühstück in fünf Minuten: cremiger Skyr mit Honig, frischen Beeren, Banane und knusprigem Granola.",
+    "emoji": "🥣",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "proteinreich",
+      "kalorienarm"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 1,
+    "nutrition": {
+      "kcal": 360,
+      "protein": 28,
+      "carbs": 40,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "key": "skyr",
+        "name": "Skyr natur",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "beeren",
+        "name": "Gemischte Beeren",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "granola",
+        "name": "Granola",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "banane",
+        "name": "Banane",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chiasamen",
+        "name": "Chiasamen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, gehackt",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "Prise"
+      }
+    ],
+    "steps": [
+      "Verrühre den Skyr mit Honig und Zimt cremig und gib ihn in eine Schüssel.",
+      "Schneide die Banane in Scheiben und wasche die Beeren.",
+      "Lege Obst, Granola, Mandeln und Chiasamen in Segmenten auf den Skyr.",
+      "Serviere sofort. Fürs Meal-Prep bewahrst du das Granola getrennt auf, damit es knusprig bleibt."
+    ],
+    "tags": [
+      "frühstück",
+      "proteinreich",
+      "schnell",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-zimtschnecken",
+    "title": "Fluffige Zimtschnecken mit Frischkäse-Frosting",
+    "description": "Weiche Hefeschnecken mit einer Füllung aus Butter, braunem Zucker und viel Zimt, warm mit cremigem Frischkäse-Frosting überzogen.",
+    "emoji": "🥐",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 150,
+    "difficulty": "mittel",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 365,
+      "protein": 7,
+      "carbs": 55,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Trockenhefe",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "milch",
+        "name": "Milch, lauwarm",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "frischkaese",
+        "name": "Frischkäse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verrühre Mehl, Trockenhefe, Zucker und Salz. Gib lauwarme Milch, das Ei und 80 g weiche Butter dazu und knete alles 8 Minuten zu einem glatten, elastischen Teig.",
+      "Decke den Teig ab und lass ihn an einem warmen Ort 60 Minuten gehen, bis er sich verdoppelt hat.",
+      "Verrühre für die Füllung 60 g weiche Butter mit braunem Zucker und Zimt zu einer streichfähigen Paste.",
+      "Rolle den Teig auf bemehlter Fläche zu einem Rechteck (ca. 30 x 40 cm) aus, bestreiche ihn mit der Zimtfüllung und rolle ihn von der langen Seite fest auf.",
+      "Schneide die Rolle in 12 Scheiben und setze sie mit Abstand in eine gefettete Auflaufform. Lass sie abgedeckt weitere 30 Minuten gehen.",
+      "Backe die Schnecken bei 180 °C Ober-/Unterhitze 20–25 Minuten goldbraun.",
+      "Verrühre Frischkäse, die restlichen 20 g Butter und Puderzucker zu einem Frosting und verteile es auf den noch warmen Zimtschnecken."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "winter",
+      "suess",
+      "hefeteig"
+    ]
+  },
+  {
+    "id": "m-ofen-haehnchenschenkel",
+    "title": "Knusprige Hähnchenschenkel vom Blech",
+    "description": "Hähnchenschenkel mit Rosmarin und Knoblauch, die zusammen mit Kartoffeln und Karotten auf einem Blech garen – kaum Arbeit, viel Aroma und ein knuspriger Abschluss.",
+    "emoji": "🍗",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 65,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 44,
+      "carbs": 36,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkel",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Festkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Rosmarin, frisch",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Schneide die Kartoffeln in Spalten, die Karotten in dicke Stifte und die Zwiebeln in Viertel.",
+      "Vermische das Gemüse auf einem tiefen Blech mit 2 EL Olivenöl, den angedrückten Knoblauchzehen, Rosmarin, Salz und Pfeffer.",
+      "Reibe die Hähnchenschenkel mit 2 EL Olivenöl, Paprikapulver, Salz, Pfeffer und dem Abrieb der Zitrone ein und lege sie mit der Haut nach oben auf das Gemüse.",
+      "Backe alles 45–50 Minuten, bis die Haut knusprig ist und der Fleischsaft klar austritt. Wende das Gemüse nach 25 Minuten einmal.",
+      "Beträufle das Hähnchen mit Zitronensaft und serviere es direkt vom Blech."
+    ],
+    "tags": [
+      "ofengericht",
+      "feierabend",
+      "kinder",
+      "einfach"
+    ]
+  },
+  {
+    "id": "m-forelle-muellerin",
+    "title": "Forelle Müllerin Art",
+    "description": "Ganze Forelle in Mehl gewendet und in brauner Butter gebraten, mit Zitrone, Petersilie und Mandeln – ein einfaches Fischgericht mit großem Auftritt.",
+    "emoji": "🐟",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "lowcarb"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 46,
+      "carbs": 14,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "forelle",
+        "name": "Küchenfertige Forellen (à 300 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kleine Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Kartoffeln in Salzwasser 20 Minuten gar. Wasche die Forellen innen und außen, tupfe sie trocken und schneide die Haut beidseitig zweimal schräg ein.",
+      "Würze die Forellen innen und außen mit Salz und Pfeffer, beträufle sie mit dem Saft einer halben Zitrone und wende sie in Mehl. Klopfe überschüssiges Mehl ab.",
+      "Erhitze 1 EL Öl und 20 g Butter in einer großen Pfanne bei mittlerer Hitze. Brate die Forellen 5–6 Minuten pro Seite, bis die Haut knusprig ist und sich die Rückenflosse leicht ziehen lässt.",
+      "Nimm die Fische heraus, wische die Pfanne aus und lasse die restliche Butter darin bei mittlerer Hitze schäumen. Röste die Mandelblättchen 2 Minuten goldbraun, gib Petersilie und den restlichen Zitronensaft dazu.",
+      "Übergieße die Forellen mit der Mandelbutter und serviere sie mit den Kartoffeln und Zitronenspalten."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "fisch",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "d-creme-brulee",
+    "title": "Crème brûlée",
+    "description": "Seidige Vanillecreme unter einer knackigen Karamellkruste – das Knacken beim ersten Löffel gehört einfach dazu.",
+    "emoji": "🔥",
+    "category": "nachspeise",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 180,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 495,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "eier",
+        "name": "Eigelb",
+        "amount": 5,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleschote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker für die Kruste",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      }
+    ],
+    "steps": [
+      "Heize den Backofen auf 150 °C Ober-/Unterhitze vor und stelle 4 flache, ofenfeste Förmchen in eine tiefe Auflaufform.",
+      "Kratze das Vanillemark aus der Schote. Erhitze Sahne, Milch, Vanillemark und Schote in einem Topf, bis es fast kocht, und lass alles 10 Minuten ziehen.",
+      "Verrühre die Eigelbe mit Zucker und Salz, ohne sie schaumig zu schlagen. Gieße die warme Sahne (ohne Schote) langsam unter Rühren dazu.",
+      "Verteile die Creme auf die Förmchen. Fülle die Auflaufform so weit mit heißem Wasser, dass die Förmchen zur Hälfte darin stehen.",
+      "Backe die Creme 35–40 Minuten, bis sie am Rand fest ist und in der Mitte noch leicht wackelt.",
+      "Lass die Förmchen abkühlen und stelle sie mindestens 2 Stunden in den Kühlschrank.",
+      "Bestreue jede Creme vor dem Servieren mit 1 EL braunem Zucker und karamellisiere ihn mit einem Küchenbrenner oder 2–3 Minuten unter dem heißen Grill."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "suess",
+      "franzoesisch"
+    ]
+  },
+  {
+    "id": "s-rote-linsensuppe",
+    "title": "Rote-Linsen-Suppe mit Zitrone",
+    "description": "Türkisch inspirierte Linsensuppe, die in 30 Minuten fertig ist und durch Kreuzkümmel und Zitrone richtig lebendig schmeckt.",
+    "emoji": "🍲",
+    "category": "suppe",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 310,
+      "protein": 16,
+      "carbs": 42,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "minze",
+        "name": "Minze, getrocknet oder frisch",
+        "amount": 1,
+        "unit": "TL",
+        "optional": true
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Spüle die Linsen in einem Sieb kalt ab. Würfle Zwiebel, Karotten und Knoblauch fein.",
+      "Erhitze 2 EL Olivenöl in einem Topf und dünste Zwiebel und Karotten 4 Minuten an, dann Knoblauch, Tomatenmark, Kreuzkümmel und Paprikapulver 1 Minute mitrösten.",
+      "Gib die Linsen und die Gemüsebrühe dazu, bringe alles zum Kochen und lass die Suppe 18 Minuten bei kleiner Hitze köcheln, bis die Linsen zerfallen.",
+      "Püriere die Suppe nach Wunsch grob oder fein und schmecke sie mit dem Saft der Zitrone, Salz und Pfeffer ab.",
+      "Serviere sie mit etwas Minze und einem Schuss Olivenöl obendrauf."
+    ],
+    "tags": [
+      "schnell",
+      "meal-prep",
+      "winter",
+      "leicht"
+    ]
+  },
+  {
+    "id": "s-caprese",
+    "title": "Insalata Caprese",
+    "description": "Reife Tomaten, Büffelmozzarella und Basilikum mit bestem Olivenöl – drei Zutaten, die in der Sommersonne alles sagen.",
+    "emoji": "🧀",
+    "category": "salat",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei",
+      "kalorienarm",
+      "lowcarb"
+    ],
+    "timeMinutes": 10,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 380,
+      "protein": 22,
+      "carbs": 8,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "tomate",
+        "name": "Reife Fleischtomaten",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Büffelmozzarella",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamico oder Crema di Balsamico",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano, getrocknet",
+        "amount": 1,
+        "unit": "Prise",
+        "optional": true
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl, extra nativ",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz (grob oder Flocken)",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Nimm Tomaten und Mozzarella 30 Minuten vorher aus dem Kühlschrank – zimmerwarm schmecken sie deutlich intensiver.",
+      "Schneide die Tomaten in etwa 1 cm dicke Scheiben und lass den Mozzarella abtropfen, bevor du ihn ebenfalls in Scheiben schneidest.",
+      "Lege Tomaten- und Mozzarellascheiben abwechselnd fächerförmig auf einen Teller und stecke Basilikumblätter dazwischen.",
+      "Salze die Tomaten leicht, pfeffere alles und beträufle den Salat großzügig mit 3 EL Olivenöl.",
+      "Gib nach Wunsch ein paar Tropfen Balsamico und eine Prise Oregano darüber und serviere sofort mit Weißbrot."
+    ],
+    "tags": [
+      "sommer",
+      "schnell",
+      "klassiker",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "w-apfel-zimt-waffeln",
+    "title": "Apfel-Zimt-Waffeln",
+    "description": "Fluffige Waffeln mit geriebenem Apfel und Zimt im Teig, außen goldbraun und innen saftig – der Duft nach Wochenende.",
+    "emoji": "🧇",
+    "category": "fruehstueck",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 410,
+      "protein": 10,
+      "carbs": 52,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "apfel",
+        "name": "Äpfel",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "apfelmus",
+        "name": "Apfelmus",
+        "amount": 150,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schmilz die Butter und lass sie etwas abkühlen. Schäle die Äpfel und reibe sie grob.",
+      "Schlage Eier, Zucker und Vanillezucker 2 Minuten schaumig und rühre Butter und Milch unter.",
+      "Rühre Mehl, Backpulver, Zimt und eine Prise Salz nur kurz unter, hebe die Apfelraspel unter und lass den Teig 10 Minuten ruhen.",
+      "Heize das Waffeleisen vor, fette es leicht ein und backe je eine Kelle Teig 3–4 Minuten goldbraun. Das ergibt etwa 8 Waffeln.",
+      "Bestäube die Waffeln mit Puderzucker und serviere sie warm mit Apfelmus."
+    ],
+    "tags": [
+      "süß",
+      "wochenende",
+      "kinder",
+      "schnell"
+    ]
+  },
+  {
+    "id": "d-apfelkuchen-versunken",
+    "title": "Versunkener Apfelkuchen",
+    "description": "Lockerer Rührteig, in den saftige Apfelspalten einsinken – der klassische Sonntagskuchen, der mit Puderzucker und Zimt immer gelingt.",
+    "emoji": "🥧",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 80,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 280,
+      "protein": 5,
+      "carbs": 40,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "apfel",
+        "name": "Äpfel (säuerlich)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 30,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 175 °C Ober-/Unterhitze vor und fette eine Springform (26 cm) ein.",
+      "Schäle die Äpfel, viertle sie, entferne das Kerngehäuse und schneide die Viertel oben mehrfach längs ein. Beträufle sie mit Zitronensaft.",
+      "Schlage Butter, Zucker und Vanillezucker 3 Minuten cremig und rühre die Eier einzeln unter.",
+      "Mische Mehl und Backpulver, rühre sie mit der Milch kurz unter den Teig und streiche ihn in die Form.",
+      "Drücke die Apfelviertel mit der eingeschnittenen Seite nach oben leicht in den Teig und bestreue sie mit Zimt und Mandelblättchen.",
+      "Backe den Kuchen 45–50 Minuten goldbraun, lass ihn 15 Minuten in der Form abkühlen und bestäube ihn mit Puderzucker."
+    ],
+    "tags": [
+      "klassiker",
+      "herbst",
+      "gaeste",
+      "kaffee"
+    ]
+  },
+  {
+    "id": "m-matjes-hausfrauenart",
+    "title": "Matjes nach Hausfrauenart",
+    "description": "Zarte Matjesfilets in einer cremigen Sauce aus Schmand, Apfel, Zwiebel und Gewürzgurken – dazu Pellkartoffeln. Norddeutsch, erfrischend und ganz ohne Herd für die Sauce.",
+    "emoji": "🐠",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 610,
+      "protein": 28,
+      "carbs": 40,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hering",
+        "name": "Matjesfilets",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "apfel",
+        "name": "Säuerlicher Apfel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "essiggurken",
+        "name": "Gewürzgurken",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "dill",
+        "name": "Dill, gehackt",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone (Saft)",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kleine festkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Wasche die Kartoffeln und koche sie mit Schale in Salzwasser etwa 20–25 Minuten gar.",
+      "Verrühre inzwischen Schmand, Joghurt, Zitronensaft, Zucker, Salz und Pfeffer zu einer glatten Sauce.",
+      "Schneide Apfel, Zwiebel und Gewürzgurken in feine Würfel oder Streifen und hebe sie mit dem Dill unter die Sauce.",
+      "Tupfe die Matjesfilets trocken, schneide sie in mundgerechte Stücke und lege sie in die Sauce. Lasse alles mindestens 10 Minuten im Kühlschrank durchziehen.",
+      "Pelle die Kartoffeln, richte sie mit dem Matjes an und bestreue alles mit etwas Dill."
+    ],
+    "tags": [
+      "klassiker",
+      "sommer",
+      "schnell",
+      "fisch"
+    ]
+  },
+  {
+    "id": "m-krustenbraten-biersauce",
+    "title": "Krustenbraten mit Biersauce",
+    "description": "Schweinebraten mit krachender Kruste und dunkler Sauce aus Malzbier, Zwiebeln und Wurzelgemüse. Bayerische Wirtshausküche für ein gemütliches Sonntagsessen.",
+    "emoji": "🍺",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 170,
+    "difficulty": "anspruchsvoll",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 48,
+      "carbs": 12,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "schweinefleisch",
+        "name": "Schweinebraten mit Schwarte (Schulter)",
+        "amount": 1800,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sellerie",
+        "name": "Knollensellerie",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Kümmel",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "bier",
+        "name": "Dunkles Bier oder Malzbier",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Brühe",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "senf",
+        "name": "Senf",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 1,
+        "unit": "EL",
+        "optional": true
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide die Schwarte mit einem scharfen Messer rautenförmig ein, ohne ins Fleisch zu schneiden. Reibe den Braten rundherum mit Salz, Pfeffer, Kümmel und gepresstem Knoblauch ein, die Fleischseite zusätzlich mit Senf.",
+      "Heize den Ofen auf 160 °C Ober-/Unterhitze vor. Schneide Zwiebeln, Karotten und Sellerie grob und brate sie in einem Bräter in 2 EL Öl 5 Minuten an. Röste das Tomatenmark kurz mit.",
+      "Gieße Bier und Brühe an, lege den Braten mit der Schwarte nach oben hinein (die Schwarte darf nicht in der Flüssigkeit liegen) und schiebe den Bräter offen in den Ofen.",
+      "Gare den Braten 2 Stunden und übergieße das Fleisch (nicht die Schwarte) alle 30 Minuten mit Bratensaft.",
+      "Erhöhe die Temperatur auf 230 °C Grill/Oberhitze und lasse die Schwarte 10–15 Minuten aufpoppen, bis sie knusprig ist. Behalte sie im Auge, damit sie nicht verbrennt.",
+      "Nimm den Braten heraus und lasse ihn 10 Minuten ruhen. Passiere die Sauce durch ein Sieb, koche sie ein, binde sie bei Bedarf mit angerührter Stärke und schmecke sie ab.",
+      "Schneide den Braten in Scheiben und serviere ihn mit Sauce, Semmelknödeln und Krautsalat."
+    ],
+    "tags": [
+      "klassiker",
+      "wochenende",
+      "gaeste",
+      "ofengericht"
+    ]
+  },
+  {
+    "id": "m-spaghetti-bolognese",
+    "title": "Spaghetti Bolognese",
+    "description": "Ein langsam geschmortes Ragù aus Rinderhack, Wurzelgemüse, Rotwein und Tomaten, das seine Zeit braucht und mit jeder Minute besser wird. Der Familienliebling schlechthin.",
+    "emoji": "🍝",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 90,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 38,
+      "carbs": 78,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "rinderhack",
+        "name": "Rinderhack",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "stangensellerie",
+        "name": "Stangensellerie",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "rotwein",
+        "name": "Rotwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "spaghetti",
+        "name": "Spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan, gerieben",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel, Karotte und Sellerie sehr fein. Dünste das Gemüse in 2 EL Olivenöl in einem weiten Topf 8 Minuten weich, bis es süßlich duftet.",
+      "Gib das Hackfleisch dazu und brate es bei hoher Hitze krümelig und braun, etwa 8 Minuten. Röste gehackten Knoblauch und Tomatenmark 1 Minute mit.",
+      "Lösche mit Rotwein ab und lasse ihn fast vollständig verkochen. Gieße die Tomaten und die Milch dazu, würze mit Salz und Pfeffer.",
+      "Lasse das Ragù bei kleinster Hitze mindestens 60 Minuten offen köcheln, rühre gelegentlich um und gib bei Bedarf etwas Wasser dazu.",
+      "Koche die Spaghetti in reichlich Salzwasser nach Packungsangabe al dente, gieße sie ab und mische sie mit dem Ragù.",
+      "Serviere die Bolognese mit frisch geriebenem Parmesan."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "meal-prep",
+      "comfort-food"
+    ]
+  },
+  {
+    "id": "d-apfelstrudel",
+    "title": "Apfelstrudel mit Blätterteig",
+    "description": "Schneller Apfelstrudel aus fertigem Blätterteig mit zimtiger Apfel-Rosinen-Füllung – knusprig außen, saftig innen und perfekt mit Vanilleeis.",
+    "emoji": "🍎",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "einfach",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 390,
+      "protein": 5,
+      "carbs": 52,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "blaetterteig",
+        "name": "Blätterteig (Rolle, ca. 275 g)",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "apfel",
+        "name": "Äpfel (säuerlich, z. B. Boskoop)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitronensaft",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "eier",
+        "name": "Ei zum Bestreichen",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober-/Unterhitze vor. Schäle die Äpfel, entkerne sie und schneide sie in dünne Scheiben. Mische sie mit Zitronensaft, Zucker, Zimt und Rosinen.",
+      "Röste die Semmelbrösel in 20 g Butter in einer Pfanne 3 Minuten goldbraun und lass sie kurz abkühlen.",
+      "Rolle den Blätterteig samt Backpapier aus und streue die gerösteten Brösel längs auf die Mitte, dabei an den Rändern je 3 cm frei lassen.",
+      "Verteile die Apfelmischung auf den Bröseln, klappe die kurzen Seiten ein und rolle den Strudel mithilfe des Backpapiers von der langen Seite her auf.",
+      "Lege den Strudel mit der Naht nach unten auf ein Backblech, bestreiche ihn mit verquirltem Ei und der restlichen zerlassenen Butter.",
+      "Backe den Strudel 30–35 Minuten goldbraun, lass ihn 10 Minuten ruhen und bestäube ihn mit Puderzucker."
+    ],
+    "tags": [
+      "klassiker",
+      "winter",
+      "gaeste",
+      "suess"
+    ]
+  },
+  {
+    "id": "s-huehnersuppe",
+    "title": "Klassische Hühnersuppe",
+    "description": "Kräftige Hühnerbrühe mit zartem Fleisch, Suppengemüse und Nudeln – das Wohlfühlrezept für kalte Tage.",
+    "emoji": "🍗",
+    "category": "suppe",
+    "cuisine": "deutsch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 90,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 380,
+      "protein": 32,
+      "carbs": 30,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkel",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "lauch",
+        "name": "Lauch",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sellerie",
+        "name": "Knollensellerie",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblätter",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "nudeln",
+        "name": "Suppennudeln",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser",
+        "amount": 2000,
+        "unit": "ml"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer, ganz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Halbiere die Zwiebel ungeschält und röste sie mit der Schnittfläche nach unten in einem großen Topf ohne Fett 3 Minuten dunkel an.",
+      "Gib die Hähnchenschenkel, Lorbeer, 6 Pfefferkörner, 1 TL Salz und 2 Liter kaltes Wasser dazu. Bringe alles langsam zum Kochen und schöpfe den Schaum ab.",
+      "Lass die Brühe 50 Minuten ganz leise ziehen – sie darf nur simmern, nicht sprudelnd kochen.",
+      "Schneide inzwischen Karotten, Lauch und Sellerie in feine Würfel oder Ringe.",
+      "Nimm das Fleisch heraus, gieße die Brühe durch ein Sieb zurück in den Topf und koche das Gemüse darin 10 Minuten.",
+      "Gib die Suppennudeln dazu und koche sie nach Packungsangabe (etwa 6 Minuten).",
+      "Zupfe das Hähnchenfleisch von den Knochen, gib es in die Suppe und schmecke sie mit Salz, Pfeffer und Muskat ab. Mit gehackter Petersilie servieren."
+    ],
+    "tags": [
+      "klassiker",
+      "winter",
+      "meal-prep",
+      "kinder"
+    ]
+  },
+  {
+    "id": "s-quinoa-salat-granatapfel",
+    "title": "Quinoa-Salat mit Granatapfel",
+    "description": "Fluffiger Quinoa mit Kichererbsen, Gurke, Granatapfelkernen und viel Petersilie und Minze – ein Powersalat fürs Büro.",
+    "emoji": "🌱",
+    "category": "salat",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "glutenfrei",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 360,
+      "protein": 12,
+      "carbs": 48,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "key": "quinoa",
+        "name": "Quinoa",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "granatapfel",
+        "name": "Granatapfel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Salatgurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen (Dose, abgetropft)",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "minze",
+        "name": "Minze",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Spüle den Quinoa gründlich in einem feinen Sieb, koche ihn mit 400 ml Wasser und 0,5 TL Salz auf und lass ihn zugedeckt 15 Minuten bei kleiner Hitze quellen. Lockere ihn mit einer Gabel auf und lass ihn abkühlen.",
+      "Halbiere den Granatapfel und klopfe die Kerne mit einem Löffel über einer Schüssel heraus.",
+      "Würfle Gurke klein, halbiere die Cherrytomaten, schneide Frühlingszwiebeln in Ringe und hacke Petersilie und Minze fein.",
+      "Verrühre Zitronensaft, 3 EL Olivenöl, Kreuzkümmel, Salz und Pfeffer zu einem Dressing.",
+      "Mische Quinoa, Kichererbsen, Gemüse, Kräuter und Granatapfelkerne mit dem Dressing und lass den Salat 10 Minuten durchziehen. Nochmals abschmecken."
+    ],
+    "tags": [
+      "meal-prep",
+      "leicht",
+      "sommer",
+      "vegan"
+    ]
+  },
+  {
+    "id": "d-kaesekuchen",
+    "title": "Klassischer Käsekuchen mit Mürbeteigboden",
+    "description": "Cremiger Quark-Käsekuchen auf knusprigem Mürbeteig – hoch, saftig und ohne Risse dank langsamem Backen und Abkühlen im Ofen.",
+    "emoji": "🥮",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 100,
+    "difficulty": "mittel",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 365,
+      "protein": 14,
+      "carbs": 40,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, kalt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "quark",
+        "name": "Magerquark",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Vanillepuddingpulver",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Neutrales Pflanzenöl",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb und Saft)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 2,
+        "unit": "Packung"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      }
+    ],
+    "steps": [
+      "Verknete Mehl, kalte Butter in Stücken, 70 g Zucker, Backpulver, 1 Ei und Salz rasch zu einem Mürbeteig. Wickle ihn in Folie und stelle ihn 30 Minuten kalt.",
+      "Heize den Ofen auf 170 °C Ober-/Unterhitze vor. Rolle den Teig aus und lege eine gefettete Springform (26 cm) damit aus, dabei einen 3 cm hohen Rand formen.",
+      "Verrühre Quark, die restlichen 150 g Zucker, Vanillezucker, Puddingpulver, Öl, Zitronenabrieb und 2 EL Zitronensaft glatt.",
+      "Trenne die restlichen 3 Eier. Rühre die Eigelbe unter die Quarkmasse, schlage die Eiweiße steif und hebe sie vorsichtig unter.",
+      "Fülle die Masse auf den Boden und backe den Kuchen 60 Minuten, bis die Oberfläche goldgelb ist und die Mitte nur noch leicht wackelt.",
+      "Schalte den Ofen aus und lass den Kuchen bei leicht geöffneter Tür 30 Minuten im Ofen abkühlen, damit er nicht einfällt.",
+      "Lass den Käsekuchen vollständig auskühlen und stelle ihn vor dem Anschneiden 2 Stunden in den Kühlschrank."
+    ],
+    "tags": [
+      "klassiker",
+      "gaeste",
+      "kaffee",
+      "suess"
+    ]
+  },
+  {
+    "id": "m-saltimbocca",
+    "title": "Saltimbocca alla Romana",
+    "description": "Hauchdünne Schweineschnitzel mit Parmaschinken und Salbei, kurz gebraten und mit Weißweinbutter abgelöscht. Römische Küche, die in 25 Minuten auf dem Teller ist.",
+    "emoji": "🌿",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "lowcarb"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 420,
+      "protein": 44,
+      "carbs": 6,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "schweineschnitzel",
+        "name": "Dünne Schweine- oder Kalbsschnitzel (à 70 g)",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "schinken",
+        "name": "Parmaschinken",
+        "amount": 8,
+        "unit": "Scheibe"
+      },
+      {
+        "key": "salbei",
+        "name": "Salbeiblätter",
+        "amount": 16,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "weisswein",
+        "name": "Trockener Weißwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat (als Beilage)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Klopfe die Schnitzel dünn, pfeffere sie leicht (salzen nicht nötig, der Schinken ist salzig). Belege jedes mit einer Scheibe Schinken und zwei Salbeiblättern und fixiere alles mit einem Zahnstocher.",
+      "Wende die Schnitzel nur auf der Fleischseite leicht in Mehl.",
+      "Erhitze 1 EL Olivenöl und 20 g Butter in einer großen Pfanne bei hoher Hitze. Brate die Saltimbocca mit der Schinkenseite nach unten 2 Minuten, wende sie und brate sie 1 weitere Minute. Halte sie warm.",
+      "Lösche die Pfanne mit Weißwein ab, kratze den Bratensatz los und lasse den Wein 2 Minuten einkochen. Schwenke die restliche Butter und einen Spritzer Zitronensaft ein.",
+      "Dünste den Spinat in einer zweiten Pfanne mit etwas Olivenöl 3 Minuten zusammen, salze ihn und serviere ihn mit den Saltimbocca und der Sauce."
+    ],
+    "tags": [
+      "schnell",
+      "gaeste",
+      "lowcarb",
+      "feierabend"
+    ]
+  },
+  {
+    "id": "m-lachs-zitronen-pasta",
+    "title": "Cremige Zitronen-Lachs-Pasta",
+    "description": "Lachswürfel in einer leichten Sauce aus Crème fraîche, Zitrone und Dill, mit Erbsen und Nudeln – ein feines Feierabendessen, das in 20 Minuten steht.",
+    "emoji": "🍋",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 42,
+      "carbs": 84,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "lachs",
+        "name": "Lachsfilet ohne Haut",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "nudeln",
+        "name": "Tagliatelle",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "erbsen",
+        "name": "TK-Erbsen",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb und Saft)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "dill",
+        "name": "Dill, gehackt",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Tagliatelle in Salzwasser nach Packungsangabe al dente, gib die Erbsen in den letzten 2 Minuten dazu. Fange 100 ml Nudelwasser ab.",
+      "Schneide den Lachs in 3 cm große Würfel und würze sie mit Salz und Pfeffer. Würfle Schalotte und Knoblauch fein.",
+      "Brate die Lachswürfel in 1 EL Olivenöl bei mittelhoher Hitze 2 Minuten pro Seite an und nimm sie aus der Pfanne.",
+      "Dünste Schalotte und Knoblauch 2 Minuten in der Pfanne, rühre Crème fraîche, Zitronenabrieb, 2 EL Zitronensaft und das Nudelwasser ein und lasse die Sauce kurz aufkochen.",
+      "Gib Nudeln, Erbsen, Lachs und Dill in die Sauce, schwenke alles vorsichtig durch und serviere mit gehobeltem Parmesan."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "fisch",
+      "frühling"
+    ]
+  },
+  {
+    "id": "m-lasagne-classica",
+    "title": "Lasagne al Forno",
+    "description": "Schichten aus würzigem Hackfleischragù, cremiger Béchamel und Nudelplatten unter einer goldenen Käsekruste. Ein Wochenendprojekt, das eine ganze Familie satt und glücklich macht.",
+    "emoji": "🧀",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich"
+    ],
+    "timeMinutes": 100,
+    "difficulty": "mittel",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 680,
+      "protein": 38,
+      "carbs": 48,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Gehackte Tomaten (Dose)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 700,
+        "unit": "ml"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "lasagneplatten",
+        "name": "Lasagneplatten",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Geriebener Käse (Mozzarella/Parmesan)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle die Zwiebel fein und dünste sie in 2 EL Olivenöl 5 Minuten. Gib das Hackfleisch dazu und brate es 8 Minuten krümelig an.",
+      "Röste Knoblauch und Tomatenmark 1 Minute mit, gib die Tomaten dazu, würze mit Salz und Pfeffer und lasse das Ragù 25 Minuten köcheln.",
+      "Für die Béchamel schmelze die Butter, rühre das Mehl ein und gieße unter Rühren nach und nach die Milch an. Lasse die Sauce 5 Minuten köcheln und würze sie mit Salz, Pfeffer und Muskat.",
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor. Verteile etwas Béchamel in einer Auflaufform (ca. 25 × 35 cm) und schichte abwechselnd Nudelplatten, Ragù und Béchamel, bis alles aufgebraucht ist. Schließe mit Béchamel ab.",
+      "Bestreue die Lasagne mit Käse und backe sie 40 Minuten, bis die Oberfläche goldbraun ist und die Nudeln weich sind.",
+      "Lasse die Lasagne 10 Minuten ruhen, damit sie sich gut schneiden lässt, und serviere sie mit grünem Salat."
+    ],
+    "tags": [
+      "klassiker",
+      "ofengericht",
+      "kinder",
+      "wochenende",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "d-kaiserschmarrn",
+    "title": "Kaiserschmarrn mit Apfelmus",
+    "description": "Fluffiger, karamellisierter Pfannkuchenschmarrn nach österreichischer Art mit Rosinen und Puderzucker – dazu ein Klecks Apfelmus.",
+    "emoji": "🥞",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 790,
+      "protein": 22,
+      "carbs": 105,
+      "fat": 28
+    },
+    "ingredients": [
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 40,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "puderzucker",
+        "name": "Puderzucker",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "apfelmus",
+        "name": "Apfelmus",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Trenne die Eier. Verrühre Eigelbe, Milch, Mehl, Vanillezucker und die Hälfte des Zuckers zu einem glatten Teig.",
+      "Schlage die Eiweiße mit Salz und dem restlichen Zucker steif und hebe sie locker unter den Teig.",
+      "Erhitze 20 g Butter in einer großen beschichteten Pfanne bei mittlerer Hitze. Gieße den Teig hinein, streue die Rosinen darüber und backe ihn zugedeckt 4–5 Minuten, bis die Unterseite goldbraun ist.",
+      "Teile den Schmarrn mit zwei Pfannenwendern in Viertel, wende sie und backe sie weitere 3 Minuten.",
+      "Zerreiße den Schmarrn in mundgerechte Stücke, gib die restliche Butter und 1 EL Puderzucker dazu und lass alles 2 Minuten bei höherer Hitze karamellisieren.",
+      "Bestäube den Kaiserschmarrn mit dem restlichen Puderzucker und serviere ihn sofort mit Apfelmus."
+    ],
+    "tags": [
+      "klassiker",
+      "schnell",
+      "kinder",
+      "suess"
+    ]
+  },
+  {
+    "id": "s-miso-ramen",
+    "title": "Miso-Ramen mit Ei",
+    "description": "Schnelle vegetarische Ramen mit würziger Miso-Brühe, Pak Choi, Pilzen und einem wachsweichen Ei.",
+    "emoji": "🍜",
+    "category": "suppe",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 22,
+      "carbs": 72,
+      "fat": 15
+    },
+    "ingredients": [
+      {
+        "key": "ramen-nudeln",
+        "name": "Ramen-Nudeln",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "miso",
+        "name": "Helle Miso-Paste",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "champignons",
+        "name": "Shiitake oder Champignons",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam, geröstet",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "nori",
+        "name": "Nori-Blatt",
+        "amount": 1,
+        "unit": "Stück",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Koche die Eier 6,5 Minuten in sprudelndem Wasser, schrecke sie eiskalt ab und pelle sie vorsichtig – das Eigelb soll noch cremig sein.",
+      "Reibe Knoblauch und Ingwer fein und brate beides in einem Topf mit dem Sesamöl 1 Minute an. Gieße die Gemüsebrühe an und lass sie 10 Minuten köcheln.",
+      "Schneide die Pilze in Scheiben und brate sie in einer Pfanne ohne Fett 5 Minuten braun. Halbiere den Pak Choi und lege ihn die letzten 2 Minuten in die Brühe.",
+      "Koche die Ramen-Nudeln nach Packungsangabe (etwa 3 Minuten), gieße sie ab und verteile sie auf zwei Schalen.",
+      "Nimm den Topf vom Herd, rühre Miso-Paste und Sojasauce in die Brühe ein (Miso nicht mehr kochen) und schmecke ab.",
+      "Gieße die Brühe über die Nudeln und belege mit Pak Choi, Pilzen, halbiertem Ei, Frühlingszwiebelringen, Sesam und Nori-Streifen."
+    ],
+    "tags": [
+      "schnell",
+      "asiatisch",
+      "winter",
+      "leicht"
+    ]
+  },
+  {
+    "id": "s-couscous-salat",
+    "title": "Couscous-Salat mit Kräutern",
+    "description": "Schneller orientalischer Couscous-Salat mit Paprika, Gurke, Tomaten, Minze und Zitrone – ideal für Buffet, Grillabend und Lunchbox.",
+    "emoji": "🥙",
+    "category": "salat",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan",
+      "laktosefrei",
+      "kalorienarm"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 340,
+      "protein": 9,
+      "carbs": 52,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "couscous",
+        "name": "Couscous",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe, heiß",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Salatgurke",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "minze",
+        "name": "Minze",
+        "amount": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "harissa",
+        "name": "Harissa",
+        "amount": 1,
+        "unit": "TL",
+        "optional": true
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Gib den Couscous in eine Schüssel, übergieße ihn mit der heißen Gemüsebrühe und 1 EL Olivenöl und lass ihn zugedeckt 10 Minuten quellen.",
+      "Würfle Paprika und Gurke klein, viertle die Cherrytomaten und schneide die Frühlingszwiebeln in feine Ringe.",
+      "Hacke Petersilie und Minze fein.",
+      "Lockere den Couscous mit einer Gabel auf und lass ihn 5 Minuten abkühlen.",
+      "Verrühre Zitronensaft, 3 EL Olivenöl, Kreuzkümmel, Harissa, Salz und Pfeffer und mische alles mit Couscous, Gemüse und Kräutern. Vor dem Servieren nochmal abschmecken."
+    ],
+    "tags": [
+      "schnell",
+      "meal-prep",
+      "grillen",
+      "party"
+    ]
+  },
+  {
+    "id": "d-chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "description": "Amerikanische Cookies mit knusprigem Rand, weichem Kern und vielen Schokostückchen – ein Teig, den du auch portionsweise einfrieren kannst.",
+    "emoji": "🍪",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "einfach",
+    "servings": 20,
+    "nutrition": {
+      "kcal": 210,
+      "protein": 3,
+      "carbs": 25,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "butter",
+        "name": "Butter, weich",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Ei",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleextrakt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Zartbitterschokolade, grob gehackt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse, gehackt",
+        "amount": 50,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Schlage die weiche Butter mit braunem Zucker und Zucker 2 Minuten cremig. Rühre Ei und Vanilleextrakt unter.",
+      "Mische Mehl, Natron und Salz und rühre sie nur kurz unter die Buttermasse. Hebe Schokolade und Walnüsse unter.",
+      "Stelle den Teig 30 Minuten in den Kühlschrank, damit die Cookies beim Backen nicht zu flach laufen.",
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und lege zwei Bleche mit Backpapier aus.",
+      "Forme aus dem Teig 20 Kugeln (je ca. 40 g) und setze sie mit 5 cm Abstand auf die Bleche.",
+      "Backe die Cookies 10–12 Minuten, bis die Ränder goldbraun sind und die Mitte noch weich aussieht. Lass sie 5 Minuten auf dem Blech fest werden."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "schokolade",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "m-spaghetti-vongole",
+    "title": "Spaghetti alle Vongole",
+    "description": "Frische Venusmuscheln, Knoblauch, Chili, Weißwein und Petersilie – mehr braucht dieses neapolitanische Nudelgericht nicht. Schmeckt nach Urlaub und ist in 25 Minuten fertig.",
+    "emoji": "🐚",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 30,
+      "carbs": 82,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "muscheln",
+        "name": "Frische Venusmuscheln (Vongole)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "spaghetti",
+        "name": "Spaghetti",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chili",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "weisswein",
+        "name": "Trockener Weißwein",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 150,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "key": "petersilie",
+        "name": "Glatte Petersilie, gehackt",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Lege die Muscheln 15 Minuten in kaltes Salzwasser, damit sie Sand abgeben. Sortiere geöffnete Muscheln aus, die sich beim Anklopfen nicht schließen.",
+      "Koche die Spaghetti in Salzwasser 1 Minute kürzer als auf der Packung angegeben und fange 100 ml Nudelwasser ab.",
+      "Erhitze das Olivenöl in einer großen Pfanne und dünste in Scheiben geschnittenen Knoblauch und Chiliringe 1 Minute bei mittlerer Hitze, ohne dass sie braun werden. Gib die halbierten Tomaten dazu.",
+      "Gib die Muscheln und den Weißwein in die Pfanne, decke sie zu und lasse die Muscheln bei hoher Hitze 3–4 Minuten dämpfen, bis sie sich geöffnet haben. Entferne geschlossene Muscheln.",
+      "Gib die Spaghetti mit etwas Nudelwasser und der Petersilie in die Pfanne und schwenke alles 1 Minute, bis sich die Sauce sämig um die Nudeln legt.",
+      "Schmecke mit Pfeffer, wenig Salz und einem Spritzer Zitrone ab und serviere sofort."
+    ],
+    "tags": [
+      "schnell",
+      "sommer",
+      "gaeste",
+      "fisch"
+    ]
+  },
+  {
+    "id": "m-pollo-cacciatore",
+    "title": "Pollo alla Cacciatora",
+    "description": "Hähnchenschenkel nach Jägerart, geschmort mit Tomaten, Paprika, Oliven, Rosmarin und Weißwein. Ein rustikaler italienischer Schmortopf mit knusprigem Brot zum Tunken.",
+    "emoji": "🍅",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei",
+      "laktosefrei"
+    ],
+    "timeMinutes": 75,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 520,
+      "protein": 42,
+      "carbs": 14,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "haehnchenschenkel",
+        "name": "Hähnchenschenkel, geteilt in Ober- und Unterkeule",
+        "amount": 8,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Stückige Tomaten (Dose)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "oliven",
+        "name": "Schwarze Oliven",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Rosmarin",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "lorbeer",
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würze die Hähnchenteile mit Salz und Pfeffer und brate sie in 3 EL Olivenöl in einem Schmortopf bei hoher Hitze auf der Hautseite 6 Minuten knusprig an, wende sie kurz und nimm sie heraus.",
+      "Brate Zwiebelstreifen, Paprikastreifen und geviertelte Champignons im Bratfett 6 Minuten an, gib gehackten Knoblauch dazu.",
+      "Lösche mit Weißwein ab, lasse ihn 2 Minuten einkochen, gib Tomaten, Rosmarin, Lorbeer und Oliven dazu und würze mit Salz und Pfeffer.",
+      "Lege das Hähnchen mit der Haut nach oben in die Sauce und schmore alles zugedeckt bei kleiner Hitze 40 Minuten, bis das Fleisch fast vom Knochen fällt.",
+      "Lasse die Sauce zum Schluss offen 5 Minuten einkochen und serviere das Gericht mit Ciabatta, Polenta oder Kartoffeln."
+    ],
+    "tags": [
+      "one-pot",
+      "wochenende",
+      "comfort-food",
+      "gaeste"
+    ]
+  },
+  {
+    "id": "m-garnelen-risotto",
+    "title": "Garnelen-Risotto mit Zitrone",
+    "description": "Cremiges Risotto mit knackigen Garnelen, Zitrone, Erbsen und Parmesan – langsam gerührt und in 40 Minuten ein elegantes Abendessen.",
+    "emoji": "🍤",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "proteinreich",
+      "glutenfrei"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 30,
+      "carbs": 68,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "garnelen",
+        "name": "Garnelen, geschält",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "risottoreis",
+        "name": "Risottoreis (Arborio/Carnaroli)",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Schalotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüse- oder Fischbrühe, heiß",
+        "amount": 1200,
+        "unit": "ml"
+      },
+      {
+        "key": "erbsen",
+        "name": "TK-Erbsen",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan, gerieben",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Schalotten und Knoblauch fein. Dünste die Schalotten in 2 EL Olivenöl in einem weiten Topf 3 Minuten glasig, gib den Reis dazu und röste ihn 2 Minuten, bis die Körner glasig sind.",
+      "Lösche mit Weißwein ab und rühre, bis er aufgesogen ist. Gib dann kellenweise heiße Brühe dazu und rühre regelmäßig, bis die Flüssigkeit jeweils aufgenommen ist – insgesamt etwa 18 Minuten.",
+      "Brate währenddessen die Garnelen mit dem Knoblauch in 1 EL Olivenöl bei hoher Hitze 2 Minuten pro Seite, würze mit Salz, Pfeffer und dem Abrieb der Zitrone.",
+      "Rühre in den letzten 3 Minuten die Erbsen ins Risotto. Nimm den Topf vom Herd und rühre Butter, Parmesan und 2 EL Zitronensaft ein. Das Risotto soll schön fließend sein.",
+      "Schmecke ab, verteile das Risotto auf Teller, lege die Garnelen darauf und bestreue alles mit Petersilie."
+    ],
+    "tags": [
+      "gaeste",
+      "fisch",
+      "comfort-food",
+      "frühling"
+    ]
+  },
+  {
+    "id": "d-milchreis-zimt",
+    "title": "Cremiger Milchreis mit Zimt und Kirschen",
+    "description": "Sämiger Milchreis wie aus der Kindheit, mit Vanille gekocht und mit Zimtzucker und warmen Kirschen serviert.",
+    "emoji": "🍚",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch",
+      "glutenfrei"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 530,
+      "protein": 13,
+      "carbs": 90,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "milchreis",
+        "name": "Milchreis",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "vanille",
+        "name": "Vanilleschote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "zimt",
+        "name": "Zimt",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker für den Zimtzucker",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "kirschen",
+        "name": "Sauerkirschen (Glas, mit Saft)",
+        "amount": 350,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Bringe die Milch mit Zucker, Salz, dem Vanillemark und der ausgekratzten Schote in einem großen Topf zum Kochen.",
+      "Rühre den Milchreis ein und lass ihn bei kleinster Hitze 25–30 Minuten zugedeckt quellen. Rühre alle paar Minuten um, damit nichts ansetzt.",
+      "Erwärme währenddessen die Kirschen mit ihrem Saft in einem kleinen Topf 5 Minuten bei mittlerer Hitze.",
+      "Mische Zimt und braunen Zucker zum Zimtzucker.",
+      "Rühre die Butter unter den fertigen Milchreis und entferne die Vanilleschote.",
+      "Verteile den Milchreis auf Schalen, bestreue ihn mit Zimtzucker und serviere die warmen Kirschen dazu."
+    ],
+    "tags": [
+      "klassiker",
+      "kinder",
+      "winter",
+      "suess"
+    ]
+  },
+  {
+    "id": "d-heidelbeer-muffins",
+    "title": "Heidelbeer-Muffins",
+    "description": "Luftige Muffins mit frischen Heidelbeeren und einem Hauch Zitrone – in 45 Minuten fertig und ideal für Frühstück, Brunch oder die Brotdose.",
+    "emoji": "🧁",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 240,
+      "protein": 4,
+      "carbs": 34,
+      "fat": 10
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 280,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 2.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Neutrales Pflanzenöl",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitrone (Abrieb)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "heidelbeeren",
+        "name": "Heidelbeeren",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "haferflocken",
+        "name": "Haferflocken zum Bestreuen",
+        "amount": 2,
+        "unit": "EL",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und setze 12 Papierförmchen in ein Muffinblech.",
+      "Mische Mehl, Zucker, Backpulver und Salz in einer großen Schüssel.",
+      "Verquirle Eier, Milch, Öl, Vanillezucker und Zitronenabrieb in einer zweiten Schüssel.",
+      "Gieße die flüssigen Zutaten zu den trockenen und rühre nur so lange, bis kein Mehl mehr zu sehen ist – Klümpchen sind in Ordnung.",
+      "Wende die Heidelbeeren in 1 EL Mehl und hebe sie vorsichtig unter den Teig.",
+      "Verteile den Teig auf die Förmchen, bestreue ihn mit Haferflocken und backe die Muffins 20–22 Minuten, bis sie goldbraun sind."
+    ],
+    "tags": [
+      "schnell",
+      "kinder",
+      "meal-prep",
+      "sommer"
+    ]
+  },
+  {
+    "id": "m-teriyaki-lachs",
+    "title": "Teriyaki-Lachs mit Sesam-Reis",
+    "description": "Lachsfilet in glänzender Teriyaki-Glasur aus Sojasauce, Honig und Ingwer, dazu Reis und knackiger Pak Choi. In 20 Minuten auf dem Tisch und voller Umami.",
+    "emoji": "🍱",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 690,
+      "protein": 40,
+      "carbs": 72,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "lachs",
+        "name": "Lachsfilet mit Haut (à 180 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig oder Mirin",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer, gerieben",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "sushireis",
+        "name": "Sushireis oder Jasminreis",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Wasche den Reis, bis das Wasser klar bleibt, und koche ihn mit 220 ml Wasser und einer Prise Salz zugedeckt 12 Minuten bei kleiner Hitze. Lasse ihn 5 Minuten nachquellen.",
+      "Verrühre Sojasauce, Honig, Reisessig, Ingwer und gepressten Knoblauch zur Teriyaki-Sauce.",
+      "Brate den Lachs in 1 EL Öl bei mittelhoher Hitze zuerst 4 Minuten auf der Hautseite, wende ihn und brate ihn 1 Minute weiter.",
+      "Gieße die Sauce in die Pfanne und lasse sie 2–3 Minuten einkochen, dabei den Lachs immer wieder mit der Glasur übergießen, bis sie sirupartig ist.",
+      "Halbiere den Pak Choi und brate ihn in einer zweiten Pfanne mit Sesamöl 3 Minuten, bis die Stiele bissfest sind. Serviere Lachs und Pak Choi auf dem Reis, bestreut mit Sesam und Frühlingszwiebelringen."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "fisch",
+      "asiatisch"
+    ]
+  },
+  {
+    "id": "m-pad-thai-garnelen",
+    "title": "Pad Thai mit Garnelen",
+    "description": "Gebratene Reisnudeln mit Garnelen, Ei, Sprossen und Erdnüssen in einer süß-sauren Sauce aus Fischsauce, Tamarinde und Limette – das thailändische Streetfood aus dem Wok.",
+    "emoji": "🍜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "proteinreich",
+      "laktosefrei"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 34,
+      "carbs": 74,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "garnelen",
+        "name": "Garnelen, geschält",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "reisnudeln",
+        "name": "Breite Reisnudeln",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "fischsauce",
+        "name": "Fischsauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "brauner-zucker",
+        "name": "Brauner Zucker oder Palmzucker",
+        "amount": 1.5,
+        "unit": "EL"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "essig",
+        "name": "Tamarindenpaste oder Reisessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "sprossen",
+        "name": "Mungbohnensprossen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "erdnuesse",
+        "name": "Erdnüsse, gehackt",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Weiche die Reisnudeln nach Packungsangabe in warmem Wasser ein, bis sie biegsam, aber noch fest sind, und gieße sie ab.",
+      "Verrühre Fischsauce, Zucker, Tamarinde und den Saft einer halben Limette zur Sauce.",
+      "Erhitze 2 EL Öl in einem Wok bei hoher Hitze, brate die Garnelen mit gehacktem Knoblauch 2 Minuten an und schiebe sie an den Rand.",
+      "Schlage die Eier in die Mitte, verrühre sie 30 Sekunden zu Rührei und mische sie unter die Garnelen.",
+      "Gib Nudeln und Sauce dazu und brate alles 2–3 Minuten unter ständigem Wenden, bis die Nudeln die Sauce aufgesogen haben und weich sind.",
+      "Hebe Frühlingszwiebeln und die Hälfte der Sprossen unter. Serviere mit den restlichen Sprossen, Erdnüssen, Chiliflocken und Limettenspalten."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend",
+      "wok",
+      "fisch"
+    ]
   }
 ]
