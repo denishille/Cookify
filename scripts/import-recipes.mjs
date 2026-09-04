@@ -101,10 +101,41 @@ export function parseRecipe(html, url) {
   return null
 }
 
+/**
+ * Bewertung aus dem sichtbaren HTML lesen, wenn die schema.org-Daten keine enthalten.
+ * Deckt die verbreiteten Rezept-Plugins ab (WP Recipe Maker, Tasty Recipes) und
+ * schema.org-Angaben, die außerhalb des Recipe-Objekts stehen.
+ */
+export function parseRatingFromHtml(html) {
+  const num = (v) => { const n = Number(String(v).replace(',', '.')); return Number.isFinite(n) && n > 0 && n <= 5 ? n : undefined }
+  const int = (v) => { const n = Number(String(v).replace(/[^\d]/g, '')); return Number.isFinite(n) && n > 0 ? n : undefined }
+  const patterns = [
+    [/wprm-recipe-rating-average[^>]*>\s*([\d.,]+)/i, /wprm-recipe-rating-count[^>]*>\s*([\d.,]+)/i],
+    [/tasty-recipes-rating-value[^>]*>\s*([\d.,]+)/i, /tasty-recipes-rating-count[^>]*>\s*([\d.,]+)/i],
+    [/itemprop=["']ratingValue["'][^>]*content=["']([\d.,]+)["']/i, /itemprop=["']ratingCount["'][^>]*content=["']([\d.,]+)["']/i],
+    [/["']ratingValue["']\s*:\s*["']?([\d.,]+)/i, /["']ratingCount["']\s*:\s*["']?([\d.,]+)/i],
+    [/data-rating=["']([\d.,]+)["']/i, /data-rating-count=["']([\d.,]+)["']/i],
+  ]
+  for (const [rv, rc] of patterns) {
+    const rating = num((html.match(rv) ?? [])[1])
+    if (rating) return { rating: Math.round(rating * 10) / 10, ratingCount: int((html.match(rc) ?? [])[1]) }
+  }
+  return null
+}
+
 async function fetchRecipe(url) {
   const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'text/html' }, redirect: 'follow' })
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  return parseRecipe(await res.text(), url)
+  const html = await res.text()
+  const r = parseRecipe(html, url)
+  if (r && r.source.rating === undefined) {
+    const fromHtml = parseRatingFromHtml(html)
+    if (fromHtml) {
+      r.source.rating = fromHtml.rating
+      if (fromHtml.ratingCount) r.source.ratingCount = fromHtml.ratingCount
+    }
+  }
+  return r
 }
 
 /** Lädt das Bild einer Quellseite und speichert es als 800×600-JPEG unter src/assets/recipes/<id>.jpg. */
