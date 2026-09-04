@@ -444,7 +444,10 @@ svg { flex-shrink: 0; }
 .set-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .set-list li { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: var(--r); background: var(--surface); }
 .set-list li.loaded { background: var(--green-soft); }
-.set-main { flex: 1; min-width: 0; display: grid; }
+.set-main { flex: 1; min-width: 0; display: grid; text-align: left; padding: 0; }
+.set-main:hover b { color: var(--green); }
+.drawer-foot { display: flex; gap: 8px; margin-top: auto; padding-top: 12px; }
+.drawer .searchbox input { background: var(--surface); }
 .set-main b { font-weight: 700; }
 .set-main small { color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 

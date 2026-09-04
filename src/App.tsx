@@ -8,7 +8,7 @@ import { rankByPantry } from './lib/match'
 import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
-import { DEFAULT_SETS, slugId, type PantrySet } from './lib/sets'
+import { DEFAULT_SETS, type PantrySet } from './lib/sets'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
@@ -68,11 +68,7 @@ export default function App() {
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const [setsOpen, setSetsOpen] = useState(false)
   const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
-  const saveSet = (name: string) => {
-    const id = slugId(name)
-    const next: PantrySet = { id, name, keys: [...pantrySet.set] }
-    setSets((prev) => [...prev.filter((x) => x.id !== id), next])
-  }
+  const saveSet = (next: PantrySet) => setSets((prev) => (prev.some((x) => x.id === next.id) ? prev.map((x) => (x.id === next.id ? next : x)) : [...prev, next]))
   const deleteSet = (id: string) => setSets((prev) => prev.filter((x) => x.id !== id))
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sort, setSort] = useState<Sort>('standard')
