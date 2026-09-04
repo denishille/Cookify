@@ -8,6 +8,7 @@ import { rankByPantry } from './lib/match'
 import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
+import { DEFAULT_SETS, slugId, type PantrySet } from './lib/sets'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
@@ -68,6 +69,14 @@ export default function App() {
   const [storedMissing, setMaxMissing] = usePersistentState<number>('cookify.maxMissing', 3)
   const maxMissing = MISSING_OPTIONS.some((o) => o.value === storedMissing) ? storedMissing : 3
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
+  const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
+  const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
+  const saveSet = (name: string) => {
+    const id = slugId(name)
+    const next: PantrySet = { id, name, keys: [...pantrySet.set] }
+    setSets((prev) => [...prev.filter((x) => x.id !== id), next])
+  }
+  const deleteSet = (id: string) => setSets((prev) => prev.filter((x) => x.id !== id))
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sort, setSort] = useState<Sort>('standard')
 
@@ -187,7 +196,7 @@ export default function App() {
             <h1 className="h1">Was hab ich da?</h1>
             <div className="split">
               <div className="sticky">
-                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} />
+                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} sets={sets} onApplySet={applySet} onSaveSet={saveSet} onDeleteSet={deleteSet} />
               </div>
               <div>
                 {pantrySet.set.size === 0 ? (

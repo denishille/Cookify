@@ -386,6 +386,14 @@ svg { flex-shrink: 0; }
 .pantry-selected .chip { background: var(--green-soft); border-color: transparent; color: var(--green); }
 .pantry-selected .chip:hover { background: var(--surface-2); color: var(--danger); }
 
+.set-form { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.input-sm { flex: 1 1 160px; height: 36px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg); }
+.input-sm:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
+.set-chip { padding-right: 6px; gap: 2px; }
+.set-chip > button:first-child { padding: 0 2px; font: inherit; color: inherit; }
+.set-chip .x { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; opacity: 0.7; }
+.set-chip .x:hover { background: rgba(0, 0, 0, 0.12); opacity: 1; }
+
 details.browse > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.9rem; color: var(--green); }
 details.browse > summary::-webkit-details-marker { display: none; }
 details.browse > summary svg { transition: transform 0.15s ease; }
