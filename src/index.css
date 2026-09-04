@@ -185,7 +185,7 @@ svg { flex-shrink: 0; }
 .cfg { margin-top: 18px; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; align-items: end; max-width: 700px; }
 .split .cfg { margin-top: 14px; max-width: none; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .cfg-field { display: grid; gap: 4px; min-width: 0; }
-.cfg > .btn.block { grid-column: 1 / -1; width: 100%; justify-content: center; }
+.cfg > .btn.block { width: 100%; min-width: 0; padding: 0 12px; justify-content: center; }
 .cfg-field > span { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-left: 4px; }
 .cfg-field .select { width: 100%; }
 .multi { position: relative; min-width: 0; }

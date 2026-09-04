@@ -247,7 +247,7 @@ export default function App() {
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
             <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} pool={AVAILABLE} globalDiets={globalDiets}>
-              <button className="btn primary block" onClick={() => navigate('alle')}>Alle Rezepte anzeigen</button>
+              <button className="btn primary block" onClick={() => navigate('alle')}>Alle Rezepte</button>
             </FilterGroups>
 
             {!configured && (
