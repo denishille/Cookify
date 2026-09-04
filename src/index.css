@@ -414,10 +414,35 @@ svg { flex-shrink: 0; }
 .set-form { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
 .input-sm { flex: 1 1 160px; height: 36px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg); }
 .input-sm:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
-.set-chip { padding-right: 6px; gap: 2px; }
-.set-chip > button:first-child { padding: 0 2px; font: inherit; color: inherit; }
-.set-chip .x { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; opacity: 0.7; }
-.set-chip .x:hover { background: rgba(0, 0, 0, 0.12); opacity: 1; }
+/* Sets: Griff rechts + Schublade */
+.drawer-handle {
+  position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 25;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 12px 6px 12px 8px; border-radius: 14px 0 0 14px;
+  background: var(--green); color: #fff; box-shadow: var(--shadow);
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em;
+  transition: transform 0.15s ease;
+}
+.drawer-handle:hover { transform: translateY(-50%) translateX(-2px); }
+.drawer-handle span { writing-mode: vertical-rl; }
+.drawer-backdrop { position: fixed; inset: 0; z-index: 26; background: rgba(20, 30, 24, 0.35); }
+.drawer {
+  position: fixed; top: 0; right: 0; bottom: 0; z-index: 27; width: min(380px, 88vw);
+  background: var(--bg); box-shadow: var(--shadow); padding: 20px 20px calc(20px + env(safe-area-inset-bottom));
+  transform: translateX(100%); transition: transform 0.22s ease; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 18px;
+}
+.drawer.open { transform: translateX(0); }
+.drawer-head { display: flex; justify-content: space-between; align-items: center; }
+.drawer-head h2 { font-size: 1.3rem; font-weight: 700; }
+.drawer-section { display: grid; gap: 8px; }
+.btn.icon.sm { width: 36px; padding: 0; }
+.set-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.set-list li { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: var(--r); background: var(--surface); }
+.set-list li.loaded { background: var(--green-soft); }
+.set-main { flex: 1; min-width: 0; display: grid; }
+.set-main b { font-weight: 700; }
+.set-main small { color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 details.browse > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.9rem; color: var(--green); }
 details.browse > summary::-webkit-details-marker { display: none; }

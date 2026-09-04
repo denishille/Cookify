@@ -1,20 +1,15 @@
 import { useMemo, useRef, useState } from 'react'
 import { INGREDIENT_GROUPS, INGREDIENT_BY_KEY } from '../data'
 import { INGREDIENT_GROUP_LABELS } from '../types'
-import type { PantrySet } from '../lib/sets'
-import { IconChevronDown, IconPlus, IconSearch, IconX } from './Icons'
+import { IconChevronDown, IconSearch, IconX } from './Icons'
 
 interface Props {
   pantry: Set<string>
   onToggle: (key: string) => void
   onClear: () => void
-  sets: PantrySet[]
-  onApplySet: (set: PantrySet) => void
-  onSaveSet: (name: string) => void
-  onDeleteSet: (id: string) => void
 }
 
-export function PantryPicker({ pantry, onToggle, onClear, sets, onApplySet, onSaveSet, onDeleteSet }: Props) {
+export function PantryPicker({ pantry, onToggle, onClear }: Props) {
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   /** Zutat übernehmen, Feld leeren und den Fokus behalten, damit man direkt die nächste tippen kann. */
@@ -22,13 +17,6 @@ export function PantryPicker({ pantry, onToggle, onClear, sets, onApplySet, onSa
     if (!pantry.has(key)) onToggle(key)
     setQuery('')
     requestAnimationFrame(() => inputRef.current?.focus())
-  }
-  const [naming, setNaming] = useState(false)
-  const [setName, setSetName] = useState('')
-  const saveSet = () => {
-    const name = setName.trim()
-    if (!name) return
-    onSaveSet(name); setSetName(''); setNaming(false)
   }
 
   const results = useMemo(() => {
@@ -88,37 +76,6 @@ export function PantryPicker({ pantry, onToggle, onClear, sets, onApplySet, onSa
               </button>
             ))}
         </div>
-      </div>
-
-      <div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-          <span className="eyebrow">Sets</span>
-          {!naming && <button className="btn sm" onClick={() => setNaming(true)} disabled={pantry.size === 0} title={pantry.size === 0 ? 'Erst Zutaten hinzufügen' : 'Aktuellen Vorrat als Set speichern'}><IconPlus width={14} height={14} /> Vorrat als Set speichern</button>}
-        </div>
-        {naming && (
-          <div className="set-form">
-            <input className="input-sm" placeholder="Name des Sets, z. B. Grundvorrat" value={setName} autoFocus
-              onChange={(e) => setSetName(e.target.value)}
-              onKeyDown={(e) => { if (e.key === 'Enter') saveSet(); if (e.key === 'Escape') setNaming(false) }} aria-label="Name des Sets" />
-            <button className="btn sm primary" onClick={saveSet} disabled={!setName.trim()}>Speichern</button>
-            <button className="btn sm" onClick={() => setNaming(false)}>Abbrechen</button>
-          </div>
-        )}
-        {sets.length === 0
-          ? <span className="hint">Noch keine Sets. Speichere deinen Vorrat als Set, dann lädst du ihn später mit einem Tipp.</span>
-          : (
-            <div className="chips">
-              {sets.map((st) => {
-                const loaded = st.keys.every((k) => pantry.has(k))
-                return (
-                  <span key={st.id} className={`chip sm set-chip ${loaded ? 'on' : 'soft'}`}>
-                    <button onClick={() => onApplySet(st)} title={`${st.keys.length} Zutaten laden`}>{st.name} · {st.keys.length}</button>
-                    <button className="x" onClick={() => onDeleteSet(st.id)} aria-label={`Set ${st.name} löschen`}><IconX width={13} height={13} /></button>
-                  </span>
-                )
-              })}
-            </div>
-          )}
       </div>
 
       <details className="browse">

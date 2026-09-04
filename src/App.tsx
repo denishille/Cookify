@@ -13,6 +13,7 @@ import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
+import { SetsDrawer } from './components/SetsDrawer'
 import { FilterGroups } from './components/Filters'
 import { IconBasket, IconBook, IconDice, IconHeart, IconSearch } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
@@ -65,6 +66,7 @@ export default function App() {
   const missingMode: 'none' | 'upto' | 'all' = maxMissing === 0 ? 'none' : maxMissing === 99 ? 'all' : 'upto'
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
+  const [setsOpen, setSetsOpen] = useState(false)
   const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
   const saveSet = (name: string) => {
     const id = slugId(name)
@@ -188,10 +190,12 @@ export default function App() {
 
         {!route.recipeId && route.view === 'vorrat' && (
           <>
+            <SetsDrawer open={setsOpen} onOpen={() => setSetsOpen(true)} onClose={() => setSetsOpen(false)} pantry={pantrySet.set}
+              sets={sets} onApplySet={applySet} onSaveSet={saveSet} onDeleteSet={deleteSet} />
             <h1 className="h1">Was hab ich da?</h1>
             <div className="split">
               <div className="sticky">
-                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} sets={sets} onApplySet={applySet} onSaveSet={saveSet} onDeleteSet={deleteSet} />
+                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} />
               </div>
               <div>
                 {pantrySet.set.size === 0 ? (
