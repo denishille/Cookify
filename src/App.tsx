@@ -15,7 +15,7 @@ import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
 import { SetsDrawer } from './components/SetsDrawer'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconDice, IconHeart, IconSearch } from './components/Icons'
+import { IconBasket, IconBook, IconChevronLeft, IconDice, IconHeart, IconSearch } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -126,7 +126,7 @@ export default function App() {
   const tabs = (className: string) => (
     <nav className={className} aria-label="Hauptnavigation">
       {NAV.map((n) => (
-        <button key={n.view} className={`tab ${route.view === n.view && !detail ? 'active' : ''}`} onClick={() => navigate(n.view)} aria-current={route.view === n.view && !detail ? 'page' : undefined}>
+        <button key={n.view} className={`tab ${(route.view === n.view || (route.view === 'alle' && n.view === 'gespeichert')) && !detail ? 'active' : ''}`} onClick={() => navigate(n.view)} aria-current={route.view === n.view && !detail ? 'page' : undefined}>
           {n.icon}
           <span>{n.label}</span>
           {n.view === 'gespeichert' && savedSet.set.size > 0 && <span className="count">{savedSet.set.size}</span>}
@@ -269,6 +269,21 @@ export default function App() {
           </>
         )}
 
+        {!route.recipeId && route.view === 'alle' && (
+          <>
+            <button className="backlink" onClick={() => navigate('gespeichert')}><IconChevronLeft /> Gespeichert</button>
+            <div className="section-head" style={{ marginTop: 6 }}>
+              <h1 className="h1">Alle Rezepte</h1>
+              <span className="sub">{AVAILABLE.length} Rezepte</span>
+            </div>
+            <div className="list" style={{ marginTop: 16 }}>
+              {[...AVAILABLE].sort((a, b) => a.title.localeCompare(b.title, 'de')).map((r) => (
+                <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} />
+              ))}
+            </div>
+          </>
+        )}
+
         {!route.recipeId && route.view === 'gespeichert' && (
           <>
             <h1 className="h1">Gespeichert</h1>
@@ -277,7 +292,7 @@ export default function App() {
                 <div className="ico"><IconHeart /></div>
                 <h3>Noch nichts gespeichert</h3>
                 <p>Tipp auf das Herz bei einem Rezept, dann findest du es hier wieder.</p>
-                <button className="btn primary" onClick={() => navigate('rezepte')}>Rezepte ansehen</button>
+                <button className="btn primary" onClick={() => navigate('alle')}>Rezepte ansehen</button>
               </div>
             ) : (
               <div className="grid" style={{ marginTop: 22 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>

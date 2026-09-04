@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 
-export type View = 'rezepte' | 'vorrat' | 'gespeichert'
+export type View = 'rezepte' | 'vorrat' | 'gespeichert' | 'alle'
 
 export interface Route {
   view: View
   recipeId: string | null
 }
 
-const VIEWS: View[] = ['rezepte', 'vorrat', 'gespeichert']
+const VIEWS: View[] = ['rezepte', 'vorrat', 'gespeichert', 'alle']
 const LEGACY: Record<string, View> = { entdecken: 'rezepte', neu: 'rezepte', konfigurator: 'vorrat' }
 
 function parse(hash: string): Route {
