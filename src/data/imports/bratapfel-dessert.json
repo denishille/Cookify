@@ -1,0 +1,37 @@
+{
+  "title": "Bratapfel-Dessert",
+  "description": "Mein Bratapfel-Dessert ist ein weihnachtliches und ganz einfaches Schichtdessert im Glas.",
+  "ingredients": [
+    "600 g Äpfel",
+    "1/2 TL Zimt",
+    "50 g Zucker",
+    "1 Spritzer Zitronensaft",
+    "150 ml Wasser",
+    "250 g Magerquark",
+    "250 g Mascarpone",
+    "1 TL Zitronensaft",
+    "50 g Zucker",
+    "Vanille",
+    "Amarettini"
+  ],
+  "steps": [
+    "Äpfel schälen, entkernen und klein schneiden. Dann mit Zimt, Zucker, Zitronensaft und Wasser in einen Topf geben und einkochen. Zwischendurch umrühren. Dann das Kompott auskühlen lassen.",
+    "Alle Zutaten der Creme miteinander verrühren. Optional noch etwas Vanille zugeben.",
+    "Die Mascarpone-Creme abwechseln mit dem Kompott in Gläser (à 250 ml Fassungsvermögen) schichten.",
+    "Das Dessert bis zum Verzehr in den Kühlschrank geben. Als Topping zerbröselte Amarettini darauf verteilen."
+  ],
+  "timeMinutes": 20,
+  "servings": 4,
+  "category": "Nachspeise",
+  "cuisine": "Deutsch",
+  "keywords": "Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/11/Bratapfel-Dessert-von-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/bratapfel-dessert/",
+    "title": "Bratapfel-Dessert",
+    "rating": 5,
+    "ratingCount": 89
+  },
+  "importedAt": "2026-09-04"
+}

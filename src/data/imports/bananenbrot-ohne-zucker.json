@@ -1,0 +1,31 @@
+{
+  "title": "Bananenbrot ohne Zucker",
+  "description": "Das Bananenbrot ohne Zucker von EAT SMARTER schmeckt als Snack oder zum Frühstück.",
+  "ingredients": [
+    "4 sehr reife Bananen",
+    "300 g Vollkornmehl",
+    "1 Päckchen Weinstein-Backpulver",
+    "1 TL Vanilleextrakt",
+    "2 Eier",
+    "4 EL flüssiges Kokosöl (+ etwas für die Form)",
+    "1 TL Zimt"
+  ],
+  "steps": [
+    "3 Bananen schälen und mit einer Gabel zerdrücken. In eine Schüssel geben. Mehl und Backpulver mischen. Alle Zutaten in der Schüssel miteinander verrühren.",
+    "Die übrige Banane schälen und längs halbieren. Teig in eine gefettete Form geben und die halbierte Banane darauf verteilen.",
+    "Bananenbrot ohne Zucker im vorgeheizten Backofen bei bei 180 °C (Umluft 160 °C; Gas: Stufe 2–3) ca. 40–50 Minuten backen. Danach aus dem Backofen nehmen, aus der Form lösen und abkühlen lassen. In Scheiben geschnitten servieren."
+  ],
+  "timeMinutes": 65,
+  "servings": 10,
+  "category": "Frühstück; Snack",
+  "cuisine": "Amerikanisch",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/rezepte/bananabread_4x3_neu_0.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/bananenbrot-ohne-zucker",
+    "title": "Bananenbrot ohne Zucker",
+    "rating": 4.8,
+    "ratingCount": 15
+  },
+  "importedAt": "2026-09-04"
+}

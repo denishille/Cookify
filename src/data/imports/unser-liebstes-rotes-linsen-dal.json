@@ -1,0 +1,36 @@
+{
+  "title": "Unser liebstes Rotes Linsen Dal",
+  "description": "Unser Basisrezept für Dal ist super schnell gemacht und schmeckt mit einer Ladung feinem Basmati-Reis oder unserem Naanbrot unschlagbar gut!",
+  "ingredients": [
+    "200 g Rote Linsen",
+    "1 TL Kurkumapulver",
+    "1 TL Öl",
+    "1 1/2 TL Salz",
+    "1 Gemüsezwiebel",
+    "1 grüne Chili",
+    "20 g Ingwer",
+    "1/4 Bund Koriander",
+    "2 EL Rapsöl (alternativ Kokosöl)",
+    "1 TL Kreuzkümmelsamen",
+    "100 g gehackte Tomaten (frisch oder aus dem Glas)",
+    "1/2 TL Rohrohrzucker"
+  ],
+  "steps": [
+    "Linsen gut waschen.",
+    "Alle Zutaten für das Dal zusammen mit 600 ml Wasser in einen Topf geben und bei mittlerer Hitze ohne Deckel 15-20 Minuten köcheln lassen. Ab und zu umrühren und gegebenenfalls etwas Wasser zugeben.",
+    "Zwiebel und Chili fein hacken. Ingwer schälen und fein reiben. Koriander grob hacken.",
+    "Öl in eine heiße Pfanne geben und Kreuzkümmelsamen hineingeben. Nach etwa 30-60 Sekunden Chili und Ingwer hinzugeben. 1 Minute bei mittlerer Hitze schmoren lassen und Zwiebelwürfel hinzugeben. 5 Minuten schmoren lassen. Tomaten, Rohrohrzucker und Koriander hinzufügen und weitere 5 Minuten bei niedriger Hitze braten, ab und zu umrühren.",
+    "Tadka zum Dal geben und gut verrühren. Dal mit Basmati Reis und/oder unserem leckeren Naanbrot &nbsp;servieren."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Indisch",
+  "image": "https://www.eat-this.org/wp-content/uploads/2019/02/unser-liebstes-linsen-dal-grundrezept-5.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/linsen-dal-basisrezept/",
+    "title": "Unser liebstes Rotes Linsen Dal"
+  },
+  "importedAt": "2026-09-04"
+}

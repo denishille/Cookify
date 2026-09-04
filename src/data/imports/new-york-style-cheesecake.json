@@ -1,0 +1,37 @@
+{
+  "title": "New York Style Cheesecake",
+  "description": "Von diesem New York Style Cheesecake willst du nicht nur ein Stückchen, hier willst du gleich den ganzen Kuchen. So lecker schmeckt er! Wunderbar cremig, toller Frischkäsegeschmack, perfekte Konsistenz. Der bisher beste New York Cheesecake, den ich selbst gebacken habe. Du wirst ihn lieben!",
+  "ingredients": [
+    "200 g Butterkekse",
+    "100 g Butter",
+    "etwas weiche Butter zum Einfetten der Form",
+    "600 g Frischkäse",
+    "250 g Magerquark",
+    "200 g Zucker",
+    "200 ml Sahne",
+    "1 Ei (Größe M)",
+    "2 Eigelb",
+    "3 EL Speisestärke",
+    "Saft und Abrieb 1 bis 2 Bio-Zitronen"
+  ],
+  "steps": [
+    "Den Backofen auf 180 Grad Ober- und Unterhitze vorheizen. Die Butterkekse in einen Zip-Beutel geben und mit dem Fleischklopfer, dem Nudelholz, einer Pfanne oder mit der Faust, falls du Bud Spencer heißt, zerstoßen. Die Butter in einem Topf geben und bei kleiner Hitze zerlassen und vom Herd nehmen.",
+    "Den Boden der Springform (ich habe eine 26 cm Springform benutzt) mit Backpapier auslegen und den Rand der Form gut buttern. Die zerstoßenen Kekse in eine Schüssel geben und mit der zerlassenden Butter sorgfältig vermischen, dann in die Springform geben, gut verteilen und fest andrücken. Ich nehme hierfür gerne meinen runden Fleischklopfer, das funktioniert super. Den Boden in den vorgeheizten Ofen geben und für 8-10 Minuten backen, dann auskühlen lassen.",
+    "Die Ofentemperatur auf 170 Grad reduzieren. Für die Füllung den Zucker mit der Stärke, dem Frischkäse und den Quark sorgfältig verrühren. Das Ei und die Eigelbe zusammen mit der Sahne zufügen und glatt rühren. Mit Zitronensaft und Abrieb abschmecken. Die fertige Creme auf den gebackenen Boden gießen und glatt streichen.",
+    "Den Cheesecake im Ofen für 40 Minuten backen und dann den Ofen ausschalten und den Käsekuchen für 5-6 Stunden oder über Nacht bei geschlossener Ofentür auskühlen lassen. Beten!"
+  ],
+  "timeMinutes": 90,
+  "servings": 1,
+  "category": "Kuchen",
+  "cuisine": "Amerikanisch",
+  "keywords": "Cheesecake, Frischkäse, Käsekuchen",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2015/08/new-york-cheesecake-04.jpg",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/new-york-style-cheesecake/",
+    "title": "New York Style Cheesecake",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "importedAt": "2026-09-04"
+}

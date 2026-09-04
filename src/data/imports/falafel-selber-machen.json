@@ -1,0 +1,36 @@
+{
+  "title": "Falafel selber machen",
+  "description": "Klassische Falafel mit Kichererbsen kannst du mit diesem schnellen Rezept ganz einfach selber machen.",
+  "ingredients": [
+    "300 g Kichererbsen (Dose, Abtropfgewicht ca. 250 g)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Bund Petersilie",
+    "1 EL Kreuzkümmel",
+    "1 EL getrockneter Koriander",
+    "Salz und Pfeffer",
+    "2 EL Mehl (oder Kichererbsenmehl)",
+    "1 TL Backpulver"
+  ],
+  "steps": [
+    "Kichererbsen mit Wasser abspülen, Zwiebel und Knoblauch schälen und vierteln.",
+    "Danach die Kichererbsen abtrocknen und zusammen mit Zwiebeln, Knoblauch, Petersilie, Kreuzkümmel, Koriander und Mehl in einem Food Processor (Zerkleinerer) etwa 20 Sekunden pürieren. Mit Salz und Pfeffer würzen. Die Masse sollte noch leicht stückig und nicht matschig sein. Das Ganze für 30 Minuten in den Kühlschrank stellen.",
+    "Dann das Backpulver unterheben und aus dem Teig 15 Kugeln formen.",
+    "Backofen auf 200 Grad Ober-/ Unterhitze vorheizen.",
+    "Die Kugeln mit Öl besprühen oder bepinseln und auf ein mit Backblech belegtes Blech geben. 25 Minuten backen, dabei einmal wenden."
+  ],
+  "timeMinutes": 30,
+  "servings": 15,
+  "category": "Kleinigkeit",
+  "cuisine": "Deutsch",
+  "keywords": "Gesund",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/01/Falafel-Rezept-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/falafel-selber-machen/",
+    "title": "Falafel selber machen",
+    "rating": 5,
+    "ratingCount": 26
+  },
+  "importedAt": "2026-09-04"
+}

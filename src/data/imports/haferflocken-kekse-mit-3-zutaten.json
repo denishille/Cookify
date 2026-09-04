@@ -1,0 +1,29 @@
+{
+  "title": "Haferflocken-Kekse mit 3 Zutaten",
+  "description": "Für meine Haferflocken-Kekse brauchst du gerade einmal 3 Zutaten. Hier gibts das einfachste Blitzrezept mit Bananen.",
+  "ingredients": [
+    "2 Bananen (sehr reif, ca. 300 g)",
+    "150 g Haferflocken",
+    "2 EL Erdnussbutter"
+  ],
+  "steps": [
+    "Backofen auf 180 Grad Ober- und Unterhitze vorheizen.",
+    "Bananen schälen, in eine Schüssel geben und mit einer Gabel zerdrücken. Haferflocken und Erdnussbutter zugeben und alles verrühren.",
+    "Aus der Masse mit einem Löffel oder einem Eisportionierer kleine Kugeln auf ein mit Backpapier belegtes Blech geben und etwas plattdrücken.",
+    "Haferflocken-Kekse 15 – 20 Minuten backen."
+  ],
+  "timeMinutes": 30,
+  "servings": 15,
+  "category": "Kleinigkeit",
+  "cuisine": "Deutsch",
+  "keywords": "Gesund, Kinderrezept, Schnell, Snack",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2021/11/Haferflocken-Kekse-Gaumenfreundin-de.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/haferflocken-kekse-3-zutaten/",
+    "title": "Haferflocken-Kekse mit 3 Zutaten",
+    "rating": 4.9,
+    "ratingCount": 133
+  },
+  "importedAt": "2026-09-04"
+}

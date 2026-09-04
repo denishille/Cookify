@@ -1,0 +1,41 @@
+{
+  "title": "Kidneybohnen-Burger Rezept",
+  "description": "Die fleischlosen Kidneybohnen-Burger mit Tomaten, Salat und Cheddar lassen die Herzen aller Veggie-Fans höher schlagen.",
+  "ingredients": [
+    "2 Zwiebeln",
+    "1 Knoblauchzehe",
+    "1 kleine Möhre (ca. 50 g)",
+    "2 Stiele Petersilie",
+    "1 Dose (425 ml) Kidneybohnen",
+    "3 EL Öl",
+    "4 EL Haferflocken",
+    "gemahlener Koriander",
+    "Salz",
+    "Pfeffer",
+    "200 g Römersalat",
+    "2 Tomaten (à ca. 100 g)",
+    "4 Kaiserbrötchen (à ca. 50 g)",
+    "4 EL Tomatenketchup",
+    "4 Scheiben Cheddar-Käse (à ca. 15 g)"
+  ],
+  "steps": [
+    "1 Zwiebel und Knoblauch schälen und fein würfeln. Möhre schälen und fein reiben. Petersilie waschen, trocken schütteln und Blätter von den Stielen zupfen. Blätter fein hacken. Bohnen in ein Sieb geben, gründlich waschen und gut abtropfen lassen.",
+    "1 EL Öl in einer Pfanne erhitzen, Knoblauch- und Zwiebelwürfel darin glasig anbraten, vom Herd nehmen.",
+    "Bohnen in eine Schüssel geben und zerstampfen. Knoblauch, Zwiebeln, Möhren, Haferflocken und Petersilie dazugeben und vermengen. Mit Koriander, Salz und Pfeffer abschmecken. Aus der Masse 4 flache Frikadellen formen.",
+    "Salat putzen, waschen und trocken schleudern. 1 Zwiebel schälen und in Ringe schneiden. Tomaten waschen, trocken reiben und in dünne Scheiben schneiden. 2 EL Öl in einer Pfanne erhitzen, Frikadellen darin unter Wenden ca. 10 Minuten braten.",
+    "Kaiserbrötchen waagerecht halbieren. Untere Brötchenhälften mit Ketchup bestreichen, Salat und Tomaten darauflegen. Frikadellen auf die Tomaten geben, mit je einer Scheibe Cheddar belegen. Zwiebelringe daraufgeben, obere Brötchenhälften auflegen."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Rezepte,Hauptgerichte,Vegetarisch",
+  "image": "https://images.lecker.de/kidneybohnen-burger/1x1,id=eefefe27,b=lecker,w=1600,h=,ca=12.50,0,87.50,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/kidneybohnen-burger-64049.html",
+    "title": "Kidneybohnen-Burger Rezept",
+    "rating": 3.7,
+    "ratingCount": 61
+  },
+  "importedAt": "2026-09-04"
+}

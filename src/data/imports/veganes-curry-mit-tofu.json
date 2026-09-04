@@ -1,0 +1,41 @@
+{
+  "title": "Veganes Curry mit Tofu",
+  "description": "Veganes Curry mit Tofu von EAT SMARTER - Fitnessküche mit fernöstlichen Aromen",
+  "ingredients": [
+    "100 g Parboiled Reis",
+    "Salz",
+    "250 g Tofu",
+    "1 Knoblauchzehe",
+    "20 g Ingwer (1 kleines Stück)",
+    "2 Frühlingszwiebeln",
+    "1 EL Sesamöl",
+    "1 EL gelbe Currypaste",
+    "200 ml Kokosmilch (Dose)",
+    "1 EL Rosinen",
+    "300 g Zuckerschoten",
+    "1 kleine Banane",
+    "4 Stiele Koriander",
+    "Cayennepfeffer",
+    "2 EL Cashewkerne (30 g)"
+  ],
+  "steps": [
+    "Reis in der 2,5-fachen Menge Salzwasser nach Packungsanweisung garen.",
+    "Tofu würfeln. Knoblauch und Ingwer schälen und fein hacken. Frühlingszwiebeln und Zuckerschoten waschen. Frühlingszwiebeln samt Grün in Ringe schneiden.",
+    "Sesamöl in einer tiefen Pfanne erhitzen. Tofu in die Pfanne geben und 3–4 Minuten kräftig anbraten. Knoblauch, Ingwer und Frühlingszwiebeln zugeben und etwa 2 Minuten mitbraten.",
+    "Currypaste, Kokosmilch, Rosinen und 50–100 ml Wasser einrühren und 2–3 Minuten bei mittlerer Hitze köcheln lassen.",
+    "Derweil Zuckerschoten in der Mitte halbieren. Banane schälen, in Scheiben schneiden und mit Zuckerschoten zum Thai-Curry geben. Koriander waschen, trocken schütteln, Blätter abzupfen und grob hacken.",
+    "Veganes Curry mit Tofu salzen und Cayennepfeffer abschmecken, mit dem Reis auf Teller geben und mit Koriander und Cashewkernen bestreut servieren."
+  ],
+  "timeMinutes": 25,
+  "servings": 2,
+  "cuisine": "Thailändisch, schnelle asiatische Gerichte",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/veganes-curry-mit-tofu-659775.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/veganes-curry-mit-tofu",
+    "title": "Veganes Curry mit Tofu",
+    "rating": 4.7,
+    "ratingCount": 23
+  },
+  "importedAt": "2026-09-04"
+}

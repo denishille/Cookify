@@ -1,0 +1,32 @@
+{
+  "title": "Tempeh-Saté mit Erdnuss-Dip",
+  "description": "Kennst du Tempeh schon? Diese genial leckeren fermentierten Böhnchen stecken voller Eiweiß und schmecken superlecker! Probier doch gleich mal unsere feinen Tempeh-Saté Spieße mit Erdnuss-Dip. Ob in der Pfanne oder auf dem Grill zubereitet – du wirst bestimmt zum Fan!",
+  "ingredients": [
+    "500 g Tempeh",
+    "2 EL Sojasauce",
+    "2 EL Erdnussöl",
+    "1 Zwiebel (klein)",
+    "2 Zehen Knoblauch",
+    "1 EL Erdnussöl",
+    "400 ml Kokosmilch",
+    "3 EL Erdnussmus",
+    "2 TL Sambal Oelek",
+    "½ TL Salz"
+  ],
+  "steps": [
+    "Tempeh in 2 cm große Würfel schneiden. Sojasauce und Erdnussöl vermengen, Tempehwürfel mindestens 10 Minuten darin marinieren, anschließend auf vorher gut gewässerte Holzspieße spießen.",
+    "Zwiebel und Knoblauch fein würfeln. Öl in einen heißen Topf geben, Zwiebel- und Knoblauchwürfel bei mittlerer Hitze 3 Minuten bräunen. Mit Salz würzen.",
+    "Mit Kokosmilch ablöschen, Erdnussbutter und Sambal Oelek unterrühren und 25 Minuten bei mittlerer Hitze köcheln lassen. Ab und zu umrühren.",
+    "Saté-Spieße von allen Seiten in einer heißen Pfanne 2 Minuten kross braten oder über indirekter Hitze 5 Minuten pro Seite grillen und mit der heißen Saté-Sauce servieren."
+  ],
+  "timeMinutes": 40,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "image": "https://www.eat-this.org/wp-content/uploads/2018/05/tempeh-sate-5.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/tempeh-sate-mit-erdnuss-dip/",
+    "title": "Tempeh-Saté mit Erdnuss-Dip"
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Thai-Reisnudeln mit Erdnusssauce",
+  "description": "Unsere Thai-Reisnudeln mit Erdnusssauce hast du in maximal 30 Minuten auf dem Tisch stehen und wir versprechen dir: Das wird Liebe auf den ersten Bissen!",
+  "ingredients": [
+    "200 g breite Reisnudeln",
+    "2 EL heller Sesam",
+    "1/2 Gurke",
+    "2 Karotten",
+    "2 Frühlingszwiebeln",
+    "150 g Zucchini",
+    "75 g grüne Bohnen",
+    "150 g Brokkoli",
+    "1 Stück Ingwer (klein)",
+    "4 Zehen Knoblauch",
+    "100 g Mungbohnensprossen",
+    "2 EL Erdnussöl",
+    "1/2 TL Chiliflocken",
+    "3 EL Erdnussmus",
+    "3 EL Sojasauce",
+    "2 EL Tafelessig",
+    "1 TL Sesamöl",
+    "1 EL Sriracha",
+    "1 Limette"
+  ],
+  "steps": [
+    "Nudeln nach Packungsanweisung kochen und kalt abschrecken.",
+    "Sesam in einer heißen Pfanne ohne Öl 3 Minuten unter häufigem Rühren rösten. Anschließend beiseite stellen.",
+    "Alle Zutaten für die Sauce mit 50 ml Wasser verrühren.",
+    "Gurke entkernen und in feine Stifte schneiden. Karotte in feine Stifte, Zwiebel in grobe, Zucchini in feine Streifen schneiden. Bohnen halbieren, Brokkoli in kleine Röschen schneiden.",
+    "Knoblauch und Ingwer fein hacken.",
+    "Öl in eine heiße Pfanne geben, Knoblauch und Ingwer zusammen mit Frühlingszwiebel und Chiliflocken bei mittlerer bis hoher Hitze unter Rühren 3 Minuten anbraten.",
+    "Zucchini, Brokkoli, Bohnen und 2/3 der Karotten hinzugeben und 5 Minuten bei hoher Hitze braten. Ab und zu umrühren.",
+    "Sojasprossen unterheben, mit 50 ml Wasser ablöschen, Sauce unterrühren und aufkochen.",
+    "Zusammen mit Gurke und den übrigen Karottenstiften auf Reisnudeln servieren und mit Sesam und Limettenspalten toppen."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Thailändisch",
+  "image": "https://www.eat-this.org/wp-content/uploads/2018/07/thai-reisnudeln-mit-erdnusssauce-1.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/thai-reisnudeln-mit-erdnusssauce/",
+    "title": "Thai-Reisnudeln mit Erdnusssauce"
+  },
+  "importedAt": "2026-09-04"
+}

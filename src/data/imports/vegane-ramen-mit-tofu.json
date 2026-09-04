@@ -1,0 +1,38 @@
+{
+  "title": "Vegane Ramen mit Tofu",
+  "description": "Meine vegane Ramen mit Räuchertofu, Pak Choi, Sprossen und Miso-Paste schmeckt herrlich aromatisch und ist ein echter Sattmacher.",
+  "ingredients": [
+    "2 cm Ingwer",
+    "3 Knoblauchzehen",
+    "2 Möhren",
+    "2 Pak Choi",
+    "200 g Räuchertofu",
+    "250 g Ramen-Nudeln (oder Mie-Nudeln)",
+    "2 EL Sesamöl",
+    "2 Liter Gemüsebrühe",
+    "2 EL Miso-Paste",
+    "4 EL Sojasauce",
+    "1 EL Mirin (oder Reisessig)",
+    "4 EL Sprossen"
+  ],
+  "steps": [
+    "Ingwer und Knoblauch klein hacken. Möhren schälen und in Stifte schneiden, Pak Choi in Streifen schneiden. Nudeln in heißes Wasser geben und nach Packungsangabe gar ziehen lassen, dann abgießen. Tofu in Würfel schneiden.",
+    "Sesamöl in einem großen Topf erhitzen und den Tofu knusprig anbraten. Dann herausnehmen und mit einen Schluck Sojasauce mischen.",
+    "Ingwer und Knoblauch in den Topf geben und anbraten, dann mit Gemüsebrühe und Sojasauce ablöschen und aufkochen. Pak Choi und Möhren zugeben und die Brühe 5 Minuten köcheln lassen. Dann Miso-Paste und Mirin unterrühren.",
+    "Nudeln in Schalen verteilen und mit der Brühe übergießen. Die vegane Ramen mit Tofu und Sprossen garnieren."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Asiatisch",
+  "keywords": "Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/02/Ramen-vegan-von-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/vegane-ramen/",
+    "title": "Vegane Ramen mit Tofu",
+    "rating": 5,
+    "ratingCount": 22
+  },
+  "importedAt": "2026-09-04"
+}

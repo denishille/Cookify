@@ -1,0 +1,30 @@
+{
+  "title": "Erbsen-Hummus",
+  "description": "Eine frische Variante des Kichererbsen-Originals. Dazu schmeckt: ofenfrisches knuspriges Brot, aber auch Gemüsestifte, die man in das Hummus dippt.",
+  "ingredients": [
+    "300 g gepalte Erbsen (frisch oder TK)",
+    "Salz",
+    "1 Stängel Minze",
+    "1 Frühlingszwiebel",
+    "½ Bio-Zitrone",
+    "2 EL Sesampaste",
+    "2 EL Olivenöl",
+    "1 TL gemahlener Kreuzkümmel Kreuzkümmel und rosenscharfes Paprikapulver",
+    "1 TL rosenscharfes Paprikapulver"
+  ],
+  "steps": [
+    "Die Erbsen mit ⅛ l Wasser und Salz in einem Topf zum Kochen bringen. Zugedeckt bei mittlerer Hitze in ca. 8 Minuten weich kochen. In ein Sieb abgießen, kalt abschrecken und abtropfen lassen.",
+    "Inzwischen die Minze abbrausen und trocken schütteln, Blättchen abzupfen und fein schneiden. Frühlingszwiebel waschen, putzen und sehr fein hacken. Zitrone heiß waschen und abtrocknen, die Schale fein abreiben und den Saft auspressen."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "image": "https://www.kuechengoetter.de/uploads/media/630x630/00/77620-erbsen-hummus.jpg?v=1-0",
+  "source": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/erbsen-hummus-85412",
+    "title": "Erbsen-Hummus",
+    "rating": 3,
+    "ratingCount": 20
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Baguette-Brötchen",
+  "description": "Diese Brötchen werden mit Olivenöl und glutenfreiem Mehl zubereitet. Der Teig kann abends vorbereitet und über Nacht zugedeckt in den Kühlschrank gestellt werden.",
+  "ingredients": [
+    "480 g glutenfreies Mehl, hell",
+    "Salz",
+    "1 Würfel frische Hefe (à 42 g)",
+    "1 EL Zucker",
+    "2 EL Olivenöl"
+  ],
+  "steps": [
+    "Das Mehl in eine Schüssel sieben und 1 1/2 TL Salz untermischen.",
+    "Die zerbröckelte Hefe und den Zucker in 330-350 ml lauwarmem Wasser auflösen, zum Mehl geben und alles mit den Knethaken des Handrührgerätes zu einem weichen Teig verarbeiten, dabei das Öl hinzufügen. Dann den Teig ca. 30 Min. bei Zimmertemperatur zugedeckt gehen lassen. Backofen auf 250° (Umluft 230°) vorheizen.",
+    "Den Teig in zehn Portionen teilen. Aus jeder Portion ein Baguette-Brötchen formen und mit einem nassen Messer an der Oberfläche mehrmals diagonal einschneiden. Ofentemperatur auf 200° reduzieren, Brötchen auf einem mit Backpapier belegten Backblech im Ofen (Mitte) 18-20 Min. backen."
+  ],
+  "timeMinutes": 90,
+  "servings": 10,
+  "image": "https://www.kuechengoetter.de/uploads/media/630x630/04/28974-baguette-broetchen.jpg?v=1-0",
+  "source": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/baguette-broetchen-28178",
+    "title": "Baguette-Brötchen",
+    "rating": 3.3,
+    "ratingCount": 6
+  },
+  "importedAt": "2026-09-04"
+}

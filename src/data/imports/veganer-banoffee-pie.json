@@ -1,0 +1,35 @@
+{
+  "title": "Veganer Banoffee Pie",
+  "description": "Der britische Klassiker „Banoffee Pie“ aus crunchy Keksboden, cremiger Karamellschicht, Bananenscheiben und einem Berg Schlagsahne lässt das Herz jeder dessert person höherschlagen. Versprochen!",
+  "ingredients": [
+    "300 g vegane Butterkekse",
+    "80 g Kokosöl",
+    "100 g Rohrohrzucker",
+    "50 g vegane Butter",
+    "80 ml Kokosmilch",
+    "1/4 TL Salz",
+    "1/2 TL Vanilleextrakt",
+    "4 Bananen",
+    "200 ml vegane aufschlagbare Sahne (ungesüßt)",
+    "6 g Sahnesteif",
+    "20 g vegane Zartbitterschokolade",
+    "20 g Kokosraspel"
+  ],
+  "steps": [
+    "Für den Keksboden Kekse und Kokosöl in eine Küchenmaschine geben und mixen.",
+    "Kekskrümel in eine Kuchen- oder Tarteform geben und mit einem Esslöffel gleichmäßig glatt streichen. Dabei einen 1-cm-Rand bilden. Anschließend eine Stunde im Kühlschrank kaltstellen.",
+    "Für das Karamell Zucker, Butter und Kokosmilch in einen Topf geben und bei niedriger bis mittlerer Hitze verrühren bis sich die Butter aufgelöst hat. Anschließend etwa 5-8 Minuten warten bis sich der Zucker verfärbt hat und Temperatur etwa 115 °C erreicht hat. Regelmäßig mit einem Küchenthermometer kontrollieren, damit nichts anbrennt.",
+    "Karamell vom Herd nehmen, Salz und Vanilleextrakt unterrühren. Karamell auf dem gekühlten Keksboden verteilen und eine weitere Stunde kaltstellen.",
+    "Sahne zusammen mit Sahnesteif steif schlagen, Bananen in Scheiben schneiden.",
+    "Pie mit Bananen, Sahne, Schokoladen- und Kokosraspeln toppen und eine halbe Stunde kaltstellen."
+  ],
+  "timeMinutes": 30,
+  "servings": 1,
+  "image": "https://www.eat-this.org/wp-content/uploads/2021/10/eat_this_veganer_banoffee_pie-019.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganer-banoffee-pie/",
+    "title": "Veganer Banoffee Pie"
+  },
+  "importedAt": "2026-09-04"
+}

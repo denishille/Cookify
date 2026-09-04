@@ -1,0 +1,32 @@
+{
+  "title": "Knäckebrot selber machen",
+  "description": "Knäckebrot passt toll zu Aufstrichen und Dips aller Art. Für mein einfaches Rezept brauchst du nur wenige Zutaten.",
+  "ingredients": [
+    "60 g Dinkelvollkornmehl",
+    "60 g Haferflocken",
+    "100 g Saaten (z.B. Kürbiskerne, Sesam, Leinsamen, Sonnenblumenkerne)",
+    "150 g Wasser",
+    "1 EL Olivenöl",
+    "1/2 TL Salz"
+  ],
+  "steps": [
+    "Den Backofen auf 180 Grad Ober- und Unterhitze vorheizen und ein Blech mit Backpapier auslegen.",
+    "Alle Zutaten für das Knäckebrot in eine Schüssel geben und mit den Händen vermischen.",
+    "Den Teig dünn auf das Backpapier streichen (ca. so groß wie ein DinA4 Blatt) und im Ofen 10 Min. backen. Dann herausholen in in Scheiben schneiden.",
+    "Nochmal für 30 Min. backen. Dann herausholen, vom Blech lösen und abkühlen lassen."
+  ],
+  "timeMinutes": 55,
+  "servings": 10,
+  "category": "Frühstück",
+  "cuisine": "Deutsch",
+  "keywords": "Backen, Familienrezept, Gesund, Ofengericht",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2021/11/knaeckebrot-rezept-einfach.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/knaeckebrot-selber-machen/",
+    "title": "Knäckebrot selber machen",
+    "rating": 5,
+    "ratingCount": 76
+  },
+  "importedAt": "2026-09-04"
+}

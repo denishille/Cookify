@@ -1,0 +1,34 @@
+{
+  "title": "BBQ Tofu-Bowl mit Brokkoli und Pfirsich",
+  "description": "In meine BBQ Tofu-Bowl kommen neben Tofu auch noch Brokkoli, Pfirsich, Zwiebeln, Reis und eure liebste BBQ Sauce.",
+  "ingredients": [
+    "200 g Tofu",
+    "2 EL BBQ Sauce",
+    "1 rote Zwiebel",
+    "120 g Naturreis",
+    "2 Pfirsiche",
+    "1 Brokkoli"
+  ],
+  "steps": [
+    "Backofen auf 180 Grad vorheizen.",
+    "Tofu in Würfel schneiden, zwischen 2 Lagen Küchenpapier die Flüssigkeit auspressen. Dann den Tofu mit der BBQ Sauce mischen.",
+    "Zwiebel in Scheiben schneiden und zusammen mit dem Tofu auf ein mit Backpapier belegtes Blech geben. Im Ofen für 30 Minuten backen, zwischendurch wenden.",
+    "Reis nach Packungsangabe zubereiten. Pfirsiche in Scheiben schneiden.",
+    "Brokkoli in Röschen schneiden und blanchieren (in kochendem, leicht gesalzenem Wasser 2 Minuten kochen, dann in Eiswasser geben).",
+    "Alle Zutaten in zwei Schüsseln anrichten und mit etwas BBQ Sauce garnieren."
+  ],
+  "timeMinutes": 45,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "tofu, vegan",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2019/08/BBQ-Tofu-Bowl.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/ganz-schnelle-bbq-tofu-bowl/",
+    "title": "BBQ Tofu-Bowl mit Brokkoli und Pfirsich",
+    "rating": 5,
+    "ratingCount": 7
+  },
+  "importedAt": "2026-09-04"
+}

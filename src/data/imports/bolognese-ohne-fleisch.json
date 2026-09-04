@@ -1,0 +1,36 @@
+{
+  "title": "Bolognese ohne Fleisch",
+  "description": "Die Bolognese ohne Fleisch von EAT SMARTER ist schnell gemacht und eine gute Alternative zum Klassiker.",
+  "ingredients": [
+    "10 g getrocknete Steinpilze",
+    "2 Knoblauchzehen",
+    "1 rote Zwiebel",
+    "2 EL Olivenöl",
+    "1 TL Tomatenmark",
+    "150 g Soja-Hackfleisch",
+    "400 g passierte Tomaten",
+    "400 g stückige Tomaten (Dose)",
+    "Salz",
+    "Pfeffer",
+    "400 g glutenfreie Pasta (z. B. Mezze Maniche Rigate)",
+    "50 g Parmesan (32 % Fett i. Tr.)"
+  ],
+  "steps": [
+    "Steinpilze ca. 5 Minuten in warmem Wasser einweichen; dann abgießen, abtropfen lassen und grob hacken. Derweil Knoblauch und Zwiebel schälen und fein würfeln. Alles zusammen in einem Topf im Olivenöl bei mittlerer Hitze 3–4 Minuten andünsten.",
+    "Tomatenmark und Soja-Hackfleisch dazugeben und 3 Minuten mitdünsten. Passierte und stückige Tomaten zugeben und ca. 20 Minuten bei kleiner Hitze köcheln lassen, dabei mit Salz und Pfeffer würzen.",
+    "Inzwischen Nudeln nach Packungsanweisung in kochendem Salzwasser etwa 9 Minuten garen. Nebenher Käse reiben. Nudeln abgießen, abtropfen lassen und mit Sauce mischen. Bolognese ohne Fleisch auf Tellern anrichten und mit Käse bestreuen."
+  ],
+  "timeMinutes": 40,
+  "servings": 4,
+  "category": "Mittagessen, Abendessen, Hauptspeise",
+  "cuisine": "Europa",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/bolognese-ohne-fleisch-677225.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pasta-bolognese-mit-soja-schnetzel",
+    "title": "Bolognese ohne Fleisch",
+    "rating": 4.6,
+    "ratingCount": 5
+  },
+  "importedAt": "2026-09-04"
+}
