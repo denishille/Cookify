@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { PantrySet } from '../lib/sets'
 import { slugId } from '../lib/sets'
 import { INGREDIENT_BY_KEY } from '../data'
@@ -20,6 +20,36 @@ interface Props {
 export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, onSaveSet, onDeleteSet }: Props) {
   const [editing, setEditing] = useState<PantrySet | null>(null)
 
+  const close = () => { setEditing(null); onClose() }
+
+  /** Wischen nach rechts schließt die Schublade; sie folgt dabei dem Finger. */
+  const [dragX, setDragX] = useState(0)
+  const touch = useRef<{ x: number; y: number; t: number; horizontal: boolean | null } | null>(null)
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0]
+    touch.current = { x: t.clientX, y: t.clientY, t: Date.now(), horizontal: null }
+  }
+  const onTouchMove = (e: React.TouchEvent) => {
+    const st = touch.current
+    if (!st) return
+    const t = e.touches[0]
+    const dx = t.clientX - st.x, dy = t.clientY - st.y
+    if (st.horizontal === null) {
+      if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return
+      st.horizontal = Math.abs(dx) > Math.abs(dy)
+    }
+    if (!st.horizontal) return
+    setDragX(Math.max(0, dx))
+  }
+  const onTouchEnd = () => {
+    const st = touch.current
+    touch.current = null
+    if (!st || !st.horizontal) { setDragX(0); return }
+    const fast = dragX > 40 && Date.now() - st.t < 300
+    if (dragX > 90 || fast) { setDragX(0); close() }
+    else setDragX(0)
+  }
+
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => {
@@ -31,7 +61,6 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
     return () => document.removeEventListener('keydown', onKey)
   }, [open, editing, onClose])
 
-  const close = () => { setEditing(null); onClose() }
   const startNew = () => setEditing({ id: '', name: '', keys: [...pantry] })
   const toggleKey = (key: string) =>
     setEditing((e) => e && ({ ...e, keys: e.keys.includes(key) ? e.keys.filter((k) => k !== key) : [...e.keys, key] }))
@@ -50,7 +79,9 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
         </button>
       )}
       {open && <div className="drawer-backdrop" onClick={close} />}
-      <aside className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Sets">
+      <aside className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Sets"
+        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}
+        onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd} onTouchCancel={onTouchEnd}>
         {editing ? (
           <>
             <div className="drawer-head">

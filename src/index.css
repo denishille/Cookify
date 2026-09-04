@@ -437,6 +437,7 @@ svg { flex-shrink: 0; }
   display: flex; flex-direction: column; gap: 18px;
 }
 .drawer.open { transform: translateX(0); }
+.drawer.dragging { transition: none; }
 .drawer-head { display: flex; justify-content: space-between; align-items: center; }
 .drawer-head h2 { font-size: 1.3rem; font-weight: 700; }
 .drawer-section { display: grid; gap: 8px; }
