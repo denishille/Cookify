@@ -1,0 +1,34 @@
+{
+  "title": "Hüttenkäse-Auflauf: proteinreich & Low Carb",
+  "description": "Ob als Mittagessen oder Beilage – der Hüttenkäse-Auflauf ist dank der Kombi aus körnigem Frischkäse, Gemüse und Eiern lecker, sättigend und total proteinreich.",
+  "ingredients": [
+    "400 g Hüttenkäse",
+    "4 Eier (Größe M)",
+    "100 g geriebener Käse (z.B. Gouda)",
+    "1 EL gehackte Petersilie",
+    "Salz und Pfeffer",
+    "100 g Brokkoli-Röschen",
+    "150 g Kirschtomaten"
+  ],
+  "steps": [
+    "Backofen auf 200 Grad Ober- und Unterhitze vorheizen.",
+    "Hüttenkäse, Eier, geriebenen Käse und Petersilie in eine Schüssel geben und verrühren, dabei mit Salz und Pfeffer würzen.",
+    "Tomaten halbieren. Brokkoli-Röschen in einem Topf mit kochendem, gesalzenem Wasser 3 Minuten vorkochen.",
+    "Hüttenkäse-Mix in eine Auflaufform füllen und glatt streichen. Tomaten und Brokkoli-Röschen darüber verteilen.",
+    "Hüttenkäse-Auflauf 30-40 Minuten im vorgeheizten Ofen backen."
+  ],
+  "timeMinutes": 50,
+  "servings": 2,
+  "category": "Beilage Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Auflauf, Brokkoli, Einfach, Gesund, Hüttenkäse, Low Carb, Ofengericht, Tomaten",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2026/06/Huettenkaese-Auflauf-Rezept-einfach.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/huettenkaese-auflauf/",
+    "title": "Hüttenkäse-Auflauf: proteinreich & Low Carb",
+    "rating": 4.8,
+    "ratingCount": 34
+  },
+  "importedAt": "2026-09-04"
+}

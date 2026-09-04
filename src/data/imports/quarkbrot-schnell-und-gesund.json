@@ -1,0 +1,32 @@
+{
+  "title": "Quarkbrot schnell und gesund",
+  "description": "Mein schnelles Quarkbrot ist super saftig und das perfekte Familienbrot für jeden Tag! 5 Minuten Zubereitungszeit!",
+  "ingredients": [
+    "225 g Dinkelvollkornmehl",
+    "25 g Dinkelvollkorngrieß",
+    "1 TL Salz",
+    "1 Pck. Backpulver",
+    "1 Ei",
+    "250 g Magerquark"
+  ],
+  "steps": [
+    "Den Backofen auf 180 Grad Ober- und Unterhitze vorheizen.",
+    "Alle Zutaten mischen und gründlich verkneten.",
+    "Aus dem Teig einen Brotlaib formen und auf ein mit Backpapier belegtes Blech oder einen Backstein geben. Mehrmals auf der Oberseite einschneiden und für 10 Minuten ruhen lassen.",
+    "30 - 35 Minuten backen."
+  ],
+  "timeMinutes": 40,
+  "servings": 1,
+  "category": "Frühstück",
+  "cuisine": "Deutsch",
+  "keywords": "Backen, Brot, Familienrezept, Gesund",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/11/Quarkbrot-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schnelles-und-gesundes-quarkbrot/",
+    "title": "Quarkbrot schnell und gesund",
+    "rating": 5,
+    "ratingCount": 410
+  },
+  "importedAt": "2026-09-04"
+}

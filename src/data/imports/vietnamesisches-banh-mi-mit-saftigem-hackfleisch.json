@@ -1,0 +1,50 @@
+{
+  "title": "Vietnamesisches Banh Mi mit saftigem Hackfleisch",
+  "description": "Das vietnamesische Sandwich Banh Mi ist vielleicht das bekannteste Sandwich der Welt. Auf jeden Fall ist es eines der Leckersten und in meiner heutigen Variante mit Hackfleisch, in knappen 30 Minuten zubereitet.",
+  "ingredients": [
+    "200 Hackfleisch (halb Rind und halb Schwein)",
+    "1 Knoblauchzehe (fein gehackt)",
+    "1 rote Chili (fein gehackt)",
+    "1 mittlere Zwiebel (fein gehackt)",
+    "2 Frühlingszwiebeln (nur das Grüne in feine Ringe geschnitten)",
+    "1/2 Stängel Zitronengras (sehr fein gehackt)",
+    "1 TL Austernsauce",
+    "1 TL Fischsauce",
+    "1 EL Rapsöl",
+    "1/2 TL geröstetes Sesamöl",
+    "1 EL Semmelbrösel",
+    "1/4 TL Fünf-Gewürze-Pulver",
+    "1/4 TL weißer Pfeffer (frisch gemahlen)",
+    "1/4 TL Salz",
+    "1/2 TL Zucker",
+    "8 TL Hoisinsauce",
+    "1 große Möhre (in sehr dünne Streifen geschnitten / geraspelt)",
+    "1 Knoblauchzehe (fein gehackt)",
+    "2 EL Essig",
+    "1 EL Zucker",
+    "1 kleine Salatgurke (in dünne Streifen geschnitten)",
+    "3 Frühlingszwiebeln (in dünne Streifen geschnitten)",
+    "1 kleines Bund Koriander",
+    "1 langes (flaches Baguette)"
+  ],
+  "steps": [
+    "Alle Zutaten für die Fleisch-Patties in eine große Schüssel geben und sehr gut miteinander vermischen. Das Fleisch zwischen geölter Klarsichtfolie zu 8 flachen Fladen (ca 1cm) plattieren und in der Pfanne bei mittlerer Hitze in 1 TL Rapsöl von beiden Seiten goldbraun braten.",
+    "Die Möhrenstreifen zusammen mit 2 EL Essig, 1 EL Zucker und der gehackten Knoblauchzehe in eine Schüssel geben und 10 MInuten ziehen lassen.",
+    "Das Baguette in 8 ca. 5 cm lange Stücke schneiden und jeweils auf einer Seite ein, aber nicht durchschneiden.",
+    "Das Fleisch nach dem Braten mit jeweils 1 TL Hoisinsauce bestreichen und in die Baguette-Tasche legen. Möhren, Frühlingszwiebeln, Salatgurkenstreifen und Korianderblätter über das Fleisch geben und servieren."
+  ],
+  "timeMinutes": 35,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Vietnamesisch",
+  "keywords": "Banh Mi, Sandwich",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2018/02/banh-mi-05.jpg",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/vietnamesisches-banh-mi-hackfleisch/",
+    "title": "Vietnamesisches Banh Mi mit saftigem Hackfleisch",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "importedAt": "2026-09-04"
+}

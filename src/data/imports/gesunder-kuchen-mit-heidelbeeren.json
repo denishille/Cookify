@@ -1,0 +1,40 @@
+{
+  "title": "Gesunder Kuchen mit Heidelbeeren",
+  "description": "Das Rezept für den besten gesunden Kuchen bekommst du hier. Mein gesunder Kuchen mit Heidelbeeren besteht aus einfachem Rührteig und ist herrlich saftig.",
+  "ingredients": [
+    "100 g Dinkelvollkornmehl",
+    "100 g Buchweizenmehl",
+    "60 g gemahlene Mandeln",
+    "2 TL Backpulver",
+    "1/2 TL Zimt",
+    "1 Msp. Bourbon-Vanillepulver",
+    "1 EL Chiasamen",
+    "5 EL Kokosöl (+ etwas mehr für die Backform)",
+    "180 ml Dinkelmilch",
+    "5 EL Ahornsirup",
+    "1 Ei",
+    "50 g Datteln (entsteint)",
+    "125 g Heidelbeeren"
+  ],
+  "steps": [
+    "Backofen auf 175 Grad Umluft vorheizen. Eine Backform (25 cm) einfetten.",
+    "Dinkelvollkornmehl, Buchweizenmehl, Mandeln, Backpulver, Zimt, Vanillepulver und Chiasamen in eine Schüssel geben und mischen.",
+    "Kokosöl schmelzen, dann mit Dinkelmilch, Ahornsirup und Ei verquirlen. Die Datteln mit einer Gabel zerdrücken und unterheben.",
+    "Die trockenen Zutaten mit den flüssigen Zutaten verrühren. Dann die Heidelbeeren unterheben und alles in die gefettete Form füllen.",
+    "Den Kuchen auf mittlerer Schiene 45 Minuten backen, dann etwas abkühlen lassen und vorsichtig aus der Form stürzen."
+  ],
+  "timeMinutes": 55,
+  "servings": 1,
+  "category": "Frühstück Nachspeise",
+  "cuisine": "Deutsch",
+  "keywords": "Backen, Backofen, Geburtstag, Gesund, Kuchen, Party",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2020/10/Gesunder-Kuchen-mit-Heidelbeeren.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/gesunder-kuchen-mit-heidelbeeren/",
+    "title": "Gesunder Kuchen mit Heidelbeeren",
+    "rating": 5,
+    "ratingCount": 80
+  },
+  "importedAt": "2026-09-04"
+}

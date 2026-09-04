@@ -1,0 +1,32 @@
+{
+  "title": "Einfaches Brot backen mit frischer Hefe",
+  "description": "Ein einfaches Brot Backen ist nicht schwer. Dieses einfachste Brot der Welt stammt von Brotsommelier Axel Schmitt.",
+  "ingredients": [
+    "10 g frische Hefe",
+    "450 g Wasser (lauwarm)",
+    "600 g Dinkelmehl (Type 630)",
+    "15 g Salz",
+    "10 g Zucker"
+  ],
+  "steps": [
+    "Die Hefe in lauwarmes Wasser bröseln und unter Rühren auflösen. Alle Zutaten für den Teig zugeben und mit einem Holzlöffel verrühren, bis alles gut vermischt ist. Du brauchst den Teig nicht kneten.",
+    "Den Teig für 8-12 Stunden abgedeckt in den Kühlschrank geben, am besten über Nacht. So kann er reifen.",
+    "Einen Gusseisen-Topf (ca. 4-5 l Fassungsvermögen) in den Backofen stellen und den Ofen auf 250 Grad Ober- und Unterhitze vorheizen. (Alternativ kannst du auch einen Tontopf oder einen beliebigen ofenfesten Topf und sogar eine Auflaufform verwenden.)",
+    "Den Teig auf eine bemehltes Stück Backpapier stürzen. Das Backpapier an den Seiten anheben und zu einer Seite umschlagen, sodass sich der Teig einfaltet. Das Ganze auch für die andere Seite wiederholen. Anschließend den Teig mit dem Backpapier zusammen in den vorgeheizten Topf geben.",
+    "Den Topf mit Deckel auf die mittlere Schiene in den vorgeheizten Ofen stellen und 30 Minuten backen. Dann die Temperatur auf 200 Grad reduzieren und den Deckel entfernen. Nochmal 20 Minuten backen."
+  ],
+  "timeMinutes": 65,
+  "servings": 1,
+  "category": "Frühstück",
+  "cuisine": "Deutsch",
+  "keywords": "Abendessen, Brot, Einfach, Frühstück",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/08/Einfaches-Brot-Grundrezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/einfaches-brot-backen/",
+    "title": "Einfaches Brot backen mit frischer Hefe",
+    "rating": 5,
+    "ratingCount": 872
+  },
+  "importedAt": "2026-09-04"
+}

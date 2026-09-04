@@ -1,0 +1,43 @@
+{
+  "title": "Massaman Curry: Cremig, wie in Thailand",
+  "description": "Mein einfaches Thai Massaman Curry mit Kartoffeln, Hähnchen, Kokosmilch, milder Currypaste und Erdnüssen ist schnell zubereitet und liefert Urlaubsfeeling pur.",
+  "ingredients": [
+    "500 g Hähnchenbrustfilet",
+    "1 Zwiebel",
+    "1/2 TL Ingwer",
+    "200 g Möhren",
+    "500 g Kartoffeln",
+    "3 EL Rapsöl",
+    "3 EL Massaman Currypaste",
+    "800 g Kokosmilch (Dose)",
+    "3 TL Koriander (getrocknet)",
+    "2 EL brauner Zucker",
+    "2 EL Limettensaft",
+    "1 EL Worcestersauce",
+    "Salz",
+    "250 g Jasminreis",
+    "50 g Erdnüsse",
+    "1 Limette (in Scheiben geschnitten)",
+    "Koriander (frisch)"
+  ],
+  "steps": [
+    "Hähnchen in kleine Stücke schneiden. Zwiebel in Halbringe schneiden. Ingwer klein hacken. Möhren schälen und in dünne Scheiben, Kartoffeln schälen und in kleine Stücke schneiden.",
+    "Öl in einer großen Pfanne oder einem Wok erhitzen und die Zwiebeln anbraten. Currypaste zugeben und unter Rühren rösten. Die Hälfte der Kokosmilch, Ingwer, Koriander, Zucker, Limettensaft und Worcestersauce zugeben und aufkochen. Dann das Hähnchen in die Sauce geben und 5 Minuten köcheln lassen.",
+    "Kartoffeln, Möhren und die restliche Kokosmilch zugeben, einmal aufkochen, dann bei mittlerer Hitze 15 Minuten köcheln lassen und mit Salz abschmecken.",
+    "Massaman Curry mit Jasminreis, Erdnüssen, Koriander und Limetten servieren."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Asiatisch",
+  "keywords": "Curry, Hähnchen, Kartoffeln, One Pot, Reis, Schnell",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/06/Massaman-Curry-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/massaman-curry/",
+    "title": "Massaman Curry: Cremig, wie in Thailand",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "importedAt": "2026-09-04"
+}

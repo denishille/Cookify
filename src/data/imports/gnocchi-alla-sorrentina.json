@@ -1,0 +1,35 @@
+{
+  "title": "Gnocchi alla Sorrentina",
+  "description": "Ich liebe italienisches Essen und dieser Klassiker der italienischen Küche ist nicht nur sehr schnell zubereitet, er schmeckt auch einfach großartig. Wer mag, bereite die Gnocchi frisch zu, aber auch mit gekauften Gnocchi schmeckt dieses Gericht lecker!",
+  "ingredients": [
+    "500 g Gnocchi",
+    "100 g Parmesan (frisch gerieben)",
+    "150 g Mozzarella (fein gewürfelt)",
+    "400 g San Marzano Tomaten aus der Dose",
+    "100 g Sahne",
+    "1 Zwiebel",
+    "1 handvoll frischer Basilikum (Blätter fein gehackt)",
+    "Olivenöl",
+    "Dunkler Balsamico",
+    "Salz und schwarzer Pfeffer"
+  ],
+  "steps": [
+    "Die Zwiebel abziehen, fein würfeln und in einem Topf bei kleiner Hitze in 2 EL Olivenöl glasig anschwitzen. Die Tomaten und die Sahne zufügen, leicht salzen und pfeffern und und die Sauce 15 Minuten zugedeckt köcheln lassen.",
+    "In der Zwischenzeit die Gnocchi in gesalzenem Wasser gar kochen, abgießen und beiseite stellen und den Backofen auf 190 Grad Ober- und Unterhitze vorheizen.",
+    "Die Sauce nach 15 Minuten mit Salz und Pfeffer abschmecken, die Gnocchi, den gehackten Basilikum sowie 3 EL Parmesan zufügen und die Zutaten miteinander vermischen. Die Gnocchi samt Sauce in eine große Auflaufform geben und mit dem restlichen Parmesan sowie dem gewürfeltem Mozzarella bestreuen. Im vorgeheizten Ofen ca. 15-20 Minuten backen, bis der Käse eine goldgelbe Farbe angenommen hat."
+  ],
+  "timeMinutes": 50,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "keywords": "Auflauf, Gnocchi, Gratin, kartoffeln, Käse, Tomaten, Tomatensauce",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2017/08/gnocchi-alla-sorrentina-05.jpg",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/gnocchi-alla-sorrentina/",
+    "title": "Gnocchi alla Sorrentina",
+    "rating": 4.9,
+    "ratingCount": 13
+  },
+  "importedAt": "2026-09-04"
+}
