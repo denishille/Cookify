@@ -51785,5 +51785,127 @@
       "streusel",
       "herbst"
     ]
+  },
+  {
+    "id": "i-chili-sin-carne",
+    "title": "Chili sin Carne",
+    "description": "Der vegane Eintopf-Klassiker mit roten Linsen statt Hackfleisch: Kidneybohnen, Mais und Paprika in würziger Tomatensauce, in einer halben Stunde fertig.",
+    "emoji": "🌶️",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 6,
+    "nutrition": {
+      "kcal": 340,
+      "protein": 16,
+      "carbs": 48,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "kidneybohnen",
+        "name": "Kidneybohnen (Abtropfgewicht)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "mais",
+        "name": "Mais (Abtropfgewicht)",
+        "amount": 285,
+        "unit": "g"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Stückige Tomaten",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "passata",
+        "name": "Passierte Tomaten",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "key": "paprika",
+        "name": "Paprikaschoten, rot und grün",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Peperoni",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1.5,
+        "unit": "TL"
+      }
+    ],
+    "steps": [
+      "Wasche die roten Linsen in einem Sieb kalt ab und lass sie abtropfen. Spüle auch Kidneybohnen und Mais ab.",
+      "Würfle die Zwiebel, hacke Knoblauch und Peperoni fein und schneide die Paprika in mundgerechte Stücke.",
+      "Erhitze das Olivenöl in einem großen Topf und dünste die Zwiebel darin 3 Minuten glasig. Gib Knoblauch, Peperoni und Paprika dazu und brate alles 4 Minuten mit.",
+      "Rühre Linsen und Tomatenmark unter und lass beides 1 Minute mitrösten, bis das Mark leicht dunkler wird.",
+      "Lösche mit der Gemüsebrühe ab, gib stückige und passierte Tomaten, Kidneybohnen und Mais dazu und würze mit Paprikapulver, Kreuzkümmel, Salz und einer Prise Zucker.",
+      "Lass alles bei mittlerer Hitze mit halb aufgelegtem Deckel 15 Minuten köcheln, dabei ab und zu umrühren, damit nichts ansetzt.",
+      "Schmecke zum Schluss kräftig ab. Dazu passen ein Spritzer Limette und frischer Koriander."
+    ],
+    "tags": [
+      "vegan",
+      "eintopf",
+      "meal-prep",
+      "klassiker"
+    ]
   }
 ]
