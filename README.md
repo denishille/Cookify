@@ -47,6 +47,16 @@ Jedes Rezept ist ein eigener Text, verlinkt aber ein passendes, möglichst gut u
 - Aufruf lokal, z. B. `npm run recipes:sources -- --refresh` oder `BRAVE_API_KEY=… npm run recipes:sources -- --fill --discover 20`.
 - Bewusst ausgelassen: chefkoch.de blockiert automatisierte Zugriffe und Crawler. Rezepttexte und Fotos werden von keiner Seite übernommen.
 
+## Rezepte von Rezeptseiten importieren
+
+`scripts/import-recipes.mjs` holt Rezepte von EatSmarter, lecker.de, kochbar, HelloFresh, KptnCook und weiteren Seiten über deren öffentliche schema.org-Rezeptdaten und macht daraus eigene Cookify-Rezepte. Läuft auf einem Rechner mit offenem Internet.
+
+1. **Holen** – `npm run recipes:import -- --urls https://…` (oder `--file urls.txt`, oder `--search "Lasagne" --limit 5` mit `BRAVE_API_KEY`). Ergebnis: Entwürfe in `src/data/imports/` mit Titel, Zutaten, Schritten, Zeit, Portionen, Bewertung und Quelle.
+2. **Umschreiben** – `ANTHROPIC_API_KEY=… npm run recipes:import -- --rewrite`. Claude überträgt jeden Entwurf ins Cookify-Schema: Zutaten mit Keys und Mengen, Beschreibung und Schritte neu in eigenen Worten, Kategorie, Ernährungsform, Nährwerte. Die Rezepte landen validiert in `src/data/recipes/imported-<datum>.json`, die Quellen mit Bewertung in `src/data/sources/imported.json`.
+3. **Bilder** – `npm run recipes:images` erzeugt dazu eigene Fotos.
+
+Fotos der Quellseiten werden nicht übernommen: Jedes Foto ist urheberrechtlich geschützt, unabhängig von der Rezeptur. Zutatenlisten sind Fakten, die Anleitung wird neu geschrieben.
+
 ## Rezeptbilder
 
 Die App zeigt für jedes Rezept ein Foto, sobald `src/assets/recipes/<id>.jpg` existiert; fehlt es, bleibt die Emoji-Kachel. Die Bilder entstehen per KI:
