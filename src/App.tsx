@@ -206,7 +206,7 @@ export default function App() {
         {!route.recipeId && route.view === 'rezepte' && (
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
-            <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} />
+            <FilterGroups value={filters} onChange={setFilters} hasRatings={HAS_RATINGS} pool={AVAILABLE} globalDiets={globalDiets} />
 
             {!configured && (
               <div className="section">
@@ -282,7 +282,7 @@ export default function App() {
                       </div>
                       <span className="hint">{pantryResults.length} Treffer</span>
                     </div>
-                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} hideCategory />
+                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} hideCategory pool={AVAILABLE} globalDiets={globalDiets} />
                     <div style={{ height: 18 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
@@ -310,7 +310,7 @@ export default function App() {
               <h1 className="h1">Alle Rezepte</h1>
               <span className="sub">{allList.length} {allList.length === 1 ? 'Rezept' : 'Rezepte'}</span>
             </div>
-            <FilterGroups value={allFilters} onChange={setAllFilters} hasRatings={HAS_RATINGS} hideTime>
+            <FilterGroups value={allFilters} onChange={setAllFilters} hasRatings={HAS_RATINGS} hideTime pool={AVAILABLE} globalDiets={globalDiets}>
               <label className="cfg-field">
                 <span>Sortierung</span>
                 <select className={`select ${allSort !== 'standard' ? 'on' : ''}`} value={allSort} onChange={(e) => setAllSort(e.target.value as Sort)}>

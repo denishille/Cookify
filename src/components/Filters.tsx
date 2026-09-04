@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import type { Category, Diet } from '../types'
+import type { Category, Diet, Recipe } from '../types'
 import { IconCheck, IconChevronDown } from './Icons'
 import { CATEGORY_LABELS, DIET_LABELS } from '../types'
 import { EMPTY_FILTERS, isEmpty, type FilterState } from '../lib/filters'
@@ -15,7 +15,14 @@ interface Props {
   hideCategory?: boolean
   /** Dauer-Feld ausblenden (Alle-Rezepte-Liste sortiert stattdessen) */
   hideTime?: boolean
+  /** Bestand, aus dem die Optionen abgeleitet werden: nur was wirklich vorkommt */
+  pool?: Recipe[]
+  /** Global gesetzte Ernährungsform – diese Optionen (und was sie einschließen) entfallen */
+  globalDiets?: Diet[]
 }
+
+/** Was eine Ernährungsform automatisch mit einschließt. */
+const IMPLIES: Partial<Record<Diet, Diet[]>> = { vegan: ['vegetarisch'] }
 
 interface MultiOption { value: string; label: string }
 
@@ -59,12 +66,17 @@ function MultiSelect({ options, value, onChange, label }: { options: MultiOption
 }
 
 /** Der Konfigurator: drei Dropdowns – Ernährung (Mehrfachauswahl), Kategorie, Dauer. */
-export function FilterGroups({ value, onChange, hasRatings, children, hideCategory, hideTime }: Props) {
+export function FilterGroups({ value, onChange, hasRatings, children, hideCategory, hideTime, pool, globalDiets = [] }: Props) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
+  const covered = new Set<Diet>(globalDiets.flatMap((d) => [d, ...(IMPLIES[d] ?? [])]))
+  const dietCount = (d: Diet) => (pool ? pool.filter((r) => r.diet.includes(d)).length : 1)
   const dietOptions: MultiOption[] = [
-    ...(Object.keys(DIET_LABELS) as Diet[]).map((d) => ({ value: d, label: DIET_LABELS[d] })),
+    ...(Object.keys(DIET_LABELS) as Diet[])
+      .filter((d) => !covered.has(d) && (value.diets.includes(d) || dietCount(d) > 0))
+      .map((d) => ({ value: d, label: DIET_LABELS[d] })),
     ...(hasRatings ? [{ value: 'top', label: '★ Top bewertet' }] : []),
   ]
+  const categories = (Object.keys(CATEGORY_LABELS) as Category[]).filter((c) => !pool || value.category === c || pool.some((r) => r.category === c))
   const dietValue = [...value.diets, ...(value.topRated ? ['top'] : [])]
   return (
     <div className="cfg">
@@ -79,7 +91,7 @@ export function FilterGroups({ value, onChange, hasRatings, children, hideCatego
           <span>Kategorie</span>
           <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })}>
             <option value="">Alle</option>
-            {(Object.keys(CATEGORY_LABELS) as Category[]).map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
+            {categories.map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
           </select>
         </label>
       )}

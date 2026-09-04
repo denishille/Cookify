@@ -17,17 +17,29 @@ function daySeed(date = new Date()): number {
   return h >>> 0
 }
 
-/** Fünf Vorschläge des Tages: gleiche Auswahl für alle an einem Tag, möglichst verschiedene Kategorien. */
+const SWEET = new Set(['nachspeise', 'backen'])
+
+/**
+ * Vorschläge des Tages: vier deftige Rezepte (möglichst verschiedene Kategorien, keine Getränke)
+ * und ein süßes. Gleiche Auswahl für alle an einem Tag, wechselt täglich.
+ */
 export function dailyPicks(pool: Recipe[], n = 5, date = new Date()): Recipe[] {
   const rand = rng(daySeed(date))
   const shuffled = [...pool].sort(() => rand() - 0.5)
+  const hearty = shuffled.filter((r) => !SWEET.has(r.category) && r.category !== 'getraenk')
+  const sweet = shuffled.filter((r) => SWEET.has(r.category))
   const picks: Recipe[] = []
   const usedCategories = new Set<string>()
-  for (const r of shuffled) {
-    if (picks.length >= n) break
+  for (const r of hearty) {
+    if (picks.length >= n - 1) break
     if (usedCategories.has(r.category)) continue
     picks.push(r); usedCategories.add(r.category)
   }
+  for (const r of hearty) {
+    if (picks.length >= n - 1) break
+    if (!picks.includes(r)) picks.push(r)
+  }
+  if (sweet[0]) picks.push(sweet[0])
   for (const r of shuffled) {
     if (picks.length >= n) break
     if (!picks.includes(r)) picks.push(r)
