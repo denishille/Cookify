@@ -30,13 +30,6 @@
     "rating": 5,
     "ratingCount": 37
   },
-  "v-linsenbolognese": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/spaghetti-mit-linsenbolognese-70726.html",
-    "title": "Spaghetti mit Linsenbolognese Rezept | LECKER",
-    "rating": 3.8,
-    "ratingCount": 45
-  },
   "v-one-pot-tomaten-mozzarella-pasta": {
     "site": "rewe.de",
     "url": "https://www.rewe.de/rezepte/one-pot-pasta-tomate-basilikum-mozzarella/",
@@ -61,13 +54,6 @@
     "rating": 5,
     "ratingCount": 3
   },
-  "v-kartoffel-lauch-gratin": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/62390-rzpt-kartoffel-lauch-gratin",
-    "title": "Kartoffel-Lauch-Gratin Rezept - [ESSEN UND TRINKEN]",
-    "rating": 2.6,
-    "ratingCount": 289
-  },
   "v-gefuellte-paprika-quinoa": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/gefuellte-paprika-mit-quinoa/",
@@ -81,13 +67,6 @@
     "title": "Gebackene Süßkartoffeln mit Bohnen Rezept | EAT SMARTER",
     "rating": 4.5,
     "ratingCount": 8
-  },
-  "v-shakshuka": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/shakshuka-mit-feta-73028.html",
-    "title": "Blitz-Shakshuka mit Feta Rezept | LECKER",
-    "rating": 3.7,
-    "ratingCount": 139
   },
   "v-kichererbsen-curry": {
     "site": "einfachkochen.de",
@@ -117,13 +96,6 @@
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/suesskartoffel-erdnuss-curry-dein-neues-lieblingsrezept",
     "title": "Süßkartoffel-Erdnuss-Curry – dein neues Lieblingsrezept"
-  },
-  "v-blumenkohl-kokos-curry": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/42266-rzpt-blumenkohl-erbsen-curry",
-    "title": "Blumenkohl-Erbsen-Curry Rezept - [ESSEN UND TRINKEN]",
-    "rating": 3,
-    "ratingCount": 1
   },
   "v-buddha-bowl-tahini": {
     "site": "lecker.de",
@@ -155,13 +127,6 @@
     "site": "rewe.de",
     "url": "https://www.rewe.de/rezepte/bunte-gemuesepfanne-kichererbsen-feta/",
     "title": "Bunte Gemüsepfanne mit Kichererbsen & Feta Rezept - REWE.de"
-  },
-  "v-tofu-teriyaki": {
-    "site": "hellofresh.de",
-    "url": "https://www.hellofresh.de/recipes/blitzschnelles-japanisches-teriyaki-stir-fry-695b7ce05c0be345fe7662ca",
-    "title": "Teriyaki Stir-Fry mit Tofu und Brokkoli Rezept | HelloFresh",
-    "rating": 3.9,
-    "ratingCount": 701
   },
   "v-pad-thai-tofu": {
     "site": "einfachkochen.de",

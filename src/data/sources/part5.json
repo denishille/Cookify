@@ -32,13 +32,6 @@
     "rating": 5,
     "ratingCount": 2
   },
-  "w-kimchi-fried-rice": {
-    "site": "edeka.de",
-    "url": "https://www.edeka.de/rezeptwelt/rezepte/kimchi-fried-rice/",
-    "title": "Kimchi Fried Rice - Rezepte",
-    "rating": 3.8,
-    "ratingCount": 4
-  },
   "w-bananen-nicecream": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/nicecream-mit-erdnussbutter-schnelles-rezept-mit-banane-und-erdnuss",
@@ -48,13 +41,6 @@
     "site": "kochbar.de",
     "url": "https://www.kochbar.de/rezept/163034/Gurkensalat-mit-Schmand-Dill-Dressing.html",
     "title": "Gurkensalat mit Schmand - Dill Dressing - Rezept - Kochbar"
-  },
-  "w-muscheln-weisswein": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/miesmuscheln-im-weissweinsud-37146.html",
-    "title": "Miesmuscheln im Weißweinsud Rezept | LECKER",
-    "rating": 3.8,
-    "ratingCount": 103
   },
   "w-okonomiyaki": {
     "site": "lecker.de",
@@ -90,13 +76,6 @@
     "title": "Pulled Jackfruit Burger",
     "rating": 4.5,
     "ratingCount": 12
-  },
-  "w-apfel-zimt-waffeln": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/apfel-zimt-waffeln-71716",
-    "title": "Apfel-Zimt-Waffeln Rezept | Küchengötter",
-    "rating": 3.7,
-    "ratingCount": 46
   },
   "w-borschtsch": {
     "site": "eatsmarter.de",

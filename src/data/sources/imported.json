@@ -1266,12 +1266,6 @@
     "rating": 5,
     "ratingCount": 17
   },
-  "i-blumenkohl-kaesesuppe": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/blumenkohl-kasesuppe-f4fa",
-    "title": "Blumenkohl-Käsesuppe",
-    "rating": 1
-  },
   "i-blumenkohlauflauf-mit-schinken": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/blumenkohlauflauf-bechamelsauce-kochschinken/",
@@ -1285,12 +1279,6 @@
     "title": "Bounty-Pudding-Oats – Frühstück mal anders!",
     "rating": 4,
     "ratingCount": 4
-  },
-  "i-ceci-al-pomodoro": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/ceci-al-pomodoro",
-    "title": "Ceci al pomodoro",
-    "rating": 1
   },
   "i-christstollen": {
     "site": "lecker.de",
@@ -1456,12 +1444,6 @@
     "url": "https://www.eat-this.org/kuerbiseintopf-mit-geroestetem-hokkaido-kichererbsen-harissa/",
     "title": "Kürbiseintopf mit geröstetem Hokkaido, Kichererbsen & Harissa"
   },
-  "i-lachs-im-blaetterteig": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/lachs-im-blatterteig-634b",
-    "title": "Lachs im Blätterteig",
-    "rating": 1
-  },
   "i-leberknoedelsuppe": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/leberknoedelsuppe-rezept-13571596.html",
@@ -1489,12 +1471,6 @@
     "title": "Maxi King Dessert",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-mediterraner-zwiebel-gemuese-kuchen": {
-    "site": "toastenstein.com",
-    "url": "https://www.toastenstein.com/zwiebel-gemuese-kuchen/",
-    "title": "Mediterraner Zwiebel-Gemüse-Kuchen",
-    "rating": 1
   },
   "i-moehreneintopf-mit-mettwurst": {
     "site": "simply-yummy.de",
@@ -1884,12 +1860,6 @@
     "title": "Gnocchi-Auflauf vegetarisch ▷ mit pikanter Paprikasoße",
     "rating": 4.8,
     "ratingCount": 107
-  },
-  "i-selbstgemachte-kartoffel-gnocchi": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/gnocchi-4d0d",
-    "title": "Gnocchi",
-    "rating": 1
   },
   "i-hackfleischpfanne-mit-kritharaki-und-feta": {
     "site": "malteskitchen.de",
@@ -2297,5 +2267,691 @@
     "title": "Zander mit Linsengemüse",
     "rating": 5,
     "ratingCount": 5
+  },
+  "i-asiatischer-rindfleischsalat": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/37078-rzpt-asiatischer-rindfleischsalat",
+    "title": "Asiatischer Rindfleischsalat Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-badisches-rehgulasch": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/badisches-rehgulasch-38380.html",
+    "title": "Badisches Rehgulasch Rezept",
+    "rating": 3.7,
+    "ratingCount": 38
+  },
+  "i-balsamico-schweinefilet-mit-kraeutern": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/balsamico-schweinefilet-mit-kraeuter/",
+    "title": "Balsamico Schweinefilet mit Kräuter",
+    "rating": 5,
+    "ratingCount": 34
+  },
+  "i-bananen-protein-pancakes": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/bananen-protein-pancakes",
+    "title": "Bananen-Protein-Pancakes",
+    "rating": 4.3,
+    "ratingCount": 6
+  },
+  "i-beeren-melonen-skyr-smoothie": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/beeren-melonen-skyr-smoothie",
+    "title": "Beeren-Melonen-Skyr-Smoothie",
+    "rating": 5,
+    "ratingCount": 10
+  },
+  "i-bunte-putenpfanne-mit-kirschtomaten": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/bunte-putenpfanne-mit-kirschtomaten",
+    "title": "Bunte Putenpfanne mit Kirschtomaten",
+    "rating": 4.6,
+    "ratingCount": 13
+  },
+  "i-bunter-linsensalat-mit-haehnchen-und-apfel": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/high-protein-linsensalat-mit-hahnchen-692d767a114b735a00613790",
+    "title": "Bunter Linsensalat mit Hähnchen knackigem Apfel und cremigem Dressing",
+    "rating": 4.5,
+    "ratingCount": 279
+  },
+  "i-cremige-brokkoli-pasta": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/cremige-brokkoli-pasta-98779",
+    "title": "Cremige Brokkoli Pasta (Zero Waste)",
+    "ratingCount": 1
+  },
+  "i-birnen-bohnen-und-speck": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/eintopf-birnen-bohnen-speck/",
+    "title": "Deftiger Eintopf mit Birnen, Bohnen und Speck",
+    "rating": 4.9,
+    "ratingCount": 24
+  },
+  "i-pfundstopf-aus-dem-backofen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/pfundstopf/",
+    "title": "Deftiger Pfundstopf aus dem Backofen | geniales Partyessen",
+    "rating": 4.9,
+    "ratingCount": 17
+  },
+  "i-low-carb-big-mac-rolle": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/low-carb-big-mac-rolle/",
+    "title": "Die beste Low Carb Big Mac Rolle aller Zeiten!",
+    "rating": 5,
+    "ratingCount": 451
+  },
+  "i-dinkel-quark-broetchen": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/60387-rzpt-dinkel-quark-broetchen",
+    "title": "Dinkel-Quark-Brötchen Rezept",
+    "rating": 3.2,
+    "ratingCount": 184
+  },
+  "i-dinkel-skyr-brot": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/dinkel-skyr-brot-rezept-13994308.html",
+    "title": "Dinkel-Skyr-Brot: selbstgebacken & vollwertig",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-spareribs-aus-dem-ofen": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/einfache-spareribs-12087714.html",
+    "title": "Einfache Spareribs Rezept",
+    "rating": 2.5,
+    "ratingCount": 187
+  },
+  "i-eiweissbrot-mit-quark-und-koernern": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/eiweissbrot/",
+    "title": "Einfaches Eiweißbrot mit Quark und Körnern",
+    "rating": 5,
+    "ratingCount": 61
+  },
+  "i-erdbeer-skyr-eis-am-stiel": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/erdbeer-skyr-eis-am-stiel",
+    "title": "Erdbeer-Skyr-Eis am Stiel",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-hirschragout-in-bordeaux": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/festliches-hirschragout-bordeaux-75247.html",
+    "title": "Festliches Hirschragout in Bordeaux Rezept",
+    "rating": 4.6,
+    "ratingCount": 15
+  },
+  "i-fischpfanne-mit-gemuese": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/fischpfanne-mit-gemuese-0",
+    "title": "Fischpfanne mit Gemüse",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-mediterranes-fischragout": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/fischragout-mediterran",
+    "title": "Fischragout mediterran"
+  },
+  "i-fitmacher-ruehrei": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/fitmacher-ruehrei-rezept-13969242.html",
+    "title": "Fitmacher-Rührei Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-fluffige-quarkbroetchen": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/schnelle-und-einfache-quarkbroetchen/",
+    "title": "Fluffige Quarkbrötchen – schnell und einfach",
+    "rating": 5,
+    "ratingCount": 80
+  },
+  "i-haehnchen-bowl-mit-mango-paprika-salat": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/fruchtig-scharfe-bio-hahnchen-bowl-mit-reis-68bacae09f91a82a63be4dd0",
+    "title": "Fruchtig-scharfe Bio-Hähnchen-Bowl mit Reis auf frischem Mango-Paprika-Salat & Limetten-Joghurt",
+    "rating": 4.1,
+    "ratingCount": 49
+  },
+  "i-fruehstuecks-bowl-mit-koernigem-frischkaese": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/fruehstuecks-bowl-mit-koernigem-frischkaese",
+    "title": "Frühstücks-Bowl mit körnigem Frischkäse",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-gefuellte-avocado-mit-tomatensalsa": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/gefuellte-avocado-mit-himbeeren-pistazien-und-arla-skyr/",
+    "title": "Gefüllte Avocado: Schnell gemacht, gesund und lecker",
+    "rating": 4.9,
+    "ratingCount": 18
+  },
+  "i-getreidepfanne-mit-skyr-dip": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/getreidepfanne-mit-skyr-dip",
+    "title": "Getreidepfanne mit Skyr-Dip",
+    "rating": 4.7,
+    "ratingCount": 11
+  },
+  "i-hackbaellchen-in-tomatensosse": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/hackbaellchen-in-tomatensosse/",
+    "title": "Hackbällchen in Tomatensoße",
+    "rating": 5,
+    "ratingCount": 203
+  },
+  "i-hackbaellchen-toskana-aus-dem-ofen": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/hackbaellchen-toskana/",
+    "title": "Hackbällchen Toskana in der Auflaufform",
+    "rating": 5,
+    "ratingCount": 96
+  },
+  "i-haehnchen-bowl-mit-reis": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/haehnchen-bowl/",
+    "title": "Hähnchen-Bowl mit Reis – fertig in 30 Minuten",
+    "rating": 5,
+    "ratingCount": 12
+  },
+  "i-haehnchen-in-kurkuma-joghurt-marinade": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/89523-rzpt-plattes-haehnchen-kurkuma-joghurt-marinade",
+    "title": "Hähnchen-Marinade mit Joghurt: zart & saftig",
+    "rating": 4.4,
+    "ratingCount": 10
+  },
+  "i-haehnchen-marinade-zum-grillen": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/haehnchen-marinade/",
+    "title": "Hähnchen-Marinade – zum Grillen oder Braten",
+    "rating": 5,
+    "ratingCount": 8
+  },
+  "i-tandoori-haehnchenspiesse-mit-gurken-joghurt": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/haehnchenspiesse-tandoori-mit-joghurt-und-tomaten",
+    "title": "Hähnchenspieße Tandoori mit Joghurt und Tomaten"
+  },
+  "i-hirschgulasch-mit-zartbitterschokolade": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/hirschgulasch-mit-zartbitterschokolade-67284.html",
+    "title": "Hirschgulasch mit Zartbitterschokolade Rezept",
+    "rating": 4.5,
+    "ratingCount": 6
+  },
+  "i-huettenkaese-broetchen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/huettenkaese-broetchen/",
+    "title": "Hüttenkäse-Brötchen – schnell & proteinreich",
+    "rating": 5,
+    "ratingCount": 19
+  },
+  "i-huettenkaese-pancakes-mit-erdbeeren": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/huettenkaese-pancakes",
+    "title": "Hüttenkäse-Pancakes",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "i-huettenkaese-salat-mit-gurke-und-tomaten": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/huettenkaese-salat/",
+    "title": "Hüttenkäse-Salat – proteinreich &amp; low carb",
+    "rating": 5,
+    "ratingCount": 33
+  },
+  "i-huettenkaese-taler-mit-tomaten": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/huettenkaesetaler/",
+    "title": "Hüttenkäsetaler mit 4 Zutaten",
+    "rating": 5,
+    "ratingCount": 155
+  },
+  "i-indisches-garnelen-curry-mit-reis": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/indisches-garnelen-curry-mit-reis",
+    "title": "Indisches Garnelen-Curry mit Reis",
+    "rating": 5,
+    "ratingCount": 8
+  },
+  "i-joghurt-marinierte-haehnchenspiesse": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/joghurt-marinierte-haehnchenspiesse-2373",
+    "title": "Joghurt-Marinierte Hähnchenspiesse",
+    "rating": 5,
+    "ratingCount": 9
+  },
+  "i-johannisbeer-skyr-eis-am-stiel": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/johannisbeer-skyr-eis-am-stiel",
+    "title": "Johannisbeer-Skyr-Eis am Stiel",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-kabeljau-auf-gemuese-sugo": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/kabeljau-auf-gemuese-sugo-80291.html",
+    "title": "Kabeljau auf Gemüse-Sugo Rezept",
+    "rating": 4.2,
+    "ratingCount": 11
+  },
+  "i-kalbsgeschnetzeltes-mit-pilzen": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/kalbsgeschnetzeltes-mit-pilzen-46102",
+    "title": "Kalbsgeschnetzeltes mit Pilzen",
+    "rating": 3.9,
+    "ratingCount": 14
+  },
+  "i-kartoffel-reis-gratin-im-balkan-style": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/kartoffel-reis-gratin-im-balkan-style/",
+    "title": "Kartoffel Reis Gratin im Balkan Style",
+    "rating": 5,
+    "ratingCount": 43
+  },
+  "i-lachsrolle-mit-frischkaese-und-spinat": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/lachsrolle/",
+    "title": "Lachsrolle mit Frischkäse und Spinat",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-entenbrust-aus-dem-ofen-mit-rotkohl": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/entenbrust/",
+    "title": "Leckere Entenbrust - saftig, zart &amp; rosa | aus dem Backofen",
+    "rating": 5,
+    "ratingCount": 11
+  },
+  "i-knusperschnitzel-mit-ofengemuese": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/leichtes-knusperschnitzel-mit-ofengemuese-23306.html",
+    "title": "Leichtes Knusperschnitzel mit Ofengemüse Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-linsen-baguettestangen": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/linsen-baguettestangen-96738",
+    "title": "Linsen-Baguettestangen",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-linsen-champignon-bowl-mit-ziegenkaese": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/linsen-champignon-bowl-mit-ziegenkaese",
+    "title": "Linsen-Champignon-Bowl mit Ziegenkäse",
+    "rating": 4.7,
+    "ratingCount": 21
+  },
+  "i-linsenfrikadellen-mit-salat-und-quarkdip": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/linsenfrikadellen-mit-salat-und-quarkdip",
+    "title": "Linsenfrikadellen mit Salat und Quarkdip",
+    "rating": 4.4,
+    "ratingCount": 28
+  },
+  "i-linsennudel-bowl-mit-skyr-leinoel-dip": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/linsennudel-bowl-mit-skyr-leinoel-dip",
+    "title": "Linsennudel-Bowl mit Skyr-Leinöl-Dip",
+    "rating": 4.9,
+    "ratingCount": 17
+  },
+  "i-low-carb-eiweissbrot": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/eiweissbrot-low-carb-mit-quark",
+    "title": "Low Carb Eiweißbrot backen ganz schnell",
+    "rating": 4.2,
+    "ratingCount": 119
+  },
+  "i-low-carb-gyros-rolle": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/low-carb-gyros-rolle-doener-rolle/",
+    "title": "Low Carb Gyros-Rolle, das beste Rezepte",
+    "rating": 5,
+    "ratingCount": 146
+  },
+  "i-low-carb-haehnchen-gemuese-vom-blech": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/low-carb-haehnchen-gemuese-ein-blech-rezept/",
+    "title": "Low Carb Hähnchen-Gemüse vom Blech",
+    "rating": 4.9,
+    "ratingCount": 11
+  },
+  "i-low-carb-quarkauflauf-mit-beeren": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/quarkauflauf-low-carb/",
+    "title": "Low Carb Quarkauflauf – ohne Zucker &amp; Mehl",
+    "rating": 5,
+    "ratingCount": 28
+  },
+  "i-quarkauflauf-mit-blaubeeren": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/low-carb-quarkauflauf",
+    "title": "Low Carb Quarkauflauf",
+    "rating": 4.5,
+    "ratingCount": 3
+  },
+  "i-low-carb-schuettelpizza": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schuettelpizza/",
+    "title": "Low Carb Schüttelpizza",
+    "rating": 5,
+    "ratingCount": 339
+  },
+  "i-mandelknusper-kabeljau-aus-dem-ofen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/mandelknusper-kabeljau-aus-dem-ofen-78531.html",
+    "title": "Mandelknusper-Kabeljau aus dem Ofen Rezept",
+    "rating": 3.9,
+    "ratingCount": 198
+  },
+  "i-marokkanische-gemuese-tajine-mit-couscous": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/marokkanische-gemuese-tajine-mit-couscous-88005",
+    "title": "Marokkanische Gemüse-Tajine mit Couscous",
+    "rating": 4.6,
+    "ratingCount": 163
+  },
+  "i-mediterrane-garnelenpfanne": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/mediterrane-garnelenpfanne",
+    "title": "Mediterrane Garnelenpfanne",
+    "rating": 4.8,
+    "ratingCount": 45
+  },
+  "i-mediterranes-lammragout-mit-gruenen-bohnen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/mediterranes-lammragout/",
+    "title": "Mediterranes Lammragout mit grünen Bohnen und Kirschtomaten",
+    "rating": 4.8,
+    "ratingCount": 24
+  },
+  "i-nudeln-mit-raeucherlachs-und-zitronenpesto": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/nudeln-mit-raeucherlachs-und-zitronenpesto-26811.html",
+    "title": "Nudeln mit Räucherlachs und Zitronenpesto Rezept",
+    "rating": 3.9,
+    "ratingCount": 20
+  },
+  "i-ofenhaehnchen-mit-gemuese": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/ofenhaehnchen-mit-gemuese/",
+    "title": "Ofenhähnchen mit Gemüse",
+    "rating": 5,
+    "ratingCount": 32
+  },
+  "i-haehnchen-tajine": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/haehnchen-tajine-98235",
+    "title": "One-Pan Hähnchen-Tajine",
+    "rating": 5,
+    "ratingCount": 6
+  },
+  "i-ofenpasta-mit-gruenem-spargel-und-feta": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/pasta-mit-spargel/",
+    "title": "Pasta mit grünem Spargel aus dem Ofen",
+    "rating": 5,
+    "ratingCount": 106
+  },
+  "i-pasta-mit-kokos-garnelen-sauce": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pasta-mit-kokos-garnelen-sosse",
+    "title": "Pasta mit Kokos-Garnelen-Soße"
+  },
+  "i-pasta-mit-walnuss-pesto": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/pasta-mit-walnuss-pesto-58693",
+    "title": "Pasta mit Walnuss-Pesto",
+    "rating": 2.5,
+    "ratingCount": 2
+  },
+  "i-piroggen-mit-hackfuellung-und-gurken-schmand-dip": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/piroggen-mit-hackfuellung-mit-gurken-schmand-dip-63799.html",
+    "title": "Piroggen mit Hackfüllung mit Gurken-Schmand-Dip Rezept",
+    "rating": 3.9,
+    "ratingCount": 16
+  },
+  "i-protein-gnocchi-mit-huettenkaese": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/protein-gnocchi-mit-huettenkaese-96576",
+    "title": "Protein-Gnocchi mit Hüttenkäse",
+    "rating": 4.7,
+    "ratingCount": 60
+  },
+  "i-protein-pancakes-mit-magerquark": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/protein-pancakes-mit-magerquark",
+    "title": "Protein-Pancakes mit Magerquark",
+    "rating": 4,
+    "ratingCount": 18
+  },
+  "i-protein-pfannkuchen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/protein-pfannkuchen/",
+    "title": "Protein-Pfannkuchen – ganz einfaches Rezept",
+    "rating": 4.7,
+    "ratingCount": 26
+  },
+  "i-protein-porridge": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/protein-porridge/",
+    "title": "Protein-Porridge – schnell &amp; eiweißreich",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-protein-skyr-mit-physalis": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/protein-skyr-mit-physalis-1bef",
+    "title": "Protein Skyr mit Physalis",
+    "rating": 1
+  },
+  "i-putengeschnetzeltes-in-senfsauce": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/putengeschnetzeltes-in-senfsauce-22109",
+    "title": "Putengeschnetzeltes in Senfsauce"
+  },
+  "i-quark-aprikosen-gratin": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/34304-rzpt-quark-aprikosen-gratin",
+    "title": "Quark-Aprikosen-Gratin Rezept"
+  },
+  "i-low-carb-quarkkeulchen": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/quarkkeulchen-low-carb",
+    "title": "Quarkkeulchen Low Carb und richtig saftig",
+    "rating": 4.5,
+    "ratingCount": 15
+  },
+  "i-quinoa-salat-mit-kichererbsen-und-tahin-dressing": {
+    "site": "biancazapatka.com",
+    "url": "https://biancazapatka.com/de/quinoa-salat-mit-kichererbsen/",
+    "title": "Quinoa Salat mit Kichererbsen und Tahin-Dressing",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-rinderbraten-in-chianti-mit-moehren-und-champignon": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/rinderbraten-chianti-geschmort-mit-moehren-zwiebeln-und-champignons-14837.html",
+    "title": "Rinderbraten in Chianti geschmort mit Möhren, Zwiebeln und Champignons Rezept",
+    "rating": 3.8,
+    "ratingCount": 6
+  },
+  "i-rinderschmorbraten-mit-spaetzle": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/rinderschmorbraten-mit-spaetzle-30452.html",
+    "title": "Rinderschmorbraten mit Spätzle Rezept",
+    "rating": 3.5,
+    "ratingCount": 2
+  },
+  "i-rindfleischsalat-mit-curry-ketchup-sauce": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/35956-rzpt-rindfleischsalat",
+    "title": "Rindfleischsalat Rezept",
+    "rating": 2.4,
+    "ratingCount": 8
+  },
+  "i-risi-bisi": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/risi-bisi-71046.html",
+    "title": "Risi Bisi Rezept"
+  },
+  "i-rosenkohlauflauf-mit-kartoffeln": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/rosenkohlauflauf-mit-kartoffeln/",
+    "title": "Rosenkohlauflauf mit Kartoffeln",
+    "rating": 5,
+    "ratingCount": 174
+  },
+  "i-rote-linsencracker": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-linsencracker-proteinreicher-gesunder-snack/",
+    "title": "Rote Linsencracker – proteinreicher, gesunder Snack"
+  },
+  "i-rotes-garnelen-curry-mit-zuckerschoten": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/rotes-garnelen-curry-mit-zuckerschoten",
+    "title": "Rotes Garnelen-Curry mit Zuckerschoten",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-ruehrei-mit-huettenkaese": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/ruehrei-mit-huettenkaese/",
+    "title": "Rührei mit Hüttenkäse",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-schnelle-quarkbroetchen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schnelle-quarkbroetchen-mit-6-zutaten/",
+    "title": "Schnelle Quarkbrötchen in Rekordzeit!",
+    "rating": 5,
+    "ratingCount": 182
+  },
+  "i-schnittlauch-huettenkaese-mit-gemuesesticks": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/schnittlauch-huettenkaese-mit-gemuese-sticks-0",
+    "title": "Schnittlauch-Hüttenkäse mit Gemüse-Sticks",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-skyr-auflauf-mit-beeren": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/skyr-auflauf-mit-beeren-97131",
+    "title": "Skyr-Auflauf mit Beeren"
+  },
+  "i-skyr-blini-mit-konfituere": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/skyr-blini-mit-konfituere-rezept-13827886.html",
+    "title": "Skyr-Blini mit Konfitüre Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-skyr-bowl-mit-beeren": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/skyr-bowl",
+    "title": "Skyr-Bowl",
+    "rating": 4.3,
+    "ratingCount": 4
+  },
+  "i-skyr-breakfast-bowl": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/skyr-breakfast-bowl-97806",
+    "title": "Skyr-Breakfast-Bowl",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-skyr-broetchen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/skyr-broetchen-79303.html",
+    "title": "Skyr-Brötchen Rezept",
+    "rating": 4.1,
+    "ratingCount": 135
+  },
+  "i-skyr-tiramisu": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/skyr-tiramisu-cremig-und-leicht-132910.html",
+    "title": "Skyr-Tiramisu - cremig & leicht Rezept",
+    "rating": 4,
+    "ratingCount": 4
+  },
+  "i-spaghetti-auflauf": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/spaghetti-auflauf/",
+    "title": "Spaghetti-Auflauf – schnell gemacht",
+    "rating": 5,
+    "ratingCount": 8
+  },
+  "i-protein-pizzateig": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/superleckerer-protein-pizzateig-cda2",
+    "title": "Superleckerer Protein-Pizzateig",
+    "rating": 1
+  },
+  "i-tajine-mit-entenkeule": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/tajine-mit-entenkeule-7639",
+    "title": "Tajine mit Entenkeule",
+    "rating": 5,
+    "ratingCount": 8
+  },
+  "i-thai-mango-linsensalat-mit-haehnchen": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/thai-mango-hahnchen-salat-662fa2b34e3d82e3ad932544",
+    "title": "Thai Mango Linsensalat mit Hähnchen in Sriracha-Erdnuss-Dressing",
+    "rating": 4.4,
+    "ratingCount": 2998
+  },
+  "i-vegane-mapo-tofu-udon": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-mapo-tofu-udon/",
+    "title": "Vegane Mapo-Tofu-Udon"
+  },
+  "i-vegane-ramen-suppe": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/vegane-ramen-suppe",
+    "title": "Vegane Ramen-Suppe",
+    "rating": 4.9,
+    "ratingCount": 14
+  },
+  "i-vegetarischer-nudelauflauf": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/bester-vegetarischer-nudelauflauf/",
+    "title": "Vegetarischer Nudelauflauf: Der Beste!",
+    "rating": 5,
+    "ratingCount": 30
+  },
+  "i-wikingertopf-mit-hackbaellchen": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/wikingertopf/",
+    "title": "Wikingertopf mit Hackbällchen",
+    "rating": 5,
+    "ratingCount": 45
+  },
+  "i-zitronen-risotto": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/zitronen-risotto-6989.html",
+    "title": "Zitronen-Risotto Rezept",
+    "rating": 4.5,
+    "ratingCount": 2
+  },
+  "i-zuckerfreier-protein-kaesekuchen": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/zuckerfreier-protein-kasekuchen-2a51",
+    "title": "Zuckerfreier Protein Käsekuchen",
+    "rating": 5,
+    "ratingCount": 1
   }
 }

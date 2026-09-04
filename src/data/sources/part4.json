@@ -1,11 +1,4 @@
 {
-  "s-kuerbissuppe": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/43827-rzpt-kuerbis-kokos-suppe",
-    "title": "Kürbis-Kokos-Suppe Rezept - [ESSEN UND TRINKEN]",
-    "rating": 3.9,
-    "ratingCount": 41
-  },
   "s-tomatensuppe": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/geroestete-tomatensuppe-84277.html",
@@ -56,13 +49,6 @@
     "rating": 5,
     "ratingCount": 251
   },
-  "s-miso-suppe": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/fixe-misosuppe-mit-tofu-79029.html",
-    "title": "Fixe Misosuppe mit Tofu Rezept | LECKER",
-    "rating": 3.9,
-    "ratingCount": 17
-  },
   "s-brokkoli-cremesuppe": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/brokkoli-cremesuppe-29387.html",
@@ -76,13 +62,6 @@
     "title": "Blumenkohl-Curry-Suppe – einfach & lecker",
     "rating": 5,
     "ratingCount": 5
-  },
-  "s-zwiebelsuppe": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/61676-rzpt-franzoesische-zwiebelsuppe",
-    "title": "Französische Zwiebelsuppe Rezept - [ESSEN UND TRINKEN]",
-    "rating": 3.3,
-    "ratingCount": 171
   },
   "s-caesar-salad-haehnchen": {
     "site": "eatsmarter.de",

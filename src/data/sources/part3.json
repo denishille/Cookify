@@ -48,13 +48,6 @@
     "rating": 4,
     "ratingCount": 2
   },
-  "d-schoko-lava-cake": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/lava-cake-77259.html",
-    "title": "Lava-Cake Rezept | LECKER",
-    "rating": 3.5,
-    "ratingCount": 39
-  },
   "d-bratapfel": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/brataepfel-mit-mandeln-und-rosinen-88077",
@@ -100,13 +93,6 @@
     "url": "https://www.lecker.de/beerenstarke-skyr-creme-80040.html",
     "title": "Beerenstarke Skyr-Creme Rezept | LECKER"
   },
-  "d-affogato": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/54854-rzpt-affogato-al-caffe",
-    "title": "Affogato al caffè Rezept - [ESSEN UND TRINKEN]",
-    "rating": 3.9,
-    "ratingCount": 19
-  },
   "d-rhabarber-crumble": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/erdbeer-rhabarber-crumble-64808.html",
@@ -151,20 +137,6 @@
     "title": "Versunkener Apfelkuchen nach Omas Rezept | LECKER",
     "rating": 4.5,
     "ratingCount": 6
-  },
-  "d-kaesekuchen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/klassischer-kaesekuchen-mit-muerbeteigboden-20359.html",
-    "title": "Klassischer Käsekuchen mit Mürbeteigboden Rezept | LECKER",
-    "rating": 3.6,
-    "ratingCount": 5
-  },
-  "d-chocolate-chip-cookies": {
-    "site": "lecker.de",
-    "url": "https://lecker.de/chocolate-chip-cookies-schnell-angeruehrter-teig-75715.html",
-    "title": "Chocolate Chip Cookies Rezept | LECKER",
-    "rating": 3.8,
-    "ratingCount": 59
   },
   "d-heidelbeer-muffins": {
     "site": "kuechengoetter.de",

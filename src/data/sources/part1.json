@@ -30,13 +30,6 @@
     "rating": 5,
     "ratingCount": 258
   },
-  "m-kasseler-sauerkraut": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/kasseler-mit-sauerkraut-und-kartoffelpueree-18548.html",
-    "title": "Kasseler mit Sauerkraut und Kartoffelpüree Rezept | LECKER",
-    "rating": 3.3,
-    "ratingCount": 15
-  },
   "m-jaegerschnitzel": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/jaegerschnitzel/",
@@ -55,20 +48,6 @@
     "title": "Hähnchenschenkel im Backofen - emmikochteinfach",
     "rating": 5,
     "ratingCount": 283
-  },
-  "m-forelle-muellerin": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/forelle-muellerin-18582.html",
-    "title": "Forelle Müllerin Rezept | LECKER",
-    "rating": 3.2,
-    "ratingCount": 21
-  },
-  "m-matjes-hausfrauenart": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/matjes-hausfrauenart-44129.html",
-    "title": "Matjes \"Hausfrauenart\" Rezept | LECKER",
-    "rating": 3.2,
-    "ratingCount": 15
   },
   "m-krustenbraten-biersauce": {
     "site": "lecker.de",
@@ -105,20 +84,6 @@
     "rating": 4.3,
     "ratingCount": 27
   },
-  "m-spaghetti-vongole": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/36775-rzpt-spaghetti-alle-vongole",
-    "title": "Spaghetti alle vongole Rezept - [ESSEN UND TRINKEN]",
-    "rating": 3.2,
-    "ratingCount": 56
-  },
-  "m-pollo-cacciatore": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/pollo-alla-cacciatora-42444.html",
-    "title": "Pollo alla cacciatora Rezept | LECKER",
-    "rating": 3,
-    "ratingCount": 1
-  },
   "m-garnelen-risotto": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/risotto-al-limone-mit-garnelen-129761.html",
@@ -131,26 +96,12 @@
     "rating": 4.9,
     "ratingCount": 12
   },
-  "m-pad-thai-garnelen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/thailaendisches-pad-thai-mit-garnelen-39074.html",
-    "title": "Thailändisches Pad Thai mit Garnelen Rezept | LECKER",
-    "rating": 3.7,
-    "ratingCount": 6
-  },
   "m-miso-ramen-schweinebauch": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/miso-ramen-13469756.html",
     "title": "Miso-Ramen Rezept - [ESSEN UND TRINKEN]",
     "rating": 5,
     "ratingCount": 3
-  },
-  "m-bibimbap-rind": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/84387-rzpt-bibimbap-gemischter-reis-mit-rind",
-    "title": "Bibimbap - gemischter Reis mit Rind Rezept - [ESSEN UND TRINKEN]",
-    "rating": 3.2,
-    "ratingCount": 69
   },
   "m-rotes-thai-curry-huhn": {
     "site": "gaumenfreundin.de",
@@ -170,13 +121,6 @@
     "title": "Rindfleisch mit Brokkoli | einfach & schnell aus dem Wok",
     "rating": 4.9,
     "ratingCount": 61
-  },
-  "m-sesam-thunfischsteak": {
-    "site": "edeka.de",
-    "url": "https://www.edeka.de/rezeptwelt/rezepte/thunfischsteak-in-sesamkruste/",
-    "title": "Thunfischsteak in Sesamkruste",
-    "rating": 3.7,
-    "ratingCount": 12
   },
   "m-chicken-tikka-masala": {
     "site": "lecker.de",
