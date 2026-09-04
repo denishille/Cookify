@@ -47,7 +47,20 @@ const HIGH_FRUCTOSE = new Set([
   'zwiebel', 'knoblauch', 'lauch', 'artischocken', 'spargel',
 ])
 
+/** Schwer verdauliche oder reizende Zutaten: Hülsenfrüchte, Kohl, Scharfes, Alkohol, Kaffee. */
+const HARD_TO_DIGEST = new Set([
+  'kichererbsen', 'linsen-rot', 'linsen-braun', 'belugalinsen', 'kidneybohnen', 'schwarze-bohnen', 'weisse-bohnen', 'edamame', 'sojahack',
+  'weisskohl', 'rotkohl', 'rosenkohl', 'gruenkohl', 'sauerkraut', 'blumenkohl',
+  'chili', 'chiliflocken', 'sriracha', 'sambal-oelek', 'harissa', 'currypaste',
+  'weisswein', 'rotwein', 'bier', 'kaffee',
+])
+
 const requiredKeys = (ingredients: Ingredient[]) => ingredients.filter((i) => !i.optional).map((i) => i.key)
+
+/** Leicht verdaulich (Schonkost): nichts Schwerverdauliches oder Scharfes, kein Alkohol, höchstens 25 g Fett pro Portion. */
+export function isEasyToDigest(ingredients: Ingredient[], n: Nutrition): boolean {
+  return n.fat <= 25 && !requiredKeys(ingredients).some((k) => HARD_TO_DIGEST.has(k))
+}
 
 export function isLowFodmap(ingredients: Ingredient[]): boolean {
   return !requiredKeys(ingredients).some((k) => HIGH_FODMAP.has(k))
@@ -59,12 +72,13 @@ export function isFructoseFree(ingredients: Ingredient[]): boolean {
 
 /** Ersetzt die rechnerischen Flags durch die aus Nährwerten und Zutaten abgeleiteten. */
 export function derivedDiet(diet: Diet[], n: Nutrition, ingredients: Ingredient[] = []): Diet[] {
-  const computed: Diet[] = ['proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei']
+  const computed: Diet[] = ['proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei', 'leichtverdaulich']
   const keep: Diet[] = diet.filter((d) => !computed.includes(d))
   if (isHighProtein(n)) keep.push('proteinreich')
   if (isLowCarb(n)) keep.push('lowcarb')
   if (isLowCalorie(n)) keep.push('kalorienarm')
   if (isLowFodmap(ingredients)) keep.push('lowfodmap')
   if (isFructoseFree(ingredients)) keep.push('fruktosefrei')
+  if (isEasyToDigest(ingredients, n)) keep.push('leichtverdaulich')
   return keep
 }
