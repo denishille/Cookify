@@ -1241,7 +1241,7 @@
     "title": "Bruschetta al Pomodoro",
     "description": "Geröstetes Ciabatta mit Knoblauch, saftigen Tomatenwürfeln, Basilikum und gutem Olivenöl – der italienische Vorspeisenklassiker.",
     "emoji": "🍞",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch",
@@ -1335,7 +1335,7 @@
     "title": "Antipasti aus dem Ofen",
     "description": "Aubergine, Zucchini, Paprika und Champignons mit Knoblauch und Kräutern geröstet und in Olivenöl-Balsamico mariniert – schmeckt kalt am besten.",
     "emoji": "🍆",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch",
@@ -1449,7 +1449,7 @@
     "title": "Gambas al Ajillo",
     "description": "Spanische Tapas-Ikone: Garnelen in brutzelndem Knoblauch-Olivenöl mit Chili und Petersilie – dazu Brot zum Auftunken.",
     "emoji": "🦐",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "mediterran",
     "diet": [
       "proteinreich",
@@ -1540,7 +1540,7 @@
     "title": "Gefüllte Champignons",
     "description": "Große Champignons mit einer Füllung aus Frischkäse, Parmesan, Knoblauch und Kräutern im Ofen überbacken – lowcarb und blitzschnell vorbereitet.",
     "emoji": "🍄",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "international",
     "diet": [
       "vegetarisch",
@@ -1643,7 +1643,7 @@
     "title": "Tzatziki",
     "description": "Cremiger griechischer Joghurt-Dip mit geraspelter Gurke, viel Knoblauch, Dill und Olivenöl – für Pita, Gegrilltes und Gemüsesticks.",
     "emoji": "🥒",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "mediterran",
     "diet": [
       "vegetarisch",
@@ -1736,7 +1736,7 @@
     "title": "Vitello Tonnato light",
     "description": "Hauchdünn geschnittene, sanft pochierte Putenbrust unter einer leichten Thunfisch-Joghurt-Sauce mit Kapern – proteinreich und elegant.",
     "emoji": "🐟",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "proteinreich",
@@ -1858,7 +1858,7 @@
     "title": "Sommerrollen mit Erdnussdip",
     "description": "Frische vietnamesische Reispapierrollen mit Reisnudeln, knackigem Gemüse, Avocado und Kräutern – dazu ein cremig-scharfer Erdnussdip.",
     "emoji": "🌯",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "asiatisch",
     "diet": [
       "vegetarisch",
@@ -1982,7 +1982,7 @@
     "title": "Hummus mit warmem Pita",
     "description": "Extra cremiger Hummus aus Kichererbsen, Tahini, Zitrone und Kreuzkümmel – mit Olivenöl und Paprika serviert und warmem Pita-Brot zum Dippen.",
     "emoji": "🧆",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "orientalisch",
     "diet": [
       "vegetarisch",
@@ -2086,7 +2086,7 @@
     "title": "Kartoffelgratin",
     "description": "Hauchdünne Kartoffelscheiben in Sahne, Knoblauch und Muskat gebacken, mit Gruyère goldbraun überbacken – die Beilage, die jedem Braten die Show stiehlt.",
     "emoji": "🧀",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "franzoesisch",
     "diet": [
       "vegetarisch",
@@ -2183,7 +2183,7 @@
     "title": "Ofenkartoffeln mit Kräuterquark",
     "description": "Knusprige Backkartoffeln mit fluffigem Inneren und einem frischen Kräuterquark mit Schnittlauch und Zitrone.",
     "emoji": "🥔",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -2280,7 +2280,7 @@
     "title": "Semmelknödel",
     "description": "Bayerische Semmelknödel aus altbackenen Brötchen, Milch, Ei und Petersilie – locker, saftig und ideal zu Braten, Pilzrahm oder Gulasch.",
     "emoji": "🥖",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -2378,7 +2378,7 @@
     "title": "Schwäbische Spätzle",
     "description": "Hausgemachte Spätzle aus Mehl, Eiern und Wasser – vom Brett geschabt oder gehobelt, in brauner Butter geschwenkt.",
     "emoji": "🍝",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -2456,7 +2456,7 @@
     "title": "Orientalischer Reis-Pilaw",
     "description": "Lockerer Basmatireis mit Zwiebeln, Zimt, Kardamom, Rosinen und gerösteten Mandeln – die aromatische Beilage zu Curry, Grillfleisch und Gemüse.",
     "emoji": "🍚",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "orientalisch",
     "diet": [
       "vegetarisch",
@@ -2567,7 +2567,7 @@
     "title": "Mediterranes Ofengemüse",
     "description": "Paprika, Zucchini, Aubergine, rote Zwiebeln und Cherrytomaten mit Knoblauch, Rosmarin und Thymian im Ofen geröstet – bunt, einfach und wandelbar.",
     "emoji": "🥕",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "mediterran",
     "diet": [
       "vegetarisch",
@@ -2686,7 +2686,7 @@
     "title": "Bratkartoffeln mit Speck und Zwiebeln",
     "description": "Goldbraun-knusprige Bratkartoffeln aus gekochten Kartoffeln vom Vortag mit Speck, Zwiebeln und Kümmel – wie aus der Gastwirtschaft.",
     "emoji": "🍳",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "glutenfrei",
@@ -2778,7 +2778,7 @@
     "title": "Süßkartoffel-Pommes aus dem Ofen",
     "description": "Knusprige Süßkartoffel-Pommes ohne Fritteuse – der Trick ist etwas Speisestärke und genug Platz auf dem Blech. Mit Rauchpaprika und Knoblauch gewürzt.",
     "emoji": "🍟",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch",
@@ -2865,7 +2865,7 @@
     "title": "Naan-Brot aus der Pfanne",
     "description": "Fluffiges indisches Fladenbrot mit Joghurt im Teig, in der heißen Pfanne mit Blasen gebacken und mit Knoblauchbutter bestrichen.",
     "emoji": "🫓",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "indisch",
     "diet": [
       "vegetarisch",
@@ -2963,7 +2963,7 @@
     "title": "Grüner Smoothie",
     "description": "Cremiger grüner Smoothie aus Spinat, Banane, Apfel, Gurke und Ingwer mit Hafermilch – frisch, leicht und in 5 Minuten fertig.",
     "emoji": "🥬",
-    "category": "getraenk",
+    "category": "snack",
     "cuisine": "international",
     "diet": [
       "vegetarisch",
@@ -3057,7 +3057,7 @@
     "title": "Protein-Shake mit Beeren",
     "description": "Sättigender Shake aus Proteinpulver, Skyr, gefrorenen Beeren und Haferflocken – 45 g Protein pro Portion, ideal nach dem Training oder als Frühstück.",
     "emoji": "🥤",
-    "category": "getraenk",
+    "category": "snack",
     "cuisine": "international",
     "diet": [
       "vegetarisch",
@@ -3142,7 +3142,7 @@
     "title": "Eiskaffee mit Vanilleeis",
     "description": "Der Café-Klassiker für den Sommer: kalter starker Kaffee mit Milch, einer Kugel Vanilleeis, Sahnehaube und Kakao.",
     "emoji": "☕",
-    "category": "getraenk",
+    "category": "snack",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -3222,7 +3222,7 @@
     "title": "Ingwer-Kurkuma-Shots",
     "description": "Scharfe Immun-Shots aus frischem Ingwer, Zitrone, Orange und Kurkuma – ohne Entsafter, in 15 Minuten für die ganze Woche gemixt.",
     "emoji": "🍋",
-    "category": "getraenk",
+    "category": "snack",
     "cuisine": "international",
     "diet": [
       "vegetarisch",

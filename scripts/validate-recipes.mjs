@@ -9,9 +9,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const ingredients = JSON.parse(readFileSync(join(root, 'src/data/ingredients.json'), 'utf8'))
 const validKeys = new Set(Object.values(ingredients).flat().map((i) => i.key))
 
-const CATEGORIES = ['hauptgericht', 'vorspeise', 'suppe', 'salat', 'beilage', 'fruehstueck', 'snack', 'nachspeise', 'backen', 'getraenk']
+const CATEGORIES = ['hauptgericht', 'suppe', 'salat', 'fruehstueck', 'snack', 'nachspeise', 'backen']
 const CUISINES = ['deutsch', 'italienisch', 'asiatisch', 'indisch', 'mexikanisch', 'mediterran', 'amerikanisch', 'orientalisch', 'franzoesisch', 'international']
-const DIETS = ['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei', 'leichtverdaulich']
+const DIETS = ['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm', 'fruktosefrei', 'leichtverdaulich']
 const DIFFICULTIES = ['einfach', 'mittel', 'anspruchsvoll']
 
 const dir = join(root, 'src/data/recipes')

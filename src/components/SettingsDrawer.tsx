@@ -43,7 +43,7 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
         <div className="drawer-section">
           <span className="eyebrow">Meine Ernährungsform</span>
           <div className="settings-list" role="group" aria-label="Ernährungsform">
-            {(Object.keys(DIET_LABELS) as Diet[]).filter((d) => d !== 'lowfodmap').map((d) => {
+            {(Object.keys(DIET_LABELS) as Diet[]).map((d) => {
               const on = globalDiets.includes(d)
               return (
                 <button key={d} className={`multi-item ${on ? 'on' : ''}`} onClick={() => toggle(d)} aria-pressed={on}>

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Diet, Recipe } from './types'
-import { useRoute, navigate, openRecipe, type View } from './lib/router'
+import { useRoute, back, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek } from './lib/week'
 import { rankByPantry } from './lib/match'
@@ -350,7 +350,7 @@ export default function App() {
 
         {!route.recipeId && route.view === 'alle' && (
           <>
-            <button className="backlink" onClick={() => navigate('gespeichert')}><IconChevronLeft /> Gespeichert</button>
+            <button className="backlink" onClick={back}><IconChevronLeft /> Zurück</button>
             <div className="section-head" style={{ marginTop: 6 }}>
               <h1 className="h1">Alle Rezepte</h1>
               <span className="sub">{allList.length} {allList.length === 1 ? 'Rezept' : 'Rezepte'}</span>

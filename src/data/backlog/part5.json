@@ -1878,7 +1878,7 @@
     "title": "Brokkoli-Gratin mit Käsesauce",
     "description": "Bissfeste Brokkoliröschen unter einer cremigen Käsesauce mit Senf und Muskat, mit Bröseln und Mandeln knusprig überbacken – eine Beilage, die auch allein satt macht.",
     "emoji": "🥦",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -2747,7 +2747,7 @@
     "title": "Kartoffelstampf mit brauner Butter",
     "description": "Grober, cremiger Kartoffelstampf aus mehligen Kartoffeln mit Milch und Muskat, veredelt mit nussig gebräunter Butter und Schnittlauch.",
     "emoji": "🥔",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -3063,7 +3063,7 @@
     "title": "Bruschetta in drei Varianten",
     "description": "Geröstetes Knoblauchbrot dreimal anders belegt: klassisch mit Tomate und Basilikum, mit Ricotta und gebratener Zucchini sowie mit Thymian-Pilzen – ideal als Vorspeise für Gäste.",
     "emoji": "🍅",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch"
@@ -3182,7 +3182,7 @@
     "title": "Ofenkürbis mit Feta und Honig",
     "description": "Hokkaido-Spalten mit Rosmarin und Knoblauch im Ofen geröstet, mit Feta überbacken und mit Honig und Kürbiskernen serviert – herbstliche Beilage oder leichtes Hauptgericht.",
     "emoji": "🎃",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",

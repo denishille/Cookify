@@ -12,9 +12,18 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
     const el = ref.current
     if (!el || !enabled) return
     let st: { x: number; y: number; t: number; horizontal: boolean | null; dx: number } | null = null
+    /** Liegt der Finger auf etwas, das selbst waagerecht scrollt (z. B. eine Kachelreihe)? */
+    const onScroller = (target: EventTarget | null) => {
+      let n = target instanceof Element ? target : null
+      while (n && n !== el) {
+        if (n.scrollWidth > n.clientWidth + 1) return true
+        n = n.parentElement
+      }
+      return false
+    }
     const onStart = (e: TouchEvent) => {
       const t = e.touches[0]
-      if (t.clientX < 30) return
+      if (t.clientX < 30 || onScroller(t.target)) return
       st = { x: t.clientX, y: t.clientY, t: Date.now(), horizontal: null, dx: 0 }
     }
     const onMove = (e: TouchEvent) => {

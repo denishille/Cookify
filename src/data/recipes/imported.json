@@ -1663,7 +1663,7 @@
     "title": "Baba Ganoush",
     "description": "Rauchig-cremiger Auberginendip mit Tahini, Knoblauch und Zitrone – perfekt zu Fladenbrot, zum Grillen oder als Teil einer Mezze-Platte.",
     "emoji": "🍆",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "orientalisch",
     "diet": [
       "vegetarisch",
@@ -5658,7 +5658,7 @@
     "title": "Zucchinipuffer",
     "description": "Goldbraun gebratene Puffer aus geriebener Zucchini, Käse und Ei – außen knusprig, innen saftig und mit Kräuterquark oder Tzatziki eine tolle Beilage oder ein leichtes Hauptgericht.",
     "emoji": "🥒",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -15228,7 +15228,7 @@
     "title": "Gyoza",
     "description": "Japanische Teigtaschen mit saftiger Füllung aus Schweinehack, Kohl und Knoblauch, erst knusprig angebraten und dann im Dampf gegart. Dazu gibt es einen säuerlich-scharfen Dip aus Sojasauce und Reisessig.",
     "emoji": "🥟",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "asiatisch",
     "diet": [],
     "timeMinutes": 45,
@@ -15759,7 +15759,7 @@
     "title": "Kartoffelknödel",
     "description": "Klassische Knödel aus gekochten Kartoffeln, Kartoffelmehl und einem Hauch Muskat, die in siedendem Wasser zart und locker aufgehen. Die perfekte Beilage zu Braten mit viel Sauce.",
     "emoji": "🥔",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -18599,7 +18599,7 @@
     "title": "Frankfurter Grüne Soße",
     "description": "Der hessische Klassiker aus sieben frischen Kräutern, saurer Sahne, Joghurt und Ei. Frisch, würzig und die perfekte Begleitung zu Pellkartoffeln.",
     "emoji": "🌿",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -19529,7 +19529,7 @@
     "title": "Kräuterbutter",
     "description": "Cremige Butter mit reichlich frischen Kräutern und einer Zehe Knoblauch, in fünf Minuten gerührt. Zu Grillfleisch, Ofenkartoffeln oder einfach auf ofenwarmem Baguette.",
     "emoji": "🧈",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -20454,7 +20454,7 @@
     "title": "Rosenkohl mit Speck",
     "description": "Bissfest gegarter Rosenkohl, geschwenkt in knusprigen Speckwürfeln und brauner Butter. Die perfekte Beilage zu Braten und Kartoffeln.",
     "emoji": "🥦",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [],
     "timeMinutes": 40,
@@ -20939,7 +20939,7 @@
     "title": "Schwedische Fächerkartoffeln mit Käsekruste",
     "description": "Fächerkartoffeln, die in einem Guss aus Crème fraîche und Gemüsebrühe garen und unter einer goldbraunen Gruyère-Kruste knusprig werden. Die perfekte Beilage für Festtage.",
     "emoji": "🥔",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -21670,7 +21670,7 @@
     "title": "Vegane Knoblauch-Käse-Champignons",
     "description": "Saftige Champignons in einer cremigen Knoblauchsauce mit Hefeflocken und getrockneten Tomaten. Passt zu Pommes, Pasta oder einfach zu frischem Brot.",
     "emoji": "🍄",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "international",
     "diet": [
       "vegetarisch",
@@ -23259,7 +23259,7 @@
     "title": "Bulgogi-Aubergine",
     "description": "Auberginenstreifen in süß-scharfer Bulgogi-Marinade mit Gochugaru, Knoblauch und Sesamöl. Vegane Variante des koreanischen Klassikers, karamellig gebraten.",
     "emoji": "🍆",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "asiatisch",
     "diet": [
       "vegetarisch",
@@ -26725,7 +26725,7 @@
     "title": "Muhammara",
     "description": "Ein arabischer Dip aus im Ofen gerösteten Spitzpaprika und Walnüssen, der rauchig, süßlich und pikant zugleich schmeckt. Vegan, schnell gemixt und perfekt zu Fladenbrot.",
     "emoji": "🌶️",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "orientalisch",
     "diet": [
       "vegetarisch",
@@ -26968,7 +26968,7 @@
     "title": "Ofengemüse mit Kürbis",
     "description": "Buntes Herbstgemüse mit Hokkaido, roter Bete und Zucchini, das im Ofen schön karamellisiert. Zerbröselter Feta obendrauf macht daraus eine würzige Beilage oder ein leichtes Hauptgericht.",
     "emoji": "🎃",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -30198,7 +30198,7 @@
     "title": "Wirsinggemüse",
     "description": "Feine Wirsingstreifen in Butterschmalz gedünstet und mit Schmand cremig gebunden. Eine klassische Beilage, die nach Sonntag bei Oma schmeckt.",
     "emoji": "🥬",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -30675,7 +30675,7 @@
     "title": "Beeren-Melonen-Skyr-Smoothie",
     "description": "Ein cremiger Smoothie aus Wassermelone, Erdbeeren und Skyr, der nach dem Sport erfrischt und ordentlich Eiweiß liefert. Cashews und Haferflocken machen ihn sättigend.",
     "emoji": "🥤",
-    "category": "getraenk",
+    "category": "snack",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -32148,7 +32148,7 @@
     "title": "Gefüllte Avocado mit Tomatensalsa",
     "description": "Cremige Avocadohälften mit einer frischen Salsa aus Tomaten, roter Zwiebel und Basilikum. Leicht, vegan und in 15 Minuten fertig.",
     "emoji": "🥑",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "mediterran",
     "diet": [
       "vegetarisch",
@@ -33781,7 +33781,7 @@
     "title": "Lachsrolle mit Frischkäse und Spinat",
     "description": "Eine gerollte Spinat-Ei-Platte mit Frischkäse, Räucherlachs und würzigem Bergkäse. Perfekt vorzubereiten und in Scheiben geschnitten ein Hingucker auf jedem kalten Buffet.",
     "emoji": "🍣",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "deutsch",
     "diet": [],
     "timeMinutes": 150,
@@ -39035,7 +39035,7 @@
     "title": "Bruschetta mit Tomaten",
     "description": "Geröstetes Bauernbrot mit Knoblauch abgerieben und mit frischen Tomaten, Basilikum und Olivenöl belegt. Die perfekte Vorspeise für laue Sommerabende.",
     "emoji": "🍅",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch",
@@ -39320,7 +39320,7 @@
     "title": "Caprese mit Crème fraîche, Zitrone und Chili",
     "description": "Eine frische Variante des Klassikers: Tomaten und Büffelmozzarella mit einer Zitronen-Crème-fraîche und feiner Chilischärfe. Sommerlich leicht und schnell gemacht.",
     "emoji": "🍅",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch"
@@ -41638,7 +41638,7 @@
     "title": "Hummus mit Kreuzkümmel",
     "description": "Cremiger Kichererbsen-Dip mit Tahin, viel Zitrone und Kreuzkümmel, mit Olivenöl und Paprika getoppt. In einer Viertelstunde besser als jeder gekaufte Hummus.",
     "emoji": "🧆",
-    "category": "vorspeise",
+    "category": "snack",
     "cuisine": "orientalisch",
     "diet": [
       "vegetarisch",
@@ -50691,7 +50691,7 @@
     "title": "Knusprig gebratener Tofu",
     "description": "Das Grundrezept für richtig krossen Tofu: pressen, marinieren, in Stärke wenden und goldbraun braten. Passt zu Bowls, Salaten und Pfannengerichten.",
     "emoji": "🥢",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "asiatisch",
     "diet": [
       "vegetarisch",
@@ -50785,7 +50785,7 @@
     "title": "Marinierter Tofu mit Sesam",
     "description": "Tofu zieht in einer würzigen Marinade aus Sojasauce, Ingwer, Knoblauch und Limette und wird danach goldbraun gebraten. Die perfekte pflanzliche Eiweißquelle für Bowls und Salate.",
     "emoji": "🥡",
-    "category": "beilage",
+    "category": "salat",
     "cuisine": "asiatisch",
     "diet": [
       "vegetarisch",

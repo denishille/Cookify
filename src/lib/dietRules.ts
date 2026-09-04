@@ -149,55 +149,6 @@ const LACTOSE_SUBS: Record<string, Sub> = {
   butter: sub('laktosefreie Butter'), milchreis: sub('Milchreis mit laktosefreier Milch'),
 }
 
-// ---------------------------------------------------------------- Low FODMAP
-// Grenzmengen nach der üblichen Monash-Einordnung, auf eine Portion gerechnet.
-
-const FODMAP_LIMITS: Record<string, true | number> = {
-  ...GLUTEN_LIMITS, ...LACTOSE_LIMITS,
-  zwiebel: true, knoblauch: true, lauch: true, fruehlingszwiebel: true, blumenkohl: true, champignons: true,
-  pilze: true, spargel: true, artischocken: true, rosenkohl: true, sellerie: true, sauerkraut: 40,
-  erbsen: 15, fenchel: 48, 'rote-bete': 20, mais: 38, weisskohl: 75, brokkoli: 75, avocado: 30,
-  suesskartoffel: 70, 'getrocknete-tomaten': 8,
-  apfel: true, birne: true, mango: true, kirschen: true, pflaumen: true, pfirsich: true, wassermelone: true,
-  datteln: true, feigen: true, rosinen: 13, granatapfel: 45, banane: 100,
-  honig: true, agavendicksaft: true,
-  kichererbsen: 42, 'linsen-rot': 46, 'linsen-braun': 46, belugalinsen: 46, kidneybohnen: 30,
-  'schwarze-bohnen': 40, 'weisse-bohnen': 35, edamame: 90, sojahack: true, sojamilch: true,
-  cashews: true, pistazien: true, mandeln: 20, haselnuesse: 30,
-  hafermilch: 100, kokosmilch: 120, schokolade: 25, 'weisse-schokolade': 25, zartbitterschokolade: 30,
-}
-
-const FODMAP_SUBS: Record<string, Sub> = {
-  ...GLUTEN_SUBS, ...LACTOSE_SUBS,
-  zwiebel: sub('das Grün von Lauchzwiebeln', 'im Zwiebelgrün stecken keine Fruktane', true),
-  fruehlingszwiebel: sub('nur das Grün der Frühlingszwiebeln', undefined, true),
-  lauch: sub('nur das Lauchgrün', undefined, true),
-  knoblauch: sub('Knoblauchöl', 'Fruktane sind nicht fettlöslich, das Aroma bleibt trotzdem', true),
-  blumenkohl: sub('Brokkoliröschen', undefined, true), champignons: sub('Austernpilze', undefined, true), pilze: sub('Austernpilze', undefined, true),
-  spargel: sub('grüne Bohnen', undefined, true), rosenkohl: sub('grüne Bohnen', undefined, true), sellerie: sub('Pastinake', undefined, true),
-  fenchel: sub('Zucchini', undefined, true), erbsen: sub('grüne Bohnen', undefined, true), 'rote-bete': sub('Karotten', undefined, true), mais: sub('Karotten', undefined, true),
-  weisskohl: sub('Chinakohl', undefined, true), brokkoli: sub('Brokkoliröschen', 'nur die Röschen, die Stiele sind kritisch'),
-  avocado: sub('Feta oder ein paar Walnüsse', undefined, true), suesskartoffel: sub('Kartoffeln', undefined, true),
-  'getrocknete-tomaten': sub('frische Cherrytomaten', undefined, true), sauerkraut: sub('milder Chinakohlsalat', undefined, true),
-  apfel: sub('Orange', undefined, true), birne: sub('Orange', undefined, true), mango: sub('Ananas', undefined, true), kirschen: sub('Erdbeeren', undefined, true),
-  pflaumen: sub('Erdbeeren', undefined, true), pfirsich: sub('Erdbeeren', undefined, true), wassermelone: sub('Honigmelone', undefined, true),
-  banane: sub('feste, noch grünliche Banane'), granatapfel: sub('Heidelbeeren', undefined, true),
-  honig: sub('Ahornsirup'), agavendicksaft: sub('Ahornsirup'),
-  kichererbsen: sub('Kichererbsen aus der Dose', 'gut abspülen und höchstens eine kleine Portion'),
-  'linsen-rot': sub('Dosenlinsen', 'gut abspülen, das schwemmt einen Teil der FODMAPs aus'),
-  'linsen-braun': sub('Dosenlinsen', 'gut abspülen'), belugalinsen: sub('Dosenlinsen', 'gut abspülen'),
-  kidneybohnen: sub('feste Tofuwürfel', undefined, true), 'schwarze-bohnen': sub('feste Tofuwürfel', undefined, true),
-  'weisse-bohnen': sub('feste Tofuwürfel', undefined, true), sojahack: sub('Hackfleisch oder Tempeh', undefined, true),
-  sojamilch: sub('Sojadrink aus Sojaprotein oder Mandelmilch', undefined, true), hafermilch: sub('Mandelmilch', undefined, true),
-  kokosmilch: sub('Kokosmilch sparsam', 'höchstens 120 ml je Portion'),
-  cashews: sub('Macadamias oder Erdnüsse', undefined, true), pistazien: sub('Walnüsse', undefined, true), mandeln: sub('Walnüsse', undefined, true),
-  haselnuesse: sub('Walnüsse', undefined, true),
-  schokolade: sub('Zartbitterschokolade', 'davon sind bis zu 30 g je Portion unkritisch'),
-  'weisse-schokolade': sub('Zartbitterschokolade', undefined, true),
-}
-
-const FODMAP_OMIT = new Set(['artischocken', 'datteln', 'feigen', 'rosinen', 'milchreis', 'edamame'])
-
 // ---------------------------------------------------------------- Fruktose
 // Haushaltszucker ist Saccharose, also zur Hälfte Fruchtzucker – deshalb steht er hier
 // und wird durch Traubenzucker (reine Glukose) oder Reissirup ersetzt.
@@ -399,7 +350,6 @@ const VEGAN_LIMITS: Record<string, true | number> = {
 export const DIET_RULES: Partial<Record<Diet, DietRule>> = {
   glutenfrei: { limits: GLUTEN_LIMITS, subs: GLUTEN_SUBS, omit: new Set(), maxOmit: 2, maxChanges: 4 },
   laktosefrei: { limits: LACTOSE_LIMITS, subs: LACTOSE_SUBS, omit: new Set(), maxOmit: 2, maxChanges: 4 },
-  lowfodmap: { limits: FODMAP_LIMITS, subs: FODMAP_SUBS, omit: FODMAP_OMIT, maxOmit: 2, maxChanges: 4 },
   fruktosefrei: { limits: FRUCTOSE_LIMITS, subs: FRUCTOSE_SUBS, omit: FRUCTOSE_OMIT, maxOmit: 2, maxChanges: 4 },
   leichtverdaulich: {
     limits: DIGEST_LIMITS, subs: DIGEST_SUBS, omit: DIGEST_OMIT, maxOmit: 3, maxChanges: 4,

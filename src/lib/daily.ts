@@ -33,7 +33,7 @@ export function isSweet(r: Recipe): boolean {
 export function dailyPicks(pool: Recipe[], n = 5, date = new Date()): Recipe[] {
   const rand = rng(daySeed(date))
   const shuffled = [...pool].sort(() => rand() - 0.5)
-  const hearty = shuffled.filter((r) => !isSweet(r) && r.category !== 'getraenk')
+  const hearty = shuffled.filter((r) => !isSweet(r))
   const sweet = shuffled.filter((r) => isSweet(r))
   const picks: Recipe[] = []
   const usedCategories = new Set<string>()

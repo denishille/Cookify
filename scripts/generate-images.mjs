@@ -32,15 +32,12 @@ const concurrency = Number(opt('--concurrency', '3'))
 
 const CATEGORY_HINT = {
   hauptgericht: 'a plated main course',
-  vorspeise: 'a small starter plate',
   suppe: 'a bowl of soup',
   salat: 'a fresh salad in a bowl',
-  beilage: 'a side dish',
   fruehstueck: 'a breakfast dish',
   snack: 'a snack',
   nachspeise: 'a dessert',
   backen: 'freshly baked goods',
-  getraenk: 'a drink in a glass',
 }
 
 /** Bild-Prompt aus den Rezeptdaten. Deutsch für Titel/Beschreibung, Englisch für Stilvorgaben. */

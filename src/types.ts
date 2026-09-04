@@ -1,6 +1,6 @@
 export type Category =
-  | 'hauptgericht' | 'vorspeise' | 'suppe' | 'salat' | 'beilage'
-  | 'fruehstueck' | 'snack' | 'nachspeise' | 'backen' | 'getraenk'
+  | 'hauptgericht' | 'suppe' | 'salat'
+  | 'fruehstueck' | 'snack' | 'nachspeise' | 'backen'
 
 export type Cuisine =
   | 'deutsch' | 'italienisch' | 'asiatisch' | 'indisch' | 'mexikanisch'
@@ -9,7 +9,7 @@ export type Cuisine =
 export type Diet =
   | 'vegetarisch' | 'vegan' | 'glutenfrei' | 'laktosefrei'
   | 'proteinreich' | 'lowcarb' | 'kalorienarm'
-  | 'lowfodmap' | 'fruktosefrei' | 'leichtverdaulich'
+  | 'fruktosefrei' | 'leichtverdaulich'
 
 export type Difficulty = 'einfach' | 'mittel' | 'anspruchsvoll'
 
@@ -64,16 +64,13 @@ export interface IngredientDef {
 }
 
 export const CATEGORY_LABELS: Record<Category, string> = {
-  hauptgericht: 'Hauptgericht',
-  vorspeise: 'Vorspeise',
-  suppe: 'Suppe',
-  salat: 'Salat',
-  beilage: 'Beilage',
+  hauptgericht: 'Hauptgerichte',
+  suppe: 'Suppen & Eintöpfe',
+  salat: 'Salate & Beilagen',
   fruehstueck: 'Frühstück',
-  snack: 'Snack',
-  nachspeise: 'Nachspeise',
+  snack: 'Snacks & Vorspeisen',
+  nachspeise: 'Desserts',
   backen: 'Backen',
-  getraenk: 'Getränk',
 }
 
 export const CUISINE_LABELS: Record<Cuisine, string> = {
@@ -97,7 +94,6 @@ export const DIET_LABELS: Record<Diet, string> = {
   kalorienarm: 'Kalorienarm',
   glutenfrei: 'Glutenfrei',
   laktosefrei: 'Laktosefrei',
-  lowfodmap: 'Low FODMAP',
   fruktosefrei: 'Fruktosefrei',
   leichtverdaulich: 'Leicht verdaulich',
 }

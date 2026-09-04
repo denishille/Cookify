@@ -8,7 +8,7 @@ Jede Rezeptdatei unter `src/data/recipes/*.json` ist ein JSON-Array von Rezept-O
   "title": "Spaghetti Carbonara",
   "description": "Ein bis zwei Sätze, appetitlich, auf Deutsch.",
   "emoji": "🍝",                         // genau ein Emoji als Bild-Ersatz
-  "category": "hauptgericht",           // hauptgericht | vorspeise | suppe | salat | beilage | fruehstueck | snack | nachspeise | backen | getraenk
+  "category": "hauptgericht",           // hauptgericht | suppe | salat | fruehstueck | snack | nachspeise | backen
   "cuisine": "italienisch",             // deutsch | italienisch | asiatisch | indisch | mexikanisch | mediterran | amerikanisch | orientalisch | franzoesisch | international
   "diet": ["vegetarisch"],              // Teilmenge von: vegetarisch, vegan, glutenfrei, laktosefrei, proteinreich, lowcarb, kalorienarm
   "timeMinutes": 25,                    // Gesamtzeit in Minuten
@@ -36,7 +36,7 @@ Jede Rezeptdatei unter `src/data/recipes/*.json` ist ein JSON-Array von Rezept-O
 - `name` ist der lesbare Zutatenname wie im Rezept (darf präziser sein als der Key).
 - `amount` ist eine Zahl oder `null` (bei "nach Geschmack"). `unit` ist ein String: g, ml, Stück, EL, TL, Prise, Bund, Handvoll, Dose, Zehe, Scheibe, Packung, "" (leer bei null).
 - `optional: true` nur bei wirklich verzichtbaren Zutaten.
-- `diet`: Gib nur `vegetarisch` und `vegan` an. Alles andere (`glutenfrei`, `laktosefrei`, `proteinreich`, `lowcarb`, `kalorienarm`, `lowfodmap`, `fruktosefrei`, `leichtverdaulich`) berechnet die App selbst aus Nährwerten und Zutaten und überschreibt vorhandene Angaben.
+- `diet`: Gib nur `vegetarisch` und `vegan` an. Alles andere (`glutenfrei`, `laktosefrei`, `proteinreich`, `lowcarb`, `kalorienarm`, `fruktosefrei`, `leichtverdaulich`) berechnet die App selbst aus Nährwerten und Zutaten und überschreibt vorhandene Angaben.
   - Aus den Nährwerten (`src/lib/nutrition.ts`): proteinreich ab 20 % Energie aus Protein oder ab 25 g bei mindestens 15 %, lowcarb bis 20 g Kohlenhydrate oder 20 % Energieanteil, kalorienarm unter 400 kcal.
   - Aus den Zutaten (`src/lib/dietRules.ts`): dort steht je Ernährungsform, welche Zutat kritisch ist – entweder immer oder erst ab einer Menge je Portion. Deshalb sind korrekte `amount`, `unit` und `servings` wichtig: Sie entscheiden mit darüber, ob ein Rezept z. B. als Low FODMAP gilt.
   - Dasselbe Regelwerk liefert die Ersatzvorschläge (Zucker → Traubenzucker, Sahne → Hafercreme, Hühnerbrühe → Gemüsebrühe). Wer eine Zutat ergänzt, pflegt sie dort mit ein; `node scripts/check-diet-rules.mjs` prüft, dass nichts fehlt.

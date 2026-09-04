@@ -40,10 +40,6 @@ export function isEasyToDigest(ingredients: Ingredient[], n: Nutrition, servings
   return n.fat <= 25 && !hasOffending(ingredients, servings, 'leichtverdaulich')
 }
 
-export function isLowFodmap(ingredients: Ingredient[], servings = 4): boolean {
-  return !hasOffending(ingredients, servings, 'lowfodmap')
-}
-
 export function isFructoseFree(ingredients: Ingredient[], servings = 4): boolean {
   return !hasOffending(ingredients, servings, 'fruktosefrei')
 }
@@ -58,14 +54,13 @@ export function isLactoseFree(ingredients: Ingredient[], servings = 4): boolean 
 
 /** Ersetzt die rechnerischen Flags durch die aus Nährwerten und Zutaten abgeleiteten. */
 export function derivedDiet(diet: Diet[], n: Nutrition, ingredients: Ingredient[] = [], servings = 4): Diet[] {
-  const computed: Diet[] = ['proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei', 'leichtverdaulich', 'glutenfrei', 'laktosefrei']
+  const computed: Diet[] = ['proteinreich', 'lowcarb', 'kalorienarm', 'fruktosefrei', 'leichtverdaulich', 'glutenfrei', 'laktosefrei']
   const keep: Diet[] = diet.filter((d) => !computed.includes(d))
   if (isGlutenFree(ingredients, servings)) keep.push('glutenfrei')
   if (isLactoseFree(ingredients, servings)) keep.push('laktosefrei')
   if (isHighProtein(n)) keep.push('proteinreich')
   if (isLowCarb(n)) keep.push('lowcarb')
   if (isLowCalorie(n)) keep.push('kalorienarm')
-  if (isLowFodmap(ingredients, servings)) keep.push('lowfodmap')
   if (isFructoseFree(ingredients, servings)) keep.push('fruktosefrei')
   if (isEasyToDigest(ingredients, n, servings)) keep.push('leichtverdaulich')
   return keep
