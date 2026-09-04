@@ -34,7 +34,7 @@ const flag = (n) => args.includes(n)
 const opt = (n, d) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : d }
 const limit = Number(opt('--limit', '10'))
 
-export const ALLOWED_SITES = ['eatsmarter.de', 'lecker.de', 'kochbar.de', 'hellofresh.de', 'kptncook.com', 'essen-und-trinken.de', 'kuechengoetter.de', 'einfachkochen.de', 'springlane.de', 'gaumenfreundin.de', 'emmikochteinfach.de', 'malteskitchen.de', 'brigitte.de', 'rewe.de', 'edeka.de', 'chefkoch.de', 'daskochrezept.de', 'kitchenstories.com', 'zuckerzimtundliebe.de', 'eat-this.org', 'bianca-zapatka.com', 'elavegan.com', 'stefanskochblog.de', 'toastenstein.com', 'simply-yummy.de', 'lisa-lecker.de']
+export const ALLOWED_SITES = ['eatsmarter.de', 'lecker.de', 'kochbar.de', 'hellofresh.de', 'kptncook.com', 'essen-und-trinken.de', 'kuechengoetter.de', 'einfachkochen.de', 'springlane.de', 'gaumenfreundin.de', 'emmikochteinfach.de', 'malteskitchen.de', 'brigitte.de', 'rewe.de', 'edeka.de', 'chefkoch.de', 'daskochrezept.de', 'kitchenstories.com', 'zuckerzimtundliebe.de', 'eat-this.org', 'bianca-zapatka.com', 'elavegan.com', 'stefanskochblog.de', 'toastenstein.com', 'simply-yummy.de', 'lisa-lecker.de', 'biancazapatka.com']
 const UA = 'CookifyBot/1.0 (+https://github.com/denishille/Cookify; liest nur schema.org-Rezeptmetadaten)'
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 const siteOf = (url) => { try { return new URL(url).hostname.replace(/^www\./, '') } catch { return '' } }

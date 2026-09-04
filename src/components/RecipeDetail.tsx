@@ -8,7 +8,7 @@ import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
 import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
-import { adaptRecipe } from '../lib/adapt'
+import { adaptRecipe, recipeFructose, type DietOptions } from '../lib/adapt'
 import { useSwipeRight } from '../lib/swipe'
 
 interface Props {
@@ -21,9 +21,14 @@ interface Props {
   isNew: boolean
   savedIds: Set<string>
   activeDiets: Diet[]
-  adaptOn?: boolean
+  dietOpts?: DietOptions
   onAddIngredientToList: (ing: Ingredient) => void
   onAddRecipeToList: (factor: number) => number
+}
+
+/** Gramm mit einer Nachkommastelle, deutsch geschrieben. */
+function formatGrams(g: number): string {
+  return `${(Math.round(g * 10) / 10).toLocaleString('de-DE')} g`
 }
 
 function formatAmount(amount: number | null, factor: number): string {
@@ -40,12 +45,13 @@ function formatAmount(amount: number | null, factor: number): string {
   return v.toFixed(1).replace('.', ',')
 }
 
-export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, adaptOn = true, onAddIngredientToList, onAddRecipeToList }: Props) {
+export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, dietOpts = {}, onAddIngredientToList, onAddRecipeToList }: Props) {
   const [servings, setServings] = useState(recipe.servings)
   const [done, setDone] = useState<Set<number>>(new Set())
   const [toast, setToast] = useState<string | null>(null)
   const [showOriginal, setShowOriginal] = useState(false)
-  const adaptation = adaptRecipe(recipe, activeDiets, adaptOn)
+  const adaptation = adaptRecipe(recipe, activeDiets, dietOpts)
+  const fructose = recipeFructose(recipe, true)
   const changeByKey = new Map(adaptation.ok && !showOriginal ? adaptation.changes.map((c) => [c.key, c]) : [])
   const adaptedDiets = [...new Set(adaptation.changes.map((c) => DIET_LABELS[c.diet]))]
 
@@ -199,6 +205,7 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
             <div><b>{recipe.nutrition.protein} g</b><small>Protein</small></div>
             <div><b>{recipe.nutrition.carbs} g</b><small>Kohlenhydrate</small></div>
             <div><b>{recipe.nutrition.fat} g</b><small>Fett</small></div>
+            <div><b>{formatGrams(fructose)}</b><small>Fruchtzucker</small></div>
           </div>
         </section>
 

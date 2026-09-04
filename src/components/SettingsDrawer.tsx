@@ -11,10 +11,12 @@ interface Props {
   onChange: (next: Diet[]) => void
   adapt: boolean
   onAdaptChange: (next: boolean) => void
+  strictFructose: boolean
+  onStrictFructoseChange: (next: boolean) => void
 }
 
 /** Einstellungen: globale Ernährungsform, gilt auf allen Seiten und bleibt im Browser gespeichert. */
-export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, onAdaptChange }: Props) {
+export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, onAdaptChange, strictFructose, onStrictFructoseChange }: Props) {
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
@@ -63,6 +65,22 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
           </div>
           <p className="hint">An: Rezepte, bei denen nur wenige Zutaten nicht passen, zeigen wir mit Ersatz – etwa Zucker durch Traubenzucker oder Sahne durch Hafercreme. Aus: Du siehst nur Rezepte, die von sich aus passen.</p>
         </div>
+
+        {globalDiets.includes('fruktosefrei') && (
+          <div className="drawer-section">
+            <span className="eyebrow">Fruchtzucker</span>
+            <div className="settings-list">
+              <button className={`multi-item ${strictFructose ? 'on' : ''}`} onClick={() => onStrictFructoseChange(!strictFructose)} aria-pressed={strictFructose}>
+                <span className="box">{strictFructose && <IconCheck width={14} height={14} />}</span>Streng rechnen
+              </button>
+            </div>
+            <p className="hint">
+              Normal zählt der Fruchtzucker, der über den Traubenzucker hinausgeht – so viel wie der Körper schlecht aufnimmt.
+              Eine Orange hat davon kaum etwas und darf bleiben, ein Apfel nicht. Streng zählt der gesamte Fruchtzucker,
+              dann fällt auch die Orange raus. Erlaubt sind {strictFructose ? '0,8' : '2,5'} g je Portion.
+            </p>
+          </div>
+        )}
 
         <p className="hint" style={{ marginTop: 'auto' }}>Wird auf diesem Gerät gespeichert, genau wie Favoriten, Vorrat und Sets.</p>
       </aside>

@@ -38,13 +38,47 @@ export interface DietRule {
 
 /** Ungefähres Gewicht einer Einheit in Gramm, für die Mengenprüfung. */
 const UNIT_GRAMS: Record<string, number> = {
-  g: 1, ml: 1, el: 15, tl: 5, prise: 0.5, zehe: 4, scheibe: 15, dose: 400, packung: 250, bund: 25, handvoll: 25,
+  g: 1, ml: 1, el: 15, tl: 5, prise: 0.5, zehe: 4, scheibe: 15, bund: 25, handvoll: 25,
+}
+
+/** Übliches Gewicht eines Stücks in Gramm, für Zutaten, die in Stück gezählt werden. */
+const PIECE_GRAMS: Record<string, number> = {
+  apfel: 150, birne: 160, banane: 120, orange: 130, zitrone: 70, limette: 45, pfirsich: 120, kiwi: 75,
+  mango: 300, granatapfel: 250, zwiebel: 80, knoblauch: 4, karotte: 70, kartoffel: 100, suesskartoffel: 200,
+  tomate: 100, cherrytomate: 12, paprika: 150, zucchini: 200, aubergine: 250, gurke: 300, fenchel: 250,
+  lauch: 200, fruehlingszwiebel: 15, chili: 5, avocado: 150, kohlrabi: 200, 'rote-bete': 120, pastinake: 120,
+  eier: 55, haehnchenbrust: 150, haehnchenschenkel: 150, schweineschnitzel: 150, rindersteak: 200,
+  bratwurst: 100, wuerstchen: 70, broetchen: 60, toast: 25, tortillas: 40, pita: 60, naan: 90,
+  blaetterteig: 275, pizzateig: 250, artischocken: 120, spargel: 20, mais: 90, salat: 250, chinakohl: 600,
+  blumenkohl: 700, brokkoli: 400, weisskohl: 900, rotkohl: 900, sellerie: 400, kuerbis: 900, ingwer: 30,
+}
+
+/** Übliches Gewicht einer Packung in Gramm – bei Vanillezucker sind es 8 g, bei Blätterteig 275 g. */
+const PACKAGE_GRAMS: Record<string, number> = {
+  vanillezucker: 8, backpulver: 16, natron: 15, hefe: 7, gelatine: 10, speisestaerke: 250,
+  blaetterteig: 275, pizzateig: 250, 'mehlbutter-fertigteig': 275, loeffelbiskuits: 200, butterkekse: 200,
+  mozzarella: 125, feta: 200, frischkaese: 200, halloumi: 225, schokolade: 100, zartbitterschokolade: 100,
+  'weisse-schokolade': 100, sahne: 200, schmand: 200, 'creme-fraiche': 200, quark: 250, joghurt: 500,
+  tortillas: 320, gnocchi: 500, spaghetti: 500, penne: 500, nudeln: 500, reis: 500, tofu: 200, raeuchertofu: 200,
+  passata: 500, kokosmilch: 400, mandeln: 200, walnuesse: 200, haselnuesse: 200, rosinen: 200, granola: 500,
+}
+
+/** Übliches Füllgewicht einer Dose in Gramm. */
+const CAN_GRAMS: Record<string, number> = {
+  'tomaten-dose': 400, kidneybohnen: 400, 'schwarze-bohnen': 400, 'weisse-bohnen': 400, kichererbsen: 400,
+  mais: 300, 'thunfisch-dose': 150, sardellen: 50, kokosmilch: 400, passata: 500, tomatenmark: 70,
+  pfirsich: 480, ananas: 340, muscheln: 400, artischocken: 240, oliven: 200,
 }
 
 /** Menge einer Zutat je Portion in Gramm; null, wenn sie sich nicht sinnvoll umrechnen lässt. */
 export function portionGrams(ing: Ingredient, servings: number): number | null {
   if (ing.amount === null || servings <= 0) return null
-  const factor = UNIT_GRAMS[ing.unit.trim().toLowerCase()]
+  const unit = ing.unit.trim().toLowerCase()
+  let factor: number | undefined
+  if (unit === 'stück' || unit === 'stueck' || unit === '') factor = PIECE_GRAMS[ing.key] ?? 100
+  else if (unit === 'packung') factor = PACKAGE_GRAMS[ing.key] ?? 150
+  else if (unit === 'dose') factor = CAN_GRAMS[ing.key] ?? 400
+  else factor = UNIT_GRAMS[unit]
   if (factor === undefined) return null
   return (ing.amount * factor) / servings
 }
@@ -168,15 +202,63 @@ const FODMAP_OMIT = new Set(['artischocken', 'datteln', 'feigen', 'rosinen', 'mi
 // Haushaltszucker ist Saccharose, also zur Hälfte Fruchtzucker – deshalb steht er hier
 // und wird durch Traubenzucker (reine Glukose) oder Reissirup ersetzt.
 
+/**
+ * Fruchtzucker je 100 g: `total` ist der gesamte Fruktoseanteil (freie Fruktose plus die Hälfte
+ * des Haushaltszuckers, der im Darm zu Fruktose gespalten wird), `excess` der Überschuss über
+ * den Traubenzuckergehalt hinaus. Bei Fruktosemalabsorption zählt vor allem der Überschuss:
+ * Traubenzucker hilft, die Fruktose aufzunehmen. Wer streng filtert, geht nach dem Gesamtwert –
+ * deshalb fällt dann auch eine Orange raus, obwohl sie gut ausgeglichen ist.
+ * Werte gerundet nach den üblichen Nährwerttabellen (Souci-Fachmann-Kraut, USDA).
+ */
+export const FRUCTOSE_G: Record<string, { total: number; excess: number }> = {
+  // Obst
+  apfel: { total: 5.7, excess: 3.7 }, birne: { total: 6.7, excess: 5.0 }, banane: { total: 3.4, excess: 0 },
+  orange: { total: 2.6, excess: 0.2 }, zitrone: { total: 1.4, excess: 0 }, limette: { total: 0.8, excess: 0 },
+  erdbeeren: { total: 2.2, excess: 0 }, himbeeren: { total: 2.1, excess: 0.3 }, heidelbeeren: { total: 3.3, excess: 0.7 },
+  beeren: { total: 2.6, excess: 0.3 }, mango: { total: 2.6, excess: 1.7 }, ananas: { total: 2.4, excess: 0.3 },
+  kirschen: { total: 6.3, excess: 0 }, pflaumen: { total: 2.0, excess: 0 }, pfirsich: { total: 1.2, excess: 0.2 },
+  trauben: { total: 7.3, excess: 0.2 }, rhabarber: { total: 0.4, excess: 0 }, granatapfel: { total: 4.7, excess: 0.5 },
+  kokos: { total: 1.0, excess: 0.4 }, datteln: { total: 24, excess: 0 }, rosinen: { total: 33, excess: 1 },
+  feigen: { total: 24, excess: 0 }, wassermelone: { total: 3.9, excess: 1.9 }, kiwi: { total: 4.3, excess: 0.3 },
+  avocado: { total: 0.2, excess: 0 },
+  // Gemüse mit nennenswertem Anteil
+  tomate: { total: 1.4, excess: 0.3 }, cherrytomate: { total: 1.6, excess: 0.4 }, paprika: { total: 2.0, excess: 0.3 },
+  karotte: { total: 1.3, excess: 0.2 }, zwiebel: { total: 1.3, excess: 0.3 }, 'rote-bete': { total: 0.2, excess: 0 },
+  mais: { total: 1.9, excess: 0.4 }, kuerbis: { total: 1.6, excess: 0.4 }, 'getrocknete-tomaten': { total: 9, excess: 2.5 },
+  suesskartoffel: { total: 1.4, excess: 0.3 },
+  // Süßungsmittel und Verarbeitetes
+  zucker: { total: 50, excess: 0 }, 'brauner-zucker': { total: 49, excess: 0 }, puderzucker: { total: 50, excess: 0 },
+  vanillezucker: { total: 49, excess: 0 }, honig: { total: 38, excess: 7 }, agavendicksaft: { total: 60, excess: 40 },
+  ahornsirup: { total: 30, excess: 0 }, marmelade: { total: 30, excess: 6 }, apfelmus: { total: 7, excess: 3 },
+  orangensaft: { total: 4.5, excess: 0.5 }, ketchup: { total: 12, excess: 3 }, 'bbq-sauce': { total: 15, excess: 4 },
+  balsamico: { total: 10, excess: 2 }, sriracha: { total: 8, excess: 2 }, erdnusssauce: { total: 6, excess: 1 },
+  tomatenmark: { total: 6, excess: 1.5 }, passata: { total: 2.5, excess: 0.6 }, 'tomaten-dose': { total: 1.8, excess: 0.4 },
+  schokolade: { total: 25, excess: 0 }, 'weisse-schokolade': { total: 28, excess: 0 }, zartbitterschokolade: { total: 16, excess: 0 },
+  'eis-vanille': { total: 11, excess: 0 }, loeffelbiskuits: { total: 30, excess: 0 }, butterkekse: { total: 12, excess: 0 },
+  granola: { total: 12, excess: 1 }, mayonnaise: { total: 1.5, excess: 0 }, senf: { total: 2, excess: 0.3 },
+  'erdnussbutter': { total: 3, excess: 0 }, sojasauce: { total: 1, excess: 0 }, currypaste: { total: 4, excess: 1 },
+  pesto: { total: 2, excess: 0.3 }, apfelessig: { total: 0.5, excess: 0 },
+}
+
+/** Wie viel Fruchtzucker je Portion noch in Ordnung ist. */
+export const FRUCTOSE_BUDGET = { normal: 2.5, streng: 0.8 }
+
+/** Fruchtzucker einer Zutatenmenge in Gramm; `strict` rechnet mit dem Gesamtwert statt dem Überschuss. */
+export function fructoseGrams(ing: Ingredient, servings: number, strict: boolean): number | null {
+  const entry = FRUCTOSE_G[ing.key]
+  if (!entry) return 0
+  const grams = portionGrams(ing, servings)
+  if (grams === null) return null
+  return ((strict ? entry.total : entry.excess) * grams) / 100
+}
+
+// Diese Zutaten gelten unabhängig vom Budget: konzentrierter Zucker und Fruktane
+// (Zwiebel, Knoblauch, Lauch), die kein Fruchtzucker sind, aber dieselben Beschwerden machen.
 const FRUCTOSE_LIMITS: Record<string, true | number> = {
-  zucker: true, 'brauner-zucker': true, puderzucker: true, vanillezucker: true,
-  honig: true, agavendicksaft: true, ahornsirup: true, marmelade: true, apfelmus: true, orangensaft: true,
-  apfel: true, birne: true, mango: true, wassermelone: true, kirschen: true, trauben: true, feigen: true,
-  datteln: true, rosinen: true, granatapfel: true, pflaumen: true, pfirsich: true, ananas: true, kiwi: true,
+  zucker: 12, 'brauner-zucker': 12, puderzucker: 12, vanillezucker: 8,
+  honig: 5, agavendicksaft: 3, ahornsirup: 8, marmelade: 15,
+  datteln: true, feigen: true, rosinen: 15,
   zwiebel: true, knoblauch: true, lauch: true, artischocken: true, spargel: 60,
-  ketchup: 15, 'bbq-sauce': 15, balsamico: 8, sriracha: 8, erdnusssauce: 20, tomatenmark: 20,
-  'getrocknete-tomaten': 12, schokolade: 15, 'weisse-schokolade': 12, zartbitterschokolade: 25,
-  'eis-vanille': true, loeffelbiskuits: true, butterkekse: true, granola: true,
 }
 
 const DEXTROSE_NOTE = 'Traubenzucker süßt schwächer als Haushaltszucker, nimm etwa ein Drittel mehr'

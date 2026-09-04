@@ -135,6 +135,8 @@ export default function App() {
   /** Globale Ernährungsform aus den Einstellungen: filtert den gesamten Bestand, bleibt im Browser gespeichert. */
   const [globalDiets, setGlobalDiets] = usePersistentState<Diet[]>('cookify.globalDiets', [])
   const [adaptOn, setAdaptOn] = usePersistentState<boolean>('cookify.adapt', true)
+  const [strictFructose, setStrictFructose] = usePersistentState<boolean>('cookify.strictFructose', false)
+  const dietOpts = { adapt: adaptOn, strictFructose }
   const [settingsOpen, setSettingsOpen] = useState(false)
   const shopping = useShoppingList()
   const [shopOpen, setShopOpen] = useState(false)
@@ -145,25 +147,25 @@ export default function App() {
   /** Ausgeblendete Rezepte (Daumen runter): tauchen nur noch am Ende von „Alle Rezepte“ auf. */
   const hiddenSet = usePersistentSet('cookify.hidden')
   // Bewusst ohne useMemo: bei rund hundert Rezepten ist das Filtern pro Render billig.
-  const AVAILABLE = ALL_RECIPES.filter((r) => !hiddenSet.has(r.id) && adaptRecipe(r, globalDiets, adaptOn).ok)
+  const AVAILABLE = ALL_RECIPES.filter((r) => !hiddenSet.has(r.id) && adaptRecipe(r, globalDiets, dietOpts).ok)
   const hiddenRecipes = [...hiddenSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
   const DAILY = dailyPicks(AVAILABLE, 5)
 
   /** Alle-Rezepte-Liste: eigene Filter und Sortierung */
   const [allFilters, setAllFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [allSort, setAllSort] = useState<Sort>('standard')
-  const allBase = applyFilters(AVAILABLE, allFilters, adaptOn)
+  const allBase = applyFilters(AVAILABLE, allFilters, dietOpts)
   const allList = allSort === 'standard' ? [...allBase].sort((a, b) => a.title.localeCompare(b.title, 'de')) : sortRecipes(allBase, allSort)
 
   const pantryKey = [...pantrySet.set].sort().join(',')
-  const pantryResults = rankByPantry(applyFilters(AVAILABLE, pantryFilters, adaptOn), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
+  const pantryResults = rankByPantry(applyFilters(AVAILABLE, pantryFilters, dietOpts), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
 
   /** Treffer gibt es nur, wenn im Konfigurator etwas gesetzt ist. */
   const configured = !isEmpty(filters)
-  const results = sortRecipes(applyFilters(AVAILABLE, filters, adaptOn), sort)
+  const results = sortRecipes(applyFilters(AVAILABLE, filters, dietOpts), sort)
 
   const savedAll = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
-  const savedRecipes = savedAll.filter((r) => adaptRecipe(r, globalDiets, adaptOn).ok)
+  const savedRecipes = savedAll.filter((r) => adaptRecipe(r, globalDiets, dietOpts).ok)
   const savedUnfit = savedAll.length - savedRecipes.length
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
   // Beim Zurück landet man wieder an der Stelle, an der man weggeklickt hat.
@@ -176,7 +178,7 @@ export default function App() {
 
   /** Alle gerade wirksamen Ernährungsformen: Einstellungen plus die Filter der einzelnen Seiten. */
   const activeDiets: Diet[] = [...new Set<Diet>([...globalDiets, ...filters.diets, ...pantryFilters.diets, ...allFilters.diets])]
-  const adaptedCount = (r: Recipe) => adaptRecipe(r, activeDiets, adaptOn).changes.length
+  const adaptedCount = (r: Recipe) => adaptRecipe(r, activeDiets, dietOpts).changes.length
   const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden, adapted: adaptedCount(r) })
 
   const tabs = (className: string) => (
@@ -208,7 +210,7 @@ export default function App() {
         </div>
       </header>
       <SettingsDrawer open={settingsOpen} onClose={() => setSettingsOpen(false)} globalDiets={globalDiets} onChange={setGlobalDiets}
-        adapt={adaptOn} onAdaptChange={setAdaptOn} />
+        adapt={adaptOn} onAdaptChange={setAdaptOn} strictFructose={strictFructose} onStrictFructoseChange={setStrictFructose} />
       <ShoppingDrawer open={shopOpen} onClose={() => setShopOpen(false)} items={shopping.items} onToggleDone={shopping.toggleDone} onRemove={shopping.remove}
         onClearDone={shopping.clearDone} onClearAll={shopping.clearAll} onAddKey={addShoppingKey} diets={globalDiets} />
       {tabs('tabbar')}
@@ -235,7 +237,7 @@ export default function App() {
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
             activeDiets={activeDiets}
-            adaptOn={adaptOn}
+            dietOpts={dietOpts}
             onAddIngredientToList={(ing) => shopping.addIngredient(ing, detail.title)}
             onAddRecipeToList={(factor) => shopping.addRecipe(detail, pantrySet.set, factor)}
           />
