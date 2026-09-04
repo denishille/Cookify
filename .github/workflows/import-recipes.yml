@@ -10,6 +10,9 @@ on:
       urls:
         description: 'Rezept-URLs, durch Leerzeichen getrennt: neue Rezepte als Entwurf holen (mit Bild)'
         required: false
+      ratings:
+        description: 'true = Bewertungen für Rezepte ohne Bewertung nachziehen'
+        required: false
 
 permissions:
   contents: write
@@ -28,8 +31,11 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Bewertungen nachziehen
+        if: ${{ github.event.inputs.ratings == 'true' }}
+        run: node scripts/import-recipes.mjs --ratings
       - name: Bilder holen
-        if: ${{ github.event.inputs.urls == '' }}
+        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' }}
         run: |
           if [ -n "${{ github.event.inputs.ids }}" ]; then
             node scripts/import-recipes.mjs --images-for "${{ github.event.inputs.ids }}"
@@ -41,7 +47,7 @@ jobs:
         run: node scripts/import-recipes.mjs --with-images --limit 200 --urls ${{ github.event.inputs.urls }}
       - name: Committen
         run: |
-          git add -f src/assets/recipes src/data/imports 2>/dev/null || true
+          git add -f src/assets/recipes src/data/imports src/data/sources 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nichts Neues."; exit 0; fi
           git config user.name "cookify-bot"
           git config user.email "cookify-bot@users.noreply.github.com"

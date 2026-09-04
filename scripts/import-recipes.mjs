@@ -129,6 +129,34 @@ async function search(query, count) {
   return ((await res.json()).web?.results ?? []).map((r) => r.url).filter((url) => ALLOWED_SITES.includes(siteOf(url)))
 }
 
+// ---------- Bewertungen für vorhandene Rezepte nachziehen ----------
+if (flag('--ratings')) {
+  const sourceFiles = readdirSync(sourcesDir).filter((f) => f.endsWith('.json')).map((f) => ({ path: join(sourcesDir, f), data: JSON.parse(readFileSync(join(sourcesDir, f), 'utf8')) }))
+  const onlyMissing = !flag('--all')
+  let ok = 0, none = 0
+  for (const file of sourceFiles) {
+    let changed = false
+    for (const [id, src] of Object.entries(file.data)) {
+      if (!src?.url) continue
+      if (onlyMissing && typeof src.rating === 'number') continue
+      try {
+        const r = await fetchRecipe(src.url)
+        if (r?.source?.rating) {
+          src.rating = r.source.rating
+          if (r.source.ratingCount) src.ratingCount = r.source.ratingCount
+          changed = true
+          ok++
+          console.log(`✓ ${id}: ${src.rating} ★${src.ratingCount ? ` / ${src.ratingCount}` : ''}`)
+        } else { none++; console.log(`– ${id}: keine Bewertung auf der Seite`) }
+      } catch (e) { console.error(`✗ ${id}: ${e.message}`) }
+      await sleep(1200)
+    }
+    if (changed) writeFileSync(file.path, JSON.stringify(file.data, null, 2) + '\n')
+  }
+  console.log(`\n${ok} Bewertungen ergänzt, ${none} Seiten ohne Bewertung.`)
+  process.exit(0)
+}
+
 // ---------- Bilder für vorhandene Rezepte ----------
 if (flag('--images-for') || flag('--images-all')) {
   const backlogDir = join(root, 'src/data/backlog')
