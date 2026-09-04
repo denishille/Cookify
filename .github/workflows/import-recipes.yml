@@ -13,6 +13,9 @@ on:
       ratings:
         description: 'true = Bewertungen für Rezepte ohne Bewertung nachziehen'
         required: false
+      file:
+        description: 'Pfad zu einer Datei im Repo mit einer URL je Zeile, z. B. scripts/queue/i1.txt'
+        required: false
 
 permissions:
   contents: write
@@ -35,7 +38,7 @@ jobs:
         if: ${{ github.event.inputs.ratings == 'true' }}
         run: node scripts/import-recipes.mjs --ratings
       - name: Bilder holen
-        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' }}
+        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' && github.event.inputs.file == '' }}
         run: |
           if [ -n "${{ github.event.inputs.ids }}" ]; then
             node scripts/import-recipes.mjs --images-for "${{ github.event.inputs.ids }}"
@@ -44,7 +47,10 @@ jobs:
           fi
       - name: Rezepte holen
         if: ${{ github.event.inputs.urls != '' }}
-        run: node scripts/import-recipes.mjs --with-images --limit 200 --urls ${{ github.event.inputs.urls }}
+        run: node scripts/import-recipes.mjs --with-images --limit 400 --urls ${{ github.event.inputs.urls }}
+      - name: Rezepte aus Datei holen
+        if: ${{ github.event.inputs.file != '' }}
+        run: node scripts/import-recipes.mjs --with-images --limit 400 --file "${{ github.event.inputs.file }}"
       - name: Committen
         run: |
           git add -f src/assets/recipes src/data/imports src/data/sources 2>/dev/null || true
