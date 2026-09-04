@@ -149,11 +149,11 @@ svg { flex-shrink: 0; }
 .main { width: 100%; max-width: 1160px; margin: 0 auto; padding: 28px 20px 48px; }
 
 /* ---------- Konfigurator (Rezepte-Seite) ---------- */
-.cfg { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; }
-.cfg-field { display: grid; gap: 4px; flex: 1 1 140px; max-width: 220px; }
+.cfg { margin-top: 18px; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; align-items: end; max-width: 700px; }
+.cfg-field { display: grid; gap: 4px; min-width: 0; }
 .cfg-field > span { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-left: 4px; }
 .cfg-field .select { width: 100%; }
-.cfg-reset { align-self: flex-end; }
+.cfg-reset { justify-self: start; }
 .select.on { border-color: var(--green); color: var(--green); }
 .btn.ghost { border-color: transparent; color: var(--muted); }
 .btn.ghost:hover { color: var(--text); }
