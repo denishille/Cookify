@@ -299,14 +299,14 @@ svg { flex-shrink: 0; }
 }
 @media (max-width: 420px) { .segmented button { padding: 0 10px; font-size: 0.82rem; } .segmented .seg button { padding: 0 4px; } }
 .segmented button.on { background: var(--bg); color: var(--text); box-shadow: var(--shadow-sm); }
-.segmented .seg { display: inline-flex; align-items: center; height: 34px; padding: 0 6px 0 4px; border-radius: 999px; color: var(--muted); white-space: nowrap; }
+.segmented .seg { display: inline-flex; align-items: center; height: 34px; padding: 0 10px 0 8px; border-radius: 999px; color: var(--muted); white-space: nowrap; }
 .segmented .seg.on { background: var(--bg); color: var(--text); box-shadow: var(--shadow-sm); }
-.segmented .seg button { height: 34px; padding: 0 6px; color: inherit; }
+.segmented .seg button { height: 34px; padding: 0 2px; color: inherit; }
 .segmented .seg .mini {
-  height: 32px; min-width: 40px; padding: 0 16px 0 6px; margin: 0; border-radius: 8px; border: 0;
+  height: 32px; min-width: 30px; padding: 0 14px 0 4px; margin: 0 1px; border-radius: 8px; border: 0;
   background: transparent; font-weight: 700; font-size: 0.85rem; color: inherit; appearance: none; cursor: pointer;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2366746b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
-  background-repeat: no-repeat; background-position: right 4px center;
+  background-repeat: no-repeat; background-position: right 2px center;
 }
 
 /* Filter panel */
