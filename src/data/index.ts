@@ -27,7 +27,7 @@ export const ALL_RECIPES: Recipe[] = Object.keys(modules)
   })
   .map((r) => ({
     ...r,
-    diet: derivedDiet(r.diet, r.nutrition, r.ingredients),
+    diet: derivedDiet(r.diet, r.nutrition, r.ingredients, r.servings),
     addedWeek: r.addedWeek ?? schedule[r.id] ?? DEFAULT_WEEK,
     source: r.source ?? SOURCES[r.id],
   }))

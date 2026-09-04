@@ -9,10 +9,12 @@ interface Props {
   onClose: () => void
   globalDiets: Diet[]
   onChange: (next: Diet[]) => void
+  adapt: boolean
+  onAdaptChange: (next: boolean) => void
 }
 
 /** Einstellungen: globale Ernährungsform, gilt auf allen Seiten und bleibt im Browser gespeichert. */
-export function SettingsDrawer({ open, onClose, globalDiets, onChange }: Props) {
+export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, onAdaptChange }: Props) {
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
@@ -38,7 +40,7 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange }: Props) 
 
         <div className="drawer-section">
           <span className="eyebrow">Meine Ernährungsform</span>
-          <p className="hint">Gilt überall in der App: Rezepte, die nicht passen, werden ausgeblendet oder mit Ersatzzutaten angepasst. Mehrere Angaben müssen alle zutreffen.</p>
+          <p className="hint">Gilt überall in der App. Mehrere Angaben müssen alle zutreffen.</p>
           <div className="settings-list" role="group" aria-label="Ernährungsform">
             {(Object.keys(DIET_LABELS) as Diet[]).filter((d) => d !== 'lowfodmap').map((d) => {
               const on = globalDiets.includes(d)
@@ -50,6 +52,16 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange }: Props) 
             })}
           </div>
           {globalDiets.length > 0 && <button className="btn sm" onClick={() => onChange([])}>Keine Einschränkung</button>}
+        </div>
+
+        <div className="drawer-section">
+          <span className="eyebrow">Rezepte anpassen</span>
+          <div className="settings-list">
+            <button className={`multi-item ${adapt ? 'on' : ''}`} onClick={() => onAdaptChange(!adapt)} aria-pressed={adapt}>
+              <span className="box">{adapt && <IconCheck width={14} height={14} />}</span>Ersatz vorschlagen
+            </button>
+          </div>
+          <p className="hint">An: Rezepte, bei denen nur wenige Zutaten nicht passen, zeigen wir mit Ersatz – etwa Zucker durch Traubenzucker oder Sahne durch Hafercreme. Aus: Du siehst nur Rezepte, die von sich aus passen.</p>
         </div>
 
         <p className="hint" style={{ marginTop: 'auto' }}>Wird auf diesem Gerät gespeichert, genau wie Favoriten, Vorrat und Sets.</p>

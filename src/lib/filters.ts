@@ -14,10 +14,10 @@ export interface FilterState {
 
 export const EMPTY_FILTERS: FilterState = { category: '', diets: [], cuisine: '', maxTime: 0, difficulty: '', topRated: false }
 
-export function applyFilters(items: Recipe[], f: FilterState): Recipe[] {
+export function applyFilters(items: Recipe[], f: FilterState, adapt = true): Recipe[] {
   return items.filter((r) =>
     (!f.category || r.category === f.category) &&
-    adaptRecipe(r, f.diets).ok &&
+    adaptRecipe(r, f.diets, adapt).ok &&
     (!f.cuisine || r.cuisine === f.cuisine) &&
     (!f.maxTime || r.timeMinutes <= f.maxTime) &&
     (!f.difficulty || r.difficulty === f.difficulty) &&

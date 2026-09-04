@@ -21,6 +21,7 @@ interface Props {
   isNew: boolean
   savedIds: Set<string>
   activeDiets: Diet[]
+  adaptOn?: boolean
   onAddIngredientToList: (ing: Ingredient) => void
   onAddRecipeToList: (factor: number) => number
 }
@@ -39,12 +40,12 @@ function formatAmount(amount: number | null, factor: number): string {
   return v.toFixed(1).replace('.', ',')
 }
 
-export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, onAddIngredientToList, onAddRecipeToList }: Props) {
+export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, adaptOn = true, onAddIngredientToList, onAddRecipeToList }: Props) {
   const [servings, setServings] = useState(recipe.servings)
   const [done, setDone] = useState<Set<number>>(new Set())
   const [toast, setToast] = useState<string | null>(null)
   const [showOriginal, setShowOriginal] = useState(false)
-  const adaptation = adaptRecipe(recipe, activeDiets)
+  const adaptation = adaptRecipe(recipe, activeDiets, adaptOn)
   const changeByKey = new Map(adaptation.ok && !showOriginal ? adaptation.changes.map((c) => [c.key, c]) : [])
   const adaptedDiets = [...new Set(adaptation.changes.map((c) => DIET_LABELS[c.diet]))]
 
@@ -137,7 +138,7 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
         <div className="adapt-box">
           <div>
             <b>Für dich angepasst · {adaptedDiets.join(', ')}</b>
-            <small>{adaptation.changes.length} {adaptation.changes.length === 1 ? 'Zutat wird' : 'Zutaten werden'} ersetzt oder weggelassen, siehe Zutatenliste.</small>
+            <small>{adaptation.changes.length} {adaptation.changes.length === 1 ? 'Zutat ist' : 'Zutaten sind'} angepasst, in der Zutatenliste steht wie.</small>
           </div>
           <button className="btn sm" onClick={() => setShowOriginal((o) => !o)}>{showOriginal ? 'Angepasst zeigen' : 'Original zeigen'}</button>
         </div>
@@ -168,7 +169,14 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
                   <span className="amt">{formatAmount(ing.amount, factor)} {ing.unit}</span>
                   <span className="nm">
                     <span className={change ? 'orig' : ''}>{ing.name}</span>{ing.optional && <span className="opt"> · optional</span>}
-                    {change && <span className="sub">{change.action === 'ersetzen' ? `→ ${change.by}` : '→ weglassen'}</span>}
+                    {change && (
+                      <span className="sub">
+                        {change.action === 'ersetzen' ? `→ ${change.by}`
+                          : change.action === 'weniger' ? `→ höchstens ${Math.round((change.limit ?? 0) * servings)} g insgesamt`
+                          : '→ weglassen'}
+                        {change.note && <em>{change.note}</em>}
+                      </span>
+                    )}
                   </span>
                   <button className="ing-cart" onClick={() => { onAddIngredientToList({ ...ing, amount: ing.amount === null ? null : Math.round(ing.amount * factor * 10) / 10 }); setToast(`${ing.name} auf der Einkaufsliste`) }} aria-label={`${ing.name} auf die Einkaufsliste`} title="Auf die Einkaufsliste">
                     <IconCart width={16} height={16} />
