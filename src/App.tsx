@@ -31,7 +31,7 @@ const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
 ]
 
 type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
-const MISSING_CHOICES = [1, 2, 3, 4, 5, 6, 8, 10]
+const MISSING_CHOICES = [0, 1, 2, 3, 4, 5, 6, 8, 10]
 
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
   const copy = [...list]
@@ -60,10 +60,10 @@ export default function App() {
   const savedSet = usePersistentSet('cookify.saved')
   const pantrySet = usePersistentSet('cookify.pantry')
   const [storedMissing, setMaxMissing] = usePersistentState<number>('cookify.maxMissing', 3)
-  const maxMissing = storedMissing === 0 || storedMissing === 99 || MISSING_CHOICES.includes(storedMissing) ? storedMissing : 3
-  /** Zuletzt gewählte Zahl für „Bis zu N fehlen“, bleibt erhalten, wenn man auf „Alles da“ oder „Alle Treffer“ wechselt. */
+  const maxMissing = storedMissing === 99 || MISSING_CHOICES.includes(storedMissing) ? storedMissing : 3
+  /** Zuletzt gewählte Zahl für „Bis zu N fehlen“, bleibt erhalten, wenn man auf „Alle Treffer“ wechselt. */
   const [missingN, setMissingN] = usePersistentState<number>('cookify.missingN', 3)
-  const missingMode: 'none' | 'upto' | 'all' = maxMissing === 0 ? 'none' : maxMissing === 99 ? 'all' : 'upto'
+  const missingMode: 'upto' | 'all' = maxMissing === 99 ? 'all' : 'upto'
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const [setsOpen, setSetsOpen] = useState(false)
@@ -208,7 +208,6 @@ export default function App() {
                   <>
                     <div className="results-head">
                       <div className="segmented" role="group" aria-label="Fehlende Zutaten">
-                        <button className={missingMode === 'none' ? 'on' : ''} onClick={() => setMaxMissing(0)}>Alles da</button>
                         <span className={`seg ${missingMode === 'upto' ? 'on' : ''}`}>
                           <button onClick={() => setMaxMissing(missingN)}>Bis zu</button>
                           <select className="mini" value={missingMode === 'upto' ? maxMissing : missingN} aria-label="Anzahl fehlender Zutaten"
