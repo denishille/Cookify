@@ -1,21 +1,23 @@
 import { INGREDIENT_BY_KEY } from '../data'
 import { IngredientPicker } from './IngredientPicker'
 import { IconX } from './Icons'
+import type { Diet } from '../types'
 
 interface Props {
   pantry: Set<string>
   onToggle: (key: string) => void
   onClear: () => void
+  diets: readonly Diet[]
 }
 
-export function PantryPicker({ pantry, onToggle, onClear }: Props) {
+export function PantryPicker({ pantry, onToggle, onClear, diets }: Props) {
   const selected = [...pantry].map((k) => INGREDIENT_BY_KEY.get(k)).filter((i) => i !== undefined)
 
   return (
     <div className="panel">
       <div>
         <div className="eyebrow" style={{ marginBottom: 8 }}>Zutat hinzufügen</div>
-        <IngredientPicker selected={pantry} onToggle={onToggle} />
+        <IngredientPicker selected={pantry} onToggle={onToggle} diets={diets} />
       </div>
 
       <div>

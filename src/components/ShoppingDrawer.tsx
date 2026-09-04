@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import type { Diet } from '../types'
 import type { ShoppingItem } from '../lib/shopping'
 import { IngredientPicker } from './IngredientPicker'
 import { IconCheck, IconX } from './Icons'
@@ -12,6 +13,7 @@ interface Props {
   onClearDone: () => void
   onClearAll: () => void
   onAddKey: (key: string) => void
+  diets: readonly Diet[]
 }
 
 function amountText(x: ShoppingItem): string {
@@ -21,7 +23,7 @@ function amountText(x: ShoppingItem): string {
 }
 
 /** Einkaufsliste als Schublade von rechts. */
-export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, onClearDone, onClearAll, onAddKey }: Props) {
+export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, onClearDone, onClearAll, onAddKey, diets }: Props) {
   const [adding, setAdding] = useState(false)
   useEffect(() => {
     if (!open) return
@@ -61,7 +63,7 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
             ? <button className="btn soft" onClick={() => setAdding(true)}>+ Zutat hinzufügen</button>
             : (
               <>
-                <IngredientPicker selected={selectedKeys} onToggle={(k) => onAddKey(k)} placeholder="Zutat suchen …" />
+                <IngredientPicker selected={selectedKeys} onToggle={(k) => onAddKey(k)} placeholder="Zutat suchen …" diets={diets} />
                 <button className="btn sm" onClick={() => setAdding(false)}>Fertig</button>
               </>
             )}

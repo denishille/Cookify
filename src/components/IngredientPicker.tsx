@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from 'react'
 import { INGREDIENT_GROUPS } from '../data'
-import { INGREDIENT_GROUP_LABELS } from '../types'
+import { INGREDIENT_GROUP_LABELS, type Diet } from '../types'
+import { excludedIngredientKeys, ingredientPlaceholder } from '../lib/dietIngredients'
 import { IconChevronDown, IconSearch, IconX } from './Icons'
 
 interface Props {
@@ -9,20 +10,26 @@ interface Props {
   /** Eingabefeld nach dem Hinzufügen fokussiert lassen (Zutaten in Folge tippen) */
   keepFocus?: boolean
   placeholder?: string
+  /** Globale Ernährungsform: passende Zutaten werden gar nicht erst angeboten */
+  diets?: readonly Diet[]
 }
 
 /** Zutatensuche plus eingeklappter Katalog aller Zutaten nach Kategorie. */
-export function IngredientPicker({ selected, onToggle, keepFocus = true, placeholder = 'z. B. Hähnchen, Reis, Feta …' }: Props) {
+export function IngredientPicker({ selected, onToggle, keepFocus = true, placeholder, diets = [] }: Props) {
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
+  const excluded = excludedIngredientKeys(diets)
+  const groups = Object.entries(INGREDIENT_GROUPS)
+    .map(([group, items]) => [group, items.filter((i) => !excluded.has(i.key))] as const)
+    .filter(([, items]) => items.length > 0)
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
     if (!q) return []
-    return Object.values(INGREDIENT_GROUPS).flat()
+    return groups.flatMap(([, items]) => items)
       .filter((i) => i.name.toLowerCase().includes(q) || i.key.includes(q))
       .slice(0, 10)
-  }, [query])
+  }, [query, groups])
 
   const add = (key: string) => {
     if (!selected.has(key)) onToggle(key)
@@ -36,7 +43,7 @@ export function IngredientPicker({ selected, onToggle, keepFocus = true, placeho
         <IconSearch />
         <input
           ref={inputRef}
-          placeholder={placeholder}
+          placeholder={placeholder ?? ingredientPlaceholder(diets)}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={(e) => {
@@ -61,7 +68,7 @@ export function IngredientPicker({ selected, onToggle, keepFocus = true, placeho
       )}
       <details className="browse" style={{ marginTop: 12 }}>
         <summary>Alle Zutaten nach Kategorie <IconChevronDown width={16} height={16} /></summary>
-        {Object.entries(INGREDIENT_GROUPS).map(([group, items]) => (
+        {groups.map(([group, items]) => (
           <div key={group} className="group">
             <h4>{INGREDIENT_GROUP_LABELS[group] ?? group}</h4>
             <div className="chips">

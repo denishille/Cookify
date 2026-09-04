@@ -151,7 +151,9 @@ export default function App() {
   const configured = !isEmpty(filters)
   const results = sortRecipes(applyFilters(AVAILABLE, filters), sort)
 
-  const savedRecipes = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
+  const savedAll = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
+  const savedRecipes = savedAll.filter((r) => adaptRecipe(r, globalDiets).ok)
+  const savedUnfit = savedAll.length - savedRecipes.length
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
 
   const surprise = () => {
@@ -194,7 +196,7 @@ export default function App() {
       </header>
       <SettingsDrawer open={settingsOpen} onClose={() => setSettingsOpen(false)} globalDiets={globalDiets} onChange={setGlobalDiets} />
       <ShoppingDrawer open={shopOpen} onClose={() => setShopOpen(false)} items={shopping.items} onToggleDone={shopping.toggleDone} onRemove={shopping.remove}
-        onClearDone={shopping.clearDone} onClearAll={shopping.clearAll} onAddKey={addShoppingKey} />
+        onClearDone={shopping.clearDone} onClearAll={shopping.clearAll} onAddKey={addShoppingKey} diets={globalDiets} />
       {tabs('tabbar')}
 
       <main className="main">
@@ -272,11 +274,11 @@ export default function App() {
         {!route.recipeId && route.view === 'vorrat' && (
           <>
             <SetsDrawer open={setsOpen} onOpen={() => setSetsOpen(true)} onClose={() => setSetsOpen(false)} pantry={pantrySet.set}
-              sets={sets} onApplySet={applySet} onSaveSet={saveSet} onDeleteSet={deleteSet} />
+              sets={sets} onApplySet={applySet} onSaveSet={saveSet} onDeleteSet={deleteSet} diets={globalDiets} />
             <h1 className="h1">Was hab ich da?</h1>
             <div className="split">
               <div className="sticky">
-                <PantryPicker pantry={pantrySet.set} onToggle={togglePantry} onClear={clearPantry} />
+                <PantryPicker pantry={pantrySet.set} onToggle={togglePantry} onClear={clearPantry} diets={globalDiets} />
               </div>
               <div>
                 {pantrySet.set.size === 0 ? (
@@ -375,6 +377,7 @@ export default function App() {
             ) : (
               <div className="grid" style={{ marginTop: 22 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
             )}
+            {savedUnfit > 0 && <p className="hint" style={{ marginTop: 16 }}>{savedUnfit} gespeicherte {savedUnfit === 1 ? 'Rezept passt' : 'Rezepte passen'} nicht zu deiner Ernährungsform und {savedUnfit === 1 ? 'wird' : 'werden'} ausgeblendet.</p>}
           </>
         )}
       </main>

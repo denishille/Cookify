@@ -34,7 +34,7 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange }: Props) 
 
         <div className="drawer-section">
           <span className="eyebrow">Meine Ernährungsform</span>
-          <p className="hint">Gilt überall in der App: Rezepte, die nicht passen, werden gar nicht erst angezeigt. Mehrere Angaben müssen alle zutreffen.</p>
+          <p className="hint">Gilt überall in der App: Rezepte, die nicht passen, werden ausgeblendet oder mit Ersatzzutaten angepasst. Mehrere Angaben müssen alle zutreffen.</p>
           <div className="settings-list" role="group" aria-label="Ernährungsform">
             {(Object.keys(DIET_LABELS) as Diet[]).filter((d) => d !== 'lowfodmap').map((d) => {
               const on = globalDiets.includes(d)

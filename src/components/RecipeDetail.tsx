@@ -8,7 +8,6 @@ import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
 import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
-import { proteinShare } from '../lib/nutrition'
 import { adaptRecipe } from '../lib/adapt'
 
 interface Props {
@@ -187,7 +186,6 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
             <div><b>{recipe.nutrition.protein} g</b><small>Protein</small></div>
             <div><b>{recipe.nutrition.carbs} g</b><small>Kohlenhydrate</small></div>
             <div><b>{recipe.nutrition.fat} g</b><small>Fett</small></div>
-            <div><b>{Math.round(proteinShare(recipe.nutrition) * 100)} %</b><small>Energie aus Protein</small></div>
           </div>
         </section>
 

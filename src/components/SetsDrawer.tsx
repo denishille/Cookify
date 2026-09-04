@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import type { Diet } from '../types'
 import type { PantrySet } from '../lib/sets'
 import { slugId } from '../lib/sets'
 import { INGREDIENT_BY_KEY } from '../data'
@@ -14,10 +15,11 @@ interface Props {
   onApplySet: (set: PantrySet) => void
   onSaveSet: (set: PantrySet) => void
   onDeleteSet: (id: string) => void
+  diets: readonly Diet[]
 }
 
 /** Griff am rechten Rand plus Schublade, die von rechts hereinfährt. Sets laden, anlegen, bearbeiten, löschen. */
-export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, onSaveSet, onDeleteSet }: Props) {
+export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, onSaveSet, onDeleteSet, diets }: Props) {
   const [editing, setEditing] = useState<PantrySet | null>(null)
 
   const close = () => { setEditing(null); onClose() }
@@ -116,7 +118,7 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
             </div>
             <div className="drawer-section">
               <span className="eyebrow">Zutat hinzufügen</span>
-              <IngredientPicker selected={new Set(editing.keys)} onToggle={toggleKey} />
+              <IngredientPicker selected={new Set(editing.keys)} onToggle={toggleKey} diets={diets} />
             </div>
             <div className="drawer-foot">
               <button className="btn primary" onClick={save} disabled={!editing.name.trim()}>Speichern</button>
