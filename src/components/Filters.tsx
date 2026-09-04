@@ -9,8 +9,10 @@ interface Props {
   onChange: (next: FilterState) => void
   /** Bewertungsfilter nur anbieten, wenn es bewertete Rezepte gibt */
   hasRatings?: boolean
-  /** Zusätzliche Felder, die vor den Filtern stehen (z. B. „Fehlen dürfen“ auf der Vorratsseite) */
+  /** Zusätzliche Felder, die vor den Filtern stehen */
   children?: React.ReactNode
+  /** Kategorie-Feld ausblenden (Vorratsseite) */
+  hideCategory?: boolean
 }
 
 interface MultiOption { value: string; label: string }
@@ -55,7 +57,7 @@ function MultiSelect({ options, value, onChange, label }: { options: MultiOption
 }
 
 /** Der Konfigurator: drei Dropdowns – Ernährung (Mehrfachauswahl), Kategorie, Dauer. */
-export function FilterGroups({ value, onChange, hasRatings, children }: Props) {
+export function FilterGroups({ value, onChange, hasRatings, children, hideCategory }: Props) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
   const dietOptions: MultiOption[] = [
     ...(Object.keys(DIET_LABELS) as Diet[]).map((d) => ({ value: d, label: DIET_LABELS[d] })),
@@ -70,13 +72,15 @@ export function FilterGroups({ value, onChange, hasRatings, children }: Props) {
         <MultiSelect label="Ernährung" options={dietOptions} value={dietValue}
           onChange={(next) => set({ diets: next.filter((v) => v !== 'top') as Diet[], topRated: next.includes('top') })} />
       </div>
-      <label className="cfg-field">
-        <span>Kategorie</span>
-        <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })}>
-          <option value="">Alle</option>
-          {(Object.keys(CATEGORY_LABELS) as Category[]).map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
-        </select>
-      </label>
+      {!hideCategory && (
+        <label className="cfg-field">
+          <span>Kategorie</span>
+          <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })}>
+            <option value="">Alle</option>
+            {(Object.keys(CATEGORY_LABELS) as Category[]).map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
+          </select>
+        </label>
+      )}
       <label className="cfg-field">
         <span>Dauer</span>
         <select className={`select ${value.maxTime ? 'on' : ''}`} value={value.maxTime} onChange={(e) => set({ maxTime: Number(e.target.value) })}>

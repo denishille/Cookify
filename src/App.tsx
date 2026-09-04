@@ -217,7 +217,7 @@ export default function App() {
                       </div>
                       <span className="hint">{pantryResults.length} Treffer</span>
                     </div>
-                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} />
+                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} hideCategory />
                     <div style={{ height: 18 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
