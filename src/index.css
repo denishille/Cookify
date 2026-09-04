@@ -526,6 +526,18 @@ details.browse[open] > summary svg { transform: rotate(180deg); }
 .related::-webkit-scrollbar { display: none; }
 .related .card { width: 170px; flex-shrink: 0; }
 
+.undo {
+  position: fixed; left: 50%; bottom: calc(80px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 40;
+  display: flex; align-items: center; gap: 12px; max-width: calc(100vw - 32px);
+  background: var(--text); color: var(--bg); padding: 10px 10px 10px 16px; border-radius: 999px;
+  font-size: 0.9rem; font-weight: 500; box-shadow: var(--shadow); animation: toast 0.2s ease;
+}
+.undo span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.undo button { color: var(--lime); font-weight: 700; padding: 6px 10px; border-radius: 999px; white-space: nowrap; }
+.undo button:hover { background: rgba(255, 255, 255, 0.12); }
+.undo .undo-x { color: var(--bg); opacity: 0.7; font-size: 1.1rem; padding: 2px 8px; }
+@media (min-width: 820px) { .undo { bottom: 28px; } }
+
 .toast {
   position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%); z-index: 30;
   background: var(--text); color: var(--bg); padding: 10px 18px; border-radius: 999px;

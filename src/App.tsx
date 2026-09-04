@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { ALL_RECIPES } from './data'
+import { useEffect, useMemo, useState } from 'react'
+import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Recipe } from './types'
 import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
@@ -67,9 +67,39 @@ export default function App() {
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const [setsOpen, setSetsOpen] = useState(false)
+
+  /** Rückgängig-Leiste: letzte Löschaktion mit Wiederherstellen, verschwindet nach 8 Sekunden. */
+  const [undo, setUndo] = useState<{ message: string; restore: () => void } | null>(null)
+  useEffect(() => {
+    if (!undo) return
+    const t = setTimeout(() => setUndo(null), 8000)
+    return () => clearTimeout(t)
+  }, [undo])
+  const offerUndo = (message: string, restore: () => void) => setUndo({ message, restore })
+  const runUndo = () => { undo?.restore(); setUndo(null) }
+
   const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
+  const togglePantry = (key: string) => {
+    if (pantrySet.has(key)) {
+      const name = INGREDIENT_BY_KEY.get(key)?.name ?? key
+      offerUndo(`${name} aus dem Vorrat entfernt`, () => pantrySet.replace([...pantrySet.set, key]))
+    }
+    pantrySet.toggle(key)
+  }
+  const clearPantry = () => {
+    const before = [...pantrySet.set]
+    if (before.length === 0) return
+    offerUndo(`${before.length} Zutaten entfernt`, () => pantrySet.replace(before))
+    pantrySet.clear()
+  }
   const saveSet = (next: PantrySet) => setSets((prev) => (prev.some((x) => x.id === next.id) ? prev.map((x) => (x.id === next.id ? next : x)) : [...prev, next]))
-  const deleteSet = (id: string) => setSets((prev) => prev.filter((x) => x.id !== id))
+  const deleteSet = (id: string) => {
+    const idx = sets.findIndex((x) => x.id === id)
+    if (idx < 0) return
+    const removed = sets[idx]
+    offerUndo(`Set „${removed.name}“ gelöscht`, () => setSets((prev) => (prev.some((x) => x.id === removed.id) ? prev : [...prev.slice(0, idx), removed, ...prev.slice(idx)])))
+    setSets((prev) => prev.filter((x) => x.id !== id))
+  }
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sort, setSort] = useState<Sort>('standard')
 
@@ -132,7 +162,7 @@ export default function App() {
             saved={savedSet.has(detail.id)}
             onToggleSave={savedSet.toggle}
             pantry={pantrySet.set}
-            onTogglePantry={pantrySet.toggle}
+            onTogglePantry={togglePantry}
             related={related(detail)}
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
@@ -191,7 +221,7 @@ export default function App() {
             <h1 className="h1">Was hab ich da?</h1>
             <div className="split">
               <div className="sticky">
-                <PantryPicker pantry={pantrySet.set} onToggle={pantrySet.toggle} onClear={pantrySet.clear} />
+                <PantryPicker pantry={pantrySet.set} onToggle={togglePantry} onClear={clearPantry} />
               </div>
               <div>
                 {pantrySet.set.size === 0 ? (
@@ -255,6 +285,14 @@ export default function App() {
           </>
         )}
       </main>
+
+      {undo && (
+        <div className="undo" role="status">
+          <span>{undo.message}</span>
+          <button onClick={runUndo}>Rückgängig</button>
+          <button className="undo-x" onClick={() => setUndo(null)} aria-label="Ausblenden">×</button>
+        </div>
+      )}
     </div>
   )
 }
