@@ -32,24 +32,33 @@ export function FilterGroups({ value, onChange, hasRatings }: Props) {
   const diet = value.topRated ? 'top' : (value.diets[0] ?? '')
   return (
     <div className="cfg">
-      <select className={`select ${diet ? 'on' : ''}`} value={diet} aria-label="Ernährung"
-        onChange={(e) => { const v = e.target.value; set(v === 'top' ? { diets: [], topRated: true } : { diets: v ? [v as Diet] : [], topRated: false }) }}>
-        <option value="">Ernährung</option>
-        {(Object.keys(DIET_LABELS) as Diet[]).map((d) => <option key={d} value={d}>{DIET_LABELS[d]}</option>)}
-        {hasRatings && <option value="top">★ Top bewertet</option>}
-      </select>
-      <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })} aria-label="Kategorie">
-        <option value="">Kategorie</option>
-        {(Object.keys(CATEGORY_LABELS) as Category[]).map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
-      </select>
-      <select className={`select ${value.maxTime ? 'on' : ''}`} value={value.maxTime} onChange={(e) => set({ maxTime: Number(e.target.value) })} aria-label="Dauer">
-        <option value={0}>Dauer</option>
-        <option value={15}>bis 15 Min</option>
-        <option value={30}>bis 30 Min</option>
-        <option value={45}>bis 45 Min</option>
-        <option value={60}>bis 60 Min</option>
-      </select>
-      {!isEmpty(value) && <button className="btn ghost" onClick={() => onChange(EMPTY_FILTERS)}>Zurücksetzen</button>}
+      <label className="cfg-field">
+        <span>Ernährung</span>
+        <select className={`select ${diet ? 'on' : ''}`} value={diet}
+          onChange={(e) => { const v = e.target.value; set(v === 'top' ? { diets: [], topRated: true } : { diets: v ? [v as Diet] : [], topRated: false }) }}>
+          <option value="">Alle</option>
+          {(Object.keys(DIET_LABELS) as Diet[]).map((d) => <option key={d} value={d}>{DIET_LABELS[d]}</option>)}
+          {hasRatings && <option value="top">★ Top bewertet</option>}
+        </select>
+      </label>
+      <label className="cfg-field">
+        <span>Kategorie</span>
+        <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })}>
+          <option value="">Alle</option>
+          {(Object.keys(CATEGORY_LABELS) as Category[]).map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
+        </select>
+      </label>
+      <label className="cfg-field">
+        <span>Dauer</span>
+        <select className={`select ${value.maxTime ? 'on' : ''}`} value={value.maxTime} onChange={(e) => set({ maxTime: Number(e.target.value) })}>
+          <option value={0}>Alle</option>
+          <option value={15}>bis 15 Min</option>
+          <option value={30}>bis 30 Min</option>
+          <option value={45}>bis 45 Min</option>
+          <option value={60}>bis 60 Min</option>
+        </select>
+      </label>
+      {!isEmpty(value) && <button className="btn ghost cfg-reset" onClick={() => onChange(EMPTY_FILTERS)}>Zurücksetzen</button>}
     </div>
   )
 }
