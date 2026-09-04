@@ -53,9 +53,7 @@ Jedes Rezept ist ein eigener Text, verlinkt aber ein passendes, möglichst gut u
 
 1. **Holen** – `npm run recipes:import -- --urls https://…` (oder `--file urls.txt`, oder `--search "Lasagne" --limit 5` mit `BRAVE_API_KEY`). Ergebnis: Entwürfe in `src/data/imports/` mit Titel, Zutaten, Schritten, Zeit, Portionen, Bewertung und Quelle.
 2. **Umschreiben** – `ANTHROPIC_API_KEY=… npm run recipes:import -- --rewrite`. Claude überträgt jeden Entwurf ins Cookify-Schema: Zutaten mit Keys und Mengen, Beschreibung und Schritte neu in eigenen Worten, Kategorie, Ernährungsform, Nährwerte. Die Rezepte landen validiert in `src/data/recipes/imported-<datum>.json`, die Quellen mit Bewertung in `src/data/sources/imported.json`.
-3. **Bilder** – `npm run recipes:images` erzeugt dazu eigene Fotos.
-
-Fotos der Quellseiten werden nicht übernommen: Jedes Foto ist urheberrechtlich geschützt, unabhängig von der Rezeptur. Zutatenlisten sind Fakten, die Anleitung wird neu geschrieben.
+3. **Bilder** – entweder eigene Fotos per `npm run recipes:images`, oder die Fotos der Quellseiten: `npm run recipes:import -- --images-for <id,id,…>` holt das Bild der hinterlegten Quelle für vorhandene Rezepte, `--images-all` für alle Rezepte mit Quelle und ohne Bild, `--with-images` beim Holen neuer Rezepte. Die Fotos gehören den Quellseiten und sind nur für private Nutzung gedacht.
 
 ## Rezeptbilder
 

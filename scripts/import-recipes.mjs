@@ -6,7 +6,11 @@
 //                      node scripts/import-recipes.mjs --search "Lasagne" --limit 5     (braucht BRAVE_API_KEY)
 //                      node scripts/import-recipes.mjs --file urls.txt                   (eine URL pro Zeile)
 //   → Entwürfe in src/data/imports/<slug>.json (Titel, Zutaten, Schritte, Zeit, Portionen, Bewertung, Quelle).
-//     Bilder werden bewusst NICHT übernommen (Urheberrecht) – dafür gibt es scripts/generate-images.mjs.
+//     Hinweis: Die Bilder gehören den Quellseiten; Nutzung nur privat.
+//
+// Bilder:  node scripts/import-recipes.mjs --images-for m-wiener-schnitzel,v-linsen-dal   (Bild der Quellseite für vorhandene Rezepte)
+//          node scripts/import-recipes.mjs --images-all                                  (für alle Rezepte mit Quelle und ohne Bild)
+//          --with-images beim Holen: Bild wird zusammen mit dem Entwurf gespeichert
 //
 // Schritt 2 – umschreiben:  ANTHROPIC_API_KEY=… node scripts/import-recipes.mjs --rewrite
 //   → Claude formt die Entwürfe in unser Schema um (eigener Text, Zutaten-Keys, Nährwerte, Kategorie),
@@ -20,6 +24,7 @@ import { spawnSync } from 'node:child_process'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const importsDir = join(root, 'src/data/imports')
+const assetsDir = join(root, 'src/assets/recipes')
 const recipesDir = join(root, 'src/data/recipes')
 const sourcesDir = join(root, 'src/data/sources')
 mkdirSync(importsDir, { recursive: true })
@@ -66,6 +71,8 @@ export function parseRecipe(html, url) {
     collect(r.recipeInstructions)
     const ar = r.aggregateRating ?? {}
     const rating = Number(ar.ratingValue), count = Number(ar.ratingCount ?? ar.reviewCount)
+    const img = [].concat(r.image ?? [])[0]
+    const image = typeof img === 'string' ? img : img?.url ?? img?.contentUrl ?? undefined
     const yieldText = text(Array.isArray(r.recipeYield) ? r.recipeYield[0] : r.recipeYield)
     const servings = Number((/\d+/.exec(yieldText) ?? [])[0]) || undefined
     return {
@@ -78,6 +85,7 @@ export function parseRecipe(html, url) {
       category: text(r.recipeCategory) || undefined,
       cuisine: text(r.recipeCuisine) || undefined,
       keywords: text(r.keywords) || undefined,
+      image,
       source: {
         site: siteOf(url), url, title: text(r.name),
         ...(Number.isFinite(rating) && rating > 0 ? { rating: Math.round(rating * 10) / 10 } : {}),
@@ -95,6 +103,18 @@ async function fetchRecipe(url) {
   return parseRecipe(await res.text(), url)
 }
 
+/** Lädt das Bild einer Quellseite und speichert es als 800×600-JPEG unter src/assets/recipes/<id>.jpg. */
+async function saveImage(imageUrl, id) {
+  const { default: sharp } = await import('sharp')
+  const res = await fetch(imageUrl, { headers: { 'User-Agent': UA, Accept: 'image/*' }, redirect: 'follow' })
+  if (!res.ok) throw new Error(`Bild HTTP ${res.status}`)
+  const buf = Buffer.from(await res.arrayBuffer())
+  mkdirSync(assetsDir, { recursive: true })
+  const out = join(assetsDir, `${id}.jpg`)
+  await sharp(buf).resize(800, 600, { fit: 'cover', position: 'attention' }).jpeg({ quality: 82, mozjpeg: true }).toFile(out)
+  return out
+}
+
 async function search(query, count) {
   if (!process.env.BRAVE_API_KEY) throw new Error('BRAVE_API_KEY fehlt (für --search)')
   const u = new URL('https://api.search.brave.com/res/v1/web/search')
@@ -103,6 +123,28 @@ async function search(query, count) {
   const res = await fetch(u, { headers: { Accept: 'application/json', 'X-Subscription-Token': process.env.BRAVE_API_KEY } })
   if (!res.ok) throw new Error(`Brave ${res.status}`)
   return ((await res.json()).web?.results ?? []).map((r) => r.url).filter((url) => ALLOWED_SITES.includes(siteOf(url)))
+}
+
+// ---------- Bilder für vorhandene Rezepte ----------
+if (flag('--images-for') || flag('--images-all')) {
+  const all = readdirSync(recipesDir).filter((f) => f.endsWith('.json')).flatMap((f) => JSON.parse(readFileSync(join(recipesDir, f), 'utf8')))
+  const sources = Object.assign({}, ...readdirSync(sourcesDir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(sourcesDir, f), 'utf8'))))
+  const wanted = flag('--images-for') ? opt('--images-for').split(',').map((x) => x.trim()) : all.filter((r) => sources[r.id] && !existsSync(join(assetsDir, `${r.id}.jpg`))).map((r) => r.id)
+  let ok = 0
+  for (const id of wanted) {
+    const src = sources[id]
+    if (!src) { console.log(`– ${id}: keine Quelle hinterlegt`); continue }
+    try {
+      const r = await fetchRecipe(src.url)
+      if (!r?.image) { console.log(`– ${id}: Quellseite hat kein Bild in den Rezeptdaten`); continue }
+      await saveImage(r.image, id)
+      ok++
+      console.log(`✓ ${id} ← ${src.site}`)
+    } catch (e) { console.error(`✗ ${id}: ${e.message}`) }
+    await sleep(1500)
+  }
+  console.log(`\n${ok} Bilder gespeichert in src/assets/recipes/. Danach: git add src/assets/recipes && git commit`)
+  process.exit(0)
 }
 
 // ---------- Schritt 1: holen ----------
@@ -120,6 +162,9 @@ if (!flag('--rewrite')) {
       if (!r || !r.title || r.ingredients.length < 3 || r.steps.length < 2) { console.log(`– ${url}: keine vollständigen Rezeptdaten`); continue }
       const file = join(importsDir, `${slug(r.title)}.json`)
       writeFileSync(file, JSON.stringify(r, null, 2) + '\n')
+      if (flag('--with-images') && r.image) {
+        try { await saveImage(r.image, `i-${slug(r.title)}`); console.log(`  Bild gespeichert`) } catch (e) { console.error(`  Bild fehlgeschlagen: ${e.message}`) }
+      }
       ok++
       console.log(`✓ ${r.title} (${r.ingredients.length} Zutaten, ${r.steps.length} Schritte${r.source.rating ? `, ${r.source.rating} ★ / ${r.source.ratingCount ?? '?'}` : ''}) ← ${r.source.site}`)
     } catch (e) { console.error(`✗ ${url}: ${e.message}`) }
