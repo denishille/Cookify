@@ -669,5 +669,54 @@
     "title": "Vegetarisches Kartoffelgulasch Rezept",
     "rating": 4.1,
     "ratingCount": 12
+  },
+  "i-hefezopf": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/hefezopf/",
+    "title": "Hefezopf – Omas Klassiker",
+    "rating": 5,
+    "ratingCount": 305
+  },
+  "i-kartoffel-zucchini-auflauf": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/kartoffel-zucchini-auflauf/",
+    "title": "Kartoffel-Zucchini-Auflauf – cremig und würzig",
+    "rating": 4.9,
+    "ratingCount": 87
+  },
+  "i-nudelauflauf-mit-tomate-und-mozzarella": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/nudelauflauf-tomate-mozzarella/",
+    "title": "Schneller Nudelauflauf Tomate Mozzarella",
+    "rating": 5,
+    "ratingCount": 165
+  },
+  "i-schokomuffins": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/schokomuffins/",
+    "title": "Schokomuffins – saftig & einfach",
+    "rating": 5,
+    "ratingCount": 127
+  },
+  "i-gnocchi-auflauf-mit-tomatensauce": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/gnocchi-auflauf/",
+    "title": "Vegetarischer Gnocchi-Auflauf",
+    "rating": 5,
+    "ratingCount": 10
+  },
+  "i-zitronentarte": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/zitronentarte/",
+    "title": "Zitronentarte – französisches Originalrezept",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-zwetschgenkuchen-mit-streuseln": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/einfacher-zwetschgen-streuselkuchen/",
+    "title": "Zwetschgenkuchen mit Streuseln",
+    "rating": 5,
+    "ratingCount": 471
   }
 }

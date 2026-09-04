@@ -10131,5 +10131,736 @@
       "vegetarisch",
       "deftig"
     ]
+  },
+  {
+    "id": "i-hefezopf",
+    "title": "Hefezopf",
+    "description": "Ein luftig-weicher, goldbraun geflochtener Hefezopf mit knuspriger Hagelzucker-Kruste – wie frisch vom Bäcker und perfekt zum Sonntagsfrühstück.",
+    "emoji": "🥖",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 150,
+    "difficulty": "mittel",
+    "servings": 15,
+    "nutrition": {
+      "kcal": 215,
+      "protein": 5,
+      "carbs": 34,
+      "fat": 6
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Weizenmehl Type 405",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Milch, kalt",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 90,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 90,
+        "unit": "g"
+      },
+      {
+        "key": "hefe",
+        "name": "Frischhefe",
+        "amount": 42,
+        "unit": "g"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Bourbon-Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      },
+      {
+        "key": "eier",
+        "name": "Ei (Größe M)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "milch",
+        "name": "Milch zum Bestreichen",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Hagelzucker zum Bestreuen",
+        "amount": 2,
+        "unit": "EL",
+        "optional": true
+      },
+      {
+        "key": "rosinen",
+        "name": "Rosinen",
+        "amount": 80,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Schmelze die Butter bei schwacher Hitze in einem kleinen Topf, nimm ihn vom Herd und gieße die kalte Milch dazu. Bröckle die Frischhefe hinein und rühre, bis sie sich vollständig aufgelöst hat – die Mischung ist dann nur noch lauwarm.",
+      "Gib Mehl, Zucker, Vanillezucker, Ei und eine Prise Salz in eine große Schüssel, gieße die Hefemilch dazu und knete alles mit den Knethaken 3 bis 5 Minuten zu einem glatten, elastischen Teig. Wenn du Rosinen magst, knete sie jetzt kurz unter.",
+      "Forme den Teig mit bemehlten Händen zu einer Kugel, decke die Schüssel mit einem Tuch ab und lass den Teig bei Zimmertemperatur etwa 60 Minuten gehen, bis er sein Volumen verdoppelt hat.",
+      "Teile den Teig auf einer leicht bemehlten Arbeitsfläche in drei gleich große Stücke und rolle jedes zu einem etwa 40 cm langen Strang.",
+      "Flechte die drei Stränge zu einem Zopf, drücke die Enden zusammen und schlage sie nach unten ein. Lege den Zopf auf ein mit Backpapier belegtes Blech, decke ihn ab und lass ihn weitere 30 Minuten gehen. Heize währenddessen den Ofen auf 200 °C Ober-/Unterhitze vor.",
+      "Bestreiche den Zopf dünn mit Milch, streue Hagelzucker darüber und backe ihn auf der zweiten Schiene von unten 20 bis 25 Minuten, bis er goldbraun ist.",
+      "Pinsle den noch heißen Zopf mit etwas Wasser ab, damit die Kruste glänzt, und lass ihn auf einem Gitter auskühlen."
+    ],
+    "tags": [
+      "hefeteig",
+      "klassiker",
+      "frühstück",
+      "süß"
+    ]
+  },
+  {
+    "id": "i-kartoffel-zucchini-auflauf",
+    "title": "Kartoffel-Zucchini-Auflauf",
+    "description": "Dünn gehobelte Kartoffeln und Zucchini schichten sich in einer würzigen Sahne-Knoblauch-Sauce und backen unter einer goldenen Bergkäse-Kruste – cremig, herzhaft und ganz ohne Fleisch.",
+    "emoji": "🥔",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 60,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 22,
+      "carbs": 38,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln, vorwiegend festkochend",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Vollmilch",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "emmentaler",
+        "name": "Würziger Bergkäse (z. B. Gruyère)",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "thymian",
+        "name": "Frische Kräuter (Oregano, Thymian, Rosmarin)",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter für die Form",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss, frisch gerieben",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Schwarzer Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C Ober-/Unterhitze vor. Schäle die Kartoffeln und hoble sie in 2 bis 3 mm dünne Scheiben; die Zucchini wäschst du und schneidest sie ebenso dünn.",
+      "Halbiere eine Knoblauchzehe und reibe die Auflaufform damit kräftig aus, dann fette sie mit der Butter ein. Die zweite Zehe hackst du fein.",
+      "Schichte Kartoffel- und Zucchinischeiben abwechselnd und leicht überlappend wie Dachziegel in die Form und würze jede Lage sparsam mit Salz und Pfeffer.",
+      "Verquirle Sahne, Milch, einen halben Teelöffel Salz, etwas Pfeffer und die Muskatnuss, rühre den gehackten Knoblauch unter und gieße die Mischung gleichmäßig über das Gemüse.",
+      "Reibe den Bergkäse und verteile ihn über den Auflauf. Backe ihn auf der mittleren Schiene 45 Minuten, bis die Kartoffeln weich sind und der Käse goldbraun ist – wird er zu dunkel, deck ihn mit Backpapier ab.",
+      "Lass den Auflauf 2 bis 3 Minuten ruhen, hacke die Kräuter und streue sie vor dem Servieren darüber. Dazu passt ein knackiger Blattsalat."
+    ],
+    "tags": [
+      "auflauf",
+      "vegetarisch",
+      "familienessen",
+      "ofengericht"
+    ]
+  },
+  {
+    "id": "i-nudelauflauf-mit-tomate-und-mozzarella",
+    "title": "Nudelauflauf mit Tomate und Mozzarella",
+    "description": "Pasta in einer samtigen Tomaten-Sahne-Sauce mit halbierten Kirschtomaten, frischem Basilikum und zwei Kugeln Mozzarella, die im Ofen wunderbar Fäden ziehen. In 35 Minuten auf dem Tisch.",
+    "emoji": "🍝",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 790,
+      "protein": 32,
+      "carbs": 88,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "penne",
+        "name": "Nudeln (Penne oder Tortiglioni)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Kirschtomaten",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "passata",
+        "name": "Passierte Tomaten",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Mozzarella (à 125 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan, frisch gerieben",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum, frisch",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Peperoni",
+        "amount": 1,
+        "unit": "Stück",
+        "optional": true
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Setze einen großen Topf mit reichlich Salzwasser auf und koche die Nudeln nach Packungsangabe bissfest. Heize den Ofen auf 200 °C Ober-/Unterhitze vor und fette eine große Auflaufform leicht ein.",
+      "Würfle in der Zwischenzeit Zwiebel und Knoblauch fein, entkerne die Peperoni und hacke sie klein. Halbiere die Kirschtomaten, zupfe die Basilikumblätter ab, reibe den Parmesan und lass den Mozzarella abtropfen.",
+      "Erhitze das Olivenöl in einer großen Pfanne und dünste Zwiebel, Knoblauch und Peperoni bei mittlerer Hitze etwa 3 Minuten glasig.",
+      "Gieße Passata und Sahne dazu, würze mit einer Prise Zucker, Salz und Pfeffer und lass die Sauce 2 bis 3 Minuten leicht einkochen. Rühre zum Schluss den Parmesan unter.",
+      "Gib die abgetropften Nudeln, die Kirschtomaten und den Basilikum in die Sauce, zupfe eine Mozzarellakugel in Stücken hinein und vermenge alles gründlich.",
+      "Fülle die Nudelmischung in die Auflaufform, verteile die zweite Mozzarellakugel in Stücken obenauf und überbacke den Auflauf auf der mittleren Schiene etwa 20 Minuten, bis der Käse geschmolzen und leicht gebräunt ist. Mit ein paar frischen Basilikumblättern servieren."
+    ],
+    "tags": [
+      "auflauf",
+      "pasta",
+      "schnell",
+      "familienessen"
+    ]
+  },
+  {
+    "id": "i-schokomuffins",
+    "title": "Schokomuffins",
+    "description": "Saftige, tiefschokoladige Muffins mit knackigen Schokostückchen – Schmand macht den Teig herrlich weich, und in gut 30 Minuten stehen sie fertig auf dem Tisch.",
+    "emoji": "🧁",
+    "category": "backen",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 330,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Weizenmehl Type 405",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl, neutral",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zartbitterschokolade",
+        "name": "Schokochunks",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "kakao",
+        "name": "Backkakao",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 3,
+        "unit": "TL"
+      },
+      {
+        "key": "eier",
+        "name": "Eier (Größe M)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "milch",
+        "name": "Milch",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Bourbon-Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      }
+    ],
+    "steps": [
+      "Heize den Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vor und setze zwölf Papierförmchen in ein Muffinblech.",
+      "Mische Mehl, Zucker, Kakao, Backpulver, Vanillezucker und die Schokochunks in einer Schüssel gründlich mit einem Löffel.",
+      "Verrühre in einer zweiten Schüssel Eier, Öl, Schmand und Milch mit dem Handmixer zu einer glatten, cremigen Masse.",
+      "Gib die trockene Mischung zu den feuchten Zutaten und rühre nur kurz – höchstens 20 bis 30 Sekunden – bis kein Mehl mehr zu sehen ist. Je weniger du rührst, desto lockerer werden die Muffins.",
+      "Verteile den Teig zügig mit zwei Esslöffeln oder einem Eisportionierer auf die Förmchen; bis zum Rand gefüllt bekommen die Muffins schöne hohe Hauben.",
+      "Backe die Muffins auf der mittleren Schiene etwa 25 Minuten. Mache die Stäbchenprobe: Bleibt kein Teig hängen, sind sie fertig. Kurz im Blech abkühlen lassen, dann auf ein Gitter setzen."
+    ],
+    "tags": [
+      "muffins",
+      "schokolade",
+      "schnell",
+      "kindergeburtstag"
+    ]
+  },
+  {
+    "id": "i-gnocchi-auflauf-mit-tomatensauce",
+    "title": "Gnocchi-Auflauf mit Tomatensauce",
+    "description": "Knusprig angebratene Gnocchi in einer fruchtigen Tomatensauce mit Basilikum, unter Mozzarella und Parmesan goldbraun überbacken – ein unkompliziertes Ofengericht, das Groß und Klein begeistert.",
+    "emoji": "🍅",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 4,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 30,
+      "carbs": 82,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "gnocchi",
+        "name": "Gnocchi (Kühlregal)",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "key": "tomaten-dose",
+        "name": "Geschälte Tomaten aus der Dose",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "wasser",
+        "name": "Wasser",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel, klein",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Mozzarella (à 125 g)",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum",
+        "amount": 2,
+        "unit": "Bund"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Schwarzer Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Backofen auf 200 °C Ober-/Unterhitze vor. Püriere die Dosentomaten samt Saft mit dem Stabmixer glatt.",
+      "Würfle die Zwiebel fein und zerdrücke die geschälten Knoblauchzehen leicht. Dünste beides in 2 EL Olivenöl in einem Topf bei mittlerer Hitze etwa 3 Minuten an, bis die Zwiebel glasig ist.",
+      "Gieße die pürierten Tomaten dazu, füge Wasser, 1 TL Salz, den Zucker und die Basilikumstängel hinzu und lass die Sauce bei kleiner Hitze 15 Minuten köcheln. Zwischendurch umrühren.",
+      "Erhitze inzwischen 1 EL Olivenöl und die Butter in einer großen Pfanne und brate die rohen Gnocchi darin etwa 5 Minuten rundherum goldbraun an. Leicht salzen und in eine Auflaufform geben.",
+      "Schneide den Mozzarella in 1 cm große Würfel, drücke sie leicht aus und reibe den Parmesan. Nimm Knoblauch und Basilikumstängel aus der Sauce und schmecke sie mit Pfeffer ab.",
+      "Vermenge Gnocchi und Tomatensauce in der Form, hebe den größten Teil von Mozzarella und Parmesan unter und streue den Rest obenauf.",
+      "Überbacke den Auflauf auf der mittleren Schiene etwa 20 Minuten, bis der Käse geschmolzen und goldbraun ist, und serviere ihn direkt aus dem Ofen."
+    ],
+    "tags": [
+      "auflauf",
+      "gnocchi",
+      "vegetarisch",
+      "familienessen"
+    ]
+  },
+  {
+    "id": "i-zitronentarte",
+    "title": "Zitronentarte",
+    "description": "Knuspriger Mürbeteigboden mit einer seidig-zarten Zitronencreme, die angenehm säuerlich und gleichzeitig süß schmeckt – die klassische Tarte au Citron aus Frankreich.",
+    "emoji": "🍋",
+    "category": "backen",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 120,
+    "difficulty": "mittel",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 310,
+      "protein": 5,
+      "carbs": 40,
+      "fat": 15
+    },
+    "ingredients": [
+      {
+        "key": "mehl",
+        "name": "Weizenmehl Type 405",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter, kalt",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker (für den Teig)",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Ei (Größe M, für den Teig)",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "zitrone",
+        "name": "Bio-Zitronen",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker (für die Füllung)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Sahne",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier (Größe M, zimmerwarm, für die Füllung)",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "butter",
+        "name": "Butter für die Form",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "minze",
+        "name": "Minzblättchen zum Dekorieren",
+        "amount": 1,
+        "unit": "Handvoll",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 180 °C Ober-/Unterhitze vor und fette eine Tarteform (ca. 26 cm) mit Butter ein. Schneide aus Backpapier einen Kreis, der etwa 2 cm größer ist als die Form.",
+      "Wasche eine Zitrone heiß ab und reibe 2 TL Schale ab. Verknete Mehl, 75 g Zucker, die kalte Butter in Stücken, 1 Ei, die Zitronenschale und eine Prise Salz zuerst mit den Knethaken, dann zügig mit den Händen zu einem glatten Mürbeteig.",
+      "Drücke den Teig auf leicht bemehlter Fläche flach, lege ihn in die Form und drücke ihn gleichmäßig am Boden und bis zum oberen Rand fest. Stich den Boden mehrmals mit einer Gabel ein.",
+      "Lege das zerknüllte und wieder glatt gestrichene Backpapier auf den Teig, beschwere es mit getrockneten Hülsenfrüchten und backe den Boden auf der mittleren Schiene 10 bis 12 Minuten blind.",
+      "Reibe von den restlichen drei Zitronen etwa 6 TL Schale ab und presse 150 ml Saft aus. Schlage die 4 zimmerwarmen Eier mit 200 g Zucker nur so lange, bis die Masse glatt ist – nicht schaumig. Rühre Sahne, Zitronensaft und Abrieb mit einem Löffel unter.",
+      "Nimm den Boden aus dem Ofen, entferne Hülsenfrüchte und Papier und lass ihn 10 Minuten abkühlen. Reduziere die Ofentemperatur auf 140 °C.",
+      "Gieße die Zitronenfüllung auf den Boden und lass dabei etwas Platz zum Rand. Backe die Tarte bei 140 °C etwa 30 Minuten, bis die Füllung gestockt ist und nur noch leicht wackelt.",
+      "Lass die Tarte 30 Minuten in der Form ausdampfen, löse sie dann vorsichtig heraus und lass sie auf einem Gitter vollständig auskühlen. Vor dem Servieren mit Zitronenscheiben, etwas Abrieb und Minze dekorieren."
+    ],
+    "tags": [
+      "tarte",
+      "zitrone",
+      "französisch",
+      "klassiker",
+      "gäste"
+    ]
+  },
+  {
+    "id": "i-zwetschgenkuchen-mit-streuseln",
+    "title": "Zwetschgenkuchen mit Streuseln",
+    "description": "Saftige, in Zucker gedünstete Zwetschgen zwischen einem festen Streuselboden und einer knusprigen Streuseldecke – ein Kuchen aus einer einzigen Teigmasse, der lauwarm mit Sahne am besten schmeckt.",
+    "emoji": "🍰",
+    "category": "backen",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 65,
+    "difficulty": "einfach",
+    "servings": 12,
+    "nutrition": {
+      "kcal": 300,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "butter",
+        "name": "Butter, kalt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker (für die Streusel)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "pflaumen",
+        "name": "Zwetschgen",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker (für die Zwetschgen)",
+        "amount": 6,
+        "unit": "EL"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "butter",
+        "name": "Butter für die Pfanne",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "vanillezucker",
+        "name": "Vanillezucker",
+        "amount": 1,
+        "unit": "Packung"
+      }
+    ],
+    "steps": [
+      "Heize den Backofen auf 180 °C Ober-/Unterhitze vor, lege den Boden einer Springform (26 cm) mit Backpapier aus und fette den Rand leicht ein.",
+      "Verknete Mehl, 150 g Zucker und die kalte Butter in Stücken mit den Knethaken zu einer krümeligen, sandigen Masse. Drücke sie mit den Händen kurz etwas zusammen und stelle sie kalt.",
+      "Wasche die Zwetschgen, entsteine sie und halbiere oder viertele sie je nach Größe.",
+      "Schmelze 1 TL Butter in einer großen Pfanne bei mittlerer Hitze, gib die Zwetschgen hinein und streue 6 EL Zucker darüber. Lass den Zucker unter Rühren kurz schmelzen.",
+      "Rühre die Speisestärke unter und lass die Früchte bei kleiner Hitze mindestens 2 Minuten köcheln, bis der Saft dicklich wird. Bei sehr saftigen Zwetschgen noch 1 EL Stärke mehr verwenden.",
+      "Gib etwa zwei Drittel der Streuselmasse in die Springform und drücke sie mit einem Löffel zu einem dichten, lückenlosen Boden fest, damit er später nicht durchweicht.",
+      "Verteile die Zwetschgenmasse auf dem Boden, streue den Vanillezucker darüber und forme aus der restlichen Masse mit warmen Händen Streusel, die du gleichmäßig obenauf gibst.",
+      "Backe den Kuchen auf der mittleren Schiene 45 Minuten, bis die Streusel goldbraun sind. Lass ihn in der Form etwas abkühlen – er schmeckt lauwarm mit Schlagsahne am besten."
+    ],
+    "tags": [
+      "kuchen",
+      "streusel",
+      "zwetschgen",
+      "herbst"
+    ]
   }
 ]
