@@ -38,7 +38,7 @@ jobs:
           fi
       - name: Rezepte holen
         if: ${{ github.event.inputs.urls != '' }}
-        run: node scripts/import-recipes.mjs --with-images --urls ${{ github.event.inputs.urls }}
+        run: node scripts/import-recipes.mjs --with-images --limit 200 --urls ${{ github.event.inputs.urls }}
       - name: Committen
         run: |
           git add -f src/assets/recipes src/data/imports 2>/dev/null || true
