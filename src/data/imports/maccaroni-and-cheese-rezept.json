@@ -1,0 +1,37 @@
+{
+  "title": "Maccaroni and Cheese Rezept",
+  "description": "Unser beliebtes Rezept für Maccaroni and Cheese und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
+  "ingredients": [
+    "300 g Cellentani Nudeln (kurze Makkaroni)",
+    "Salz",
+    "1 Zwiebel",
+    "5 EL Butter",
+    "3 EL Mehl",
+    "500 ml Milch",
+    "Pfeffer",
+    "1 TL Senf",
+    "je 125 g geriebener Gouda- und Parmesankäse",
+    "50 g Cornflakes",
+    "500 g Putenfilet",
+    "1-2 EL Öl"
+  ],
+  "steps": [
+    "Nudeln in kochendem Salzwasser nach Packungsanweisung knapp bissfest garen. Zwiebel schälen und fein würfeln. 3 Esslöffel Butter bei mittlerer Hitze in einem Topf schmelzen. Zwiebel darin glasig dünsten.",
+    "Mehl darüberstäuben, anschwitzen. Milch nach und nach unter ständigem Rühren zugießen. Mit Pfeffer, Salz und Senf würzen. Bei schwacher Hitze ca. 5 Minuten köcheln lassen. Nudeln abgießen und gut abtropfen lassen.",
+    "Käse, bis auf 25 g Parmesan, unter die Béchamelsoße rühren und schmelzen lassen. Nudeln unter die Soße mengen und in kleine Auflaufförmchen füllen. Cornflakes etwas zerbröseln und mit 25 g Parmesan über die Nudeln streuen.",
+    "20 g Butter in Flöckchen daraufsetzen. Im vorgeheizten Backofen &#40;E-Herd: 175 °C/ Umluft: 150 °C/ Gas: Stufe 2&#41; 15-20 Minuten backen. Fleisch waschen, trocken tupfen und in 10-12 Stücke schneiden.",
+    "Öl in einer großen Pfanne erhitzen. Putensteaks darin von jeder Seite ca. 2 Minuten braten. Nudel-Käse-Auflauf mit den Putensteaks auf Tellern anrichten."
+  ],
+  "timeMinutes": 40,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Nordamerikanisch",
+  "keywords": "Rezepte,Nudeln,Hauptgerichte",
+  "image": "https://images.lecker.de/maccaroni-and-cheese/1x1,id=54b895e1,b=lecker,w=1600,h=,ca=0,0,72.93,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/maccaroni-and-cheese-29182.html",
+    "title": "Maccaroni and Cheese Rezept"
+  },
+  "importedAt": "2026-09-04"
+}

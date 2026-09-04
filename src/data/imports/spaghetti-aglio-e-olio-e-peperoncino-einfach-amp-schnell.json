@@ -1,0 +1,42 @@
+{
+  "title": "Spaghetti aglio e olio e peperoncino | einfach &amp; schnell",
+  "description": "Spaghetti aglio e olio e peperoncino, ein leckerer italienischer Pasta Klassiker. Einfach und schnell gekocht. Nudeln mit Knoblauch und Chili - in 15 Minuten auf dem Teller.",
+  "ingredients": [
+    "500 g Spaghetti",
+    "100 ml Olivenöl",
+    "8 Knoblauchzehen",
+    "1 Chilischote",
+    "60 g geriebener Parmesan",
+    "2 EL gehackte Petersilie (Bei Bedarf)",
+    "Salz",
+    "80 g Paniermehl",
+    "1 kleine Knoblauchzehe (fein gehackt)",
+    "2-3 EL Olivenöl",
+    "Salz",
+    "schwarzer Pfeffer",
+    "gehackte Kräuter nach Wahl"
+  ],
+  "steps": [
+    "Den Knoblauch in sehr feine Scheiben und die Chilischote in feine Ring schneiden. Die Kerne der Chili entfernen.",
+    "Die Spaghetti in stark gesalzenem Wasser nach Packungsangabe al dente kochen.",
+    "In der Zwischenzeit eine große Pfanne aufsetzen und bei mittlerer Hitze heiß werden lassen. So viel Olivenöl angießen, bis der Pfannenboden komplett bedeckt ist und die Hitze auf kleine Hitze reduzieren.",
+    "Die Knoblauchscheiben und Chiliringe in die Pfanne geben und unter gelegentlichem Rühren braten, bis der Knoblauch eine goldgelbe Farbe angenommen hat.",
+    "Die Spaghetti tropfnass in die Pfanne geben und die gehackte Petersilie untermischen. Bei Bedarf 1-2 EL Kochwasser zufügen, um eine kleine Bindung zu bekommen. Alles durchschwenken, salzen und mit dem geriebenen Parmesan und Pangrattato bestreuen.",
+    "Während die Nudeln kochen und der Knoblauch brät, eine zweite Pfanne aufsetzen und das Paniermehl bei mittlerer Hitze in reichlich Öl knusprig braten.",
+    "Sobald es eine schöne Farbe bekommen hat, den fein gehackten Knoblauch und die Petersilie zufügen und noch für 1-2 Minuten weiterbraten. Mit Salz und Pfeffer würzen."
+  ],
+  "timeMinutes": 15,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "keywords": "Chilischote, Knoblauch, Nudeln, Pasta, Spaghetti, vegetarisch",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2022/09/spaghetti-aglio-e-olio-1156.jpg",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/spaghetti-aglio-e-olio-e-peperoncino/",
+    "title": "Spaghetti aglio e olio e peperoncino | einfach &amp; schnell",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Vegane Carbonara Rezept",
+  "description": "Vegane Carbonara, geht das eigentlich? Ja, schnell und einfach mit Räuchertofu für das unverwechselbare Aroma. So geht's!",
+  "ingredients": [
+    "500 g Spaghetti",
+    "200 g Räuchertofu",
+    "1 kleine Zwiebel",
+    "1 Knoblauchzehe",
+    "2-3 Stiele Petersilie",
+    "2 EL Öl",
+    "400 ml Hafersahne",
+    "2 EL Margarine",
+    "Salz",
+    "Pfeffer",
+    "Kala",
+    "Namak"
+  ],
+  "steps": [
+    "Spaghetti in kochendem Salzwasser nach Packungsanweisung al dente kochen.",
+    "Räuchertofu in kleine Würfel schneiden. Zwiebel und Knoblauch schälen und fein würfeln. Petersilie waschen, trocken schütteln und fein hacken.",
+    "Öl in einer Pfanne erhitzen und den Tofu darin von allen Seiten knusprig anbraten. Zwiebel und Knoblauch hinzugeben und glasig braten. Mit der Hafersahne ablöschen und Margarine einrühren. Mit Salz, Pfeffer aus der Mühle und etwas Kala Namak abschmecken.",
+    "Spaghetti abgießen, dabei 1 Tasse Nudelwasser auffangen. Nudeln zur Soße in die Pfanne geben, alles gut durchschwenken und nochmals kurz erhitzen, gegebenenfalls etwas Nudelwasser hinzugießen. Vegane Carbonara mit frisch gemahlenem Pfeffer und gehackter Petersilie garnieren."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Rezepte,Videos,Mittagessen,Hauptgerichte,Vegan",
+  "image": "https://images.lecker.de/vegane-carbonara/1x1,id=94802299,b=lecker,w=1600,h=,ca=12.53,0,87.47,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/vegane-carbonara-84769.html",
+    "title": "Vegane Carbonara Rezept",
+    "rating": 4.2,
+    "ratingCount": 15
+  },
+  "importedAt": "2026-09-04"
+}

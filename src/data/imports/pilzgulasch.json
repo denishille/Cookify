@@ -1,0 +1,41 @@
+{
+  "title": "Pilzgulasch",
+  "description": "Dieses Pilzgulasch von EAT SMARTER wärmt von innen und liefert wertvolle Mineralstoffe!",
+  "ingredients": [
+    "1 große Zwiebel (à 80 g)",
+    "2 Knoblauchzehen",
+    "0.5 rote Chilischote",
+    "400 g festkochende Kartoffeln",
+    "1 große rote Paprikaschote (à 200 g)",
+    "500 g gemischte Pilze (z. B. Champignons, Steinpilze, Austernpilze)",
+    "3 EL Olivenöl",
+    "2 EL Tomatenmark (à 15 g)",
+    "Salz",
+    "Pfeffer",
+    "0.5 TL Rauchpaprikapulver",
+    "1 Lorbeerblatt",
+    "2 EL Sojasauce",
+    "200 ml roter Traubensaft",
+    "300 ml Gemüsebrühe",
+    "0.5 Bund Petersilie"
+  ],
+  "steps": [
+    "Zwiebel und Knoblauch schälen, Chili putzen und waschen. Zwiebel grob würfeln, Knoblauch und Chili fein hacken. Kartoffeln putzen, waschen, schälen und in 1 cm große Würfel schneiden. Paprika putzen, waschen und in mundgerechte Stücke schneiden. Pilze putzen und in grobe Würfel bzw. Viertel schneiden.",
+    "In einem großen Topf 2 EL Olivenöl erhitzen und Zwiebel, Knoblauch sowie Chili bei mittlerer Hitze ca. 3 Minuten glasig dünsten. Tomatenmark ergänzen und 2 Minuten kräftig anbraten. Kartoffeln, Paprika, 400 g Pilze und Gewürze in den Topf geben, gut vermengen und weitere 5 Minuten braten, bis die Flüssigkeit der Pilze etwas verkocht ist. Anschließend mit Sojasauce, Traubensaft und Gemüsebrühe ablöschen, 2 Minuten bei starker Hitze aufkochen lassen, Hitze reduzieren und ca. 20 Minuten bei kleiner Hitze abgedeckt köcheln lassen.",
+    "Währenddessen übrige Pilze in einer Pfanne mit restlichem Olivenöl bei mittlerer Hitze ca. 5 Minuten anbraten und mit Salz und Pfeffer würzen. Petersilie waschen, trocken schütteln und grob hacken.",
+    "Pilzgulasch auf tiefe Teller oder Schüsseln verteilen, mit angebratenen Pilzen toppen und mit Petersilie bestreut genießen."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "hauptgericht",
+  "cuisine": "deutsch",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/pilzgulasch-681929.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pilzgulasch-3",
+    "title": "Pilzgulasch",
+    "rating": 4.6,
+    "ratingCount": 5
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Kürbis-Pasta schnell und einfach",
+  "description": "Warum ich diese Kürbis-Pasta mit Feta so sehr liebe? Weil die cremige Kürbissoße sich im Ofen fast von allein macht, während die Nudeln kochen – einfacher geht’s nicht!",
+  "ingredients": [
+    "1 kleiner Hokkaidokürbis (ca. 800 g)",
+    "2 Knoblauchzehen",
+    "150 g Feta",
+    "2 EL Olivenöl",
+    "250 ml Gemüsebrühe",
+    "1 TL italienische Kräuter",
+    "1 TL Curry",
+    "1 TL Paprikapulver edelsüß",
+    "250 g Nudeln",
+    "Salbei (zum Servieren)"
+  ],
+  "steps": [
+    "Backofen auf 180 Grad Ober- und Unterhitze vorheizen.",
+    "Kürbis halbieren und das Kerngehäuse entfernen. Dann den Kürbis mit Schale klein schneiden. Knoblauchzehen klein hacken. Kürbis, Knoblauch, Gewürze und Kräuter in eine Auflaufform geben und den Feta darauf setzen. Olivenöl darüber träufeln und Gemüsebrühe darüber gießen.",
+    "Alles ca. 30 Minuten backen, dann pürieren und die Sauce ggfs. mit etwas (Nudel-)Wasser cremig rühren.",
+    "In der Zwischenzeit Nudeln nach Packungsangabe kochen. Abgießen, mit der Kürbis-Sauce und Salbei servieren."
+  ],
+  "timeMinutes": 45,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Kürbis",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/10/Baked-Kuerbis-Pasta-Gaumenfreundin-1.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/baked-kuerbis-pasta/",
+    "title": "Kürbis-Pasta schnell und einfach",
+    "rating": 5,
+    "ratingCount": 56
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Brötchen selber backen wie vom Bäcker",
+  "description": "Mit dem Rezept für die &quot;einfachsten Brötchen der Welt&quot; kannst du ganz einfach Brötchen selber backen, sogar mit Hefe!",
+  "ingredients": [
+    "500 g Weizenmehl Type 550",
+    "12 g Salz",
+    "8 g Zucker",
+    "8 g frische Hefe",
+    "370 g Wasser"
+  ],
+  "steps": [
+    "Mehl, Salz und Zucker in einer Schüssel mischen. Hefe mit den Fingern zerbröseln und zusammen mit dem Wasser zugeben. Den Teig mit einem Holzlöffel verrühren, bis das Wasser gebunden ist. Der Teig muss nicht geknetet werden. Eine Dose einölen und den Teig hineingeben. Mit geschlossenem Deckel 8-12 Stunden im Kühlschrank gehen lassen.",
+    "Nach der Reifezeit den Backofen mit Pizzastein auf 240 Grad Ober- und Unterhitze vorheizen.",
+    "Den gereiften Teig vorsichtig und langsam auf eine bemehlte Arbeitsfläche gleiten lassen und mit bemehlten Händen in 8 gleich große Brötchen teilen.",
+    "Gegenüberliegende Teigecken vorsichtig in der Mitte übereinanderlegen und die Teiglinge auf ein Backpapier setzen.",
+    "Die Brötchen mit dem Backpapier auf den Pizzastein im heißen Ofen schieben. Eine ofenfeste Schale mit etwas Wasser auf den Ofenboden stellen und die Brötchen ca. 20 Minuten kross backen."
+  ],
+  "timeMinutes": 40,
+  "servings": 8,
+  "category": "Frühstück",
+  "cuisine": "Deutsch",
+  "keywords": "Brötchen, Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/09/Broetchen-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/broetchen-selber-backen/",
+    "title": "Brötchen selber backen wie vom Bäcker",
+    "rating": 5,
+    "ratingCount": 773
+  },
+  "importedAt": "2026-09-04"
+}
