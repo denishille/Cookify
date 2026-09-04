@@ -1,0 +1,29 @@
+{
+  "title": "Herzhafte Käsewaffeln",
+  "description": "Herzhafte Käsewaffeln von EAT SMARTER kommen immer wieder gut an!",
+  "ingredients": [
+    "3 Eier",
+    "100 g Parmesan (1 Stück)",
+    "250 g Weizen-Vollkornmehl",
+    "1 Msp. Backpulver",
+    "1 Prise Salz",
+    "375 ml Milch (3,5 % Fett)",
+    "2 EL Rapsöl"
+  ],
+  "steps": [
+    "Eier trennen. Eiweiß mit einer Prise Salz zu Eischnee steif schlagen und beiseitestellen.&nbsp;Parmesan reiben. Eigelbe mit Käse, Mehl, Backpulver, Salz und&nbsp;Milch zu einem glatten Teig verrühren. 20 Minuten ruhen lassen.",
+    "Das Waffeleisen anheizen und mit etwas Öl&nbsp;fetten. Eischnee unter den Teig heben. Teig portionsweise in das Waffeleisen geben und nacheinander goldgelbe Waffel backen. Lauwarm oder kalt servieren.&nbsp;"
+  ],
+  "timeMinutes": 45,
+  "servings": 4,
+  "cuisine": "Deutsche",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/herzhafte-kaesewaffeln-60905.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/herzhafte-kaesewaffeln-0",
+    "title": "Herzhafte Käsewaffeln",
+    "rating": 4.7,
+    "ratingCount": 3
+  },
+  "importedAt": "2026-09-04"
+}

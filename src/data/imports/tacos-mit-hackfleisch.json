@@ -1,0 +1,36 @@
+{
+  "title": "Tacos mit Hackfleisch",
+  "description": "Tacos mit Hackfleisch, Paprika und Tomate in knusprigen Taco Shells – ein mexikanisches Gericht, das es in sich hat. Lecker!",
+  "ingredients": [
+    "1 Zwiebel",
+    "1 Knoblauchzehe",
+    "1 rote Paprikaschote",
+    "1 kleine Dose Mais",
+    "1 EL Olivenöl",
+    "500 g Rinderhackfleisch",
+    "400 g gehackte Tomaten",
+    "Salz und Pfeffer",
+    "1 TL Paprikapulver edelsüß",
+    "1/4 TL Kreuzkümmel",
+    "12 Taco Shells (aus Mais-Tortillas)"
+  ],
+  "steps": [
+    "Zwiebel und Knoblauch klein hacken. Paprika in kleine Würfel schneiden. Mais abtropfen lassen.",
+    "Öl in einer Pfanne erhitzen und das Hackfleisch anbraten. Zwiebeln, Knoblauch und Paprika zugeben und kurz mitbraten. Mais und gehackte Tomaten zugeben und alles mit Salz, Pfeffer, Paprika und Kreuzkümmel würzen. 15 Minuten köcheln.",
+    "Die Hackfleischmasse in die Tacos füllen."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Mexikanisch",
+  "keywords": "Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/04/Tacos-von-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/tacos-mit-hackfleisch/",
+    "title": "Tacos mit Hackfleisch",
+    "rating": 5,
+    "ratingCount": 14
+  },
+  "importedAt": "2026-09-04"
+}

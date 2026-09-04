@@ -1,0 +1,38 @@
+{
+  "title": "Boeuf Stroganoff Rezept",
+  "description": "Unser beliebtes Rezept für Boeuf Stroganoff und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
+  "ingredients": [
+    "3 mittelgroße Zwiebeln",
+    "350 g Champignons",
+    "4 Gewürzgurken",
+    "600 g Rinderfiletspitzen",
+    "4 EL Öl",
+    "Salz und Pfeffer",
+    "Zucker",
+    "1 gehäufter EL Mehl",
+    "1-2 TL Gemüsebrühe (instant)",
+    "300 g stichfeste saure Sahne",
+    "1 EL mittelscharfer Senf"
+  ],
+  "steps": [
+    "Zwiebeln schälen und in feine Ringe hobeln oder schneiden. Pilze putzen, evtl. kurz waschen und in dünne Scheiben schneiden. Gurken in Scheiben schneiden.",
+    "Fleisch trocken tupfen und in Streifen schneiden.",
+    "2 EL Öl portionsweise in einer großen Pfanne stark erhitzen. Fleisch darin in 2 Portionen unter Wenden kräftig anbraten. Mit Salz und Pfeffer würzen, herausnehmen.",
+    "Weitere 2 EL Öl im Bratfett erhitzen. Pilze und Zwiebeln dar­in unter Wenden ca. 5 Minuten braten. Mit Mehl bestäuben und kurz hell anschwitzen. Mit 400 ml Wasser ablöschen. Aufkochen und die Brühe einrühren.",
+    "Gurken zugeben und alles ca. 5 Minuten köcheln.",
+    "Saure Sahne und Senf in die Pilzpfanne rühren. Filetstreifen zugeben und kurz erhitzen, aber nicht mehr kochen! Mit Salz, Pfeffer und 1 Prise Zucker abschmecken. Dazu schmeckt Reis."
+  ],
+  "timeMinutes": 45,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Rezepte,Hauptgerichte,Ragout,Fleisch",
+  "image": "https://images.lecker.de/boeuf-stroganoff/1x1,id=e488406c,b=lecker,w=1600,h=,ca=0,12.59,100,87.41,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/boeuf-stroganoff-61367.html",
+    "title": "Boeuf Stroganoff Rezept",
+    "rating": 3.9,
+    "ratingCount": 28
+  },
+  "importedAt": "2026-09-04"
+}
