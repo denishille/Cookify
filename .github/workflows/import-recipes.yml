@@ -1,0 +1,50 @@
+name: Rezepte importieren
+
+# Nur manuell. Holt Rezeptbilder (oder ganze Rezepte) von den Quellseiten und committet sie.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Rezept-IDs, kommagetrennt: Bild der Quellseite holen (leer = alle mit Quelle und ohne Bild)'
+        required: false
+      urls:
+        description: 'Rezept-URLs, durch Leerzeichen getrennt: neue Rezepte als Entwurf holen (mit Bild)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-recipes
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Bilder holen
+        if: ${{ github.event.inputs.urls == '' }}
+        run: |
+          if [ -n "${{ github.event.inputs.ids }}" ]; then
+            node scripts/import-recipes.mjs --images-for "${{ github.event.inputs.ids }}"
+          else
+            node scripts/import-recipes.mjs --images-all
+          fi
+      - name: Rezepte holen
+        if: ${{ github.event.inputs.urls != '' }}
+        run: node scripts/import-recipes.mjs --with-images --urls ${{ github.event.inputs.urls }}
+      - name: Committen
+        run: |
+          git add -f src/assets/recipes src/data/imports 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Nichts Neues."; exit 0; fi
+          git config user.name "cookify-bot"
+          git config user.email "cookify-bot@users.noreply.github.com"
+          git commit -m "Import: Rezeptbilder und Entwürfe von Quellseiten"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
