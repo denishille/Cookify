@@ -5,7 +5,7 @@ import type { MatchResult } from '../lib/match'
 import { openRecipe } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
-import { IconClock, IconHeart, IconStar } from './Icons'
+import { IconClock, IconEye, IconHeart, IconStar, IconThumbDown } from './Icons'
 import { formatCount, formatRating } from '../lib/rating'
 
 interface Props {
@@ -14,9 +14,11 @@ interface Props {
   onToggleSave: (id: string) => void
   match?: MatchResult
   isNew?: boolean
+  hidden?: boolean
+  onToggleHide?: (id: string) => void
 }
 
-export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props) {
+export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, onToggleHide }: Props) {
   const pct = match ? Math.round(match.score * 100) : null
   const img = recipeImage(recipe.id)
   return (
@@ -38,6 +40,16 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew }: Props)
         >
           <IconHeart filled={saved} width={18} height={18} />
         </button>
+        {onToggleHide && (
+          <button
+            className={`fav fav-hide ${hidden ? 'on' : ''}`}
+            aria-label={hidden ? 'Rezept wieder einblenden' : 'Rezept ausblenden'}
+            title={hidden ? 'Wieder einblenden' : 'Ausblenden'}
+            onClick={(e) => { e.stopPropagation(); onToggleHide(recipe.id) }}
+          >
+            {hidden ? <IconEye width={18} height={18} /> : <IconThumbDown width={18} height={18} />}
+          </button>
+        )}
       </div>
       <div className="card-body">
         <h3 className="card-title">{recipe.title}</h3>

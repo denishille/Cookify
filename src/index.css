@@ -206,7 +206,7 @@ svg { flex-shrink: 0; }
 .list { display: grid; gap: 6px; }
 @media (min-width: 900px) { .list { grid-template-columns: 1fr 1fr; gap: 6px 24px; } }
 .row {
-  display: grid; grid-template-columns: 60px 1fr auto auto; gap: 12px; align-items: center;
+  display: grid; grid-template-columns: 60px 1fr auto auto; gap: 10px; align-items: center;
   padding: 8px; border-radius: var(--r); cursor: pointer; transition: background 0.12s ease;
 }
 .row:hover { background: var(--surface); }
@@ -225,6 +225,16 @@ svg { flex-shrink: 0; }
 .row-fav { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; color: var(--muted); }
 .row-fav:hover { background: var(--surface-2); color: var(--text); }
 .row-fav.on { color: var(--danger); }
+.row-actions { display: flex; gap: 2px; }
+.row-hide.on { color: var(--green); }
+.hidden-box { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); }
+.hidden-box > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; color: var(--muted); padding: 6px 0; }
+.hidden-box > summary::-webkit-details-marker { display: none; }
+.hidden-box > summary svg { transition: transform 0.15s ease; }
+.hidden-box[open] > summary svg { transform: rotate(180deg); }
+.hidden-box > summary .count { font-size: 0.8rem; background: var(--surface); padding: 1px 8px; border-radius: 999px; }
+.hidden-box .hint { margin: 4px 0 10px; }
+.hidden-box .row { opacity: 0.7; }
 
 /* ---------- Typography helpers ---------- */
 .h1 { font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; letter-spacing: -0.02em; }
@@ -371,6 +381,9 @@ svg { flex-shrink: 0; }
 }
 .fav:hover { transform: scale(1.06); }
 .fav.on { color: var(--danger); }
+.fav-hide { right: 50px; }
+.fav-hide.on { color: var(--green); }
+.tile.lg .fav-hide { right: 62px; }
 .tile.lg .fav { width: 42px; height: 42px; top: 12px; right: 12px; }
 
 .card-body { display: flex; flex-direction: column; gap: 4px; padding: 0 2px; }

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Diet, Recipe } from './types'
 import { useRoute, navigate, openRecipe, type View } from './lib/router'
@@ -16,7 +16,7 @@ import { PantryPicker } from './components/PantryPicker'
 import { SetsDrawer } from './components/SetsDrawer'
 import { SettingsDrawer } from './components/SettingsDrawer'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings } from './components/Icons'
+import { IconBasket, IconBook, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -45,6 +45,10 @@ function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
   }
 }
 
+function randomOf<T>(arr: T[]): T {
+  return arr[Math.floor(Math.random() * arr.length)]
+}
+
 function related(recipe: Recipe, pool: Recipe[]): Recipe[] {
   const keys = new Set(recipe.ingredients.map((i) => i.key))
   return pool
@@ -64,6 +68,14 @@ export default function App() {
   /** Zuletzt gewählte Zahl für „Bis zu N fehlen“, bleibt erhalten, wenn man auf „Alle Treffer“ wechselt. */
   const [missingN, setMissingN] = usePersistentState<number>('cookify.missingN', 3)
   const missingMode: 'upto' | 'all' = maxMissing === 99 ? 'all' : 'upto'
+  const missingSelect = useRef<HTMLSelectElement>(null)
+  /** Klick auf „Bis zu“ oder „fehlen“: inaktiv → aktivieren, aktiv → Zahlenauswahl öffnen. */
+  const onSegmentClick = () => {
+    if (missingMode !== 'upto') { setMaxMissing(missingN); return }
+    const el = missingSelect.current
+    if (!el) return
+    try { (el as HTMLSelectElement & { showPicker?: () => void }).showPicker?.() } catch { el.focus() }
+  }
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const [setsOpen, setSetsOpen] = useState(false)
@@ -77,6 +89,10 @@ export default function App() {
   }, [undo])
   const offerUndo = (message: string, restore: () => void) => setUndo({ message, restore })
   const runUndo = () => { undo?.restore(); setUndo(null) }
+  const toggleHidden = (id: string) => {
+    if (!hiddenSet.has(id)) offerUndo(`„${BY_ID.get(id)?.title ?? id}“ ausgeblendet`, () => hiddenSet.replace([...hiddenSet.set].filter((x) => x !== id)))
+    hiddenSet.toggle(id)
+  }
 
   const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
   const togglePantry = (key: string) => {
@@ -106,36 +122,35 @@ export default function App() {
   /** Globale Ernährungsform aus den Einstellungen: filtert den gesamten Bestand, bleibt im Browser gespeichert. */
   const [globalDiets, setGlobalDiets] = usePersistentState<Diet[]>('cookify.globalDiets', [])
   const [settingsOpen, setSettingsOpen] = useState(false)
-  const AVAILABLE = useMemo(() => (globalDiets.length ? ALL_RECIPES.filter((r) => globalDiets.every((d) => r.diet.includes(d))) : ALL_RECIPES), [globalDiets])
-  const DAILY = useMemo(() => dailyPicks(AVAILABLE, 5), [AVAILABLE])
+  /** Ausgeblendete Rezepte (Daumen runter): tauchen nur noch am Ende von „Alle Rezepte“ auf. */
+  const hiddenSet = usePersistentSet('cookify.hidden')
+  // Bewusst ohne useMemo: bei rund hundert Rezepten ist das Filtern pro Render billig.
+  const AVAILABLE = ALL_RECIPES.filter((r) => !hiddenSet.has(r.id) && globalDiets.every((d) => r.diet.includes(d)))
+  const hiddenRecipes = [...hiddenSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
+  const DAILY = dailyPicks(AVAILABLE, 5)
 
   /** Alle-Rezepte-Liste: eigene Filter und Sortierung */
   const [allFilters, setAllFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [allSort, setAllSort] = useState<Sort>('standard')
-  const allList = useMemo(() => {
-    const base = applyFilters(AVAILABLE, allFilters)
-    return allSort === 'standard' ? [...base].sort((a, b) => a.title.localeCompare(b.title, 'de')) : sortRecipes(base, allSort)
-  }, [AVAILABLE, allFilters, allSort])
+  const allBase = applyFilters(AVAILABLE, allFilters)
+  const allList = allSort === 'standard' ? [...allBase].sort((a, b) => a.title.localeCompare(b.title, 'de')) : sortRecipes(allBase, allSort)
 
   const pantryKey = [...pantrySet.set].sort().join(',')
-  const pantryResults = useMemo(
-    () => rankByPantry(applyFilters(AVAILABLE, pantryFilters), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing),
-    [AVAILABLE, pantryKey, maxMissing, pantryFilters],
-  )
+  const pantryResults = rankByPantry(applyFilters(AVAILABLE, pantryFilters), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
 
   /** Treffer gibt es nur, wenn im Konfigurator etwas gesetzt ist. */
   const configured = !isEmpty(filters)
-  const results = useMemo(() => sortRecipes(applyFilters(AVAILABLE, filters), sort), [AVAILABLE, filters, sort])
+  const results = sortRecipes(applyFilters(AVAILABLE, filters), sort)
 
   const savedRecipes = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
 
   const surprise = () => {
     const pool = results.length ? results : AVAILABLE
-    openRecipe(pool[Math.floor(Math.random() * pool.length)].id)
+    openRecipe(randomOf(pool).id)
   }
 
-  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK })
+  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden })
 
   const tabs = (className: string) => (
     <nav className={className} aria-label="Hauptnavigation">
@@ -226,7 +241,7 @@ export default function App() {
                     <button className="btn" onClick={() => setFilters(EMPTY_FILTERS)}>Zurücksetzen</button>
                   </div>
                 ) : (
-                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} />)}</div>
+                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} />)}</div>
                 )}
               </div>
             )}
@@ -254,14 +269,14 @@ export default function App() {
                     <div className="results-head">
                       <div className="segmented" role="group" aria-label="Fehlende Zutaten">
                         <span className={`seg ${missingMode === 'upto' ? 'on' : ''}`}>
-                          <button onClick={() => setMaxMissing(missingN)}>Bis zu</button>
-                          <select className="mini" value={missingMode === 'upto' ? maxMissing : missingN} aria-label="Anzahl fehlender Zutaten"
+                          <button onClick={onSegmentClick}>Bis zu</button>
+                          <select ref={missingSelect} className="mini" value={missingMode === 'upto' ? maxMissing : missingN} aria-label="Anzahl fehlender Zutaten"
                             onFocus={() => { if (missingMode !== 'upto') setMaxMissing(missingN) }}
                             onClick={() => { if (missingMode !== 'upto') setMaxMissing(missingN) }}
                             onChange={(e) => { const n = Number(e.target.value); setMissingN(n); setMaxMissing(n) }}>
                             {MISSING_CHOICES.map((n) => <option key={n} value={n}>{n}</option>)}
                           </select>
-                          <button onClick={() => setMaxMissing(missingN)}>fehlen</button>
+                          <button onClick={onSegmentClick}>fehlen</button>
                         </span>
                         <button className={missingMode === 'all' ? 'on' : ''} onClick={() => setMaxMissing(99)}>Alle Treffer</button>
                       </div>
@@ -312,8 +327,17 @@ export default function App() {
               <div className="empty" style={{ marginTop: 18 }}><div className="ico"><IconSearch /></div><h3>Nichts gefunden</h3><p>Nimm einen Filter raus.</p></div>
             ) : (
               <div className="list" style={{ marginTop: 18 }}>
-                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} />)}
+                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} />)}
               </div>
+            )}
+            {hiddenRecipes.length > 0 && (
+              <details className="hidden-box">
+                <summary><IconChevronDown width={18} height={18} /> Ausgeblendete Rezepte <span className="count">{hiddenRecipes.length}</span></summary>
+                <p className="hint">Mit Daumen runter ausgeblendet. Das Auge blendet ein Rezept wieder ein.</p>
+                <div className="list">
+                  {hiddenRecipes.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} hidden onToggleHide={toggleHidden} />)}
+                </div>
+              </details>
             )}
           </>
         )}
