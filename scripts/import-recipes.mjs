@@ -194,7 +194,7 @@ const Recipe = z.object({
   id: z.string(), title: z.string(), description: z.string(), emoji: z.string(),
   category: z.enum(['hauptgericht', 'vorspeise', 'suppe', 'salat', 'beilage', 'fruehstueck', 'snack', 'nachspeise', 'backen', 'getraenk']),
   cuisine: z.enum(['deutsch', 'italienisch', 'asiatisch', 'indisch', 'mexikanisch', 'mediterran', 'amerikanisch', 'orientalisch', 'franzoesisch', 'international']),
-  diet: z.array(z.enum(['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm'])),
+  diet: z.array(z.enum(['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei'])),
   timeMinutes: z.number().int(), difficulty: z.enum(['einfach', 'mittel', 'anspruchsvoll']), servings: z.number().int(),
   nutrition: z.object({ kcal: z.number(), protein: z.number(), carbs: z.number(), fat: z.number() }),
   ingredients: z.array(z.object({ key: z.enum(keys), name: z.string(), amount: z.number().nullable(), unit: z.string(), optional: z.boolean() })),

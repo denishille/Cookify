@@ -36,7 +36,7 @@ Jede Rezeptdatei unter `src/data/recipes/*.json` ist ein JSON-Array von Rezept-O
 - `name` ist der lesbare Zutatenname wie im Rezept (darf präziser sein als der Key).
 - `amount` ist eine Zahl oder `null` (bei "nach Geschmack"). `unit` ist ein String: g, ml, Stück, EL, TL, Prise, Bund, Handvoll, Dose, Zehe, Scheibe, Packung, "" (leer bei null).
 - `optional: true` nur bei wirklich verzichtbaren Zutaten.
-- `diet`: `vegetarisch` bei allem ohne Fleisch/Fisch; `vegan` zusätzlich, wenn auch ohne Ei/Milchprodukte/Honig. `glutenfrei`/`laktosefrei` nur wenn wirklich zutreffend. `proteinreich`, `lowcarb` und `kalorienarm` dürfen gesetzt werden, werden in der App aber aus den Nährwerten berechnet (`src/lib/nutrition.ts`): proteinreich ab 20 % Energie aus Protein oder ab 25 g bei mindestens 15 %, lowcarb bis 20 g Kohlenhydrate oder 20 % Energieanteil, kalorienarm unter 400 kcal.
+- `diet`: `vegetarisch` bei allem ohne Fleisch/Fisch; `vegan` zusätzlich, wenn auch ohne Ei/Milchprodukte/Honig. `glutenfrei`/`laktosefrei` nur wenn wirklich zutreffend. `proteinreich`, `lowcarb` und `kalorienarm` dürfen gesetzt werden, werden in der App aber aus den Nährwerten berechnet (`src/lib/nutrition.ts`): proteinreich ab 20 % Energie aus Protein oder ab 25 g bei mindestens 15 %, lowcarb bis 20 g Kohlenhydrate oder 20 % Energieanteil, kalorienarm unter 400 kcal. `lowfodmap` und `fruktosefrei` werden aus den Zutaten abgeleitet (Listen in `src/lib/nutrition.ts`).
 - Zwischen 6 und 14 Zutaten, zwischen 4 und 9 Schritte. Schritte konkret mit Zeiten/Temperaturen.
 - Alles auf Deutsch, Du-Form in den Schritten ("Brate die Zwiebeln ...").
 - Keine Duplikate innerhalb der Datei, `id` eindeutig.

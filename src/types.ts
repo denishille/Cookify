@@ -9,6 +9,7 @@ export type Cuisine =
 export type Diet =
   | 'vegetarisch' | 'vegan' | 'glutenfrei' | 'laktosefrei'
   | 'proteinreich' | 'lowcarb' | 'kalorienarm'
+  | 'lowfodmap' | 'fruktosefrei'
 
 export type Difficulty = 'einfach' | 'mittel' | 'anspruchsvoll'
 
@@ -96,6 +97,8 @@ export const DIET_LABELS: Record<Diet, string> = {
   kalorienarm: 'Kalorienarm',
   glutenfrei: 'Glutenfrei',
   laktosefrei: 'Laktosefrei',
+  lowfodmap: 'Low FODMAP',
+  fruktosefrei: 'Fruktosefrei',
 }
 
 export const DIFFICULTY_LABELS: Record<Difficulty, string> = {

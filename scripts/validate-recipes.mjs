@@ -11,7 +11,7 @@ const validKeys = new Set(Object.values(ingredients).flat().map((i) => i.key))
 
 const CATEGORIES = ['hauptgericht', 'vorspeise', 'suppe', 'salat', 'beilage', 'fruehstueck', 'snack', 'nachspeise', 'backen', 'getraenk']
 const CUISINES = ['deutsch', 'italienisch', 'asiatisch', 'indisch', 'mexikanisch', 'mediterran', 'amerikanisch', 'orientalisch', 'franzoesisch', 'international']
-const DIETS = ['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm']
+const DIETS = ['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei']
 const DIFFICULTIES = ['einfach', 'mittel', 'anspruchsvoll']
 
 const dir = join(root, 'src/data/recipes')
