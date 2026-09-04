@@ -29,11 +29,11 @@ export function RecipeRow({ recipe, saved, onToggleSave, hidden, onToggleHide, a
         <div className="row-title">{recipe.title}</div>
         <div className="meta">
           <IconClock /> {recipe.timeMinutes} Min
-          <span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}
+          <span className="row-diff"><span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}</span>
           <span className="dot" /> {recipe.nutrition.kcal} kcal
-          {adapted > 0 && <span className="row-adapt">· Anpassbar</span>}
           {recipe.source?.rating !== undefined && <><span className="dot" /><IconStar width={13} height={13} style={{ color: 'var(--amber)' }} /> {formatRating(recipe.source.rating)}</>}
         </div>
+        {adapted > 0 && <div className="row-adapt">Anpassbar · {adapted} {adapted === 1 ? 'Zutat' : 'Zutaten'}</div>}
       </div>
       <div className="row-pills">
         {adapted > 0 && <span className="pill amber">Anpassbar · {adapted}</span>}
