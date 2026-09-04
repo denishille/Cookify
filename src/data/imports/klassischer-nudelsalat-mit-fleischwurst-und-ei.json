@@ -1,0 +1,38 @@
+{
+  "title": "Klassischer Nudelsalat mit Fleischwurst und Ei",
+  "description": "Wenn du einen klassischen Nudelsalat mit Fleischwurst und Ei suchst, dann muss du mein Rezept unbedingt probieren. Dieser einfache Nudelsalat schmeckt nach Kindheit und wirklich wie früher, von Mama oder Oma!",
+  "ingredients": [
+    "300 g Gabelspaghetti",
+    "4 Eier",
+    "400 g Fleischwurst",
+    "200 g Cornichons",
+    "1 Dose Mexiko Mix mit Mais, Erbsen, Paprika (Abtropfgewicht 265 g)",
+    "200 g Salatmayonnaise",
+    "2 TL Senf",
+    "1 TL Paprikapulver edelsüß",
+    "2 EL Gurkenwasser",
+    "3 EL Kochwasser der Nudeln",
+    "Salz, Pfeffer, Zucker"
+  ],
+  "steps": [
+    "Die Eier 9 Minuten hart kochen, abschrecken und abkühlen lassen. Danach pellen, vierteln und in Stücke schneiden.",
+    "Die Gabelspaghetti (oder Nudeln deiner Wahl) nach Packungsanleitung kochen und abgießen. Etwas Nudelwasser aufheben und zur Seite stellen. Die Nudeln in eine Schüssel geben und abkühlen lassen.",
+    "Währenddessen die Fleischwurst in Würfel und die Cornichons in Scheiben schneiden. Den Mexiko Mix in ein Sieb gießen und mit Wasser abspülen.",
+    "Alle Zutaten zu den Nudeln in die Schüssel geben und mit dem Dressing (siehe unten) vermischen. Den Salat durchziehen lassen und bei Bedarf mit Salz und Pfeffer nachwürzen.",
+    "Die Salatmayonnaise mit Senf, Paprikapulver, Gurkenwasser, Nudelwasser, Paprikapulver sowie Salz, Pfeffer und einer Prise Zucker verrühren."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Salat",
+  "cuisine": "Deutschland",
+  "keywords": "Fleischwurst, Gewürzgurken, Mais, Nudelsalat",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2024/09/nudelsalat-fleischwurst-9.webp",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/klassischer-nudelsalat-fleischwurst/",
+    "title": "Klassischer Nudelsalat mit Fleischwurst und Ei",
+    "rating": 4.9,
+    "ratingCount": 92
+  },
+  "importedAt": "2026-09-04"
+}

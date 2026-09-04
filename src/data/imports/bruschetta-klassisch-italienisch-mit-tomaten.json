@@ -1,0 +1,33 @@
+{
+  "title": "Bruschetta klassisch italienisch mit Tomaten",
+  "description": "Vielleicht die perfekte Vorspeise und immer wieder total lecker. Klassisches Bruschetta mit frischen Tomaten, geröstetem Brot, Knoblauch und Basilikum. Ganz einfach in der Zubereitung und der perfekte Snack für laue Sommerabende.",
+  "ingredients": [
+    "8 Scheiben Bauernbrot",
+    "4 große Tomaten (gewürfelt)",
+    "16 Basilikumblätter (in Streifen geschnitten)",
+    "2 Knoblauchzehen",
+    "8 EL Olivenöl",
+    "Salz",
+    "Schwarzer Pfeffer"
+  ],
+  "steps": [
+    "Den Backofen auf 200 Grad Ober-/Unterhitze vorheizen oder alternativ den Backofengrill zuschalten.",
+    "Die Brotscheiben mit etwas Olivenöl beträufeln und im vorgeheizten Backofen 6-8 Minuten anrösten, bis sie leicht knusprig werden.Das angeröstete Brot kräftig mit den Knoblauchzehen abreiben.",
+    "Die Tomatenwürfel zusammen mit dem gehackten Basilikum in eine Schüssel geben und 4-6 EL Olivenöl zufügen. Mutig mit Salz und Pfeffer würzen und die Zutaten miteinander vermischen.",
+    "Die Brotscheiben mit den Tomaten belegen und servieren."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "keywords": "Brot, Bruschetta, Mozzarella, Snack, Sommer, Tomaten",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2012/08/bruschetta-klassisch-tomaten-0267.jpg",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/klassiches-bruschetta-bruschetta-mit-bueffel-mozarellla/",
+    "title": "Bruschetta klassisch italienisch mit Tomaten",
+    "rating": 4.9,
+    "ratingCount": 16
+  },
+  "importedAt": "2026-09-04"
+}

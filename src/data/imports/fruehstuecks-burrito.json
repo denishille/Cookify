@@ -1,0 +1,35 @@
+{
+  "title": "Frühstücks-Burrito",
+  "description": "Gesundes Frühstück gefällig? Das Frühstücks-Burrito-Rezept von ➸ EAT SMARTER schmeckt garantiert!",
+  "ingredients": [
+    "1 Dose Kidneybohnen",
+    "150 g Frühlingszwiebeln",
+    "0.5 Bund Petersilie",
+    "3 EL Olivenöl",
+    "6 Eier",
+    "50 ml Schlagsahne",
+    "150 g geriebener Cheddar",
+    "Salz",
+    "Cayennepfeffer",
+    "4 Weizen-Tortillas",
+    "200 g saure Sahne"
+  ],
+  "steps": [
+    "Die Kidneybohnen in ein Sieb schütten, gut abwaschen, abtropfen lassen. Die Frühlingszwiebeln putzen und in feine Ringe schneiden. Die Petersilie waschen, trocken schütteln und fein wiegen.",
+    "Das Olivenöl in einer Pfanne erhitzen und die Frühlingszwiebeln darin goldgelb andünsten. Die Bohnen und die Petersilie zugeben. Eier mit der Sahne verrühren, dazugeben und auf kleiner Flamme stocken lassen. Den Käse untermischen und alles mit etwas Salz und Cayennepfeffer würzen.",
+    "Die Ei-Käse-Masse gleichmäßig auf die Tortillas verteilen, diese zu Burritos aufrollen und in eine Auflaufform geben. Im auf 200°C vorgeheizten Backofen 3—4 Minuten erhitzen, schräg durchgeschnitten auf Tellern anrichten und sofort mit dem etwas aufgeschlagenen Sauerrahm garniert servieren."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Frühstück",
+  "cuisine": "Nordamerika, Amerikanische, Lateinamerika, Mittelamerika, Mexikanisch, Mexikanisch-vegetarische Rezepte",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/fruehstuecks-burrito-113245.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/fruehstuecks-burrito",
+    "title": "Frühstücks-Burrito",
+    "rating": 4.8,
+    "ratingCount": 4
+  },
+  "importedAt": "2026-09-04"
+}

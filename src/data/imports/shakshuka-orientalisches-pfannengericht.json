@@ -1,0 +1,38 @@
+{
+  "title": "Shakshuka: Orientalisches Pfannengericht",
+  "description": "Dieses Original-Rezept für Shakshuka mit Tomatensoße und Eiern ist ganz einfach zu machen. Auf zur kulinarische Reise nach Israel.",
+  "ingredients": [
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 rote Paprikaschote",
+    "1 Chillischote (mittelscharf)",
+    "4 EL Olivenöl",
+    "1 Prise Zucker",
+    "1 TL Salz",
+    "1 TL Zimt",
+    "1 TL Paprikapulver edelsüß",
+    "400 g gehackte Tomaten (Dose)",
+    "4 Eier",
+    "Koriander"
+  ],
+  "steps": [
+    "Zwiebel und Knoblauch fein hacken. Paprika und Chili in sehr kleine Würfel schneiden.",
+    "Olivenöl in einer Pfanne erhitzen und Zwiebeln und Zucker bei mittlerer Hitze glasig anschwitzen. Knoblauch, Paprika und Chili zugeben und 5 Minuten mit anbraten.Salz, Zimt und Paprikapulver untermischen und alles nochmal 5 Minuten braten.",
+    "Gehackte Tomaten und 2 EL Wasser zugeben und alles 10 Minuten schmoren lassen.",
+    "Mit einem Löffel kleine Mulden in die Sauce schieben und dort jeweils ein Ei aufschlagen und salzen. Einen Deckel auf die Pfanne geben und die Eier 6-10 Minuten stocken lassen. Shakshuka mit Koriander servieren."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "category": "Beilage",
+  "cuisine": "Orientalisch",
+  "keywords": "Gesund",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2024/01/Shakshuka-Gaumenfreundin.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/shakshuka-original-rezept/",
+    "title": "Shakshuka: Orientalisches Pfannengericht",
+    "rating": 5,
+    "ratingCount": 67
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Avocado-Rührei-Brot",
+  "description": "",
+  "ingredients": [
+    "1 Avocado",
+    "2 Eier",
+    "2 Scheiben Brote",
+    "4 Tomaten",
+    "1 Stange Frühlingszwiebel",
+    "3 Scheiben Cheddarkäse"
+  ],
+  "steps": [
+    "Avocado auf dem Brot verteilen",
+    "Frühlingszwiebel und Tomate kleinschneiden und auf das Brot legen",
+    "Cheddar auf dem Brot platzieren und anschließend das Rührei ( je ein Ei pro Scheibe Brot)"
+  ],
+  "timeMinutes": 12,
+  "servings": 2,
+  "category": "Frühstück",
+  "image": "https://www.kitchenstories.com/wp-content/uploads/sites/13/2026/08/74cf0f16ab3c11d8a337ff2a66c40371-f9d59290-537e-4f93-b68c-8e8dbdca31f2.jpg",
+  "source": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/avocado-ruhrei-brot-8de6",
+    "title": "Avocado-Rührei-Brot",
+    "rating": 1
+  },
+  "importedAt": "2026-09-04"
+}

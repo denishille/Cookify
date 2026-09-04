@@ -1,0 +1,37 @@
+{
+  "title": "Curryreis mit Hähnchen und Gemüse",
+  "description": "Gemüse, Hähnchen, Reis und Curry - fertig ist deine Curryreis Pfanne. Natürlich nach klassischer asiatischer Rezeptur. Mehr dazu findest du im Rezept.",
+  "ingredients": [
+    "260 g gekochter Reis",
+    "4 Hähnchenbrustfilets",
+    "3 EL Olivenöl",
+    "100 g Zucchini",
+    "80 g rote Paprika",
+    "80 g gelbe Paprika",
+    "80 g Möhren",
+    "0.5 rote Zwiebel",
+    "0.5 Bund Frühlingszwiebeln",
+    "50 ml Gemüse- und Hühnerbrühe",
+    "2 TL Curry",
+    "Salz und Pfeffer"
+  ],
+  "steps": [
+    "Hähnchenbrustfilets in mundgerechte Würfel schneiden.",
+    "Zucchini und Paprika waschen. Möhren und Zwiebel schälen. Paprika entkernen und in feine Streifen schneiden. Restliches Gemüse ebenfalls in feine Streifen schneiden. Frühlingszwiebeln waschen, putzen und in feine Ringe schneiden.",
+    "Öl in einer großen Pfanne erhitzen. Hähnchen anbraten und mit Salz und Pfeffer würzen. Gekochten Reis und Currypulver dazugeben und kurz mit anschwitzen. Gemüse dazugeben und ca. 2 Minuten mit anbraten. Nach Belieben mit Gemüsebrühe ablöschen.",
+    "Frühlingszwiebel unterrühren und mit Salz und Pfeffer abschmecken."
+  ],
+  "timeMinutes": 35,
+  "servings": 4,
+  "category": "Kochen Hauptgerichte",
+  "keywords": "Kochen Hauptgerichte",
+  "image": "https://www.simply-yummy.de/files/styles/tec_frontend_large/public/images/recipes/curry-reis.jpg?itok=2VndAmt-",
+  "source": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/curryreis",
+    "title": "Curryreis mit Hähnchen und Gemüse",
+    "rating": 2,
+    "ratingCount": 6
+  },
+  "importedAt": "2026-09-04"
+}

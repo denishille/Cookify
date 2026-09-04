@@ -1,0 +1,33 @@
+{
+  "title": "Frühstücks Smoothie Bowl",
+  "description": "",
+  "ingredients": [
+    "1 Banane",
+    "5 EL Feine Haferflocken",
+    "1 EL Gemahlene Leinsamen",
+    "0.25 TL Zimt",
+    "5 EL TK Heidelbeeren",
+    "Sojamilch",
+    "0.5 Apfel",
+    "1 EL gepuffter Amaranth",
+    "1 TL Mandelmus",
+    "1 EL Kokosmilch",
+    "Nüsse nach Wahl",
+    "Kokosraspel"
+  ],
+  "steps": [
+    "Zutaten in einem Mixer gut mixen bis eine zähflüssige Masse entsteht. Sojamilch nach Belieben hinzufügen, je nachdem wie flüssig der Smoothie sein soll (ca. 50-100 ml).",
+    "Fertigen Smoothie in eine Schüssel füllen. Apfel schneiden und den Smoothie mit dem Apfel und den restlichen Toppings garnieren. GUTEN APPETIT!"
+  ],
+  "timeMinutes": 10,
+  "servings": 1,
+  "category": "Frühstück Snack",
+  "image": "https://www.kitchenstories.com/wp-content/uploads/sites/13/2026/08/bd802b3670af84d45db8933f79f38e8a-9e8c1966-41e6-475a-b689-a7733a1cae70.jpg",
+  "source": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/fruhstucks-smoothie-bowl",
+    "title": "Frühstücks Smoothie Bowl",
+    "rating": 1
+  },
+  "importedAt": "2026-09-04"
+}

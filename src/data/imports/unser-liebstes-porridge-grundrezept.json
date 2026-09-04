@@ -1,0 +1,27 @@
+{
+  "title": "Unser liebstes Porridge Grundrezept",
+  "description": "Unser liebstes Porridge Grundrezept mit Schritt für Schritt-Anleitung. So wirst du zum Porridge-Profi und Porridge-Lover. Versprochen! 🥣",
+  "ingredients": [
+    "70 g Haferflocken Großblatt",
+    "350 ml Wasser",
+    "150 ml Mandelmilch",
+    "1 Prise Salz"
+  ],
+  "steps": [
+    "Haferflocken in einem heißen Topf ohne Öl 5 Minuten rösten bis sie duften. Ab und zu umrühren und aufpassen, dass sie nicht anbrennen.",
+    "Wasser und Milch hinzugeben und aufkochen. Anschließend auf niedrige bis mittlere Hitze schalten und unter ständigem Rühren 15 Minuten köcheln.",
+    "Kurz vor Ende der Kochzeit die Prise Salz unterrühren.",
+    "Mit Lieblingstoppings servieren."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "category": "Frühstück",
+  "cuisine": "Schottisch",
+  "image": "https://www.eat-this.org/wp-content/uploads/2018/10/Unser-liebstes-Porridge-Grundrezept-7.jpg",
+  "source": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/porridge-grundrezept/",
+    "title": "Unser liebstes Porridge Grundrezept"
+  },
+  "importedAt": "2026-09-04"
+}

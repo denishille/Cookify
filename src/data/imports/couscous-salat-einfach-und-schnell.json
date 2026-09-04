@@ -1,0 +1,37 @@
+{
+  "title": "Couscous-Salat einfach und schnell",
+  "description": "Fluffig, knackig, frisch – mit diesem Rezept zauberst du schnell und einfach den leckersten Couscous-Salat. Jetzt nachmachen!",
+  "ingredients": [
+    "250 g Couscous",
+    "250 ml Gemüsebrühe",
+    "2 Paprikaschoten (rot und gelb)",
+    "3 Frühlingszwiebeln",
+    "250 g Kirschtomaten",
+    "2 Minigurken",
+    "2 EL gehackte Petersilie",
+    "6 EL Olivenöl",
+    "2 EL Weißweinessig",
+    "3 EL Zitronensaft (frisch gepresst)",
+    "1 EL Tomatenmark",
+    "Salz und Pfeffer"
+  ],
+  "steps": [
+    "Gemüsebrühe aufkochen. Couscous in eine Schüssel geben und mit der heißen Gemüsebrühe übergießen. Couscous zugedeckt 5-10 Minuten quellen lassen, dann mit einer Gabel auflockern.",
+    "Paprika in kleine Stücke schneiden, Frühlingszwiebeln in Ringe schneiden. Tomaten und Gurken klein würfeln.",
+    "Alle Zutaten für das Dressing verrühren und mit den Salatzutaten und der Petersilie mischen."
+  ],
+  "timeMinutes": 20,
+  "servings": 6,
+  "category": "Salat",
+  "cuisine": "Deutsch",
+  "keywords": "Grill-Salat",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/06/Couscous-Salat-bestes-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/couscous-salat/",
+    "title": "Couscous-Salat einfach und schnell",
+    "rating": 5,
+    "ratingCount": 167
+  },
+  "importedAt": "2026-09-04"
+}
