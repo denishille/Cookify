@@ -2275,13 +2275,6 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-badisches-rehgulasch": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/badisches-rehgulasch-38380.html",
-    "title": "Badisches Rehgulasch Rezept",
-    "rating": 3.7,
-    "ratingCount": 38
-  },
   "i-balsamico-schweinefilet-mit-kraeutern": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/balsamico-schweinefilet-mit-kraeuter/",
@@ -2344,26 +2337,12 @@
     "rating": 5,
     "ratingCount": 451
   },
-  "i-dinkel-quark-broetchen": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/60387-rzpt-dinkel-quark-broetchen",
-    "title": "Dinkel-Quark-Brötchen Rezept",
-    "rating": 3.2,
-    "ratingCount": 184
-  },
   "i-dinkel-skyr-brot": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/dinkel-skyr-brot-rezept-13994308.html",
     "title": "Dinkel-Skyr-Brot: selbstgebacken & vollwertig",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-spareribs-aus-dem-ofen": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/einfache-spareribs-12087714.html",
-    "title": "Einfache Spareribs Rezept",
-    "rating": 2.5,
-    "ratingCount": 187
   },
   "i-eiweissbrot-mit-quark-und-koernern": {
     "site": "emmikochteinfach.de",
@@ -2543,13 +2522,6 @@
     "rating": 4.2,
     "ratingCount": 11
   },
-  "i-kalbsgeschnetzeltes-mit-pilzen": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/kalbsgeschnetzeltes-mit-pilzen-46102",
-    "title": "Kalbsgeschnetzeltes mit Pilzen",
-    "rating": 3.9,
-    "ratingCount": 14
-  },
   "i-kartoffel-reis-gratin-im-balkan-style": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/kartoffel-reis-gratin-im-balkan-style/",
@@ -2648,13 +2620,6 @@
     "rating": 5,
     "ratingCount": 339
   },
-  "i-mandelknusper-kabeljau-aus-dem-ofen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/mandelknusper-kabeljau-aus-dem-ofen-78531.html",
-    "title": "Mandelknusper-Kabeljau aus dem Ofen Rezept",
-    "rating": 3.9,
-    "ratingCount": 198
-  },
   "i-marokkanische-gemuese-tajine-mit-couscous": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/marokkanische-gemuese-tajine-mit-couscous-88005",
@@ -2675,13 +2640,6 @@
     "title": "Mediterranes Lammragout mit grünen Bohnen und Kirschtomaten",
     "rating": 4.8,
     "ratingCount": 24
-  },
-  "i-nudeln-mit-raeucherlachs-und-zitronenpesto": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/nudeln-mit-raeucherlachs-und-zitronenpesto-26811.html",
-    "title": "Nudeln mit Räucherlachs und Zitronenpesto Rezept",
-    "rating": 3.9,
-    "ratingCount": 20
   },
   "i-ofenhaehnchen-mit-gemuese": {
     "site": "gaumenfreundin.de",
@@ -2708,20 +2666,6 @@
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/pasta-mit-kokos-garnelen-sosse",
     "title": "Pasta mit Kokos-Garnelen-Soße"
-  },
-  "i-pasta-mit-walnuss-pesto": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/pasta-mit-walnuss-pesto-58693",
-    "title": "Pasta mit Walnuss-Pesto",
-    "rating": 2.5,
-    "ratingCount": 2
-  },
-  "i-piroggen-mit-hackfuellung-und-gurken-schmand-dip": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/piroggen-mit-hackfuellung-mit-gurken-schmand-dip-63799.html",
-    "title": "Piroggen mit Hackfüllung mit Gurken-Schmand-Dip Rezept",
-    "rating": 3.9,
-    "ratingCount": 16
   },
   "i-protein-gnocchi-mit-huettenkaese": {
     "site": "kuechengoetter.de",
@@ -2751,12 +2695,6 @@
     "rating": 5,
     "ratingCount": 3
   },
-  "i-protein-skyr-mit-physalis": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/protein-skyr-mit-physalis-1bef",
-    "title": "Protein Skyr mit Physalis",
-    "rating": 1
-  },
   "i-putengeschnetzeltes-in-senfsauce": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/putengeschnetzeltes-in-senfsauce-22109",
@@ -2780,27 +2718,6 @@
     "title": "Quinoa Salat mit Kichererbsen und Tahin-Dressing",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-rinderbraten-in-chianti-mit-moehren-und-champignon": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/rinderbraten-chianti-geschmort-mit-moehren-zwiebeln-und-champignons-14837.html",
-    "title": "Rinderbraten in Chianti geschmort mit Möhren, Zwiebeln und Champignons Rezept",
-    "rating": 3.8,
-    "ratingCount": 6
-  },
-  "i-rinderschmorbraten-mit-spaetzle": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/rinderschmorbraten-mit-spaetzle-30452.html",
-    "title": "Rinderschmorbraten mit Spätzle Rezept",
-    "rating": 3.5,
-    "ratingCount": 2
-  },
-  "i-rindfleischsalat-mit-curry-ketchup-sauce": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/35956-rzpt-rindfleischsalat",
-    "title": "Rindfleischsalat Rezept",
-    "rating": 2.4,
-    "ratingCount": 8
   },
   "i-risi-bisi": {
     "site": "lecker.de",
@@ -2894,12 +2811,6 @@
     "rating": 5,
     "ratingCount": 8
   },
-  "i-protein-pizzateig": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/superleckerer-protein-pizzateig-cda2",
-    "title": "Superleckerer Protein-Pizzateig",
-    "rating": 1
-  },
   "i-tajine-mit-entenkeule": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/tajine-mit-entenkeule-7639",
@@ -2960,12 +2871,6 @@
     "title": "Aprikosenkuchen vom Blech Rezept",
     "rating": 4.1,
     "ratingCount": 8
-  },
-  "i-avocado-ruehrei-brot": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/avocado-ruhrei-brot-8de6",
-    "title": "Avocado-Rührei-Brot",
-    "rating": 1
   },
   "i-avocadobrot-strammer-max": {
     "site": "essen-und-trinken.de",
@@ -3035,13 +2940,6 @@
     "rating": 5,
     "ratingCount": 2
   },
-  "i-buttermilchwaffeln-mit-kirschkompott": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/85606-rzpt-buttermilchwaffeln",
-    "title": "Buttermilchwaffeln Rezept",
-    "rating": 2.8,
-    "ratingCount": 13
-  },
   "i-cantuccini": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/cantuccini-original-italienisches-rezept-33630.html",
@@ -3056,32 +2954,12 @@
     "rating": 4.9,
     "ratingCount": 8
   },
-  "i-chia-muesliriegel": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/61826-rzpt-chia-muesliriegel",
-    "title": "Chia-Müsliriegel Rezept",
-    "rating": 3.9,
-    "ratingCount": 90
-  },
   "i-chia-pudding-mit-himbeeren-und-kokosmilch": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/chia-pudding-mit-himbeeren-und-kokosmilch-68066.html",
     "title": "Chia-Pudding mit Himbeeren und Kokosmilch Rezept",
     "rating": 4.4,
     "ratingCount": 143
-  },
-  "i-chia-pudding-mit-papaya": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/61824-rzpt-chia-pudding",
-    "title": "Chia-Pudding Rezept",
-    "rating": 3.8,
-    "ratingCount": 47
-  },
-  "i-chinesische-nudelsuppe-mit-rindfleisch": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/braised-beef-noodle-soup",
-    "title": "Chinesische Nudelsuppe mit Rindfleisch",
-    "rating": 1
   },
   "i-couscous-salat": {
     "site": "gaumenfreundin.de",
@@ -3096,13 +2974,6 @@
     "title": "Cremiger Ofen- Lachs",
     "rating": 4.8,
     "ratingCount": 4
-  },
-  "i-curryreis-mit-haehnchen-und-gemuese": {
-    "site": "simply-yummy.de",
-    "url": "https://www.simply-yummy.de/kochen/curryreis",
-    "title": "Curryreis mit Hähnchen und Gemüse",
-    "rating": 2,
-    "ratingCount": 6
   },
   "i-datteldip-mit-curry-und-frischkaese": {
     "site": "emmikochteinfach.de",
@@ -3151,25 +3022,12 @@
     "rating": 4.4,
     "ratingCount": 139
   },
-  "i-franzoesische-madeleines": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/franzoesische-madeleines-2030.html",
-    "title": "Französische Madeleines Rezept",
-    "rating": 3.8,
-    "ratingCount": 60
-  },
   "i-fruehstuecks-burrito": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/fruehstuecks-burrito",
     "title": "Frühstücks-Burrito",
     "rating": 4.8,
     "ratingCount": 4
-  },
-  "i-fruehstuecks-smoothie-bowl": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/fruhstucks-smoothie-bowl",
-    "title": "Frühstücks Smoothie Bowl",
-    "rating": 1
   },
   "i-gelbes-thai-curry": {
     "site": "eat-this.org",
@@ -3277,13 +3135,6 @@
     "url": "https://www.kuechengoetter.de/rezepte/italienische-minestrone-mit-pesto-37269",
     "title": "Italienische Minestrone mit Pesto"
   },
-  "i-kaesebroetchen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/kaesebroetchen-wie-vom-baecker-127016.html",
-    "title": "Käsebrötchen wie vom Bäcker Rezept",
-    "rating": 3.7,
-    "ratingCount": 3
-  },
   "i-kaesecracker": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/60307-rzpt-kaesecracker",
@@ -3295,13 +3146,6 @@
     "site": "zuckerzimtundliebe.de",
     "url": "https://www.zuckerzimtundliebe.de/2019/10/rezept-karamellisiertes-ofengemuese-kochbuch-edeka-alles-vegetarisch/",
     "title": "karamellisiertes Ofengemüse mit Sesam und Dill (und Ahornsirup)"
-  },
-  "i-kartoffel-spargel-auflauf-mit-fruehlingszwiebeln": {
-    "site": "toastenstein.com",
-    "url": "https://www.toastenstein.com/kartoffel-spargel-auflauf/",
-    "title": "Kartoffel-Spargel-Auflauf mit Frühlingszwiebeln",
-    "rating": 3.1,
-    "ratingCount": 23
   },
   "i-kartoffelsalat-mit-bruehe": {
     "site": "kuechengoetter.de",
@@ -3352,12 +3196,6 @@
     "rating": 4.9,
     "ratingCount": 92
   },
-  "i-knuspriges-haehnchen-mit-curry-gemuese-und-reis": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/knuspriges-hahnchen-mit-curry-gemuse-und-reis-1a71",
-    "title": "Knuspriges Hähnchen mit Curry Gemüse und Reis",
-    "rating": 1
-  },
   "i-kohlrouladen-mit-meerrettich-schnittlauch-sauce": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/48698-rzpt-kohlrouladen-mit-meerrettich-schnittlauch-sauce",
@@ -3371,27 +3209,6 @@
     "title": "Kokos-Panna-cotta mit Mangopüree Rezept",
     "rating": 4,
     "ratingCount": 45
-  },
-  "i-kraeuter-champignons-aus-dem-ofen": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/kraeuter-champignons-aus-dem-ofen-82610.html",
-    "title": "Kräuter-Champignons aus dem Ofen Rezept",
-    "rating": 3.9,
-    "ratingCount": 33
-  },
-  "i-ofen-shakshuka-mit-bohnen-und-feta": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/kraftvolle-ofen-shakshuka-77661.html",
-    "title": "Kraftvolle Ofen-Shakshuka Rezept",
-    "rating": 3.7,
-    "ratingCount": 66
-  },
-  "i-kuerbissalat-mit-roter-bete": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/31743-rzpt-kuerbissalat-mit-roter-bete",
-    "title": "Kürbissalat mit Roter Bete Rezept",
-    "rating": 3.1,
-    "ratingCount": 11
   },
   "i-kuerbissuppe-mit-curry-und-kokosmilch": {
     "site": "malteskitchen.de",
@@ -3448,13 +3265,6 @@
     "rating": 4,
     "ratingCount": 16
   },
-  "i-orientalischer-weisskohlsalat": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/orientalischer-weisskohlsalat-64567.html",
-    "title": "Orientalischer Weißkohlsalat Rezept",
-    "rating": 3.5,
-    "ratingCount": 42
-  },
   "i-overnight-oats-mit-joghurt": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/overnight-oats-mit-joghurt/",
@@ -3475,13 +3285,6 @@
     "title": "Pesto Reispfanne",
     "rating": 4.4,
     "ratingCount": 5
-  },
-  "i-pfirsich-haehnchen-curry-mit-reis": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/pfirsich-hahnchen-curry-mit-reis-99ad",
-    "title": "Pfirsich-Hähnchen Curry mit Reis",
-    "rating": 1.8,
-    "ratingCount": 1
   },
   "i-pizzastangen-aus-blaetterteig": {
     "site": "emmikochteinfach.de",
@@ -3504,13 +3307,6 @@
     "rating": 4,
     "ratingCount": 24
   },
-  "i-ramen-mit-schweinebauch": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/87244-rzpt-ramen-japanische-nudelsuppe",
-    "title": "Ramen Rezept: japanische Nudelsuppe",
-    "rating": 3.3,
-    "ratingCount": 102
-  },
   "i-vanille-french-toast": {
     "site": "zuckerzimtundliebe.de",
     "url": "https://www.zuckerzimtundliebe.de/2020/07/einfaches-bestes-french-toast-rezept/",
@@ -3529,13 +3325,6 @@
     "title": "Saftiger Schokokuchen mit Zucchini Rezept",
     "rating": 4.4,
     "ratingCount": 9
-  },
-  "i-saftiger-zitronen-gugelhupf": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/55730-rzpt-saftiger-zitronen-gugelhupf",
-    "title": "Saftiger Zitronen-Gugelhupf Rezept",
-    "rating": 3.1,
-    "ratingCount": 42
   },
   "i-kuerbis-rote-bete-salat-mit-feta": {
     "site": "eatsmarter.de",
@@ -3563,13 +3352,6 @@
     "url": "https://www.kuechengoetter.de/rezepte/schoko-muesliriegel-mit-mandeln-91543",
     "title": "Schoko-Müsliriegel mit Mandeln"
   },
-  "i-selleriecremesuppe": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/53959-rzpt-selleriecremesuppe",
-    "title": "Selleriecremesuppe Rezept",
-    "rating": 3.3,
-    "ratingCount": 8
-  },
   "i-shakshuka": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/shakshuka-original-rezept/",
@@ -3577,25 +3359,12 @@
     "rating": 5,
     "ratingCount": 67
   },
-  "i-spinat-lachs-lasagne": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/spinat-lachs-lasagne-3cfd",
-    "title": "Spinat-Lachs-Lasagne",
-    "rating": 1
-  },
   "i-spitzkohl-gnocchi-pfanne-mit-pilzen": {
     "site": "toastenstein.com",
     "url": "https://www.toastenstein.com/spitzkohl-gnocchi-pfanne-mit-pilzen/",
     "title": "Spitzkohl-Gnocchi-Pfanne mit Pilzen",
     "rating": 4.4,
     "ratingCount": 18
-  },
-  "i-staudensellerie-in-curry-rahm-mit-mandeln": {
-    "site": "toastenstein.com",
-    "url": "https://www.toastenstein.com/staudensellerie-in-curry-rahm-mit-mandeln/",
-    "title": "Staudensellerie in Curry-Rahm mit Mandeln",
-    "rating": 3.6,
-    "ratingCount": 36
   },
   "i-suesse-smoothie-bowl": {
     "site": "kuechengoetter.de",
@@ -3654,18 +3423,564 @@
     "rating": 5,
     "ratingCount": 1
   },
-  "i-whoopie-pies": {
+  "i-apfelkuchen-mit-marzipan-vom-blech": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/apfelkuchen-marzipan/",
+    "title": "Apfelkuchen mit Marzipan vom Blech | super saftig",
+    "rating": 5,
+    "ratingCount": 9
+  },
+  "i-bananenbrot-ohne-zucker": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/bananenbrot-ohne-zucker",
+    "title": "Bananenbrot ohne Zucker",
+    "rating": 4.8,
+    "ratingCount": 15
+  },
+  "i-banh-mi-mit-tempeh": {
     "site": "lecker.de",
-    "url": "https://www.lecker.de/whoopie-pies-25196.html",
-    "title": "Whoopie Pies Rezept",
-    "rating": 3.9,
+    "url": "https://www.lecker.de/banh-mi-mit-tempeh-vietnamesisches-sandwich-60599.html",
+    "title": "Banh-Mi mit Tempeh (vietnamesisches Sandwich) Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-bbq-tofu-bowl-mit-brokkoli-und-pfirsich": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/ganz-schnelle-bbq-tofu-bowl/",
+    "title": "BBQ Tofu-Bowl mit Brokkoli und Pfirsich",
+    "rating": 5,
+    "ratingCount": 7
+  },
+  "i-belgische-waffeln": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/waffelteig-grundrezept-belgische-waffeln/",
+    "title": "Belgische Waffeln - einfaches Rezept für Waffelteig",
+    "rating": 4.5,
+    "ratingCount": 1321
+  },
+  "i-biskuitrolle-mit-erdbeeren": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/biskuitrolle-erdbeeren/",
+    "title": "Biskuitrolle mit Erdbeeren - backe den Sommerklassiker",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-blondies-mit-himbeeren-und-weisser-schokolade": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/blondies/",
+    "title": "Blondies mit ▷ Himbeeren &amp; weißer Schokolade | herrlich fudgy",
+    "rating": 4.9,
+    "ratingCount": 14
+  },
+  "i-blumenkohlauflauf-mit-soja-bolognese": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/blumenkohlauflauf-mit-soja-bolognese-45466.html",
+    "title": "Blumenkohlauflauf mit Soja-Bolognese Rezept",
+    "rating": 4.1,
+    "ratingCount": 13
+  },
+  "i-bohnen-burger-mit-veganer-mayonnaise": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/bohnen-burger-mit-veganer-mayonnaise-95930",
+    "title": "Bohnen-Burger mit veganer Mayonnaise"
+  },
+  "i-bohnenpfanne-mit-raeuchertofu": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/41798-rzpt-bohnenpfanne-mit-raeuchertofu",
+    "title": "Bohnenpfanne mit Räuchertofu Rezept"
+  },
+  "i-bolognese-ohne-fleisch": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pasta-bolognese-mit-soja-schnetzel",
+    "title": "Bolognese ohne Fleisch",
+    "rating": 4.6,
+    "ratingCount": 5
+  },
+  "i-bratapfel-dessert-im-glas": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/bratapfel-dessert/",
+    "title": "Bratapfel-Dessert",
+    "rating": 5,
+    "ratingCount": 89
+  },
+  "i-chili-tonka-mousse-mit-seidentofu": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/chili-tonka-mousse-aus-bitterschokolade-und-seidentofu-46372",
+    "title": "Chili-Tonka-Mousse aus Bitterschokolade und Seidentofu",
+    "rating": 5,
+    "ratingCount": 21
+  },
+  "i-chocolate-cookie-bars": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2023/02/chocolate-cookie-bars-rezept-schoko-cookies-mal-in-quadratform/",
+    "title": "Chocolate Cookie Bars – Schoko Cookies mal in Quadratform"
+  },
+  "i-fluffige-focaccia": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/die-fluffigste-focaccia/",
+    "title": "Die fluffigste Focaccia"
+  },
+  "i-vegane-linsenbolognese": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/die-perfekte-vegane-linsenbolognese/",
+    "title": "Die perfekte vegane Linsenbolognese"
+  },
+  "i-dinkelvollkornbrot": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/dinkelvollkornbrot/",
+    "title": "Dinkelvollkornbrot einfach selber backen",
+    "rating": 5,
+    "ratingCount": 40
+  },
+  "i-edamame-hummus-mit-ingwer": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/edamame-bohnen-hummus-mit-ingwer-88256",
+    "title": "Edamame-Bohnen-Hummus mit Ingwer",
+    "rating": 5,
+    "ratingCount": 6
+  },
+  "i-edamame-salat-mit-feta": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/edamame-salat-mit-feta",
+    "title": "Edamame-Salat mit Feta",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "i-broetchen-ohne-kneten": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/einfache-broetchen-ohne-kneten/",
+    "title": "Einfache Brötchen ohne Kneten"
+  },
+  "i-apfel-kaesekuchen-im-glas": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/apfel-kaesekuchen-im-glas/",
+    "title": "Einfacher Apfel-Käsekuchen im Glas",
+    "rating": 4.5,
+    "ratingCount": 12
+  },
+  "i-erdbeermousse": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/56171-rzpt-erdbeermousse",
+    "title": "Erdbeermousse Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-erdnuss-nudel-bowl": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/erdnuss-nudel-bowl-ein-vegetarisches-meal-prep-rezept/",
+    "title": "Erdnuss-Nudel-Bowl",
+    "rating": 5,
+    "ratingCount": 24
+  },
+  "i-falafel-aus-dem-ofen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/falafel-selber-machen/",
+    "title": "Falafel selber machen",
+    "rating": 5,
+    "ratingCount": 26
+  },
+  "i-fitness-bowl-mit-teriyaki-tofu": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/fitness-bowl-mit-reis-und-teriyaki-tofu",
+    "title": "Fitness-Bowl mit Reis und Teriyaki-Tofu",
+    "rating": 4,
+    "ratingCount": 2
+  },
+  "i-gebackene-falafel-mit-tahin-joghurt": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/gebackene-falafel-mit-sesam/",
+    "title": "Gebackene Falafel mit Sesam & Tahin-Joghurt"
+  },
+  "i-gebackener-knusper-tofu": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/gebackener-knusper-tofu-rezept-13865280.html",
+    "title": "Gebackener Knusper-Tofu Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-gedeckter-apfelkuchen": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/gedeckter-apfelkuchen/",
+    "title": "Gedeckter Apfelkuchen – der saftige Klassiker",
+    "rating": 5,
+    "ratingCount": 10
+  },
+  "i-gemuesepfanne-mit-raeuchertofu": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/gemusepfannen-mit-rauchertofu-0806",
+    "title": "Gemüsepfannen mit Räuchertofu",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-griechischer-tomaten-tofu-auflauf": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/griechischer-tomaten-tofu-auflauf-97124",
+    "title": "Griechischer Tomaten-Tofu-Auflauf",
+    "rating": 4,
+    "ratingCount": 5
+  },
+  "i-griesspudding": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/griesspudding/",
+    "title": "Grießpudding wie bei Oma – schnell und einfach",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-gyros-nudelsalat": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/gyros-nudel-salat/",
+    "title": "Gyros-Nudel-Salat mit Paprika und Tomaten",
+    "rating": 4.7,
+    "ratingCount": 3
+  },
+  "i-haferflocken-kekse-mit-banane": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/haferflocken-kekse-3-zutaten/",
+    "title": "Haferflocken-Kekse mit 3 Zutaten",
+    "rating": 4.9,
+    "ratingCount": 133
+  },
+  "i-knusprige-haferkekse": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/haferkekse/",
+    "title": "Haferkekse selber machen – knusprig und süß",
+    "rating": 5,
+    "ratingCount": 77
+  },
+  "i-himbeer-tiramisu": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/himbeer-tiramisu-rezept-13821178.html",
+    "title": "Himbeer-Tiramisu: einfaches Sommer-Dessert",
+    "rating": 4.9,
+    "ratingCount": 14
+  },
+  "i-honig-skyr-mit-nuessen": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/honig-skyr-mit-nuessen-0",
+    "title": "Honig-Skyr mit Nüssen",
+    "rating": 4.9,
+    "ratingCount": 22
+  },
+  "i-loaded-hummus-mit-tortilla-chips": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2019/05/hummus-rezept/",
+    "title": "Hummus mit selbstgemachten Tortilla Chips"
+  },
+  "i-kaesekuchen-kirschwelle": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/kasekuchen-kirschwelle",
+    "title": "Käsekuchen-Kirschwelle",
+    "rating": 4.8,
     "ratingCount": 8
   },
-  "i-zabaione-mit-beeren": {
+  "i-kichererbsen-bratlinge-mit-moehren-und-feta": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/kichererbsen-bratlinge/",
+    "title": "Kichererbsen Bratlinge mit Möhren und Feta",
+    "rating": 5,
+    "ratingCount": 116
+  },
+  "i-kichererbsen-curry-mit-kokosmilch": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/schnelles-kichererbsen-curry/",
+    "title": "Kichererbsen-Curry – einfach und schnell",
+    "rating": 5,
+    "ratingCount": 263
+  },
+  "i-kichererbsen-curry": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kichererbsen-curry/",
+    "title": "Kichererbsen-Curry",
+    "rating": 5,
+    "ratingCount": 340
+  },
+  "i-kichererbsen-frikadellen": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/50861-rzpt-kichererbsen-frikadellen",
+    "title": "Kichererbsen-Frikadellen Rezept"
+  },
+  "i-kichererbsensalat-mit-feta": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/kichererbsensalat-feta/",
+    "title": "Kichererbsensalat mit gerösteten Kichererbsen &amp; Feta | vegetarisch",
+    "rating": 5,
+    "ratingCount": 38
+  },
+  "i-knaeckebrot": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/knaeckebrot-selber-machen/",
+    "title": "Knäckebrot selber machen",
+    "rating": 5,
+    "ratingCount": 76
+  },
+  "i-knuspriger-tofu-mit-brokkoli-und-erdnusssauce": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/knuspriger-tofu-mit-brokkoli-und-erdnussbutter-sauce-779a",
+    "title": "Knuspriger Tofu mit Brokkoli und Erdnussbutter-Sauce",
+    "rating": 4.4,
+    "ratingCount": 13
+  },
+  "i-linsensalat-mit-feta": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/linsensalat-einfach-und-schnell/",
+    "title": "Linsensalat - einfach und schnell",
+    "rating": 5,
+    "ratingCount": 64
+  },
+  "i-mangomousse": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/mangomousse-grundrezept",
+    "title": "Mangomousse Grundrezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-mapo-tofu": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/81571-rzpt-mapo-tofu",
+    "title": "Mapo Tofu Rezept",
+    "rating": 4.3,
+    "ratingCount": 6
+  },
+  "i-teriyaki-tofu-aus-dem-wok": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/marinierter-teriyaki-tofu-aus-dem-wok-101235",
+    "title": "Marinierter Teriyaki-Tofu aus dem Wok",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-mohnkuchen-mit-streuseln": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/mohnkuchen-streusel/",
+    "title": "Mohnkuchen mit Streusel - Omas leckere Klassiker",
+    "rating": 5,
+    "ratingCount": 24
+  },
+  "i-new-york-cheesecake": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/new-york-style-cheesecake/",
+    "title": "New York Style Cheesecake",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-nusskuchen-mit-schokoglasur": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/saftiger-nusskuchen-oma-rezept/",
+    "title": "Nusskuchen nach Omas Rezept | saftig &amp; mit Glasur",
+    "rating": 4.7,
+    "ratingCount": 511
+  },
+  "i-ofen-falafel": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/ofen-falafeln-94844",
+    "title": "Ofen-Falafeln",
+    "rating": 5,
+    "ratingCount": 8
+  },
+  "i-oreo-blondies": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2023/07/oreo-blondies-rezept-cookies-and-cream-blondies/",
+    "title": "Oreo Blondies Rezept - Cookies n Cream Blondies recipe"
+  },
+  "i-oreo-schichtdessert": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/oreo-schichtdessert-schnell-ohne-kochen-im-glas",
+    "title": "Oreo Schichtdessert schnell ohne Kochen",
+    "rating": 4.6,
+    "ratingCount": 68
+  },
+  "i-rote-linsen-bolognese": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/rote-linsenbolognese-einfach-und-vegan/",
+    "title": "Rote Linsen-Bolognese ganz einfach",
+    "rating": 4.9,
+    "ratingCount": 232
+  },
+  "i-nusskuchen-ohne-mehl": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/saftiger-nusskuchen-ohne-mehl/",
+    "title": "Saftiger Nusskuchen ohne Mehl",
+    "rating": 5,
+    "ratingCount": 250
+  },
+  "i-schnelles-dinkelbrot-mit-moehren": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/dinkelbrot-mit-moehren-ein-schnelles-brotrezept/",
+    "title": "Schnelles Dinkelbrot mit Möhren",
+    "rating": 5,
+    "ratingCount": 92
+  },
+  "i-seitan-gulasch-mit-gruenen-bohnen": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/seitan-gulasch-mit-bohnen",
+    "title": "Seitan-Gulasch mit Bohnen",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-seitan-paprika-gulasch": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/seitan-paprika-gulasch-85546",
+    "title": "Seitan-Paprika-Gulasch"
+  },
+  "i-shortbread": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/shortbread-37422",
+    "title": "Shortbread",
+    "rating": 4.2,
+    "ratingCount": 38
+  },
+  "i-tempeh-gyros-pfanne": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/tempeh-gyros-pfanne/",
+    "title": "Tempeh-Gyros-Pfanne mit eigener Gewürzmischung",
+    "rating": 4.7,
+    "ratingCount": 9
+  },
+  "i-tempeh-sate-mit-erdnusssauce": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/tempeh-sate-mit-erdnuss-dip/",
+    "title": "Tempeh-Saté mit Erdnuss-Dip"
+  },
+  "i-thai-reisnudeln-mit-erdnusssauce": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/thai-reisnudeln-mit-erdnusssauce/",
+    "title": "Thai-Reisnudeln mit Erdnusssauce"
+  },
+  "i-airfryer-tofu-auf-gurkensalat": {
     "site": "lecker.de",
-    "url": "https://www.lecker.de/zabaione-40458.html",
-    "title": "Zabaione Rezept",
-    "rating": 2.7,
-    "ratingCount": 3
+    "url": "https://www.lecker.de/tofu-aus-dem-airfryer-auf-gurkensalat-132618.html",
+    "title": "Tofu aus dem Airfryer auf Gurkensalat Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-tofu-buddha-bowl-mit-erdnusssosse": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/tofu-buddha-bowl-mit-cremiger-erdnusssosse-64e3b214e1f123211ed56445",
+    "title": "Tofu Buddha Bowl mit cremiger Erdnusssoße dazu Brokkoli und Karotten-Koriander-Salat",
+    "rating": 4,
+    "ratingCount": 476
+  },
+  "i-tofu-gemuese-curry": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/tofu-gemuese-curry-93271",
+    "title": "Tofu-Gemüse-Curry"
+  },
+  "i-tofu-katsu-bowl-mit-sweet-chili-zucchini": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/tofu-katsu-schnitzel-bowl-mit-avocado-65d4899b6c4f22398987613f",
+    "title": "Tofu Katsu Schnitzel-Bowl mit Avocado Limetten-Erdnuss-Gremolata & Sweet-Chili-Zucchini",
+    "rating": 4.3,
+    "ratingCount": 1712
+  },
+  "i-knusprig-gebratener-tofu": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/tofu-knusprig-braten-84878.html",
+    "title": "Tofu knusprig braten - das Grundrezept Rezept",
+    "rating": 5,
+    "ratingCount": 6
+  },
+  "i-marinierter-tofu-mit-sesam": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/tofu-marinieren/",
+    "title": "Tofu marinieren – einfaches Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-tofu-tikka-masala": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/tofu-tikka-masala/",
+    "title": "Tofu Tikka Masala"
+  },
+  "i-rotes-linsen-dal": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/linsen-dal-basisrezept/",
+    "title": "Unser liebstes Rotes Linsen Dal"
+  },
+  "i-kichererbsen-schoko-brownies": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-kichererbsen-schoko-brownies/",
+    "title": "Vegane Kichererbsen-Schoko-Brownies"
+  },
+  "i-vegane-kokosmakronen-cookies": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-kokosmakronen-cookies/",
+    "title": "Vegane Kokosmakronen-Cookies wie in New York"
+  },
+  "i-vegane-quinoa-bowl-mit-tofu": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/vegane-quinoa-bowl",
+    "title": "Vegane Quinoa-Bowl",
+    "rating": 4.9,
+    "ratingCount": 8
+  },
+  "i-vegane-ramen-mit-raeuchertofu": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/vegane-ramen/",
+    "title": "Vegane Ramen mit Tofu",
+    "rating": 5,
+    "ratingCount": 22
+  },
+  "i-veganer-banoffee-pie": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganer-banoffee-pie/",
+    "title": "Veganer Banoffee Pie"
+  },
+  "i-veganer-mapo-tofu": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganer-mapo-tofu/",
+    "title": "Veganer Mapo Tofu"
+  },
+  "i-veganes-tofu-curry-mit-zuckerschoten": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/veganes-curry-mit-tofu",
+    "title": "Veganes Curry mit Tofu",
+    "rating": 4.7,
+    "ratingCount": 23
+  },
+  "i-veganes-tofu-ruehrei-mit-kala-namak": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/veganes-ruehrei/",
+    "title": "Veganes Rührei mit Tofu und Kala Namak"
+  },
+  "i-schnelles-tofu-ruehrei": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/tofu-ruehrei",
+    "title": "Veganes Tofu Rührei genauso lecker wie das Original",
+    "rating": 4,
+    "ratingCount": 5
+  },
+  "i-vegetarische-lasagne-mit-linsenbolognese": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/vegetarische-lasagne-linsenbolognese/",
+    "title": "Vegetarische Lasagne mit selbstgemachter Pasta und Linsenbolognese",
+    "rating": 4.9,
+    "ratingCount": 26
+  },
+  "i-walnuss-blondies": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/walnuss-blondies-96988",
+    "title": "Walnuss-Blondies",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-walnuss-brownies-vom-blech": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/walnuss-brownies-63272",
+    "title": "Walnuss-Brownies vom Blech",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-weisse-schoko-beeren-muffins": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/weisse-schoko-beeren-muffins-14155",
+    "title": "Weiße Schoko-Beeren-Muffins",
+    "rating": 4.9,
+    "ratingCount": 35
+  },
+  "i-zwetschgenkuchen-vom-blech": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/zwetschgenkuchen-vom-blech-37325",
+    "title": "Zwetschgenkuchen vom Blech",
+    "rating": 4.6,
+    "ratingCount": 12
   }
 }
