@@ -8,6 +8,7 @@ import { rankByPantry } from './lib/match'
 import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
+import { adaptRecipe } from './lib/adapt'
 import { DEFAULT_SETS, type PantrySet } from './lib/sets'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
@@ -125,7 +126,7 @@ export default function App() {
   /** Ausgeblendete Rezepte (Daumen runter): tauchen nur noch am Ende von „Alle Rezepte“ auf. */
   const hiddenSet = usePersistentSet('cookify.hidden')
   // Bewusst ohne useMemo: bei rund hundert Rezepten ist das Filtern pro Render billig.
-  const AVAILABLE = ALL_RECIPES.filter((r) => !hiddenSet.has(r.id) && globalDiets.every((d) => r.diet.includes(d)))
+  const AVAILABLE = ALL_RECIPES.filter((r) => !hiddenSet.has(r.id) && adaptRecipe(r, globalDiets).ok)
   const hiddenRecipes = [...hiddenSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
   const DAILY = dailyPicks(AVAILABLE, 5)
 
@@ -150,7 +151,10 @@ export default function App() {
     openRecipe(randomOf(pool).id)
   }
 
-  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden })
+  /** Alle gerade wirksamen Ernährungsformen: Einstellungen plus die Filter der einzelnen Seiten. */
+  const activeDiets: Diet[] = [...new Set<Diet>([...globalDiets, ...filters.diets, ...pantryFilters.diets, ...allFilters.diets])]
+  const adaptedCount = (r: Recipe) => adaptRecipe(r, activeDiets).changes.length
+  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden, adapted: adaptedCount(r) })
 
   const tabs = (className: string) => (
     <nav className={className} aria-label="Hauptnavigation">
@@ -200,6 +204,7 @@ export default function App() {
             related={related(detail, AVAILABLE)}
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
+            activeDiets={activeDiets}
           />
         )}
 
@@ -241,7 +246,7 @@ export default function App() {
                     <button className="btn" onClick={() => setFilters(EMPTY_FILTERS)}>Zurücksetzen</button>
                   </div>
                 ) : (
-                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} />)}</div>
+                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}</div>
                 )}
               </div>
             )}
@@ -327,7 +332,7 @@ export default function App() {
               <div className="empty" style={{ marginTop: 18 }}><div className="ico"><IconSearch /></div><h3>Nichts gefunden</h3><p>Nimm einen Filter raus.</p></div>
             ) : (
               <div className="list" style={{ marginTop: 18 }}>
-                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} />)}
+                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}
               </div>
             )}
             {hiddenRecipes.length > 0 && (

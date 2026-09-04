@@ -521,6 +521,15 @@ details.browse[open] > summary svg { transform: rotate(180deg); }
 .ing .amt { min-width: 74px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text); font-size: 0.92rem; }
 .ing .nm { flex: 1; font-size: 0.95rem; }
 .ing .opt { color: var(--muted); font-size: 0.8rem; }
+.ing li.changed .orig { text-decoration: line-through; color: var(--muted); }
+.ing .sub { display: block; color: var(--amber); font-weight: 600; font-size: 0.88rem; }
+.ing li.weglassen .amt { color: var(--muted); text-decoration: line-through; }
+.adapt-box { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 14px; padding: 12px 14px; border-radius: var(--r); background: var(--amber-soft); color: var(--text); }
+.adapt-box b { display: block; color: var(--amber); }
+.adapt-box small { color: var(--muted); font-size: 0.85rem; }
+.adapt-box.warn { background: var(--surface); }
+.adapt-box.warn b { color: var(--danger); }
+.row-adapt { color: var(--amber); font-weight: 600; }
 .ing .have {
   width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
   border: 1.5px solid var(--border); color: transparent; transition: all 0.12s ease;

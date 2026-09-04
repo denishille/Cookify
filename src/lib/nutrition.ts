@@ -30,7 +30,7 @@ export function isLowCalorie(n: Nutrition): boolean {
 }
 
 /** Zutaten mit hohem FODMAP-Gehalt (Fruktane, Laktose, Fruktose, Polyole, GOS) nach der üblichen Monash-Einordnung, vereinfacht. */
-const HIGH_FODMAP = new Set([
+export const HIGH_FODMAP = new Set([
   'zwiebel', 'knoblauch', 'lauch', 'fruehlingszwiebel', 'blumenkohl', 'champignons', 'pilze', 'spargel', 'artischocken', 'rosenkohl', 'erbsen', 'fenchel',
   'apfel', 'birne', 'mango', 'kirschen', 'pflaumen', 'pfirsich', 'wassermelone', 'datteln', 'feigen', 'rosinen',
   'honig', 'agavendicksaft',
@@ -41,14 +41,18 @@ const HIGH_FODMAP = new Set([
 ])
 
 /** Fruktosereiche Zutaten und Fruktane, die bei Fruktoseintoleranz typischerweise Probleme machen. */
-const HIGH_FRUCTOSE = new Set([
+export const HIGH_FRUCTOSE = new Set([
   'apfel', 'birne', 'mango', 'wassermelone', 'kirschen', 'trauben', 'feigen', 'datteln', 'rosinen', 'granatapfel', 'pflaumen', 'pfirsich', 'ananas', 'kiwi',
   'honig', 'agavendicksaft', 'marmelade', 'orangensaft', 'apfelmus', 'ketchup', 'bbq-sauce', 'tomatenmark',
   'zwiebel', 'knoblauch', 'lauch', 'artischocken', 'spargel',
 ])
 
+/** Glutenhaltige und laktosehaltige Zutaten (gleiche Listen wie die Ersatztabellen in adapt.ts). */
+export const GLUTEN_KEYS = new Set(['spaghetti', 'penne', 'nudeln', 'lasagneplatten', 'gnocchi', 'udon', 'ramen-nudeln', 'mehl', 'vollkornmehl', 'semmelbroesel', 'brot', 'toast', 'baguette', 'broetchen', 'tortillas', 'pizzateig', 'blaetterteig', 'mehlbutter-fertigteig', 'pita', 'naan', 'couscous', 'bulgur', 'haferflocken', 'sojasauce', 'bier', 'seitan', 'loeffelbiskuits', 'butterkekse', 'knaeckebrot', 'granola', 'worcestersauce'])
+export const LACTOSE_KEYS = new Set(['milch', 'sahne', 'schmand', 'creme-fraiche', 'joghurt', 'griechischer-joghurt', 'quark', 'skyr', 'huettenkaese', 'frischkaese', 'butter', 'mozzarella', 'gouda', 'emmentaler', 'cheddar', 'kaese-gerieben', 'ricotta', 'mascarpone', 'buttermilch', 'eis-vanille', 'halloumi', 'feta', 'ziegenkaese', 'blauschimmelkaese'])
+
 /** Schwer verdauliche oder reizende Zutaten: Hülsenfrüchte, Kohl, Scharfes, Alkohol, Kaffee. */
-const HARD_TO_DIGEST = new Set([
+export const HARD_TO_DIGEST = new Set([
   'kichererbsen', 'linsen-rot', 'linsen-braun', 'belugalinsen', 'kidneybohnen', 'schwarze-bohnen', 'weisse-bohnen', 'edamame', 'sojahack',
   'weisskohl', 'rotkohl', 'rosenkohl', 'gruenkohl', 'sauerkraut', 'blumenkohl',
   'chili', 'chiliflocken', 'sriracha', 'sambal-oelek', 'harissa', 'currypaste',
@@ -72,8 +76,11 @@ export function isFructoseFree(ingredients: Ingredient[]): boolean {
 
 /** Ersetzt die rechnerischen Flags durch die aus Nährwerten und Zutaten abgeleiteten. */
 export function derivedDiet(diet: Diet[], n: Nutrition, ingredients: Ingredient[] = []): Diet[] {
-  const computed: Diet[] = ['proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei', 'leichtverdaulich']
+  const computed: Diet[] = ['proteinreich', 'lowcarb', 'kalorienarm', 'lowfodmap', 'fruktosefrei', 'leichtverdaulich', 'glutenfrei', 'laktosefrei']
   const keep: Diet[] = diet.filter((d) => !computed.includes(d))
+  const req = requiredKeys(ingredients)
+  if (!req.some((k) => GLUTEN_KEYS.has(k))) keep.push('glutenfrei')
+  if (!req.some((k) => LACTOSE_KEYS.has(k))) keep.push('laktosefrei')
   if (isHighProtein(n)) keep.push('proteinreich')
   if (isLowCarb(n)) keep.push('lowcarb')
   if (isLowCalorie(n)) keep.push('kalorienarm')

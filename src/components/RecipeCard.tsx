@@ -16,9 +16,11 @@ interface Props {
   isNew?: boolean
   hidden?: boolean
   onToggleHide?: (id: string) => void
+  /** Anzahl Zutaten, die für die aktive Ernährungsform ersetzt oder weggelassen werden */
+  adapted?: number
 }
 
-export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, onToggleHide }: Props) {
+export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, onToggleHide, adapted = 0 }: Props) {
   const pct = match ? Math.round(match.score * 100) : null
   const img = recipeImage(recipe.id)
   return (
@@ -67,11 +69,13 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, 
             <span className="site">{recipe.source.site}</span>
           </div>
         )}
-        {recipe.diet.length > 0 && !match && (
+        {(recipe.diet.length > 0 || adapted > 0) && !match && (
           <div className="pills">
-            {recipe.diet.slice(0, 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
+            {adapted > 0 && <span className="pill amber">Anpassbar · {adapted}</span>}
+            {recipe.diet.slice(0, adapted > 0 ? 1 : 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
           </div>
         )}
+        {adapted > 0 && match && <div className="pills"><span className="pill amber">Anpassbar · {adapted}</span></div>}
         {match && pct !== null && (
           <div className="match">
             <div className="match-line">

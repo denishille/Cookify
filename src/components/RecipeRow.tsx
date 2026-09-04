@@ -13,10 +13,12 @@ interface Props {
   onToggleSave: (id: string) => void
   hidden?: boolean
   onToggleHide?: (id: string) => void
+  /** Anzahl Zutaten, die für die aktive Ernährungsform ersetzt oder weggelassen werden */
+  adapted?: number
 }
 
 /** Kompakte Listenzeile: Vorschaubild, Titel, Eckdaten, Herz. */
-export function RecipeRow({ recipe, saved, onToggleSave, hidden, onToggleHide }: Props) {
+export function RecipeRow({ recipe, saved, onToggleSave, hidden, onToggleHide, adapted = 0 }: Props) {
   const img = recipeImage(recipe.id)
   return (
     <div className="row" role="link" tabIndex={0} onClick={() => openRecipe(recipe.id)} onKeyDown={(e) => { if (e.key === 'Enter') openRecipe(recipe.id) }}>
@@ -29,11 +31,13 @@ export function RecipeRow({ recipe, saved, onToggleSave, hidden, onToggleHide }:
           <IconClock /> {recipe.timeMinutes} Min
           <span className="dot" /> {DIFFICULTY_LABELS[recipe.difficulty]}
           <span className="dot" /> {recipe.nutrition.kcal} kcal
+          {adapted > 0 && <span className="row-adapt">· Anpassbar</span>}
           {recipe.source?.rating !== undefined && <><span className="dot" /><IconStar width={13} height={13} style={{ color: 'var(--amber)' }} /> {formatRating(recipe.source.rating)}</>}
         </div>
       </div>
       <div className="row-pills">
-        {recipe.diet.slice(0, 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
+        {adapted > 0 && <span className="pill amber">Anpassbar · {adapted}</span>}
+        {recipe.diet.slice(0, adapted > 0 ? 1 : 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
       </div>
       <div className="row-actions">
         <button className={`row-fav ${saved ? 'on' : ''}`} aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'} aria-pressed={saved}

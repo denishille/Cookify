@@ -1,5 +1,5 @@
 import { useEffect, useState, type CSSProperties } from 'react'
-import type { Recipe } from '../types'
+import type { Diet, Recipe } from '../types'
 import { CATEGORY_LABELS, CUISINE_LABELS, DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { STAPLE_KEYS } from '../data'
 import { back } from '../lib/router'
@@ -9,6 +9,7 @@ import { RecipeCard } from './RecipeCard'
 import { IconCheck, IconChevronLeft, IconClock, IconExternal, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { proteinShare } from '../lib/nutrition'
+import { adaptRecipe } from '../lib/adapt'
 
 interface Props {
   recipe: Recipe
@@ -19,6 +20,7 @@ interface Props {
   related: Recipe[]
   isNew: boolean
   savedIds: Set<string>
+  activeDiets: Diet[]
 }
 
 function formatAmount(amount: number | null, factor: number): string {
@@ -35,10 +37,14 @@ function formatAmount(amount: number | null, factor: number): string {
   return v.toFixed(1).replace('.', ',')
 }
 
-export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds }: Props) {
+export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets }: Props) {
   const [servings, setServings] = useState(recipe.servings)
   const [done, setDone] = useState<Set<number>>(new Set())
   const [toast, setToast] = useState<string | null>(null)
+  const [showOriginal, setShowOriginal] = useState(false)
+  const adaptation = adaptRecipe(recipe, activeDiets)
+  const changeByKey = new Map(adaptation.ok && !showOriginal ? adaptation.changes.map((c) => [c.key, c]) : [])
+  const adaptedDiets = [...new Set(adaptation.changes.map((c) => DIET_LABELS[c.diet]))]
 
   useEffect(() => { window.scrollTo({ top: 0 }) }, [recipe.id])
   useEffect(() => {
@@ -118,6 +124,21 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
         </div>
       </div>
 
+      {adaptation.ok && adaptation.changes.length > 0 && (
+        <div className="adapt-box">
+          <div>
+            <b>Für dich angepasst · {adaptedDiets.join(', ')}</b>
+            <small>{adaptation.changes.length} {adaptation.changes.length === 1 ? 'Zutat wird' : 'Zutaten werden'} ersetzt oder weggelassen, siehe Zutatenliste.</small>
+          </div>
+          <button className="btn sm" onClick={() => setShowOriginal((o) => !o)}>{showOriginal ? 'Angepasst zeigen' : 'Original zeigen'}</button>
+        </div>
+      )}
+      {!adaptation.ok && activeDiets.length > 0 && (
+        <div className="adapt-box warn">
+          <div><b>Passt nicht zu deiner Ernährungsform</b><small>{adaptation.reason}.</small></div>
+        </div>
+      )}
+
       <div className="detail-cols">
         <section>
           <div className="col-head">
@@ -132,10 +153,14 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
           <ul className="ing">
             {recipe.ingredients.map((ing, i) => {
               const has = pantry.has(ing.key)
+              const change = changeByKey.get(ing.key)
               return (
-                <li key={i}>
+                <li key={i} className={change ? `changed ${change.action}` : ''}>
                   <span className="amt">{formatAmount(ing.amount, factor)} {ing.unit}</span>
-                  <span className="nm">{ing.name}{ing.optional && <span className="opt"> · optional</span>}</span>
+                  <span className="nm">
+                    <span className={change ? 'orig' : ''}>{ing.name}</span>{ing.optional && <span className="opt"> · optional</span>}
+                    {change && <span className="sub">{change.action === 'ersetzen' ? `→ ${change.by}` : '→ weglassen'}</span>}
+                  </span>
                   <button
                     className={`have ${has ? 'on' : ''}`}
                     onClick={() => onTogglePantry(ing.key)}

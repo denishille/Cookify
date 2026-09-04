@@ -1,5 +1,6 @@
 import type { Category, Cuisine, Diet, Difficulty, Recipe } from '../types'
 import { isTopRated } from './rating'
+import { adaptRecipe } from './adapt'
 
 export interface FilterState {
   category: Category | ''
@@ -16,7 +17,7 @@ export const EMPTY_FILTERS: FilterState = { category: '', diets: [], cuisine: ''
 export function applyFilters(items: Recipe[], f: FilterState): Recipe[] {
   return items.filter((r) =>
     (!f.category || r.category === f.category) &&
-    f.diets.every((d) => r.diet.includes(d)) &&
+    adaptRecipe(r, f.diets).ok &&
     (!f.cuisine || r.cuisine === f.cuisine) &&
     (!f.maxTime || r.timeMinutes <= f.maxTime) &&
     (!f.difficulty || r.difficulty === f.difficulty) &&
