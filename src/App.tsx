@@ -3,7 +3,7 @@ import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Recipe } from './types'
 import { useRoute, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
-import { isoWeek, weekLte } from './lib/week'
+import { isoWeek } from './lib/week'
 import { rankByPantry } from './lib/match'
 import { applyFilters, isEmpty, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
@@ -19,7 +19,8 @@ import { IconBasket, IconBook, IconChevronLeft, IconDice, IconHeart, IconSearch 
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
-const AVAILABLE: Recipe[] = ALL_RECIPES.filter((r) => weekLte(r.addedWeek, CURRENT_WEEK))
+/** Alles, was im Live-Bestand liegt, ist sichtbar; die Wochen-Freischaltung steuert nur noch die „Neu“-Marke. */
+const AVAILABLE: Recipe[] = ALL_RECIPES
 const BY_ID = new Map(AVAILABLE.map((r) => [r.id, r]))
 const HAS_RATINGS = AVAILABLE.some((r) => r.source?.rating !== undefined)
 const DAILY = dailyPicks(AVAILABLE, 5)
