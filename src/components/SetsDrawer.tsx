@@ -90,7 +90,7 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
               <button className="btn icon sm" onClick={close} aria-label="Schließen"><IconX width={18} height={18} /></button>
             </div>
             <p className="hint">Ein Set ist eine gespeicherte Zutatenliste. Laden fügt die Zutaten dem Vorrat hinzu.</p>
-            <button className="btn soft" onClick={startNew}><IconPlus width={16} height={16} /> Neues Set{pantry.size > 0 ? ` aus dem Vorrat (${pantry.size})` : ''}</button>
+            <button className="btn primary" onClick={startNew}><IconPlus width={16} height={16} /> Neues Set{pantry.size > 0 ? ` aus dem Vorrat (${pantry.size})` : ''}</button>
             <div className="drawer-section">
               <span className="eyebrow">Gespeicherte Sets · {sets.length}</span>
               {sets.length === 0 ? <span className="hint">Noch keine Sets.</span> : (
