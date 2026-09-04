@@ -127,7 +127,8 @@ async function search(query, count) {
 
 // ---------- Bilder für vorhandene Rezepte ----------
 if (flag('--images-for') || flag('--images-all')) {
-  const all = readdirSync(recipesDir).filter((f) => f.endsWith('.json')).flatMap((f) => JSON.parse(readFileSync(join(recipesDir, f), 'utf8')))
+  const backlogDir = join(root, 'src/data/backlog')
+  const all = [recipesDir, backlogDir].filter(existsSync).flatMap((dir) => readdirSync(dir).filter((f) => f.endsWith('.json')).flatMap((f) => JSON.parse(readFileSync(join(dir, f), 'utf8'))))
   const sources = Object.assign({}, ...readdirSync(sourcesDir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(sourcesDir, f), 'utf8'))))
   const wanted = flag('--images-for') ? opt('--images-for').split(',').map((x) => x.trim()) : all.filter((r) => sources[r.id] && !existsSync(join(assetsDir, `${r.id}.jpg`))).map((r) => r.id)
   let ok = 0
