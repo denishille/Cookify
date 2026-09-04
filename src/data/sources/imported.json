@@ -718,5 +718,675 @@
     "title": "Zwetschgenkuchen mit Streuseln",
     "rating": 5,
     "ratingCount": 471
+  },
+  "i-bagels": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/bagels-rezept-129366.html",
+    "title": "Bagels - Rezept zum Selbermachen Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-reis-bowl-mit-teriyaki-haehnchen-mango-und-avocado": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/basmati-reis-bowl-mit-teriyaki-haehnchen-mango-und-avocado",
+    "title": "Basmati-Reis-Bowl mit Teriyaki-Hähnchen, Mango und Avocado",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-bifteki-mit-feta-fuellung": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/bifteki-griechische-frikadellen-mit-feta-fuellung-77929.html",
+    "title": "Bifteki - griechische Frikadellen mit Feta-Füllung Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-boeuf-stroganoff": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/boeuf-stroganoff-61367.html",
+    "title": "Boeuf Stroganoff Rezept",
+    "rating": 3.9,
+    "ratingCount": 28
+  },
+  "i-breakfast-burrito": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/breakfast-burrito-128922.html",
+    "title": "Breakfast Burrito Rezept"
+  },
+  "i-cevapcici-mit-djuvec-reis": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/cevapcici-mit-djuvec-reis/",
+    "title": "Cevapcici mit Djuvec-Reis | ein echter Balkan-Klassiker",
+    "rating": 4.9,
+    "ratingCount": 32
+  },
+  "i-cordon-bleu": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/cordon-bleu-das-klassische-rezept-75199.html",
+    "title": "Cordon bleu - das klassische Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-cremige-paprikasuppe": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/cremige-paprikasuppe-42708.html",
+    "title": "Cremige Paprikasuppe Rezept",
+    "rating": 4.1,
+    "ratingCount": 22
+  },
+  "i-eier-speck-muffins": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/eier-speck-muffins-fuer-den-brunch-so-gehts-71611.html",
+    "title": "Eier-Speck-Muffins für den Brunch Rezept"
+  },
+  "i-enchiladas-mit-hackfleisch": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/enchiladas-mit-hackfleisch/",
+    "title": "Enchiladas – Rezept mit Hackfleisch",
+    "rating": 5,
+    "ratingCount": 18
+  },
+  "i-fischcurry-mit-kokosmilch": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/fischcurry-mit-kokosmilch-und-reisbeilage",
+    "title": "Fischcurry mit Kokosmilch und Reisbeilage",
+    "rating": 4.5,
+    "ratingCount": 8
+  },
+  "i-selbstgemachte-fischstaebchen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/fischstaebchen-selber-machen/",
+    "title": "Fischstäbchen selber machen – besser als gekauft",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-fruehlingsrollen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/fruehlingsrollen-selber-machen-so-gehts-77012.html",
+    "title": "Frühlingsrollen selber machen Rezept"
+  },
+  "i-garnelen-kokos-curry": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/garnelen-kokos-curry-62220.html",
+    "title": "Garnelen-Kokos-Curry Rezept",
+    "rating": 3,
+    "ratingCount": 5
+  },
+  "i-scholle-finkenwerder-art": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/gebratene-scholle-finkenwerder-art-70607.html",
+    "title": "Gebratene Scholle „Finkenwerder Art“ Rezept",
+    "rating": 4.4,
+    "ratingCount": 57
+  },
+  "i-gebratene-zanderfilets-mit-meerrettichsauce": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/gebratene-zanderfilets",
+    "title": "Gebratene Zanderfilets",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-chicken-chow-mein": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/chicken-chow-mein-gebratene-nudeln-haehnchen-gemusee/",
+    "title": "Gebratenen Nudeln mit Hähnchen und Gemüse | Chicken Chow Mein",
+    "rating": 4.9,
+    "ratingCount": 50
+  },
+  "i-gemuese-frittata": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/gemuese-frittata-12058846.html",
+    "title": "Gemüse-Frittata: schnell und einfach",
+    "rating": 4.7,
+    "ratingCount": 359
+  },
+  "i-graupensuppe": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/graupensuppe-wie-von-oma/",
+    "title": "Graupensuppe wie von Oma",
+    "rating": 5,
+    "ratingCount": 212
+  },
+  "i-halloumi-salat-mit-rote-bete-hummus": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/halloumi-salat",
+    "title": "Halloumi-Salat",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-doener-teller-mit-pommes-und-knoblauchsosse": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/trending-donerteller-hack-695b7d265c0be345fe7664af",
+    "title": "Hausgemachter Döner-Teller mit Weiderinderhack dazu Pommes und Knoblauchsoße",
+    "rating": 4,
+    "ratingCount": 823
+  },
+  "i-herzhafte-kaesewaffeln": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/herzhafte-kaesewaffeln-0",
+    "title": "Herzhafte Käsewaffeln",
+    "rating": 4.7,
+    "ratingCount": 3
+  },
+  "i-herzhafter-dutch-baby-mit-parmesan": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/pfannkuchen-ofen-dutch-baby/",
+    "title": "Herzhafter Pfannkuchen aus dem Ofen",
+    "rating": 4.9,
+    "ratingCount": 9
+  },
+  "i-gruener-bohnensalat": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/bohnensalat-84140.html",
+    "title": "Klassischer Bohnensalat mit grünen Bohnen Rezept",
+    "rating": 4.3,
+    "ratingCount": 34
+  },
+  "i-gemueseeintopf": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/klassischer-gemueseeintopf-70683.html",
+    "title": "Klassischer Gemüseeintopf Rezept",
+    "rating": 4.1,
+    "ratingCount": 84
+  },
+  "i-hackbraten-aus-dem-ofen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/klassischer-hackbraten-aus-dem-ofen-das-beste-rezept-3009.html",
+    "title": "Klassischer Hackbraten aus dem Ofen - das beste Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-tafelspitz-mit-meerrettichsosse": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/klassischer-tafelspitz-mit-meerrettichsosse-16900.html",
+    "title": "Klassischer Tafelspitz mit Meerrettichsoße Rezept",
+    "rating": 4.2,
+    "ratingCount": 357
+  },
+  "i-waldorfsalat": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/klassischer-waldorfsalat-45163.html",
+    "title": "Klassischer Waldorfsalat Rezept",
+    "rating": 4.2,
+    "ratingCount": 96
+  },
+  "i-knusprige-ente": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/knusprige-ente",
+    "title": "Knusprige Ente",
+    "rating": 4.8,
+    "ratingCount": 13
+  },
+  "i-backfisch-mit-remoulade": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/knuspriger-backfisch-mit-remoulade-16688.html",
+    "title": "Knuspriger Backfisch mit Remoulade Rezept",
+    "rating": 3.3,
+    "ratingCount": 18
+  },
+  "i-knuspriges-brathaehnchen-mit-ofengemuese": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/knuspriges-brathaehnchen-19453.html",
+    "title": "Knuspriges Brathähnchen Rezept",
+    "rating": 3.9,
+    "ratingCount": 7
+  },
+  "i-koettbullar-in-rahmsosse": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/koettbullar-rezept/",
+    "title": "Köttbullar - schwedische Hackbällchen in Rahmsoße",
+    "rating": 5,
+    "ratingCount": 31
+  },
+  "i-selbstgemachter-leberkaese": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/leberkaese-selber-machen-12162",
+    "title": "Leberkäse selber machen",
+    "rating": 0.6,
+    "ratingCount": 11
+  },
+  "i-omas-rotkohlsalat": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/omas-rotkohlsalat-86157",
+    "title": "Omas Rotkohlsalat",
+    "rating": 0.8,
+    "ratingCount": 42
+  },
+  "i-orangen-fenchel-salat-mit-walnuessen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/orangen-fenchel-salat-mit-walnuessen-26792.html",
+    "title": "Orangen-Fenchel-Salat mit Walnüssen Rezept",
+    "rating": 4,
+    "ratingCount": 16
+  },
+  "i-paella-mit-haehnchen-und-garnelen": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/paella-mit-haehnchen-und-garnelen",
+    "title": "Paella mit Hähnchen und Garnelen",
+    "rating": 3.8,
+    "ratingCount": 4
+  },
+  "i-paprikaschnitzel": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/paprikaschnitzel-das-einfache-rezept-65355.html",
+    "title": "Paprikaschnitzel – das einfache Rezept Rezept",
+    "rating": 4.6,
+    "ratingCount": 7
+  },
+  "i-cremige-pastinakensuppe": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pastinakensuppe",
+    "title": "Pastinakensuppe",
+    "rating": 4.8,
+    "ratingCount": 4
+  },
+  "i-patatas-bravas": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/patatas-bravas-authentisches-rezept-130184.html",
+    "title": "Patatas bravas - authentisches Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-ph-g": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/pho-ga-rezept-vietnamesische-nudelsuppe-mit-huhn-13444992.html",
+    "title": "Phở Gà - vietnamesische Hühnersuppe",
+    "rating": 4.5,
+    "ratingCount": 11
+  },
+  "i-ramen-mit-huhn-und-ei": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/ramen-mit-huhn-und-ei",
+    "title": "Ramen mit Huhn und Ei",
+    "rating": 5,
+    "ratingCount": 13
+  },
+  "i-reispfanne-mit-haehnchen-und-gemuese": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/reispfanne-haehnchen-gemuese/",
+    "title": "Reispfanne mit Hähnchen &amp; Gemüse | schnell &amp; lecker",
+    "rating": 4.8,
+    "ratingCount": 20
+  },
+  "i-rosmarin-lammkeule-mit-knoblauch": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/rosmarin-lammkeule-mit-knoblauch-73025",
+    "title": "Rosmarin-Lammkeule mit Knoblauch",
+    "rating": 0.5,
+    "ratingCount": 2
+  },
+  "i-schweinefilet-im-speckmantel": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schweinefilet-im-speckmantel/",
+    "title": "Schweinefilet im Speckmantel",
+    "rating": 5,
+    "ratingCount": 558
+  },
+  "i-schweinerouladen-in-biersosse": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/schweinerouladen-in-biersosse-128249.html",
+    "title": "Schweinerouladen in Biersoße Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-serbische-bohnensuppe": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/serbische-bohnensuppe-9199.html",
+    "title": "Serbische Bohnensuppe Rezept",
+    "rating": 4,
+    "ratingCount": 17
+  },
+  "i-spaghetti-mit-thunfisch-tomaten-sosse": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/spaghetti-mit-thunfisch-tomaten-sosse-44763.html",
+    "title": "Spaghetti mit Thunfisch-Tomaten-Soße Rezept",
+    "rating": 3.4,
+    "ratingCount": 31
+  },
+  "i-spinatsalat-mit-erdbeeren": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/49270-rzpt-spinatsalat-mit-erdbeeren",
+    "title": "Spinatsalat mit Erdbeeren Rezept",
+    "rating": 1.6,
+    "ratingCount": 5
+  },
+  "i-tacos-mit-hackfleisch": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/tacos-mit-hackfleisch/",
+    "title": "Tacos mit Hackfleisch",
+    "rating": 5,
+    "ratingCount": 14
+  },
+  "i-cremige-zucchinisuppe": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/zucchinisuppe-schnell-einfach-und-cremig-81589.html",
+    "title": "Zucchinisuppe - schnell, einfach & cremig Rezept",
+    "rating": 4.7,
+    "ratingCount": 150
+  },
+  "i-aloo-gobi": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/aloo-gobi-indisches-blumenkohl-kartoffel-curry-127440.html",
+    "title": "Aloo Gobi (Indisches Blumenkohl-Kartoffel-Curry) Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-apfelkuchen-mit-streusel": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/apfelkuchen-mit-streusel/",
+    "title": "Apfelkuchen mit Streusel",
+    "rating": 5,
+    "ratingCount": 119
+  },
+  "i-apfelkuechle": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/apfelkuechlein-apfelkuechle-127751.html",
+    "title": "Apfelküchlein (Apfelküchle) Rezept",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-arancini": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/arancini-rezept-13709048.html",
+    "title": "Arancini – einfach & knusprig",
+    "rating": 5,
+    "ratingCount": 12
+  },
+  "i-auberginen-curry-mit-hackbaellchen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/auberginen-curry-zum-wegtraeumen-78626.html",
+    "title": "Auberginen-Curry zum Wegträumen Rezept",
+    "rating": 3.9,
+    "ratingCount": 27
+  },
+  "i-baguette": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/baguette-selber-machen/",
+    "title": "Baguette backen – das beste Rezept",
+    "rating": 4.9,
+    "ratingCount": 76
+  },
+  "i-baked-feta-pasta": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/baked-feta-pasta-81430.html",
+    "title": "Baked Feta Pasta Rezept",
+    "rating": 4.5,
+    "ratingCount": 235
+  },
+  "i-brokkoli-nudel-auflauf": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/brokkoli-nudel-auflauf/",
+    "title": "Brokkoli-Nudel-Auflauf – einfach und vegetarisch",
+    "rating": 5,
+    "ratingCount": 30
+  },
+  "i-buchteln-mit-vanillesauce": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/86791-rzpt-buchteln-mit-vanillesauce",
+    "title": "Buchteln mit Vanillesauce Rezept",
+    "rating": 4,
+    "ratingCount": 25
+  },
+  "i-bulgur-mit-pfannengemuese-und-halloumi": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/bulgur-mit-pfannengemuese-und-halloumi-12450590.html",
+    "title": "Bulgur mit Pfannengemüse und Halloumi",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-bunter-gemueseauflauf": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/bunter-gemueseauflauf-ganz-einfach/",
+    "title": "Bunter Gemüseauflauf ganz einfach",
+    "rating": 5,
+    "ratingCount": 154
+  },
+  "i-eierlikoerkuchen": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/eierlikoerkuchen-einfach-schnell-63628",
+    "title": "Eierlikörkuchen einfach & schnell"
+  },
+  "i-zitronencreme-im-glas": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/zitronencreme/",
+    "title": "Einfache Zitronencreme im Glas | erfrischendes Dessert",
+    "rating": 4.8,
+    "ratingCount": 59
+  },
+  "i-saftiger-schokokuchen": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/schokokuchen/",
+    "title": "Einfacher Schokokuchen – saftig und lecker",
+    "rating": 5,
+    "ratingCount": 39
+  },
+  "i-knusprige-roesti": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/extra-knusprige-roesti-80984.html",
+    "title": "Extra knusprige Rösti Rezept",
+    "rating": 3.5,
+    "ratingCount": 12
+  },
+  "i-falafel": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/falafel-selber-machen-das-beste-rezept-77411.html",
+    "title": "Falafel selber machen - das beste Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-franzbroetchen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/franzbroetchen-rezept-fuers-hamburger-original-74470.html",
+    "title": "Franzbrötchen: So gelingt das Hamburger Original-Rezept Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-gefuellte-auberginen-mit-feta-und-paprika": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/gefuellte-auberginen-tuerkische-art/",
+    "title": "Gefüllte Auberginen mit Feta und Paprika türkische Art",
+    "rating": 4.8,
+    "ratingCount": 4
+  },
+  "i-gefuellte-zucchini-mit-couscous-und-feta": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/gefuellte-zucchini-couscous-feta/",
+    "title": "Gefüllte Zucchini mit Couscous und Feta | vegetarisch lecker",
+    "rating": 4.9,
+    "ratingCount": 26
+  },
+  "i-gemuese-bratreis-mit-erdnusssauce-und-tofu": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/gemuese-brat-reis-mit-erdnuss-sauce-und-tofu-1",
+    "title": "Gemüse-Brat-Reis mit Erdnuss-Sauce und Tofu",
+    "rating": 4.5,
+    "ratingCount": 23
+  },
+  "i-gyoza": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/gyoza-rezept-12081402.html",
+    "title": "Gyoza: Rezept für japanische Teigtaschen",
+    "rating": 4.8,
+    "ratingCount": 12
+  },
+  "i-halloumi-wrap-mit-chimichurri-und-kartoffelspalten": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/halloumi-veggie-wrap-mit-cremigem-chimichurri-62285eb35c33897c18461b1a",
+    "title": "Halloumi-Veggie-Wrap mit cremigem Chimichurri dazu Kartoffelspalten",
+    "rating": 4.4,
+    "ratingCount": 8638
+  },
+  "i-herrencreme": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/38297-rzpt-herrencreme",
+    "title": "Herrencreme mit Rum & Schokoraspeln",
+    "rating": 3.7,
+    "ratingCount": 3
+  },
+  "i-gado-gado": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/gado-gado-95931",
+    "title": "Indonesisches Gado Gado",
+    "rating": 1,
+    "ratingCount": 1
+  },
+  "i-joghurt-beeren-eis-am-stiel": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/61016-rzpt-joghurt-beeren-eis-am-stiel",
+    "title": "Joghurt-Beeren-Eis am Stiel Rezept",
+    "rating": 4,
+    "ratingCount": 95
+  },
+  "i-kartoffel-spinat-auflauf": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kartoffel-spinat-auflauf/",
+    "title": "Kartoffel-Spinat-Auflauf: So cremig!",
+    "rating": 4.9,
+    "ratingCount": 23
+  },
+  "i-kartoffelknoedel": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kartoffelknoedel-wie-bei-oma/",
+    "title": "Kartoffelknödel wie bei Oma",
+    "rating": 5,
+    "ratingCount": 116
+  },
+  "i-kirsch-clafoutis": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/kirsch-clafouti",
+    "title": "Kirsch-Clafouti"
+  },
+  "i-kraeuterspaetzle-mit-parmesan": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/kraeuterspaetzle-mit-parmesan",
+    "title": "Kräuterspätzle mit Parmesan",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-laugenbrezeln": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/90555-rzpt-laugenbrezeln",
+    "title": "Laugenbrezel: das Grundrezept",
+    "rating": 4.2,
+    "ratingCount": 12
+  },
+  "i-marokkanischer-suesskartoffel-kichererbsen-eintopf": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/marokkanischer-suesskartoffel-kichererbsen-eintopf-99646",
+    "title": "Marokkanischer Süßkartoffel- Kichererbsen-Eintopf"
+  },
+  "i-nussecken": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/nussecken-27090.html",
+    "title": "Nussecken wie vom Bäcker - das beste Rezept Rezept",
+    "rating": 4.4,
+    "ratingCount": 12
+  },
+  "i-paneer-butter-masala": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/paneer-butter-masala/",
+    "title": "Paneer in Butter Masala Sauce | lecker indisch kochen",
+    "rating": 4.9,
+    "ratingCount": 46
+  },
+  "i-pasta-e-fagioli": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pasta-e-fagioli-1",
+    "title": "Pasta e fagioli",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-pizza-ai-funghi": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/pizza-ai-funghi-786",
+    "title": "Pizza ai funghi"
+  },
+  "i-quarkbaellchen": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/quarkbaellchen-nach-omas-rezept-79492.html",
+    "title": "Quarkbällchen: Omas Rezept aus 6 Zutaten Rezept",
+    "rating": 4.5,
+    "ratingCount": 84
+  },
+  "i-karottenkuchen-mit-frischkaese-frosting": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/karottenkuchen-frosting/",
+    "title": "Saftiger Karottenkuchen mit Frosting",
+    "rating": 5,
+    "ratingCount": 9
+  },
+  "i-schupfnudeln-mit-sauerkraut": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/schupfnudeln-mit-sauerkraut-schnelles-rezept-268.html",
+    "title": "Schupfnudeln mit Sauerkraut - schnelles Rezept Rezept",
+    "rating": 4.8,
+    "ratingCount": 6
+  },
+  "i-schwarzwaelder-kirschtorte": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/schwarzwaelder-kirschtorte-44883.html",
+    "title": "Schwarzwälder Kirschtorte - klassisch nach Omas Art Rezept",
+    "rating": 4.4,
+    "ratingCount": 409
+  },
+  "i-spaghetti-al-limone": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/spaghetti-al-limone-nach-bestem-rezept/",
+    "title": "Spaghetti al Limone nach bestem Rezept",
+    "rating": 5,
+    "ratingCount": 23
+  },
+  "i-spaghetti-eis": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/spaghetti-eis-22341.html",
+    "title": "Spaghetti-Eis - Rezept zum Selbermachen Rezept",
+    "rating": 4.5,
+    "ratingCount": 15
+  },
+  "i-tortilla-de-patatas": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/spanische-tortilla-de-patatas/",
+    "title": "Spanische Tortilla de patatas aus der Pfanne",
+    "rating": 5,
+    "ratingCount": 14
+  },
+  "i-tarte-tatin": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/tarte-tatin-franzoesische-apfeltarte-4191",
+    "title": "Tarte tatin (französische Apfeltarte)",
+    "rating": 0.9,
+    "ratingCount": 141
+  },
+  "i-ueberbackene-nachos-mit-salsa-und-kaese": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/ueberbackene-nachos-mit-salsa-und-kaese-68615.html",
+    "title": "Überbackene Nachos mit Salsa und Käse Rezept",
+    "rating": 4.3,
+    "ratingCount": 203
+  },
+  "i-vegane-linsen-pilz-burger": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/vegane-linsen-pilz-burger-94847",
+    "title": "Vegane Linsen-Pilz-Burger",
+    "rating": 1,
+    "ratingCount": 1
+  },
+  "i-vegane-portobello-burger": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/portobello-burger-99895",
+    "title": "Vegane Portobello-Burger"
+  },
+  "i-vegane-bohnen-burritos-mit-gemuese": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/vegane-super-bean-burritos-mit-extra-viel-gemuese-86646",
+    "title": "Vegane Super-Bean-Burritos mit extra viel Gemüse",
+    "rating": 1,
+    "ratingCount": 1
+  },
+  "i-wok-nudeln-mit-gemuese": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/wok-nudeln/",
+    "title": "Wok-Nudeln mit Gemüse: Blitzrezept",
+    "rating": 5,
+    "ratingCount": 52
   }
 }
