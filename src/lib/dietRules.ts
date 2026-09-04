@@ -236,8 +236,8 @@ export const FRUCTOSE_G: Record<string, { total: number; excess: number }> = {
   schokolade: { total: 25, excess: 0 }, 'weisse-schokolade': { total: 28, excess: 0 }, zartbitterschokolade: { total: 16, excess: 0 },
   'eis-vanille': { total: 11, excess: 0 }, loeffelbiskuits: { total: 30, excess: 0 }, butterkekse: { total: 12, excess: 0 },
   granola: { total: 12, excess: 1 }, mayonnaise: { total: 1.5, excess: 0 }, senf: { total: 2, excess: 0.3 },
-  'erdnussbutter': { total: 3, excess: 0 }, sojasauce: { total: 1, excess: 0 }, currypaste: { total: 4, excess: 1 },
-  pesto: { total: 2, excess: 0.3 }, apfelessig: { total: 0.5, excess: 0 },
+  erdnussbutter: { total: 3, excess: 0 }, sojasauce: { total: 1, excess: 0 }, currypaste: { total: 4, excess: 1 },
+  pesto: { total: 2, excess: 0.3 },
 }
 
 /** Wie viel Fruchtzucker je Portion noch in Ordnung ist. */
@@ -290,6 +290,7 @@ const FRUCTOSE_SUBS: Record<string, Sub> = {
   'eis-vanille': sub('Sahne mit Vanille und Traubenzucker'),
   loeffelbiskuits: sub('Löffelbiskuits mit Traubenzucker'), butterkekse: sub('Kekse mit Traubenzucker'),
   granola: sub('Haferflocken mit Nüssen', 'Fertiggranola ist meist stark gesüßt', true),
+  currypaste: sub('Currypulver mit etwas Kokosmilch', 'Fertigpasten sind oft gezuckert', true),
 }
 
 const FRUCTOSE_OMIT = new Set(['datteln', 'rosinen', 'feigen', 'artischocken'])
