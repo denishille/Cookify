@@ -1,0 +1,36 @@
+{
+  "title": "Sushi-Bowl Rezept",
+  "description": "Weg mit der Sushi-Matte! Wir ­arrangieren Lachs, Avocado und Ingwer lieber in einer ­Schüssel. Fertig ist die unkom­plizierte Sushi-Bowl!",
+  "ingredients": [
+    "250 g Basmatireis",
+    "Salz",
+    "125 ml helle Sojasoße",
+    "1 TL brauner Zucker",
+    "1 TL Wasabipaste (Tube oder Glas)",
+    "212 ml (à 1 Glas) Sushi-Ingwer",
+    "1/2 Salatgurke",
+    "600 g frisches Lachsfilet (Sushiqualität)",
+    "1 Avocado",
+    "2 EL Limettensaft",
+    "2 EL Reisessig (ersatzweise Weißweinessig)",
+    "2 EL Sesam (z. B. hell und schwarz)"
+  ],
+  "steps": [
+    "Basmatireis in 1⁄2 l kochendem Salzwasser nach Packungsanweisung zubereiten. Sojasoße mit braunem Zucker und Wasabi verrühren.",
+    "Ingwer in einem Sieb gut abtropfen lassen. Gurke waschen, putzen, fein würfeln. Lachs abspülen, trocken tupfen, in etwas breitere Streifen schneiden. Avocado halbieren, Kern entfernen. Fruchtfleisch aus der Schale lösen, in Spalten schneiden, mit Limettensaft beträufeln.",
+    "Reis abgießen und Reisessig unterrühren. Reis, Gurke, Ingwer, Avocado und Lachs in Bowls anrichten. Mit ­Sesam bestreuen. Soße in Schälchen dazu reichen."
+  ],
+  "timeMinutes": 35,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Rezepte,Bowls,Sushi",
+  "image": "https://images.lecker.de/sushi-bowl/1x1,id=66ead5a1,b=lecker,w=1600,h=,ca=5.42,0,80.58,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/sushi-bowl-69698.html",
+    "title": "Sushi-Bowl Rezept",
+    "rating": 4.5,
+    "ratingCount": 69
+  },
+  "importedAt": "2026-09-04"
+}

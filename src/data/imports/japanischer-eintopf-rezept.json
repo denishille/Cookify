@@ -1,0 +1,34 @@
+{
+  "title": "Japanischer Eintopf Rezept",
+  "description": "Unser beliebtes Rezept für Japanischer Eintopf und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
+  "ingredients": [
+    "4 Stangen Porree (Lauch)",
+    "1 rote Chilischote",
+    "3 EL Olivenöl",
+    "400 g Rinderhackfleisch",
+    "1 EL Curry",
+    "1/4 TL Koriander",
+    "1 1/4 l Rinderbrühe (Instant)",
+    "100 g Weizenmehlnudeln",
+    "1 Prise Zucker",
+    "Salz",
+    "Chili und Koriander zum Garnieren"
+  ],
+  "steps": [
+    "Porree putzen, waschen und in Ringe schneiden. Chili waschen, halbieren, entkernen und in Ringe schneiden. Öl in einem Topf erhitzen. Hack darin krümelig anbraten. 1/3 des Porrees zum Hack geben und kurz mit anbraten.",
+    "Curry, Koriander, Chili und Brühe zugeben und aufkochen. Nudeln und restlichen Porree zufügen und ca. 10 Minuten bei mittlerer Hitze garen. Mit Zucker und Salz abschmecken."
+  ],
+  "timeMinutes": 45,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Rezepte,Länderküche,Asiatische Rezepte,Japanische Rezepte,Hauptgerichte,Eintopf",
+  "image": "https://images.lecker.de/japanischer-eintopf/1x1,id=02531b67,b=lecker,w=1600,h=,ca=0,0,100,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/japanischer-eintopf-21992.html",
+    "title": "Japanischer Eintopf Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "importedAt": "2026-09-04"
+}

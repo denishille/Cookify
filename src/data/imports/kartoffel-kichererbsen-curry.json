@@ -1,0 +1,34 @@
+{
+  "title": "Kartoffel-Kichererbsen-Curry",
+  "description": "",
+  "ingredients": [
+    "500 g festkochende Kartoffeln",
+    "1 Dose ganze geschälte Tomaten",
+    "2 Dosen Kichererbsen",
+    "500 g Spinat",
+    "1 Zwiebel",
+    "3 Zehen Knoblauch",
+    "2 EL klein gehackter Ingwer",
+    "1 Dose Kokosmilch",
+    "2 EL Öl",
+    "4 TL Currypulver",
+    "Pfeffer, Salz",
+    "Zitrone, Petersilie, Feta nach Belieben zum Garnieren"
+  ],
+  "steps": [
+    "Zwiebeln, Knoblauch und Ingwer fein würfeln und mit dem Öl kurz anbraten. Kartoffeln schälen und würfeln und in den Topf geben. Currypulver, Salz und Pfeffer dazu geben und auch kurz mit anbraten.",
+    "Die Dose Tomaten hinzugeben und 10 Minuten zugedeckt köcheln lassen.",
+    "Die Kichererbsen hinzufügen und wieder 10 Minuten zugedeckt köcheln lassen.",
+    "Nun den Spinat und die Kokosmilch hinzugeben und noch 5 Minuten ziehen lassen.",
+    "Zum Schluss nach Belieben noch etwas Zitrone und Petersilie drüber geben. Feta passt auch sehr gut dazu."
+  ],
+  "timeMinutes": 35,
+  "servings": 2,
+  "cuisine": "Indisch",
+  "source": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/kartoffel-kichererbsen-curry-9127",
+    "title": "Kartoffel-Kichererbsen-Curry"
+  },
+  "importedAt": "2026-09-04"
+}

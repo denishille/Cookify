@@ -1,0 +1,37 @@
+{
+  "title": "Blumenkohlreis-Bowl",
+  "description": "Die Blumenkohlreis-Bowl von EAT SMARTER ist perfekt für alle Low-Carb-Fans und punktet mit reichlich Geschmack und Vitalstoffen.",
+  "ingredients": [
+    "600 g Blumenkohl (1 kleiner Blumenkohl)",
+    "5 EL Olivenöl",
+    "Salz",
+    "Pfeffer",
+    "250 g tiefgekühlte Erbsen",
+    "1 Bund Radieschen",
+    "2 Kiwis",
+    "2 EL Apfelessig",
+    "1 TL Senf",
+    "1 TL Honig",
+    "2 EL Mandelkerne (à 15 g)"
+  ],
+  "steps": [
+    "Für den Blumenkohlreis Blumenkohl putzen, waschen und grob raspeln. 1 EL Öl in einer Pfanne erhitzen. Blumenkohlraspel darin 5 Minuten bei mittlerer Hitze andünsten, dabei gelegentlich umrühren. Mit Salz und Pfeffer würzen.",
+    "Nebenher Wasser in einem Topf zum Kochen bringen. Erbsen zugeben und 5 Minuten garen. Anschließend abschrecken, abgießen und abtropfen lassen.",
+    "Radieschen putzen, waschen und in feine Scheiben schneiden. Kiwis schälen und klein würfeln.",
+    "Apfelessig mit restlichem Öl, Senf, Honig, Salz und Pfeffer mischen und Kiwiwürfel unterheben. Mandeln hacken.",
+    "Blumenkohlreis in 4 Schalen geben, mit Erbsen und Radieschen anrichten und mit Mandeln bestreuen. Blumenkohlreis-Bowl mit Dressing beträufeln."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Mittagessen, Abendessen, Hauptspeise",
+  "cuisine": "Europa",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/blumenkohlreis-bowl-675149.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/blumenkohlreis-bowl",
+    "title": "Blumenkohlreis-Bowl",
+    "rating": 4.8,
+    "ratingCount": 24
+  },
+  "importedAt": "2026-09-04"
+}

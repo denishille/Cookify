@@ -1,0 +1,37 @@
+{
+  "title": "Gnocchi",
+  "description": "",
+  "ingredients": [
+    "1 kg Kartoffel",
+    "1 Ei",
+    "300 g Mehl",
+    "Salz",
+    "50 g Butter",
+    "Salbei",
+    "5 EL Olivenöl",
+    "100 g Cherrytomaten",
+    "5 Streifen Speck",
+    "Basilikum",
+    "Pfeffer",
+    "Salz"
+  ],
+  "steps": [
+    "Kartoffeln in einem grossen Topf in Salzwasser kochen. Wenn sie weich sind, herausnehmen und ein wenig abkühlen lassen. Anschliessend schälen, vierteln und zu homogenem Kartoffelstock zerdrücken.",
+    "Während die Kartoffeln kochen und abkühlen, können die Saucen vorbereitet werden. Für die erste Sauce wird die Butter in einer kleinen Saucenpfanne auf niedriger Stufe erhitzt. Salbei waschen, schneiden und zur Butter geben. Für die zweite Sauce Öl in einer Bratpfanne erhitzen. Den Speck in Stücke schneiden und anbraten. Die Tomaten halbieren und ebenfalls in die Pfanne geben und den Basilikum beigeben. Beide Saucen gut würzen.",
+    "Ei, Mehl und Salz zum Kartoffelstock dazu geben. Alles schnell zu einem Teig kneten nur so lange bis er gleichmäßig ist.",
+    "Den Tisch gut bemehlen und den Teig in mehrere Stücke teilen. Einzeln in ca 1.5cm dicke Stränge rollen.",
+    "Nun die Stränge in ca. 1.5cm Stücke verteilen. Diese entweder so lassen oder über eine Gabel rollen um das typische Muster zu erhalten.",
+    "Nach und nach die fertigen Gnocchi in siedendes Wasser geben und kochen bis sie an die Oberfläche schwimmen. Abseihen und in die Teller geben. Die beiden Saucen in Schüsseln auf den Tisch stellen, damit jeder selber sich die gewünschte Sauce nehmen kann und auf den Gnocchi verteilen."
+  ],
+  "timeMinutes": 45,
+  "servings": 3,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "image": "https://www.kitchenstories.com/wp-content/uploads/sites/13/2026/08/47b8df57f71d2946616f892b04007c64-a87de50b-9229-427b-b512-2019e216bb3c.jpg",
+  "source": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/gnocchi-4d0d",
+    "title": "Gnocchi"
+  },
+  "importedAt": "2026-09-04"
+}

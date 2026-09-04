@@ -1,0 +1,32 @@
+{
+  "title": "Waffeln - das einfach beste Rezept aller Zeiten",
+  "description": "Waffeln gelingen dir mit unserem Rezept so einfach und fluffig, dass Oma Konkurrenz bekommt. Unser Grundrezept ist eben das beste. Hol es dir hier ➦",
+  "ingredients": [
+    "150 g weiche Butter",
+    "125 g Zucker",
+    "4 Eier",
+    "300 g Mehl",
+    "1.5 TL Backpulver",
+    "1 Prise Salz",
+    "200 ml Milch",
+    "Öl zum Einfetten"
+  ],
+  "steps": [
+    "Butter mit Zucker cremig rühren. Eier einzeln jeweils 30 Sekunden unter die Butter-Zucker-Masse schlagen.",
+    "Mehl, Backpulver und Salz mischen und portionsweise abwechselnd mit der Milch unter die Masse rühren.",
+    "Waffeleisen einfetten und vorheizen. Teig mit einer Kelle oder einem Esslöffel portionsweise in das heiße Waffeleisen geben und ausbacken."
+  ],
+  "timeMinutes": 40,
+  "servings": 12,
+  "category": "Kochen Desserts",
+  "keywords": "Kochen Desserts",
+  "image": "https://www.simply-yummy.de/files/styles/tec_frontend_large/public/images/waffeln-rezept-grundrezept.jpg?itok=zL7KYgnp",
+  "source": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/waffeln-rezept-einfach-und-schnell",
+    "title": "Waffeln - das einfach beste Rezept aller Zeiten",
+    "rating": 4.4,
+    "ratingCount": 40
+  },
+  "importedAt": "2026-09-04"
+}

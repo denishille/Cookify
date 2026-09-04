@@ -1,0 +1,37 @@
+{
+  "title": "One Pot Tortellini",
+  "description": "Meine One Pot Tortellini sind unfassbar cremig, einfach und blitzschnell gemacht. In nur 20 Minuten steht dein neuer Familienliebling auf dem Tisch.",
+  "ingredients": [
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "80 g getrocknete Tomaten (in Öl eingelegt)",
+    "100 g Babyspinat",
+    "1 EL Rapsöl",
+    "3 EL Tomatenmark",
+    "250 ml Gemüsebrühe",
+    "500 g Tortellini (aus dem Kühlregal)",
+    "200 g Sahne zum Kochen",
+    "50 g geriebener Parmesan",
+    "Salz und Pfeffer"
+  ],
+  "steps": [
+    "Zwiebel und Knoblauch klein hacken. Getrocknete Tomaten in Streifen schneiden. Babyspinat waschen.",
+    "Rapsöl in einer Pfanne erhitzen und Zwiebeln und Knoblauch anschwitzen. Tomatenmark einrühren und kurz rösten.",
+    "Gemüsebrühe und Tortellini zugeben, aufkochen und bei geschlossenem Deckel und mittlerer Hitze 2 Minuten köcheln lassen.",
+    "Dann Sahne und Spinat unterheben und den Spinat kurz zusammenfallen lassen.",
+    "Parmesan und Tomaten unterheben und die Tortellini-Pfanne mit Salz und Pfeffer abschmecken."
+  ],
+  "timeMinutes": 20,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "keywords": "Abendessen, Einfach, Mittagessen, One Pot, Pfanne, Schnell, Tortellini",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2026/03/One-Pot-Tortellini-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/one-pot-tortellini/",
+    "title": "One Pot Tortellini",
+    "rating": 5,
+    "ratingCount": 22
+  },
+  "importedAt": "2026-09-04"
+}
