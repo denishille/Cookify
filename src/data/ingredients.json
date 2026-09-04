@@ -1,308 +1,1554 @@
 {
   "gemuese": [
-    {"key": "zwiebel", "name": "Zwiebel"},
-    {"key": "knoblauch", "name": "Knoblauch"},
-    {"key": "fruehlingszwiebel", "name": "Frühlingszwiebel"},
-    {"key": "lauch", "name": "Lauch"},
-    {"key": "karotte", "name": "Karotte"},
-    {"key": "kartoffel", "name": "Kartoffel"},
-    {"key": "suesskartoffel", "name": "Süßkartoffel"},
-    {"key": "tomate", "name": "Tomate"},
-    {"key": "cherrytomate", "name": "Cherrytomaten"},
-    {"key": "paprika", "name": "Paprika"},
-    {"key": "zucchini", "name": "Zucchini"},
-    {"key": "aubergine", "name": "Aubergine"},
-    {"key": "gurke", "name": "Gurke"},
-    {"key": "brokkoli", "name": "Brokkoli"},
-    {"key": "blumenkohl", "name": "Blumenkohl"},
-    {"key": "spinat", "name": "Spinat"},
-    {"key": "gruenkohl", "name": "Grünkohl"},
-    {"key": "weisskohl", "name": "Weißkohl"},
-    {"key": "rotkohl", "name": "Rotkohl"},
-    {"key": "rosenkohl", "name": "Rosenkohl"},
-    {"key": "chinakohl", "name": "Chinakohl"},
-    {"key": "pak-choi", "name": "Pak Choi"},
-    {"key": "champignons", "name": "Champignons"},
-    {"key": "pilze", "name": "Pilze (gemischt)"},
-    {"key": "kuerbis", "name": "Kürbis"},
-    {"key": "sellerie", "name": "Sellerie"},
-    {"key": "stangensellerie", "name": "Stangensellerie"},
-    {"key": "fenchel", "name": "Fenchel"},
-    {"key": "rote-bete", "name": "Rote Bete"},
-    {"key": "radieschen", "name": "Radieschen"},
-    {"key": "spargel", "name": "Spargel"},
-    {"key": "erbsen", "name": "Erbsen"},
-    {"key": "gruene-bohnen", "name": "Grüne Bohnen"},
-    {"key": "mais", "name": "Mais"},
-    {"key": "avocado", "name": "Avocado"},
-    {"key": "salat", "name": "Blattsalat"},
-    {"key": "rucola", "name": "Rucola"},
-    {"key": "feldsalat", "name": "Feldsalat"},
-    {"key": "eisbergsalat", "name": "Eisbergsalat"},
-    {"key": "chili", "name": "Chili"},
-    {"key": "ingwer", "name": "Ingwer"},
-    {"key": "oliven", "name": "Oliven"},
-    {"key": "artischocken", "name": "Artischocken"},
-    {"key": "sauerkraut", "name": "Sauerkraut"},
-    {"key": "kohlrabi", "name": "Kohlrabi"},
-    {"key": "pastinake", "name": "Pastinake"},
-    {"key": "mangold", "name": "Mangold"},
-    {"key": "sprossen", "name": "Sprossen"},
-    {"key": "getrocknete-tomaten", "name": "Getrocknete Tomaten"},
-    {"key": "kapern", "name": "Kapern"},
-    {"key": "essiggurken", "name": "Essiggurken"}
+    {
+      "key": "artischocken",
+      "name": "Artischocken"
+    },
+    {
+      "key": "aubergine",
+      "name": "Aubergine"
+    },
+    {
+      "key": "avocado",
+      "name": "Avocado"
+    },
+    {
+      "key": "salat",
+      "name": "Blattsalat"
+    },
+    {
+      "key": "blumenkohl",
+      "name": "Blumenkohl"
+    },
+    {
+      "key": "brokkoli",
+      "name": "Brokkoli"
+    },
+    {
+      "key": "champignons",
+      "name": "Champignons"
+    },
+    {
+      "key": "cherrytomate",
+      "name": "Cherrytomaten"
+    },
+    {
+      "key": "chicoree",
+      "name": "Chicorée"
+    },
+    {
+      "key": "chili",
+      "name": "Chili"
+    },
+    {
+      "key": "chinakohl",
+      "name": "Chinakohl"
+    },
+    {
+      "key": "eisbergsalat",
+      "name": "Eisbergsalat"
+    },
+    {
+      "key": "erbsen",
+      "name": "Erbsen"
+    },
+    {
+      "key": "essiggurken",
+      "name": "Essiggurken"
+    },
+    {
+      "key": "feldsalat",
+      "name": "Feldsalat"
+    },
+    {
+      "key": "fenchel",
+      "name": "Fenchel"
+    },
+    {
+      "key": "fruehlingszwiebel",
+      "name": "Frühlingszwiebel"
+    },
+    {
+      "key": "getrocknete-tomaten",
+      "name": "Getrocknete Tomaten"
+    },
+    {
+      "key": "gruene-bohnen",
+      "name": "Grüne Bohnen"
+    },
+    {
+      "key": "gruenkohl",
+      "name": "Grünkohl"
+    },
+    {
+      "key": "gurke",
+      "name": "Gurke"
+    },
+    {
+      "key": "ingwer",
+      "name": "Ingwer"
+    },
+    {
+      "key": "kapern",
+      "name": "Kapern"
+    },
+    {
+      "key": "karotte",
+      "name": "Karotte"
+    },
+    {
+      "key": "kartoffel",
+      "name": "Kartoffel"
+    },
+    {
+      "key": "knoblauch",
+      "name": "Knoblauch"
+    },
+    {
+      "key": "kohlrabi",
+      "name": "Kohlrabi"
+    },
+    {
+      "key": "kuerbis",
+      "name": "Kürbis"
+    },
+    {
+      "key": "lauch",
+      "name": "Lauch"
+    },
+    {
+      "key": "mais",
+      "name": "Mais"
+    },
+    {
+      "key": "mangold",
+      "name": "Mangold"
+    },
+    {
+      "key": "oliven",
+      "name": "Oliven"
+    },
+    {
+      "key": "pak-choi",
+      "name": "Pak Choi"
+    },
+    {
+      "key": "paprika",
+      "name": "Paprika"
+    },
+    {
+      "key": "pastinake",
+      "name": "Pastinake"
+    },
+    {
+      "key": "pilze",
+      "name": "Pilze (gemischt)"
+    },
+    {
+      "key": "radieschen",
+      "name": "Radieschen"
+    },
+    {
+      "key": "rettich",
+      "name": "Rettich"
+    },
+    {
+      "key": "romanesco",
+      "name": "Romanesco"
+    },
+    {
+      "key": "rosenkohl",
+      "name": "Rosenkohl"
+    },
+    {
+      "key": "rote-bete",
+      "name": "Rote Bete"
+    },
+    {
+      "key": "rotkohl",
+      "name": "Rotkohl"
+    },
+    {
+      "key": "rucola",
+      "name": "Rucola"
+    },
+    {
+      "key": "sauerkraut",
+      "name": "Sauerkraut"
+    },
+    {
+      "key": "schalotte",
+      "name": "Schalotte"
+    },
+    {
+      "key": "schwarzwurzel",
+      "name": "Schwarzwurzel"
+    },
+    {
+      "key": "sellerie",
+      "name": "Sellerie"
+    },
+    {
+      "key": "shiitake",
+      "name": "Shiitake-Pilze"
+    },
+    {
+      "key": "spargel",
+      "name": "Spargel"
+    },
+    {
+      "key": "spinat",
+      "name": "Spinat"
+    },
+    {
+      "key": "spitzkohl",
+      "name": "Spitzkohl"
+    },
+    {
+      "key": "sprossen",
+      "name": "Sprossen"
+    },
+    {
+      "key": "stangensellerie",
+      "name": "Stangensellerie"
+    },
+    {
+      "key": "steckruebe",
+      "name": "Steckrübe"
+    },
+    {
+      "key": "suesskartoffel",
+      "name": "Süßkartoffel"
+    },
+    {
+      "key": "tomate",
+      "name": "Tomate"
+    },
+    {
+      "key": "topinambur",
+      "name": "Topinambur"
+    },
+    {
+      "key": "weisskohl",
+      "name": "Weißkohl"
+    },
+    {
+      "key": "wirsing",
+      "name": "Wirsing"
+    },
+    {
+      "key": "zucchini",
+      "name": "Zucchini"
+    },
+    {
+      "key": "zuckerschoten",
+      "name": "Zuckerschoten"
+    },
+    {
+      "key": "zwiebel",
+      "name": "Zwiebel"
+    }
   ],
   "obst": [
-    {"key": "apfel", "name": "Apfel"},
-    {"key": "birne", "name": "Birne"},
-    {"key": "banane", "name": "Banane"},
-    {"key": "zitrone", "name": "Zitrone"},
-    {"key": "limette", "name": "Limette"},
-    {"key": "orange", "name": "Orange"},
-    {"key": "erdbeeren", "name": "Erdbeeren"},
-    {"key": "himbeeren", "name": "Himbeeren"},
-    {"key": "heidelbeeren", "name": "Heidelbeeren"},
-    {"key": "beeren", "name": "Beeren (gemischt)"},
-    {"key": "mango", "name": "Mango"},
-    {"key": "ananas", "name": "Ananas"},
-    {"key": "kirschen", "name": "Kirschen"},
-    {"key": "pflaumen", "name": "Pflaumen"},
-    {"key": "pfirsich", "name": "Pfirsich"},
-    {"key": "trauben", "name": "Trauben"},
-    {"key": "rhabarber", "name": "Rhabarber"},
-    {"key": "granatapfel", "name": "Granatapfel"},
-    {"key": "kokos", "name": "Kokosraspeln"},
-    {"key": "datteln", "name": "Datteln"},
-    {"key": "rosinen", "name": "Rosinen"},
-    {"key": "feigen", "name": "Feigen"},
-    {"key": "wassermelone", "name": "Wassermelone"},
-    {"key": "kiwi", "name": "Kiwi"}
+    {
+      "key": "ananas",
+      "name": "Ananas"
+    },
+    {
+      "key": "apfel",
+      "name": "Apfel"
+    },
+    {
+      "key": "aprikose",
+      "name": "Aprikose"
+    },
+    {
+      "key": "banane",
+      "name": "Banane"
+    },
+    {
+      "key": "beeren",
+      "name": "Beeren (gemischt)"
+    },
+    {
+      "key": "birne",
+      "name": "Birne"
+    },
+    {
+      "key": "brombeeren",
+      "name": "Brombeeren"
+    },
+    {
+      "key": "datteln",
+      "name": "Datteln"
+    },
+    {
+      "key": "erdbeeren",
+      "name": "Erdbeeren"
+    },
+    {
+      "key": "feigen",
+      "name": "Feigen"
+    },
+    {
+      "key": "granatapfel",
+      "name": "Granatapfel"
+    },
+    {
+      "key": "heidelbeeren",
+      "name": "Heidelbeeren"
+    },
+    {
+      "key": "himbeeren",
+      "name": "Himbeeren"
+    },
+    {
+      "key": "johannisbeeren",
+      "name": "Johannisbeeren"
+    },
+    {
+      "key": "kirschen",
+      "name": "Kirschen"
+    },
+    {
+      "key": "kiwi",
+      "name": "Kiwi"
+    },
+    {
+      "key": "kokos",
+      "name": "Kokosraspeln"
+    },
+    {
+      "key": "limette",
+      "name": "Limette"
+    },
+    {
+      "key": "mandarine",
+      "name": "Mandarine"
+    },
+    {
+      "key": "mango",
+      "name": "Mango"
+    },
+    {
+      "key": "nektarine",
+      "name": "Nektarine"
+    },
+    {
+      "key": "orange",
+      "name": "Orange"
+    },
+    {
+      "key": "pfirsich",
+      "name": "Pfirsich"
+    },
+    {
+      "key": "pflaumen",
+      "name": "Pflaumen"
+    },
+    {
+      "key": "quitte",
+      "name": "Quitte"
+    },
+    {
+      "key": "rhabarber",
+      "name": "Rhabarber"
+    },
+    {
+      "key": "rosinen",
+      "name": "Rosinen"
+    },
+    {
+      "key": "stachelbeeren",
+      "name": "Stachelbeeren"
+    },
+    {
+      "key": "trauben",
+      "name": "Trauben"
+    },
+    {
+      "key": "wassermelone",
+      "name": "Wassermelone"
+    },
+    {
+      "key": "zitrone",
+      "name": "Zitrone"
+    },
+    {
+      "key": "zwetschgen",
+      "name": "Zwetschgen"
+    }
   ],
   "fleisch": [
-    {"key": "haehnchenbrust", "name": "Hähnchenbrust"},
-    {"key": "haehnchenschenkel", "name": "Hähnchenschenkel"},
-    {"key": "hackfleisch", "name": "Hackfleisch (gemischt)"},
-    {"key": "rinderhack", "name": "Rinderhack"},
-    {"key": "rindfleisch", "name": "Rindfleisch"},
-    {"key": "rindersteak", "name": "Rindersteak"},
-    {"key": "schweinefleisch", "name": "Schweinefleisch"},
-    {"key": "schweineschnitzel", "name": "Schweineschnitzel"},
-    {"key": "speck", "name": "Speck"},
-    {"key": "schinken", "name": "Schinken"},
-    {"key": "salami", "name": "Salami"},
-    {"key": "bratwurst", "name": "Bratwurst"},
-    {"key": "wuerstchen", "name": "Würstchen"},
-    {"key": "chorizo", "name": "Chorizo"},
-    {"key": "putenbrust", "name": "Putenbrust"},
-    {"key": "lamm", "name": "Lammfleisch"},
-    {"key": "ente", "name": "Ente"},
-    {"key": "kasseler", "name": "Kasseler"}
+    {
+      "key": "bratwurst",
+      "name": "Bratwurst"
+    },
+    {
+      "key": "chorizo",
+      "name": "Chorizo"
+    },
+    {
+      "key": "ente",
+      "name": "Ente"
+    },
+    {
+      "key": "hackfleisch",
+      "name": "Hackfleisch (gemischt)"
+    },
+    {
+      "key": "haehnchenbrust",
+      "name": "Hähnchenbrust"
+    },
+    {
+      "key": "haehnchenfluegel",
+      "name": "Hähnchenflügel"
+    },
+    {
+      "key": "haehnchenschenkel",
+      "name": "Hähnchenschenkel"
+    },
+    {
+      "key": "kalbfleisch",
+      "name": "Kalbfleisch"
+    },
+    {
+      "key": "kaninchen",
+      "name": "Kaninchen"
+    },
+    {
+      "key": "kasseler",
+      "name": "Kasseler"
+    },
+    {
+      "key": "lamm",
+      "name": "Lammfleisch"
+    },
+    {
+      "key": "leber",
+      "name": "Leber"
+    },
+    {
+      "key": "putenbrust",
+      "name": "Putenbrust"
+    },
+    {
+      "key": "rinderfilet",
+      "name": "Rinderfilet"
+    },
+    {
+      "key": "rinderhack",
+      "name": "Rinderhack"
+    },
+    {
+      "key": "rindersteak",
+      "name": "Rindersteak"
+    },
+    {
+      "key": "rindfleisch",
+      "name": "Rindfleisch"
+    },
+    {
+      "key": "salami",
+      "name": "Salami"
+    },
+    {
+      "key": "schinken",
+      "name": "Schinken"
+    },
+    {
+      "key": "schweinefleisch",
+      "name": "Schweinefleisch"
+    },
+    {
+      "key": "schweineschnitzel",
+      "name": "Schweineschnitzel"
+    },
+    {
+      "key": "speck",
+      "name": "Speck"
+    },
+    {
+      "key": "wuerstchen",
+      "name": "Würstchen"
+    }
   ],
   "fisch": [
-    {"key": "lachs", "name": "Lachs"},
-    {"key": "raeucherlachs", "name": "Räucherlachs"},
-    {"key": "thunfisch-dose", "name": "Thunfisch (Dose)"},
-    {"key": "thunfischsteak", "name": "Thunfischsteak"},
-    {"key": "garnelen", "name": "Garnelen"},
-    {"key": "kabeljau", "name": "Kabeljau"},
-    {"key": "forelle", "name": "Forelle"},
-    {"key": "seelachs", "name": "Seelachs"},
-    {"key": "hering", "name": "Hering"},
-    {"key": "muscheln", "name": "Muscheln"},
-    {"key": "tintenfisch", "name": "Tintenfisch"},
-    {"key": "sardellen", "name": "Sardellen"},
-    {"key": "dorade", "name": "Dorade"}
+    {
+      "key": "dorade",
+      "name": "Dorade"
+    },
+    {
+      "key": "forelle",
+      "name": "Forelle"
+    },
+    {
+      "key": "garnelen",
+      "name": "Garnelen"
+    },
+    {
+      "key": "hering",
+      "name": "Hering"
+    },
+    {
+      "key": "jakobsmuscheln",
+      "name": "Jakobsmuscheln"
+    },
+    {
+      "key": "kabeljau",
+      "name": "Kabeljau"
+    },
+    {
+      "key": "lachs",
+      "name": "Lachs"
+    },
+    {
+      "key": "makrele",
+      "name": "Makrele"
+    },
+    {
+      "key": "muscheln",
+      "name": "Muscheln"
+    },
+    {
+      "key": "raeucherlachs",
+      "name": "Räucherlachs"
+    },
+    {
+      "key": "sardellen",
+      "name": "Sardellen"
+    },
+    {
+      "key": "sardinen",
+      "name": "Sardinen"
+    },
+    {
+      "key": "scholle",
+      "name": "Scholle"
+    },
+    {
+      "key": "seelachs",
+      "name": "Seelachs"
+    },
+    {
+      "key": "thunfisch-dose",
+      "name": "Thunfisch (Dose)"
+    },
+    {
+      "key": "thunfischsteak",
+      "name": "Thunfischsteak"
+    },
+    {
+      "key": "tintenfisch",
+      "name": "Tintenfisch"
+    },
+    {
+      "key": "zander",
+      "name": "Zander"
+    }
   ],
   "milchprodukte": [
-    {"key": "milch", "name": "Milch"},
-    {"key": "butter", "name": "Butter"},
-    {"key": "sahne", "name": "Sahne"},
-    {"key": "schmand", "name": "Schmand"},
-    {"key": "creme-fraiche", "name": "Crème fraîche"},
-    {"key": "joghurt", "name": "Joghurt"},
-    {"key": "griechischer-joghurt", "name": "Griechischer Joghurt"},
-    {"key": "quark", "name": "Quark"},
-    {"key": "skyr", "name": "Skyr"},
-    {"key": "huettenkaese", "name": "Hüttenkäse"},
-    {"key": "frischkaese", "name": "Frischkäse"},
-    {"key": "mozzarella", "name": "Mozzarella"},
-    {"key": "feta", "name": "Feta"},
-    {"key": "parmesan", "name": "Parmesan"},
-    {"key": "gouda", "name": "Gouda"},
-    {"key": "emmentaler", "name": "Emmentaler"},
-    {"key": "cheddar", "name": "Cheddar"},
-    {"key": "ziegenkaese", "name": "Ziegenkäse"},
-    {"key": "ricotta", "name": "Ricotta"},
-    {"key": "mascarpone", "name": "Mascarpone"},
-    {"key": "halloumi", "name": "Halloumi"},
-    {"key": "blauschimmelkaese", "name": "Blauschimmelkäse"},
-    {"key": "kaese-gerieben", "name": "Käse (gerieben)"},
-    {"key": "buttermilch", "name": "Buttermilch"},
-    {"key": "eier", "name": "Eier"}
+    {
+      "key": "ayran",
+      "name": "Ayran"
+    },
+    {
+      "key": "bergkaese",
+      "name": "Bergkäse"
+    },
+    {
+      "key": "blauschimmelkaese",
+      "name": "Blauschimmelkäse"
+    },
+    {
+      "key": "burrata",
+      "name": "Burrata"
+    },
+    {
+      "key": "butter",
+      "name": "Butter"
+    },
+    {
+      "key": "buttermilch",
+      "name": "Buttermilch"
+    },
+    {
+      "key": "camembert",
+      "name": "Camembert"
+    },
+    {
+      "key": "cheddar",
+      "name": "Cheddar"
+    },
+    {
+      "key": "creme-double",
+      "name": "Crème double"
+    },
+    {
+      "key": "creme-fraiche",
+      "name": "Crème fraîche"
+    },
+    {
+      "key": "eier",
+      "name": "Eier"
+    },
+    {
+      "key": "emmentaler",
+      "name": "Emmentaler"
+    },
+    {
+      "key": "feta",
+      "name": "Feta"
+    },
+    {
+      "key": "frischkaese",
+      "name": "Frischkäse"
+    },
+    {
+      "key": "gouda",
+      "name": "Gouda"
+    },
+    {
+      "key": "griechischer-joghurt",
+      "name": "Griechischer Joghurt"
+    },
+    {
+      "key": "halloumi",
+      "name": "Halloumi"
+    },
+    {
+      "key": "huettenkaese",
+      "name": "Hüttenkäse"
+    },
+    {
+      "key": "joghurt",
+      "name": "Joghurt"
+    },
+    {
+      "key": "kefir",
+      "name": "Kefir"
+    },
+    {
+      "key": "kondensmilch",
+      "name": "Kondensmilch"
+    },
+    {
+      "key": "kaese-gerieben",
+      "name": "Käse (gerieben)"
+    },
+    {
+      "key": "mascarpone",
+      "name": "Mascarpone"
+    },
+    {
+      "key": "milch",
+      "name": "Milch"
+    },
+    {
+      "key": "mozzarella",
+      "name": "Mozzarella"
+    },
+    {
+      "key": "parmesan",
+      "name": "Parmesan"
+    },
+    {
+      "key": "quark",
+      "name": "Quark"
+    },
+    {
+      "key": "ricotta",
+      "name": "Ricotta"
+    },
+    {
+      "key": "sahne",
+      "name": "Sahne"
+    },
+    {
+      "key": "saure-sahne",
+      "name": "Saure Sahne"
+    },
+    {
+      "key": "schmand",
+      "name": "Schmand"
+    },
+    {
+      "key": "skyr",
+      "name": "Skyr"
+    },
+    {
+      "key": "ziegenkaese",
+      "name": "Ziegenkäse"
+    }
   ],
   "pflanzlich": [
-    {"key": "tofu", "name": "Tofu"},
-    {"key": "raeuchertofu", "name": "Räuchertofu"},
-    {"key": "tempeh", "name": "Tempeh"},
-    {"key": "seitan", "name": "Seitan"},
-    {"key": "hafermilch", "name": "Hafermilch"},
-    {"key": "mandelmilch", "name": "Mandelmilch"},
-    {"key": "sojamilch", "name": "Sojamilch"},
-    {"key": "kokosmilch", "name": "Kokosmilch"},
-    {"key": "sojajoghurt", "name": "Sojajoghurt"},
-    {"key": "veganer-kaese", "name": "Veganer Käse"},
-    {"key": "hefeflocken", "name": "Hefeflocken"},
-    {"key": "sojahack", "name": "Sojahack"}
+    {
+      "key": "hafercreme",
+      "name": "Hafercreme zum Kochen"
+    },
+    {
+      "key": "hafermilch",
+      "name": "Hafermilch"
+    },
+    {
+      "key": "hafersahne",
+      "name": "Hafersahne"
+    },
+    {
+      "key": "hefeflocken",
+      "name": "Hefeflocken"
+    },
+    {
+      "key": "kokosjoghurt",
+      "name": "Kokosjoghurt"
+    },
+    {
+      "key": "kokosmilch",
+      "name": "Kokosmilch"
+    },
+    {
+      "key": "mandelmilch",
+      "name": "Mandelmilch"
+    },
+    {
+      "key": "margarine",
+      "name": "Margarine"
+    },
+    {
+      "key": "reismilch",
+      "name": "Reismilch"
+    },
+    {
+      "key": "raeuchertofu",
+      "name": "Räuchertofu"
+    },
+    {
+      "key": "seidentofu",
+      "name": "Seidentofu"
+    },
+    {
+      "key": "seitan",
+      "name": "Seitan"
+    },
+    {
+      "key": "sojahack",
+      "name": "Sojahack"
+    },
+    {
+      "key": "sojajoghurt",
+      "name": "Sojajoghurt"
+    },
+    {
+      "key": "sojamilch",
+      "name": "Sojamilch"
+    },
+    {
+      "key": "tempeh",
+      "name": "Tempeh"
+    },
+    {
+      "key": "tofu",
+      "name": "Tofu"
+    },
+    {
+      "key": "vegane-butter",
+      "name": "Vegane Butter"
+    },
+    {
+      "key": "veganer-kaese",
+      "name": "Veganer Käse"
+    }
   ],
   "huelsenfruechte": [
-    {"key": "kichererbsen", "name": "Kichererbsen"},
-    {"key": "linsen-rot", "name": "Rote Linsen"},
-    {"key": "linsen-braun", "name": "Braune/Grüne Linsen"},
-    {"key": "belugalinsen", "name": "Belugalinsen"},
-    {"key": "kidneybohnen", "name": "Kidneybohnen"},
-    {"key": "schwarze-bohnen", "name": "Schwarze Bohnen"},
-    {"key": "weisse-bohnen", "name": "Weiße Bohnen"},
-    {"key": "edamame", "name": "Edamame"}
+    {
+      "key": "ackerbohnen",
+      "name": "Ackerbohnen (Dicke Bohnen)"
+    },
+    {
+      "key": "belugalinsen",
+      "name": "Belugalinsen"
+    },
+    {
+      "key": "berglinsen",
+      "name": "Berglinsen"
+    },
+    {
+      "key": "linsen-braun",
+      "name": "Braune/Grüne Linsen"
+    },
+    {
+      "key": "edamame",
+      "name": "Edamame"
+    },
+    {
+      "key": "gelbe-linsen",
+      "name": "Gelbe Linsen"
+    },
+    {
+      "key": "kichererbsen",
+      "name": "Kichererbsen"
+    },
+    {
+      "key": "kidneybohnen",
+      "name": "Kidneybohnen"
+    },
+    {
+      "key": "linsen-rot",
+      "name": "Rote Linsen"
+    },
+    {
+      "key": "schwarze-bohnen",
+      "name": "Schwarze Bohnen"
+    },
+    {
+      "key": "weisse-bohnen",
+      "name": "Weiße Bohnen"
+    }
   ],
   "getreide": [
-    {"key": "spaghetti", "name": "Spaghetti"},
-    {"key": "penne", "name": "Penne"},
-    {"key": "nudeln", "name": "Nudeln (sonstige)"},
-    {"key": "lasagneplatten", "name": "Lasagneplatten"},
-    {"key": "gnocchi", "name": "Gnocchi"},
-    {"key": "reisnudeln", "name": "Reisnudeln"},
-    {"key": "glasnudeln", "name": "Glasnudeln"},
-    {"key": "ramen-nudeln", "name": "Ramen-Nudeln"},
-    {"key": "udon", "name": "Udon-Nudeln"},
-    {"key": "reis", "name": "Reis"},
-    {"key": "basmatireis", "name": "Basmatireis"},
-    {"key": "risottoreis", "name": "Risottoreis"},
-    {"key": "sushireis", "name": "Sushireis"},
-    {"key": "milchreis", "name": "Milchreis"},
-    {"key": "quinoa", "name": "Quinoa"},
-    {"key": "couscous", "name": "Couscous"},
-    {"key": "bulgur", "name": "Bulgur"},
-    {"key": "hirse", "name": "Hirse"},
-    {"key": "haferflocken", "name": "Haferflocken"},
-    {"key": "polenta", "name": "Polenta"},
-    {"key": "mehl", "name": "Mehl"},
-    {"key": "vollkornmehl", "name": "Vollkornmehl"},
-    {"key": "speisestaerke", "name": "Speisestärke"},
-    {"key": "semmelbroesel", "name": "Semmelbrösel"},
-    {"key": "brot", "name": "Brot"},
-    {"key": "toast", "name": "Toastbrot"},
-    {"key": "baguette", "name": "Baguette"},
-    {"key": "broetchen", "name": "Brötchen"},
-    {"key": "tortillas", "name": "Tortillas / Wraps"},
-    {"key": "pizzateig", "name": "Pizzateig"},
-    {"key": "blaetterteig", "name": "Blätterteig"},
-    {"key": "hefe", "name": "Hefe"},
-    {"key": "backpulver", "name": "Backpulver"},
-    {"key": "natron", "name": "Natron"},
-    {"key": "knaeckebrot", "name": "Knäckebrot"},
-    {"key": "pita", "name": "Pita-Brot"},
-    {"key": "naan", "name": "Naan"},
-    {"key": "granola", "name": "Granola / Müsli"}
+    {
+      "key": "amaranth",
+      "name": "Amaranth"
+    },
+    {
+      "key": "backpulver",
+      "name": "Backpulver"
+    },
+    {
+      "key": "baguette",
+      "name": "Baguette"
+    },
+    {
+      "key": "basmatireis",
+      "name": "Basmatireis"
+    },
+    {
+      "key": "blaetterteig",
+      "name": "Blätterteig"
+    },
+    {
+      "key": "brot",
+      "name": "Brot"
+    },
+    {
+      "key": "broetchen",
+      "name": "Brötchen"
+    },
+    {
+      "key": "buchweizen",
+      "name": "Buchweizen"
+    },
+    {
+      "key": "buchweizenmehl",
+      "name": "Buchweizenmehl"
+    },
+    {
+      "key": "bulgur",
+      "name": "Bulgur"
+    },
+    {
+      "key": "couscous",
+      "name": "Couscous"
+    },
+    {
+      "key": "dinkel",
+      "name": "Dinkel"
+    },
+    {
+      "key": "dinkelmehl",
+      "name": "Dinkelmehl",
+      "staple": true
+    },
+    {
+      "key": "flohsamenschalen",
+      "name": "Flohsamenschalen"
+    },
+    {
+      "key": "glasnudeln",
+      "name": "Glasnudeln"
+    },
+    {
+      "key": "gnocchi",
+      "name": "Gnocchi"
+    },
+    {
+      "key": "granola",
+      "name": "Granola / Müsli"
+    },
+    {
+      "key": "graupen",
+      "name": "Graupen"
+    },
+    {
+      "key": "gruenkern",
+      "name": "Grünkern"
+    },
+    {
+      "key": "haferflocken",
+      "name": "Haferflocken"
+    },
+    {
+      "key": "hartweizengriess",
+      "name": "Hartweizengrieß"
+    },
+    {
+      "key": "hefe",
+      "name": "Hefe"
+    },
+    {
+      "key": "hirse",
+      "name": "Hirse"
+    },
+    {
+      "key": "kichererbsenmehl",
+      "name": "Kichererbsenmehl"
+    },
+    {
+      "key": "knaeckebrot",
+      "name": "Knäckebrot"
+    },
+    {
+      "key": "lasagneplatten",
+      "name": "Lasagneplatten"
+    },
+    {
+      "key": "mandelmehl",
+      "name": "Mandelmehl"
+    },
+    {
+      "key": "mehl",
+      "name": "Mehl"
+    },
+    {
+      "key": "milchreis",
+      "name": "Milchreis"
+    },
+    {
+      "key": "naan",
+      "name": "Naan"
+    },
+    {
+      "key": "natron",
+      "name": "Natron"
+    },
+    {
+      "key": "nudeln",
+      "name": "Nudeln (sonstige)"
+    },
+    {
+      "key": "orzo",
+      "name": "Orzo (Kritharaki)"
+    },
+    {
+      "key": "panko",
+      "name": "Panko"
+    },
+    {
+      "key": "penne",
+      "name": "Penne"
+    },
+    {
+      "key": "pita",
+      "name": "Pita-Brot"
+    },
+    {
+      "key": "pizzateig",
+      "name": "Pizzateig"
+    },
+    {
+      "key": "polenta",
+      "name": "Polenta"
+    },
+    {
+      "key": "quinoa",
+      "name": "Quinoa"
+    },
+    {
+      "key": "ramen-nudeln",
+      "name": "Ramen-Nudeln"
+    },
+    {
+      "key": "ravioli",
+      "name": "Ravioli"
+    },
+    {
+      "key": "reis",
+      "name": "Reis"
+    },
+    {
+      "key": "reisnudeln",
+      "name": "Reisnudeln"
+    },
+    {
+      "key": "risottoreis",
+      "name": "Risottoreis"
+    },
+    {
+      "key": "roggenmehl",
+      "name": "Roggenmehl"
+    },
+    {
+      "key": "semmelbroesel",
+      "name": "Semmelbrösel"
+    },
+    {
+      "key": "spaghetti",
+      "name": "Spaghetti"
+    },
+    {
+      "key": "speisestaerke",
+      "name": "Speisestärke"
+    },
+    {
+      "key": "spaetzle",
+      "name": "Spätzle"
+    },
+    {
+      "key": "sushireis",
+      "name": "Sushireis"
+    },
+    {
+      "key": "tagliatelle",
+      "name": "Tagliatelle"
+    },
+    {
+      "key": "toast",
+      "name": "Toastbrot"
+    },
+    {
+      "key": "tortellini",
+      "name": "Tortellini"
+    },
+    {
+      "key": "tortillas",
+      "name": "Tortillas / Wraps"
+    },
+    {
+      "key": "udon",
+      "name": "Udon-Nudeln"
+    },
+    {
+      "key": "vollkornmehl",
+      "name": "Vollkornmehl"
+    }
   ],
   "nuesse-samen": [
-    {"key": "mandeln", "name": "Mandeln"},
-    {"key": "walnuesse", "name": "Walnüsse"},
-    {"key": "haselnuesse", "name": "Haselnüsse"},
-    {"key": "cashews", "name": "Cashews"},
-    {"key": "erdnuesse", "name": "Erdnüsse"},
-    {"key": "pinienkerne", "name": "Pinienkerne"},
-    {"key": "sonnenblumenkerne", "name": "Sonnenblumenkerne"},
-    {"key": "kuerbiskerne", "name": "Kürbiskerne"},
-    {"key": "sesam", "name": "Sesam"},
-    {"key": "chiasamen", "name": "Chiasamen"},
-    {"key": "leinsamen", "name": "Leinsamen"},
-    {"key": "erdnussbutter", "name": "Erdnussbutter"},
-    {"key": "mandelmus", "name": "Mandelmus"},
-    {"key": "tahini", "name": "Tahini"},
-    {"key": "pistazien", "name": "Pistazien"}
+    {
+      "key": "cashews",
+      "name": "Cashews"
+    },
+    {
+      "key": "chiasamen",
+      "name": "Chiasamen"
+    },
+    {
+      "key": "erdnussbutter",
+      "name": "Erdnussbutter"
+    },
+    {
+      "key": "erdnuesse",
+      "name": "Erdnüsse"
+    },
+    {
+      "key": "hanfsamen",
+      "name": "Hanfsamen"
+    },
+    {
+      "key": "haselnuesse",
+      "name": "Haselnüsse"
+    },
+    {
+      "key": "kuerbiskerne",
+      "name": "Kürbiskerne"
+    },
+    {
+      "key": "leinsamen",
+      "name": "Leinsamen"
+    },
+    {
+      "key": "mandelmus",
+      "name": "Mandelmus"
+    },
+    {
+      "key": "mandeln",
+      "name": "Mandeln"
+    },
+    {
+      "key": "mohn",
+      "name": "Mohn"
+    },
+    {
+      "key": "paranuesse",
+      "name": "Paranüsse"
+    },
+    {
+      "key": "pekannuesse",
+      "name": "Pekannüsse"
+    },
+    {
+      "key": "pinienkerne",
+      "name": "Pinienkerne"
+    },
+    {
+      "key": "pistazien",
+      "name": "Pistazien"
+    },
+    {
+      "key": "sesam",
+      "name": "Sesam"
+    },
+    {
+      "key": "sonnenblumenkerne",
+      "name": "Sonnenblumenkerne"
+    },
+    {
+      "key": "tahini",
+      "name": "Tahini"
+    },
+    {
+      "key": "walnuesse",
+      "name": "Walnüsse"
+    }
   ],
   "vorrat": [
-    {"key": "tomaten-dose", "name": "Tomaten (Dose)"},
-    {"key": "tomatenmark", "name": "Tomatenmark"},
-    {"key": "passata", "name": "Passata"},
-    {"key": "gemuesebruehe", "name": "Gemüsebrühe"},
-    {"key": "huehnerbruehe", "name": "Hühnerbrühe"},
-    {"key": "sojasauce", "name": "Sojasauce"},
-    {"key": "fischsauce", "name": "Fischsauce"},
-    {"key": "currypaste", "name": "Currypaste"},
-    {"key": "sriracha", "name": "Sriracha"},
-    {"key": "ketchup", "name": "Ketchup"},
-    {"key": "senf", "name": "Senf"},
-    {"key": "mayonnaise", "name": "Mayonnaise"},
-    {"key": "pesto", "name": "Pesto"},
-    {"key": "honig", "name": "Honig"},
-    {"key": "ahornsirup", "name": "Ahornsirup"},
-    {"key": "agavendicksaft", "name": "Agavendicksaft"},
-    {"key": "zucker", "name": "Zucker"},
-    {"key": "brauner-zucker", "name": "Brauner Zucker"},
-    {"key": "puderzucker", "name": "Puderzucker"},
-    {"key": "vanillezucker", "name": "Vanillezucker"},
-    {"key": "kakao", "name": "Kakao"},
-    {"key": "schokolade", "name": "Schokolade"},
-    {"key": "zartbitterschokolade", "name": "Zartbitterschokolade"},
-    {"key": "weisse-schokolade", "name": "Weiße Schokolade"},
-    {"key": "gelatine", "name": "Gelatine"},
-    {"key": "kokosoel", "name": "Kokosöl"},
-    {"key": "sesamoel", "name": "Sesamöl"},
-    {"key": "balsamico", "name": "Balsamico"},
-    {"key": "weissweinessig", "name": "Weißweinessig"},
-    {"key": "reisessig", "name": "Reisessig"},
-    {"key": "weisswein", "name": "Weißwein"},
-    {"key": "rotwein", "name": "Rotwein"},
-    {"key": "bier", "name": "Bier"},
-    {"key": "miso", "name": "Miso"},
-    {"key": "erdnusssauce", "name": "Erdnusssauce"},
-    {"key": "harissa", "name": "Harissa"},
-    {"key": "sambal-oelek", "name": "Sambal Oelek"},
-    {"key": "worcestersauce", "name": "Worcestersauce"},
-    {"key": "bbq-sauce", "name": "BBQ-Sauce"},
-    {"key": "marmelade", "name": "Marmelade"},
-    {"key": "kaffee", "name": "Kaffee / Espresso"},
-    {"key": "loeffelbiskuits", "name": "Löffelbiskuits"},
-    {"key": "butterkekse", "name": "Butterkekse"},
-    {"key": "nori", "name": "Nori-Algen"},
-    {"key": "proteinpulver", "name": "Proteinpulver"},
-    {"key": "kokosraspeln", "name": "Kokosraspeln"},
-    {"key": "mehlbutter-fertigteig", "name": "Mürbeteig (fertig)"},
-    {"key": "eis-vanille", "name": "Vanilleeis"},
-    {"key": "apfelmus", "name": "Apfelmus"},
-    {"key": "orangensaft", "name": "Orangensaft"}
+    {
+      "key": "agar-agar",
+      "name": "Agar-Agar"
+    },
+    {
+      "key": "agavendicksaft",
+      "name": "Agavendicksaft"
+    },
+    {
+      "key": "ahornsirup",
+      "name": "Ahornsirup"
+    },
+    {
+      "key": "ajvar",
+      "name": "Ajvar"
+    },
+    {
+      "key": "apfelessig",
+      "name": "Apfelessig",
+      "staple": true
+    },
+    {
+      "key": "apfelmus",
+      "name": "Apfelmus"
+    },
+    {
+      "key": "balsamico",
+      "name": "Balsamico"
+    },
+    {
+      "key": "bbq-sauce",
+      "name": "BBQ-Sauce"
+    },
+    {
+      "key": "bier",
+      "name": "Bier"
+    },
+    {
+      "key": "brauner-zucker",
+      "name": "Brauner Zucker"
+    },
+    {
+      "key": "butterkekse",
+      "name": "Butterkekse"
+    },
+    {
+      "key": "currypaste",
+      "name": "Currypaste"
+    },
+    {
+      "key": "erdnusssauce",
+      "name": "Erdnusssauce"
+    },
+    {
+      "key": "erythrit",
+      "name": "Erythrit"
+    },
+    {
+      "key": "fischsauce",
+      "name": "Fischsauce"
+    },
+    {
+      "key": "gelatine",
+      "name": "Gelatine"
+    },
+    {
+      "key": "gemuesebruehe",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "key": "harissa",
+      "name": "Harissa"
+    },
+    {
+      "key": "hefeextrakt",
+      "name": "Hefeextrakt"
+    },
+    {
+      "key": "honig",
+      "name": "Honig"
+    },
+    {
+      "key": "huehnerbruehe",
+      "name": "Hühnerbrühe"
+    },
+    {
+      "key": "kaffee",
+      "name": "Kaffee / Espresso"
+    },
+    {
+      "key": "kakao",
+      "name": "Kakao"
+    },
+    {
+      "key": "ketchup",
+      "name": "Ketchup"
+    },
+    {
+      "key": "kokosraspeln",
+      "name": "Kokosraspeln"
+    },
+    {
+      "key": "kokosoel",
+      "name": "Kokosöl"
+    },
+    {
+      "key": "kuvertuere",
+      "name": "Kuvertüre"
+    },
+    {
+      "key": "loeffelbiskuits",
+      "name": "Löffelbiskuits"
+    },
+    {
+      "key": "marmelade",
+      "name": "Marmelade"
+    },
+    {
+      "key": "marzipan",
+      "name": "Marzipan"
+    },
+    {
+      "key": "mayonnaise",
+      "name": "Mayonnaise"
+    },
+    {
+      "key": "miso",
+      "name": "Miso"
+    },
+    {
+      "key": "mehlbutter-fertigteig",
+      "name": "Mürbeteig (fertig)"
+    },
+    {
+      "key": "nori",
+      "name": "Nori-Algen"
+    },
+    {
+      "key": "orangensaft",
+      "name": "Orangensaft"
+    },
+    {
+      "key": "passata",
+      "name": "Passata"
+    },
+    {
+      "key": "pesto",
+      "name": "Pesto"
+    },
+    {
+      "key": "proteinpulver",
+      "name": "Proteinpulver"
+    },
+    {
+      "key": "puderzucker",
+      "name": "Puderzucker"
+    },
+    {
+      "key": "rapsoel",
+      "name": "Rapsöl",
+      "staple": true
+    },
+    {
+      "key": "reisessig",
+      "name": "Reisessig"
+    },
+    {
+      "key": "reissirup",
+      "name": "Reissirup"
+    },
+    {
+      "key": "rotwein",
+      "name": "Rotwein"
+    },
+    {
+      "key": "sambal-oelek",
+      "name": "Sambal Oelek"
+    },
+    {
+      "key": "schokolade",
+      "name": "Schokolade"
+    },
+    {
+      "key": "senf",
+      "name": "Senf"
+    },
+    {
+      "key": "sesamoel",
+      "name": "Sesamöl"
+    },
+    {
+      "key": "sojasauce",
+      "name": "Sojasauce"
+    },
+    {
+      "key": "sriracha",
+      "name": "Sriracha"
+    },
+    {
+      "key": "tomaten-dose",
+      "name": "Tomaten (Dose)"
+    },
+    {
+      "key": "tomatenmark",
+      "name": "Tomatenmark"
+    },
+    {
+      "key": "traubenzucker",
+      "name": "Traubenzucker (Dextrose)"
+    },
+    {
+      "key": "eis-vanille",
+      "name": "Vanilleeis"
+    },
+    {
+      "key": "vanillezucker",
+      "name": "Vanillezucker"
+    },
+    {
+      "key": "weisse-schokolade",
+      "name": "Weiße Schokolade"
+    },
+    {
+      "key": "weisswein",
+      "name": "Weißwein"
+    },
+    {
+      "key": "weissweinessig",
+      "name": "Weißweinessig"
+    },
+    {
+      "key": "worcestersauce",
+      "name": "Worcestersauce"
+    },
+    {
+      "key": "zartbitterschokolade",
+      "name": "Zartbitterschokolade"
+    },
+    {
+      "key": "zucker",
+      "name": "Zucker"
+    },
+    {
+      "key": "zuckerruebensirup",
+      "name": "Zuckerrübensirup"
+    }
   ],
   "kraeuter-gewuerze": [
-    {"key": "salz", "name": "Salz", "staple": true},
-    {"key": "pfeffer", "name": "Pfeffer", "staple": true},
-    {"key": "olivenoel", "name": "Olivenöl", "staple": true},
-    {"key": "pflanzenoel", "name": "Pflanzenöl", "staple": true},
-    {"key": "essig", "name": "Essig", "staple": true},
-    {"key": "wasser", "name": "Wasser", "staple": true},
-    {"key": "paprikapulver", "name": "Paprikapulver", "staple": true},
-    {"key": "kreuzkuemmel", "name": "Kreuzkümmel", "staple": true},
-    {"key": "currypulver", "name": "Currypulver", "staple": true},
-    {"key": "kurkuma", "name": "Kurkuma", "staple": true},
-    {"key": "zimt", "name": "Zimt", "staple": true},
-    {"key": "muskat", "name": "Muskatnuss", "staple": true},
-    {"key": "chiliflocken", "name": "Chiliflocken", "staple": true},
-    {"key": "oregano", "name": "Oregano (getrocknet)", "staple": true},
-    {"key": "thymian", "name": "Thymian", "staple": true},
-    {"key": "rosmarin", "name": "Rosmarin", "staple": true},
-    {"key": "lorbeer", "name": "Lorbeerblatt", "staple": true},
-    {"key": "garam-masala", "name": "Garam Masala", "staple": true},
-    {"key": "koriander-gemahlen", "name": "Koriander (gemahlen)", "staple": true},
-    {"key": "vanille", "name": "Vanille", "staple": true},
-    {"key": "kardamom", "name": "Kardamom", "staple": true},
-    {"key": "kuemmel", "name": "Kümmel", "staple": true},
-    {"key": "petersilie", "name": "Petersilie"},
-    {"key": "basilikum", "name": "Basilikum"},
-    {"key": "koriander", "name": "Koriander (frisch)"},
-    {"key": "dill", "name": "Dill"},
-    {"key": "minze", "name": "Minze"},
-    {"key": "schnittlauch", "name": "Schnittlauch"},
-    {"key": "salbei", "name": "Salbei"},
-    {"key": "zitronengras", "name": "Zitronengras"}
+    {
+      "key": "basilikum",
+      "name": "Basilikum"
+    },
+    {
+      "key": "chiliflocken",
+      "name": "Chiliflocken",
+      "staple": true
+    },
+    {
+      "key": "currypulver",
+      "name": "Currypulver",
+      "staple": true
+    },
+    {
+      "key": "dill",
+      "name": "Dill"
+    },
+    {
+      "key": "essig",
+      "name": "Essig",
+      "staple": true
+    },
+    {
+      "key": "estragon",
+      "name": "Estragon (getrocknet)",
+      "staple": true
+    },
+    {
+      "key": "garam-masala",
+      "name": "Garam Masala",
+      "staple": true
+    },
+    {
+      "key": "nelken",
+      "name": "Gewürznelken",
+      "staple": true
+    },
+    {
+      "key": "kardamom",
+      "name": "Kardamom",
+      "staple": true
+    },
+    {
+      "key": "koriander",
+      "name": "Koriander (frisch)"
+    },
+    {
+      "key": "koriander-gemahlen",
+      "name": "Koriander (gemahlen)",
+      "staple": true
+    },
+    {
+      "key": "kreuzkuemmel",
+      "name": "Kreuzkümmel",
+      "staple": true
+    },
+    {
+      "key": "kurkuma",
+      "name": "Kurkuma",
+      "staple": true
+    },
+    {
+      "key": "kuemmel",
+      "name": "Kümmel",
+      "staple": true
+    },
+    {
+      "key": "liebstoeckel",
+      "name": "Liebstöckel"
+    },
+    {
+      "key": "lorbeer",
+      "name": "Lorbeerblatt",
+      "staple": true
+    },
+    {
+      "key": "minze",
+      "name": "Minze"
+    },
+    {
+      "key": "muskat",
+      "name": "Muskatnuss",
+      "staple": true
+    },
+    {
+      "key": "olivenoel",
+      "name": "Olivenöl",
+      "staple": true
+    },
+    {
+      "key": "oregano",
+      "name": "Oregano (getrocknet)",
+      "staple": true
+    },
+    {
+      "key": "paprikapulver",
+      "name": "Paprikapulver",
+      "staple": true
+    },
+    {
+      "key": "petersilie",
+      "name": "Petersilie"
+    },
+    {
+      "key": "pfeffer",
+      "name": "Pfeffer",
+      "staple": true
+    },
+    {
+      "key": "pflanzenoel",
+      "name": "Pflanzenöl",
+      "staple": true
+    },
+    {
+      "key": "piment",
+      "name": "Piment",
+      "staple": true
+    },
+    {
+      "key": "ras-el-hanout",
+      "name": "Ras el Hanout",
+      "staple": true
+    },
+    {
+      "key": "rosmarin",
+      "name": "Rosmarin",
+      "staple": true
+    },
+    {
+      "key": "safran",
+      "name": "Safran",
+      "staple": true
+    },
+    {
+      "key": "salbei",
+      "name": "Salbei"
+    },
+    {
+      "key": "salz",
+      "name": "Salz",
+      "staple": true
+    },
+    {
+      "key": "schnittlauch",
+      "name": "Schnittlauch"
+    },
+    {
+      "key": "senfkoerner",
+      "name": "Senfkörner",
+      "staple": true
+    },
+    {
+      "key": "sumach",
+      "name": "Sumach",
+      "staple": true
+    },
+    {
+      "key": "thymian",
+      "name": "Thymian",
+      "staple": true
+    },
+    {
+      "key": "vanille",
+      "name": "Vanille",
+      "staple": true
+    },
+    {
+      "key": "wacholderbeeren",
+      "name": "Wacholderbeeren",
+      "staple": true
+    },
+    {
+      "key": "wasser",
+      "name": "Wasser",
+      "staple": true
+    },
+    {
+      "key": "zaatar",
+      "name": "Za'atar",
+      "staple": true
+    },
+    {
+      "key": "zimt",
+      "name": "Zimt",
+      "staple": true
+    },
+    {
+      "key": "zitronengras",
+      "name": "Zitronengras"
+    }
   ]
 }

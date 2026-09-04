@@ -102,6 +102,8 @@ const GLUTEN_LIMITS: Record<string, true | number> = Object.fromEntries([
   'semmelbroesel', 'brot', 'toast', 'baguette', 'broetchen', 'tortillas', 'pizzateig', 'blaetterteig',
   'mehlbutter-fertigteig', 'pita', 'naan', 'couscous', 'bulgur', 'haferflocken', 'granola', 'knaeckebrot',
   'sojasauce', 'worcestersauce', 'miso', 'bier', 'seitan', 'loeffelbiskuits', 'butterkekse',
+  'dinkel', 'dinkelmehl', 'roggenmehl', 'gruenkern', 'graupen', 'hartweizengriess', 'panko',
+  'tortellini', 'ravioli', 'tagliatelle', 'spaetzle', 'orzo',
 ].map((k) => [k, true as const]))
 
 const GLUTEN_SUBS: Record<string, Sub> = {
@@ -122,6 +124,12 @@ const GLUTEN_SUBS: Record<string, Sub> = {
   worcestersauce: sub('glutenfreie Worcestersauce'), miso: sub('helles Reis-Miso', 'Gerstenmiso enthält Gluten'),
   bier: sub('glutenfreies Bier'), seitan: sub('fester Tofu', 'Seitan besteht aus Weizeneiweiß', true),
   loeffelbiskuits: sub('glutenfreie Löffelbiskuits'), butterkekse: sub('glutenfreie Butterkekse'),
+  dinkel: sub('Buchweizen', undefined, true), dinkelmehl: sub('glutenfreie Mehlmischung'),
+  roggenmehl: sub('glutenfreie Mehlmischung'), gruenkern: sub('Hirse', undefined, true),
+  graupen: sub('Reis', undefined, true), hartweizengriess: sub('Maisgrieß'),
+  panko: sub('glutenfreie Semmelbrösel'), tortellini: sub('glutenfreie Tortellini'),
+  ravioli: sub('glutenfreie Ravioli'), tagliatelle: sub('glutenfreie Tagliatelle'),
+  spaetzle: sub('glutenfreie Spätzle'), orzo: sub('Risoni aus Mais oder Reis'),
 }
 
 // ---------------------------------------------------------------- Laktose
@@ -134,6 +142,8 @@ const LACTOSE_LIMITS: Record<string, true | number> = {
   mascarpone: true, halloumi: true, ziegenkaese: true, 'kaese-gerieben': true, buttermilch: true,
   'eis-vanille': true, milchreis: true,
   butter: 30, // bis etwa 30 g je Portion unkritisch, Butter enthält kaum Laktose
+  kefir: true, ayran: true, burrata: true, camembert: true, 'saure-sahne': true,
+  kondensmilch: true, 'creme-double': true,
 }
 
 const LACTOSE_SUBS: Record<string, Sub> = {
@@ -147,6 +157,10 @@ const LACTOSE_SUBS: Record<string, Sub> = {
   'kaese-gerieben': sub('geriebener Hartkäse', 'lang gereifter Käse ist praktisch laktosefrei'),
   buttermilch: sub('laktosefreie Milch mit einem Spritzer Zitrone'), 'eis-vanille': sub('laktosefreies Vanilleeis'),
   butter: sub('laktosefreie Butter'), milchreis: sub('Milchreis mit laktosefreier Milch'),
+  kefir: sub('laktosefreier Kefir'), ayran: sub('laktosefreier Joghurt mit Wasser und Salz'),
+  burrata: sub('laktosefreier Mozzarella'), camembert: sub('gereifter Camembert', 'je reifer, desto weniger Laktose'),
+  'saure-sahne': sub('laktosefreie saure Sahne'), kondensmilch: sub('laktosefreie Kondensmilch'),
+  'creme-double': sub('Hafercreme'),
 }
 
 // ---------------------------------------------------------------- Fruktose
@@ -172,6 +186,10 @@ export const FRUCTOSE_G: Record<string, { total: number; excess: number }> = {
   kokos: { total: 1.0, excess: 0.4 }, datteln: { total: 24, excess: 0 }, rosinen: { total: 33, excess: 1 },
   feigen: { total: 24, excess: 0 }, wassermelone: { total: 3.9, excess: 1.9 }, kiwi: { total: 4.3, excess: 0.3 },
   avocado: { total: 0.2, excess: 0 },
+  aprikose: { total: 0.9, excess: 0 }, nektarine: { total: 1.4, excess: 0.2 },
+  zwetschgen: { total: 2.0, excess: 0 }, quitte: { total: 2.6, excess: 0.4 },
+  johannisbeeren: { total: 2.6, excess: 0.4 }, brombeeren: { total: 3.1, excess: 0.4 },
+  stachelbeeren: { total: 3.3, excess: 0.5 }, mandarine: { total: 1.3, excess: 0.1 },
   // Gemüse mit nennenswertem Anteil
   tomate: { total: 1.4, excess: 0.3 }, cherrytomate: { total: 1.6, excess: 0.4 }, paprika: { total: 2.0, excess: 0.3 },
   karotte: { total: 1.3, excess: 0.2 }, zwiebel: { total: 1.3, excess: 0.3 }, 'rote-bete': { total: 0.2, excess: 0 },
@@ -188,7 +206,9 @@ export const FRUCTOSE_G: Record<string, { total: number; excess: number }> = {
   'eis-vanille': { total: 11, excess: 0 }, loeffelbiskuits: { total: 30, excess: 0 }, butterkekse: { total: 12, excess: 0 },
   granola: { total: 12, excess: 1 }, mayonnaise: { total: 1.5, excess: 0 }, senf: { total: 2, excess: 0.3 },
   erdnussbutter: { total: 3, excess: 0 }, sojasauce: { total: 1, excess: 0 }, currypaste: { total: 4, excess: 1 },
-  pesto: { total: 2, excess: 0.3 },
+  pesto: { total: 2, excess: 0.3 }, ajvar: { total: 5, excess: 1.2 },
+  zuckerruebensirup: { total: 30, excess: 2 }, marzipan: { total: 25, excess: 0 },
+  kuvertuere: { total: 20, excess: 0 }, kondensmilch: { total: 8, excess: 0 },
 }
 
 /** Wie viel Fruchtzucker je Portion noch in Ordnung ist. */
@@ -241,6 +261,9 @@ const FRUCTOSE_SUBS: Record<string, Sub> = {
   'eis-vanille': sub('Sahne mit Vanille und Traubenzucker'),
   loeffelbiskuits: sub('Löffelbiskuits mit Traubenzucker'), butterkekse: sub('Kekse mit Traubenzucker'),
   granola: sub('Haferflocken mit Nüssen', 'Fertiggranola ist meist stark gesüßt', true),
+  ajvar: sub('Paprikamark ohne Zucker', undefined, true),
+  zuckerruebensirup: sub('Reissirup'), marzipan: sub('Mandelmus mit Traubenzucker', undefined, true),
+  kuvertuere: sub('Kuvertüre mit Traubenzucker'), kondensmilch: sub('Sahne mit Traubenzucker'),
   currypaste: sub('Currypulver mit etwas Kokosmilch', 'Fertigpasten sind oft gezuckert', true),
 }
 
@@ -253,6 +276,8 @@ const DIGEST_LIMITS: Record<string, true | number> = {
   'schwarze-bohnen': true, 'weisse-bohnen': true, edamame: true, sojahack: true,
   weisskohl: true, rotkohl: true, rosenkohl: true, gruenkohl: true, sauerkraut: true, blumenkohl: true,
   brokkoli: 60, champignons: 40, pilze: 40, paprika: 40, gurke: 50, radieschen: true, essiggurken: true,
+  spitzkohl: true, wirsing: true, romanesco: true, chicoree: true, steckruebe: true,
+  schwarzwurzel: 60, topinambur: true, shiitake: 40, rettich: true, zuckerschoten: 50,
   zwiebel: 25, knoblauch: 4, lauch: 30, oliven: 15, kapern: 8, 'getrocknete-tomaten': 12,
   chili: true, chiliflocken: true, sriracha: true, 'sambal-oelek': true, harissa: true, currypaste: true,
   weisswein: true, rotwein: true, bier: true, kaffee: true,
@@ -278,6 +303,10 @@ const DIGEST_SUBS: Record<string, Sub> = {
   mayonnaise: sub('Joghurtdressing'),
   mandeln: sub('gemahlene Mandeln', 'fein gemahlen sind Nüsse deutlich bekömmlicher', true),
   walnuesse: sub('gemahlene Mandeln', undefined, true), haselnuesse: sub('gemahlene Haselnüsse', undefined, true),
+  spitzkohl: sub('Zucchini'), wirsing: sub('Zucchini'), romanesco: sub('Zucchini'),
+  chicoree: sub('gedünsteter Feldsalat'), steckruebe: sub('Karotten'), schwarzwurzel: sub('Karotten'),
+  topinambur: sub('Kartoffeln'), shiitake: sub('Zucchini'), rettich: sub('geschälte Gurke'),
+  zuckerschoten: sub('grüne Bohnen'),
   'linsen-rot': sub('rote Linsen, sehr weich gekocht', 'geschälte rote Linsen sind die bekömmlichsten Hülsenfrüchte'),
   kichererbsen: sub('sehr weich gekochte rote Linsen', undefined, true),
   'linsen-braun': sub('geschälte rote Linsen, sehr weich gekocht', 'ohne Schale sind Linsen deutlich bekömmlicher'),
@@ -293,9 +322,10 @@ const DIGEST_OMIT = new Set([
 
 const MEAT = ['haehnchenbrust', 'haehnchenschenkel', 'hackfleisch', 'rinderhack', 'rindfleisch', 'rindersteak',
   'schweinefleisch', 'schweineschnitzel', 'speck', 'schinken', 'salami', 'bratwurst', 'wuerstchen', 'chorizo',
-  'putenbrust', 'lamm', 'ente', 'kasseler']
+  'putenbrust', 'lamm', 'ente', 'kasseler', 'rinderfilet', 'kalbfleisch', 'leber', 'kaninchen', 'haehnchenfluegel']
 const FISH = ['lachs', 'raeucherlachs', 'thunfisch-dose', 'thunfischsteak', 'garnelen', 'kabeljau', 'forelle',
-  'seelachs', 'hering', 'muscheln', 'tintenfisch', 'sardellen', 'dorade']
+  'seelachs', 'hering', 'muscheln', 'tintenfisch', 'sardellen', 'dorade',
+  'zander', 'scholle', 'makrele', 'sardinen', 'jakobsmuscheln']
 
 const VEGETARIAN_LIMITS: Record<string, true | number> = Object.fromEntries(
   [...MEAT, ...FISH, 'huehnerbruehe', 'fischsauce', 'gelatine', 'worcestersauce'].map((k) => [k, true as const]),
@@ -319,6 +349,7 @@ const VEGETARIAN_SUBS: Record<string, Sub> = {
   sardellen: sub('ein Löffel helles Miso', 'bringt dieselbe herzhafte Tiefe', true),
   garnelen: sub('Kräuterseitlinge', undefined, true),
   'thunfisch-dose': sub('zerdrückte Kichererbsen', undefined, true),
+  haehnchenfluegel: sub('Blumenkohlröschen paniert', undefined, true),
 }
 
 const DAIRY_VEGAN: Record<string, Sub> = {
@@ -338,10 +369,15 @@ const DAIRY_VEGAN: Record<string, Sub> = {
   honig: sub('Ahornsirup', undefined, true), mayonnaise: sub('vegane Mayonnaise'),
   butterkekse: sub('vegane Kekse'), loeffelbiskuits: sub('vegane Löffelbiskuits'),
   'mehlbutter-fertigteig': sub('veganer Blätterteig'),
+  kefir: sub('Kokosjoghurt mit Wasser'), ayran: sub('Sojajoghurt mit Wasser und Salz'),
+  burrata: sub('veganer Frischkäse'), camembert: sub('veganer Weichkäse'),
+  bergkaese: sub('veganer Käse'), 'saure-sahne': sub('Sojajoghurt'),
+  kondensmilch: sub('Kokosmilch, eingekocht'), 'creme-double': sub('Hafercreme'),
 }
 
 const VEGAN_LIMITS: Record<string, true | number> = {
   ...VEGETARIAN_LIMITS,
+  bergkaese: true,
   ...Object.fromEntries(Object.keys(DAIRY_VEGAN).map((k) => [k, true as const])),
 }
 

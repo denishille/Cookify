@@ -47,6 +47,22 @@ const noSub = Object.entries(FRUCTOSE_G)
   .map(([k]) => k)
 if (noSub.length) console.log(`  fruktosefrei: ${noSub.length} starke Quellen ohne Ersatz (nur Menge senken): ${noSub.join(', ')}`)
 
+// Fleisch und Fisch müssen bei vegetarisch und vegan erfasst sein, sonst gilt ein
+// Rezept damit fälschlich als vegetarisch.
+for (const group of ['fleisch', 'fisch']) {
+  for (const { key } of ingredients[group] ?? []) {
+    if (!(key in DIET_RULES.vegetarisch.limits)) fail(`vegetarisch: "${key}" aus der Gruppe ${group} fehlt in den Regeln`)
+  }
+}
+// Getreideprodukte aus Weizen, Dinkel, Roggen und Gerste müssen bei glutenfrei erfasst sein.
+const GLUTEN_WORDS = /weizen|dinkel|roggen|gerste|nudel|pasta|spaghetti|penne|tortellini|ravioli|tagliatelle|spaetzle|brot|broetchen|toast|baguette|teig|mehl|griess|kekse|zwieback|graupen|couscous|bulgur|panko|semmel|knaeckebrot|kuchen|waffel|cracker/i
+for (const { key, name } of ingredients.getreide ?? []) {
+  const glutenFree = /reis|mais|hirse|quinoa|buchweizen|amaranth|polenta|glasnudeln|staerke|hefe|backpulver|natron|flohsamen|mandelmehl|kichererbsenmehl|hafer|granola/i
+  if (glutenFree.test(key)) continue
+  if (!GLUTEN_WORDS.test(key) && !GLUTEN_WORDS.test(name)) continue
+  if (!(key in DIET_RULES.glutenfrei.limits)) fail(`glutenfrei: "${key}" (${name}) fehlt in den Regeln`)
+}
+
 for (const key of Object.keys(TITLE_ALIASES)) {
   if (!validKeys.has(key) && key !== 'linsen') fail(`TITLE_ALIASES: unbekannte Zutat "${key}"`)
 }
