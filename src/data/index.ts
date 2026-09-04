@@ -1,6 +1,7 @@
 import type { Recipe, IngredientDef, RecipeSource } from '../types'
 import ingredientsJson from './ingredients.json'
 import scheduleJson from './schedule.json'
+import { derivedDiet } from '../lib/nutrition'
 
 type RawRecipe = Omit<Recipe, 'addedWeek' | 'source'> & { addedWeek?: string; source?: RecipeSource }
 
@@ -24,7 +25,12 @@ export const ALL_RECIPES: Recipe[] = Object.keys(modules)
     seen.add(r.id)
     return true
   })
-  .map((r) => ({ ...r, addedWeek: r.addedWeek ?? schedule[r.id] ?? DEFAULT_WEEK, source: r.source ?? SOURCES[r.id] }))
+  .map((r) => ({
+    ...r,
+    diet: derivedDiet(r.diet, r.nutrition),
+    addedWeek: r.addedWeek ?? schedule[r.id] ?? DEFAULT_WEEK,
+    source: r.source ?? SOURCES[r.id],
+  }))
 
 export const INGREDIENT_GROUPS: Record<string, IngredientDef[]> = ingredientsJson
 
