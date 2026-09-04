@@ -1,0 +1,32 @@
+{
+  "title": "Spaghetti al Limone nach bestem Rezept",
+  "description": "Für Spaghetti al Limone braucht es nur wenige Zutaten und 15 Minuten Zubereitungszeit – schon steht die einfache Lemon Pasta auf dem Tisch.",
+  "ingredients": [
+    "400 g Spaghetti (ich verwende die dickeren Bucatini)",
+    "150 ml Olivenöl",
+    "2 Bio-Zitronen (Abrieb und 100 ml Zitronensaft)",
+    "100 g Parmesan",
+    "Meersalz",
+    "1 Prise Pfeffer",
+    "Basilikum"
+  ],
+  "steps": [
+    "In einer Schüssel Olivenöl und Zitronensaft verrühren. Dann den geriebenen Parmesan gut unterrühren.",
+    "Spaghetti nach Packungsangabe kochen. Abgießen und 1 Kelle Kochwasser abfangen.",
+    "Spaghetti mit der Soße mischen und soviel Kochwasser zugeben, bis eine cremige Sauce entsteht. (Dafür sorgt die Stärke im Kochwasser) Alles mit Basilikum, etwas Parmesan und Zitronenabrieb servieren."
+  ],
+  "timeMinutes": 15,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "keywords": "Pasta",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2024/05/Spaghetti-al-limone-klasisch.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/spaghetti-al-limone-nach-bestem-rezept/",
+    "title": "Spaghetti al Limone nach bestem Rezept",
+    "rating": 5,
+    "ratingCount": 23
+  },
+  "importedAt": "2026-09-04"
+}

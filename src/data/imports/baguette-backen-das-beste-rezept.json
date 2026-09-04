@@ -1,0 +1,31 @@
+{
+  "title": "Baguette backen – das beste Rezept",
+  "description": "Du möchtest Baguette backen, das wie in Frankreich schmeckt? Mit diesem Rezept von Brotsommelier Axel Schmitt für &quot;das einfachste Baguette der Welt&quot; kannst du den luftigen Teig aus nur 4 Zutaten zubereiten und das beste Baguette selber machen!",
+  "ingredients": [
+    "300 g Weizenmehl (Type 550)",
+    "6 g Salz",
+    "200 g Wasser",
+    "4 g frische Hefe"
+  ],
+  "steps": [
+    "Mehl, Salz und Wasser in einer Schüssel geben und die Hefe hinein bröseln. Mit einem Kochlöffel verrühren, bis das Wasser gebunden ist.",
+    "Den Teig in eine Dose geben, die sich verschließen lässt und im Kühlschrank 14-20 Stunden gehen lassen.",
+    "Backofen auf 250 Grad Ober- und Unterhitze vorheizen.",
+    "Den Teig auf eine bemehlte Arbeitsfläche geben und in 2 Portionen teilen. (Du brauchst den Teig nicht mehr kneten.) Aus den Teilstücken Baguettes formen und spitze Enden drehen. Diese auf ein mit Backpapier belegtes Blech oder einen Pizzastein geben, mit Mehl bestäuben und mit einem Messer 3 x schräg einschneiden.",
+    "Eine ofenfeste Schale mit etwas Wasser auf den Ofenboden stellen und die Baguettes auf mittlerer Schiene 20 Minuten backen."
+  ],
+  "timeMinutes": 40,
+  "servings": 2,
+  "category": "Beilage",
+  "cuisine": "Französisch",
+  "keywords": "Baguette, Brot",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2024/08/Baguette-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/baguette-selber-machen/",
+    "title": "Baguette backen – das beste Rezept",
+    "rating": 4.9,
+    "ratingCount": 76
+  },
+  "importedAt": "2026-09-04"
+}

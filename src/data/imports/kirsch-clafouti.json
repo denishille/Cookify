@@ -1,0 +1,36 @@
+{
+  "title": "Kirsch-Clafouti",
+  "description": "Kirsch-Clafouti ist ein Rezept mit frischen Zutaten aus der Kategorie Steinobst. Probieren Sie dieses und weitere Rezepte von EAT SMARTER!",
+  "ingredients": [
+    "4 Eier",
+    "50 g Zucker",
+    "2 EL Vanillezucker",
+    "75 g Mehl",
+    "1 Prise Salz",
+    "1 Msp. Backpulver",
+    "100 g Quark",
+    "75 ml Milch",
+    "750 g Kirschen",
+    "Butter (für die Form)",
+    "1 EL Mehl (für die Kirschen)",
+    "Puderzucker (zum Bestauben)"
+  ],
+  "steps": [
+    "Den Backofen auf 180°C Umluft vorheizen. Die Pieform ausbuttern.",
+    "Die Eier mit dem Zucker und Vanillezucker schaumig schlagen. Das Mehl, Salz, Backpulver, Quark und Milch zur Eimasse geben und gut unterrühren",
+    "Die Kirschen waschen, entkernen und gut abtropfen lassen. Locker mit 1-2 EL Mehl vermengen, dadurch sinken sie im Teig nicht auf den Boden.",
+    "Die Hälfte des Teiges einfüllen, die Hälfte der Kirschen darauf verteilen, dann den restlichen Teig drüber geben, glatt streichen und die übrigen Kirschen darüber streuen.",
+    "Im heißen Ofen 30-40 Minuten goldbraun backen. Mit Puderzucker bestaubt servieren."
+  ],
+  "timeMinutes": 65,
+  "servings": 1,
+  "category": "Dessert",
+  "cuisine": "Französisch",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/kirsch-clafouti-62115.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/kirsch-clafouti",
+    "title": "Kirsch-Clafouti"
+  },
+  "importedAt": "2026-09-04"
+}

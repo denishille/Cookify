@@ -1,0 +1,32 @@
+{
+  "title": "Kartoffelknödel wie bei Oma",
+  "description": "Mit diesem einfachen Rezept kochst du aus gekochten Kartoffeln perfekte Kartoffelknödel wie bei Oma. Jetzt ausprobieren!",
+  "ingredients": [
+    "800 g Kartoffeln (mehlig kochend)",
+    "120 g Kartoffelmehl (oder Kartoffelstärke)",
+    "1 Eigelb",
+    "40 g Butter (flüssig)",
+    "1/2 TL Salz",
+    "1 Prise Muskat"
+  ],
+  "steps": [
+    "Kartoffeln in kochendem Wasser 20 Minuten weich kochen, dann auskühlen lassen.",
+    "Kartoffeln schälen und durch eine Kartoffelpresse drücken. Kartoffelmehl, Eigelb, Butter, Salz und Muskat zugeben und einen glatten Teig kneten.",
+    "Mit angefeuchteten Händen einen Probeknödel formen und in siedendem Wasser 10 Minuten ziehen lassen, bis er an der Oberfläche schwimmt. Wenn der Knödel auseinander fällt, muss noch etwas mehr Kartoffelmehl in den Teig.",
+    "Mit angefeuchteten Händen 15 weitere Knödel formen und im siedenden (nicht kochendem) Wasser 10 Minuten ziehen lassen. Wenn die Knödel oben schwimmen sind die fertig. Dann mit der Lochkelle herausnehmen."
+  ],
+  "timeMinutes": 45,
+  "servings": 16,
+  "category": "Beilage",
+  "cuisine": "Deutsch",
+  "keywords": "Kartoffeln",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/12/Kartoffelknoedel-Gaumenfreundin-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kartoffelknoedel-wie-bei-oma/",
+    "title": "Kartoffelknödel wie bei Oma",
+    "rating": 5,
+    "ratingCount": 116
+  },
+  "importedAt": "2026-09-04"
+}

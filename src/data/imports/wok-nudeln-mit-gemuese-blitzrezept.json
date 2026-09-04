@@ -1,0 +1,34 @@
+{
+  "title": "Wok-Nudeln mit Gemüse: Blitzrezept",
+  "description": "Meine Wok-Nudeln sind vegetarisch, blitzschnell gemacht und voller Geschmack – perfekt für die Feierabendküche!",
+  "ingredients": [
+    "100 g Soba-Nudeln",
+    "1 cm Ingwer",
+    "2 Knoblauchzehen",
+    "1 EL Sesamöl",
+    "400 g Asia-Gemüsemischung (TK)",
+    "4 EL Sojasauce",
+    "200 ml Gemüsebrühe",
+    "2 EL Terriyaki-Sauce",
+    "2 EL Koriander (oder Petersilie)"
+  ],
+  "steps": [
+    "Soba-Nudeln nach Packungsangabe zubereiten. Ingwer und Knoblauch klein schneiden.",
+    "Sesamöl in einem Wok erhitzen. Ingwer, Knoblauch und Gemüse für 3 Minuten anbraten. Sojasauce und Gemüsebrühe zugeben und alles für 5 Minuten köcheln lassen.",
+    "Soba-Nudeln unterheben. Dann alles mit Terriyaki-Sauce abschmecken. Wok-Nudeln mit Koriander oder Petersilie garnieren."
+  ],
+  "timeMinutes": 15,
+  "servings": 2,
+  "category": "Hauptgericht",
+  "cuisine": "Asiatisch",
+  "keywords": "Nudeln, Schnell, vegan, vegetarisch",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/02/Nudeln-mit-Gemuese-Wok.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/wok-nudeln/",
+    "title": "Wok-Nudeln mit Gemüse: Blitzrezept",
+    "rating": 5,
+    "ratingCount": 52
+  },
+  "importedAt": "2026-09-04"
+}

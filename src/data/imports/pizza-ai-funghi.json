@@ -1,0 +1,30 @@
+{
+  "title": "Pizza ai funghi",
+  "description": "Pilze gehören einfach auf eine gute Pizza. Hier einmal in der einfachsten Variante: Tomaten, Pizza, Käse, fertig. Dafür Pilze satt, soviele gibt's in der Pizzeria nie!",
+  "ingredients": [
+    "1/2 Würfel Hefe (21 g)",
+    "1 TL Zucker",
+    "250 g Mehl",
+    "Salz",
+    "2 EL Olivenöl",
+    "300 g Champignons",
+    "Saft von 1/2 Zitrone",
+    "1 Kugel Mozzarella (125 g)",
+    "1 Glas Tomatensugo oder -salsa",
+    "Pfeffer, frisch gemahlen"
+  ],
+  "steps": [
+    "Die Hefe mit Zucker und 75 ml lauwarmem Wasser verrühren. Das Mehl in eine Schüssel geben, in die Mitte eine Mulde drücken, die Hefe hineingießen. Abgedeckt 15 Min. gehen lassen. Dann mit 1/2 TL Salz, Öl und etwa 75 ml lauwarmem Wasser zu einem elastischen Teig verkneten. Abgedeckt 45 Min. gehen lassen.",
+    "Den Backofen auf 250° (Umluft 220°) vorheizen. Die Champignons trocken abreiben und die Stielenden abschneiden. Pilze in feine Scheiben schneiden und mit dem Zitronensaft beträufeln. Den Mozzarella in dünne Scheiben schneiden.",
+    "Den Teig dünn ausrollen und mit Sugo oder Salsa bestreichen. Mit Pilzen und Mozzarella belegen. Mit Salz und Pfeffer würzen. Im Ofen (unten) etwa 10 Min. backen."
+  ],
+  "timeMinutes": 90,
+  "servings": 2,
+  "image": "https://www.kuechengoetter.de/uploads/media/630x630/03/4213-pizza-ai-funghi.jpg?v=1-0",
+  "source": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/pizza-ai-funghi-786",
+    "title": "Pizza ai funghi"
+  },
+  "importedAt": "2026-09-04"
+}

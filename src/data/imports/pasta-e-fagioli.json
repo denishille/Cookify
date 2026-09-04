@@ -1,0 +1,42 @@
+{
+  "title": "Pasta e fagioli",
+  "description": "Die Pasta e fagioli von EAT SMARTER ist ein echter Seelenwärmer aus der italienischen Küche!",
+  "ingredients": [
+    "3 Zweige Thymian",
+    "2 Knoblauchzehen",
+    "2 Zwiebeln",
+    "1 Staudensellerie",
+    "2 Möhren (à 100 g)",
+    "2 EL Olivenöl",
+    "1 EL Tomatenmark (à 15 g)",
+    "0.5 TL Chiliflocken",
+    "200 g stückige Tomaten (Dose)",
+    "600 ml Gemüsebrühe",
+    "480 g weiße Bohnen (Dose; Abtropfgewicht)",
+    "2 Lorbeerblätter",
+    "1 TL getrockneter Oregano",
+    "160 g kleine Vollkornnudeln",
+    "60 g Parmesan (30 % Fett i. Tr.)",
+    "2 TL Miso-Paste",
+    "Salz",
+    "Pfeffer"
+  ],
+  "steps": [
+    "Thymian waschen und trocken schütteln. Knoblauchzehen und Zwiebeln schälen. Staudensellerie putzen und waschen. Möhren putzen und schälen. Knoblauch, Zwiebeln, Staudensellerie und Möhren sehr fein würfeln oder im Food Processor fein hacken.",
+    "In einem großen Topf Olivenöl erhitzen und vorbereitetes Gemüse bei mittlerer Hitze ca. 5 Minuten andünsten. Tomatenmark und Chiliflocken dazugeben. Mit gehackten Tomaten und Gemüsebrühe ablöschen. Bohnen samt Aquafaba und Lorbeerblätter zugeben, mit Oregano und Thymian würzen und bei kleiner bis mittlerer Hitze ca. 5 Minuten köcheln lassen.",
+    "Dann Nudeln hinzufügen und bei mittlerer Hitze ca. 10 Minuten garen, bis sie al dente sind und die Sauce eine cremige Konsistenz erreicht. Topf vom Herd nehmen. Parmesan fein reiben und bis auf etwas zum Bestreuen zusammen mit der Misopaste unterrühren. Mit Salz und Pfeffer abschmecken und die Pasta e fagioli in Schalen anrichten. Mit restlichem Parmesan bestreuen."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Mittagessen, Abendessen, Hauptspeise",
+  "cuisine": "Europa, Italienische",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/pasta-e-fagioli-682743.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/pasta-e-fagioli-1",
+    "title": "Pasta e fagioli",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "importedAt": "2026-09-04"
+}

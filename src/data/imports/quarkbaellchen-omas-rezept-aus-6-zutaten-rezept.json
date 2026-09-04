@@ -1,0 +1,34 @@
+{
+  "title": "Quarkbällchen: Omas Rezept aus 6 Zutaten Rezept",
+  "description": "Luftige Quarkbällchen sind mit unserem Rezept einfach gemacht. Ob frittiert, im Ofen oder der Heißluftfritteuse - so gelingen dir die saftigen Quarkballen bestimmt.",
+  "ingredients": [
+    "250 g Mehl",
+    "1 Pck. Backpulver",
+    "125 g Zucker",
+    "2 Pck. Vanillezucker",
+    "250 g Magerquark",
+    "3 Eier (Gr. M)",
+    "Frittierfett",
+    "Zucker zum Wälzen"
+  ],
+  "steps": [
+    "Mehl und Backpulver in eine Schüssel sieben und gut miteinander vermengen. Zucker und Vanillezucker untermischen.",
+    "In einer zweiten Schüssel Quark und Eier miteinander verrühren. Quarkmasse zu den trockenen Zutaten geben und mit den Schneebesen des Handrührgerätes zu einem glatten Teig verrühren.",
+    "Ca. 1 l Frittierfett in einem Topf auf 170 °C erhitzen. Zur Überprüfung der Temperatur kannst du ein Küchenthermometer verwenden oder einen Holzstab ins Fett geben. Wenn kleine Bläschen nach oben steigen ist das Fett heiß und damit bereit für die Quarkballen.",
+    "Teig in einen Spritzbeutel ohne oder mit großer runder Tülle füllen. Pro Quarkbällchen über dem heißen Fett vorsichtig einen Teigstrang von 3 cm herausdrücken und mit einem Küchenmesser abtrennen. Alternativ mit Hilfe von 2 Teelöffeln Teig portionsweise vorsichtig ins Fett gleiten lassen. Die Quarkbällchen ca. 3-5 Minuten backen, bis sie goldbraun sind. Nicht zu viele auf einmal ausbacken, da sie im Fett noch aufgehen.",
+    "Bällchen mit einem Schaumlöffel herausnehmen und auf Küchenpapier abtropfen lassen. Den übrigen Teig ebenso verarbeiten. Die luftigen Quarkbällchen noch heiß in Zucker wälzen und am besten lauwarm servieren."
+  ],
+  "timeMinutes": 40,
+  "servings": 20,
+  "category": "Kuchen & Gebäck",
+  "keywords": "Rezepte,Backen,Gebäck,Karneval und Fasching,Omas Rezepte",
+  "image": "https://images.lecker.de/quarkbaellchen-b/1x1,id=cf471229,b=lecker,w=1600,h=,ca=9.49,0,84.51,100,rm=sk.jpeg",
+  "source": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/quarkbaellchen-nach-omas-rezept-79492.html",
+    "title": "Quarkbällchen: Omas Rezept aus 6 Zutaten Rezept",
+    "rating": 4.5,
+    "ratingCount": 84
+  },
+  "importedAt": "2026-09-04"
+}

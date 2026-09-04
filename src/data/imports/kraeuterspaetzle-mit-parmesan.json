@@ -1,0 +1,35 @@
+{
+  "title": "Kräuterspätzle mit Parmesan",
+  "description": "Die Kräuterspätzle mit Parmesan von EAT SMARTER sollten Sie unbedingt probieren!",
+  "ingredients": [
+    "10 g Petersilie (0.5 Bund)",
+    "10 g Schnittlauch (0.5 Bund)",
+    "Salz",
+    "6 Eier",
+    "Muskatnuss",
+    "400 g Dinkel-Vollkornmehl",
+    "130 ml kohlensäurehaltiges Mineralwasser",
+    "15 g Butter (1 EL)",
+    "2 EL Olivenöl",
+    "60 g Parmesan (1 Stück; 30 % Fett i. Tr.)"
+  ],
+  "steps": [
+    "Kräuter waschen, trocken schütteln und fein hacken. Kräuter zusammen mit Eiern, Salz und 1 Prise frisch geriebenem Muskat verrühren. Mehl einrühren, Mineralwasser zugeben und verquirlen.",
+    "Teig mit einem stabilen Holzkochlöffel etwa 5 Minuten sehr kräftig schlagen, um Luft unter den Teig zu bringen, damit sich Blasen bilden. Teig 5 Minuten ruhen lassen. Wenn der Teig zäh am Kochlöffel hinabläuft und dabei nicht abreißt, ist er perfekt. Bei Bedarf etwas Wasser oder Mehl zugeben.",
+    "Mit einer Spätzlepresse den Teig portionsweise in kochendes Salzwasser drücken. Die Spätzle darin 2–3 Minuten bei kleiner Hitze garen. Dann mit einer Schaumkelle herausnehmen, abschrecken und abtropfen lassen.",
+    "Butter zusammen mit Olivenöl in einer Pfanne erhitzen. Spätzle darin 3 Minuten bei mittlerer Hitze schwenken. Parmesan in Spänen über die Spätzle reiben."
+  ],
+  "timeMinutes": 30,
+  "servings": 4,
+  "category": "Mittagessen, Abendessen, Beilage",
+  "cuisine": "Europa, Deutsche",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/kraeuterspaetzle-mit-parmesan-655454.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/kraeuterspaetzle-mit-parmesan",
+    "title": "Kräuterspätzle mit Parmesan",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "importedAt": "2026-09-04"
+}

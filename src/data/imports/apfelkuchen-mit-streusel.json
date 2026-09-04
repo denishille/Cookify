@@ -1,0 +1,34 @@
+{
+  "title": "Apfelkuchen mit Streusel",
+  "description": "Mein bester Apfelkuchen mit Streusel ist dank nur einem Teig für Boden und Streusel ganz einfach zu machen!",
+  "ingredients": [
+    "300 g Mehl",
+    "180 g Butter (kalt)",
+    "150 g Zucker",
+    "1 Prise Salz",
+    "8 Äpfel",
+    "1 EL Zitronensaft",
+    "1 TL Zimt"
+  ],
+  "steps": [
+    "Backofen auf 180 Grad Ober- und Unterhitze vorheizen. Den Boden einer Springform (Ø 24 oder 26 cm) mit Backpapier auslegen und den Rand mit Butter einfetten.",
+    "Mehl, Butter, Zucker und Salz mit den Händen verkneten. Die Hälfte vom Teig in die Springform geben und mit den Händen einen Boden und einen kleinen Rand formen. Den restlichen Teig solange in den Kühlschrank stellen.",
+    "Den Boden für 5 - 10 Minuten im Ofen vorbacken. Der Teig sollte dabei nicht braun werden.",
+    "Währenddessen die Äpfel schälen, entkernen und in kleine Stücke schneiden. Mit Zitronensaft und Zimt mischen und auf dem Kuchenboden verteilen. Aus dem restlichen Teig Streusel formen und auf den Äpfeln verteilen.",
+    "Den Kuchen für 60 Minuten backen. Wenn er zu braun werden sollte, mit Alufolie abdecken. Den Kuchen vollständig auskühlen lassen und dann erst aus der Form lösen."
+  ],
+  "timeMinutes": 80,
+  "servings": 1,
+  "category": "Dessert",
+  "cuisine": "Deutsch",
+  "keywords": "Backen, Kuchen",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/10/Apfelkuchen-mit-Streusel-einfaches-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/apfelkuchen-mit-streusel/",
+    "title": "Apfelkuchen mit Streusel",
+    "rating": 5,
+    "ratingCount": 119
+  },
+  "importedAt": "2026-09-04"
+}
