@@ -30,15 +30,7 @@ const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
 ]
 
 type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'kcal' | 'protein'
-const MISSING_OPTIONS: { value: number; label: string }[] = [
-  { value: 0, label: 'Keine, alles da' },
-  { value: 1, label: 'Bis zu 1' },
-  { value: 2, label: 'Bis zu 2' },
-  { value: 3, label: 'Bis zu 3' },
-  { value: 4, label: 'Bis zu 4' },
-  { value: 5, label: 'Bis zu 5' },
-  { value: 99, label: 'Egal' },
-]
+const MISSING_CHOICES = [1, 2, 3, 4, 5, 6, 8, 10]
 
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
   const copy = [...list]
@@ -67,7 +59,10 @@ export default function App() {
   const savedSet = usePersistentSet('cookify.saved')
   const pantrySet = usePersistentSet('cookify.pantry')
   const [storedMissing, setMaxMissing] = usePersistentState<number>('cookify.maxMissing', 3)
-  const maxMissing = MISSING_OPTIONS.some((o) => o.value === storedMissing) ? storedMissing : 3
+  const maxMissing = storedMissing === 0 || storedMissing === 99 || MISSING_CHOICES.includes(storedMissing) ? storedMissing : 3
+  /** Zuletzt gewählte Zahl für „Bis zu N fehlen“, bleibt erhalten, wenn man auf „Alles da“ oder „Alle Treffer“ wechselt. */
+  const [missingN, setMissingN] = usePersistentState<number>('cookify.missingN', 3)
+  const missingMode: 'none' | 'upto' | 'all' = maxMissing === 0 ? 'none' : maxMissing === 99 ? 'all' : 'upto'
   const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
@@ -207,17 +202,23 @@ export default function App() {
                   </div>
                 ) : (
                   <>
-                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS}>
-                      <label className="cfg-field">
-                        <span>Fehlen dürfen</span>
-                        <select className={`select ${maxMissing !== 99 ? 'on' : ''}`} value={maxMissing} onChange={(e) => setMaxMissing(Number(e.target.value))}>
-                          {MISSING_OPTIONS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
-                        </select>
-                      </label>
-                    </FilterGroups>
-                    <div className="results-head" style={{ marginTop: 18 }}>
-                      <span className="hint">{pantryResults.length} {pantryResults.length === 1 ? 'Treffer' : 'Treffer'}</span>
+                    <div className="results-head">
+                      <div className="segmented" role="group" aria-label="Fehlende Zutaten">
+                        <button className={missingMode === 'none' ? 'on' : ''} onClick={() => setMaxMissing(0)}>Alles da</button>
+                        <span className={`seg ${missingMode === 'upto' ? 'on' : ''}`}>
+                          <button onClick={() => setMaxMissing(missingN)}>Bis zu</button>
+                          <select className="mini" value={missingMode === 'upto' ? maxMissing : missingN} aria-label="Anzahl fehlender Zutaten"
+                            onChange={(e) => { const n = Number(e.target.value); setMissingN(n); setMaxMissing(n) }}>
+                            {MISSING_CHOICES.map((n) => <option key={n} value={n}>{n}</option>)}
+                          </select>
+                          <button onClick={() => setMaxMissing(missingN)}>fehlen</button>
+                        </span>
+                        <button className={missingMode === 'all' ? 'on' : ''} onClick={() => setMaxMissing(99)}>Alle Treffer</button>
+                      </div>
+                      <span className="hint">{pantryResults.length} Treffer</span>
                     </div>
+                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hasRatings={HAS_RATINGS} />
+                    <div style={{ height: 18 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
                         <div className="ico"><IconBasket /></div>
