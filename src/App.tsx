@@ -212,6 +212,8 @@ export default function App() {
                         <span className={`seg ${missingMode === 'upto' ? 'on' : ''}`}>
                           <button onClick={() => setMaxMissing(missingN)}>Bis zu</button>
                           <select className="mini" value={missingMode === 'upto' ? maxMissing : missingN} aria-label="Anzahl fehlender Zutaten"
+                            onFocus={() => { if (missingMode !== 'upto') setMaxMissing(missingN) }}
+                            onClick={() => { if (missingMode !== 'upto') setMaxMissing(missingN) }}
                             onChange={(e) => { const n = Number(e.target.value); setMissingN(n); setMaxMissing(n) }}>
                             {MISSING_CHOICES.map((n) => <option key={n} value={n}>{n}</option>)}
                           </select>
