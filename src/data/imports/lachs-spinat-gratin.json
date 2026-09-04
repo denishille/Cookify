@@ -1,0 +1,40 @@
+{
+  "title": "Lachs-Spinat-Gratin",
+  "description": "Probieren Sie das leckere Lachs-Spinat-Gratin von EAT SMARTER oder eines unserer anderen gesunden Rezepte!",
+  "ingredients": [
+    "500 g festkochende Kartoffeln",
+    "Salz",
+    "1 EL Butter",
+    "400 g Spinat",
+    "2 Knoblauchzehen",
+    "2 rote Zwiebeln",
+    "2 EL Dinkel-Vollkornmehl",
+    "2 EL Zitronensaft",
+    "350 ml Gemüsebrühe (alternativ Weißwein)",
+    "20 g Parmesan (1 Stück)",
+    "150 g Frischkäse",
+    "2 EL Crème fraîche",
+    "Pfeffer",
+    "Muskatnuss",
+    "600 g Lachsfilet"
+  ],
+  "steps": [
+    "Kartoffeln waschen und 20 Minuten in Salzwasser garen. Dann schälen und in mundgerechte Stücke schneiden.",
+    "Inzwischen eine Auflaufform mit 1 TL Butter auspinseln. Spinat waschen, putzen, 1 Minute in kochendem Salzwasser garen (blanchieren). Abschrecken, abtropfen lassen, ausdrucken und hacken.",
+    "Knoblauch, Zwiebeln schälen. Knoblauch hacken, Zwiebeln in Ringe schneiden. Übrige Butter in einer Pfanne erhitzen. Knoblauch und Zwiebeln darin glasig dünsten. Mit Mehl bestäuben, Zitronensaft und&nbsp;Brühe zugeben und 5 Minuten köcheln.",
+    "Parmesan reiben. Knoblauchmischung vom Herd nehmen. Parmesan, Frischkäse und Crème fraîche einrühren. Mit Salz, Pfeffer und Muskat würzen.",
+    "Lachs waschen, trocken tupfen, würfeln, mit Kartoffeln und Spinat in die Form füllen und mit Sauce übergießen. Im vorgeheizten Backofen bei 200 °C (Umluft 180 °C; Gas: Stufe 3)&nbsp;ca. 25 Minuten backen."
+  ],
+  "timeMinutes": 55,
+  "servings": 4,
+  "cuisine": "Französisch",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/lachs-spinat-gratin-39537.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/lachs-spinat-gratin",
+    "title": "Lachs-Spinat-Gratin",
+    "rating": 4.8,
+    "ratingCount": 10
+  },
+  "importedAt": "2026-09-04"
+}

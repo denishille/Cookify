@@ -1,0 +1,42 @@
+{
+  "title": "Szegediner Putengulasch",
+  "description": "Szegediner Putengulasch mit Sauerkraut und Paprika. Ein ganzes Potpourri verschiedenster B-Vitamine verbirgt sich in dem kalorienarmen Gemüsegulasch.",
+  "ingredients": [
+    "250 g Zwiebeln (4 Zwiebeln)",
+    "600 g Putengulasch",
+    "3 EL Olivenöl",
+    "3 EL Paprikapulver (edelsüß)",
+    "Salz",
+    "Pfeffer",
+    "200 ml milder Cidre (oder Apfelsaft)",
+    "400 ml Geflügelbrühe",
+    "600 g Sauerkraut (Frischepack)",
+    "1 TL Kümmel",
+    "2 Lorbeerblätter",
+    "1 Bio-Zitrone",
+    "150 g Joghurt (0,3 % Fett)",
+    "3 Stiele Petersilie"
+  ],
+  "steps": [
+    "Zwiebeln schälen und in sehr feine Streifen schneiden.",
+    "Putenfleisch waschen, trockentupfen und in einer Schüssel in der Hälfte des Öls wenden, mit der Hälfte des Paprikapulvers, Salz und Pfeffer würzen.",
+    "Das restliche Öl in einem schweren Topf erhitzen. Zwiebeln und Fleisch darin zusammen unter Rühren 5-6 Minuten anbraten.",
+    "Restliches Paprikapulver darüberstreuen, mit Cidre und Geflügelbrühe auffüllen. 10 Minuten zugedeckt schmoren lassen.",
+    "Sauerkraut, Kümmel und Lorbeerblätter dazugeben und weitere 30 Minuten schmoren lassen.",
+    "Inzwischen die Zitrone heiß abspülen, trockenreiben und die Schale fein abreiben. Zitronenschale mit Joghurt, Salz und Pfeffer verrühren.",
+    "Putengulasch kräftig mit Salz und Pfeffer würzen. Petersilie waschen, trockenschütteln, Blätter abzupfen, hacken und untermischen. Das szegediner Putengulasch mit dem Joghurt zusammen servieren."
+  ],
+  "timeMinutes": 75,
+  "servings": 6,
+  "category": "Mittagessen, Abendessen, Hauptspeise",
+  "cuisine": "Ungarische",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/szegediner-putengulasch-5911.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/szegediner-putengulasch",
+    "title": "Szegediner Putengulasch",
+    "rating": 4.5,
+    "ratingCount": 41
+  },
+  "importedAt": "2026-09-04"
+}

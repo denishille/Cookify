@@ -1,0 +1,40 @@
+{
+  "title": "Hähnchen-Erdnuss-Curry",
+  "description": "Hähnchen-Erdnuss-Curry mit Paprika und Koriander: fix wie aus einer asiatischen Garküche – und genauso köstlich!",
+  "ingredients": [
+    "125 g Naturreis (Kochbeutel, 8–10 Minuten Garzeit)",
+    "Salz",
+    "200 g Hähnchenbrustfilet",
+    "1 EL Kokosöl",
+    "2 TL rote Currypaste",
+    "200 ml Kokosmilch (9 % Fett)",
+    "300 ml Geflügelbrühe",
+    "600 g rote Paprikaschoten (3 rote Paprikaschoten)",
+    "5 Stiele Koriander",
+    "30 g Erdnusskerne (2 EL)",
+    "Sojasauce"
+  ],
+  "steps": [
+    "Reis in kochendem Salzwasser nach Packungsanleitung garen.",
+    "Inzwischen Hähnchenbrustfilet abspülen, mit Küchenpapier trocken tupfen und in dünne Scheiben schneiden.",
+    "Öl in einer Pfanne erhitzen. Currypaste zugeben und unter Rühren kurz anbraten. Kokosmilch dazugießen und glattrühren. Brühe unterrühren und einmal aufkochen lassen.",
+    "Hähnchenfleisch in Kokossauce geben und zugedeckt 5 Minuten bei kleiner Hitze kochen lassen.",
+    "Inzwischen Paprikaschoten vierteln, entkernen, waschen und quer in dünne Streifen schneiden.",
+    "Koriander waschen, trocken schütteln und die Blätter abzupfen. Erdnüsse grob hacken.",
+    "Paprikastreifen und die Hälfte der Erdnüsse zum Curry in die Pfanne geben, 2 Minuten weitergaren.",
+    "Kochbeutel abtropfen lassen, öffnen und Reis auf 2 Teller verteilen. Curry mit Salz und Sojasauce abschmecken. Koriander unterheben. Curry auf dem Reis anrichten und mit restlichen Erdnüssen bestreuen."
+  ],
+  "timeMinutes": 15,
+  "servings": 2,
+  "category": "Mittagessen, Abendessen, Hauptspeise",
+  "cuisine": "Asiatische, Lieblingsessen der Deutschen",
+  "image": "https://images.eatsmarter.de/sites/default/files/styles/max_size/public/haehnchen-paprika-curry-mit-erdnuesse-655616.jpg",
+  "source": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/haehnchen-erdnuss-curry",
+    "title": "Hähnchen-Erdnuss-Curry",
+    "rating": 4.5,
+    "ratingCount": 25
+  },
+  "importedAt": "2026-09-04"
+}
