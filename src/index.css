@@ -297,11 +297,10 @@ svg { flex-shrink: 0; }
 .segmented .seg button { height: 34px; padding: 0 6px; color: inherit; }
 .segmented .seg .mini {
   height: 26px; padding: 0 18px 0 8px; margin: 0 2px; border-radius: 8px; border: 1px solid var(--border);
-  background: var(--surface); font-weight: 700; font-size: 0.85rem; color: var(--green); appearance: none; cursor: pointer;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23067a46' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background: var(--bg); font-weight: 700; font-size: 0.85rem; color: inherit; appearance: none; cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2366746b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat; background-position: right 4px center;
 }
-.segmented .seg.on .mini { background-color: var(--green-soft); border-color: transparent; }
 
 /* Filter panel */
 .filter-panel {
