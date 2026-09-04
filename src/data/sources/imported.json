@@ -1247,24 +1247,10 @@
     "url": "https://www.eat-this.org/kokos-curry-ramen/",
     "title": "15 Minuten Kokos-Curry-Ramen"
   },
-  "i-amerikaner": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/amerikaner-backen-82231.html",
-    "title": "Amerikaner backen Rezept",
-    "rating": 3.9,
-    "ratingCount": 20
-  },
   "i-backfisch-mit-remoulade": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/backfisch-mit-remoulade-14401",
     "title": "Backfisch mit Remoulade"
-  },
-  "i-bauerntopf-mit-hackfleisch": {
-    "site": "simply-yummy.de",
-    "url": "https://www.simply-yummy.de/kochen/bauerntopf-mit-hackfleisch",
-    "title": "Bauerntopf Rezept: einfach wie von Oma",
-    "rating": 3.8,
-    "ratingCount": 24
   },
   "i-bayerischer-wurstsalat": {
     "site": "malteskitchen.de",
@@ -1299,13 +1285,6 @@
     "rating": 4,
     "ratingCount": 4
   },
-  "i-brioche-burger-buns": {
-    "site": "kitchenstories.com",
-    "url": "https://www.kitchenstories.com/de/rezepte/brioche-burgerbrotchen-b571",
-    "title": "Brioche-Burgerbrötchen",
-    "rating": 3.8,
-    "ratingCount": 5
-  },
   "i-ceci-al-pomodoro": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/ceci-al-pomodoro",
@@ -1318,33 +1297,12 @@
     "rating": 4.7,
     "ratingCount": 37
   },
-  "i-banoffee-pie": {
-    "site": "simply-yummy.de",
-    "url": "https://www.simply-yummy.de/backen/banoffee-pie",
-    "title": "Cremigster Banoffee-Pie nur echt nach diesem Rezept",
-    "rating": 3.7,
-    "ratingCount": 49
-  },
-  "i-croissants": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/croissant-rezept-13827136.html",
-    "title": "Croissants selber machen - schnelles Rezept",
-    "rating": 3.7,
-    "ratingCount": 9
-  },
   "i-currywurst-pommes-suppe": {
     "site": "toastenstein.com",
     "url": "https://www.toastenstein.com/currywurst-pommes-suppe/",
     "title": "Currywurst-Pommes-Suppe",
     "rating": 4.4,
     "ratingCount": 5
-  },
-  "i-daim-torte": {
-    "site": "simply-yummy.de",
-    "url": "https://www.simply-yummy.de/backen/daim-torte-rezept",
-    "title": "Daim Torte - bestes Rezept zum Selbermachen",
-    "rating": 3.6,
-    "ratingCount": 12
   },
   "i-kaesesahnetorte": {
     "site": "simply-yummy.de",
@@ -1453,13 +1411,6 @@
     "rating": 5,
     "ratingCount": 100
   },
-  "i-klare-ochsenschwanzsuppe": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/41487-rzpt-klare-ochsenschwanzsuppe",
-    "title": "Klare Ochsenschwanzsuppe Rezept",
-    "rating": 3,
-    "ratingCount": 88
-  },
   "i-kaese-sahne-torte": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/kaese-sahne-torte/",
@@ -1514,13 +1465,6 @@
     "title": "Leberknödelsuppe: einfach selber machen",
     "rating": 5,
     "ratingCount": 3
-  },
-  "i-letscho": {
-    "site": "simply-yummy.de",
-    "url": "https://www.simply-yummy.de/kochen/letscho",
-    "title": "Letscho - DER ungarische Paprikaeintopf",
-    "rating": 3.8,
-    "ratingCount": 4
   },
   "i-linsensuppe-mit-wuerstchen": {
     "site": "malteskitchen.de",
@@ -1580,13 +1524,6 @@
     "site": "eat-this.org",
     "url": "https://www.eat-this.org/pastasalat-mit-geroesteten-tomaten-veganem-mozzarella/",
     "title": "Pastasalat mit gerösteten Tomaten &amp; veganem Mozzarella"
-  },
-  "i-rahmschnitzel-mit-pfifferlingen-und-spaetzle": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/rahmschnitzel-und-spaetzle-30477.html",
-    "title": "Rahmschnitzel und Spätzle Rezept",
-    "rating": 3,
-    "ratingCount": 1
   },
   "i-rahmspinat": {
     "site": "lecker.de",
@@ -1770,5 +1707,590 @@
     "title": "Zimtsterne",
     "rating": 5,
     "ratingCount": 16
+  },
+  "i-adana-kebap": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/adana-kebap-rezept-tuerkische-hackfleischspiesse-13484178.html",
+    "title": "Adana Kebap: einfach selber grillen",
+    "rating": 4.3,
+    "ratingCount": 6
+  },
+  "i-apfelmuffins": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/apfelmuffins/",
+    "title": "Apfelmuffins - so saftig lecker",
+    "rating": 5,
+    "ratingCount": 44
+  },
+  "i-pistazien-baklava": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/baklava-mit-pistazien-tuerkische-meze-86234",
+    "title": "Baklava mit Pistazien – türkische Meze",
+    "rating": 4.3,
+    "ratingCount": 52
+  },
+  "i-blumenkohl-hack-auflauf": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/blumenkohl-hack-auflauf/",
+    "title": "Blumenkohl-Hack-Auflauf",
+    "rating": 5,
+    "ratingCount": 162
+  },
+  "i-blumenkohl-risotto-mit-seelachs": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/blumenkohl-risotto",
+    "title": "Blumenkohl-Risotto mit gebratenem Seelachs",
+    "rating": 4.8,
+    "ratingCount": 13
+  },
+  "i-blumenkohlreis-bowl": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/blumenkohlreis-bowl",
+    "title": "Blumenkohlreis-Bowl",
+    "rating": 4.8,
+    "ratingCount": 24
+  },
+  "i-haehnchenspiesse-mit-blumenkohlreis": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/blumenkohlreis-mit-haehnchen",
+    "title": "Blumenkohlreis mit Hähnchen",
+    "rating": 4.7,
+    "ratingCount": 3
+  },
+  "i-bouillabaisse": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/bouillabaisse-franzoesische-fischsuppe-10635.html",
+    "title": "Bouillabaisse (Französische Fischsuppe) Rezept",
+    "rating": 4.3,
+    "ratingCount": 46
+  },
+  "i-bulgogi-aubergine": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/bulgogi-aubergine-adc6",
+    "title": "Bulgogi Aubergine",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-bulgogi-mit-glasnudeln": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/bulgogi-koreanisches-feuerfleisch-mit-glasnudeln-128361.html",
+    "title": "Bulgogi (Koreanisches Feuerfleisch) mit Glasnudeln Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-chicken-biryani": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/chicken-biryani-78731.html",
+    "title": "Chicken Biryani Rezept",
+    "rating": 4.3,
+    "ratingCount": 12
+  },
+  "i-chilaquiles": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/chilaquiles-rezept-tortilla-chips-mit-salsa-13846284.html",
+    "title": "Chilaquiles-Rezept: Tortilla-Chips mit Salsa",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-home-style-tofu": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/chinesischer-home-style-tofu/",
+    "title": "Chinesischer „Home Style“ Tofu"
+  },
+  "i-dal-tadka-mit-apfel-chutney": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/dal-tadka-mit-apfel-chutney",
+    "title": "Dal Tadka mit Apfel-Chutney",
+    "rating": 4.9,
+    "ratingCount": 12
+  },
+  "i-dan-dan-mian": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/dan-dan-mian-rezept-fuer-scharfe-nudeln-aus-sichuan-13394738.html",
+    "title": "Dan Dan Mian: Rezept für scharfe Nudeln aus Sichuan",
+    "rating": 5,
+    "ratingCount": 5
+  },
+  "i-einfaches-dinkelbrot-ohne-kneten": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/einfaches-brot-backen/",
+    "title": "Einfaches Brot backen mit frischer Hefe",
+    "rating": 5,
+    "ratingCount": 872
+  },
+  "i-ofen-kritharaki-mit-feta-und-gemuese": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/entspannt-ohne-vorkochen-ofen-orzo-mit-feta-132859.html",
+    "title": "Entspannt ohne Vorkochen: Ofen-Orzo mit Feta Rezept",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-fantakuchen-vom-blech": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/fantakuchen-vom-blech/",
+    "title": "Fantakuchen vom Blech – fluffig und fruchtig",
+    "rating": 5,
+    "ratingCount": 25
+  },
+  "i-knuspriges-haehnchen-aus-dem-airfryer": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/ganzes-haehnchen-pommes-spezial/",
+    "title": "Ganzes Hähnchen aus dem Airfryer | extra knusprig",
+    "rating": 4.7,
+    "ratingCount": 41
+  },
+  "i-gefuellte-tomaten-aus-dem-ofen": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/gefuellte-tomaten-nach-griechischer-art",
+    "title": "Gefüllte Tomaten aus dem Ofen",
+    "rating": 4.8,
+    "ratingCount": 5
+  },
+  "i-gemuese-curry-mit-kokosmilch": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/gemuese-curry/",
+    "title": "Gemüse-Curry mit Kokosmilch und Reis",
+    "rating": 5,
+    "ratingCount": 97
+  },
+  "i-saftiger-heidelbeerkuchen-mit-vollkornmehl": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/gesunder-kuchen-mit-heidelbeeren/",
+    "title": "Gesunder Kuchen mit Heidelbeeren",
+    "rating": 5,
+    "ratingCount": 80
+  },
+  "i-asiatischer-glasnudelsalat-mit-erdnussdressing": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/glasnudelsalat/",
+    "title": "Glasnudelsalat – schnell und einfach",
+    "rating": 5,
+    "ratingCount": 64
+  },
+  "i-gnocchi-alla-sorrentina": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/gnocchi-alla-sorrentina/",
+    "title": "Gnocchi alla Sorrentina",
+    "rating": 4.9,
+    "ratingCount": 13
+  },
+  "i-gnocchi-auflauf-mit-paprikasosse": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/gnocchiauflauf-paprikasauce/",
+    "title": "Gnocchi-Auflauf vegetarisch ▷ mit pikanter Paprikasoße",
+    "rating": 4.8,
+    "ratingCount": 107
+  },
+  "i-selbstgemachte-kartoffel-gnocchi": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/gnocchi-4d0d",
+    "title": "Gnocchi"
+  },
+  "i-hackfleischpfanne-mit-kritharaki-und-feta": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/hackfleischpfanne-mit-kritharaki-tomaten-und-feta/",
+    "title": "Hackfleischpfanne mit Kritharaki, Tomaten und Feta",
+    "rating": 4.6,
+    "ratingCount": 185
+  },
+  "i-haehnchen-sate-spiesse-mit-erdnusssauce": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/haehnchen-sate-spiesse-erdnusssauce/",
+    "title": "Hähnchen Saté-Spieße mit Erdnusssauce",
+    "rating": 5,
+    "ratingCount": 6
+  },
+  "i-herbstlicher-gemueseeintopf-mit-wirsing-und-bohnen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/herbstlicher-gemueseeintopf-mit-wirsing-bohnen-und-tomaten/",
+    "title": "Herbstlicher Gemüseeintopf mit Wirsing, Bohnen und Tomaten",
+    "rating": 5,
+    "ratingCount": 6
+  },
+  "i-high-protein-bowl-mit-quinoa-und-kidneybohnen": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/high-protein-bowl-d00e",
+    "title": "High Protein Bowl",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-huettenkaese-auflauf-mit-brokkoli-und-tomaten": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/huettenkaese-auflauf/",
+    "title": "Hüttenkäse-Auflauf: proteinreich & Low Carb",
+    "rating": 4.8,
+    "ratingCount": 34
+  },
+  "i-japanischer-lauch-hack-eintopf": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/japanischer-eintopf-21992.html",
+    "title": "Japanischer Eintopf Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-kartoffeleintopf-mit-cabanossi": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/kartoffeleintopf/",
+    "title": "Kartoffeleintopf mit Cabanossi | würzig &amp; sämig",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-gemuese-curry-mit-blumenkohlreis": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/keto-gemuese-curry-mit-blumenkohlreis-1",
+    "title": "Keto-Gemüse-Curry mit Blumenkohlreis",
+    "rating": 4.9,
+    "ratingCount": 9
+  },
+  "i-lahmacun-mit-lammhack": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/lahmacun-82947",
+    "title": "Lahmacun",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-caesar-salad-rolle": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/low-carb-caesar-salad-rolle/",
+    "title": "Low Carb Caesar-Salad-Rolle",
+    "rating": 5,
+    "ratingCount": 103
+  },
+  "i-lachs-bowl-mit-blumenkohlreis": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/low-carb-meal-prep-bowl-mit-lachs/",
+    "title": "Low Carb Meal Prep Bowl mit Lachs und Blumenkohlreis",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-mac-and-cheese": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/mac-and-cheese-einfach-nach-original/",
+    "title": "Mac and Cheese, Original-Rezept",
+    "rating": 4.9,
+    "ratingCount": 40
+  },
+  "i-macarona-bil-laban": {
+    "site": "eat-this.org",
+    "url": "https://www.eat-this.org/vegane-arabische-pasta-mit-joghurtsauce/",
+    "title": "Macarona bil laban – arabische Pasta mit Joghurtsauce und veganem Hack"
+  },
+  "i-manti": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/manti-tuerkische-teigtaschen-127612.html",
+    "title": "Manti (Türkische Teigtaschen) Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-massaman-curry": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/massaman-curry/",
+    "title": "Massaman Curry: Cremig, wie in Thailand",
+    "rating": 4.9,
+    "ratingCount": 19
+  },
+  "i-moehreneintopf-auf-hausfrauenart": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/moehreneintopf/",
+    "title": "Möhreneintopf auf Hausfrauenart | einfach, klassisch &amp; lecker",
+    "rating": 4.8,
+    "ratingCount": 48
+  },
+  "i-mohn-apfel-gugelhupf": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2015/11/rezept-fuer-saftigen-apfel-mohn-gugelhupf-mit-schoen-dickem-zuckerguss-apple-poppy-seed-bundt-cake/",
+    "title": "Mohn Apfel Gugelhupf Rezept"
+  },
+  "i-muhammara": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/muhammara-dip/",
+    "title": "Muhammara Dip mit Paprika und Walnuss | pikant &amp; lecker",
+    "rating": 5,
+    "ratingCount": 3
+  },
+  "i-nudelsuppe-mit-wirsing-und-hackbaellchen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/nudelsuppe-wirsing-hackbaellchen/",
+    "title": "Nudelsuppe mit Wirsing und Hackbällchen",
+    "rating": 5,
+    "ratingCount": 4
+  },
+  "i-ofengemuese-mit-kuerbis": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/ofengemuese-mit-kuerbis/",
+    "title": "Ofengemüse mit Kürbis",
+    "rating": 5,
+    "ratingCount": 79
+  },
+  "i-ofenpfannkuchen-vom-blech": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/knuspriger-ofenpfannkuchen/",
+    "title": "Ofenpfannkuchen vom Blech – schnell und einfach",
+    "rating": 4.9,
+    "ratingCount": 71
+  },
+  "i-kohlsuppe-mit-hackfleischkloesschen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/omas-kohlsuppe/",
+    "title": "Omas Kohlsuppe mit Hackfleischklößchen | Original Rezept",
+    "rating": 4.9,
+    "ratingCount": 32
+  },
+  "i-haehnchen-mit-gemuese-aus-der-heissluftfritteuse": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/one-pot-haehnchen-mit-gemuese-heissluftfritteuse/",
+    "title": "One Pot Hähnchen mit Gemüse aus der Heißluftfritteuse",
+    "rating": 4.7,
+    "ratingCount": 11
+  },
+  "i-one-pot-pasta-aus-dem-ofen": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/one-pot-pasta-aus-dem-ofen/",
+    "title": "One Pot Pasta aus dem Ofen",
+    "rating": 4.9,
+    "ratingCount": 13
+  },
+  "i-one-pot-tortellini": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/one-pot-tortellini/",
+    "title": "One Pot Tortellini",
+    "rating": 5,
+    "ratingCount": 22
+  },
+  "i-boerek-mit-spinat-und-schafskaese": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/boerek-rezept-12265960.html",
+    "title": "Original Börek mit Spiant & Safskäse",
+    "rating": 4.5,
+    "ratingCount": 8
+  },
+  "i-schnelles-quarkbrot": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schnelles-und-gesundes-quarkbrot/",
+    "title": "Quarkbrot schnell und gesund",
+    "rating": 5,
+    "ratingCount": 410
+  },
+  "i-chicken-quesadillas": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/quesadilla-chicken/",
+    "title": "Quesadilla Chicken",
+    "rating": 5,
+    "ratingCount": 10
+  },
+  "i-quiche-lorraine": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/quiche-lorraine-83313.html",
+    "title": "Quiche Lorraine Rezept",
+    "rating": 4.2,
+    "ratingCount": 12
+  },
+  "i-reispfanne-mit-gemuese": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/reispfanne-mit-gemuese/",
+    "title": "Reispfanne mit Gemüse",
+    "rating": 5,
+    "ratingCount": 115
+  },
+  "i-erdbeer-cheesecake-tartes-aus-blaetterteig": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2021/05/rezept-fuer-erdbeer-cheesecake-tartes-aus-blaetterteig/",
+    "title": "Rezept für Erdbeer-Cheesecake Tartes aus Blätterteig"
+  },
+  "i-kirschkuchen-vom-blech-mit-mandeln": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2018/06/kirschkuchenvomblech/",
+    "title": "Rezept für Kirschkuchen vom Blech mit Mandeln - almond cherry tray cake"
+  },
+  "i-buttermilch-pancakes-mit-zimtzucker": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2017/08/ein-rezept-fuer-mini-zucker-und-zimt-pancakes-mit-beeren/",
+    "title": "Rezept für kleine Buttermilch-Pancakes mit Zimtzucker"
+  },
+  "i-selbstgemachte-burger-buns": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2020/05/rezept-fuer-burger-buns-hamburger-broetchen/",
+    "title": "Rezept für selbstgemachte Burger Brötchen Burger Buns"
+  },
+  "i-zimt-milchbroetchen": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2021/02/rezept-fuer-fluffige-zimt-milchbroetchen/",
+    "title": "Rezept für Zimt-Fluffies: fluffige Zimt-Milchbrötchen mit selbstgemachten Zimt-Backchips"
+  },
+  "i-schokobroetchen": {
+    "site": "zuckerzimtundliebe.de",
+    "url": "https://www.zuckerzimtundliebe.de/2017/07/mein-liebstes-rezept-fuer-fluffige-muchoflausch-schokobroetchen-aus-hefeteig/",
+    "title": "Rezept Schokobrötchen selber machen"
+  },
+  "i-rotes-thai-curry-mit-knusprigem-tofu": {
+    "site": "biancazapatka.com",
+    "url": "https://biancazapatka.com/de/veganes-thai-curry/",
+    "title": "Rotes Thai-Curry (Vegetarisch, Vegan)",
+    "rating": 5,
+    "ratingCount": 35
+  },
+  "i-sachertorte": {
+    "site": "essen-und-trinken.de",
+    "url": "https://www.essen-und-trinken.de/rezepte/sachertorte-rezept-13144492.html",
+    "title": "Sachertorte: Rezept für den Wiener Klassiker",
+    "rating": 4.8,
+    "ratingCount": 28
+  },
+  "i-haehnchen-paprika-pfanne": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/schnelle-haehnchen-paprika-pfanne/",
+    "title": "Schnelle Hähnchen-Paprika-Pfanne",
+    "rating": 5,
+    "ratingCount": 771
+  },
+  "i-putenrouladen-mit-eier-creme-fra-che-fuellung": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/putenrouladen-mit-eier-creme-fraiche/",
+    "title": "Schnelle Putenrouladen aus der Pfanne",
+    "rating": 5,
+    "ratingCount": 82
+  },
+  "i-nudelauflauf-mit-lauch-und-kaese": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/nudelauflauf-mit-lauch-und-kaese-nach-tim-maelzer/",
+    "title": "Schneller Nudelauflauf mit Lauch & Käse | vegetarisch lecker",
+    "rating": 4.4,
+    "ratingCount": 87
+  },
+  "i-veganer-ruehrkuchen": {
+    "site": "biancazapatka.com",
+    "url": "https://biancazapatka.com/de/veganer-ruehrkuchen/",
+    "title": "Schneller Rührkuchen - Sandkuchen ohne Ei (Veganer Kastenkuchen)",
+    "rating": 5,
+    "ratingCount": 70
+  },
+  "i-sellerie-kartoffel-suppe-mit-croutons": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/sellerie-kartoffel-suppe-petersilien-croutons/",
+    "title": "Sellerie-Kartoffel-Suppe mit Petersilien-Croutons",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-sloppy-joe": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/sloppy-joe-74274.html",
+    "title": "Sloppy Joe (Burger mit Hackfleischsoße) Rezept"
+  },
+  "i-souvlaki-spiesse": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/griechische-souvlaki-spiesse/",
+    "title": "Souvlaki selber machen – griechisch mariniert &amp; gegrillt",
+    "rating": 4.9,
+    "ratingCount": 44
+  },
+  "i-spaetzlepfanne-mit-buntem-gemuese": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/spaetzlepfanne-mit-gemuese/",
+    "title": "Spätzlepfanne mit buntem Gemüse",
+    "rating": 5,
+    "ratingCount": 38
+  },
+  "i-suesskartoffel-linsen-curry": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/susskartoffel-linsen-curry-9f68",
+    "title": "Süßkartoffel-Linsen-Curry",
+    "rating": 4.7,
+    "ratingCount": 7
+  },
+  "i-sushi-bowl-mit-lachs": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/sushi-bowl-69698.html",
+    "title": "Sushi-Bowl Rezept",
+    "rating": 4.5,
+    "ratingCount": 69
+  },
+  "i-sushi-maki-mit-lachs-und-avocado": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/sushi-selber-machen-so-gehts-77369.html",
+    "title": "Sushi selber machen - so geht's Rezept",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-tacos-al-pastor": {
+    "site": "lecker.de",
+    "url": "https://www.lecker.de/tacos-al-pastor-131455.html",
+    "title": "Tacos al pastor Rezept"
+  },
+  "i-tortellini-al-forno": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/tortellini-al-forno/",
+    "title": "Tortellini al Forno wie beim Italiener",
+    "rating": 5,
+    "ratingCount": 50
+  },
+  "i-tortellini-alla-panna": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/tortellini-alla-panna-rezept/",
+    "title": "Tortellini alla Panna",
+    "rating": 5,
+    "ratingCount": 298
+  },
+  "i-vegane-corn-dogs-mit-seitanwuerstchen": {
+    "site": "toastenstein.com",
+    "url": "https://www.toastenstein.com/vegane-corn-dogs/",
+    "title": "Vegane Corn Dogs mit würzigen Seitan-Würstchen [Filling your Mind Edition]",
+    "rating": 5,
+    "ratingCount": 1
+  },
+  "i-kartoffel-zucchini-brokkoli-pfanne": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/vegane-kartoffel-zucchini-brokkoli-pfanne-e4fe",
+    "title": "Vegane Kartoffel-Zucchini-Brokkoli-Pfanne",
+    "rating": 4.7,
+    "ratingCount": 6
+  },
+  "i-veganer-kartoffel-brokkoli-auflauf": {
+    "site": "biancazapatka.com",
+    "url": "https://biancazapatka.com/de/kartoffel-brokkoli-auflauf/",
+    "title": "Veganer Kartoffel-Brokkoli-Auflauf (einfach & lecker)",
+    "rating": 5,
+    "ratingCount": 26
+  },
+  "i-rotes-gemuesecurry-mit-reis": {
+    "site": "kitchenstories.com",
+    "url": "https://www.kitchenstories.com/de/rezepte/veganes-rotes-curry-mit-reis-4e95",
+    "title": "Veganes rotes Curry mit Reis",
+    "rating": 4.3,
+    "ratingCount": 4
+  },
+  "i-banh-mi-mit-hackfleischfrikadellen": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/vietnamesisches-banh-mi-hackfleisch/",
+    "title": "Vietnamesisches Banh Mi mit saftigem Hackfleisch",
+    "rating": 5,
+    "ratingCount": 2
+  },
+  "i-klassische-waffeln": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/waffeln-rezept-einfach-und-schnell",
+    "title": "Waffeln - das einfach beste Rezept aller Zeiten",
+    "rating": 4.4,
+    "ratingCount": 40
+  },
+  "i-wirsingeintopf-mit-hackfleisch": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/wirsingeintopf/",
+    "title": "Wirsingeintopf mit Hackfleisch und Kartoffeln",
+    "rating": 5,
+    "ratingCount": 60
+  },
+  "i-wirsinggemuese": {
+    "site": "emmikochteinfach.de",
+    "url": "https://emmikochteinfach.de/wirsinggemuese/",
+    "title": "Wirsinggemüse – klassisch wie von Oma",
+    "rating": 5,
+    "ratingCount": 22
+  },
+  "i-zander-auf-linsengemuese": {
+    "site": "eatsmarter.de",
+    "url": "https://eatsmarter.de/rezepte/zander-mit-linsengemuese-0",
+    "title": "Zander mit Linsengemüse",
+    "rating": 5,
+    "ratingCount": 5
   }
 }
