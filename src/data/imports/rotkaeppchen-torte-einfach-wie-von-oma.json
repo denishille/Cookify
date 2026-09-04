@@ -1,0 +1,45 @@
+{
+  "title": "Rotkäppchen-Torte einfach wie von Oma",
+  "description": "Rotkäppchen-Torte ist ein Klassiker und nach unserem Rezept einfach selbst gemacht. Das Besondere: der saftige Marmorkuchen in Kombi mit Kirschen und Creme.",
+  "ingredients": [
+    "175 g weiche Butter",
+    "100 g Zucker",
+    "1 Päckchen Vanillezucker",
+    "3 Eier",
+    "4 EL Milch",
+    "150 g Mehl",
+    "2 TL Backpulver",
+    "1 Prise Salz",
+    "20 g Kakao",
+    "1 Glas Schattenmorellen",
+    "500 g Quark",
+    "70 g Zucker",
+    "300 g Sahne",
+    "2 Päckchen Sahnesteif",
+    "1 Päckchen roter Tortenguss",
+    "3 EL Zucker"
+  ],
+  "steps": [
+    "Backofen auf 180 °C Ober-/Unterhitze vorheizen. Springform einfetten.",
+    "Butter mit Zucker und Vanillezucker cremig rühren. Eier nacheinander für je 1 Minute unterrühren. 2 EL Milch dazugeben und ebenfalls unterrühren.",
+    "Mehl mit Backpulver sowie Salz mischen und unter die flüssigen Zutaten heben. Nur so lange rühren bis gerade eben so ein Teig zusammenkommt. Die Hälfte des Teigs in die Springform geben.",
+    "Restlichen Teig mit restlicher Milch sowie Kakao mischen und auf den hellen Teig streichen.",
+    "Kirschen abtropfen lassen, dabei Saft auffangen und beiseitestellen. Kirschen auf dem Teig verteilen und im heißen Ofen ca. 30 Minuten backen, auskühlen lassen.",
+    "Währenddessen für die Creme Quark mit Zucker glatt rühren. Sahne mit Sahnesteif steif schlagen und unter den Quark heben.",
+    "Kuchenboden auf eine Tortenplatte stellen und Tortenring drumherum spannen. Creme auf dem Boden verteilen, 30 Minuten kaltstellen.",
+    "Währenddessen Tortenguss mit Zucker sowie 250 ml Kirschsaft nach Packungsanleitung zubereiten. Anschließend vorsichtig auf dem Kuchen verteilen, mindestens 1 Stunde kaltstellen"
+  ],
+  "timeMinutes": 65,
+  "servings": 12,
+  "category": "Backen Torten",
+  "keywords": "Backen Torten",
+  "image": "https://www.simply-yummy.de/files/styles/tec_frontend_large/public/images/rotkaeppchen-torte.jpg?itok=4ArSyJ1o",
+  "source": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/rotkappchen-torte-einfach-wie-von-oma",
+    "title": "Rotkäppchen-Torte einfach wie von Oma",
+    "rating": 4.6,
+    "ratingCount": 102
+  },
+  "importedAt": "2026-09-04"
+}

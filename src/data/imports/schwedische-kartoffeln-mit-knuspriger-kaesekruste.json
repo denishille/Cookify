@@ -1,0 +1,31 @@
+{
+  "title": "Schwedische Kartoffeln mit knuspriger Käsekruste",
+  "description": "Diese schwedischen Kartoffeln mit Käse und einem Guss aus Crème fraîche sind die besten Fächerkartoffeln, die du kriegen kannst. Hol dir jetzt das Rezept.",
+  "ingredients": [
+    "200 g Crème fraîche",
+    "200 g Saure Sahne",
+    "400 ml Gemüsebrühe",
+    "1 kg Kartoffeln",
+    "100 g Gruyere",
+    "50 g Butter"
+  ],
+  "steps": [
+    "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+    "Crème fraîche mit saurer Sahne sowie Gemüsebrühe verrühren und in die Auflaufform geben.",
+    "Kartoffeln schälen und mit einem dünnen Messer dicht an dicht einschneiden, dabei nicht durchschneiden. Anschließend in die Form setzen.",
+    "Gruyère fein reiben und nach Belieben in die Fächer der Kartoffeln streuen. Butter in Flöckchen auf den Kartoffeln verteilen und im heißen Ofen ca. 50 Minuten backen."
+  ],
+  "timeMinutes": 75,
+  "servings": 4,
+  "category": "Kochen Vegetarische Gerichte",
+  "keywords": "Kochen Vegetarische Gerichte Weihnachtsessen",
+  "image": "https://www.simply-yummy.de/files/styles/tec_frontend_large/public/images/schwedische_kartoffeln_0.jpg?itok=z7-Emlw2",
+  "source": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/schwedische-kartoffeln",
+    "title": "Schwedische Kartoffeln mit knuspriger Käsekruste",
+    "rating": 4.5,
+    "ratingCount": 4
+  },
+  "importedAt": "2026-09-04"
+}

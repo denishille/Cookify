@@ -1,0 +1,35 @@
+{
+  "title": "Letscho - DER ungarische Paprikaeintopf",
+  "description": "Schon mal von Letscho Gemüse gehört? Das ist der beste Paprikaeintopf aus Ungarn. Wie das Original geht? Jetzt mit unserem Rezept Letscho selber machen!",
+  "ingredients": [
+    "1 kg gelbe Spitzpaprika",
+    "2 Zwiebeln",
+    "4 Knoblauchzehen",
+    "100 g geräucherter Speck",
+    "500 g Tomaten",
+    "3 EL Butter",
+    "2 TL Paprikapulver",
+    "1 TL Paprikapulver",
+    "1 TL brauner Zucker",
+    "alz. Salz. Pfeffer"
+  ],
+  "steps": [
+    "Paprika waschen, putzen und würfeln. Zwiebeln und Knoblauch schälen. Zwiebeln fein würfeln. Knoblauch fein hacken. Speck würfeln.",
+    "Wasser in einem großen Topf zum Kochen bringen. Tomaten auf der Unterseite kreuzförmig einritzen. In das kochende Wasser geben und 30 Sekunden blanchieren lassen. Herausnehmen und sofort in eine Schüssel mit eiskaltem Wasser legen. Haut mit einem kleinen Messer abziehen.",
+    "Butter in einem Topf zerlassen. Zwiebel und Knoblauch darin glasig braten. Speck dazugeben und 5 Minuten mit anbraten. Paprika, Tomaten und Paprikapulver dazugeben und ebenfalls kurz mit anbraten.",
+    "Mit braunem Zucker, Salz und Pfeffer abschmecken. Hitze herunterschalten und ca. 25 Minuten schmoren lassen."
+  ],
+  "timeMinutes": 70,
+  "servings": 4,
+  "category": "Kochen Vegetarische Gerichte",
+  "keywords": "Kochen Vegetarische Gerichte",
+  "image": "https://www.simply-yummy.de/files/styles/tec_frontend_large/public/images/letscho_0.jpg?itok=g191NoJy",
+  "source": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/kochen/letscho",
+    "title": "Letscho - DER ungarische Paprikaeintopf",
+    "rating": 3.8,
+    "ratingCount": 4
+  },
+  "importedAt": "2026-09-04"
+}

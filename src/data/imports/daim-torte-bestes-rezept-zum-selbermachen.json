@@ -1,0 +1,41 @@
+{
+  "title": "Daim Torte - bestes Rezept zum Selbermachen",
+  "description": "Die beste Daim Torte machst du ab sofort selbst. Und zwar mit doppelt Daim und doppelt Schokolade, aber ganz ohne Mehl. Zum Rezept für deinen Daim Kuchen!",
+  "ingredients": [
+    "4 Eier",
+    "200 g Zucker",
+    "1 Prise Salz",
+    "200 g gehackte Mandeln",
+    "200 g Butter",
+    "200 g Zucker",
+    "30 g Stärke",
+    "0.5 Vanilleschote",
+    "200 g Zartbitterschokolade",
+    "200 g Vollmilchschokolade",
+    "250 ml Schlagsahne",
+    "2 Tüten Daim (200 g)"
+  ],
+  "steps": [
+    "Backofen auf 180 °C Heißluft vorheizen. Zwei Springformen mit Backpapier auslegen.",
+    "Für den Teig Eier trennen. Eigelb beiseitestellen. Eiweiß mit Zucker und Salz steif schlagen. Anschließend gehackte Mandeln unterheben.",
+    "Teig auf die beiden Springformen verteilen, glatt streichen und im heißen Ofen ca. 20 Minuten backen, auskühlen lassen.",
+    "Für die Füllung Butter in einen Topf geben und schmelzen lassen. Eigelb, Zucker sowie Stärke unterrühren und bei mittlerer Hitze ca. 5 Minuten einkochen lassen, dabei stetig rühren. Anschließend ca. 30 Minuten kalt stellen, sodass eine streichfähige Masse entsteht.",
+    "Die Hälfte der Füllung auf einen Tortenboden streichen. Zweiten Boden aufsetzen und mit restlicher Creme bestreichen, 30 Minuten kalt stellen.",
+    "Währenddessen Schokolade fein hacken und in eine Schüssel geben. Sahne erwärmen, über der Schokolade verteilen und unter Rühren schmelzen lassen.",
+    "Daim fein hacken und unter die Schoko-Sahne-Masse rühren, 10 Minuten auskühlen lassen.",
+    "Schokomasse auf der Torte verteilen und glatt streichen, mindestens 2 Stunden kalt stellen."
+  ],
+  "timeMinutes": 70,
+  "servings": 12,
+  "category": "Backen Torten",
+  "keywords": "Backen Torten",
+  "image": "https://www.simply-yummy.de/files/styles/tec_frontend_large/public/images/daim-torte.jpg?itok=d934_OpR",
+  "source": {
+    "site": "simply-yummy.de",
+    "url": "https://www.simply-yummy.de/backen/daim-torte-rezept",
+    "title": "Daim Torte - bestes Rezept zum Selbermachen",
+    "rating": 3.6,
+    "ratingCount": 12
+  },
+  "importedAt": "2026-09-04"
+}
