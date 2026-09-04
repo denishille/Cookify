@@ -1,0 +1,29 @@
+{
+  "title": "Rosenkohl mit Speck",
+  "description": "Rosenkohl ist im wahrsten Sinne des Wortes noch ein sehr junges Gemüse - wird er doch erst seit Anfang des 19. Jahrhunderts angebaut.",
+  "ingredients": [
+    "750 g Rosenkohl",
+    "Salz",
+    "80 g durchwachsener Räucherspeck",
+    "2 EL Butter",
+    "Pfeffer",
+    "Muskatnuss, frisch gerieben",
+    "2 EL gehackte Petersilie"
+  ],
+  "steps": [
+    "Den Rosenkohl putzen, waschen und in Salzwasser in 12-15 Min. bissfest garen. Kochwasser abgießen, den Rosenkohl warm halten.",
+    "Den Speck in kleine Würfel schneiden. In einer großen Pfanne die Butter erhitzen und den Speck unter Rühren darin knusprig anbraten.",
+    "Den Rosenkohl dazugeben, im Speck schwenken und mit Pfeffer und Muskat würzen. Mit der Petersilie bestreuen und zum Servieren in eine vorgewärmte Schüssel füllen."
+  ],
+  "timeMinutes": 40,
+  "servings": 4,
+  "image": "https://www.kuechengoetter.de/uploads/media/630x630/02/5812-rosenkohl-mit-speck.jpg?v=1-0",
+  "source": {
+    "site": "kuechengoetter.de",
+    "url": "https://www.kuechengoetter.de/rezepte/rosenkohl-mit-speck-2235",
+    "title": "Rosenkohl mit Speck",
+    "rating": 4.5,
+    "ratingCount": 70
+  },
+  "importedAt": "2026-09-04"
+}

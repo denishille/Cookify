@@ -1,0 +1,35 @@
+{
+  "title": "Klassischer Heringssalat nach bestem Rezept",
+  "description": "Heringssalat mit Apfel und Gurke ist ein klassisches Rezept, das immer schmeckt! Mit nur wenigen Zutaten lässt sich das bewährte Gericht einfach und schnell selber machen.",
+  "ingredients": [
+    "250 g Bismarck-Heringsfilet (Glas)",
+    "1 rote Zwiebel",
+    "1 Apfel",
+    "100 g Gewürzgurken",
+    "150 g saure Sahne",
+    "150 g Crème fraîche",
+    "2 EL Gurkenwasser",
+    "1 EL Apfelessig",
+    "Salz und Pfeffer",
+    "2 EL Dill (gehackt)"
+  ],
+  "steps": [
+    "Fischfilets abspülen, dann in mundgerechte Stücke schneiden. Zwiebel fein hacken. Apfel schälen und in Würfel schneiden, Gewürzgurken in Scheiben schneiden. Alle Zutaten zusammen in eine Schüssel geben.",
+    "Alle Zutaten für das Dressing verrühren.",
+    "Das Dressing mit den Salatzutaten und dem Dill verrühren. Dann den Salat für 30 Minuten im Kühlschrank ziehen lassen."
+  ],
+  "timeMinutes": 20,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Deutsch",
+  "keywords": "Heringssalat",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2024/12/Heringssalat-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/heringssalat/",
+    "title": "Klassischer Heringssalat nach bestem Rezept",
+    "rating": 5,
+    "ratingCount": 17
+  },
+  "importedAt": "2026-09-04"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Senfeier - Eier in Senfsoße | Rezept meiner Oma",
+  "description": "Senfeier, auch bekannt als Eier in Senfsoße, sind eines meiner Lieblingsgerichte. Ein wunderbares Essen, dass meine Oma oft für uns Kinder gekocht hat. Ein ganz einfaches Gericht, dass mit wenigen Zutaten auskommt und doch ganz wunderbar schmeckt.",
+  "ingredients": [
+    "8 Eier",
+    "1 Zwiebel",
+    "40 g Butter",
+    "30 g Mehl",
+    "150 ml Gemüsebrühe",
+    "450 ml Milch",
+    "2 EL Senf",
+    "Zitronensaft",
+    "Salz, Zucker",
+    "Schnittlauch"
+  ],
+  "steps": [
+    "Für die Senfsoße die Zwiebel in feine Würfel schneiden.",
+    "Die Butter im Topf zerlassen und die Zwiebel hinein geben, salzen und bei mittlerer Hitze ohne Farbe anschwitzen.",
+    "Das Mehl darüber stäuben und für 1 Minute anschwitzen. Die Gemüsebrühe angießen und mit einem Schneebesen rühren, sodass keine Klümpchen entstehen.",
+    "Die Milch in den Topf gießen, alles glatt rühren und erhitzen, bis die Soße aufkocht. Dadurch dickt sie auch nochmal an. Hitze wieder reduzieren.",
+    "Nun den Senf in die Soße rühren und mit Salz, einer Prise Zucker und einem Spritzer Zitronensaft abschmecken. Bei Bedarf noch einen Schluck Milch dazu geben, bis die Konsistenz für dich passt.",
+    "Währenddessen die Eier in kochendes Wasser geben und 8 Minuten kochen. In Eiswasser abschrecken und, pellen und in die heiße Soße legen. Mit Schnittlauch bestreuen und servieren",
+    "Dazu passen Salzkartoffeln ganz besonders gut."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Hauptgericht",
+  "cuisine": "Deutschland",
+  "keywords": "Eier, schnell, Senf, Senfsauce",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2025/01/senfeier-5.webp",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/senfeier-eier-in-senfossse/",
+    "title": "Senfeier - Eier in Senfsoße | Rezept meiner Oma",
+    "rating": 4.9,
+    "ratingCount": 117
+  },
+  "importedAt": "2026-09-04"
+}

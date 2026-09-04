@@ -1,0 +1,38 @@
+{
+  "title": "Berliner selber machen",
+  "description": "Berliner selber machen? Das geht ganz einfach! Mit meinem Rezept und den besten Tipps werden sie fluffig, weich und lecker.",
+  "ingredients": [
+    "500 g Mehl",
+    "5 g Trockenhefe",
+    "1 EL Zucker",
+    "300 ml Milch",
+    "1/2 TL Salz",
+    "50 g Butter",
+    "1 Ei + 1 Eigelb",
+    "1 L Sonnenblumenöl (zum Frittieren)",
+    "100 g Zucker",
+    "250 g Erdbeermarmelade",
+    "50 g Puderzucker"
+  ],
+  "steps": [
+    "Mehl, Trockenhefe, Zucker und Milch verrühren und 15 Minuten quellen lassen. Salz, Butter, Ei und Eigelb mit dem Mixer unterkneten. Teig mit einem Küchentuch abdecken und bei Zimmertemperatur 45 Minuten ruhen lassen.",
+    "Teig auf eine Arbeitsfläche geben, in 16 gleich große Stücke teilen und mit kreisenden Bewegungen zu runden Kugeln formen. Hände und Arbeitsfläche leicht einölen, so lässt sich der Teig leichter verarbeiten. 2 Bögen Backpapier zu 16 kleinen Rechtecken schneiden. Die Teiglinge darauf legen und abgedeckt nochmal 45 Minuten gehen lassen.",
+    "Öl in einem großen Topf auf 170 Grad erhitzen. Die Teiglinge mithilfe des Backpapiers mit einer Schaumkelle aufnehmen und darauf ins heiße Fett gleiten lassen. Das Backpapier aus dem Fett nehmen und die Berliner von jeder Seite etwa 5 Minuten goldbraun backen. Berliner rausnehmen und auf Küchenpapier abtropfen lassen.",
+    "Zucker in eine Schüssel geben und die warmen Berliner von beiden Seiten darin wenden.",
+    "Erdbeermarmelade in einen Spritzbeutel füllen und die Berliner damit befüllen. Die fertigen Berliner mit Puderzucker bestäuben."
+  ],
+  "timeMinutes": 60,
+  "servings": 16,
+  "category": "Dessert Nachspeise Snack",
+  "cuisine": "Deutsch",
+  "keywords": "Backen",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/10/Berliner-Gaumenfreundin-1.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/berliner-selber-backen/",
+    "title": "Berliner selber machen",
+    "rating": 5,
+    "ratingCount": 17
+  },
+  "importedAt": "2026-09-04"
+}

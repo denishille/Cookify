@@ -1,0 +1,39 @@
+{
+  "title": "Kartoffelgulasch",
+  "description": "Mein einfaches Kartoffelgulasch mit Paprika ist ein vegetarisches und ganz einfaches Eintopf-Rezept.",
+  "ingredients": [
+    "2 Zwiebeln",
+    "2 Knoblauchzehen",
+    "3 Paprikaschoten",
+    "1 kg Kartoffeln (mehlig kochend oder festkochend)",
+    "2 EL Butter (oder Öl)",
+    "1 EL Tomatenmark",
+    "2 TL Paprikapulver edelsüß",
+    "400 g gehackte Tomaten (Dose)",
+    "800 ml Gemüsebrühe",
+    "1 TL Majoran",
+    "Salz und Pfeffer",
+    "2 EL gehackte Petersilie",
+    "Schmand"
+  ],
+  "steps": [
+    "Zwiebeln und Knoblauch klein hacken. Paprika klein schneiden, Kartoffeln schälen und in Würfel schneiden.",
+    "Öl in einem Topf erhitzen und Zwiebeln und Knoblauch anbraten. Tomatenmark und Paprikapulver zugeben und kurz mitbraten.",
+    "Paprikaschoten, Kartoffeln und Gemüsebrühe zugeben, aufkochen und bei mittlerer Hitze 20-30 Minuten köcheln lassen, bis die Kartoffeln weich sind. Gehackte Tomaten zugeben und das Gulasch mit Majoran, Salz und Pfeffer abschmecken.",
+    "Mit Petersilie und Schmand servieren."
+  ],
+  "timeMinutes": 45,
+  "servings": 4,
+  "category": "Hauptgericht Suppe",
+  "cuisine": "Deutsch",
+  "keywords": "Abendessen, Einfach",
+  "image": "https://www.gaumenfreundin.de/wp-content/uploads/2022/11/Kartoffelgulasch-einfaches-Rezept.jpg",
+  "source": {
+    "site": "gaumenfreundin.de",
+    "url": "https://www.gaumenfreundin.de/kartoffelgulasch/",
+    "title": "Kartoffelgulasch",
+    "rating": 5,
+    "ratingCount": 100
+  },
+  "importedAt": "2026-09-04"
+}

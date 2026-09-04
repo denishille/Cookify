@@ -1,0 +1,40 @@
+{
+  "title": "Bayrischer Wurstsalat mit Radieschen, Rettich und Gewürzgurken",
+  "description": "Mein bayrischer Wurstsalat schmeckt toll zum Frühstück oder Abendbrot. Ein einfacher Salat aus Lyoner Fleischwurst, Gewürzgurken, Radieschen und Rettich. Mit einem schnellen Dressing aus Essig, Öl und süßem Senf.",
+  "ingredients": [
+    "400 g Lyoner (Fleischwurst)",
+    "2 kleine rote Zwiebeln (in feine Ringe gehobelt)",
+    "100 g Rettich (in feine Scheiben gehobelt)",
+    "50 g Radieschen (in feine Scheiben gehobelt)",
+    "80 g Gewürzgurken (in feine Würfel geschnitten)",
+    "1/2 Bund glatte Petersilie (fein gehackt)",
+    "1/2 Bund Schnittlauch (in feine Ringe geschnitten)",
+    "1 TL Kümmel",
+    "4 EL Sonnenblumenöl",
+    "2 EL Rotweinessig",
+    "2 EL Gurkensud",
+    "1 TL scharfer Senf",
+    "1 TL süßer Senf",
+    "Salz, Zucker und schwarzer Pfeffer"
+  ],
+  "steps": [
+    "Eine kleine Pfanne aufsetzen und den Kümmel ohne Fett anrösten, bis er zu duften anfängt.",
+    "Die Zutaten für die Vinaigrette in eine Schüssel geben und mit dem Schneebesen verrühren.",
+    "Die Fleischwurstscheibchen in eine große Schüssel geben und mit der Vinaigrette vermischen. Die angerösteten Kümmelsamen untermischen und 10 Minuten durchziehen lassen.",
+    "Die restlichen Zutaten in die Schüssel geben und behutsam mit der Wurst vermengen. Mit Salz und Pfeffer abschmecken."
+  ],
+  "timeMinutes": 25,
+  "servings": 4,
+  "category": "Frühstück",
+  "cuisine": "Deutschland",
+  "keywords": "Abendbrot, Bayrischer Wurstsalat, Fleischwurst, frühstück, Salat, Wurst, Wurstsalat",
+  "image": "https://www.malteskitchen.de/wp-content/uploads/2022/01/bayrischer-wurstsalat-blogpost-5785.jpg",
+  "source": {
+    "site": "malteskitchen.de",
+    "url": "https://www.malteskitchen.de/bayrischer-wurstsalat/",
+    "title": "Bayrischer Wurstsalat mit Radieschen, Rettich und Gewürzgurken",
+    "rating": 4.8,
+    "ratingCount": 32
+  },
+  "importedAt": "2026-09-04"
+}
