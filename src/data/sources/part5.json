@@ -2,7 +2,9 @@
   "w-lachs-poke-bowl": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/poke-bowl-mit-lachs-73150.html",
-    "title": "Poké Bowl mit Lachs Rezept | LECKER"
+    "title": "Poké Bowl mit Lachs Rezept | LECKER",
+    "rating": 4.5,
+    "ratingCount": 71
   },
   "w-dal-makhani": {
     "site": "rewe.de",
@@ -12,22 +14,30 @@
   "w-baked-oats-heidelbeere": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/gebackenes-blaubeer-bananen-oatmeal-100652",
-    "title": "Gebackenes Blaubeer-Bananen-Oatmeal Rezept | Küchengötter"
+    "title": "Gebackenes Blaubeer-Bananen-Oatmeal Rezept | Küchengötter",
+    "rating": 5,
+    "ratingCount": 2
   },
   "w-kartoffel-lauch-suppe": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/kartoffel-lauch-suppe/",
-    "title": "Cremige Kartoffel Lauch Suppe - emmikochteinfach"
+    "title": "Cremige Kartoffel Lauch Suppe - emmikochteinfach",
+    "rating": 5,
+    "ratingCount": 102
   },
   "w-cajun-haehnchen-reis": {
     "site": "hellofresh.de",
     "url": "https://www.hellofresh.de/recipes/cajun-hahnchen-pfanne-mit-paprika-6825f02552cd23f0e23a20ce",
-    "title": "Cajun-Pfanne mit Hähnchen Rezept | HelloFresh"
+    "title": "Cajun-Pfanne mit Hähnchen Rezept | HelloFresh",
+    "rating": 5,
+    "ratingCount": 2
   },
   "w-kimchi-fried-rice": {
     "site": "edeka.de",
     "url": "https://www.edeka.de/rezeptwelt/rezepte/kimchi-fried-rice/",
-    "title": "Kimchi Fried Rice - Rezepte"
+    "title": "Kimchi Fried Rice - Rezepte",
+    "rating": 3.8,
+    "ratingCount": 4
   },
   "w-bananen-nicecream": {
     "site": "einfachkochen.de",
@@ -42,47 +52,65 @@
   "w-muscheln-weisswein": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/miesmuscheln-im-weissweinsud-37146.html",
-    "title": "Miesmuscheln im Weißweinsud Rezept | LECKER"
+    "title": "Miesmuscheln im Weißweinsud Rezept | LECKER",
+    "rating": 3.8,
+    "ratingCount": 103
   },
   "w-okonomiyaki": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/japanischer-kohl-pfannkuchen-okonomiyaki-79674.html",
-    "title": "Japanischer Kohl-Pfannkuchen – Okonomiyaki Rezept | LECKER"
+    "title": "Japanischer Kohl-Pfannkuchen – Okonomiyaki Rezept | LECKER",
+    "rating": 4.4,
+    "ratingCount": 5
   },
   "w-skyr-bowl-beeren": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/skyr-mit-beeren-und-granola-96881",
-    "title": "Skyr mit Beeren und Granola Rezept | Küchengötter"
+    "title": "Skyr mit Beeren und Granola Rezept | Küchengötter",
+    "rating": 5,
+    "ratingCount": 2
   },
   "w-tabouleh": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/tabouleh/",
-    "title": "Tabouleh – Petersiliensalat nach libanesischer Art"
+    "title": "Tabouleh – Petersiliensalat nach libanesischer Art",
+    "rating": 4.8,
+    "ratingCount": 12
   },
   "w-lamm-koefte-minzjoghurt": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/tuerkische-koefte-mit-minz-joghurt-dip-28193.html",
-    "title": "Türkische Köfte mit Minz-Joghurt-Dip Rezept | LECKER"
+    "title": "Türkische Köfte mit Minz-Joghurt-Dip Rezept | LECKER",
+    "rating": 4.2,
+    "ratingCount": 12
   },
   "w-pulled-jackfruit-burger": {
     "site": "edeka.de",
     "url": "https://www.edeka.de/rezeptwelt/rezepte/pulled-jackfruit-burger/",
-    "title": "Pulled Jackfruit Burger"
+    "title": "Pulled Jackfruit Burger",
+    "rating": 4.5,
+    "ratingCount": 12
   },
   "w-apfel-zimt-waffeln": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/apfel-zimt-waffeln-71716",
-    "title": "Apfel-Zimt-Waffeln Rezept | Küchengötter"
+    "title": "Apfel-Zimt-Waffeln Rezept | Küchengötter",
+    "rating": 3.7,
+    "ratingCount": 46
   },
   "w-borschtsch": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/rote-bete-suppe-mit-rindfleisch-borschtsch",
-    "title": "Rote-Bete-Suppe mit Rindfleisch (Borschtsch) Rezept | EAT SMARTER"
+    "title": "Rote-Bete-Suppe mit Rindfleisch (Borschtsch) Rezept | EAT SMARTER",
+    "rating": 4.3,
+    "ratingCount": 3
   },
   "w-fischfrikadellen": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/fischfrikadellen/",
-    "title": "Fischfrikadellen aus Seelachs"
+    "title": "Fischfrikadellen aus Seelachs",
+    "rating": 4.9,
+    "ratingCount": 16
   },
   "w-bibimbap-gemuese": {
     "site": "rewe.de",
@@ -92,11 +120,15 @@
   "w-griessbrei-kirschen": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/griessbrei-mit-kirschen-77827.html",
-    "title": "Grießbrei mit Kirschen Rezept | LECKER"
+    "title": "Grießbrei mit Kirschen Rezept | LECKER",
+    "rating": 4.7,
+    "ratingCount": 61
   },
   "w-wassermelonen-feta-salat": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/wassermelonen-feta-salat-64958.html",
-    "title": "Wassermelonen-Feta-Salat - einfaches 15-Minuten-Rezept | LECKER"
+    "title": "Wassermelonen-Feta-Salat - einfaches 15-Minuten-Rezept | LECKER",
+    "rating": 4.3,
+    "ratingCount": 192
   }
 }

@@ -2,22 +2,30 @@
   "s-kuerbissuppe": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/43827-rzpt-kuerbis-kokos-suppe",
-    "title": "Kürbis-Kokos-Suppe Rezept - [ESSEN UND TRINKEN]"
+    "title": "Kürbis-Kokos-Suppe Rezept - [ESSEN UND TRINKEN]",
+    "rating": 3.9,
+    "ratingCount": 41
   },
   "s-tomatensuppe": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/geroestete-tomatensuppe-84277.html",
-    "title": "Geröstete Tomatensuppe Rezept | LECKER"
+    "title": "Geröstete Tomatensuppe Rezept | LECKER",
+    "rating": 4,
+    "ratingCount": 4
   },
   "s-rote-linsensuppe": {
     "site": "hellofresh.de",
     "url": "https://www.hellofresh.de/recipes/market/orientalische-linsensuppe-mit-zitrone-5d39bcf9c09a9b000c5eabd9",
-    "title": "Orientalische Linsensuppe mit Zitrone Rezept | HelloFresh"
+    "title": "Orientalische Linsensuppe mit Zitrone Rezept | HelloFresh",
+    "rating": 4.3,
+    "ratingCount": 114
   },
   "s-huehnersuppe": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/klassische-huehnersuppe-13481178.html",
-    "title": "Klassische Hühnersuppe Rezept - [ESSEN UND TRINKEN]"
+    "title": "Klassische Hühnersuppe Rezept - [ESSEN UND TRINKEN]",
+    "rating": 5,
+    "ratingCount": 3
   },
   "s-minestrone": {
     "site": "einfachkochen.de",
@@ -27,7 +35,9 @@
   "s-kartoffelsuppe": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/ganz-einfache-kartoffelsuppe-mit-wuerstchen-und-suppengemuese/",
-    "title": "Kartoffelsuppe mit Würstchen: Mein Familienrezept von Oma"
+    "title": "Kartoffelsuppe mit Würstchen: Mein Familienrezept von Oma",
+    "rating": 5,
+    "ratingCount": 546
   },
   "s-tom-kha-gai": {
     "site": "einfachkochen.de",
@@ -42,47 +52,65 @@
   "s-gulaschsuppe": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/omas-gulaschsuppe-ungarischer-art/",
-    "title": "Omas Gulaschsuppe ungarischer Art - emmikochteinfach"
+    "title": "Omas Gulaschsuppe ungarischer Art - emmikochteinfach",
+    "rating": 5,
+    "ratingCount": 251
   },
   "s-miso-suppe": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/fixe-misosuppe-mit-tofu-79029.html",
-    "title": "Fixe Misosuppe mit Tofu Rezept | LECKER"
+    "title": "Fixe Misosuppe mit Tofu Rezept | LECKER",
+    "rating": 3.9,
+    "ratingCount": 17
   },
   "s-brokkoli-cremesuppe": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/brokkoli-cremesuppe-29387.html",
-    "title": "Brokkoli-Cremesuppe mit Sahne und Mandelcrunch Rezept | LECKER"
+    "title": "Brokkoli-Cremesuppe mit Sahne und Mandelcrunch Rezept | LECKER",
+    "rating": 4.1,
+    "ratingCount": 129
   },
   "s-blumenkohl-currysuppe": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/blumenkohl-curry-suppe-einfach-lecker",
-    "title": "Blumenkohl-Curry-Suppe – einfach & lecker"
+    "title": "Blumenkohl-Curry-Suppe – einfach & lecker",
+    "rating": 5,
+    "ratingCount": 5
   },
   "s-zwiebelsuppe": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/61676-rzpt-franzoesische-zwiebelsuppe",
-    "title": "Französische Zwiebelsuppe Rezept - [ESSEN UND TRINKEN]"
+    "title": "Französische Zwiebelsuppe Rezept - [ESSEN UND TRINKEN]",
+    "rating": 3.3,
+    "ratingCount": 171
   },
   "s-caesar-salad-haehnchen": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/caesar-salad-mit-haehnchen-0",
-    "title": "Caesar Salad mit Hähnchen: eiweißreicher Klassiker Rezept | EAT SMARTER"
+    "title": "Caesar Salad mit Hähnchen: eiweißreicher Klassiker Rezept | EAT SMARTER",
+    "rating": 5,
+    "ratingCount": 15
   },
   "s-griechischer-salat": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/griechischer-bauernsalat/",
-    "title": "Griechischer Bauernsalat – so schnell und einfach - emmikochteinfach"
+    "title": "Griechischer Bauernsalat – so schnell und einfach - emmikochteinfach",
+    "rating": 5,
+    "ratingCount": 255
   },
   "s-caprese": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/insalata-caprese-69717.html",
-    "title": "Insalata caprese Rezept | LECKER"
+    "title": "Insalata caprese Rezept | LECKER",
+    "rating": 4,
+    "ratingCount": 35
   },
   "s-quinoa-salat-granatapfel": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/quinoa-salat-mit-granatapfel-95758",
-    "title": "Quinoa-Salat mit Granatapfel Rezept | Küchengötter"
+    "title": "Quinoa-Salat mit Granatapfel Rezept | Küchengötter",
+    "rating": 4.5,
+    "ratingCount": 32
   },
   "s-couscous-salat": {
     "site": "kuechengoetter.de",
@@ -97,12 +125,16 @@
   "s-bunter-nudelsalat": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/nudelsalat-mit-pesto/",
-    "title": "Nudelsalat mit Pesto – Schnell, einfach und mit nur 6 Zutaten"
+    "title": "Nudelsalat mit Pesto – Schnell, einfach und mit nur 6 Zutaten",
+    "rating": 5,
+    "ratingCount": 111
   },
   "s-thunfischsalat": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/thunfischsalat-mit-ei",
-    "title": "Thunfischsalat mit Ei – in 20 Minuten auf dem Tisch!"
+    "title": "Thunfischsalat mit Ei – in 20 Minuten auf dem Tisch!",
+    "rating": 5,
+    "ratingCount": 1
   },
   "s-belugalinsen-salat": {
     "site": "rewe.de",
@@ -112,7 +144,9 @@
   "s-rote-bete-ziegenkaese": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/rote-bete-salat-mit-ziegenkaese-2",
-    "title": "Rote-Bete-Salat mit Ziegenkäse Rezept | EAT SMARTER"
+    "title": "Rote-Bete-Salat mit Ziegenkäse Rezept | EAT SMARTER",
+    "rating": 5,
+    "ratingCount": 4
   },
   "s-thai-glasnudelsalat": {
     "site": "rewe.de",

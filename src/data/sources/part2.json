@@ -2,12 +2,16 @@
   "v-spaghetti-basilikumpesto": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/pasta-mit-basilikumpesto",
-    "title": "Pasta mit Basilikumpesto Rezept | EAT SMARTER"
+    "title": "Pasta mit Basilikumpesto Rezept | EAT SMARTER",
+    "rating": 5,
+    "ratingCount": 1
   },
   "v-penne-arrabbiata": {
     "site": "malteskitchen.de",
     "url": "https://www.malteskitchen.de/penne-all-arrabbiata/",
-    "title": "Penne all arrabbiata ▷ original italienisch & feurig scharf"
+    "title": "Penne all arrabbiata ▷ original italienisch & feurig scharf",
+    "rating": 5,
+    "ratingCount": 12
   },
   "v-pilzrahm-tagliatelle": {
     "site": "kochbar.de",
@@ -22,12 +26,16 @@
   "v-pasta-alla-norma": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/pasta-alla-norma/",
-    "title": "Pasta alla Norma – sizilianischer Klassiker"
+    "title": "Pasta alla Norma – sizilianischer Klassiker",
+    "rating": 5,
+    "ratingCount": 37
   },
   "v-linsenbolognese": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/spaghetti-mit-linsenbolognese-70726.html",
-    "title": "Spaghetti mit Linsenbolognese Rezept | LECKER"
+    "title": "Spaghetti mit Linsenbolognese Rezept | LECKER",
+    "rating": 3.8,
+    "ratingCount": 45
   },
   "v-one-pot-tomaten-mozzarella-pasta": {
     "site": "rewe.de",
@@ -37,7 +45,9 @@
   "v-gemueselasagne": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/spinat-lasagne-mit-zucchini-und-ricotta",
-    "title": "Spinat-Lasagne mit Zucchini und Ricotta Rezept | EAT SMARTER"
+    "title": "Spinat-Lasagne mit Zucchini und Ricotta Rezept | EAT SMARTER",
+    "rating": 4.7,
+    "ratingCount": 9
   },
   "v-linsen-moussaka": {
     "site": "einfachkochen.de",
@@ -47,27 +57,37 @@
   "v-ofengemuese-halloumi": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/ofengemuese-mit-halloumi",
-    "title": "Ofengemüse mit Halloumi Rezept | EAT SMARTER"
+    "title": "Ofengemüse mit Halloumi Rezept | EAT SMARTER",
+    "rating": 5,
+    "ratingCount": 3
   },
   "v-kartoffel-lauch-gratin": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/62390-rzpt-kartoffel-lauch-gratin",
-    "title": "Kartoffel-Lauch-Gratin Rezept - [ESSEN UND TRINKEN]"
+    "title": "Kartoffel-Lauch-Gratin Rezept - [ESSEN UND TRINKEN]",
+    "rating": 2.6,
+    "ratingCount": 289
   },
   "v-gefuellte-paprika-quinoa": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/gefuellte-paprika-mit-quinoa/",
-    "title": "Gefüllte Paprika mit Quinoa und Feta – vegetarisches Rezept"
+    "title": "Gefüllte Paprika mit Quinoa und Feta – vegetarisches Rezept",
+    "rating": 5,
+    "ratingCount": 93
   },
   "v-gefuellte-suesskartoffeln-bohnen": {
     "site": "eatsmarter.de",
     "url": "https://eatsmarter.de/rezepte/gebackene-suesskartoffeln-mit-bohnen-0",
-    "title": "Gebackene Süßkartoffeln mit Bohnen Rezept | EAT SMARTER"
+    "title": "Gebackene Süßkartoffeln mit Bohnen Rezept | EAT SMARTER",
+    "rating": 4.5,
+    "ratingCount": 8
   },
   "v-shakshuka": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/shakshuka-mit-feta-73028.html",
-    "title": "Blitz-Shakshuka mit Feta Rezept | LECKER"
+    "title": "Blitz-Shakshuka mit Feta Rezept | LECKER",
+    "rating": 3.7,
+    "ratingCount": 139
   },
   "v-kichererbsen-curry": {
     "site": "einfachkochen.de",
@@ -77,7 +97,9 @@
   "v-linsen-dal": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/linsen-dal/",
-    "title": "Rotes Linsen Dal – Indischer Eintopf"
+    "title": "Rotes Linsen Dal – Indischer Eintopf",
+    "rating": 5,
+    "ratingCount": 48
   },
   "v-thai-gemuesecurry-tofu": {
     "site": "einfachkochen.de",
@@ -87,7 +109,9 @@
   "v-palak-paneer": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/palak-paneer-indisches-original-rezept",
-    "title": "Palak Paneer – indisches Original-Rezept"
+    "title": "Palak Paneer – indisches Original-Rezept",
+    "rating": 5,
+    "ratingCount": 2
   },
   "v-suesskartoffel-erdnuss-curry": {
     "site": "einfachkochen.de",
@@ -97,22 +121,30 @@
   "v-blumenkohl-kokos-curry": {
     "site": "essen-und-trinken.de",
     "url": "https://www.essen-und-trinken.de/rezepte/42266-rzpt-blumenkohl-erbsen-curry",
-    "title": "Blumenkohl-Erbsen-Curry Rezept - [ESSEN UND TRINKEN]"
+    "title": "Blumenkohl-Erbsen-Curry Rezept - [ESSEN UND TRINKEN]",
+    "rating": 3,
+    "ratingCount": 1
   },
   "v-buddha-bowl-tahini": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/buddha-bowl-mit-goji-beeren-und-tahini-dressing-75524.html",
-    "title": "Buddha Bowl mit Goji-Beeren und Tahini-Dressing Rezept | LECKER"
+    "title": "Buddha Bowl mit Goji-Beeren und Tahini-Dressing Rezept | LECKER",
+    "rating": 4.8,
+    "ratingCount": 19
   },
   "v-quinoa-bowl-feta": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/quinoa-bowl-mit-bohnencreme-und-tomaten-96069",
-    "title": "Quinoa-Bowl mit Bohnencreme und Tomaten Rezept | Küchengötter"
+    "title": "Quinoa-Bowl mit Bohnencreme und Tomaten Rezept | Küchengötter",
+    "rating": 5,
+    "ratingCount": 1
   },
   "v-poke-bowl-tofu": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/vegane-poke-bowl",
-    "title": "Vegane Poke Bowl – SOO unglaublich lecker!"
+    "title": "Vegane Poke Bowl – SOO unglaublich lecker!",
+    "rating": 5,
+    "ratingCount": 31
   },
   "v-burrito-bowl": {
     "site": "einfachkochen.de",
@@ -127,7 +159,9 @@
   "v-tofu-teriyaki": {
     "site": "hellofresh.de",
     "url": "https://www.hellofresh.de/recipes/blitzschnelles-japanisches-teriyaki-stir-fry-695b7ce05c0be345fe7662ca",
-    "title": "Teriyaki Stir-Fry mit Tofu und Brokkoli Rezept | HelloFresh"
+    "title": "Teriyaki Stir-Fry mit Tofu und Brokkoli Rezept | HelloFresh",
+    "rating": 3.9,
+    "ratingCount": 701
   },
   "v-pad-thai-tofu": {
     "site": "einfachkochen.de",
@@ -137,7 +171,9 @@
   "v-gemuese-fried-rice-ei": {
     "site": "gaumenfreundin.de",
     "url": "https://www.gaumenfreundin.de/gebratener-reis-mit-gemuese-und-ei/",
-    "title": "Bester gebratener Reis mit Ei und Gemüse"
+    "title": "Bester gebratener Reis mit Ei und Gemüse",
+    "rating": 5,
+    "ratingCount": 92
   },
   "v-champignon-stroganoff": {
     "site": "kochbar.de",
