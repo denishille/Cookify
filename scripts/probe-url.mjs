@@ -18,5 +18,11 @@ for (const url of process.argv.slice(2)) {
     const apis = [...new Set([...body.matchAll(/https?:\/\/[a-z0-9.-]*kptncook[^"'\s<>]*/gi)].map((m) => m[0]))]
     console.log('kptncook-URLs im HTML:', apis.slice(0, 15).join(' '))
     console.log('Anfang:', body.slice(0, 400).replace(/\s+/g, ' '))
+    if (process.env.DUMP) {
+      const inner = (/<body[^>]*>([\s\S]*)<\/body>/i.exec(body) ?? [null, body])[1]
+      console.log('--- BODY ---')
+      console.log(inner.replace(/<script[\s\S]*?<\/script>/gi, '').replace(/\n\s*\n/g, '\n').slice(0, 30000))
+      console.log('--- ENDE ---')
+    }
   } catch (e) { console.log('Fehler:', e.message) }
 }
