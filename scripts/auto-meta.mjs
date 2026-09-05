@@ -100,7 +100,6 @@ for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).so
   const name = file.replace(/\.json$/, '')
   const parsed = d.ingredients.map(parseIngredient).filter(Boolean)
   const keys = parsed.map((p) => keyFor(p.name)).filter(Boolean)
-  const ings = parsed.map((p) => p.name.replace(/\s{2,}/g, ' ').trim()).filter(Boolean)
   const title = shortTitle(d.title)
   const n = norm(title)
   const category = categoryFor(title, keys)
