@@ -38,7 +38,7 @@ Jede Rezeptdatei unter `src/data/recipes/*.json` ist ein JSON-Array von Rezept-O
 - `optional: true` nur bei wirklich verzichtbaren Zutaten.
 - `diet`: Gib nur `vegetarisch` und `vegan` an. Alles andere (`glutenfrei`, `laktosefrei`, `proteinreich`, `lowcarb`, `kalorienarm`, `fruktosefrei`, `leichtverdaulich`) berechnet die App selbst aus Nährwerten und Zutaten und überschreibt vorhandene Angaben.
   - Aus den Nährwerten (`src/lib/nutrition.ts`): proteinreich ab 20 % Energie aus Protein oder ab 25 g bei mindestens 15 %, lowcarb bis 20 g Kohlenhydrate oder 20 % Energieanteil, kalorienarm unter 400 kcal.
-  - Aus den Zutaten (`src/lib/dietRules.ts`): dort steht je Ernährungsform, welche Zutat kritisch ist – entweder immer oder erst ab einer Menge je Portion. Deshalb sind korrekte `amount`, `unit` und `servings` wichtig: Sie entscheiden mit darüber, ob ein Rezept z. B. als Low FODMAP gilt.
+  - Aus den Zutaten (`src/lib/dietRules.ts`): dort steht je Ernährungsform, welche Zutat kritisch ist – entweder immer oder erst ab einer Menge je Portion. Deshalb sind korrekte `amount`, `unit` und `servings` wichtig: Sie entscheiden mit darüber, ob ein Rezept z. B. als laktosefrei gilt.
   - Dasselbe Regelwerk liefert die Ersatzvorschläge (Zucker → Traubenzucker, Sahne → Hafercreme, Hühnerbrühe → Gemüsebrühe). Wer eine Zutat ergänzt, pflegt sie dort mit ein; `node scripts/check-diet-rules.mjs` prüft, dass nichts fehlt.
 - Zwischen 6 und 14 Zutaten, zwischen 4 und 9 Schritte. Schritte konkret mit Zeiten/Temperaturen.
 - Alles auf Deutsch, Du-Form in den Schritten ("Brate die Zwiebeln ...").
