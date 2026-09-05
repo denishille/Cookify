@@ -26,6 +26,7 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, 
   return (
     <article
       className="card"
+      data-recipe-id={recipe.id}
       role="link"
       tabIndex={0}
       onClick={() => openRecipe(recipe.id)}

@@ -335,6 +335,23 @@ svg { flex-shrink: 0; }
   margin: 0 -20px; padding: 2px 20px;
 }
 .chips.scroll::-webkit-scrollbar { display: none; }
+/* Die Listenreihe bleibt oben stehen: nur so hat man beim Ziehen immer ein Ziel vor Augen. */
+.lists-bar { position: sticky; top: -28px; z-index: 6; background: var(--bg); padding-top: 16px; padding-bottom: 10px; }
+
+/* Ziehen: das Original blasst ab, ein Schildchen hängt am Finger, das Ziel leuchtet. */
+.card img { -webkit-user-drag: none; user-select: none; }
+.dragging-card { opacity: .4; transform: scale(.97); transition: opacity .12s, transform .12s; }
+body.dragging-anything { user-select: none; -webkit-user-select: none; }
+.drag-ghost {
+  position: fixed; top: 0; left: 0; z-index: 60; pointer-events: none;
+  max-width: 60vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  background: var(--green); color: #fff; box-shadow: var(--shadow);
+  border-radius: 999px; padding: 10px 16px; font-size: .9rem; font-weight: 600;
+}
+.chip.drop-over {
+  background: var(--lime); border-color: var(--lime); color: var(--lime-text);
+  transform: scale(1.06);
+}
 .chip {
   display: inline-flex; align-items: center; gap: 6px;
   height: 36px; padding: 0 14px; border-radius: 999px;

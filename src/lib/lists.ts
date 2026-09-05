@@ -70,6 +70,20 @@ export function useLists() {
 
   const remove = useCallback((id: string) => setLists((prev) => prev.filter((l) => l.id !== id)), [setLists])
 
+  /**
+   * Legt ein Rezept in eine Liste; gibt zurück, ob es neu dazukam.
+   * Die Antwort kommt aus dem aktuellen Stand – im Aktualisierer gesetzt käme sie zu spät,
+   * weil React ihn erst später ausführt.
+   */
+  const addRecipe = useCallback((listId: string, recipeId: string) => {
+    const list = lists.find((l) => l.id === listId)
+    if (!list || list.recipeIds.includes(recipeId)) return false
+    setLists((prev) => prev.map((l) => (l.id === listId && !l.recipeIds.includes(recipeId)
+      ? { ...l, recipeIds: [...l.recipeIds, recipeId] }
+      : l)))
+    return true
+  }, [lists, setLists])
+
   const toggleRecipe = useCallback((listId: string, recipeId: string) => {
     setLists((prev) => prev.map((l) => (l.id === listId
       ? { ...l, recipeIds: l.recipeIds.includes(recipeId) ? l.recipeIds.filter((r) => r !== recipeId) : [...l.recipeIds, recipeId] }
@@ -79,5 +93,5 @@ export function useLists() {
   /** In welchen Listen steckt ein Rezept? */
   const listsWith = useCallback((recipeId: string) => lists.filter((l) => l.recipeIds.includes(recipeId)), [lists])
 
-  return { lists, create, rename, remove, toggleRecipe, listsWith }
+  return { lists, create, rename, remove, addRecipe, toggleRecipe, listsWith }
 }

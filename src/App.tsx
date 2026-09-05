@@ -11,6 +11,7 @@ import { dailyPicks } from './lib/daily'
 import { adaptRecipe } from './lib/adapt'
 import { DEFAULT_SETS, type PantrySet } from './lib/sets'
 import { decodeList, listUrl, useLists } from './lib/lists'
+import { useDragToList } from './lib/dragToList'
 import { shareLink } from './lib/share'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
@@ -193,6 +194,25 @@ export default function App() {
     navigate('gespeichert')
     notice(`„${shared.name}“ übernommen`)
   }
+
+  /** Karten aus „Gespeichert“ auf eine Liste ziehen. */
+  const savedGridRef = useRef<HTMLDivElement>(null)
+  useDragToList(savedGridRef, {
+    enabled: route.view === 'gespeichert' && !route.recipeId && !route.sharedList,
+    onDrop: (recipeId, listId) => {
+      const titel = BY_ID.get(recipeId)?.title ?? 'Rezept'
+      if (listId === '__fav') {
+        if (savedSet.has(recipeId)) return notice(`„${titel}“ ist schon in den Favoriten`)
+        savedSet.toggle(recipeId)
+        return notice(`„${titel}“ in den Favoriten`)
+      }
+      const liste = lists.lists.find((l) => l.id === listId)
+      if (!liste) return
+      notice(lists.addRecipe(listId, recipeId)
+        ? `„${titel}“ in „${liste.name}“`
+        : `„${titel}“ war schon in „${liste.name}“`)
+    },
+  })
 
   const activeList = lists.lists.find((l) => l.id === openList) ?? null
   const listRecipes = activeList ? activeList.recipeIds.map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r)) : []
@@ -475,12 +495,12 @@ export default function App() {
         {!route.recipeId && route.view === 'gespeichert' && !shared && (
           <>
             <h1 className="h1">Gespeichert</h1>
-            <div className="chips scroll" style={{ marginTop: 16 }}>
-              <button className={`chip ${openList === null ? 'on' : ''}`} onClick={() => setOpenList(null)}>
+            <div className="chips scroll lists-bar">
+              <button className={`chip ${openList === null ? 'on' : ''}`} data-drop-list="__fav" onClick={() => setOpenList(null)}>
                 <IconHeart width={16} height={16} filled={openList === null} /> Favoriten {savedSet.set.size > 0 && `· ${savedSet.set.size}`}
               </button>
               {lists.lists.map((l) => (
-                <button key={l.id} className={`chip ${openList === l.id ? 'on' : ''}`} onClick={() => setOpenList(l.id)}>
+                <button key={l.id} className={`chip ${openList === l.id ? 'on' : ''}`} data-drop-list={l.id} onClick={() => setOpenList(l.id)}>
                   {l.name} · {l.recipeIds.length}
                 </button>
               ))}
@@ -502,7 +522,7 @@ export default function App() {
                     <button className="btn primary" onClick={() => navigate('alle')}>Rezepte ansehen</button>
                   </div>
                 ) : (
-                  <div className="grid" style={{ marginTop: 18 }}>{listRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+                  <div className="grid" ref={savedGridRef} style={{ marginTop: 18 }}>{listRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
                 )}
               </>
             ) : savedRecipes.length === 0 ? (
@@ -513,7 +533,10 @@ export default function App() {
                 <button className="btn primary" onClick={() => navigate('alle')}>Rezepte ansehen</button>
               </div>
             ) : (
-              <div className="grid" style={{ marginTop: 22 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+              <>
+                {lists.lists.length > 0 && <p className="hint" style={{ marginTop: 14 }}>Karte gedrückt halten und auf eine Liste oben ziehen.</p>}
+                <div className="grid" ref={savedGridRef} style={{ marginTop: 14 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+              </>
             )}
             {!activeList && savedUnfit > 0 && <p className="hint" style={{ marginTop: 16 }}>{savedUnfit} gespeicherte {savedUnfit === 1 ? 'Rezept passt' : 'Rezepte passen'} nicht zu deiner Ernährungsform und {savedUnfit === 1 ? 'wird' : 'werden'} ausgeblendet.</p>}
           </>
