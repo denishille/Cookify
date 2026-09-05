@@ -1,0 +1,1203 @@
+[
+  {
+    "title": "Aloo Saag – Spinat-Curry mit Kartoffeln",
+    "description": "Cremiges indisches Spinatcurry mit gerösteten Drillingen, Ingwer und Madras-Curry. Dazu Basmatireis und knuspriger Schwarzkümmel.",
+    "emoji": "🥬",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 690,
+      "protein": 18,
+      "carbs": 92,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "spinat",
+        "name": "Babyspinat",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln (Drillinge)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehen",
+        "amount": 3,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Kochsahne",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "currypulver",
+        "name": "Madras-Curry-Pulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kuemmel",
+        "name": "Schwarzkümmel",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Halbiere die Drillinge, schneide die Karotten in Stifte und röste beides mit der Hälfte des Öls und etwas Salz 25 Minuten.",
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten und lass ihn dann 5 Minuten quellen.",
+      "Blanchiere den Spinat 1 Minute in kochendem Salzwasser, schreck ihn kalt ab und drück ihn gut aus.",
+      "Würfle die Zwiebel und hacke Knoblauch und Ingwer fein. Brate alles im restlichen Öl 4 Minuten an und röste das Currypulver 1 Minute mit.",
+      "Gib den Spinat dazu, rühre die Sahne unter und lass alles 2 Minuten köcheln.",
+      "Nimm die Pfanne vom Herd, rühre den Joghurt ein und schmecke mit Salz und Pfeffer ab.",
+      "Hebe Kartoffeln und Karotten unter, richte alles mit dem Reis an und streu den Schwarzkümmel darüber."
+    ],
+    "tags": [
+      "curry",
+      "aus dem ofen",
+      "cremig"
+    ],
+    "id": "i-aloo-saag-indisches-spinat-curry-mit-kartoffeln-auf-basmatir",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/aloo-saag-indisches-spinat-curry-mit-kartoffeln-64e860aa40ec4203972fa8f8",
+      "title": "Aloo Saag! Indisches Spinat-Curry mit Kartoffeln auf Basmatireis und Schwarzkümmel-Topping",
+      "rating": 3.3,
+      "ratingCount": 498
+    }
+  },
+  {
+    "title": "Asia-Bowl mit Wildreis & scharfem Brokkoli",
+    "description": "Ofen-Süßkartoffel, scharf gebratener Brokkoli und Gurkensalat auf Wildreis, dazu Sriracha-Mayonnaise und Sweet-Chili-Dip.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 18,
+      "carbs": 96,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "reis",
+        "name": "Basmati-Wildreis-Mischung",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "suesskartoffel",
+        "name": "Süßkartoffel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Baby Pak Choi",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 34,
+        "unit": "ml"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sriracha",
+        "amount": 8,
+        "unit": "ml"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Halbiere die Süßkartoffel längs, schneide sie in 1 cm dicke Scheiben und röste sie mit Öl und Salz 25 Minuten.",
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 20 Minuten.",
+      "Reib die Limettenschale ab und press den Saft aus. Rühre daraus mit geriebenem Ingwer, Sojasauce und der Hälfte des Sesamöls ein Dressing an.",
+      "Hobel die Gurke in dünne Scheiben und mische sie mit zwei Esslöffeln Dressing und dem Limettenabrieb.",
+      "Brate Brokkoliröschen, Pak Choi, Frühlingszwiebeln, gehackten Knoblauch und Sesam im restlichen Sesamöl 6 Minuten scharf an und lösche mit dem Dressing ab.",
+      "Verrühre die Mayonnaise mit dem Sriracha.",
+      "Richte Reis, Süßkartoffel, Brokkoli und Gurkensalat in Schalen an und gib die Sriracha-Mayonnaise darüber."
+    ],
+    "tags": [
+      "bowl",
+      "scharf",
+      "aus dem ofen"
+    ],
+    "id": "i-asia-bowl-mit-wildreis-und-scharfem-brokkoli-dazu-sriracha-m",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/asia-bowl-mit-wildreis-und-scharfem-brokkoli-6033e667d00f7c514b7d25ad",
+      "title": "Asia-Bowl mit Wildreis und scharfem Brokkoli dazu Sriracha-Mayonnaise und Sweet-Chili-Dip",
+      "rating": 4.3,
+      "ratingCount": 9611
+    }
+  },
+  {
+    "title": "Glasierte Aubergine mit Sesamreis",
+    "description": "Aubergine und Paprika aus dem Ofen, glasiert in Hoisin-Teriyaki-Sauce. Dazu Jasminreis mit geröstetem Sesam und Cashewkerne.",
+    "emoji": "🍆",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 16,
+      "carbs": 108,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "reis",
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zuckerschoten",
+        "name": "Kaiserschoten",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chilischote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Teriyakisoße",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "key": "miso",
+        "name": "Hoisinsoße",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Maisstärke",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "key": "cashews",
+        "name": "Cashewkerne",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Würfle Aubergine und Paprika, verteile sie auf einem Blech, mische sie mit Öl und Salz und röste sie 20 bis 25 Minuten.",
+      "Brate den weißen Teil der Frühlingszwiebel, den halben Knoblauch und den Sesam in einem Topf kurz an, gib den Reis dazu und gar ihn in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Verrühre Hoisin- und Teriyakisoße mit 150 ml Wasser, der Maisstärke, dem Honig, geriebenem Ingwer und feingehackter Chili.",
+      "Brate die Kaiserschoten mit dem restlichen Knoblauch 4 Minuten an und gieß die Sauce an. Lass sie 2 Minuten andicken.",
+      "Hebe das Ofengemüse unter die Sauce, bis alles glänzt.",
+      "Richte Reis und glasiertes Gemüse an, streu Cashewkerne und grüne Frühlingszwiebelringe darüber."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "asiatisch",
+      "glasiert"
+    ],
+    "id": "i-asiatisch-glasierte-aubergine-mit-sesamreis-hoisinsosse-und",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/asiatisch-glasierte-aubergine-5f1aa460ab26fe6ef111336a",
+      "title": "Asiatisch glasierte Aubergine mit Sesamreis, Hoisinsoße und Cashewkernen",
+      "rating": 4.1,
+      "ratingCount": 385
+    }
+  },
+  {
+    "title": "Georgische Auberginenrollen mit Linsensalat",
+    "description": "Auberginenscheiben aus dem Ofen, gerollt um eine Walnusspaste mit Knoblauch. Dazu ein tomatiger Linsen-Spinat-Salat mit Granatapfelkernen.",
+    "emoji": "🍆",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 22,
+      "carbs": 52,
+      "fat": 44
+    },
+    "ingredients": [
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "linsen-braun",
+        "name": "Braune Linsen, gegart",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "granatapfel",
+        "name": "Granatapfel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "spinat",
+        "name": "Babyspinat",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 5,
+        "unit": "EL"
+      },
+      {
+        "key": "weissweinessig",
+        "name": "Weißweinessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Schneide die Aubergine längs in 0,5 cm dünne Scheiben, bestreiche sie mit Öl und back sie 15 Minuten weich.",
+      "Röste ein Viertel der grob gewürfelten Zwiebel, den Knoblauch und die Walnüsse die letzten 5 Minuten mit.",
+      "Püriere Walnüsse, Knoblauch, Zwiebel und die Hälfte der Petersilie mit 50 ml Wasser und etwas Olivenöl zu einer streichfähigen Paste. Würze sie kräftig.",
+      "Brate die restlichen Zwiebelwürfel in Olivenöl 2 Minuten an, gib die Linsen und das Tomatenmark dazu und lass alles 3 Minuten schmoren.",
+      "Klopf die Granatapfelkerne heraus. Würfle Tomate und Gurke und hacke den Spinat grob.",
+      "Rühre aus einem Esslöffel Walnusspaste, Olivenöl, Essig, Salz und Pfeffer ein Dressing an und mische es mit Linsen, Gemüse und Granatapfelkernen.",
+      "Bestreiche die Auberginenscheiben mit der Walnusspaste, roll sie auf und richte sie auf dem Salat an."
+    ],
+    "tags": [
+      "orientalisch",
+      "aus dem ofen",
+      "besonders"
+    ],
+    "id": "i-badridschani-georgische-auberginenrollen-dazu-tomatiger-lins",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/badridschani-georgische-auberginenrollen-63cfb24180fcdf69d505a82f",
+      "title": "Badridschani! Georgische Auberginenrollen dazu tomatiger Linsen-Spinat-Salat & Granatapfelkerne",
+      "rating": 4.2,
+      "ratingCount": 1186
+    }
+  },
+  {
+    "title": "Schupfnudeln mit Hack & Paprika",
+    "description": "Goldbraun gebratene Schupfnudeln mit Hackfleisch, Paprika und Tomatensoße. Dazu ein frischer Gurkensalat mit Dill.",
+    "emoji": "🥘",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [],
+    "timeMinutes": 45,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 38,
+      "carbs": 78,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "spaetzle",
+        "name": "Schupfnudeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "hackfleisch",
+        "name": "Gemischtes Hackfleisch",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Spitzpaprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "dill",
+        "name": "Dill",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "essig",
+        "name": "Essig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide die Zwiebel in feine Streifen, hacke Knoblauch und Tomate grob und schneide die Paprika in Streifen.",
+      "Brate die Schupfnudeln in einer großen Pfanne im Öl 5 Minuten goldbraun und nimm sie heraus.",
+      "Brate das Hackfleisch mit Zwiebel und Knoblauch 3 Minuten kräftig an.",
+      "Gib Tomate und Paprika dazu, brate alles 4 Minuten weiter und rühre Tomatenmark und Brühepulver ein.",
+      "Gieß 200 ml Wasser an und lass die Soße 5 Minuten einkochen.",
+      "Hobel die Gurke in dünne Halbmonde und mische sie mit Öl, Essig, gehacktem Dill, Salz und Pfeffer.",
+      "Gib die Schupfnudeln zurück in die Pfanne, erhitze alles und serviere es mit dem Gurkensalat."
+    ],
+    "tags": [
+      "deftig",
+      "familienessen",
+      "eine pfanne"
+    ],
+    "id": "i-baerenhunger-auf-oma-s-schupfnudeln-mit-hack-dazu-tomatensos",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/barenhunger-auf-omas-schupfnudeln-mit-hack-6488202fe5c3ea383904cf01",
+      "title": "Bärenhunger auf Oma's Schupfnudeln mit Hack dazu Tomatensoße, Paprika und Gurkensalat mit Dill",
+      "rating": 4.4,
+      "ratingCount": 435
+    }
+  },
+  {
+    "title": "Bärlauchpesto auf Knusperkartoffeln",
+    "description": "Gekochte Drillinge werden platt gedrückt und knusprig gebacken, dazu Bärlauchpesto, Hirtenkäse, Balsamico-Zwiebeln und Kirschtomaten.",
+    "emoji": "🥔",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 24,
+      "carbs": 62,
+      "fat": 46
+    },
+    "ingredients": [
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln (Drillinge)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Hirtenkäse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Bunte Kirschtomaten",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Geriebener Hartkäse",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "sonnenblumenkerne",
+        "name": "Sonnenblumenkerne",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "joghurt",
+        "name": "Sahnejoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamicocreme",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Bärlauch",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "essig",
+        "name": "Essig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor. Koche die Kartoffeln in Salzwasser 20 Minuten weich.",
+      "Schneide die Zwiebel in feine Streifen und mariniere sie mit dem Zitronensaft, dem Essig, einer Prise Zucker und Salz.",
+      "Rühre den Sahnejoghurt mit Zitronensaft, Salz und grob gehacktem Pfeffer glatt.",
+      "Gieß die Kartoffeln ab, verteile sie auf einem Blech und drück jede mit einem Topfdeckel flach. Beträufle sie mit Öl und back sie 15 Minuten knusprig.",
+      "Püriere Bärlauch, Hartkäse, Sonnenblumenkerne, Olivenöl und 4 Esslöffel Wasser zu einem Pesto und würze es.",
+      "Streich den Joghurt auf die Teller, setz die Kartoffeln darauf und gib Pesto, Balsamico-Zwiebeln und halbierte Kirschtomaten dazu.",
+      "Zerbrösel den Hirtenkäse darüber und beträufle alles mit der Balsamicocreme."
+    ],
+    "tags": [
+      "knusprig",
+      "aus dem ofen",
+      "frühling"
+    ],
+    "id": "i-baerlauchpesto-auf-knusperkartoffeln-mit-hirtenkaese-bei-die",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/barlauchpesto-auf-knusperkartoffeln-mit-hirtenkase-6405c853ef95911f810722a6",
+      "title": "Bärlauchpesto auf Knusperkartoffeln mit Hirtenkäse Bei diesem Gericht wird 50% weniger CO2e durch Zutaten verursacht als bei einem durchschnittlichen HelloFresh Rezept",
+      "rating": 4.5,
+      "ratingCount": 632
+    }
+  },
+  {
+    "title": "Buddha Bowl mit Pak Choi & Portobello",
+    "description": "Basmatireis mit gebratenen Portobello-Pilzen, Pak Choi, Avocado und marinierten Gurkensticks, dazu Teriyaki und Sweet Chili.",
+    "emoji": "🥢",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 690,
+      "protein": 22,
+      "carbs": 88,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "tofu",
+        "name": "Veganes Filet",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "pilze",
+        "name": "Portobello-Pilze",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Baby Pak Choi",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Salatgurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander und Minze",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Teriyakisoße",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sweet-Chili-Soße",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten und lass ihn 5 Minuten quellen.",
+      "Schneide die Gurke in Stifte und mariniere sie mit gehackten Kräutern und Limettensaft.",
+      "Halbiere die Portobellos und schneide sie in Scheiben, halbiere den Pak Choi längs.",
+      "Brate Pilze und Pak Choi in der Hälfte des Öls 5 Minuten an und lösche mit der Teriyakisoße ab.",
+      "Brate das vegane Filet im restlichen Öl 5 Minuten rundum knusprig.",
+      "Schneide die Avocado in Streifen und beträufle sie mit Limettensaft.",
+      "Richte Reis, Pilze, Pak Choi, Filet, Gurke und Avocado in Schalen an, gib Sweet-Chili-Soße darüber und streu Sesam darauf."
+    ],
+    "tags": [
+      "bowl",
+      "schnell",
+      "asiatisch"
+    ],
+    "id": "i-buddha-bowl-mit-veganem-chick-eria-filet-pak-choi-und-gurken",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/buddha-bowl-mit-veganem-chick-eria-filet-6a3bec564e4b173945bde682",
+      "title": "Buddha Bowl mit veganem Chick-Eria Filet Pak Choi und Gurkensticks"
+    }
+  },
+  {
+    "title": "Veganer Burger mit Miso-Zwiebeln",
+    "description": "Pflanzliches Patty im Brioche-Bun mit langsam karamellisierten Miso-Zwiebeln, Tomate und Aprikosen-Ketchup. Dazu Kartoffelspalten.",
+    "emoji": "🍔",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 880,
+      "protein": 30,
+      "carbs": 96,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "sojahack",
+        "name": "Pflanzliche Burger-Patties",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Vegane Brioche-Buns",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 525,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "miso",
+        "name": "Weiße Misopaste",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "marmelade",
+        "name": "Aprikosenkonfitüre",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "margarine",
+        "name": "Pflanzliche Margarine",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 2.5,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Schneide die Kartoffeln in 1 cm dicke Spalten, mische sie mit Öl und Salz und back sie 25 Minuten.",
+      "Schneide die Zwiebeln in feine Streifen und die Tomaten in Scheiben. Halbiere die Buns.",
+      "Schmelz die Margarine mit etwas Öl in einem kleinen Topf und lass die Zwiebeln darin bei mittlerer Hitze 10 bis 12 Minuten dunkelbraun karamellisieren.",
+      "Rühre die Misopaste unter die Zwiebeln und nimm sie vom Herd.",
+      "Verrühre Ketchup und Aprikosenkonfitüre zum Dip.",
+      "Brate die Patties 2 bis 3 Minuten pro Seite und röste die Buns in den letzten Minuten im Ofen.",
+      "Bestreiche die Buns mit dem Dip, belege sie mit Tomate, Patty und Miso-Zwiebeln und serviere die Kartoffelspalten dazu."
+    ],
+    "tags": [
+      "burger",
+      "vegan",
+      "aus dem ofen"
+    ],
+    "id": "i-beyond-burger-mit-karamellisierten-miso-zwiebeln-bis-zu-100",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/beyond-burger-mit-karamellisierten-miso-zwiebeln-6a01833d94f418a13b2ab916",
+      "title": "Beyond Burger mit karamellisierten Miso-Zwiebeln Bis zu 100 € Reisebudget gewinnen und losreisen"
+    }
+  },
+  {
+    "title": "Veganer Burger mit Onion Rings",
+    "description": "Pflanzliches Patty mit selbst gebackenen Onion Rings, Tomate und Senf-Mayo-Dip. Dazu knusprige Kartoffelwedges.",
+    "emoji": "🍔",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 920,
+      "protein": 32,
+      "carbs": 92,
+      "fat": 48
+    },
+    "ingredients": [
+      {
+        "key": "sojahack",
+        "name": "Pflanzliche Burger-Patties",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "broetchen",
+        "name": "Vegane Brioche-Buns",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Ofenkartoffeln",
+        "amount": 3,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Vegane Mayonnaise",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "senf",
+        "name": "Mittelscharfer Senf",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Mehl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikagewürz",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl zum Braten",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Schneide die Kartoffeln in Spalten, mische sie mit Öl, Paprikagewürz und Salz und back sie 25 Minuten.",
+      "Schneide die Tomate in Scheiben und salze sie leicht. Schneide die Zwiebel in dicke Ringe.",
+      "Verrühre Mayonnaise, Senf und Ketchup zum Dip.",
+      "Rühre aus Mehl, Paprikagewürz, 50 ml Wasser, Salz und Pfeffer einen dickflüssigen Teig und wende die Zwiebelringe darin.",
+      "Brate die Ringe in reichlich heißem Öl 2 bis 3 Minuten pro Seite goldbraun und lass sie auf Küchenpapier abtropfen.",
+      "Brate die Patties 2 bis 3 Minuten pro Seite und röste die Buns kurz mit im Ofen.",
+      "Bestreiche die Buns mit Dip, belege sie mit Tomate, Patty und Onion Rings und serviere die Wedges dazu."
+    ],
+    "tags": [
+      "burger",
+      "vegan",
+      "knusprig"
+    ],
+    "id": "i-beyond-burger-mit-onion-rings-und-tomate-dazu-knusprige-kart",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/beyond-burger-mit-onion-rings-und-tomate-66450a3ac72b4f891e544fde",
+      "title": "Beyond Burger mit Onion Rings und Tomate dazu knusprige Kartoffelwedges und Dip",
+      "rating": 4.3,
+      "ratingCount": 3239
+    }
+  },
+  {
+    "title": "Veganer Burger mit Mango-Chutney",
+    "description": "Pflanzliches Patty mit selbst gekochtem Mango-Chutney, Sriracha-Mayo und Romanasalat. Dazu Kartoffelspalten aus dem Ofen.",
+    "emoji": "🥭",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 900,
+      "protein": 30,
+      "carbs": 98,
+      "fat": 44
+    },
+    "ingredients": [
+      {
+        "key": "sojahack",
+        "name": "Pflanzliche Burger-Patties",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "broetchen",
+        "name": "Vegane Brioche-Buns",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "salat",
+        "name": "Salatherz (Romana)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "mango",
+        "name": "Mango",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "ingwer",
+        "name": "Knoblauch und Ingwer, gehackt",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Vegane Mayonnaise",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sriracha",
+        "amount": 16,
+        "unit": "ml"
+      },
+      {
+        "key": "currypulver",
+        "name": "Madras-Curry-Pulver",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "weissweinessig",
+        "name": "Weißweinessig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1.5,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Schneide die Kartoffeln in 1 cm dicke Spalten und back sie mit Öl und Salz 25 Minuten.",
+      "Würfle die Mango, schneide die Tomate in Scheiben und die Schalotten in Streifen. Zupf den Salat in Blätter.",
+      "Verrühre Mayonnaise und Sriracha zum Dip.",
+      "Brate Knoblauch-Ingwer-Paste und Schalotten in einem kleinen Topf 2 Minuten an, gib Mango, Curry, Zucker, Essig und 100 ml Wasser dazu und lass alles 8 Minuten zu Chutney einkochen.",
+      "Brate die Patties 2 bis 3 Minuten pro Seite und röste die Buns kurz mit.",
+      "Bestreiche die Buns mit dem Dip, belege sie mit Salat, Tomate, Patty und Chutney und serviere die Kartoffelspalten dazu."
+    ],
+    "tags": [
+      "burger",
+      "vegan",
+      "fruchtig"
+    ],
+    "id": "i-beyond-meat-burger-mit-mango-chutney-dazu-kartoffelspalten-u",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/beyond-meat-mumbai-burger-mit-mango-chutney-68e52f4c311cc828e18d41df",
+      "title": "Beyond Meat Burger mit Mango-Chutney dazu Kartoffelspalten und frischer Romanasalat",
+      "rating": 4.4,
+      "ratingCount": 1454
+    }
+  }
+]

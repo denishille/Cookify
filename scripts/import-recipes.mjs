@@ -45,7 +45,7 @@ const siteOf = (url) => {
     return ALLOWED_SITES.find((s) => host === s || host.endsWith(`.${s}`)) ?? host
   } catch { return '' }
 }
-const slug = (t) => t.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60)
+const slug = (t) => t.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60).replace(/-+$/, '')
 const text = (v) => (typeof v === 'string' ? v : Array.isArray(v) ? v.map(text).join(' ') : v?.text ?? v?.name ?? '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
 
 /** ISO-8601-Dauer (PT1H30M) → Minuten */

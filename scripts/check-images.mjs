@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Sucht Platzhalter- und Logobilder im Bildbestand: bekannte Platzhalter, flache Grafiken
 // und Bilder, die mehrfach vorkommen (ein Foto pro Rezept, alles andere ist ein Platzhalter).
-import { readdirSync, readFileSync } from 'node:fs'
+import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
@@ -10,11 +10,14 @@ import { dhash, hamming, placeholderReason } from './lib/image-check.mjs'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const assetsDir = join(root, 'src/assets/recipes')
 const recipeDirs = [join(root, 'src/data/recipes'), join(root, 'src/data/backlog')]
+const importsDir = join(root, 'src/data/imports')
 const files = readdirSync(assetsDir).filter((f) => f.endsWith('.jpg')).sort()
 
 // Auch Entwürfe im Backlog zählen: deren Bilder sind schon geholt, das Rezept kommt später.
 const ids = new Set(recipeDirs.flatMap((dir) => readdirSync(dir).filter((f) => f.endsWith('.json'))
   .flatMap((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')).map((r) => r.id))))
+// Entwürfe, die noch auf ihr Rezept warten: ihr Bild ist schon da und in Ordnung.
+if (existsSync(importsDir)) for (const f of readdirSync(importsDir)) ids.add('i-' + f.replace(/\.json$/, '').replace(/-+$/, ''))
 
 const bad = []
 const hashes = []
