@@ -53,7 +53,7 @@ jobs:
         if: ${{ github.event.inputs.ratings == 'true' }}
         run: node scripts/import-recipes.mjs --ratings
       - name: Bilder holen
-        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' && github.event.inputs.file == '' && github.event.inputs.probe == '' }}
+        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' && github.event.inputs.file == '' && github.event.inputs.probe == '' && github.event.inputs.rewrite != 'true' }}
         run: |
           if [ -n "${{ github.event.inputs.ids }}" ]; then
             node scripts/import-recipes.mjs --images-for "${{ github.event.inputs.ids }}"
