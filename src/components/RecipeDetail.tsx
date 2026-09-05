@@ -80,13 +80,13 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
 
   /** Nach rechts wischen geht zurück, wie in den Schubladen. */
   const rootRef = useRef<HTMLDivElement>(null)
-  const dragX = useSwipeRight(rootRef, true, back)
+  useSwipeRight(rootRef, true, back)
 
   const toggleStep = (i: number) =>
     setDone((prev) => { const n = new Set(prev); if (n.has(i)) n.delete(i); else n.add(i); return n })
 
   return (
-    <div className="detail" ref={rootRef} style={dragX ? { transform: `translateX(${dragX}px)`, opacity: Math.max(0.5, 1 - dragX / 400) } : undefined}>
+    <div className="detail" ref={rootRef}>
 
       <div className={`tile lg ${img ? 'photo' : ''}`} style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
         {isNew && <span className="badge-new">Neu diese Woche</span>}

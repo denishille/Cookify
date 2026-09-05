@@ -18,7 +18,7 @@ interface Props {
 export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onToggle, onCreate }: Props) {
   const [name, setName] = useState('')
   const asideRef = useRef<HTMLElement>(null)
-  const dragX = useSwipeRight(asideRef, open, onClose)
+  useSwipeRight(asideRef, open, onClose)
   useScrollLock(open)
 
   const add = () => {
@@ -30,8 +30,7 @@ export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onTogg
   return (
     <>
       {open && <div className="drawer-backdrop" onClick={onClose} />}
-      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Listen"
-        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}>
+      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Listen">
         <div className="drawer-head">
           <h2>In welche Liste?</h2>
           <button className="btn icon sm" onClick={onClose} aria-label="Schließen"><IconX width={18} height={18} /></button>

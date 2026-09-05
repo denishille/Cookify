@@ -23,7 +23,7 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
   }, [open, onClose])
 
   const asideRef = useRef<HTMLElement>(null)
-  const dragX = useSwipeRight(asideRef, open, onClose)
+  useSwipeRight(asideRef, open, onClose)
   useScrollLock(open)
 
   const toggle = (d: Diet) => onChange(globalDiets.includes(d) ? globalDiets.filter((x) => x !== d) : [...globalDiets, d])
@@ -31,8 +31,7 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
   return (
     <>
       {open && <div className="drawer-backdrop" onClick={onClose} />}
-      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Einstellungen"
-        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}>
+      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Einstellungen">
         <div className="drawer-head">
           <h2>Einstellungen</h2>
           <button className="btn icon sm" onClick={onClose} aria-label="Schließen"><IconX width={18} height={18} /></button>

@@ -26,7 +26,7 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
   const close = () => { setEditing(null); onClose() }
 
   const asideRef = useRef<HTMLElement>(null)
-  const dragX = useSwipeRight(asideRef, open, close)
+  useSwipeRight(asideRef, open, close)
   useScrollLock(open)
 
   const startNew = () => setEditing({ id: '', name: '', keys: [...pantry] })
@@ -47,8 +47,7 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
         </button>
       )}
       {open && <div className="drawer-backdrop" onClick={close} />}
-      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Sets"
-        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}>
+      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Sets">
         {editing ? (
           <>
             <div className="drawer-head">

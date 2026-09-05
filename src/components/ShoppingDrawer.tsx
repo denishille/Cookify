@@ -34,7 +34,7 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
   }, [open, onClose])
 
   const asideRef = useRef<HTMLElement>(null)
-  const dragX = useSwipeRight(asideRef, open, onClose)
+  useSwipeRight(asideRef, open, onClose)
   useScrollLock(open)
 
   const recipes = [...new Set(items.filter((x) => !x.done && x.from).map((x) => x.from as string))]
@@ -56,8 +56,7 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
   return (
     <>
       {open && <div className="drawer-backdrop" onClick={onClose} />}
-      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''} ${dragX ? 'dragging' : ''}`} aria-hidden={!open} aria-label="Einkaufsliste"
-        style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}>
+      <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Einkaufsliste">
         <div className="drawer-head">
           <h2>Einkaufsliste{openItems.length > 0 && <span className="count-pill">{openItems.length}</span>}</h2>
           <button className="btn icon sm" onClick={onClose} aria-label="Schließen"><IconX width={18} height={18} /></button>
