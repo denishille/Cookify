@@ -30,7 +30,11 @@ export function keyFor(name) {
   if (aliases[n]) return aliases[n]
   if (aliases[norm(name)]) return aliases[norm(name)]
   if (byNorm.has(n)) return byNorm.get(n)
+  // Deutsche Zusammensetzungen tragen das Grundwort am Ende: „Butterbohnen“ sind Bohnen,
+  // keine Butter. Deshalb zuerst am Wortende suchen, erst danach irgendwo im Namen.
   let best = null, len = 0
+  for (const [k, key] of byNorm) if (k.length > 3 && n.endsWith(k) && k.length > len) { best = key; len = k.length }
+  if (best) return best
   for (const [k, key] of byNorm) if (k.length > 3 && n.includes(k) && k.length > len) { best = key; len = k.length }
   if (best) return best
   for (const [k, key] of byNorm) if (k.length > 4 && k.includes(n) && n.length > 3) return key
@@ -55,13 +59,24 @@ export function parseIngredient(raw) {
 }
 
 /** Ungefähres Gewicht einer Zutatenangabe in Gramm – für die Nährwertschätzung. */
-const PIECE = { zwiebel: 120, schalotte: 40, knoblauch: 5, karotte: 90, kartoffel: 90, tomate: 100, paprika: 160, zucchini: 250, aubergine: 300, gurke: 350, avocado: 150, zitrone: 100, limette: 60, orange: 180, apfel: 150, banane: 120, mango: 300, brokkoli: 400, blumenkohl: 700, kuerbis: 900, fenchel: 250, lauch: 250, suesskartoffel: 250, eier: 60, chili: 15, fruehlingszwiebel: 30, salat: 200, 'pak-choi': 150, mozzarella: 125, tortillas: 40, broetchen: 70, naan: 90, pita: 60, granatapfel: 300, 'rote-bete': 150, pastinake: 150, mais: 150, wassermelone: 1000 }
+const PIECE = { zwiebel: 120, schalotte: 40, knoblauch: 5, karotte: 90, kartoffel: 90, tomate: 100, paprika: 160, zucchini: 250, aubergine: 300, gurke: 350, avocado: 150, zitrone: 100, limette: 60, orange: 180, apfel: 150, banane: 120, mango: 300, brokkoli: 400, blumenkohl: 700, kuerbis: 900, fenchel: 250, lauch: 250, suesskartoffel: 250, eier: 60, chili: 15, fruehlingszwiebel: 30, salat: 200, 'pak-choi': 150, mozzarella: 125, tortillas: 40, broetchen: 70, naan: 90, pita: 60, granatapfel: 300, 'rote-bete': 150, pastinake: 150, mais: 150, wassermelone: 1000, blaetterteig: 40, wrap: 60, toastbrot: 25, baguette: 250 }
 const GRAMS = { g: 1, ml: 1, EL: 12, TL: 5, Prise: 0.5, Bund: 25, Packung: 200, Zehe: 5, Scheibe: 25, Handvoll: 25, Dose: 400 }
+/** Wie viel wiegt eine Zutatenzeile ungefähr? Notfalls gedeckelt, damit ein Tippfehler
+ *  in der Quelle („250 Dose Kokosmilch“) die Nährwerte nicht ins Absurde treibt. */
 function gramsOf(ing) {
   if (ing.amount === null) return 2
-  if (ing.unit === 'Stück' || ing.unit === '') return ing.amount * (PIECE[ing.key] ?? 100)
-  return ing.amount * (GRAMS[ing.unit] ?? 100)
+  let g
+  if (ing.unit === 'Stück') g = ing.amount * (PIECE[ing.key] ?? 100)
+  // Ohne Einheit ist eine große Zahl fast immer eine Grammangabe, eine kleine ein Stück.
+  else if (ing.unit === '') g = ing.amount >= 20 ? ing.amount : ing.amount * (PIECE[ing.key] ?? 100)
+  // „250 Dose Kokosmilch“ meint 250 ml, nicht 250 Dosen.
+  else if ((ing.unit === 'Dose' || ing.unit === 'Packung') && ing.amount >= 20) g = ing.amount
+  else g = ing.amount * (GRAMS[ing.unit] ?? 100)
+  const cap = FAT_OR_SPICE.has(ing.key) ? 120 : 1200
+  return Math.min(g, cap)
 }
+/** Bei Fett und Gewürzen fällt eine falsche Menge am stärksten ins Gewicht. */
+const FAT_OR_SPICE = new Set(['butter', 'olivenoel', 'pflanzenoel', 'sesamoel', 'kokosoel', 'margarine', 'mayonnaise', 'zucker', 'salz', 'pfeffer', 'honig', 'ahornsirup', 'senf', 'sojasauce', 'essig', 'balsamico', 'currypaste', 'tomatenmark', 'paprikapulver', 'currypulver', 'zimt', 'chili'])
 
 /** Nährwerte je Portion aus den Zutaten schätzen. */
 export function estimateNutrition(list, servings) {

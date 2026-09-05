@@ -13,6 +13,8 @@ const args = process.argv.slice(2)
 const outPath = args.find((a) => !a.startsWith('--')) ?? join(root, 'meta.json')
 const tagIdx = args.indexOf('--tag')
 const sourceTag = tagIdx >= 0 ? args[tagIdx + 1] : null
+const siteIdx = args.indexOf('--site')
+const onlySite = siteIdx >= 0 ? args[siteIdx + 1] : null
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
 
@@ -84,6 +86,7 @@ function shorten(text, title) {
 const meta = {}
 for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).sort()) {
   const d = JSON.parse(readFileSync(join(importsDir, file), 'utf8'))
+  if (onlySite && d.source?.site !== onlySite) continue
   const name = file.replace(/\.json$/, '')
   const parsed = d.ingredients.map(parseIngredient).filter(Boolean)
   const keys = parsed.map((p) => keyFor(p.name)).filter(Boolean)
