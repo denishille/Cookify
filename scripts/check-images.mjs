@@ -9,11 +9,12 @@ import { dhash, hamming, placeholderReason } from './lib/image-check.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const assetsDir = join(root, 'src/assets/recipes')
-const recipesDir = join(root, 'src/data/recipes')
+const recipeDirs = [join(root, 'src/data/recipes'), join(root, 'src/data/backlog')]
 const files = readdirSync(assetsDir).filter((f) => f.endsWith('.jpg')).sort()
 
-const ids = new Set(readdirSync(recipesDir).filter((f) => f.endsWith('.json'))
-  .flatMap((f) => JSON.parse(readFileSync(join(recipesDir, f), 'utf8')).map((r) => r.id)))
+// Auch Entwürfe im Backlog zählen: deren Bilder sind schon geholt, das Rezept kommt später.
+const ids = new Set(recipeDirs.flatMap((dir) => readdirSync(dir).filter((f) => f.endsWith('.json'))
+  .flatMap((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')).map((r) => r.id))))
 
 const bad = []
 const hashes = []
