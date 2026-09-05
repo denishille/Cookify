@@ -25,6 +25,9 @@ on:
       probe_after:
         description: 'Zusätzlich so viele Zeilen nach jedem Treffer ausgeben'
         required: false
+      rewrite:
+        description: 'true = wartende Entwürfe in src/data/imports/ in App-Rezepte umschreiben'
+        required: false
 
 permissions:
   contents: write
@@ -63,9 +66,16 @@ jobs:
       - name: Rezepte aus Datei holen
         if: ${{ github.event.inputs.file != '' }}
         run: node scripts/import-recipes.mjs --with-images --limit 400 --file "${{ github.event.inputs.file }}"
+      - name: Entwürfe umschreiben
+        if: ${{ github.event.inputs.rewrite == 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "ANTHROPIC_API_KEY ist nicht als Secret hinterlegt."; exit 1; fi
+          node scripts/import-recipes.mjs --rewrite
       - name: Committen
         run: |
-          git add -f src/assets/recipes src/data/imports src/data/sources 2>/dev/null || true
+          git add -f src/assets/recipes src/data/imports src/data/sources src/data/recipes 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nichts Neues."; exit 0; fi
           git config user.name "cookify-bot"
           git config user.email "cookify-bot@users.noreply.github.com"

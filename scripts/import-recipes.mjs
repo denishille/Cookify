@@ -292,6 +292,7 @@ for (const { file, data } of drafts) {
         `Erzeuge daraus ein Cookify-Rezept mit der id "${id}". Übernimm Zutaten und Mengen (Portionen: ${data.servings ?? 'unbekannt'}), ` +
         'schreibe Beschreibung und Zubereitungsschritte vollständig neu in eigenen Worten (Du-Form, konkrete Zeiten und Temperaturen), ' +
         'ordne Kategorie, Küche, Ernährungsform, Schwierigkeit zu und schätze die Nährwerte pro Portion realistisch.\n\n' +
+        (data.partialSteps ? 'Die Quelle zeigt nur die ersten Arbeitsschritte. Schreibe die Zubereitung vollständig aus, so wie das Gericht mit genau diesen Zutaten üblicherweise gekocht wird.\n\n' : '') +
         `Titel: ${data.title}\nBeschreibung: ${data.description}\nZeit: ${data.timeMinutes ?? '?'} Min\nKategorie laut Quelle: ${data.category ?? '–'}\nStichworte: ${data.keywords ?? '–'}\n` +
         `Zutaten:\n${data.ingredients.map((i) => '- ' + i).join('\n')}\n\nSchritte laut Quelle:\n${data.steps.map((s, i) => `${i + 1}. ${s}`).join('\n')}` }],
       output_config: { format: zodOutputFormat(Recipe) },
