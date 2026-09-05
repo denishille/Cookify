@@ -20,6 +20,12 @@ const sources = Object.assign({}, ...sourceFiles.map((f) => f.data))
 
 if (below !== null) {
   for (const [id, s] of Object.entries(sources)) if (typeof s?.rating === 'number' && s.rating < below) ids.add(id)
+  // Rezepte, die ihre Quelle direkt mitbringen (Import aus HelloFresh/KptnCook)
+  for (const f of readdirSync(recipesDir).filter((f) => f.endsWith('.json'))) {
+    for (const r of JSON.parse(readFileSync(join(recipesDir, f), 'utf8'))) {
+      if (typeof r.source?.rating === 'number' && r.source.rating < below) ids.add(r.id)
+    }
+  }
 }
 if (ids.size === 0) { console.log('Nichts zu entfernen.'); process.exit(0) }
 

@@ -2,7 +2,7 @@
 // Baut aus den Entwürfen in src/data/imports fertige Rezepte.
 // Titel und Beschreibung kommen aus einer Begleitdatei: { "<entwurf>": { "title": "…", "description": "…", "category": "…" } }
 //   node scripts/build-from-drafts.mjs <meta.json> <ziel.json>
-import { readFileSync, writeFileSync, readdirSync, existsSync, unlinkSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, unlinkSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { keyFor, parseIngredient, estimateNutrition, cleanStep, dietFor, cuisineFor, categoryFor, difficultyFor } from './draft-to-recipe.mjs'

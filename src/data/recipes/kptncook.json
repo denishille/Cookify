@@ -7847,7 +7847,7 @@
     ],
     "tags": [
       "wok",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -7971,7 +7971,7 @@
     ],
     "tags": [
       "curry",
-      "lowcarb"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -8056,7 +8056,7 @@
     ],
     "tags": [
       "auflauf",
-      "lowcarb"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -8353,7 +8353,7 @@
     ],
     "tags": [
       "salat",
-      "proteinreich"
+      "frisch"
     ],
     "source": {
       "site": "kptncook.com",
@@ -8474,7 +8474,7 @@
     ],
     "tags": [
       "bowl",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -8689,7 +8689,7 @@
     ],
     "tags": [
       "curry",
-      "vegan"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -8782,7 +8782,7 @@
     ],
     "tags": [
       "schnell",
-      "proteinreich"
+      "frisch"
     ],
     "source": {
       "site": "kptncook.com",
@@ -8894,7 +8894,7 @@
     ],
     "tags": [
       "schnell",
-      "vegan"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -9093,7 +9093,7 @@
     ],
     "tags": [
       "asiatisch",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -9106,7 +9106,7 @@
     "title": "Flammkuchen mit karamellisierten Zwiebeln",
     "description": "Flammkuchen mit Crème fraîche, langsam karamellisierten Zwiebeln und gerösteten Cherrytomaten.",
     "emoji": "🥧",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "international",
     "diet": [],
     "timeMinutes": 30,
@@ -9209,7 +9209,7 @@
     "title": "Flammkuchen mit Rosenkohl & Bacon",
     "description": "Selbst gemachter Dinkelteig mit Crème fraîche, Rosenkohl, Kichererbsen, Bacon und Feta.",
     "emoji": "🥧",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -9314,7 +9314,7 @@
     "title": "Flammkuchen mit Pfifferlingen",
     "description": "Dünner Flammkuchen mit Crème fraîche, gebratenen Pfifferlingen, Cherrytomaten und Rosmarin.",
     "emoji": "🍄",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -9401,7 +9401,7 @@
     "title": "Flammkuchen mit Tomaten & Rucola",
     "description": "Knuspriger Flammkuchen mit Schmand, Bacon und Tomaten, nach dem Backen mit Rucola und Parmesan belegt.",
     "emoji": "🥧",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch"
@@ -9500,7 +9500,7 @@
     "title": "Flammkuchen-Pfännchen mit Pilzen",
     "description": "Kleine Flammkuchen aus der Pfanne mit Schmand, Champignons und würzigem Höhlenkäse – in einer Viertelstunde fertig.",
     "emoji": "🍄",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "international",
     "diet": [],
     "timeMinutes": 15,
@@ -9653,8 +9653,7 @@
       "Streich die Sauce auf einen Teller, leg den Brokkoli darauf und verteile die Tomaten darüber."
     ],
     "tags": [
-      "lowcarb",
-      "vegan"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -9882,7 +9881,7 @@
     ],
     "tags": [
       "deftig",
-      "vegan"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -9981,7 +9980,7 @@
     ],
     "tags": [
       "eine pfanne",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -9994,7 +9993,7 @@
     "title": "Grünkohl-Pilz-Flammkuchen",
     "description": "Pizzateig dünn ausgerollt mit Ricotta, Grünkohl, Austernpilzen und Rinderhack.",
     "emoji": "🥬",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "deutsch",
     "diet": [],
     "timeMinutes": 30,
@@ -10177,7 +10176,7 @@
     ],
     "tags": [
       "eine pfanne",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -10387,7 +10386,7 @@
     ],
     "tags": [
       "eine pfanne",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -10744,7 +10743,7 @@
     ],
     "tags": [
       "klassiker",
-      "vegetarisch"
+      "frisch"
     ],
     "source": {
       "site": "kptncook.com",
@@ -10850,7 +10849,7 @@
     ],
     "tags": [
       "suppe",
-      "vegan"
+      "wärmend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -10960,8 +10959,8 @@
       "Würze mit Salz und Pfeffer und setz Hüttenkäse und Petersilie darauf."
     ],
     "tags": [
-      "proteinreich",
-      "orientalisch"
+      "orientalisch",
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -11296,7 +11295,7 @@
     ],
     "tags": [
       "salat",
-      "vegan"
+      "frisch"
     ],
     "source": {
       "site": "kptncook.com",
@@ -11408,7 +11407,7 @@
     ],
     "tags": [
       "herbstlich",
-      "vegan"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -11753,8 +11752,7 @@
       "Streu den Parmesan darauf und back das Gratin 20 Minuten goldbraun."
     ],
     "tags": [
-      "lowcarb",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -11877,8 +11875,8 @@
       "Röste Pinienkerne und Sesam ohne Fett und streu sie mit der Petersilie darüber."
     ],
     "tags": [
-      "lowcarb",
-      "aus dem ofen"
+      "aus dem ofen",
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -12105,7 +12103,7 @@
     "title": "Mediterraner Vollkorn-Flammkuchen",
     "description": "Selbst gemachter Vollkornteig mit Pesto rosso, Zucchini und Mozzarella, nach dem Backen mit Rucola belegt.",
     "emoji": "🥧",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "mediterran",
     "diet": [
       "vegetarisch"
@@ -12192,7 +12190,7 @@
     "title": "Ofenkartoffel mit Kichererbsen-Avocado-Creme",
     "description": "Ofenkartoffeln mit cremigem Kichererbsen-Avocado-Aufstrich, dazu gebratene Champignons und Paprika.",
     "emoji": "🥔",
-    "category": "nachspeise",
+    "category": "hauptgericht",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -12302,7 +12300,7 @@
     ],
     "tags": [
       "aus dem ofen",
-      "vegetarisch"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -12396,7 +12394,7 @@
     ],
     "tags": [
       "one pot",
-      "vegan"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -12495,7 +12493,7 @@
     ],
     "tags": [
       "schnell",
-      "vegetarisch"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -12594,8 +12592,7 @@
       "Schmecke mit Salz und Pfeffer ab und richte die Pfanne auf dem Quinoa an."
     ],
     "tags": [
-      "vegan",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -12715,8 +12712,7 @@
       "Gib das Fleisch zurück, schmecke mit Zitronensaft, Salz und Pfeffer ab und streu Petersilie und Thymian darüber."
     ],
     "tags": [
-      "lowcarb",
-      "proteinreich"
+      "feierabend"
     ],
     "source": {
       "site": "kptncook.com",
@@ -12940,6 +12936,2775 @@
       "site": "kptncook.com",
       "url": "https://mobile.kptncook.com/recipe/pinterest/Brussels-Sprouts-Gratin-with-Ham/1784377d?lang=de",
       "title": "Rosenkohlauflauf mit Schinken"
+    }
+  },
+  {
+    "id": "i-penne-mit-haehnchen-und-brokkoli-in-tomaten-sahne-sosse",
+    "title": "Penne mit Hähnchen & Brokkoli",
+    "description": "Penne mit Hähnchengeschnetzeltem und Brokkoli in einer sämigen Tomaten-Sahne-Soße.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 113285,
+      "protein": 5651,
+      "carbs": 13682,
+      "fat": 3324
+    },
+    "ingredients": [
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 250,
+        "unit": ""
+      },
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchengeschnetzeltes",
+        "amount": 250,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "penne",
+        "name": "Penne",
+        "amount": 270,
+        "unit": ""
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "oregano",
+        "name": "ewürzmischung „Hello Buon Appetito“",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 0.2,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "eriebener Hartkäse",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Penne in Salzwasser bissfest.",
+      "Teile den Brokkoli in Röschen und würfle die Tomate.",
+      "Brate das Hähnchen im Öl 6 Minuten goldbraun und würze es.",
+      "Gib Brokkoli und gehackten Knoblauch dazu und brate sie 4 Minuten mit.",
+      "Rühre Tomatenmark ein, gieß Sahne und Brühe an und lass die Soße 5 Minuten einkochen.",
+      "Mische die Nudeln unter und streu den geriebenen Hartkäse darüber."
+    ],
+    "tags": [
+      "familienessen",
+      "feierabend"
+    ],
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/penne-mit-hahnchen-und-brokkoli-61c8be1e4cb75a75d812679d",
+      "title": "Penne mit Hähnchen und Brokkoli in Tomaten-Sahne-Soße",
+      "rating": 4.4,
+      "ratingCount": 18083
+    }
+  },
+  {
+    "id": "i-rote-linsen-orangen-suppe",
+    "title": "Rote-Linsen-Orangen-Suppe",
+    "description": "Rote Linsen mit Karotte und Orangensaft zu einer fruchtig-sämigen Suppe gekocht, mit Crème fraîche verfeinert.",
+    "emoji": "🍊",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 530,
+      "protein": 23,
+      "carbs": 57,
+      "fat": 19
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "key": "orange",
+        "name": "Orange",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel und Karotten und hacke den Knoblauch.",
+      "Dünste alles im Olivenöl 5 Minuten an.",
+      "Gib die abgespülten Linsen dazu und gieß die Brühe an.",
+      "Lass die Suppe 20 Minuten köcheln, bis die Linsen zerfallen.",
+      "Press die Orange aus, rühre den Saft und die Crème fraîche unter und püriere alles fein.",
+      "Schmecke mit Salz und Pfeffer ab und streu Koriander darüber."
+    ],
+    "tags": [
+      "suppe",
+      "fruchtig"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Red-Lentil-Orange-Soup/52ff66ba?lang=de",
+      "title": "Rote Linsen-Orangen-Suppe"
+    }
+  },
+  {
+    "id": "i-rote-linsen-tomaten-suppe",
+    "title": "Rote-Linsen-Tomaten-Suppe",
+    "description": "Sämige Linsensuppe mit Paprika, Karotte und Tomatenmark, kräftig mit Paprikapulver gewürzt.",
+    "emoji": "🥣",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 500,
+      "protein": 21,
+      "carbs": 57,
+      "fat": 16
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel, Karotten und Paprika und hacke den Knoblauch.",
+      "Dünste alles im Olivenöl 5 Minuten an.",
+      "Rühre Tomatenmark und Paprikapulver ein und röste beides 1 Minute mit.",
+      "Gib die abgespülten Linsen dazu und gieß die Brühe an.",
+      "Lass die Suppe 20 Minuten köcheln und püriere sie zur Hälfte.",
+      "Schmecke mit Salz und Pfeffer ab."
+    ],
+    "tags": [
+      "suppe",
+      "wärmend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/rote-linsen-tomaten-suppe/69b526af?lang=de",
+      "title": "Rote-Linsen-Tomaten-Suppe"
+    }
+  },
+  {
+    "id": "i-salat-wraps-mit-gemuese-raeuchertofu",
+    "title": "Salat-Wraps mit Räuchertofu",
+    "description": "Knackige Salatblätter als Wrap, gefüllt mit Räuchertofu, Champignons und Gemüse in Hoisin-Sauce.",
+    "emoji": "🥬",
+    "category": "salat",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 540,
+      "protein": 26,
+      "carbs": 29,
+      "fat": 31
+    },
+    "ingredients": [
+      {
+        "key": "salat",
+        "name": "Kopfsalat",
+        "amount": 0.2,
+        "unit": ""
+      },
+      {
+        "key": "champignons",
+        "name": "braune Champignons",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "gruene-bohnen",
+        "name": "grüne Bohnen",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "raeuchertofu",
+        "name": "Räuchertofu",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "TL"
+      },
+      {
+        "key": "erdnuesse",
+        "name": "Erdnüsse, geröstet & gesalzen",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "sambal-oelek",
+        "name": "Sambal Oelek",
+        "amount": 4,
+        "unit": "TL"
+      },
+      {
+        "key": "rapsoel",
+        "name": "Rapsöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle den Räuchertofu und schneide Champignons, Karotten und Bohnen klein.",
+      "Hacke Schalotte, Knoblauch und Ingwer fein.",
+      "Brate den Tofu im Rapsöl 5 Minuten knusprig und nimm ihn heraus.",
+      "Brate das Gemüse mit Schalotte, Knoblauch und Ingwer 6 Minuten kräftig an.",
+      "Gib den Tofu zurück, würze mit Hoisin-Sauce, Sojasauce und Sambal Oelek.",
+      "Löse die Salatblätter, füll sie mit der Masse und streu Erdnüsse und Frühlingszwiebeln darüber."
+    ],
+    "tags": [
+      "asiatisch",
+      "frisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Salat-Wraps%20mit%20Gem%C3%BCse%20%26%20R%C3%A4uchertofu/25a8979c?lang=de",
+      "title": "Salat-Wraps mit Gemüse & Räuchertofu"
+    }
+  },
+  {
+    "id": "i-satay-jackfrucht-mit-reisnudeln",
+    "title": "Satay-Jackfrucht mit Reisnudeln",
+    "description": "Jackfrucht in cremiger Erdnuss-Curry-Sauce mit Karotte, dazu Reisnudeln und Sesam.",
+    "emoji": "🥜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 675,
+      "protein": 17,
+      "carbs": 66,
+      "fat": 37
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "currypaste",
+        "name": "rote Currypaste",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl, geröstet",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesamsaat",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "reisnudeln",
+        "name": "Reisnudeln",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Reisnudeln nach Packungsanleitung und schreck sie kalt ab.",
+      "Hobel die Karotten in feine Streifen.",
+      "Brate die abgetropfte Jackfrucht im Sesamöl 6 Minuten kräftig an, bis sie Farbe nimmt.",
+      "Rühre die Currypaste 1 Minute mit und gib Erdnussbutter, Reisessig, Zucker und 100 ml Wasser dazu.",
+      "Lass die Sauce 4 Minuten einkochen und hebe die Karotten unter.",
+      "Richte alles mit den Nudeln an und streu Sesam darüber."
+    ],
+    "tags": [
+      "asiatisch",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Satay-Jackfrucht-mit-Reisnudeln/7341d98b?lang=de",
+      "title": "Satay-Jackfrucht mit Reisnudeln"
+    }
+  },
+  {
+    "id": "i-schnelle-kichererbsen-kokos-suppe",
+    "title": "Schnelle Kichererbsen-Kokos-Suppe",
+    "description": "In einer Viertelstunde fertig: Kichererbsen und Erbsen in Kokosmilch mit Kurkuma püriert.",
+    "emoji": "🥥",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 15,
+      "carbs": 33,
+      "fat": 40
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "erbsen",
+        "name": "Erbsen, tiefgefroren",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Schneide die Frühlingszwiebeln in Ringe und leg das Grün beiseite.",
+      "Erhitze Kokosmilch und Wasser mit dem Kurkuma im Topf.",
+      "Gib die abgespülten Kichererbsen und die Erbsen dazu und lass alles 6 Minuten köcheln.",
+      "Püriere zwei Drittel der Suppe fein.",
+      "Schmecke mit Salz und Pfeffer ab.",
+      "Streu das Frühlingszwiebelgrün darüber."
+    ],
+    "tags": [
+      "suppe",
+      "schnell"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Schnelle-Kichererbsen-Kokos-Suppe/60b64977?lang=de",
+      "title": "Schnelle Kichererbsen-Kokos-Suppe"
+    }
+  },
+  {
+    "id": "i-schnelle-ramen-mit-garnelen",
+    "title": "Schnelle Ramen mit Garnelen",
+    "description": "Ingwer-Brühe mit Eiernudeln, Shiitake, Pak Choi, Garnelen und einem weichen Ei.",
+    "emoji": "🍜",
+    "category": "suppe",
+    "cuisine": "asiatisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 525,
+      "protein": 24,
+      "carbs": 54,
+      "fat": 21
+    },
+    "ingredients": [
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl, geröstet",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "shiitake",
+        "name": "Shiitakepilze",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "nudeln",
+        "name": "Chinesische Eiernudeln",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "garnelen",
+        "name": "Riesengarnelen, roh",
+        "amount": 90,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 900,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Koche das Ei 6 Minuten, schreck es kalt ab und halbiere es.",
+      "Bring die Hühnerbrühe mit geriebenem Ingwer und Sojasauce zum Kochen.",
+      "Gib die Shiitakepilze dazu und lass sie 5 Minuten ziehen.",
+      "Koche die Eiernudeln in der Brühe 3 Minuten.",
+      "Brate die Garnelen im Pflanzenöl 2 Minuten pro Seite und gib den Pak Choi kurz dazu.",
+      "Richte Nudeln, Brühe, Garnelen, Pak Choi und Ei an und träufle Sesamöl darüber."
+    ],
+    "tags": [
+      "suppe",
+      "wärmend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Schnelle-Ramen-mit-Garnelen/256ab92c?lang=de",
+      "title": "Schnelle Ramen mit Garnelen"
+    }
+  },
+  {
+    "id": "i-schnelles-wrap-omelette",
+    "title": "Wrap-Omelette mit Spinat",
+    "description": "Ein Wrap wird in der Eimasse gebacken und mit Spinat, Mozzarella und Tomate gefüllt.",
+    "emoji": "🍳",
+    "category": "fruehstueck",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 575,
+      "protein": 32,
+      "carbs": 33,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "milch",
+        "name": "Vollmilch",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchpulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "tortillas",
+        "name": "Wraps",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "spinat",
+        "name": "Babyspinat",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Mozzarella",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamico-Creme",
+        "amount": 26,
+        "unit": "ml"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verquirl die Eier mit der Milch, dem Knoblauchpulver, Salz und Pfeffer.",
+      "Erhitze die Butter in einer großen Pfanne und gieß die Hälfte der Eimasse hinein.",
+      "Leg sofort einen Wrap darauf und drück ihn leicht an.",
+      "Wende alles nach 2 Minuten, belege den Wrap mit Spinat, Tomatenscheiben und Mozzarella und klapp ihn zusammen.",
+      "Back ihn 2 Minuten pro Seite, bis der Käse schmilzt. Wiederhol es mit dem zweiten Wrap.",
+      "Beträufle beides mit Balsamico-Creme und streu Basilikum darüber."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Schnelles%20Wrap-Omelette/2c14a5e0?lang=de",
+      "title": "Schnelles Wrap-Omelette"
+    }
+  },
+  {
+    "id": "i-sommerliche-pasta-mit-frischen-kraeutern",
+    "title": "Sommerliche Pasta mit Kräutern",
+    "description": "Spaghetti mit gebratener Aubergine und Zucchini, frischer Gurke, Avocado und viel Basilikum.",
+    "emoji": "🌿",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 680,
+      "protein": 17,
+      "carbs": 76,
+      "fat": 28
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "essiggurken",
+        "name": "urke",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum, frisch",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "spaghetti",
+        "name": "Spaghetti",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Aubergine und Zucchini und brate sie im Olivenöl 8 Minuten kräftig an.",
+      "Koche die Spaghetti in Salzwasser bissfest.",
+      "Würfle Gurke und Avocado und halbiere die Cherrytomaten.",
+      "Würze das Gemüse mit den Kräutern der Provence, Salz und Pfeffer.",
+      "Mische die Nudeln mit dem gebratenen Gemüse und etwas Nudelwasser.",
+      "Hebe Gurke, Avocado, Tomaten, Zitronensaft und gehacktes Basilikum unter."
+    ],
+    "tags": [
+      "sommerlich",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/sommerliche-pasta-mit-frischen-krautern/25457be5?lang=de",
+      "title": "Sommerliche Pasta mit frischen Kräutern"
+    }
+  },
+  {
+    "id": "i-suesser-apfel-zimt-flammkuchen",
+    "title": "Süßer Apfel-Zimt-Flammkuchen",
+    "description": "Dünner Flammkuchen mit Schmand, Apfelscheiben, Zimt und Mandeln, aprikotiert mit Marmelade.",
+    "emoji": "🍎",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 580,
+      "protein": 13,
+      "carbs": 86,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "zimt",
+        "name": "Zimt, gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, gehobelt",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl, Typ 405",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "(n) Salz",
+        "amount": 2,
+        "unit": "Prise"
+      },
+      {
+        "key": "orange",
+        "name": "Orange",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "marmelade",
+        "name": "Aprikosen-Marmelade",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verknete Mehl, Wasser, Sonnenblumenöl und Salz zu einem Teig und lass ihn 10 Minuten ruhen.",
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor.",
+      "Verrühre den Schmand mit Zimt, Honig und Orangenabrieb.",
+      "Schneide die Äpfel in dünne Spalten.",
+      "Roll den Teig dünn aus, bestreiche ihn mit der Schmandcreme und belege ihn mit Äpfeln und Mandelblättchen.",
+      "Back den Flammkuchen 15 Minuten und bestreiche ihn noch warm mit erwärmter Aprikosenmarmelade."
+    ],
+    "tags": [
+      "süß",
+      "aus dem ofen"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/S%C3%BC%C3%9Fer-Apfel-Zimt-Flammkuchen/10cf41ee?lang=de",
+      "title": "Süßer Apfel-Zimt-Flammkuchen"
+    }
+  },
+  {
+    "id": "i-suesskartoffel-gemuese-gratin",
+    "title": "Süßkartoffel-Gemüse-Gratin",
+    "description": "Süßkartoffel, Kartoffel, Karotte und Paprika geschichtet, mit Brühe gegart und mit Cheddar überbacken.",
+    "emoji": "🍠",
+    "category": "hauptgericht",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 55,
+    "difficulty": "anspruchsvoll",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 475,
+      "protein": 17,
+      "carbs": 65,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "suesskartoffel",
+        "name": "Süßkartoffel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar Käse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Schäl Süßkartoffel, Kartoffeln und Karotten und hobel sie in dünne Scheiben.",
+      "Schneide die Paprika in Streifen und hacke den Knoblauch.",
+      "Schichte das Gemüse in eine Auflaufform, würze jede Lage mit Paprikapulver, Kurkuma, Salz und Pfeffer.",
+      "Gieß die Brühe an und back das Gratin zugedeckt 35 Minuten.",
+      "Streu den Cheddar darüber, back es 15 Minuten offen fertig und streu Frühlingszwiebeln darauf."
+    ],
+    "tags": [
+      "auflauf",
+      "aus dem ofen"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Vegetable%20Gratin/4f8fd98f?lang=de",
+      "title": "Süßkartoffel-Gemüse-Gratin"
+    }
+  },
+  {
+    "id": "i-taco-salat",
+    "title": "Taco-Salat",
+    "description": "Würziges Rinderhack auf Romanasalat mit Avocado, Tomaten, saurer Sahne und Tortilla-Chips.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "mexikanisch",
+    "diet": [],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 855,
+      "protein": 31,
+      "carbs": 46,
+      "fat": 55
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "chili",
+        "name": "Chilipulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "hackfleisch",
+        "name": "Hackfleisch, Rind",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "saure-sahne",
+        "name": "saure Sahne",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "koriander-gemahlen",
+        "name": "Koriander, gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "salat",
+        "name": "Romana Salatherz",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "tortillas",
+        "name": "Tortilla-Chips",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brate das Hackfleisch mit der gewürfelten Zwiebel und dem Knoblauch im Olivenöl 6 Minuten krümelig.",
+      "Würze es mit Chilipulver, Kreuzkümmel, gemahlenem Koriander, Salz und Pfeffer.",
+      "Schneide den Salat in Streifen und halbiere die Cherrytomaten.",
+      "Würfle die Avocado und beträufle sie mit Limettensaft.",
+      "Richte Salat, Hack, Tomaten und Avocado in Schalen an.",
+      "Gib saure Sahne darüber, streu Koriander und zerbrochene Tortilla-Chips darauf."
+    ],
+    "tags": [
+      "salat",
+      "mexikanisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/taco-salat/2bdde49c?lang=de",
+      "title": "Taco-Salat"
+    }
+  },
+  {
+    "id": "i-tacos-mit-gegrilltem-gemuese-halloumi-tex-mex-sauce",
+    "title": "Tacos mit Halloumi & Grillgemüse",
+    "description": "Tacos mit gegrilltem Halloumi, Zucchini, Paprika und Mais, dazu Mango und Tex-Mex-Sauce.",
+    "emoji": "🌮",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 515,
+      "protein": 18,
+      "carbs": 42,
+      "fat": 29
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "halloumi",
+        "name": "Halloumi",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 0.3,
+        "unit": ""
+      },
+      {
+        "key": "tortillas",
+        "name": "Wraps",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "mango",
+        "name": "Mango",
+        "amount": 0.3,
+        "unit": ""
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "mais",
+        "name": "Maiskolben, frisch",
+        "amount": 0.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide Zucchini und Paprika in Streifen, den Mais vom Kolben und die Zwiebel in Ringe.",
+      "Brate das Gemüse im Olivenöl 6 Minuten mit Röstaromen an und würze es.",
+      "Schneide den Halloumi in Scheiben und brate ihn 3 Minuten pro Seite goldbraun.",
+      "Würfle die Mango.",
+      "Erwärme die Wraps kurz in der trockenen Pfanne.",
+      "Belege sie mit Gemüse, Halloumi und Mango und gib die Tex-Mex-Sauce darüber."
+    ],
+    "tags": [
+      "tacos",
+      "sommerlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Tacos-with-Grilled-Veggies%2C-Halloumi-%26-Tex-Mex-Sauce/61ed5144?lang=de",
+      "title": "Tacos mit gegrilltem Gemüse, Halloumi & Tex-Mex-Sauce"
+    }
+  },
+  {
+    "id": "i-tacos-mit-veganer-hackfuellung-guacamole",
+    "title": "Tacos mit veganem Hack & Guacamole",
+    "description": "Knusprige Taco-Schalen mit würzigem veganem Hack, Kidneybohnen, Mais und selbst gemachter Guacamole.",
+    "emoji": "🌮",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 645,
+      "protein": 19,
+      "carbs": 66,
+      "fat": 24
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "eisbergsalat",
+        "name": "Eisbergsalat",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "mais",
+        "name": "Mais, Dose od. Glas",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano, getrocknet",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomatensalsa",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chili",
+        "name": "Chilipulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kidneybohnen",
+        "name": "Kidneybohnen, Dose",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brate das vegane Hack mit dem gehackten Knoblauch im Olivenöl 5 Minuten an.",
+      "Würze es mit Kreuzkümmel, Chilipulver und Oregano und gib Kidneybohnen und Mais dazu.",
+      "Rühre die Tomatensalsa unter und lass alles 5 Minuten schmoren.",
+      "Zerdrücke die Avocado mit Limettensaft, gehacktem Koriander, Salz und Pfeffer zur Guacamole.",
+      "Schneide Eisbergsalat in Streifen und würfle Tomaten und Cherrytomaten.",
+      "Füll die Taco-Schalen mit Salat, Hack, Guacamole und Schmand-Alternative."
+    ],
+    "tags": [
+      "tacos",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/tacos-mit-veganer-hackfuellung-und-guacamole/73225332?lang=de",
+      "title": "Tacos mit veganer Hackfüllung & Guacamole"
+    }
+  },
+  {
+    "id": "i-tempura-garnelen-gemuese",
+    "title": "Tempura-Garnelen & -Gemüse",
+    "description": "Garnelen, Spargel, Zucchini und Paprika im knusprig-leichten Tempurateig, dazu ein Soja-Ingwer-Dip.",
+    "emoji": "🍤",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 215,
+      "protein": 11,
+      "carbs": 29,
+      "fat": 4
+    },
+    "ingredients": [
+      {
+        "key": "spargel",
+        "name": "grüner Spargel",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "speisestaerke",
+        "name": "Speisestärke",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "backpulver",
+        "name": "Backpulver",
+        "amount": 0.4,
+        "unit": "TL"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl, geröstet",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 0.3,
+        "unit": ""
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl, Typ 405",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "garnelen",
+        "name": "Riesengarnelen, roh",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "wasser",
+        "name": "Mineralwasser, mit Kohlensäure",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "key": "natron",
+        "name": "Natron",
+        "amount": 0.25,
+        "unit": "TL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 0.5,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Rühre Mehl, Speisestärke, Backpulver, Natron und eiskaltes Mineralwasser zu einem dünnflüssigen Teig. Nicht zu lange rühren.",
+      "Schneide Spargel, Zucchini und Paprika in mundgerechte Stücke.",
+      "Verrühre Sojasauce, Reisessig, Sesamöl, geriebenen Ingwer und Knoblauch zum Dip.",
+      "Erhitze das Pflanzenöl in einer tiefen Pfanne.",
+      "Zieh Garnelen und Gemüse durch den Teig und frittiere sie portionsweise 2 bis 3 Minuten goldgelb.",
+      "Lass alles auf Küchenpapier abtropfen, salze es und serviere es mit dem Dip."
+    ],
+    "tags": [
+      "knusprig",
+      "besonders"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Tempura-Garnelen-Gemuese/1ebcb2c3?lang=de",
+      "title": "Tempura-Garnelen & -Gemüse"
+    }
+  },
+  {
+    "id": "i-teriyaki-gemuese-pfanne-mit-reis",
+    "title": "Teriyaki-Gemüse-Pfanne mit Reis",
+    "description": "Aubergine, Paprika, Karotte und Shiitake in Teriyaki-Sauce glasiert, dazu Jasminreis.",
+    "emoji": "🍆",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 580,
+      "protein": 12,
+      "carbs": 72,
+      "fat": 23
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "shiitake",
+        "name": "Shiitakepilze",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "reis",
+        "name": "Thai Jasmin Reis",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Teriyaki-Sauce mit Knoblauch",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "key": "paprika",
+        "name": "elbe Paprika",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Würfle die Aubergine und schneide Paprika, Karotten und Zwiebel in Streifen.",
+      "Brate die Aubergine im Sesamöl 6 Minuten kräftig an.",
+      "Gib das übrige Gemüse und die Shiitakepilze dazu und brate alles 5 Minuten.",
+      "Gieß Teriyaki-Sauce und Wasser an und lass alles 4 Minuten glasieren.",
+      "Schmecke mit Salz und Pfeffer ab und streu Koriander darüber."
+    ],
+    "tags": [
+      "asiatisch",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/teriyaki-gemuese-pfanne-mit-reis/1f1b01cf?lang=de",
+      "title": "Teriyaki-Gemüse-Pfanne mit Reis"
+    }
+  },
+  {
+    "id": "i-ueberbackene-enchilada",
+    "title": "Überbackene Enchiladas",
+    "description": "Wraps gefüllt mit veganem Hack, Bohnen und Mais, in Tomatensauce überbacken mit Tex-Mex-Käse.",
+    "emoji": "🌯",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 600,
+      "protein": 18,
+      "carbs": 73,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "tortillas",
+        "name": "Wraps",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "mais",
+        "name": "Mais, Dose od. Glas",
+        "amount": 90,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, passiert",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "agavendicksaft",
+        "name": "Agavendicksaft",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "kidneybohnen",
+        "name": "Kidneybohnen, Dose",
+        "amount": 90,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Brate das vegane Hack mit gewürfelter Zwiebel, Paprika und Knoblauch im Olivenöl 6 Minuten an.",
+      "Würze mit Kreuzkümmel, gib Mais und Kidneybohnen dazu und rühre die Hälfte des Tomatenmarks unter.",
+      "Verrühre passierte Tomaten, restliches Tomatenmark und Agavendicksaft zur Sauce und würze sie.",
+      "Füll die Wraps mit der Hackmasse, roll sie auf und leg sie in eine Auflaufform.",
+      "Gieß die Sauce darüber, streu den Käse darauf und back alles 20 Minuten. Serviere mit Avocado, Limette und Frühlingszwiebeln."
+    ],
+    "tags": [
+      "auflauf",
+      "mexikanisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/ueberbackene-enchilada/659b9f0f?lang=de",
+      "title": "Überbackene Enchilada"
+    }
+  },
+  {
+    "id": "i-ueberbackene-zucchini-schiffchen-gefuellt-mit-aubergine-parm",
+    "title": "Zucchini-Schiffchen mit Aubergine",
+    "description": "Ausgehöhlte Zucchini, gefüllt mit geschmorter Aubergine und Tomate, mit Parmesan-Bröseln überbacken.",
+    "emoji": "🥒",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 530,
+      "protein": 14,
+      "carbs": 40,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "emüsezwiebel",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, passiert",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 0.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Halbiere die Zucchini längs und höhl sie mit einem Löffel aus. Hack das Fruchtfleisch klein.",
+      "Würfle die Aubergine und brate sie mit Zwiebel, Knoblauch und Zucchinifruchtfleisch im Olivenöl 8 Minuten an.",
+      "Gieß die passierten Tomaten an und lass alles 5 Minuten einkochen. Würze kräftig.",
+      "Füll die Zucchinihälften mit der Masse.",
+      "Mische Semmelbrösel, Parmesan, Petersilie und Olivenöl, streu sie darüber und back alles 20 Minuten."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Baked%20Zucchini%20Stuffed%20with%20Eggplant%20%26%20Parmesan/34bad6a4?lang=de",
+      "title": "Überbackene Zucchini-Schiffchen gefüllt mit Aubergine & Parmesan"
+    }
+  },
+  {
+    "id": "i-vegane-pilzpfanne-mit-sahne",
+    "title": "Vegane Pilzpfanne mit Sahne",
+    "description": "Champignons und Shiitake in cremiger pflanzlicher Sahnesoße mit Thymian und einem Spritzer Balsamico.",
+    "emoji": "🍄",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 645,
+      "protein": 10,
+      "carbs": 36,
+      "fat": 46
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "balsamico",
+        "name": "heller Balsamicoessig",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "champignons",
+        "name": "braune Champignons",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "shiitake",
+        "name": "Shiitakepilze",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Pflanzliche Sahne",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Viertle die Champignons und zupf die Shiitakepilze auseinander.",
+      "Würfle die Zwiebel und hacke den Knoblauch.",
+      "Brate die Pilze im Olivenöl 6 Minuten kräftig an, ohne sie zu bewegen, damit sie Farbe nehmen.",
+      "Gib Zwiebel und Knoblauch dazu und brate sie 3 Minuten mit.",
+      "Gieß pflanzliche Sahne und Drink an und lass alles 5 Minuten einkochen.",
+      "Schmecke mit Thymian, Balsamico, Salz und Pfeffer ab."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Creamy%20One-Pot%20Mushroom%20Skillet/57fd7805?lang=de",
+      "title": "Vegane Pilzpfanne mit Sahne"
+    }
+  },
+  {
+    "id": "i-vegane-tantan-ramen",
+    "title": "Vegane Tantan-Ramen",
+    "description": "Würzige Ramen mit veganem Hack, Sesampaste, Pak Choi und Mais in kräftiger Chili-Brühe.",
+    "emoji": "🍜",
+    "category": "suppe",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 275,
+      "protein": 6,
+      "carbs": 20,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "currypaste",
+        "name": "rote Currypaste",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "mais",
+        "name": "Mais, Dose od. Glas",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Tahin (Sesampaste)",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "sambal-oelek",
+        "name": "Sambal Oelek",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Brate das vegane Hack mit Knoblauch, Ingwer und Chili im Olivenöl 6 Minuten kräftig an und würze es mit Sojasauce.",
+      "Rühre Currypaste und Sambal Oelek ein.",
+      "Verrühre Tahin mit etwas heißer Brühe glatt und gieß alles in den Topf.",
+      "Füg die restliche Brühe und die Karottenstreifen hinzu und lass alles 8 Minuten köcheln.",
+      "Koche die Mie-Nudeln in der Brühe 3 Minuten und gib Pak Choi und Mais dazu.",
+      "Richte alles in Schalen an, träufle Sesamöl darüber und streu Frühlingszwiebeln darauf."
+    ],
+    "tags": [
+      "suppe",
+      "scharf"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/vegane-tantan-ramen/7c1b692e?lang=de",
+      "title": "Vegane Tantan-Ramen"
+    }
+  },
+  {
+    "id": "i-vegane-zucchini-hack-pfanne-mit-tahin-sauce-reis",
+    "title": "Zucchini-Hack-Pfanne mit Tahin-Sauce",
+    "description": "Veganes Hack mit Zucchini und Cherrytomaten, dazu Reis und eine zitronige Tahin-Sauce.",
+    "emoji": "🥒",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 640,
+      "protein": 15,
+      "carbs": 68,
+      "fat": 31
+    },
+    "ingredients": [
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "reis",
+        "name": "Basmati-Reis",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "garam-masala",
+        "name": "Garam Masala",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "sesam",
+        "name": "Tahin (Sesampaste)",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Würfle Zucchini und Zwiebel und hacke den Knoblauch.",
+      "Brate das vegane Hack im Pflanzenöl 5 Minuten kräftig an.",
+      "Gib Zwiebel, Knoblauch und Zucchini dazu, würze mit Garam Masala und brate alles 6 Minuten.",
+      "Rühre Tahin mit Zitronensaft, Ahornsirup, Wasser, Salz und Pfeffer zu einer gießfähigen Sauce.",
+      "Hebe die halbierten Cherrytomaten unter, richte alles mit dem Reis an und gib die Tahin-Sauce und Petersilie darüber."
+    ],
+    "tags": [
+      "schnell",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Vegane%20Zucchini-Hack-Pfanne%20mit%20Tahin-Sauce%20%26%20Reis/1352a568?lang=de",
+      "title": "Vegane Zucchini-Hack-Pfanne mit Tahin-Sauce & Reis"
+    }
+  },
+  {
+    "id": "i-vegetarischer-glasnudelsalat",
+    "title": "Vegetarischer Glasnudelsalat",
+    "description": "Kalter Glasnudelsalat mit Gurke, Karotte, Sprossen und Radieschen in einem Limetten-Ingwer-Dressing.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 865,
+      "protein": 17,
+      "carbs": 121,
+      "fat": 27
+    },
+    "ingredients": [
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "zucker",
+        "name": "Rohrzucker, unraffiniert",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "sriracha",
+        "name": "Thai-Chilisauce (Sriracha)",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "minze",
+        "name": "Minze, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "essiggurken",
+        "name": "urke",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "sprossen",
+        "name": "Sojasprossen",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "erdnuesse",
+        "name": "Erdnüsse geröstet & ungesalzen",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "glasnudeln",
+        "name": "Glasnudeln",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Übergieß die Glasnudeln mit kochendem Wasser, lass sie 5 Minuten ziehen und schreck sie kalt ab.",
+      "Hobel Karotten, Gurke und Radieschen in feine Streifen.",
+      "Verrühre Sojasauce, Reisessig, Sesamöl, Rohrzucker, Sriracha, geriebenen Ingwer, Knoblauch und Limettensaft zum Dressing.",
+      "Mische Nudeln, Gemüse und Sojasprossen mit dem Dressing.",
+      "Lass den Salat 10 Minuten durchziehen.",
+      "Hebe gehackte Minze und Koriander unter und streu die Erdnüsse darüber."
+    ],
+    "tags": [
+      "salat",
+      "sommerlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Veggie-Glass-Noodle-Salad/1c524c2b?lang=de",
+      "title": "Vegetarischer Glasnudelsalat"
+    }
+  },
+  {
+    "id": "i-winter-gemuese-auflauf",
+    "title": "Winter-Gemüse-Auflauf",
+    "description": "Rosenkohl, Wirsing, Blumenkohl und Kartoffeln in Sahnesauce mit Bergkäse überbacken.",
+    "emoji": "🥬",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "anspruchsvoll",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 565,
+      "protein": 21,
+      "carbs": 60,
+      "fat": 22
+    },
+    "ingredients": [
+      {
+        "key": "blumenkohl",
+        "name": "Blumenkohl",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "muskat",
+        "name": "(n) Muskatnüsse",
+        "amount": 2,
+        "unit": "Prise"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebeln",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "wirsing",
+        "name": "Wirsingkohl",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "rosenkohl",
+        "name": "Rosenkohl",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "bergkaese",
+        "name": "Bergkäse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Schäl die Kartoffeln und schneide sie in Scheiben. Putz Rosenkohl, Blumenkohl und Wirsing und schneide sie mundgerecht.",
+      "Koche das Gemüse 8 Minuten in der Brühe vor und gieß es ab. Heb 100 ml Brühe auf.",
+      "Schneide die Zwiebeln in Spalten und mische alles in einer Auflaufform.",
+      "Verrühre Sahne mit der aufgehobenen Brühe, Muskat, Salz und Pfeffer und gieß sie darüber.",
+      "Streu Bergkäse und Parmesan darauf, back den Auflauf 30 Minuten und streu Petersilie darüber."
+    ],
+    "tags": [
+      "auflauf",
+      "winterlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Winter-Gem%C3%BCse-Auflauf/dd97dc5d?lang=de",
+      "title": "Winter-Gemüse-Auflauf"
+    }
+  },
+  {
+    "id": "i-wrap-mit-gegrillter-aubergine-salat",
+    "title": "Wrap mit gegrillter Aubergine",
+    "description": "Wraps mit glasierter Aubergine, Spinat, Radieschen und Minze, dazu ein Joghurtdip.",
+    "emoji": "🌯",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 405,
+      "protein": 7,
+      "carbs": 38,
+      "fat": 23
+    },
+    "ingredients": [
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl, geröstet",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 0.5,
+        "unit": "Zehe"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat, frisch",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "minze",
+        "name": "Minze, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "radieschen",
+        "name": "Radieschen",
+        "amount": 0.2,
+        "unit": "Bund"
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "tortillas",
+        "name": "Wraps",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      }
+    ],
+    "steps": [
+      "Schneide die Aubergine in Scheiben und brate sie im Pflanzenöl von beiden Seiten goldbraun.",
+      "Verrühre Sojasauce, Reisessig, Sesamöl, Zucker und gehackten Knoblauch und glasiere die Auberginen darin.",
+      "Hobel Radieschen und rote Zwiebel in feine Scheiben.",
+      "Rühre den Joghurt mit gehackter Minze, Salz und Pfeffer glatt.",
+      "Erwärme die Wraps kurz in der trockenen Pfanne.",
+      "Bestreiche sie mit dem Joghurt, belege sie mit Spinat, Aubergine, Tomaten und Radieschen und roll sie fest ein."
+    ],
+    "tags": [
+      "wrap",
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Wrap-with-Grilled-Eggplant-%26-Salad/3a1286d2?lang=de",
+      "title": "Wrap mit gegrillter Aubergine & Salat"
+    }
+  },
+  {
+    "id": "i-wuerzige-linsensuppe-mit-feta",
+    "title": "Würzige Linsensuppe mit Feta",
+    "description": "Grüne Linsen mit Sellerie und Karotte, kräftig mit Paprikapulver und Kreuzkümmel gewürzt, getoppt mit Feta.",
+    "emoji": "🍲",
+    "category": "suppe",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 340,
+      "protein": 13,
+      "carbs": 22,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "sellerie",
+        "name": "Sellerieknolle",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "linsen-braun",
+        "name": "Grüne Linsen",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Feta Käse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotte",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel, Karotte und Sellerieknolle und hacke den Knoblauch.",
+      "Dünste alles im Olivenöl 6 Minuten an.",
+      "Rühre Tomatenmark, Paprikapulver und Kreuzkümmel ein und röste alles 1 Minute mit.",
+      "Gib die Linsen dazu und gieß das Wasser an.",
+      "Lass die Suppe 25 Minuten köcheln, bis die Linsen weich sind.",
+      "Schmecke mit Zitronensaft, Salz und Pfeffer ab und zerbrösel den Feta darüber."
+    ],
+    "tags": [
+      "suppe",
+      "wärmend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Spicy%20Lentil%20Soup%20with%20Feta/5ed07e64?lang=de",
+      "title": "Würzige Linsensuppe mit Feta"
     }
   }
 ]

@@ -113,11 +113,12 @@ export function cuisineFor(title, keys) {
 }
 
 /** Kategorie aus Titel und Zutaten raten. */
-export function categoryFor(title, keys) {
+export function categoryFor(title, _keys) {
   const t = title.toLowerCase()
   if (/suppe|eintopf|ramen|brühe|bruehe|creme-suppe/.test(t)) return 'suppe'
   if (/salat|bowl mit salat|tabbouleh|coleslaw/.test(t)) return 'salat'
-  if (/kuchen|dessert|creme|mousse|tiramisu|pudding|waffel|pancake|muffin|brownie|torte|eis am stiel/.test(t)) return 'nachspeise'
+  // „Flammkuchen“ und „Pestocreme“ sind keine Nachspeisen – deshalb genau hinschauen.
+  if (/(?<!flamm)kuchen|dessert|crème brûlée|mousse au|tiramisu|pudding|waffel|pancake|muffin|brownie|torte|eis am stiel|kompott|nachtisch/.test(t)) return 'nachspeise'
   if (/frühstück|fruehstueck|porridge|smoothie|granola|müsli|muesli|omelett|rührei|ruehrei/.test(t)) return 'fruehstueck'
   if (/dip|snack|fingerfood|frühlingsrolle|fruehlingsrolle|bruschetta|cracker/.test(t)) return 'snack'
   return 'hauptgericht'
