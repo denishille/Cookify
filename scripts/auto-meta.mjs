@@ -63,7 +63,9 @@ const meta = {}
 for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).sort()) {
   const d = JSON.parse(readFileSync(join(importsDir, file), 'utf8'))
   const name = file.replace(/\.json$/, '')
-  const keys = d.ingredients.map(parseIngredient).filter(Boolean).map((p) => keyFor(p.name)).filter(Boolean)
+  const parsed = d.ingredients.map(parseIngredient).filter(Boolean)
+  const keys = parsed.map((p) => keyFor(p.name)).filter(Boolean)
+  const ings = parsed.map((p) => p.name.replace(/\s{2,}/g, ' ').trim()).filter(Boolean)
   const title = d.title.replace(/\s+/g, ' ').trim()
   const n = norm(title)
   const category = categoryFor(title, keys)
@@ -75,9 +77,12 @@ for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).so
   if (category === 'nachspeise') tags.add('süß')
   if (sourceTag) tags.add(sourceTag)
   if (tags.size < 3) tags.add('feierabend')
+  const main = ings.filter((i) => !/salz|pfeffer|\u00f6l|wasser|zucker/.test(norm(i))).slice(0, 3)
+  const fallback = `In ${d.timeMinutes ?? 30} Minuten fertig${main.length ? `, mit ${main.slice(0, -1).join(', ')}${main.length > 1 ? ' und ' : ''}${main[main.length - 1]}` : ''}.`
+  const desc = shorten(d.description, title)
   meta[name] = {
     title,
-    description: shorten(d.description, title),
+    description: desc.length >= 25 ? desc : fallback,
     emoji: emojiFor(title),
     tags: [...tags].slice(0, 5),
   }
