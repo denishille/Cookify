@@ -1,0 +1,41 @@
+{
+  "title": "Spaghetti mit Tomatenrahm und Spinat getoppt mit Hirtenkäsebröseln",
+  "description": "Pasta geht immer! In Kombination mit leckerem Gemüse und cremiger Soße ist dieses Gericht ein wahrer Gaumenschmaus. Lass es Dir schmecken!",
+  "ingredients": [
+    "250 g Spaghetti",
+    "50 g Tomatenpesto",
+    "200 ml Kochsahne",
+    "100 g Hirtenkäse",
+    "75 g Babyspinat",
+    "1 Stück Knoblauchzehe",
+    "1 Stück Zucchini",
+    "100 g braune Champignons",
+    "4 g Gemüsebrühe",
+    "5 g Basilikum",
+    "50 ml Wasser",
+    "5 g Petersilie",
+    "nach Geschmack Salz",
+    "nach Geschmack Pfeffer",
+    "1 Esslöffel Öl"
+  ],
+  "steps": [
+    "In einem großen Topf reichlich heißes Wasser zum Kochen bringen, salzen* und Spaghetti darin ca. 12 Min. bissfest garen. 50 ml [75 ml | 100 ml] Gemüsebrühe zubereiten.",
+    "Basilikum und Petersilie fein hacken. Hirtenkäse mit den Händen in eine kleine Schüssel zerbröseln. Gehackte Kräuter mit dem Hirtenkäse vermengen. Mit Pfeffer\\* würzen.",
+    "Champignons je nach Größe vierteln oder achteln. Enden der Zucchini abschneiden, Zucchini längs halbieren und in 0,5 cm dicke Halbmonde schneiden. Knoblauch abziehen und fein hacken.",
+    "In einer großen Pfanne 1 EL [11/2 EL | 2 EL] Öl\\* auf mittlerer Stufe erhitzen, Champignons, Knoblauch, Zucchini zugeben und 3 – 4 Min. anbraten. Kochsahne, Tomatenpesto und vorbereitete Gemüsebrühe in die Pfanne geben, zusammen 4 – 5 Min. köcheln lassen, bis die Soße leicht eingedickt ist.",
+    "Spinat portionsweise zur Soße geben und zusammenfallen lassen. Soße nach Geschmack mit Salz\\* und Pfeffer\\* würzen.",
+    "Pasta nach der Garzeit in ein Sieb abgießen, mit in die Pfanne geben und unter die Soße rühren. Pasta auf Tellern verteilen. Mit Hirtenkäse bestreuen und genießen. Guten Appetit!"
+  ],
+  "timeMinutes": 30,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/fettuccine-mit-tomatenrahm-spinat-86307684.jpg",
+  "source": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/spaghetti-mit-tomatenrahm-und-spinat-5ddfadb7a0e9053ccb764aa2",
+    "title": "Spaghetti mit Tomatenrahm und Spinat getoppt mit Hirtenkäsebröseln",
+    "rating": 4.2,
+    "ratingCount": 1324
+  },
+  "importedAt": "2026-09-05"
+}
