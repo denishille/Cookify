@@ -42,6 +42,28 @@ const TAGS = [
 ]
 const CUISINE_TAG = { italienisch: 'italienisch', asiatisch: 'asiatisch', mexikanisch: 'mexikanisch', orientalisch: 'orientalisch', indisch: 'indisch', mediterran: 'mediterran', deutsch: 'hausmannskost', amerikanisch: 'amerikanisch' }
 
+/** Die Quellen schreiben Werbetitel mit allen Beilagen – daraus einen Gerichtnamen machen. */
+export function shortTitle(raw) {
+  let t = raw.replace(/\s+/g, ' ').trim()
+  // „Alu Gobhi! Blumenkohl-Curry …“ – der Aufmacher fällt weg, wenn danach ein eigener Name steht.
+  const lead = /^([^!:]{3,28})[!:]\s+(.+)$/.exec(t)
+  if (lead && !/^(mit|auf|und|dazu|serviert|getoppt|an|im|in|aus)\b/i.test(lead[2]) && lead[2].length >= 18) t = lead[2]
+  t = t.replace(/[!:]+\s*/g, ' ').replace(/\s+/g, ' ').trim()
+  // Werbezeilen, die die Quelle in den Titel schreibt.
+  t = t.split(/\s+(?:Bei diesem (?:Gericht|Rezept)|Nur \d+ Minuten|Mit mehr als|Enthält|Klimaheld|verzehrfertiges)\b/i)[0].trim()
+  // Alles ab der ersten Beilagenaufzählung abschneiden – aber nur, wenn ein Gerichtname stehen bleibt.
+  const cut = (text, re) => { const head = text.split(re)[0].trim(); return head.length >= 14 ? head : text }
+  t = cut(t, /\s*[–-]?\s*\b(?:dazu|getoppt|serviert|obendrauf|zum Dippen)\b/i)
+  t = cut(t, /,/)
+  if (t.length > 52) t = cut(t, /\s+und\s+/i)
+  if (t.length > 58) {
+    const m = /^(.{18,58})\s+mit\s+/i.exec(t)
+    if (m) t = m[1].trim()
+  }
+  if (t.length > 70) t = t.slice(0, 66).replace(/\s+\S*$/, '') + '…'
+  return t.replace(/\s*[-–,]\s*$/, '').trim()
+}
+
 /** Die Werbetexte der Quellen sind lang – auf zwei Sätze und rund 150 Zeichen kürzen. */
 function shorten(text, title) {
   let t = (text ?? '').replace(/\s+/g, ' ').trim()
@@ -66,7 +88,7 @@ for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).so
   const parsed = d.ingredients.map(parseIngredient).filter(Boolean)
   const keys = parsed.map((p) => keyFor(p.name)).filter(Boolean)
   const ings = parsed.map((p) => p.name.replace(/\s{2,}/g, ' ').trim()).filter(Boolean)
-  const title = d.title.replace(/\s+/g, ' ').trim()
+  const title = shortTitle(d.title)
   const n = norm(title)
   const category = categoryFor(title, keys)
   const cuisine = cuisineFor(title, keys)
@@ -79,7 +101,8 @@ for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).so
   if (tags.size < 3) tags.add('feierabend')
   const main = ings.filter((i) => !/salz|pfeffer|\u00f6l|wasser|zucker/.test(norm(i))).slice(0, 3)
   const fallback = `In ${d.timeMinutes ?? 30} Minuten fertig${main.length ? `, mit ${main.slice(0, -1).join(', ')}${main.length > 1 ? ' und ' : ''}${main[main.length - 1]}` : ''}.`
-  const desc = shorten(d.description, title)
+  const raw = /klimaheld|hellofresh|verzehrfertig|kalorienbewusst|nachhaltig zertifiziert/i.test(d.description ?? '') ? '' : d.description
+  const desc = shorten(raw, title)
   meta[name] = {
     title,
     description: desc.length >= 25 ? desc : fallback,
