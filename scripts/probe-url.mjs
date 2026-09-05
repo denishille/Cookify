@@ -22,7 +22,11 @@ for (const url of process.argv.slice(2)) {
       const inner = (/<body[^>]*>([\s\S]*)<\/body>/i.exec(body) ?? [null, body])[1]
         .replace(/<script[\s\S]*?<\/script>/gi, '')
       const only = process.env.DUMP_MATCH ? new RegExp(process.env.DUMP_MATCH, 'i') : null
-      const lines = inner.split('\n').map((l) => l.trim()).filter(Boolean).filter((l) => !only || only.test(l))
+      const after = Number(process.env.DUMP_AFTER ?? 0)
+      const all = inner.split('\n').map((l) => l.trim()).filter(Boolean)
+      const keep = new Set()
+      all.forEach((l, i) => { if (!only || only.test(l)) for (let k = 0; k <= after; k++) keep.add(i + k) })
+      const lines = all.filter((_, i) => keep.has(i))
       console.log('--- BODY ---')
       console.log(lines.slice(0, 400).join('\n').slice(0, 20000))
       console.log('--- ENDE ---')

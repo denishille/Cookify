@@ -22,6 +22,9 @@ on:
       probe_match:
         description: 'Beim Untersuchen nur Zeilen ausgeben, die auf dieses Muster passen'
         required: false
+      probe_after:
+        description: 'Zusätzlich so viele Zeilen nach jedem Treffer ausgeben'
+        required: false
 
 permissions:
   contents: write
@@ -42,7 +45,7 @@ jobs:
       - run: npm ci
       - name: Quellseite untersuchen
         if: ${{ github.event.inputs.probe != '' }}
-        run: DUMP=1 DUMP_MATCH="${{ github.event.inputs.probe_match }}" node scripts/probe-url.mjs ${{ github.event.inputs.probe }}
+        run: DUMP=1 DUMP_MATCH="${{ github.event.inputs.probe_match }}" DUMP_AFTER="${{ github.event.inputs.probe_after }}" node scripts/probe-url.mjs ${{ github.event.inputs.probe }}
       - name: Bewertungen nachziehen
         if: ${{ github.event.inputs.ratings == 'true' }}
         run: node scripts/import-recipes.mjs --ratings
