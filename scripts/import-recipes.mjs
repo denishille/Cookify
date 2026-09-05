@@ -37,6 +37,7 @@ const limit = Number(opt('--limit', '10'))
 export const ALLOWED_SITES = ['eatsmarter.de', 'lecker.de', 'kochbar.de', 'hellofresh.de', 'kptncook.com', 'essen-und-trinken.de', 'kuechengoetter.de', 'einfachkochen.de', 'springlane.de', 'gaumenfreundin.de', 'emmikochteinfach.de', 'malteskitchen.de', 'brigitte.de', 'rewe.de', 'edeka.de', 'chefkoch.de', 'daskochrezept.de', 'kitchenstories.com', 'zuckerzimtundliebe.de', 'eat-this.org', 'bianca-zapatka.com', 'elavegan.com', 'stefanskochblog.de', 'toastenstein.com', 'simply-yummy.de', 'lisa-lecker.de', 'biancazapatka.com']
 const UA = 'CookifyBot/1.0 (+https://github.com/denishille/Cookify; liest nur schema.org-Rezeptmetadaten)'
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+const { parseKptnCook } = await import('./lib/parse-kptncook.mjs')
 /** Hostname auf die erlaubte Seite normiert: mobile.kptncook.com zählt als kptncook.com. */
 const siteOf = (url) => {
   try {
@@ -133,7 +134,7 @@ async function fetchRecipe(url) {
   const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'text/html' }, redirect: 'follow' })
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   const html = await res.text()
-  const r = parseRecipe(html, url)
+  const r = parseRecipe(html, url) ?? (siteOf(url) === 'kptncook.com' ? parseKptnCook(html, url, 'kptncook.com') : null)
   if (r && r.source.rating === undefined) {
     const fromHtml = parseRatingFromHtml(html)
     if (fromHtml) {
