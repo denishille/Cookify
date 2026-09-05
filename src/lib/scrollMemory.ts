@@ -26,19 +26,25 @@ export function freezeScroll() {
 
 /**
  * Stellt die Scrollposition beim Wechsel zwischen Ansichten wieder her.
- * Ohne `ref` gilt es für die Seite (senkrecht), mit `ref` für das Element (waagerecht, z. B. eine Kachelreihe).
+ * `ref` ist der Kasten, der scrollt – ohne `ref` die Seite selbst.
+ * `achse` ist standardmäßig waagerecht für ein Element (z. B. eine Kachelreihe), senkrecht für die Seite.
  */
-export function useScrollMemory(key: string, ref?: RefObject<HTMLElement | null>) {
+export function useScrollMemory(key: string, ref?: RefObject<HTMLElement | null>, achse: 'x' | 'y' = ref ? 'x' : 'y') {
   useEffect(() => {
     const el = ref ? ref.current : null
     if (ref && !el) return
-    const read = () => (el ? el.scrollLeft : window.scrollY)
-    const write = (v: number) => (el ? el.scrollTo({ left: v }) : window.scrollTo(0, v))
+    const read = () => (el ? (achse === 'x' ? el.scrollLeft : el.scrollTop) : window.scrollY)
+    const write = (v: number) => {
+      if (!el) return window.scrollTo(0, v)
+      el.scrollTo(achse === 'x' ? { left: v } : { top: v })
+    }
 
     frozen.delete(key)
     active.set(key, read)
 
     const saved = positions.get(key) ?? 0
+    // Der Kasten bleibt beim Ansichtswechsel stehen, deshalb immer setzen – auch auf null.
+    write(saved)
     let restoring = saved > 0
 
     // Solange die Ansicht noch wächst, würde ein einzelner Sprung zu kurz landen: bis zu 800 ms nachsteuern.
@@ -67,5 +73,5 @@ export function useScrollMemory(key: string, ref?: RefObject<HTMLElement | null>
       target.removeEventListener('scroll', onScroll)
       for (const ev of ['wheel', 'touchstart', 'keydown'] as const) target.removeEventListener(ev, onUser)
     }
-  }, [key, ref])
+  }, [key, ref, achse])
 }

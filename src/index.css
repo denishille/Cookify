@@ -71,7 +71,7 @@
 }
 
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; overscroll-behavior: none; }
 
 body {
   font-family: var(--font-body);
@@ -104,10 +104,12 @@ svg { flex-shrink: 0; }
 }
 
 /* ---------- Shell ---------- */
-.app { min-height: 100dvh; display: flex; flex-direction: column; padding-bottom: 72px; }
+/* App-Schale: nur der Inhalt scrollt. Ein fest positionierter Balken am unteren Rand
+   wandert auf iOS während des Schwungscrollens quer über die Seite. */
+.app { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
 
 .topbar {
-  position: sticky; top: 0; z-index: 20;
+  flex: none; z-index: 20;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
@@ -151,7 +153,7 @@ svg { flex-shrink: 0; }
 
 .nav { display: none; }
 .tabbar {
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
+  flex: none; z-index: 20;
   background: var(--bg); border-top: 1px solid var(--border);
   display: flex; justify-content: space-around;
   padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
@@ -170,7 +172,6 @@ svg { flex-shrink: 0; }
 }
 
 @media (min-width: 820px) {
-  .app { padding-bottom: 40px; }
   .tabbar { display: none; }
   .nav { display: flex; gap: 4px; margin-left: auto; }
   .nav .tab {
@@ -182,7 +183,10 @@ svg { flex-shrink: 0; }
   .nav .tab .count { position: static; margin-left: 2px; }
 }
 
-.main { width: 100%; max-width: 1160px; margin: 0 auto; padding: 28px 20px 48px; }
+.main {
+  flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+  width: 100%; max-width: 1160px; margin: 0 auto; padding: 28px 20px 48px;
+}
 
 /* ---------- Konfigurator (Rezepte-Seite) ---------- */
 .cfg { margin-top: 18px; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; align-items: end; max-width: 700px; }
@@ -468,7 +472,7 @@ svg { flex-shrink: 0; }
 .split > * { min-width: 0; }
 @media (min-width: 900px) {
   .split { grid-template-columns: 360px 1fr; align-items: start; gap: 32px; }
-  .split .sticky { position: sticky; top: calc(var(--nav-h) + 16px); max-height: calc(100dvh - var(--nav-h) - 32px); overflow: auto; }
+  .split .sticky { position: sticky; top: 16px; max-height: calc(100dvh - var(--nav-h) - 32px); overflow: auto; }
 }
 .panel { background: var(--surface); border-radius: var(--r-lg); padding: 18px; display: grid; gap: 14px; }
 .panel .searchbox input { background: var(--bg); }

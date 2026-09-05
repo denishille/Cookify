@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Diet, Recipe } from './types'
 import { useRoute, back, navigate, openRecipe, type View } from './lib/router'
@@ -173,7 +173,8 @@ export default function App() {
   const savedUnfit = savedAll.length - savedRecipes.length
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
   // Beim Zurück landet man wieder an der Stelle, an der man weggeklickt hat.
-  useScrollMemory(route.recipeId ? `rezept:${route.recipeId}` : `view:${route.view}`)
+  const mainRef = useRef<HTMLElement>(null)
+  useScrollMemory(route.recipeId ? `rezept:${route.recipeId}` : `view:${route.view}`, mainRef, 'y')
 
   const surprise = () => {
     const pool = results.length ? results : AVAILABLE
@@ -228,9 +229,7 @@ export default function App() {
         adapt={adaptOn} onAdaptChange={setAdaptOn} strictFructose={strictFructose} onStrictFructoseChange={setStrictFructose} />
       <ShoppingDrawer open={shopOpen} onClose={() => setShopOpen(false)} items={shopping.items} onToggleDone={shopping.toggleDone} onRemove={shopping.remove}
         onClearDone={shopping.clearDone} onClearAll={shopping.clearAll} onAddKey={addShoppingKey} diets={globalDiets} />
-      {tabs('tabbar')}
-
-      <main className="main">
+      <main className="main" ref={mainRef}>
 
         {route.recipeId && !detail && (
           <div className="empty">
@@ -428,6 +427,8 @@ export default function App() {
           </>
         )}
       </main>
+
+      {tabs('tabbar')}
 
       {undo && (
         <div className="undo" role="status">

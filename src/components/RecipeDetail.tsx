@@ -57,7 +57,6 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
   const changeByKey = new Map(adaptation.ok && !showOriginal ? adaptation.changes.map((c) => [c.key, c]) : [])
   const adaptedDiets = [...new Set(adaptation.changes.map((c) => DIET_LABELS[c.diet]))]
 
-  useEffect(() => { window.scrollTo({ top: 0 }) }, [recipe.id])
   useEffect(() => {
     if (!toast) return
     const t = setTimeout(() => setToast(null), 1800)
