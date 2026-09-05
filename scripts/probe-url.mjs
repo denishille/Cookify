@@ -20,8 +20,11 @@ for (const url of process.argv.slice(2)) {
     console.log('Anfang:', body.slice(0, 400).replace(/\s+/g, ' '))
     if (process.env.DUMP) {
       const inner = (/<body[^>]*>([\s\S]*)<\/body>/i.exec(body) ?? [null, body])[1]
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+      const only = process.env.DUMP_MATCH ? new RegExp(process.env.DUMP_MATCH, 'i') : null
+      const lines = inner.split('\n').map((l) => l.trim()).filter(Boolean).filter((l) => !only || only.test(l))
       console.log('--- BODY ---')
-      console.log(inner.replace(/<script[\s\S]*?<\/script>/gi, '').replace(/\n\s*\n/g, '\n').slice(0, 30000))
+      console.log(lines.slice(0, 400).join('\n').slice(0, 20000))
       console.log('--- ENDE ---')
     }
   } catch (e) { console.log('Fehler:', e.message) }

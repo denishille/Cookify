@@ -19,6 +19,9 @@ on:
       probe:
         description: 'URLs (durch Leerzeichen getrennt) nur untersuchen: wie liefert die Seite ihre Rezeptdaten?'
         required: false
+      probe_match:
+        description: 'Beim Untersuchen nur Zeilen ausgeben, die auf dieses Muster passen'
+        required: false
 
 permissions:
   contents: write
@@ -39,7 +42,7 @@ jobs:
       - run: npm ci
       - name: Quellseite untersuchen
         if: ${{ github.event.inputs.probe != '' }}
-        run: DUMP=1 node scripts/probe-url.mjs ${{ github.event.inputs.probe }}
+        run: DUMP=1 DUMP_MATCH="${{ github.event.inputs.probe_match }}" node scripts/probe-url.mjs ${{ github.event.inputs.probe }}
       - name: Bewertungen nachziehen
         if: ${{ github.event.inputs.ratings == 'true' }}
         run: node scripts/import-recipes.mjs --ratings
