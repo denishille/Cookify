@@ -9,7 +9,10 @@ import { keyFor, parseIngredient, estimateNutrition, cleanStep, dietFor, cuisine
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const importsDir = join(root, 'src/data/imports')
-const [metaPath, targetPath] = process.argv.slice(2)
+const argv = process.argv.slice(2)
+const minIdx = argv.indexOf('--min-zutaten')
+const MIN_INGREDIENTS = minIdx >= 0 ? Number(argv[minIdx + 1]) : 6
+const [metaPath, targetPath] = argv.filter((a) => !a.startsWith('--') && a !== argv[minIdx + 1])
 const meta = JSON.parse(readFileSync(metaPath, 'utf8'))
 const target = targetPath ?? join(root, 'src/data/recipes/hellofresh.json')
 
@@ -35,7 +38,7 @@ for (const [file, m] of Object.entries(meta)) {
   // gleiche Zutat nur einmal
   const seen = new Set()
   const ingredients = list.filter((i) => (seen.has(i.key) ? false : seen.add(i.key)))
-  if (ingredients.length < 6) { skipped.push(`${file}: nur ${ingredients.length} Zutaten`); continue }
+  if (ingredients.length < MIN_INGREDIENTS) { skipped.push(`${file}: nur ${ingredients.length} Zutaten`); continue }
   const trimmed = ingredients.slice(0, 14)
   let steps = d.steps.map(cleanStep).filter((s) => s.length > 15)
   // Manche Quellen fassen alles in drei Blöcke: dann an Satzgrenzen teilen, bis vier Schritte dastehen.

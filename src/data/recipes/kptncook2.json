@@ -13158,5 +13158,141 @@
       "url": "https://mobile.kptncook.com/recipe/pinterest/porridge-with-plum-compote-nuts-chocolate/3f9926e2?lang=de",
       "title": "Porridge mit Pflaumenkompott, Nüssen & Schokolade"
     }
+  },
+  {
+    "id": "i-gewickelter-lachs-auf-gemuesebett",
+    "title": "Gewickelter Lachs auf Gemüsebett",
+    "description": "Lachs im Gemüsemantel, gedämpft statt gebraten – zehn Minuten, mehr braucht es nicht.",
+    "emoji": "🐟",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 265,
+      "protein": 20,
+      "carbs": 14,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "sellerie",
+        "name": "Sellerieknolle",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "lachs",
+        "name": "Lachsfilets, tiefgefroren",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Lachs auftauen lassen und trocken tupfen. Salzen.",
+      "Karotten, Zucchini und Sellerie mit dem Sparschäler in lange, dünne Bänder hobeln.",
+      "Die Hälfte der Gemüsebänder als Bett in einen Dämpfeinsatz legen.",
+      "Den Lachs mit den übrigen Bändern umwickeln und auf das Gemüsebett setzen.",
+      "Zugedeckt 10–12 Minuten über kochendem Wasser dämpfen, bis der Fisch gerade gar ist."
+    ],
+    "tags": [
+      "feierabend"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Wrapped-Salmon-with-Vegetables/3d1fa8a2?lang=de",
+      "title": "Gewickelter Lachs auf Gemüsebett"
+    }
+  },
+  {
+    "id": "i-schnelle-nudelpfanne-mit-brokkoli-raeuchertofu",
+    "title": "Schnelle Nudelpfanne mit Brokkoli & Räuchertofu",
+    "description": "Fünf Zutaten, zwanzig Minuten: Eiernudeln, Brokkoli und Räuchertofu im Wok.",
+    "emoji": "🍝",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 770,
+      "protein": 41,
+      "carbs": 82,
+      "fat": 29
+    },
+    "ingredients": [
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl, geröstet",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "nudeln",
+        "name": "Chinesische Eiernudeln",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "raeuchertofu",
+        "name": "Räuchertofu",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 0.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Eiernudeln nach Packungsangabe garen, abgießen und kalt abschrecken.",
+      "Brokkoli in kleine Röschen teilen, Räuchertofu in Streifen schneiden.",
+      "Sesamöl in einer großen Pfanne stark erhitzen und den Tofu 4 Minuten knusprig braten.",
+      "Brokkoli zugeben, 3 Minuten mitbraten und mit 3 EL Wasser ablöschen, damit er gart.",
+      "Nudeln und Sojasauce zugeben und alles 2 Minuten durchschwenken."
+    ],
+    "tags": [
+      "eine pfanne",
+      "pasta",
+      "asiatisch",
+      "schnell"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/5-Ingredient%20Broccoli%20Noodle%20Stir%20Fry/5fe44215?lang=de",
+      "title": "Schnelle Nudelpfanne mit Brokkoli & Räuchertofu"
+    }
   }
 ]
