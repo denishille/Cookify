@@ -8,7 +8,7 @@ Jede Rezeptdatei unter `src/data/recipes/*.json` ist ein JSON-Array von Rezept-O
   "title": "Spaghetti Carbonara",
   "description": "Ein bis zwei Sätze, appetitlich, auf Deutsch.",
   "emoji": "🍝",                         // genau ein Emoji als Bild-Ersatz
-  "category": "hauptgericht",           // hauptgericht | suppe | salat | fruehstueck | snack | nachspeise | backen
+  "category": "hauptgericht",           // hauptgericht | suppe | salat | fruehstueck | snack | nachspeise
   "cuisine": "italienisch",             // deutsch | italienisch | asiatisch | indisch | mexikanisch | mediterran | amerikanisch | orientalisch | franzoesisch | international
   "diet": ["vegetarisch"],              // Teilmenge von: vegetarisch, vegan, glutenfrei, laktosefrei, proteinreich, lowcarb, kalorienarm
   "timeMinutes": 25,                    // Gesamtzeit in Minuten

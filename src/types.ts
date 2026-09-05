@@ -1,6 +1,6 @@
 export type Category =
   | 'hauptgericht' | 'suppe' | 'salat'
-  | 'fruehstueck' | 'snack' | 'nachspeise' | 'backen'
+  | 'fruehstueck' | 'snack' | 'nachspeise'
 
 export type Cuisine =
   | 'deutsch' | 'italienisch' | 'asiatisch' | 'indisch' | 'mexikanisch'
@@ -69,8 +69,7 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   salat: 'Salate & Beilagen',
   fruehstueck: 'Frühstück',
   snack: 'Snacks & Vorspeisen',
-  nachspeise: 'Desserts',
-  backen: 'Backen',
+  nachspeise: 'Desserts & Backen',
 }
 
 export const CUISINE_LABELS: Record<Cuisine, string> = {

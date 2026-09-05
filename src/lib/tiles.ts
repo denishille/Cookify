@@ -8,5 +8,4 @@ export const TILE_COLORS: Record<Category, string> = {
   fruehstueck: '#fff0cc',
   snack: '#ece2f5',
   nachspeise: '#fadde4',
-  backen: '#f3e4d0',
 }

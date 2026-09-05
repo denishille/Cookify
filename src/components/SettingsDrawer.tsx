@@ -69,8 +69,6 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
             )}
           </div>
         </div>
-
-        <p className="hint" style={{ marginTop: 'auto' }}>Alles bleibt auf diesem Gerät.</p>
       </aside>
     </>
   )

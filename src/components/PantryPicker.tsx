@@ -33,9 +33,7 @@ export function PantryPicker({ pantry, onToggle, onClear, diets }: Props) {
                 {i.name} <span className="x"><IconX width={14} height={14} /></span>
               </button>
             ))}
-        </div>
-        <p className="hint" style={{ marginTop: 8 }}>Salz, Pfeffer, Öl und Gewürze setzen wir bei der Suche voraus.</p>
-      </div>
+        </div>      </div>
     </div>
   )
 }

@@ -188,7 +188,7 @@
     "title": "Saftiges Bananenbrot mit Walnüssen",
     "description": "Die beste Verwendung für überreife Bananen: ein saftiges, leicht zimtiges Bananenbrot mit Walnüssen und Schokostückchen.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -297,7 +297,7 @@
     "title": "Pizzabrötchen mit Käse und Gemüse",
     "description": "Fluffige Hefebrötchen mit Tomatensauce, Paprika, Champignons und Käse – der perfekte Party-Snack, auch kalt noch lecker.",
     "emoji": "🍕",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch"
@@ -412,7 +412,7 @@
     "title": "Britische Scones mit Marmelade",
     "description": "Lockere, leicht süße Scones, die in 15 Minuten im Ofen aufgehen – warm mit Erdbeermarmelade und Crème fraîche zur Teatime servieren.",
     "emoji": "🫖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -509,7 +509,7 @@
     "title": "Saftiger Zitronenkuchen mit Zuckerguss",
     "description": "Ein einfacher Rührkuchen mit viel frischer Zitrone und Joghurt, der besonders saftig bleibt – gekrönt von einem knackigen Zitronenguss.",
     "emoji": "🍋",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -605,7 +605,7 @@
     "title": "Rosmarin-Focaccia mit Tomaten",
     "description": "Luftiges italienisches Fladenbrot mit knuspriger Olivenöl-Kruste, Rosmarin, Cherrytomaten und grobem Salz – ideal zum Grillen oder als Vorspeise.",
     "emoji": "🫓",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch",

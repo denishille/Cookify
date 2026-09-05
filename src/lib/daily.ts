@@ -17,7 +17,7 @@ function daySeed(date = new Date()): number {
   return h >>> 0
 }
 
-const SWEET_CATEGORIES = new Set(['nachspeise', 'backen'])
+const SWEET_CATEGORIES = new Set(['nachspeise'])
 const SWEET_WORDS = /kuchen|torte|waffel|pfannkuchen|pancake|crepe|muffin|keks|cookie|brownie|creme|crème|tiramisu|eis\b|dessert|schoko|zimt|marmelade|pudding|milchreis|grießbrei|griessbrei|porridge|granola|müsli|muesli|kaiserschmarrn|strudel|tarte|donut|zupfkuchen|schmarrn|brioche|hefezopf|franzbrötchen|zimtschnecke|streusel|kompott|mousse|panna cotta|quarkbällchen|buchtel|dampfnudel|windbeutel|clafouti|trifle|crumble|banana bread|bananenbrot/i
 
 /** Süß im Sinne der Vorschläge: Kategorie oder ein eindeutig süßes Wort in Titel und Tags. */

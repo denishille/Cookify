@@ -60,7 +60,7 @@ const Recipe = z.object({
   title: z.string(),
   description: z.string(),
   emoji: z.string(),
-  category: z.enum(['hauptgericht', 'suppe', 'salat', 'fruehstueck', 'snack', 'nachspeise', 'backen']),
+  category: z.enum(['hauptgericht', 'suppe', 'salat', 'fruehstueck', 'snack', 'nachspeise']),
   cuisine: z.enum(['deutsch', 'italienisch', 'asiatisch', 'indisch', 'mexikanisch', 'mediterran', 'amerikanisch', 'orientalisch', 'franzoesisch', 'international']),
   diet: z.array(z.enum(['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm', 'fruktosefrei', 'leichtverdaulich'])),
   timeMinutes: z.number().int(),

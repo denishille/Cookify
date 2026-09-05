@@ -81,7 +81,6 @@ export default function App() {
     if (!el) return
     try { (el as HTMLSelectElement & { showPicker?: () => void }).showPicker?.() } catch { el.focus() }
   }
-  const [pantryFilters, setPantryFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const [setsOpen, setSetsOpen] = useState(false)
 
@@ -160,7 +159,7 @@ export default function App() {
     : sortRecipes(allBase, allSort)
 
   const pantryKey = [...pantrySet.set].sort().join(',')
-  const pantryResults = rankByPantry(applyFilters(AVAILABLE, pantryFilters, dietOpts), new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
+  const pantryResults = rankByPantry(AVAILABLE, new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
 
   /** Treffer gibt es nur, wenn im Konfigurator etwas gesetzt ist. */
   const configured = !isEmpty(filters)
@@ -179,7 +178,7 @@ export default function App() {
   }
 
   /** Alle gerade wirksamen Ernährungsformen: Einstellungen plus die Filter der einzelnen Seiten. */
-  const activeDiets: Diet[] = [...new Set<Diet>([...globalDiets, ...filters.diets, ...pantryFilters.diets, ...allFilters.diets])]
+  const activeDiets: Diet[] = [...new Set<Diet>([...globalDiets, ...filters.diets, ...allFilters.diets])]
   const adaptedCount = (r: Recipe) => adaptRecipe(r, activeDiets, dietOpts).changes.length
   const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden, adapted: adaptedCount(r) })
 
@@ -328,8 +327,7 @@ export default function App() {
                       </div>
                       <span className="hint">{pantryResults.length} Treffer</span>
                     </div>
-                    <FilterGroups value={pantryFilters} onChange={setPantryFilters} hideCategory pool={AVAILABLE} globalDiets={globalDiets} />
-                    <div style={{ height: 18 }} />
+                    <div style={{ height: 4 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
                         <h3>Noch kein passendes Rezept</h3>

@@ -5873,7 +5873,7 @@
     "title": "Bienenstich",
     "description": "Fluffiger Hefeteig, eine knackige Honig-Mandel-Kruste und dazwischen eine luftige Vanille-Buttercreme: Dieser Blechkuchen ist ein Klassiker vom Kaffeetisch, der jede Bäckerei alt aussehen lässt.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -5977,7 +5977,7 @@
     "title": "Brötchen wie vom Bäcker",
     "description": "Nur fünf Zutaten, kein Kneten und eine lange kalte Ruhezeit im Kühlschrank: So bekommen diese Brötchen eine knusprige Kruste und eine luftige, großporige Krume wie beim Bäcker.",
     "emoji": "🥖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -6050,7 +6050,7 @@
     "title": "Butterkuchen",
     "description": "Der norddeutsche Blechkuchen-Klassiker: lockerer Hefeteig mit tiefen Mulden voller geschmolzener Butter, obendrauf knusprige Mandelblättchen und eine zarte Zuckerkruste.",
     "emoji": "🧈",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -6492,7 +6492,7 @@
     "title": "Donauwelle",
     "description": "Heller und dunkler Rührteig mit saftigen Kirschen, darauf eine samtige Vanille-Buttercreme und eine dunkle Schokoladenglasur mit dem typischen Wellenmuster. Der Blechkuchen-Klassiker, den alle vom Kindergeburtstag kennen.",
     "emoji": "🍒",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -8176,7 +8176,7 @@
     "title": "Vanillekipferl",
     "description": "Mürbe Mandel-Hörnchen mit echtem Vanillemark, die noch warm in Vanille-Puderzucker gewälzt werden. Auf dem Plätzchenteller sind sie immer als Erstes weg.",
     "emoji": "🥐",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -8725,7 +8725,7 @@
     "title": "Hefezopf",
     "description": "Ein luftig-weicher, goldbraun geflochtener Hefezopf mit knuspriger Hagelzucker-Kruste – wie frisch vom Bäcker und perfekt zum Sonntagsfrühstück.",
     "emoji": "🥖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -9053,7 +9053,7 @@
     "title": "Schokomuffins",
     "description": "Saftige, tiefschokoladige Muffins mit knackigen Schokostückchen – Schmand macht den Teig herrlich weich, und in gut 30 Minuten stehen sie fertig auf dem Tisch.",
     "emoji": "🧁",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -9264,7 +9264,7 @@
     "title": "Zitronentarte",
     "description": "Knuspriger Mürbeteigboden mit einer seidig-zarten Zitronencreme, die angenehm säuerlich und gleichzeitig süß schmeckt – die klassische Tarte au Citron aus Frankreich.",
     "emoji": "🍋",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "franzoesisch",
     "diet": [
       "vegetarisch"
@@ -9370,7 +9370,7 @@
     "title": "Zwetschgenkuchen mit Streuseln",
     "description": "Saftige, in Zucker gedünstete Zwetschgen zwischen einem festen Streuselboden und einer knusprigen Streuseldecke – ein Kuchen aus einer einzigen Teigmasse, der lauwarm mit Sahne am besten schmeckt.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -9456,7 +9456,7 @@
     "title": "Bagels",
     "description": "Fluffige Hefekringel mit der typischen glänzenden Kruste, die durch das kurze Bad im Zuckerwasser entsteht. Mit Sesam und Kernen bestreut schmecken sie wie aus dem New Yorker Deli.",
     "emoji": "🥯",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -13536,7 +13536,7 @@
     "title": "Apfelkuchen mit Streusel",
     "description": "Ein Mürbeteigboden, eine dicke Schicht Zimtäpfel und obendrauf knusprige Streusel aus demselben Teig. Mehr braucht ein guter Apfelkuchen nicht.",
     "emoji": "🍎",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -13808,7 +13808,7 @@
     "title": "Baguette",
     "description": "Nur vier Zutaten und viel Geduld: Der Teig reift über Nacht im Kühlschrank und wird ohne Kneten zu zwei Baguettes mit knuspriger Kruste und luftiger Krume.",
     "emoji": "🥖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "franzoesisch",
     "diet": [
       "vegetarisch",
@@ -14553,7 +14553,7 @@
     "title": "Saftiger Schokokuchen",
     "description": "Ein unkomplizierter Rührkuchen mit viel Kakao und Schokotröpfchen im Teig, nach dem Backen mit Zartbitterglasur überzogen. Bleibt tagelang saftig und gelingt auch Backanfängern.",
     "emoji": "🍫",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -14760,7 +14760,7 @@
     "title": "Franzbrötchen",
     "description": "Hamburgs berühmtestes Gebäck: butterzarter Plunderteig, der sich in vielen Schichten um eine üppige Zimt-Zucker-Füllung wickelt. Außen karamellisiert, innen weich und aromatisch.",
     "emoji": "🥐",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -15926,7 +15926,7 @@
     "title": "Laugenbrezeln",
     "description": "Selbst geschlungene Brezeln mit knuspriger, dunkelbrauner Laugenkruste und weichem Inneren. Mit Natronlauge aus dem Kochtopf ganz ohne Chemiebaukasten und mit grobem Salz bestreut.",
     "emoji": "🥨",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -16010,7 +16010,7 @@
     "title": "Nussecken",
     "description": "Wie vom Bäcker: knuspriger Mürbeteig, eine fruchtige Schicht Aprikosenmarmelade und ein saftiger Belag aus karamellisierten Nüssen, die Ecken in dunkle Kuvertüre getaucht. Ein Blech reicht für die ganze Familie.",
     "emoji": "🍫",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -16348,7 +16348,7 @@
     "title": "Quarkbällchen",
     "description": "Außen goldbraun und zuckrig, innen fluffig-weich: Omas frittierte Quarkbällchen brauchen nur eine Handvoll Zutaten und verschwinden lauwarm vom Teller am schnellsten.",
     "emoji": "🍩",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -16432,7 +16432,7 @@
     "title": "Karottenkuchen mit Frischkäse-Frosting",
     "description": "Unglaublich saftig dank Karotten, Apfel und gerösteten Nüssen, warm gewürzt mit Zimt und Ingwer – gekrönt von einer cremigen Frischkäsehaube. Der Kuchen für Ostern und jeden anderen Tag.",
     "emoji": "🥕",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -16647,7 +16647,7 @@
     "title": "Schwarzwälder Kirschtorte",
     "description": "Luftiger Schokoladenbiskuit, mit Kirschwasser getränkt, dazu fruchtiges Kirschkompott, viel Sahne und Schokoraspel – die Königin der deutschen Torten nach klassischem Rezept.",
     "emoji": "🍒",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -16993,7 +16993,7 @@
     "title": "Tarte Tatin",
     "description": "Die berühmte gestürzte Apfeltarte aus Frankreich: Apfelspalten schmoren in goldenem Karamell und Butter unter einer mürben Teigdecke, die nach dem Backen zum knusprigen Boden wird.",
     "emoji": "🍎",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "franzoesisch",
     "diet": [
       "vegetarisch"
@@ -17603,7 +17603,7 @@
     "title": "Berliner Pfannkuchen",
     "description": "Fluffige Hefekrapfen, goldbraun ausgebacken, in Zucker gewälzt und mit Erdbeermarmelade gefüllt. Frisch aus dem Fett schmecken sie am allerbesten.",
     "emoji": "🍩",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -17893,7 +17893,7 @@
     "title": "Christstollen",
     "description": "Saftiger Hefestollen mit rumgetränkten Rosinen, Mandeln und Zitrusfrüchten, dick in Butter und Puderzucker gehüllt. Nach zwei Wochen Ruhe schmeckt er am besten.",
     "emoji": "🎄",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -18131,7 +18131,7 @@
     "title": "Käsesahnetorte",
     "description": "Luftiger Biskuit mit einer zitronigen Quark-Sahne-Creme, ganz ohne Gelatine. Der Kaffeetafel-Klassiker, der auf der Zunge zergeht.",
     "emoji": "🎂",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -19249,7 +19249,7 @@
     "title": "Käse-Sahne-Torte",
     "description": "Ein federleichter Biskuit trifft auf eine luftig-cremige Quark-Sahne-Füllung mit frischer Zitrone. Der Klassiker der Kaffeetafel, der nach einer Nacht im Kühlschrank am besten schmeckt.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [],
     "timeMinutes": 70,
@@ -19450,7 +19450,7 @@
     "title": "Kokosmakronen mit Schokolade",
     "description": "Außen zart gebräunt, innen saftig und voller Kokos: Diese Makronen brauchen nur eine Handvoll Zutaten. Der Schokoboden macht sie zum Liebling auf jedem Plätzchenteller.",
     "emoji": "🥥",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -20146,7 +20146,7 @@
     "title": "Nürnberger Elisenlebkuchen",
     "description": "Elisenlebkuchen kommen ganz ohne Mehl aus: Haselnüsse, Mandeln, Honig und feines Orangeat machen sie unwiderstehlich saftig. Mit Zuckerguss oder Kuvertüre überzogen halten sie wochenlang.",
     "emoji": "🍪",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -20255,7 +20255,7 @@
     "title": "Rhabarberkuchen mit Baiser",
     "description": "Lockerer Rührteig, saftig-säuerlicher Rhabarber und eine luftige Baiserhaube, die zart bräunt. Ein Stück Kindheit, das nach Frühling und Omas Küche schmeckt.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -20529,7 +20529,7 @@
     "title": "Rotkäppchen-Torte",
     "description": "Saftiger Marmorkuchenboden mit Schattenmorellen, darauf eine luftige Quark-Sahne-Creme und ein knallroter Tortenguss. Genau wie bei Oma.",
     "emoji": "🍒",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -20651,7 +20651,7 @@
     "title": "Sauerteigbrot ohne Hefe",
     "description": "Kräftiges Roggenbrot, das allein vom Sauerteig getrieben wird. Im Gusseisentopf gebacken bekommt es eine rösche Kruste und eine saftige Krume.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -21251,7 +21251,7 @@
     "title": "Spritzgebäck",
     "description": "Buttrig-zarte Plätzchen aus der Sterntülle, die auf der Zunge zergehen. Mit Zartbitterkuvertüre verziert werden sie zum Klassiker auf jedem Weihnachtsteller.",
     "emoji": "🍪",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -21341,7 +21341,7 @@
     "title": "Streuselkuchen vom Blech",
     "description": "Weicher Hefeteig unter einer dicken Decke aus knusprigen Butterstreuseln mit Zimt und Vanille. Ein ganzes Blech voll Kaffeetafel-Glück.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -22321,7 +22321,7 @@
     "title": "Zimtsterne",
     "description": "Saftige Mandelplätzchen mit viel Zimt unter einer schneeweißen Eiweißglasur. Der Klassiker, der auf keinem Weihnachtsteller fehlen darf.",
     "emoji": "⭐",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -22514,7 +22514,7 @@
     "title": "Apfelmuffins",
     "description": "Fluffige Muffins mit reichlich frischen Apfelstücken und Schmand im Teig. Sie bleiben tagelang saftig und sind in 35 Minuten fertig.",
     "emoji": "🧁",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -23965,7 +23965,7 @@
     "title": "Einfaches Dinkelbrot ohne Kneten",
     "description": "Ein rustikales Dinkelbrot mit knuspriger Kruste, das über Nacht im Kühlschrank reift und ganz ohne Kneten auskommt. Im heißen Topf gebacken bekommt es eine wunderbar lockere Krume.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -24163,7 +24163,7 @@
     "title": "Fantakuchen vom Blech",
     "description": "Ein fluffiger Rührteig mit Orangenlimonade, belegt mit luftiger Schmandcreme und saftigen Mandarinen. Der Klassiker fürs Blech, der auf jedem Geburtstagstisch als Erstes leer ist.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -24597,7 +24597,7 @@
     "title": "Saftiger Heidelbeerkuchen mit Vollkornmehl",
     "description": "Ein saftiger Rührkuchen aus Vollkorn- und Buchweizenmehl, gesüßt mit Ahornsirup und Datteln. Die Heidelbeeren machen ihn fruchtig und halten ihn tagelang frisch.",
     "emoji": "🫐",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -27625,7 +27625,7 @@
     "title": "Schnelles Quarkbrot",
     "description": "Ein saftiges Vollkornbrot ohne Hefe und ohne Gehzeit, das in fünf Minuten geknetet ist. Dank Magerquark bleibt es tagelang locker und schmeckt süß wie herzhaft belegt.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -28130,7 +28130,7 @@
     "title": "Sachertorte",
     "description": "Der Wiener Klassiker: saftiger Schokoladenbiskuit mit Aprikosenmarmelade und spiegelglatter Schokoladenglasur. Dazu gehört ungesüßte Schlagsahne.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -28524,7 +28524,7 @@
     "title": "Veganer Rührkuchen",
     "description": "Saftiger Kastenkuchen ganz ohne Ei und Butter, der trotzdem herrlich fluffig gelingt. Das Grundrezept lässt sich beliebig mit Schoko oder Beeren abwandeln.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch",
@@ -30002,7 +30002,7 @@
     "title": "Klassische Waffeln",
     "description": "Ein fluffiger Rührteig aus Butter, Eiern und Milch, der im Waffeleisen goldbraun und außen knusprig wird. Das Grundrezept, das immer gelingt.",
     "emoji": "🧇",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -31181,7 +31181,7 @@
     "title": "Dinkel-Skyr-Brot",
     "description": "Ein fettarmes Vollkornbrot mit Skyr, dessen Teig über Nacht in Ruhe reift. Im gusseisernen Topf gebacken bekommt es eine kräftige Kruste und eine saftige Krume.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -31267,7 +31267,7 @@
     "title": "Eiweißbrot mit Quark und Körnern",
     "description": "Ein Brot ganz ohne Mehl und Hefe, das aus Haferkleie, Magerquark, Eiern und reichlich Kernen entsteht. Saftig, kernig und mit ordentlich Eiweiß pro Scheibe.",
     "emoji": "🥜",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -31772,7 +31772,7 @@
     "title": "Fluffige Quarkbrötchen",
     "description": "Luftige Brötchen aus Magerquark und Mehl, die ganz ohne Gehzeit gelingen. In 25 Minuten backfrisch auf dem Tisch – süß oder herzhaft ein Genuss.",
     "emoji": "🥐",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -32861,7 +32861,7 @@
     "title": "Hüttenkäse-Brötchen",
     "description": "Proteinreiche Brötchen ohne Mehl, Hefe und Gehzeit: Teig anrühren, formen, backen. In 45 Minuten hast du frisches Gebäck mit knuspriger Kernkruste auf dem Tisch.",
     "emoji": "🥐",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -34004,7 +34004,7 @@
     "title": "Linsen-Baguettestangen",
     "description": "Knusprige kleine Baguettestangen aus roten Linsen, Quark und Kartoffelfasern. Außen resch, innen saftig und dabei erstaunlich eiweißreich.",
     "emoji": "🥖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -34421,7 +34421,7 @@
     "title": "Low Carb Eiweißbrot",
     "description": "Saftiges Eiweißbrot aus Mandeln, Kernen und Quark, das ganz ohne Hefe und Gehzeit auskommt. Der Teig ist in fünf Minuten gerührt und wandert direkt in den Ofen.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -36583,7 +36583,7 @@
     "title": "Schnelle Quarkbrötchen",
     "description": "Diese Brötchen kommen ganz ohne Hefe und Gehzeit aus: Teig kneten, formen, backen. Nach 25 Minuten stehen acht fluffige Quarkbrötchen mit knuspriger Kruste auf dem Tisch.",
     "emoji": "🥖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -37034,7 +37034,7 @@
     "title": "Skyr-Brötchen",
     "description": "Fluffige Brötchen ganz ohne Gehzeit: Skyr macht den Teig saftig und liefert nebenbei ordentlich Eiweiß. In gut einer halben Stunde vom Rührbecher auf den Frühstückstisch.",
     "emoji": "🥖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -37886,7 +37886,7 @@
     "title": "Zuckerfreier Protein-Käsekuchen",
     "description": "Ein saftiger Käsekuchen ganz ohne Boden und Zucker: Magerquark, Eier und Proteinpulver ergeben eine cremige Masse mit viel Eiweiß. Heidelbeeren sorgen für fruchtige Tupfer.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -38895,7 +38895,7 @@
     "title": "Cantuccini",
     "description": "Zweimal gebackene Mandelkekse aus der Toskana: extra knusprig, wochenlang haltbar und der ideale Begleiter zu Espresso oder Vin Santo.",
     "emoji": "🍪",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "italienisch",
     "diet": [
       "vegetarisch"
@@ -39835,7 +39835,7 @@
     "title": "Frankfurter Kranz",
     "description": "Der hessische Klassiker aus lockerem Sandkuchen, seidiger Buttercreme und Johannisbeergelee, rundum mit knusprigem Haselnuss-Krokant bedeckt. Ein Kuchen für große Kaffeetafeln.",
     "emoji": "🎂",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -40957,7 +40957,7 @@
     "title": "Herzhafte Muffins mit Schinken und Käse",
     "description": "Fluffige Muffins mit Cheddar, Kochschinken, Zucchini und Paprika – perfekt fürs Buffet, die Lunchbox oder das Picknick. Aus der Schüssel direkt ins Muffinblech.",
     "emoji": "🧁",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [],
     "timeMinutes": 35,
@@ -41777,7 +41777,7 @@
     "title": "Klassischer Haselnusskuchen",
     "description": "Saftiger Rührkuchen aus der Kastenform mit reichlich gemahlenen Haselnüssen und Nussglasur. Ein Stück Kaffeetafel wie aus Omas Backbuch.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -42718,7 +42718,7 @@
     "title": "No-Knead-Bread",
     "description": "Ein rustikales Weizenbrot mit grober Porung und knuspriger Kruste, für das du keinen Teig kneten musst. Die lange Gare über Nacht und der heiße Bräter erledigen die ganze Arbeit.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch",
@@ -43435,7 +43435,7 @@
     "title": "Schoko-Zucchini-Gugelhupf",
     "description": "Zucchini und geraspelter Apfel machen diesen Schokokuchen unglaublich saftig, ohne dass man sie herausschmeckt. Ein Zitronenguss mit Minzzucker sorgt für den frischen Kontrast.",
     "emoji": "🍫",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -44248,7 +44248,7 @@
     "title": "Toastbrot",
     "description": "Selbst gebackenes Toastbrot mit feiner, weicher Krume und zarter Kruste. Frisch aus der Kastenform schmeckt es deutlich besser als jedes aus der Tüte.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -44647,7 +44647,7 @@
     "title": "Apfelkuchen mit Marzipan vom Blech",
     "description": "Ein saftiger Blechkuchen mit lockerem Rührteig, dicht belegten Apfelscheiben und einer cremigen Marzipanschicht. Geröstete Mandelblättchen sorgen für den knusprigen Abschluss.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -45051,7 +45051,7 @@
     "title": "Belgische Waffeln",
     "description": "Außen knusprig, innen herrlich weich: Dieser Waffelteig mit Buttermilch gelingt immer. Frisch aus dem Eisen mit Puderzucker oder Beeren ein echtes Sonntagsfrühstück.",
     "emoji": "🧇",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -45136,7 +45136,7 @@
     "title": "Biskuitrolle mit Erdbeeren",
     "description": "Luftiger Biskuit, eine Schicht Erdbeermarmelade und eine leichte Quark-Sahne-Füllung mit frischen Erdbeeren. Der Sommerklassiker für Kaffeetafel und Gartenparty.",
     "emoji": "🍓",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -45240,7 +45240,7 @@
     "title": "Blondies mit Himbeeren und weißer Schokolade",
     "description": "Herrlich fudgy Blondies mit brauner Butter-Note, süßen weißen Schokostückchen und säuerlichen Himbeeren. Der Rührteig ist in zehn Minuten fertig und braucht nur eine Schüssel.",
     "emoji": "🍫",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -45741,7 +45741,7 @@
     "title": "Dinkelvollkornbrot",
     "description": "Ein saftiges Kastenbrot aus Dinkelvollkornmehl mit Haferflocken-Brühstück. Kräftige Kruste, weiche Krume und ein feiner Duft nach Brotgewürz.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -46702,7 +46702,7 @@
     "title": "Gedeckter Apfelkuchen",
     "description": "Mürber Butterteig, eine dicke Schicht saftiger Zimt-Äpfel und ein Deckel obendrauf. Zitronenguss und geröstete Mandelblättchen machen den Herbstklassiker perfekt.",
     "emoji": "🥧",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -47240,7 +47240,7 @@
     "title": "Haferflocken-Kekse mit Banane",
     "description": "Diese weichen Kekse brauchen nur reife Bananen, Haferflocken und Erdnussbutter. Ohne Zucker gebacken sind sie ein schneller Snack für Groß und Klein.",
     "emoji": "🍪",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "international",
     "diet": [
       "vegetarisch",
@@ -47315,7 +47315,7 @@
     "title": "Knusprige Haferkekse",
     "description": "Viel Hafer, wenig Mehl und ein Hauch Zimt: Diese buttrigen Kekse werden am Rand knusprig und in der Mitte zart. Mit gehackten Trockenfrüchten schmecken sie besonders gut.",
     "emoji": "🍪",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -47583,7 +47583,7 @@
     "title": "Käsekuchen-Kirschwelle",
     "description": "Ein Blechkuchen mit Schokokeksboden, heller und dunkler Quarkcreme, Sauerkirschen und einer glänzenden Schokoladenglasur. Ideal für große Runden.",
     "emoji": "🍒",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -48761,7 +48761,7 @@
     "title": "Mohnkuchen mit Streuseln",
     "description": "Auf einem knusprigen Mürbeteigboden liegt eine dicke Schicht aus Mohn, Quark und Schmand, gekrönt von buttrigen Zimtstreuseln. Ein Klassiker aus Omas Backbuch.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -48883,7 +48883,7 @@
     "title": "New York Cheesecake",
     "description": "Cremiger Käsekuchen auf knusprigem Butterkeksboden, der im ausgeschalteten Ofen langsam auskühlt und dadurch besonders samtig wird. Zitrone gibt ihm Frische.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -48974,7 +48974,7 @@
     "title": "Nusskuchen mit Schokoglasur",
     "description": "Saftiger Rührkuchen mit gemahlenen Haselnüssen und Schokoraspeln, überzogen mit dunkler Glasur und gehackten Nüssen. Gelingt nach altem Familienrezept immer.",
     "emoji": "🎂",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -49369,7 +49369,7 @@
     "title": "Nusskuchen ohne Mehl",
     "description": "Ein saftiger Nusskuchen ganz ohne Mehl und Backpulver, der allein von gemahlenen Nüssen und luftigem Eischnee lebt. Er bleibt tagelang frisch und schmeckt mit Schokoglasur am besten.",
     "emoji": "🌰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -49449,7 +49449,7 @@
     "title": "Schnelles Dinkelbrot mit Möhren",
     "description": "Ein Rührbrot aus Dinkelmehl mit geraspelten Möhren, Sesam und Sonnenblumenkernen. In 10 Minuten angerührt, außen knusprig und innen richtig saftig.",
     "emoji": "🍞",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -49669,7 +49669,7 @@
     "title": "Shortbread",
     "description": "Mürbes schottisches Buttergebäck mit nur wenigen Zutaten, das auf der Zunge zergeht. Frisch aus dem Ofen mit grobem Zucker bestreut und am besten zu einer Tasse Tee.",
     "emoji": "🫖",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "international",
     "diet": [
       "vegetarisch"
@@ -50996,7 +50996,7 @@
     "title": "Walnuss-Blondies",
     "description": "Die helle Schwester des Brownies: weiße Schokolade und brauner Zucker machen die Blondies buttrig-karamellig, geröstete Walnüsse geben ihnen Biss.",
     "emoji": "🍪",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -51082,7 +51082,7 @@
     "title": "Walnuss-Brownies vom Blech",
     "description": "Dunkel, saftig und mit ordentlich Walnüssen: Diese Brownies vom Blech reichen für eine ganze Runde und schmecken am zweiten Tag fast noch besser.",
     "emoji": "🍫",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "amerikanisch",
     "diet": [
       "vegetarisch"
@@ -51162,7 +51162,7 @@
     "title": "Weiße Schoko-Beeren-Muffins",
     "description": "Saftige Muffins mit Crème fraîche im Teig, weißer Schokolade und einer Handvoll gemischter Beeren. Süß, fruchtig und in einer knappen Stunde fertig.",
     "emoji": "🧁",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"
@@ -51247,7 +51247,7 @@
     "title": "Zwetschgenkuchen vom Blech",
     "description": "Lockerer Hefeteig, dicht an dicht gelegte Zwetschgen und knusprige Mandelstreusel obendrauf. Der Kuchen, auf den man das ganze Jahr wartet.",
     "emoji": "🍰",
-    "category": "backen",
+    "category": "nachspeise",
     "cuisine": "deutsch",
     "diet": [
       "vegetarisch"

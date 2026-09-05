@@ -258,7 +258,7 @@ const existingIds = new Set(existing.map((r) => r.id))
 
 const Recipe = z.object({
   id: z.string(), title: z.string(), description: z.string(), emoji: z.string(),
-  category: z.enum(['hauptgericht', 'suppe', 'salat', 'fruehstueck', 'snack', 'nachspeise', 'backen']),
+  category: z.enum(['hauptgericht', 'suppe', 'salat', 'fruehstueck', 'snack', 'nachspeise']),
   cuisine: z.enum(['deutsch', 'italienisch', 'asiatisch', 'indisch', 'mexikanisch', 'mediterran', 'amerikanisch', 'orientalisch', 'franzoesisch', 'international']),
   diet: z.array(z.enum(['vegetarisch', 'vegan', 'glutenfrei', 'laktosefrei', 'proteinreich', 'lowcarb', 'kalorienarm', 'fruktosefrei', 'leichtverdaulich'])),
   timeMinutes: z.number().int(), difficulty: z.enum(['einfach', 'mittel', 'anspruchsvoll']), servings: z.number().int(),

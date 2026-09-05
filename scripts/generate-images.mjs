@@ -37,7 +37,6 @@ const CATEGORY_HINT = {
   fruehstueck: 'a breakfast dish',
   snack: 'a snack',
   nachspeise: 'a dessert',
-  backen: 'freshly baked goods',
 }
 
 /** Bild-Prompt aus den Rezeptdaten. Deutsch für Titel/Beschreibung, Englisch für Stilvorgaben. */

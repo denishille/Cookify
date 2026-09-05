@@ -10,8 +10,6 @@ interface Props {
   /** Bewertungsfilter nur anbieten, wenn es bewertete Rezepte gibt */
   /** Zusätzliche Felder, die vor den Filtern stehen */
   children?: React.ReactNode
-  /** Kategorie-Feld ausblenden (Vorratsseite) */
-  hideCategory?: boolean
   /** Dauer-Feld ausblenden (Alle-Rezepte-Liste sortiert stattdessen) */
   hideTime?: boolean
   /** Bestand, aus dem die Optionen abgeleitet werden: nur was wirklich vorkommt */
@@ -65,7 +63,7 @@ function MultiSelect({ options, value, onChange, label }: { options: MultiOption
 }
 
 /** Der Konfigurator: drei Dropdowns – Ernährung (Mehrfachauswahl), Kategorie, Dauer. */
-export function FilterGroups({ value, onChange, children, hideCategory, hideTime, pool, globalDiets = [] }: Props) {
+export function FilterGroups({ value, onChange, children, hideTime, pool, globalDiets = [] }: Props) {
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch })
   const covered = new Set<Diet>(globalDiets.flatMap((d) => [d, ...(IMPLIES[d] ?? [])]))
   const dietCount = (d: Diet) => (pool ? pool.filter((r) => r.diet.includes(d)).length : 1)
@@ -83,15 +81,13 @@ export function FilterGroups({ value, onChange, children, hideCategory, hideTime
         <MultiSelect label="Ernährung" options={dietOptions} value={dietValue}
           onChange={(next) => set({ diets: next as Diet[] })} />
       </div>
-      {!hideCategory && (
-        <label className="cfg-field">
-          <span>Kategorie</span>
-          <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })}>
-            <option value="">Alle</option>
-            {categories.map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
-          </select>
-        </label>
-      )}
+      <label className="cfg-field">
+        <span>Kategorie</span>
+        <select className={`select ${value.category ? 'on' : ''}`} value={value.category} onChange={(e) => set({ category: e.target.value as Category | '' })}>
+          <option value="">Alle</option>
+          {categories.map((c) => <option key={c} value={c}>{CATEGORY_LABELS[c]}</option>)}
+        </select>
+      </label>
       {!hideTime && (
         <label className="cfg-field">
           <span>Dauer</span>
