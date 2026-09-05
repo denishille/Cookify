@@ -6,7 +6,7 @@ import { back } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
-import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconEye, IconFlame, IconGauge, IconGlobe, IconHeart, IconLayers, IconMinus, IconPlus, IconShare, IconStar, IconThumbDown } from './Icons'
+import { IconCart, IconCheck, IconClock, IconExternal, IconEye, IconFlame, IconGauge, IconGlobe, IconHeart, IconLayers, IconMinus, IconPlus, IconShare, IconStar, IconThumbDown } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { adaptRecipe, recipeFructose, type DietOptions } from '../lib/adapt'
 import { useSwipeRight } from '../lib/swipe'
@@ -87,7 +87,6 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
 
   return (
     <div className="detail" ref={rootRef} style={dragX ? { transform: `translateX(${dragX}px)`, opacity: Math.max(0.5, 1 - dragX / 400) } : undefined}>
-      <button className="backlink" onClick={back}><IconChevronLeft /> Zurück</button>
 
       <div className={`tile lg ${img ? 'photo' : ''}`} style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
         {isNew && <span className="badge-new">Neu diese Woche</span>}

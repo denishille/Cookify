@@ -11,12 +11,10 @@ interface Props {
   onChange: (next: Diet[]) => void
   adapt: boolean
   onAdaptChange: (next: boolean) => void
-  strictFructose: boolean
-  onStrictFructoseChange: (next: boolean) => void
 }
 
 /** Einstellungen: globale Ernährungsform, gilt auf allen Seiten und bleibt im Browser gespeichert. */
-export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, onAdaptChange, strictFructose, onStrictFructoseChange }: Props) {
+export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, onAdaptChange }: Props) {
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
@@ -61,12 +59,6 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
               <span className="box">{adapt && <IconCheck width={14} height={14} />}</span>
               <span>Ersatz vorschlagen<small>Auch Rezepte zeigen, bei denen wenige Zutaten getauscht werden</small></span>
             </button>
-            {globalDiets.includes('fruktosefrei') && (
-              <button className={`multi-item ${strictFructose ? 'on' : ''}`} onClick={() => onStrictFructoseChange(!strictFructose)} aria-pressed={strictFructose}>
-                <span className="box">{strictFructose && <IconCheck width={14} height={14} />}</span>
-                <span>Fruchtzucker streng<small>Ganzer Gehalt statt nur der Überschuss, dann fällt auch Obst wie Orangen raus</small></span>
-              </button>
-            )}
           </div>
         </div>
       </aside>

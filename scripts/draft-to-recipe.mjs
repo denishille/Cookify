@@ -46,7 +46,8 @@ const UNITS = { esslöffel: 'EL', teelöffel: 'TL', el: 'EL', tl: 'TL', g: 'g', 
 /** Zerlegt „400 g Kartoffeln (Drillinge)“ in Menge, Einheit und Namen. */
 export function parseIngredient(raw) {
   const line = raw.replace(/½/g, '0.5').replace(/¼/g, '0.25').replace(/⅓/g, '0.33').replace(/¾/g, '0.75').replace(/⅕/g, '0.2').replace(/⅔/g, '0.66')
-  const m = /^\s*([\d]+[.,]?[\d]*)?\s*(Esslöffel|Teelöffel|EL|TL|g|kg|ml|l|Stück|Prise|Bund|Packung|Zehe\(n\)|Zehe|Scheibe|Dose|Handvoll|nach Geschmack)?\s*(.*)$/i.exec(line.trim())
+  // Nach der Einheit muss ein Wortende folgen, sonst frisst „g“ das G von „Gurke“.
+  const m = /^\s*([\d]+[.,]?[\d]*)?\s*(Esslöffel|Teelöffel|EL|TL|g|kg|ml|l|Stück|Prise|Bund|Packung|Zehe\(n\)|Zehe|Scheibe|Dose|Handvoll|nach Geschmack)?(?![a-zäöüß])\s*(.*)$/i.exec(line.trim())
   if (!m) return null
   const amountRaw = m[1] ? Number(m[1].replace(',', '.')) : null
   const unitRaw = (m[2] ?? '').toLowerCase().replace('(n)', '')
@@ -93,6 +94,8 @@ export function estimateNutrition(list, servings) {
 /** Portionsschreibweise, Sternchen und Werbefloskeln aus den Schritten der Quelle entfernen. */
 export function cleanStep(s) {
   return s
+    // HelloFresh markiert Vorratszutaten mit einem Zeichen, das als „Salz\ “ ankommt.
+    .replace(/\\/g, '')
     .replace(/\[[^\]]*\]/g, '')
     .replace(/\*/g, '')
     .replace(/\bTipp:.*$/i, '')

@@ -118,6 +118,7 @@ svg { flex-shrink: 0; }
   height: var(--nav-h);
   display: flex; align-items: center; gap: 28px;
 }
+.topbar-inner:has(.topbar-title) { gap: 12px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); }
 .brand svg { display: block; }
 @media (max-width: 380px) { .brand svg:last-child { height: 22px; width: auto; } }
@@ -132,6 +133,14 @@ svg { flex-shrink: 0; }
 @media (min-width: 820px) { .settings-btn { margin-left: 8px; } }
 .cart-btn { margin-left: auto; }
 .cart-btn + .settings-btn { margin-left: 0; }
+/* Zurück und Alle Rezepte sitzen fest in der Kopfleiste, damit man dafür nicht hochscrollen muss. */
+.back-btn { margin-left: 0; margin-right: -14px; }
+.all-btn { margin-left: auto; }
+.all-btn + .cart-btn { margin-left: 0; }
+.topbar-title {
+  font-family: var(--font-display); font-weight: 600; font-size: 1rem;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
+}
 .cart-count { position: absolute; top: 2px; right: 2px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; background: var(--green); color: #fff; font-size: 0.66rem; font-weight: 700; display: grid; place-items: center; border: 2px solid var(--bg); }
 .count-pill { margin-left: 8px; font-size: 0.8rem; background: var(--green-soft); color: var(--green); padding: 2px 9px; border-radius: 999px; vertical-align: middle; }
 .shop-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }

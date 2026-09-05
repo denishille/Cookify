@@ -50,8 +50,6 @@ export function isElemental(recipe: Recipe, ing: Ingredient): boolean {
 export interface DietOptions {
   /** Ersatz vorschlagen statt hart filtern */
   adapt?: boolean
-  /** Fruchtzucker streng rechnen: gesamter Gehalt statt nur der Überschuss über den Traubenzucker */
-  strictFructose?: boolean
 }
 
 /** Fruchtzucker eines Rezepts in Gramm je Portion. Zutaten ohne umrechenbare Menge fehlen darin. */
@@ -64,6 +62,8 @@ export function recipeFructose(recipe: Recipe, strict = false): number {
 /**
  * Fruchtzucker rechnet nicht mit einer Verbotsliste, sondern mit Mengen: Erlaubt ist ein Budget
  * je Portion. Ersetzt wird von der stärksten Quelle abwärts, bis das Rezept darunter liegt.
+ * „Fruktosefrei“ heißt immer streng: es zählt der ganze Gehalt, nicht nur der Überschuss über
+ * den Traubenzucker – sonst rutschen Orangen und Ähnliches durch.
  */
 function fitFructose(recipe: Recipe, strict: boolean): Adaptation {
   const rule = DIET_RULES.fruktosefrei!
@@ -148,8 +148,8 @@ function fitFructose(recipe: Recipe, strict: boolean): Adaptation {
 }
 
 /** Prüft ein Rezept gegen eine Ernährungsform: passt, passt mit Änderungen, oder passt nicht. */
-export function fitDiet(recipe: Recipe, diet: Diet, opts: DietOptions = {}): Adaptation {
-  if (diet === 'fruktosefrei') return fitFructose(recipe, opts.strictFructose ?? false)
+export function fitDiet(recipe: Recipe, diet: Diet, _opts: DietOptions = {}): Adaptation {
+  if (diet === 'fruktosefrei') return fitFructose(recipe, true)
   if (recipe.diet.includes(diet)) return { ok: true, changes: [] }
   const rule = DIET_RULES[diet]
   if (!rule) return { ok: false, changes: [], reason: 'nicht anpassbar' }

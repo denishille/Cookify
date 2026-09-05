@@ -24,7 +24,7 @@ import { ShoppingDrawer } from './components/ShoppingDrawer'
 import { ListPicker } from './components/ListPicker'
 import { useShoppingList } from './lib/shopping'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconLayers, IconPencil, IconPlus, IconSearch, IconSettings, IconShare, IconTrash, IconX } from './components/Icons'
+import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconLayers, IconList, IconPencil, IconPlus, IconSearch, IconSettings, IconShare, IconTrash, IconX } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -146,8 +146,7 @@ export default function App() {
   /** Globale Ernährungsform aus den Einstellungen: filtert den gesamten Bestand, bleibt im Browser gespeichert. */
   const [globalDiets, setGlobalDiets] = usePersistentState<Diet[]>('cookify.globalDiets', [])
   const [adaptOn, setAdaptOn] = usePersistentState<boolean>('cookify.adapt', true)
-  const [strictFructose, setStrictFructose] = usePersistentState<boolean>('cookify.strictFructose', false)
-  const dietOpts = { adapt: adaptOn, strictFructose }
+  const dietOpts = { adapt: adaptOn }
   const [settingsOpen, setSettingsOpen] = useState(false)
   const shopping = useShoppingList()
   const [shopOpen, setShopOpen] = useState(false)
@@ -257,8 +256,14 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <div className="topbar-inner">
-          <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>
+          {detail
+            ? <button className="settings-btn back-btn" onClick={back} aria-label="Zurück"><IconChevronLeft /></button>
+            : <a className="brand" href="#/rezepte" aria-label="Cookify – Startseite"><LogoMark /><Wordmark /></a>}
+          {detail && <span className="topbar-title">{detail.title}</span>}
           {tabs('nav')}
+          <button className={`settings-btn all-btn ${route.view === 'alle' && !detail ? 'on' : ''}`} onClick={() => navigate('alle')} aria-label="Alle Rezepte" title="Alle Rezepte">
+            <IconList />
+          </button>
           <button className={`settings-btn cart-btn ${shopping.openCount ? 'on' : ''}`} onClick={() => setShopOpen(true)} aria-label="Einkaufsliste" title="Einkaufsliste">
             <IconCart />
             {shopping.openCount > 0 && <span className="cart-count">{shopping.openCount}</span>}
@@ -270,7 +275,7 @@ export default function App() {
         </div>
       </header>
       <SettingsDrawer open={settingsOpen} onClose={() => setSettingsOpen(false)} globalDiets={globalDiets} onChange={setGlobalDiets}
-        adapt={adaptOn} onAdaptChange={setAdaptOn} strictFructose={strictFructose} onStrictFructoseChange={setStrictFructose} />
+        adapt={adaptOn} onAdaptChange={setAdaptOn} />
       <ShoppingDrawer open={shopOpen} onClose={() => setShopOpen(false)} items={shopping.items} onToggleDone={shopping.toggleDone} onRemove={shopping.remove}
         onClearDone={shopping.clearDone} onClearAll={shopping.clearAll} onAddKey={addShoppingKey} diets={globalDiets} />
       <main className="main" ref={mainRef}>
@@ -308,9 +313,7 @@ export default function App() {
         {!route.recipeId && route.view === 'rezepte' && (
           <>
             <h1 className="h1">Was kochen wir heute?</h1>
-            <FilterGroups value={filters} onChange={setFilters} pool={AVAILABLE} globalDiets={globalDiets}>
-              <button className="btn primary block" onClick={() => navigate('alle')}>Alle Rezepte</button>
-            </FilterGroups>
+            <FilterGroups value={filters} onChange={setFilters} pool={AVAILABLE} globalDiets={globalDiets} />
 
             {!configured && (
               <div className="section">

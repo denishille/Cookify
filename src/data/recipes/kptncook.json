@@ -8264,10 +8264,10 @@
     "difficulty": "mittel",
     "servings": 2,
     "nutrition": {
-      "kcal": 585,
-      "protein": 16,
-      "carbs": 28,
-      "fat": 42
+      "kcal": 635,
+      "protein": 18,
+      "carbs": 35,
+      "fat": 43
     },
     "ingredients": [
       {
@@ -8295,10 +8295,10 @@
         "unit": "EL"
       },
       {
-        "key": "essiggurken",
-        "name": "urke",
+        "key": "gurke",
+        "name": "Gurke",
         "amount": 0.5,
-        "unit": "g"
+        "unit": ""
       },
       {
         "key": "mehl",
@@ -13672,10 +13672,10 @@
     "difficulty": "mittel",
     "servings": 2,
     "nutrition": {
-      "kcal": 680,
-      "protein": 17,
-      "carbs": 76,
-      "fat": 28
+      "kcal": 730,
+      "protein": 18,
+      "carbs": 83,
+      "fat": 29
     },
     "ingredients": [
       {
@@ -13709,10 +13709,10 @@
         "unit": ""
       },
       {
-        "key": "essiggurken",
-        "name": "urke",
+        "key": "gurke",
+        "name": "Gurke",
         "amount": 0.5,
-        "unit": "g"
+        "unit": ""
       },
       {
         "key": "basilikum",
@@ -15117,10 +15117,10 @@
     "difficulty": "mittel",
     "servings": 2,
     "nutrition": {
-      "kcal": 865,
-      "protein": 17,
-      "carbs": 121,
-      "fat": 27
+      "kcal": 920,
+      "protein": 19,
+      "carbs": 128,
+      "fat": 28
     },
     "ingredients": [
       {
@@ -15166,10 +15166,10 @@
         "unit": "g"
       },
       {
-        "key": "essiggurken",
-        "name": "urke",
+        "key": "gurke",
+        "name": "Gurke",
         "amount": 0.5,
-        "unit": "g"
+        "unit": ""
       },
       {
         "key": "limette",
