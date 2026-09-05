@@ -84,7 +84,9 @@ jobs:
           node scripts/import-recipes.mjs --rewrite
       - name: Committen
         run: |
-          git add -f src/assets/recipes src/data/imports src/data/sources src/data/recipes scripts/queue 2>/dev/null || true
+          for p in src/assets/recipes src/data/imports src/data/sources src/data/recipes scripts/queue; do
+            if [ -e "$p" ]; then git add -f "$p"; fi
+          done
           if git diff --cached --quiet; then echo "Nichts Neues."; exit 0; fi
           git config user.name "cookify-bot"
           git config user.email "cookify-bot@users.noreply.github.com"
