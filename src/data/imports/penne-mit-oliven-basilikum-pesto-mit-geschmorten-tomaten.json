@@ -1,0 +1,35 @@
+{
+  "title": "Penne mit Oliven-Basilikum-Pesto mit geschmorten Tomaten",
+  "description": "Ein richtiges italienisches Wohlfühlgericht: Geschmorte Tomaten entfalten bei dieser Art der Zubereitung ihre volle Süße und Fruchtigkeit. Gepaart mit dem aromatischen Oliven-Basilikum-Pesto ist das ein Urlaub für die Seele! Lass es Dir schmecken!",
+  "ingredients": [
+    "250 g Penne",
+    "400 g bunte Kirschtomaten",
+    "20 g geriebener Hartkäse",
+    "10 g Basilikum",
+    "10 g Mandeln",
+    "100 g geschwärzte Oliven, ohne Stein",
+    "Stück Salz",
+    "Stück Pfeffer",
+    "Stück Olivenöl"
+  ],
+  "steps": [
+    "Vorbereitung: Gemüse und Kräuter waschen. Alle Zutaten und Utensilien bereitstellen. Wasserkocher füllen und anschalten. In einen großen Topf reichlich kochendes Wasser füllen, etwas salzen und einmal aufkochen lassen. Penne darin 8-10 Min. kochen, bis sie noch bissfest sind.",
+    "In einer kleinen Pfanne 1 TL Olivenöl erhitzen, Kirschtomaten zufügen, die Hitze etwas herabstufen und Tomaten darin 5 – 6 Min. schmoren, dann mit Salz und Pfeffer abschmecken.",
+    "Für das Pesto: Parmesan reiben, Blätter vom Basilikum abzupfen (einige Blätter zur Dekoration beiseitelegen).",
+    "In einem hohen Rührgefäß geriebenen Parmesan, Basilikumblätter, Mandeln, Oliven, 1 TL Olivenöl, etwas Salz (Vorsicht, die Oliven sind schon salzig), Pfeffer und 50 ml Wasser mit einem Stabmixer fein pürieren, bis eine cremige Konsistenz erreicht ist.",
+    "Penne in ein Sieb abgießen und auf Teller anrichten.",
+    "Pesto und geschmorte Tomaten darüber verteilen, mit Basilikumblättern dekorieren und genießen."
+  ],
+  "timeMinutes": 30,
+  "category": "Hauptgericht",
+  "cuisine": "Italienisch",
+  "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/penne-mit-oliven-basilikum-pesto-n-543b60b9.jpg",
+  "source": {
+    "site": "hellofresh.de",
+    "url": "https://www.hellofresh.de/recipes/penne-mit-oliven-basilikum-pesto-58b985c0043c3c657b296613",
+    "title": "Penne mit Oliven-Basilikum-Pesto mit geschmorten Tomaten",
+    "rating": 4,
+    "ratingCount": 265
+  },
+  "importedAt": "2026-09-05"
+}
