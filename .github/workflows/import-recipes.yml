@@ -16,6 +16,9 @@ on:
       file:
         description: 'Pfad zu einer Datei im Repo mit einer URL je Zeile, z. B. scripts/queue/i1.txt'
         required: false
+      probe:
+        description: 'URLs (durch Leerzeichen getrennt) nur untersuchen: wie liefert die Seite ihre Rezeptdaten?'
+        required: false
 
 permissions:
   contents: write
@@ -34,11 +37,14 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Quellseite untersuchen
+        if: ${{ github.event.inputs.probe != '' }}
+        run: node scripts/probe-url.mjs ${{ github.event.inputs.probe }}
       - name: Bewertungen nachziehen
         if: ${{ github.event.inputs.ratings == 'true' }}
         run: node scripts/import-recipes.mjs --ratings
       - name: Bilder holen
-        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' && github.event.inputs.file == '' }}
+        if: ${{ github.event.inputs.urls == '' && github.event.inputs.ratings != 'true' && github.event.inputs.file == '' && github.event.inputs.probe == '' }}
         run: |
           if [ -n "${{ github.event.inputs.ids }}" ]; then
             node scripts/import-recipes.mjs --images-for "${{ github.event.inputs.ids }}"
