@@ -474,7 +474,7 @@ export default function App() {
             <h1 className="h1">Gespeichert</h1>
             <div className="chips scroll" style={{ marginTop: 16 }}>
               <button className={`chip ${openList === null ? 'on' : ''}`} onClick={() => setOpenList(null)}>
-                <IconHeart width={16} height={16} filled={openList === null} /> Herzchen {savedSet.set.size > 0 && `· ${savedSet.set.size}`}
+                <IconHeart width={16} height={16} filled={openList === null} /> Favoriten {savedSet.set.size > 0 && `· ${savedSet.set.size}`}
               </button>
               {lists.lists.map((l) => (
                 <button key={l.id} className={`chip ${openList === l.id ? 'on' : ''}`} onClick={() => setOpenList(l.id)}>
