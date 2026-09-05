@@ -1,0 +1,33 @@
+{
+  "title": "Kartoffel-Käse-Rösti",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "1 Prise(n) Muskatnuss",
+    "Salz",
+    "4 Zweig(e) Thymian, frisch",
+    "2 Zweig(e) Rosmarin, frisch",
+    "60 g Schlagsahne",
+    "5 g Schnittlauch, frisch",
+    "500 g Kartoffeln",
+    "1 Speisezwiebel",
+    "1 Zehe(n) Knoblauch",
+    "60 g Gratinkäse, gerieben",
+    "15 g Butter"
+  ],
+  "steps": [
+    "Kartoffeln schälen, waschen und grob reiben.",
+    "Anschließend in ein Sieb geben, mit Salz bestreuen und ca. &lt;timer&gt; zum Ziehen zur Seite stellen."
+  ],
+  "timeMinutes": 35,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/6340403349000072005e350e.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Kartoffel-K%C3%A4se-R%C3%B6sti/7f2fe7f1?lang=de",
+    "title": "Kartoffel-Käse-Rösti"
+  },
+  "importedAt": "2026-09-05"
+}

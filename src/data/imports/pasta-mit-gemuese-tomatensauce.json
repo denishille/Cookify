@@ -1,0 +1,36 @@
+{
+  "title": "Pasta mit Gemüse-Tomatensauce",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "0.5 TL Thymian, getrocknet",
+    "1 TL Oregano, getrocknet",
+    "2 EL Olivenöl",
+    "1 Speisezwiebel",
+    "0.66 Zucchini",
+    "10 g Basilikum, frisch",
+    "100 g braune Champignons",
+    "200 g Tomaten, gestückelt",
+    "1 TL Zucker",
+    "180 g Spaghetti",
+    "0.25 Brokkoli",
+    "2 Zehe(n) Knoblauch",
+    "1 Karotte"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Knoblauch schälen und hacken."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "vegan",
+  "image": "https://images.kptncook.com/568afde51500002f006837b9.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Pasta%20mit%20Gem%C3%BCse-Tomatensauce/3773975f?lang=de",
+    "title": "Pasta mit Gemüse-Tomatensauce"
+  },
+  "importedAt": "2026-09-05"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Risotto Bolognese",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "2 Lorbeerblätter",
+    "Salz",
+    "5 g Oregano, frisch",
+    "250 g Hackfleisch, Rind",
+    "100 g Tomaten, passiert",
+    "60 g Tomatenmark",
+    "2 EL Olivenöl",
+    "1 Speisezwiebel",
+    "100 g braune Champignons",
+    "150 g Risottoreis",
+    "15 g Parmesan",
+    "450 ml Gemüsebrühe",
+    "2 Zehe(n) Knoblauch"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Knoblauch schälen und hacken."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "beef",
+  "image": "https://images.kptncook.com/5ca0aeee-317d-4368-b2b3-ffb7d0cf5794.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Risotto%20Bolognese/5de712c1?lang=de",
+    "title": "Risotto Bolognese"
+  },
+  "importedAt": "2026-09-05"
+}

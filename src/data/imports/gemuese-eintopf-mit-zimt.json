@@ -1,0 +1,35 @@
+{
+  "title": "Gemüse-Eintopf mit Zimt",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "6 g Petersilie, frisch",
+    "2 EL Olivenöl",
+    "1 TL Kurkuma",
+    "1 TL Zimt, gemahlen",
+    "1 TL Rohrzucker, unraffiniert",
+    "1 Speisezwiebel",
+    "10 g Ingwer",
+    "60 g Grüne Linsen",
+    "100 g Kidneybohnen, Dose",
+    "100 g Kichererbsen",
+    "160 g Tomaten, gestückelt",
+    "0.6 l Gemüsebrühe"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Ingwer schälen und fein hacken."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "vegan",
+  "image": "https://images.kptncook.com/56491b8c150000340504b633.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Oriental-Stew-with-Cinnamon/7f99ee24?lang=de",
+    "title": "Gemüse-Eintopf mit Zimt"
+  },
+  "importedAt": "2026-09-05"
+}

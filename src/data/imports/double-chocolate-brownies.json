@@ -1,0 +1,30 @@
+{
+  "title": "Double Chocolate Brownies",
+  "description": "",
+  "ingredients": [
+    "Salz",
+    "0.5 TL Vanillezucker",
+    "40 g Weizenmehl, Typ 405",
+    "20 g Schokotropfen",
+    "2 TL Puderzucker",
+    "1 Ei",
+    "50 g Zucker",
+    "50 g Schokolade, Edel Bitter (ca. 80%)",
+    "50 g Butter"
+  ],
+  "steps": [
+    "Backofen auf 180 °C (Ober- und Unterhitze, empfohlen) oder 160 °C (Umluft) vorheizen.",
+    "Eine 26 cm Gußeisenpfanne oder rechteckige Kuchenform in vergleichbarer Größe mit Backpapier auslegen und zur Seite stellen."
+  ],
+  "timeMinutes": 35,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/572676b118000037001e767a.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Double-Chocolate-Brownies/29a789?lang=de",
+    "title": "Double Chocolate Brownies"
+  },
+  "importedAt": "2026-09-05"
+}

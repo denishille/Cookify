@@ -1,0 +1,36 @@
+{
+  "title": "Vegetarische Köttbullar",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "10 g Petersilie, frisch",
+    "2 Zweig(e) Rosmarin, frisch",
+    "2 EL Olivenöl",
+    "60 g Panko-Paniermehl",
+    "0.5 Speisezwiebel",
+    "1 EL Weizenmehl, Typ 405",
+    "200 g weiße Bohnen, Dose od. Glas",
+    "150 g braune Champignons",
+    "120 g Schlagsahne",
+    "0.5 EL Sojasauce",
+    "2 Zehe(n) Knoblauch",
+    "0.25 l Gemüsebrühe",
+    "15 g Butter"
+  ],
+  "steps": [
+    "Champignons putzen und sehr fein würfeln.",
+    "Zwiebel schälen und fein würfeln."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/0bf3dd71-8d67-4b40-96af-a1d5bcbad81c.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Vegetarian%20Swedish%20Meatballs/17d1b4ff?lang=de",
+    "title": "Vegetarische Köttbullar"
+  },
+  "importedAt": "2026-09-05"
+}

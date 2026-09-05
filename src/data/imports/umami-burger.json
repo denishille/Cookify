@@ -1,0 +1,35 @@
+{
+  "title": "Umami Burger",
+  "description": "",
+  "ingredients": [
+    "2 TL Steakpfeffer",
+    "240 g Hackfleisch, Rind",
+    "3 EL Olivenöl",
+    "0.5 Speisezwiebel",
+    "20 g Feldsalat",
+    "10 g Ingwer",
+    "2 Vollkornbrötchen",
+    "10 g Parmesan",
+    "30 g Gewürzgurken, im Glas",
+    "1 Ei",
+    "2 EL Sojasauce",
+    "1 TL Zucker",
+    "1 Zehe(n) Knoblauch",
+    "100 g Tomaten"
+  ],
+  "steps": [
+    "Zwiebel, Knoblauch und Ingwer schälen und sehr fein würfeln.",
+    "Parmesan reiben."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "beef",
+  "image": "https://images.kptncook.com/590859b04701005712a93d51.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Umami-Burger/4f379065?lang=de",
+    "title": "Umami Burger"
+  },
+  "importedAt": "2026-09-05"
+}

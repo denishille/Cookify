@@ -1,0 +1,35 @@
+{
+  "title": "Vegetarischer Borschtsch",
+  "description": "",
+  "ingredients": [
+    "1 Speisezwiebel",
+    "1 Karotte",
+    "15 g Tomatenmark",
+    "1 Kartoffel",
+    "1000 ml Wasser",
+    "2 Lorbeerblätter",
+    "2 Piment, ganz",
+    "1 EL Sonnenblumenöl",
+    "Salz",
+    "1 EL Apfelessig",
+    "40 g Schmand",
+    "5 g Dill, frisch",
+    "0.25 Weißkohl",
+    "1 Rote Bete, roh"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Karotte schälen, längs halbieren und in Scheiben schneiden."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/66bf1cf34d0000580069ea1b.png",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Easy%20Vegetarian%20Borscht/349e5e2b?lang=de",
+    "title": "Vegetarischer Borschtsch"
+  },
+  "importedAt": "2026-09-05"
+}

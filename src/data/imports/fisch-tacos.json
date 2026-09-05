@@ -1,0 +1,32 @@
+{
+  "title": "Fisch Tacos",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "2 EL Olivenöl",
+    "2 Wraps",
+    "0.5 Zitrone",
+    "0.2 Chinakohl",
+    "0.5 TL Kümmel, gemahlen",
+    "0.5 TL Chilipulver",
+    "160 g Lachsfilets, tiefgefroren",
+    "1 Karotte",
+    "30 g Joghurt, natur"
+  ],
+  "steps": [
+    "Lachsfilet auftauen und trocken tupfen.",
+    "Lachs mit Zitronensaft beträufeln. Mit Salz, Pfeffer, Chili und Kümmelpulver würzen."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "fish",
+  "image": "https://images.kptncook.com/586d4250f80200900c2dc3a6.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Fish-Tacos/34d7a0c2?lang=de",
+    "title": "Fisch Tacos"
+  },
+  "importedAt": "2026-09-05"
+}
