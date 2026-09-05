@@ -37,7 +37,15 @@ for (const [file, m] of Object.entries(meta)) {
   const ingredients = list.filter((i) => (seen.has(i.key) ? false : seen.add(i.key)))
   if (ingredients.length < 6) { skipped.push(`${file}: nur ${ingredients.length} Zutaten`); continue }
   const trimmed = ingredients.slice(0, 14)
-  const steps = d.steps.map(cleanStep).filter((s) => s.length > 15).slice(0, 9)
+  let steps = d.steps.map(cleanStep).filter((s) => s.length > 15)
+  // Manche Quellen fassen alles in drei Blöcke: dann an Satzgrenzen teilen, bis vier Schritte dastehen.
+  while (steps.length < 4 && steps.some((s) => s.length > 160)) {
+    const i = steps.findIndex((s) => s.length > 160)
+    const parts = steps[i].split(/(?<=\.)\s+/)
+    const half = Math.ceil(parts.length / 2)
+    steps.splice(i, 1, parts.slice(0, half).join(' ').trim(), parts.slice(half).join(' ').trim())
+  }
+  steps = steps.filter((s) => s.length > 15).slice(0, 9)
   if (steps.length < 4) { skipped.push(`${file}: nur ${steps.length} Schritte`); continue }
   const keys = trimmed.map((i) => i.key)
   const servings = d.servings ?? 2
