@@ -10184,5 +10184,2762 @@
       "url": "https://mobile.kptncook.com/recipe/pinterest/huehnchen-kartoffel-spinat-pfanne-mit-zitrone/634fd0e1?lang=de",
       "title": "Hühnchen-Kartoffel-Spinat-Pfanne mit Zitrone"
     }
+  },
+  {
+    "id": "i-kartoffel-auflauf-mit-cremiger-paprika-sauce-rauchmandeln",
+    "title": "Kartoffel-Auflauf mit Paprika-Sauce",
+    "description": "Kartoffelscheiben in einer cremigen Sauce aus gerösteter Paprika, überbacken und mit Rauchmandeln getoppt.",
+    "emoji": "🥔",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 670,
+      "protein": 16,
+      "carbs": 72,
+      "fat": 29
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "geröstete Paprikas, im Glas",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Rauchmandeln",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Schäl die Kartoffeln und hobel sie in dünne Scheiben.",
+      "Püriere die gerösteten Paprika mit Sahne, Knoblauch, Schalotte, Paprikapulver, Salz und Pfeffer zu einer glatten Sauce.",
+      "Schichte Kartoffeln und Sauce abwechselnd in eine Auflaufform.",
+      "Streu den Gratinkäse darüber und back den Auflauf 40 Minuten goldbraun.",
+      "Hacke die Rauchmandeln grob und streu sie mit dem Thymian über den fertigen Auflauf."
+    ],
+    "tags": [
+      "auflauf",
+      "cremig"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Kartoffel-Auflauf-mit-cremiger-Paprika-Sauce-Rauchmandeln/e9f9129?lang=de",
+      "title": "Kartoffel-Auflauf mit cremiger Paprika-Sauce & Rauchmandeln"
+    }
+  },
+  {
+    "id": "i-kartoffel-wedges-pfanne-mit-tomaten-feta",
+    "title": "Kartoffel-Wedges-Pfanne mit Feta",
+    "description": "Knusprige Kartoffelspalten mit Zucchini, Kidneybohnen und Tomaten aus einer Pfanne, getoppt mit Feta.",
+    "emoji": "🥔",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 23,
+      "carbs": 80,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "kidneybohnen",
+        "name": "Kidneybohnen, Dose",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Feta Käse",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Schneide die Kartoffeln in Spalten und brate sie im Olivenöl 15 Minuten goldbraun.",
+      "Würfle die Zucchini und gib sie mit dem gehackten Knoblauch dazu.",
+      "Rühre Tomatenmark, Paprikapulver, Majoran und Chiliflocken ein und röste alles 1 Minute.",
+      "Gib die abgespülten Kidneybohnen und die halbierten Cherrytomaten dazu.",
+      "Lass alles zugedeckt 6 Minuten schmoren und würze mit Salz und Pfeffer.",
+      "Zerbrösel den Feta darüber."
+    ],
+    "tags": [
+      "eine pfanne",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Potato%20Wedges%20with%20Tomatoes%20%26%20Feta/46583da4?lang=de",
+      "title": "Kartoffel-Wedges-Pfanne mit Tomaten & Feta"
+    }
+  },
+  {
+    "id": "i-kartoffelgratin-mit-blumenkohl-brokkoli-roeschen",
+    "title": "Kartoffelgratin mit Blumenkohl & Brokkoli",
+    "description": "Kartoffelscheiben und Kohlröschen in Sahne mit Kräutern und Maasdamer überbacken.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 45,
+    "difficulty": "anspruchsvoll",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 625,
+      "protein": 12,
+      "carbs": 59,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "muskat",
+        "name": "(n) Muskatnuss, gemahlen",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 6,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Schäl die Kartoffeln und hobel sie in dünne Scheiben.",
+      "Verrühre Sahne, Brühe, gehackten Knoblauch, Muskat, Salz und Pfeffer.",
+      "Schichte Kartoffeln und Röschen-Mix in eine gebutterte Auflaufform und gieß die Sahne darüber.",
+      "Streu den geriebenen Käse darauf und back das Gratin 45 Minuten.",
+      "Mische die gehackten Kräuter mit Zitronenabrieb und Olivenöl und streu sie über das fertige Gratin."
+    ],
+    "tags": [
+      "auflauf",
+      "familienessen"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Kartoffelgratin-mit-Blumenkohl--%26-Brokkoli-R%C3%B6schen/22dbe02?lang=de",
+      "title": "Kartoffelgratin mit Blumenkohl- & Brokkoli-Röschen"
+    }
+  },
+  {
+    "id": "i-kartoffelsalat-mit-gegrilltem-spargel-ei",
+    "title": "Kartoffelsalat mit Spargel & Ei",
+    "description": "Lauwarmer Kartoffelsalat mit Buttermilch-Kräuter-Dressing, gegrilltem grünem Spargel, Oliven und Ei.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 615,
+      "protein": 16,
+      "carbs": 48,
+      "fat": 35
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "spargel",
+        "name": "grüner Spargel",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "rotwein",
+        "name": "Rotweinessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "buttermilch",
+        "name": "Buttermilch",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "Kalamata Oliven, entsteint",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Kartoffeln in Salzwasser 20 Minuten, pell sie und schneide sie in Scheiben.",
+      "Koche die Eier 8 Minuten, schreck sie ab und viertle sie.",
+      "Verrühre Buttermilch, Rotweinessig, Zitronensaft, gehackte Kräuter, Olivenöl, Salz und Pfeffer zum Dressing.",
+      "Schneide die roten Zwiebeln in feine Ringe und mische sie mit den warmen Kartoffeln und dem Dressing.",
+      "Brate den Spargel im Olivenöl 5 Minuten mit Röstaromen an.",
+      "Richte Kartoffelsalat, Spargel, Eier und Oliven an."
+    ],
+    "tags": [
+      "salat",
+      "frühling"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/kartoffelsalat-mit-gegrilltem-spargel-und-ei/94502c5?lang=de",
+      "title": "Kartoffelsalat mit gegrilltem Spargel & Ei"
+    }
+  },
+  {
+    "id": "i-kaspressknoedel-auf-salat-mit-kraeuter-dressing",
+    "title": "Kaspressknödel auf Salat",
+    "description": "Tiroler Käseknödel, in der Pfanne goldbraun gebraten, auf Blattsalat mit Kräuter-Honig-Dressing.",
+    "emoji": "🧀",
+    "category": "salat",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 480,
+      "protein": 11,
+      "carbs": 37,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "milch",
+        "name": "Vollmilch",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "weissweinessig",
+        "name": "Weißweinessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "salat",
+        "name": "Salat-Mix",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Brötchen, lose",
+        "amount": 1.5,
+        "unit": ""
+      },
+      {
+        "key": "mozzarella",
+        "name": "Mozzarella, gerieben",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 0.25,
+        "unit": "Zehe"
+      },
+      {
+        "key": "radieschen",
+        "name": "Radieschen",
+        "amount": 0.3,
+        "unit": "Bund"
+      }
+    ],
+    "steps": [
+      "Schneide die Brötchen in kleine Würfel und übergieß sie mit der warmen Milch. Lass sie 10 Minuten ziehen.",
+      "Dünste die gehackte Schalotte kurz an und gib sie mit Ei, geriebenem Mozzarella, Schnittlauch, Oregano, Salz und Pfeffer zur Brotmasse.",
+      "Knete alles zu einer formbaren Masse und drück vier flache Knödel.",
+      "Brate sie im Olivenöl 4 Minuten pro Seite goldbraun.",
+      "Verrühre Weißweinessig, Honig, Knoblauch, Öl, Salz und Pfeffer zum Dressing.",
+      "Mische Salat und Radieschenscheiben mit dem Dressing und setz die Knödel darauf."
+    ],
+    "tags": [
+      "klassiker",
+      "vegetarisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/kaspressknodel-auf-salat-mit-krauter-dressing/d2e77e3?lang=de",
+      "title": "Kaspressknödel auf Salat mit Kräuter-Dressing"
+    }
+  },
+  {
+    "id": "i-kichererbsen-karotten-suppe",
+    "title": "Kichererbsen-Karotten-Suppe",
+    "description": "Sämige Suppe aus Kichererbsen und Karotten mit Paprikapulver, in einer halben Stunde fertig.",
+    "emoji": "🥣",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 410,
+      "protein": 13,
+      "carbs": 43,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 700,
+        "unit": "ml"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 3,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel und Karotten und hacke den Knoblauch.",
+      "Dünste alles im Olivenöl 5 Minuten an und röste das Paprikapulver kurz mit.",
+      "Gib die abgespülten Kichererbsen dazu und gieß die Brühe an.",
+      "Lass die Suppe 20 Minuten köcheln.",
+      "Püriere zwei Drittel der Suppe und rühre sie zurück, damit sie sämig, aber stückig bleibt.",
+      "Schmecke mit Salz und Pfeffer ab und streu Petersilie und Frühlingszwiebelringe darüber."
+    ],
+    "tags": [
+      "suppe",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Kichererbsen-Karotten-Suppe/76c7b71a?lang=de",
+      "title": "Kichererbsen-Karotten-Suppe"
+    }
+  },
+  {
+    "id": "i-kichererbsen-shakshuka",
+    "title": "Kichererbsen-Shakshuka",
+    "description": "Würzige Tomatensauce mit Kichererbsen, in der Eier pochieren, dazu ein Löffel Hüttenkäse.",
+    "emoji": "🍳",
+    "category": "hauptgericht",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 505,
+      "protein": 32,
+      "carbs": 35,
+      "fat": 25
+    },
+    "ingredients": [
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "huettenkaese",
+        "name": "Hüttenkäse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel und Tomaten und hacke den Knoblauch.",
+      "Dünste Zwiebel und Knoblauch im Olivenöl 4 Minuten an und röste Kreuzkümmel und Paprikapulver mit.",
+      "Gib frische und stückige Tomaten sowie die abgespülten Kichererbsen dazu und lass alles 10 Minuten einkochen.",
+      "Drück vier Mulden in die Sauce und schlag je ein Ei hinein.",
+      "Lass die Eier zugedeckt 8 Minuten stocken, bis das Eiweiß fest ist.",
+      "Würze mit Salz und Pfeffer und setz Hüttenkäse und Petersilie darauf."
+    ],
+    "tags": [
+      "proteinreich",
+      "orientalisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Kichererbsen-Shakshuka/eaacf269?lang=de",
+      "title": "Kichererbsen-Shakshuka"
+    }
+  },
+  {
+    "id": "i-kichererbsen-tomaten-suppe-mit-salbei",
+    "title": "Kichererbsen-Tomaten-Suppe mit Salbei",
+    "description": "Toskanische Suppe mit Kichererbsen, Sellerie und Suppennudeln, aromatisiert mit gebratenem Salbei.",
+    "emoji": "🍲",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 860,
+      "protein": 29,
+      "carbs": 110,
+      "fat": 24
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "sellerie",
+        "name": "Stange(n) Staudensellerie",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "salbei",
+        "name": "Blätter Salbei, frisch",
+        "amount": 10,
+        "unit": ""
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, gestückelt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "key": "nudeln",
+        "name": "Suppen-Nudeln",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel und Staudensellerie und hacke den Knoblauch.",
+      "Brate die Salbeiblätter im Olivenöl kurz knusprig und nimm sie heraus.",
+      "Dünste Zwiebel, Sellerie und Knoblauch im selben Öl 5 Minuten an.",
+      "Gib Kichererbsen und stückige Tomaten dazu, gieß die Brühe an und lass alles 15 Minuten köcheln.",
+      "Koche die Suppennudeln die letzten 8 Minuten mit.",
+      "Schmecke mit Zucker, Salz und Pfeffer ab und leg den knusprigen Salbei obenauf."
+    ],
+    "tags": [
+      "suppe",
+      "italienisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Chickpea-%26-Tomato-Soup-with-Sage/5aed3783?lang=de",
+      "title": "Kichererbsen-Tomaten-Suppe mit Salbei"
+    }
+  },
+  {
+    "id": "i-knusprige-tacos-mit-kidneybohnen-feta",
+    "title": "Knusprige Tacos mit Kidneybohnen",
+    "description": "In der Pfanne knusprig gebratene Wraps mit würzigen Kidneybohnen, Feta, Tomate und Limette.",
+    "emoji": "🌮",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 535,
+      "protein": 20,
+      "carbs": 60,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "kokosoel",
+        "name": "Kokosöl",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "tortillas",
+        "name": "Wraps",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "salat",
+        "name": "Salat-Mix",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "kidneybohnen",
+        "name": "Kidneybohnen, Dose",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Feta Käse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 120,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Zerdrücke die abgespülten Kidneybohnen grob mit einer Gabel.",
+      "Würze sie mit Kreuzkümmel, Chiliflocken und Salz.",
+      "Würfle die Tomaten und hacke den Koriander.",
+      "Bestreiche die Wraps mit der Bohnenmasse, streu Feta darüber und klapp sie zusammen.",
+      "Brate sie im Kokosöl 3 Minuten pro Seite knusprig.",
+      "Belege sie mit Salat, Tomate und Koriander und beträufle alles mit Limettensaft."
+    ],
+    "tags": [
+      "schnell",
+      "mexikanisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Crispy-Tacos-with-Black-Beans-and-Feta/39033e2?lang=de",
+      "title": "Knusprige Tacos mit Kidneybohnen & Feta"
+    }
+  },
+  {
+    "id": "i-knuspriges-veganes-huehnchen-auf-salat-mit-erdnuss-dressing",
+    "title": "Veganes Hühnchen auf Mango-Salat",
+    "description": "Knusprige pflanzliche Schnitzelstreifen auf Rotkohl-Mango-Salat mit cremigem Erdnuss-Limetten-Dressing.",
+    "emoji": "🥭",
+    "category": "salat",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 605,
+      "protein": 19,
+      "carbs": 81,
+      "fat": 14
+    },
+    "ingredients": [
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "reisessig",
+        "name": "Reisessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "minze",
+        "name": "Minze, frisch",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "rotkohl",
+        "name": "Rotkohl",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "ahornsirup",
+        "name": "Ahornsirup",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "mango",
+        "name": "Mango",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Hobel Rotkohl und Karotten in feine Streifen und würfle die Mango.",
+      "Verrühre Erdnussbutter, Sojasauce, Reisessig, Ahornsirup, geriebenen Ingwer, Knoblauch und Limettensaft mit etwas Wasser zum Dressing.",
+      "Mische Rotkohl, Karotte und Mango mit der Hälfte des Dressings.",
+      "Brate die veganen Schnitzel in einer Pfanne 5 Minuten pro Seite knusprig.",
+      "Schneide sie in Streifen und setz sie auf den Salat.",
+      "Gib das restliche Dressing darüber und streu Koriander, Minze und Frühlingszwiebeln darauf."
+    ],
+    "tags": [
+      "salat",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/knuspriges-veganes-huehnchen-auf-salat-mit-erdnuss-dressing/12d95357?lang=de",
+      "title": "Knuspriges veganes Hühnchen auf Salat mit Erdnuss-Dressing"
+    }
+  },
+  {
+    "id": "i-kuerbis-ratatouille",
+    "title": "Kürbis-Ratatouille",
+    "description": "Ratatouille mit Hokkaido, Aubergine und Zucchini, langsam mit Thymian und Lorbeer geschmort.",
+    "emoji": "🎃",
+    "category": "hauptgericht",
+    "cuisine": "franzoesisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 540,
+      "protein": 15,
+      "carbs": 58,
+      "fat": 19
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "kuerbis",
+        "name": "Hokkaido-Kürbis",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, gestückelt",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 0.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle Kürbis, Aubergine und Zucchini in etwa gleich große Stücke.",
+      "Brate die Aubergine im Olivenöl 5 Minuten kräftig an und nimm sie heraus.",
+      "Dünste die gewürfelte Zwiebel mit dem Knoblauch an und röste das Tomatenmark 1 Minute mit.",
+      "Gib Kürbis und Zucchini dazu und brate sie 5 Minuten an.",
+      "Gieß die stückigen Tomaten an, füg Lorbeer, Thymian und Chiliflocken hinzu und lass alles 20 Minuten schmoren.",
+      "Hebe die Aubergine unter und schmecke mit Salz und Pfeffer ab."
+    ],
+    "tags": [
+      "herbstlich",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Pumpkin-Ratatouille/4d61bcc1?lang=de",
+      "title": "Kürbis Ratatouille"
+    }
+  },
+  {
+    "id": "i-linsen-auberginen-eintopf-mit-cherrytomaten",
+    "title": "Linsen-Auberginen-Eintopf",
+    "description": "Grüne Linsen mit geschmorter Aubergine, Granatapfelsirup und Weißwein, getoppt mit Crème fraîche.",
+    "emoji": "🍆",
+    "category": "suppe",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 400,
+      "protein": 14,
+      "carbs": 39,
+      "fat": 14
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotten",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "linsen-braun",
+        "name": "Grüne Linsen",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 920,
+        "unit": "ml"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "granatapfel",
+        "name": "Granatapfelsirup",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "key": "weisswein",
+        "name": "Weißwein",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 4,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Würfle die Auberginen, salze sie und lass sie 10 Minuten ziehen.",
+      "Brate sie im Olivenöl portionsweise 6 Minuten kräftig an.",
+      "Gib die gehackten Schalotten und den Knoblauch dazu und röste das Tomatenmark 1 Minute mit.",
+      "Lösche mit Weißwein ab, gib Linsen und Brühe dazu und lass alles 30 Minuten köcheln.",
+      "Rühre Granatapfelsirup und Chiliflocken ein und schmecke mit Salz und Pfeffer ab.",
+      "Brate die Cherrytomaten kurz an, gib sie obenauf und setz einen Klecks Crème fraîche darauf."
+    ],
+    "tags": [
+      "eintopf",
+      "orientalisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Linsen-%26-Auberginen-Eintopf-mit-Cherrytomaten/7668692?lang=de",
+      "title": "Linsen- & Auberginen-Eintopf mit Cherrytomaten"
+    }
+  },
+  {
+    "id": "i-linsen-spinat-suppe",
+    "title": "Linsen-Spinat-Suppe",
+    "description": "Rote Linsen mit Rahmspinat, Ingwer und Chili zu einer sämigen, wärmenden Suppe gekocht.",
+    "emoji": "🥣",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 24,
+      "carbs": 65,
+      "fat": 16
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "sellerie",
+        "name": "Stange(n) Staudensellerie",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "spinat",
+        "name": "Rahmspinat, tiefgefroren",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotte",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel, Karotte und Staudensellerie und hacke Knoblauch, Ingwer und Chili.",
+      "Dünste alles im Olivenöl 5 Minuten an und röste den Kreuzkümmel mit.",
+      "Gib die Linsen und die gewürfelten Tomaten dazu und gieß die Brühe an.",
+      "Lass die Suppe 15 Minuten köcheln, bis die Linsen weich sind.",
+      "Rühre den Rahmspinat ein und lass ihn 3 Minuten mitziehen.",
+      "Schmecke mit Salz und Pfeffer ab."
+    ],
+    "tags": [
+      "suppe",
+      "schnell"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/linsen-spinat-suppe/4f8494c4?lang=de",
+      "title": "Linsen-Spinat-Suppe"
+    }
+  },
+  {
+    "id": "i-low-carb-gratin-mit-mascarpone-huehnchen",
+    "title": "Low-Carb-Gratin mit Hühnchen",
+    "description": "Blumenkohl und Hühnchen in einer Mascarpone-Sahne-Sauce mit Salbei, überbacken mit Parmesan.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 870,
+      "protein": 27,
+      "carbs": 60,
+      "fat": 50
+    },
+    "ingredients": [
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "blumenkohl",
+        "name": "Blumenkohl",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "salbei",
+        "name": "Blätter Salbei, frisch",
+        "amount": 10,
+        "unit": ""
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "mascarpone",
+        "name": "Mascarpone",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Teile den Blumenkohl in Röschen und gar sie 5 Minuten in Salzwasser vor.",
+      "Schneide das Hühnchen in Stücke und brate es im Öl mit der gewürfelten Zwiebel 5 Minuten an.",
+      "Rühre Mascarpone und Sahne ein, gib den gehackten Salbei dazu und würze mit Muskat, Salz und Pfeffer.",
+      "Füll Blumenkohl und Hühnchen in eine Auflaufform und gieß die Sauce darüber.",
+      "Streu den Parmesan darauf und back das Gratin 20 Minuten goldbraun."
+    ],
+    "tags": [
+      "lowcarb",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Gratin-with-Mascarpone-%26-Chicken/7987a346?lang=de",
+      "title": "Low-Carb-Gratin mit Mascarpone & Hühnchen"
+    }
+  },
+  {
+    "id": "i-low-carb-tomaten-oliven-auflauf",
+    "title": "Tomaten-Oliven-Auflauf",
+    "description": "Tomaten, Paprika und Oliven in würziger Marinade überbacken, getoppt mit Pinienkernen und Sesam.",
+    "emoji": "🍅",
+    "category": "hauptgericht",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 455,
+      "protein": 6,
+      "carbs": 12,
+      "fat": 41
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "balsamico",
+        "name": "Aceto Balsamico",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, getrocknet, in Öl",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "pinienkerne",
+        "name": "Pinienkerne",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesamsaat",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "grüne Oliven",
+        "amount": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Schneide Tomaten und Paprika in Spalten und die Zwiebel in Streifen.",
+      "Verrühre Olivenöl, Balsamico, Sojasauce, Tomatenmark, Paprikapulver, Currypulver und gehackten Knoblauch zur Marinade.",
+      "Mische das Gemüse mit den getrockneten Tomaten, den Oliven und der Marinade in einer Auflaufform.",
+      "Back alles 25 Minuten, bis das Gemüse weich ist.",
+      "Röste Pinienkerne und Sesam ohne Fett und streu sie mit der Petersilie darüber."
+    ],
+    "tags": [
+      "lowcarb",
+      "aus dem ofen"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Low-Carb-Tomaten-Oliven-Auflauf/5fc951c3?lang=de",
+      "title": "Low-Carb-Tomaten-Oliven-Auflauf"
+    }
+  },
+  {
+    "id": "i-mediterrane-huehnchen-pfanne-mit-pilzen-tomaten",
+    "title": "Mediterrane Hühnchen-Pfanne",
+    "description": "Hühnchen in Mehl gewendet, mit Champignons, Cherrytomaten und Oliven in Kräuterbrühe geschmort.",
+    "emoji": "🍗",
+    "category": "hauptgericht",
+    "cuisine": "mediterran",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 415,
+      "protein": 8,
+      "carbs": 32,
+      "fat": 24
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl, Typ 405",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "champignons",
+        "name": "braune Champignons",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "Kalamata Oliven, entsteint",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "huehnerbruehe",
+        "name": "Hühnerbrühe",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Schneide das Hühnchen in Stücke, würze es und wende es im Mehl.",
+      "Brate es im Olivenöl 6 Minuten goldbraun und nimm es heraus.",
+      "Brate die geviertelten Champignons 5 Minuten kräftig an.",
+      "Gib den gehackten Knoblauch und die Kräuter der Provence dazu.",
+      "Füg Cherrytomaten und Oliven hinzu und gieß die Hühnerbrühe an.",
+      "Lass alles 6 Minuten schmoren, gib das Hühnchen zurück und streu Basilikum darüber."
+    ],
+    "tags": [
+      "eine pfanne",
+      "mediterran"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Mediterranean%20Chicken%20%26%20Mushroom%20Skillet/33106c86?lang=de",
+      "title": "Mediterrane Hühnchen-Pfanne mit Pilzen & Tomaten"
+    }
+  },
+  {
+    "id": "i-mediterraner-auberginen-zucchini-auflauf",
+    "title": "Auberginen-Zucchini-Auflauf",
+    "description": "Auberginen, Zucchini und Kartoffeln geschichtet mit Tomatensauce, Oliven und Mozzarella, mit Baguette-Bröseln überbacken.",
+    "emoji": "🍆",
+    "category": "hauptgericht",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 630,
+      "protein": 23,
+      "carbs": 56,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, getrocknet, in Öl",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "oliven",
+        "name": "grüne Oliven",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "baguette",
+        "name": "Baguette",
+        "amount": 0.4,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Büffelmozzarella",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 0.66,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Hobel Kartoffeln, Aubergine und Zucchini in dünne Scheiben.",
+      "Rühre Tomatenmark mit Wasser, gehackten getrockneten Tomaten, italienischen Kräutern und Salz zu einer Sauce.",
+      "Schichte Gemüse und Sauce abwechselnd in eine Auflaufform und verteile die Oliven dazwischen.",
+      "Reib das Baguette zu Bröseln, mische sie mit Olivenöl und streu sie mit dem zerzupften Mozzarella darüber.",
+      "Back den Auflauf 40 Minuten und streu Petersilie darauf."
+    ],
+    "tags": [
+      "auflauf",
+      "mediterran"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Mediterraner%20Auberginen-Zucchini-Auflauf/5cf04452?lang=de",
+      "title": "Mediterraner Auberginen-Zucchini-Auflauf"
+    }
+  },
+  {
+    "id": "i-mediterraner-vollkorn-flammkuchen",
+    "title": "Mediterraner Vollkorn-Flammkuchen",
+    "description": "Selbst gemachter Vollkornteig mit Pesto rosso, Zucchini und Mozzarella, nach dem Backen mit Rucola belegt.",
+    "emoji": "🥧",
+    "category": "nachspeise",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 635,
+      "protein": 24,
+      "carbs": 57,
+      "fat": 31
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "vollkornmehl",
+        "name": "Weizen-Vollkornmehl",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "rucola",
+        "name": "Rucola",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Mozzarella",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "pesto",
+        "name": "Pesto rosso",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 160,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verknete Vollkornmehl, Wasser, Olivenöl und Salz zu einem Teig und lass ihn 10 Minuten ruhen.",
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor.",
+      "Hobel die Zucchini in dünne Scheiben und schneide die Tomaten in Scheiben.",
+      "Roll den Teig dünn aus und bestreiche ihn mit dem Pesto rosso.",
+      "Belege ihn mit Zucchini, Tomaten, zerzupftem Mozzarella und den Kräutern der Provence.",
+      "Back den Flammkuchen 14 Minuten und belege ihn mit Rucola."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "vollkorn"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/mediterraner-vollkorn-flammkuchen/562e27c8?lang=de",
+      "title": "Mediterraner Vollkorn-Flammkuchen"
+    }
+  },
+  {
+    "id": "i-ofenkartoffel-mit-kichererbsen-avocado-aufstrich-gebratenem",
+    "title": "Ofenkartoffel mit Kichererbsen-Avocado-Creme",
+    "description": "Ofenkartoffeln mit cremigem Kichererbsen-Avocado-Aufstrich, dazu gebratene Champignons und Paprika.",
+    "emoji": "🥔",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 690,
+      "protein": 15,
+      "carbs": 72,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "saure-sahne",
+        "name": "saure Sahne",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Zweig(e) Rosmarin, frisch",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "avocado",
+        "name": "Brotaufstrich Kichererbse-Avocado",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "salbei",
+        "name": "Blätter Salbei, frisch",
+        "amount": 4,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Halbiere die Kartoffeln, mische sie mit Olivenöl, Rosmarin, Paprikapulver und Salz und back sie 35 Minuten.",
+      "Schneide Champignons und Paprika in Streifen und würfle die Zwiebel.",
+      "Brate alles mit dem Salbei und der gehackten Chili 8 Minuten kräftig an.",
+      "Rühre den Kichererbsen-Avocado-Aufstrich mit der sauren Sahne glatt.",
+      "Richte Kartoffeln und Gemüse an, setz die Creme darauf und streu Petersilie darüber."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "vegetarisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/ofenkartoffel-mit-kichererbsen-avocado-aufstrich-und-gebratenem-gemuese/68913656?lang=de",
+      "title": "Ofenkartoffel mit Kichererbsen-Avocado-Aufstrich & gebratenem Gemüse"
+    }
+  },
+  {
+    "id": "i-one-pot-reis-dami-gojeh-mit-kurkuma-tomaten",
+    "title": "One-Pot-Reis mit Kurkuma & Tomaten",
+    "description": "Persischer Reis mit Kartoffeln, Tomaten und Kurkuma – alles gart zusammen in einem Topf.",
+    "emoji": "🍚",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 485,
+      "protein": 11,
+      "carbs": 84,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "reis",
+        "name": "Basmati-Reis",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "key": "kurkuma",
+        "name": "Kurkuma",
+        "amount": 0.66,
+        "unit": "EL"
+      },
+      {
+        "key": "pfeffer",
+        "name": "Cayennepfeffer",
+        "amount": 0.66,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.66,
+        "unit": "TL"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 230,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Wasch den Reis, bis das Wasser klar bleibt.",
+      "Würfle Kartoffeln, Zwiebel und Tomaten.",
+      "Brate die Zwiebel im Olivenöl 4 Minuten an und röste Kurkuma, Kreuzkümmel und Cayennepfeffer kurz mit.",
+      "Gib Kartoffeln und Tomaten dazu und brate sie 3 Minuten mit.",
+      "Rühre den Reis unter, gieß das Wasser an und salze.",
+      "Lass alles zugedeckt 20 Minuten bei kleiner Hitze garen, bis sich unten eine leichte Kruste bildet."
+    ],
+    "tags": [
+      "one pot",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/One-Pot-Rice-Dami-Gojeh/5f0cd042?lang=de",
+      "title": "One Pot Reis „Dami Gojeh“ mit Kurkuma & Tomaten"
+    }
+  },
+  {
+    "id": "i-pilz-spinat-quesadilla",
+    "title": "Pilz-Spinat-Quesadilla",
+    "description": "Wraps mit Champignons, Spinat und zweierlei Käse in der Pfanne knusprig gebacken.",
+    "emoji": "🫓",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 515,
+      "protein": 23,
+      "carbs": 32,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar Käse",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "tortillas",
+        "name": "Wraps",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "champignons",
+        "name": "braune Champignons",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat, frisch",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "mozzarella",
+        "name": "Mozzarella",
+        "amount": 0.66,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Schneide die Champignons in Scheiben und würfle die Zwiebel.",
+      "Brate beides mit dem gehackten Knoblauch im Olivenöl 6 Minuten kräftig an.",
+      "Gib den Spinat dazu und lass ihn zusammenfallen. Würze mit Salz und Pfeffer.",
+      "Belege die Hälfte eines Wraps mit Cheddar, Pilz-Spinat-Füllung und Mozzarella und klapp ihn zu.",
+      "Back die Quesadilla in der trockenen Pfanne 3 Minuten pro Seite goldbraun.",
+      "Wiederhol das mit dem zweiten Wrap und schneide beide in Ecken."
+    ],
+    "tags": [
+      "schnell",
+      "vegetarisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/pilz-spinat-quesadilla/446280e0?lang=de",
+      "title": "Pilz-Spinat-Quesadilla"
+    }
+  },
+  {
+    "id": "i-quinoa-mit-auberginen-tomaten-pfanne",
+    "title": "Quinoa mit Auberginen-Tomaten-Pfanne",
+    "description": "Geschmorte Aubergine mit Tomate und Garam Masala auf lockerem Quinoa.",
+    "emoji": "🍆",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 560,
+      "protein": 17,
+      "carbs": 66,
+      "fat": 19
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "quinoa",
+        "name": "Quinoa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "garam-masala",
+        "name": "Garam Masala",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "rapsoel",
+        "name": "Rapsöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "aubergine",
+        "name": "Aubergine",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Wasch den Quinoa und koche ihn im Wasser mit etwas Salz 15 Minuten aus.",
+      "Würfle die Aubergine, salze sie und lass sie kurz ziehen.",
+      "Brate sie im Rapsöl 8 Minuten kräftig an.",
+      "Gib die gewürfelte Zwiebel und den Knoblauch dazu und röste Tomatenmark und Garam Masala 1 Minute mit.",
+      "Füg die gewürfelten Tomaten hinzu und lass alles 10 Minuten schmoren.",
+      "Schmecke mit Salz und Pfeffer ab und richte die Pfanne auf dem Quinoa an."
+    ],
+    "tags": [
+      "vegan",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/quinoa-mit-orientalischer-auberginen-tomaten-pfanne/110e780f?lang=de",
+      "title": "Quinoa mit Auberginen-Tomaten-Pfanne"
+    }
+  },
+  {
+    "id": "i-rind-mit-blumenkohl-aus-der-pfanne",
+    "title": "Rind mit Blumenkohl aus der Pfanne",
+    "description": "Rinderfilet in Streifen mit angebratenem Blumenkohl, Porree und Sojasauce, abgerundet mit Zitrone.",
+    "emoji": "🥩",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 775,
+      "protein": 45,
+      "carbs": 43,
+      "fat": 41
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "lauch",
+        "name": "Porree",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "rinderfilet",
+        "name": "Rinderfilets",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "blumenkohl",
+        "name": "Blumenkohl",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 4,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Schneide das Rinderfilet in Streifen und den Blumenkohl in kleine Röschen.",
+      "Brate das Fleisch im heißen Öl 2 Minuten scharf an und nimm es heraus.",
+      "Brate den Blumenkohl 6 Minuten mit Röstaromen an.",
+      "Gib Porree, Zwiebel, Knoblauch und Chili dazu und brate sie 3 Minuten mit.",
+      "Rühre Tomatenmark und Chiliflocken ein und lösche mit Sojasauce ab.",
+      "Gib das Fleisch zurück, schmecke mit Zitronensaft, Salz und Pfeffer ab und streu Petersilie und Thymian darüber."
+    ],
+    "tags": [
+      "lowcarb",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Pan-Fried-Beef-and-Cauliflower/afeb339?lang=de",
+      "title": "Rind mit Blumenkohl aus der Pfanne"
+    }
+  },
+  {
+    "id": "i-rind-pak-choi-stir-fry-pfanne",
+    "title": "Rind & Pak Choi aus dem Wok",
+    "description": "Rindersteak in Streifen mit Pak Choi, Ingwer und Chili, scharf gebraten und mit Sriracha abgeschmeckt.",
+    "emoji": "🥬",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 440,
+      "protein": 30,
+      "carbs": 19,
+      "fat": 25
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl, geröstet",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "sriracha",
+        "name": "Thai-Chilisauce (Sriracha)",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "rindersteak",
+        "name": "Rindersteak",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Schneide das Rindersteak in feine Streifen und mariniere es mit der Hälfte der Sojasauce.",
+      "Wasch den Pak Choi und schneide ihn in Streifen.",
+      "Hacke Knoblauch, Ingwer und Chili fein.",
+      "Brate das Fleisch im Pflanzenöl 2 Minuten scharf an und nimm es heraus.",
+      "Brate Knoblauch, Ingwer und Chili kurz an, gib den Pak Choi dazu und brate ihn 3 Minuten.",
+      "Gib das Fleisch zurück, würze mit restlicher Sojasauce, Sriracha, Zucker und Sesamöl und streu Frühlingszwiebeln darüber."
+    ],
+    "tags": [
+      "wok",
+      "schnell"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Asiatische-Pfanne-mit-Rindfleisch-Pak-Choi/a2f089b?lang=de",
+      "title": "Rind & Pak Choi Stir Fry Pfanne"
+    }
+  },
+  {
+    "id": "i-rosenkohlauflauf-mit-schinken",
+    "title": "Rosenkohlauflauf mit Schinken",
+    "description": "Rosenkohl und Kartoffeln in Sahne mit Kochschinken, Kreuzkümmel und Parmesan überbacken.",
+    "emoji": "🥬",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 465,
+      "protein": 19,
+      "carbs": 38,
+      "fat": 23
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "schinken",
+        "name": "Kochschinken",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "rosenkohl",
+        "name": "Rosenkohl",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 1000,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Putz den Rosenkohl, halbiere ihn und koche ihn 6 Minuten in der Brühe vor.",
+      "Schäl die Kartoffeln, würfle sie und koche sie 10 Minuten mit.",
+      "Gieß alles ab und füll es mit dem gewürfelten Schinken in eine Auflaufform.",
+      "Verrühre Sahne mit Kreuzkümmel, Muskat, Salz und Pfeffer und gieß sie darüber.",
+      "Streu Parmesan darauf, back den Auflauf 20 Minuten und streu Petersilie darüber."
+    ],
+    "tags": [
+      "auflauf",
+      "winterlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Brussels-Sprouts-Gratin-with-Ham/1784377d?lang=de",
+      "title": "Rosenkohlauflauf mit Schinken"
+    }
   }
 ]
