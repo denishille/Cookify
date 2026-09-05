@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { freezeScroll } from './scrollMemory'
 
 export type View = 'rezepte' | 'vorrat' | 'gespeichert' | 'alle'
 
@@ -29,14 +30,17 @@ export function useRoute(): Route {
 }
 
 export function navigate(view: View) {
+  freezeScroll()
   window.location.hash = `#/${view}`
 }
 
 export function openRecipe(id: string) {
+  freezeScroll()
   window.location.hash = `#/rezept/${encodeURIComponent(id)}`
 }
 
 export function back() {
+  freezeScroll()
   if (window.history.length > 1) window.history.back()
   else navigate('rezepte')
 }
