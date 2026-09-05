@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Diet, Recipe } from './types'
 import { useRoute, back, navigate, openRecipe, type View } from './lib/router'
-import { usePersistentSet, usePersistentState } from './lib/storage'
+import { readStored, useSessionSet, usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek } from './lib/week'
 import { autoMatch, ALL_MATCHES } from './lib/match'
 import { applyFilters, isEmpty, rankByQuery, EMPTY_FILTERS, type FilterState } from './lib/filters'
@@ -66,8 +66,15 @@ function related(recipe: Recipe, pool: Recipe[]): Recipe[] {
 export default function App() {
   const route = useRoute()
   const savedSet = usePersistentSet('cookify.saved')
-  const pantrySet = usePersistentSet('cookify.pantry')
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
+  /** Welche Sets geladen sind – nur das überlebt einen Neustart, nicht die einzelnen Zutaten. */
+  const [loadedSets, setLoadedSets] = usePersistentState<string[]>('cookify.loadedSets', [])
+  /** Der Vorrat selbst gilt nur für diese Sitzung und startet mit dem, was in den geladenen Sets steht. */
+  const pantrySet = useSessionSet(() => {
+    const ids = readStored<string[]>('cookify.loadedSets', [])
+    const stored = readStored<PantrySet[]>('cookify.sets', DEFAULT_SETS)
+    return [...new Set(stored.filter((s) => ids.includes(s.id)).flatMap((s) => s.keys))]
+  })
   const [setsOpen, setSetsOpen] = useState(false)
 
   /** Rückgängig-Leiste: letzte Löschaktion mit Wiederherstellen, verschwindet nach 8 Sekunden. */
@@ -84,7 +91,10 @@ export default function App() {
     hiddenSet.toggle(id)
   }
 
-  const applySet = (st: PantrySet) => pantrySet.replace([...pantrySet.set, ...st.keys])
+  const applySet = (st: PantrySet) => {
+    pantrySet.replace([...pantrySet.set, ...st.keys])
+    setLoadedSets((prev) => (prev.includes(st.id) ? prev : [...prev, st.id]))
+  }
   const togglePantry = (key: string) => {
     if (pantrySet.has(key)) {
       const name = INGREDIENT_BY_KEY.get(key)?.name ?? key
@@ -95,8 +105,10 @@ export default function App() {
   const clearPantry = () => {
     const before = [...pantrySet.set]
     if (before.length === 0) return
-    offerUndo(`${before.length} Zutaten entfernt`, () => pantrySet.replace(before))
+    const loadedBefore = loadedSets
+    offerUndo(`${before.length} Zutaten entfernt`, () => { pantrySet.replace(before); setLoadedSets(loadedBefore) })
     pantrySet.clear()
+    setLoadedSets([])
   }
   const saveSet = (next: PantrySet) => {
     const before = sets.find((x) => x.id === next.id)
@@ -113,6 +125,7 @@ export default function App() {
     const removed = sets[idx]
     offerUndo(`Set „${removed.name}“ gelöscht`, () => setSets((prev) => (prev.some((x) => x.id === removed.id) ? prev : [...prev.slice(0, idx), removed, ...prev.slice(idx)])))
     setSets((prev) => prev.filter((x) => x.id !== id))
+    setLoadedSets((prev) => prev.filter((x) => x !== id))
   }
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [sort, setSort] = useState<Sort>('standard')

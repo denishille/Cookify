@@ -1,24 +1,10 @@
 {
-  "s-tomatensuppe": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/geroestete-tomatensuppe-84277.html",
-    "title": "Geröstete Tomatensuppe Rezept | LECKER",
-    "rating": 4,
-    "ratingCount": 4
-  },
   "s-rote-linsensuppe": {
     "site": "hellofresh.de",
     "url": "https://www.hellofresh.de/recipes/market/orientalische-linsensuppe-mit-zitrone-5d39bcf9c09a9b000c5eabd9",
     "title": "Orientalische Linsensuppe mit Zitrone Rezept | HelloFresh",
     "rating": 4.3,
     "ratingCount": 114
-  },
-  "s-huehnersuppe": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/klassische-huehnersuppe-13481178.html",
-    "title": "Klassische Hühnersuppe Rezept - [ESSEN UND TRINKEN]",
-    "rating": 5,
-    "ratingCount": 3
   },
   "s-minestrone": {
     "site": "einfachkochen.de",
@@ -49,13 +35,6 @@
     "rating": 5,
     "ratingCount": 251
   },
-  "s-brokkoli-cremesuppe": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/brokkoli-cremesuppe-29387.html",
-    "title": "Brokkoli-Cremesuppe mit Sahne und Mandelcrunch Rezept | LECKER",
-    "rating": 4.1,
-    "ratingCount": 129
-  },
   "s-blumenkohl-currysuppe": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/blumenkohl-curry-suppe-einfach-lecker",
@@ -76,13 +55,6 @@
     "title": "Griechischer Bauernsalat – so schnell und einfach - emmikochteinfach",
     "rating": 5,
     "ratingCount": 255
-  },
-  "s-caprese": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/insalata-caprese-69717.html",
-    "title": "Insalata caprese Rezept | LECKER",
-    "rating": 4,
-    "ratingCount": 35
   },
   "s-quinoa-salat-granatapfel": {
     "site": "kuechengoetter.de",
@@ -114,13 +86,6 @@
     "site": "rewe.de",
     "url": "https://www.rewe.de/rezepte/lauwarmer-belugalinsen-salat-kirschtomaten-avocado/",
     "title": "Lauwarmer Belugalinsen-Salat mit Tomaten & Avocado Rezept - REWE.de"
-  },
-  "s-rote-bete-ziegenkaese": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/rote-bete-salat-mit-ziegenkaese-2",
-    "title": "Rote-Bete-Salat mit Ziegenkäse Rezept | EAT SMARTER",
-    "rating": 5,
-    "ratingCount": 4
   },
   "s-thai-glasnudelsalat": {
     "site": "rewe.de",

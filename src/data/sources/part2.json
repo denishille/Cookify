@@ -1,18 +1,4 @@
 {
-  "v-spaghetti-basilikumpesto": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/pasta-mit-basilikumpesto",
-    "title": "Pasta mit Basilikumpesto Rezept | EAT SMARTER",
-    "rating": 5,
-    "ratingCount": 1
-  },
-  "v-penne-arrabbiata": {
-    "site": "malteskitchen.de",
-    "url": "https://www.malteskitchen.de/penne-all-arrabbiata/",
-    "title": "Penne all arrabbiata ▷ original italienisch & feurig scharf",
-    "rating": 5,
-    "ratingCount": 12
-  },
   "v-pilzrahm-tagliatelle": {
     "site": "kochbar.de",
     "url": "https://www.kochbar.de/rezept/38410/Tagliatelle-in-Pilzrahmsosse.html",
@@ -23,24 +9,10 @@
     "url": "https://www.einfachkochen.de/rezepte/gnocchi-mit-spinat-und-gorgonzola",
     "title": "Gnocchi mit Spinat und Gorgonzola – würzig & lecker"
   },
-  "v-pasta-alla-norma": {
-    "site": "emmikochteinfach.de",
-    "url": "https://emmikochteinfach.de/pasta-alla-norma/",
-    "title": "Pasta alla Norma – sizilianischer Klassiker",
-    "rating": 5,
-    "ratingCount": 37
-  },
   "v-one-pot-tomaten-mozzarella-pasta": {
     "site": "rewe.de",
     "url": "https://www.rewe.de/rezepte/one-pot-pasta-tomate-basilikum-mozzarella/",
     "title": "One Pot Pasta mit Tomate, Basilikum und Mozzarella Rezept - REWE.de"
-  },
-  "v-gemueselasagne": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/spinat-lasagne-mit-zucchini-und-ricotta",
-    "title": "Spinat-Lasagne mit Zucchini und Ricotta Rezept | EAT SMARTER",
-    "rating": 4.7,
-    "ratingCount": 9
   },
   "v-linsen-moussaka": {
     "site": "einfachkochen.de",
@@ -85,31 +57,10 @@
     "url": "https://www.einfachkochen.de/rezepte/veganes-thai-curry-einfach-so-cremig",
     "title": "Veganes Thai-Curry – einfach & so cremig!"
   },
-  "v-palak-paneer": {
-    "site": "einfachkochen.de",
-    "url": "https://www.einfachkochen.de/rezepte/palak-paneer-indisches-original-rezept",
-    "title": "Palak Paneer – indisches Original-Rezept",
-    "rating": 5,
-    "ratingCount": 2
-  },
   "v-suesskartoffel-erdnuss-curry": {
     "site": "einfachkochen.de",
     "url": "https://www.einfachkochen.de/rezepte/suesskartoffel-erdnuss-curry-dein-neues-lieblingsrezept",
     "title": "Süßkartoffel-Erdnuss-Curry – dein neues Lieblingsrezept"
-  },
-  "v-buddha-bowl-tahini": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/buddha-bowl-mit-goji-beeren-und-tahini-dressing-75524.html",
-    "title": "Buddha Bowl mit Goji-Beeren und Tahini-Dressing Rezept | LECKER",
-    "rating": 4.8,
-    "ratingCount": 19
-  },
-  "v-quinoa-bowl-feta": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/quinoa-bowl-mit-bohnencreme-und-tomaten-96069",
-    "title": "Quinoa-Bowl mit Bohnencreme und Tomaten Rezept | Küchengötter",
-    "rating": 5,
-    "ratingCount": 1
   },
   "v-poke-bowl-tofu": {
     "site": "einfachkochen.de",

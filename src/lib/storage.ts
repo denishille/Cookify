@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 
-function read<T>(key: string, fallback: T): T {
+/** Wert aus dem localStorage lesen – auch außerhalb von Hooks nutzbar. */
+export function readStored<T>(key: string, fallback: T): T {
   try {
     const raw = localStorage.getItem(key)
     return raw ? (JSON.parse(raw) as T) : fallback
@@ -8,6 +9,7 @@ function read<T>(key: string, fallback: T): T {
     return fallback
   }
 }
+const read = readStored
 
 function write(key: string, value: unknown) {
   try {
@@ -35,5 +37,18 @@ export function usePersistentSet(key: string) {
   )
   const clear = useCallback(() => setArr([]), [setArr])
   const replace = useCallback((items: string[]) => setArr([...new Set(items)]), [setArr])
+  return { set, toggle, clear, replace, has: (item: string) => set.has(item) }
+}
+
+/**
+ * Set<string>, das nur für diese Sitzung gilt: beim nächsten Öffnen der App ist es wieder
+ * das, was `initial` liefert. Für den Vorrat, der immer aus den geladenen Sets kommt.
+ */
+export function useSessionSet(initial: () => string[]) {
+  const [arr, setArr] = useState<string[]>(initial)
+  const set = new Set(arr)
+  const toggle = useCallback((item: string) => setArr((prev) => (prev.includes(item) ? prev.filter((x) => x !== item) : [...prev, item])), [])
+  const clear = useCallback(() => setArr([]), [])
+  const replace = useCallback((items: string[]) => setArr([...new Set(items)]), [])
   return { set, toggle, clear, replace, has: (item: string) => set.has(item) }
 }

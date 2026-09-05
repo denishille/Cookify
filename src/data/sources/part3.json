@@ -6,13 +6,6 @@
     "rating": 4.5,
     "ratingCount": 438
   },
-  "d-panna-cotta": {
-    "site": "eatsmarter.de",
-    "url": "https://eatsmarter.de/rezepte/panna-cotta-mit-himbeersosse-0",
-    "title": "Panna cotta mit Himbeersauce Rezept | EAT SMARTER",
-    "rating": 5,
-    "ratingCount": 1
-  },
   "d-mousse-au-chocolat": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/mousse-au-chocolat-rezept-zum-selbermachen-77404.html",
@@ -27,13 +20,6 @@
     "rating": 5,
     "ratingCount": 5
   },
-  "d-apfelstrudel": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/apfelstrudel-mit-blaetterteig-83050.html",
-    "title": "Apfelstrudel mit Blätterteig Rezept | LECKER",
-    "rating": 4.7,
-    "ratingCount": 10
-  },
   "d-kaiserschmarrn": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/kaiserschmarrn-mit-apfelmus-22337.html",
@@ -47,20 +33,6 @@
     "title": "Milchreis mit Kirschen & Zimtzucker Rezept | LECKER",
     "rating": 4,
     "ratingCount": 2
-  },
-  "d-bratapfel": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/brataepfel-mit-mandeln-und-rosinen-88077",
-    "title": "Gefüllte Bratäpfel mit Vanillesauce Rezept | Küchengötter",
-    "rating": 4.6,
-    "ratingCount": 71
-  },
-  "d-rote-gruetze": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/rote-gruetze-grundrezept-84155.html",
-    "title": "Rote Grütze nach Omas Rezept | LECKER",
-    "rating": 4.4,
-    "ratingCount": 13
   },
   "d-cheesecake-im-glas": {
     "site": "einfachkochen.de",
@@ -88,24 +60,10 @@
     "rating": 4.5,
     "ratingCount": 1287
   },
-  "d-rhabarber-crumble": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/erdbeer-rhabarber-crumble-64808.html",
-    "title": "Erdbeer-Rhabarber-Crumble - das beste Rezept | LECKER",
-    "rating": 4.4,
-    "ratingCount": 40
-  },
   "d-schokopudding": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/schokopudding-selber-machen-das-beste-rezept-69655.html",
     "title": "Schokopudding selber machen - das beste Rezept | LECKER"
-  },
-  "d-mango-kokos-creme": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/schnelle-kokos-mango-creme-28350",
-    "title": "Schnelle Kokos-Mango-Creme Rezept | Küchengötter",
-    "rating": 4.1,
-    "ratingCount": 49
   },
   "d-crepes-apfelmus": {
     "site": "essen-und-trinken.de",
@@ -126,26 +84,12 @@
     "rating": 4.9,
     "ratingCount": 114
   },
-  "d-apfelkuchen-versunken": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/versunkener-apfelkuchen-nach-omas-rezept-30093.html",
-    "title": "Versunkener Apfelkuchen nach Omas Rezept | LECKER",
-    "rating": 4.5,
-    "ratingCount": 6
-  },
   "d-heidelbeer-muffins": {
     "site": "kuechengoetter.de",
     "url": "https://www.kuechengoetter.de/rezepte/heidelbeer-muffins-78542",
     "title": "Heidelbeer-Muffins Rezept | Küchengötter",
     "rating": 4.2,
     "ratingCount": 56
-  },
-  "d-vollkornbrot-kerne": {
-    "site": "gaumenfreundin.de",
-    "url": "https://www.gaumenfreundin.de/dinkel-vollkornbrot-mit-leinsamen/",
-    "title": "Dinkel-Vollkornbrot Rezept – in 10 Minuten zubereitet",
-    "rating": 5,
-    "ratingCount": 1422
   },
   "d-pizzabroetchen": {
     "site": "einfachkochen.de",

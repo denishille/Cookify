@@ -11,26 +11,12 @@
     "url": "https://www.rewe.de/rezepte/rinderrouladen-kartoffeln-rotkohl/",
     "title": "Rinderrouladen mit Kartoffeln und Rotkohl Rezept - REWE.de"
   },
-  "m-frikadellen": {
-    "site": "emmikochteinfach.de",
-    "url": "https://emmikochteinfach.de/klassische-frikadellen-rezept/",
-    "title": "Klassische Frikadellen Rezept - emmikochteinfach",
-    "rating": 5,
-    "ratingCount": 150
-  },
   "m-koenigsberger-klopse": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/koenigsberger-klopse-der-einfache-klassiker/",
     "title": "Königsberger Klopse – der einfache Klassiker - emmikochteinfach",
     "rating": 5,
     "ratingCount": 258
-  },
-  "m-jaegerschnitzel": {
-    "site": "emmikochteinfach.de",
-    "url": "https://emmikochteinfach.de/jaegerschnitzel/",
-    "title": "Klassisches Jägerschnitzel mit Pilzrahmsoße",
-    "rating": 5,
-    "ratingCount": 24
   },
   "m-currywurst-hausgemacht": {
     "site": "kochbar.de",
@@ -44,54 +30,12 @@
     "rating": 5,
     "ratingCount": 283
   },
-  "m-krustenbraten-biersauce": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/krustenbraten-biersosse-3877.html",
-    "title": "Krustenbraten in Biersoße Rezept | LECKER",
-    "rating": 5,
-    "ratingCount": 1
-  },
   "m-spaghetti-bolognese": {
     "site": "lecker.de",
     "url": "https://www.lecker.de/spaghetti-bolognese-29324.html",
     "title": "Spaghetti bolognese - das klassische Rezept | LECKER",
     "rating": 4.4,
     "ratingCount": 102
-  },
-  "m-saltimbocca": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/saltimbocca-alla-romana-42467.html",
-    "title": "Saltimbocca alla Romana | LECKER",
-    "rating": 4,
-    "ratingCount": 24
-  },
-  "m-lachs-zitronen-pasta": {
-    "site": "gaumenfreundin.de",
-    "url": "https://www.gaumenfreundin.de/zitronen-lachs-pasta/",
-    "title": "Zitronen-Lachs-Pasta: Cremig, frisch und in 30 Minuten fertig!",
-    "rating": 5,
-    "ratingCount": 1
-  },
-  "m-lasagne-classica": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/lasagne-al-forno-44618.html",
-    "title": "Lasagne al forno Rezept | LECKER",
-    "rating": 4.3,
-    "ratingCount": 27
-  },
-  "m-teriyaki-lachs": {
-    "site": "gaumenfreundin.de",
-    "url": "https://www.gaumenfreundin.de/teriyaki-lachs/",
-    "title": "Teriyaki-Lachs ganz einfach – das beste Rezept",
-    "rating": 4.9,
-    "ratingCount": 12
-  },
-  "m-miso-ramen-schweinebauch": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/miso-ramen-13469756.html",
-    "title": "Miso-Ramen Rezept - [ESSEN UND TRINKEN]",
-    "rating": 5,
-    "ratingCount": 3
   },
   "m-rotes-thai-curry-huhn": {
     "site": "gaumenfreundin.de",
@@ -105,31 +49,10 @@
     "url": "https://www.rewe.de/rezepte/thailaendisches-cashew-haehnchen/",
     "title": "Thailändisches Cashew-Hähnchen Rezept - REWE.de"
   },
-  "m-rindfleisch-brokkoli": {
-    "site": "malteskitchen.de",
-    "url": "https://www.malteskitchen.de/rindfleisch-brokkoli/",
-    "title": "Rindfleisch mit Brokkoli | einfach & schnell aus dem Wok",
-    "rating": 4.9,
-    "ratingCount": 61
-  },
-  "m-chicken-tikka-masala": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/chicken-tikka-masala-60437.html",
-    "title": "Chicken Tikka Masala Rezept | LECKER",
-    "rating": 5,
-    "ratingCount": 1
-  },
   "m-butter-chicken": {
     "site": "rewe.de",
     "url": "https://www.rewe.de/rezepte/butter-chicken/",
     "title": "Butter Chicken - Indisches Originalrezept"
-  },
-  "m-lamm-rogan-josh": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/lamm-rogan-josh-97646",
-    "title": "Lamm Rogan Josh Rezept | Küchengötter",
-    "rating": 5,
-    "ratingCount": 1
   },
   "m-chili-con-carne": {
     "site": "lecker.de",
@@ -151,12 +74,5 @@
     "title": "Fisch-Tacos – schnell & sooo lecker | Die besten Rezepte mit Gelinggarantie!",
     "rating": 4.5,
     "ratingCount": 2
-  },
-  "m-classic-cheeseburger": {
-    "site": "kuechengoetter.de",
-    "url": "https://www.kuechengoetter.de/rezepte/klassischer-cheeseburger-78678",
-    "title": "Klassischer Cheeseburger Rezept | Küchengötter",
-    "rating": 4.7,
-    "ratingCount": 15
   }
 }

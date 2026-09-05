@@ -2,12 +2,12 @@
 // Wandelt Importentwürfe in App-Rezepte um: Zutaten auf die bekannten Schlüssel abbilden,
 // Schritte von der Portionsschreibweise der Quelle befreien, Nährwerte je Portion schätzen.
 // Titel und Beschreibung kommen aus einer Begleitdatei (siehe --meta), alles andere wird abgeleitet.
-import { readFileSync, writeFileSync, readdirSync, existsSync, unlinkSync } from 'node:fs'
+import { readFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const importsDir = join(root, 'src/data/imports')
+const _importsDir = join(root, 'src/data/imports')
 const ingredients = JSON.parse(readFileSync(join(root, 'src/data/ingredients.json'), 'utf8'))
 const aliases = JSON.parse(readFileSync(join(root, 'scripts/lib/ingredient-aliases.json'), 'utf8'))
 const nutriTable = JSON.parse(readFileSync(join(root, 'scripts/lib/nutrition-table.json'), 'utf8'))
@@ -18,7 +18,7 @@ const norm = (s) => s.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').re
   .replace(/[^a-z0-9]+/g, ' ').trim()
 const byNorm = new Map()
 for (const d of defs) { byNorm.set(norm(d.name), d.key); byNorm.set(norm(d.key), d.key) }
-const STAPLES = new Set(defs.filter((d) => d.staple).map((d) => d.key))
+const _STAPLES = new Set(defs.filter((d) => d.staple).map((d) => d.key))
 
 const strip = (s) => norm(s)
   .replace(/\b(frisch|frische|frischer|frisches|bio|gewachst|geraspelt|gerieben|geriebener|gehackt|gehackter|vegan|vegane|veganer|mild|milder|jung|junger|ital art|d o p|nach geschmack|vorgekocht|vorw festk|mehligk|tk|tiefgefroren|halb|ganze|ganz|stueck|dose od glas|dose|glas|el|tl)\b/g, ' ')
