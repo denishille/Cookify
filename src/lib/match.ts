@@ -45,3 +45,47 @@ export function rankByPantry(recipes: Recipe[], pantry: Set<string>, maxMissing:
       return a.recipe.timeMinutes - b.recipe.timeMinutes
     })
 }
+
+/**
+ * Wie streng darf gefiltert werden? Je voller der Vorrat, desto eher findet sich ein Rezept,
+ * das wirklich passt – also darf weniger fehlen. Bei zwei, drei Zutaten wäre das Ergebnis leer,
+ * dort zeigen wir lieber ein breites Angebot.
+ */
+export function toleranceFor(pantrySize: number): number {
+  if (pantrySize <= 2) return ALL_MATCHES
+  if (pantrySize <= 4) return 6
+  if (pantrySize <= 8) return 4
+  if (pantrySize <= 12) return 3
+  if (pantrySize <= 18) return 2
+  return 1
+}
+
+/** Keine Obergrenze: zeigt alles, was mindestens eine der Zutaten verwendet. */
+export const ALL_MATCHES = 99
+
+/** Unter so vielen Treffern lohnt die Liste nicht, dann wird die Regel gelockert. */
+const MIN_RESULTS = 12
+
+export interface AutoMatch {
+  results: MatchResult[]
+  /** Wie viele Zutaten am Ende fehlen durften – für den Hinweis über der Liste. */
+  tolerance: number
+}
+
+/**
+ * Sucht selbst die passende Strenge: erst exakte Treffer, dann Schritt für Schritt großzügiger,
+ * bis genug zusammenkommt – höchstens aber so großzügig, wie es die Vorratsgröße zulässt.
+ */
+export function autoMatch(recipes: Recipe[], pantry: Set<string>): AutoMatch {
+  if (pantry.size === 0) return { results: [], tolerance: 0 }
+  const effective = [...pantry].filter((k) => !STAPLE_KEYS.has(k)).length
+  const max = toleranceFor(effective)
+  // Bei ein, zwei Zutaten gibt es nichts zu filtern: zeig alles, was sie verwendet.
+  if (max === ALL_MATCHES) return { results: rankByPantry(recipes, pantry, ALL_MATCHES), tolerance: ALL_MATCHES }
+  let last: MatchResult[] = []
+  for (let tolerance = 0; tolerance <= max; tolerance++) {
+    last = rankByPantry(recipes, pantry, tolerance)
+    if (last.length >= MIN_RESULTS) return { results: last, tolerance }
+  }
+  return { results: last, tolerance: max }
+}

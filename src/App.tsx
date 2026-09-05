@@ -1,10 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Diet, Recipe } from './types'
 import { useRoute, back, navigate, openRecipe, type View } from './lib/router'
 import { usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek } from './lib/week'
-import { rankByPantry } from './lib/match'
+import { autoMatch, ALL_MATCHES } from './lib/match'
 import { applyFilters, isEmpty, rankByQuery, EMPTY_FILTERS, type FilterState } from './lib/filters'
 import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
@@ -35,7 +35,6 @@ const NAV: { view: View; label: string; icon: React.ReactNode }[] = [
 ]
 
 type Sort = 'standard' | 'bewertung' | 'neu' | 'schnell' | 'langsam' | 'kcal' | 'protein'
-const MISSING_CHOICES = [0, 1, 2, 3, 4, 5, 6, 8, 10]
 
 function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
   const copy = [...list]
@@ -68,31 +67,18 @@ export default function App() {
   const route = useRoute()
   const savedSet = usePersistentSet('cookify.saved')
   const pantrySet = usePersistentSet('cookify.pantry')
-  const [storedMissing, setMaxMissing] = usePersistentState<number>('cookify.maxMissing', 3)
-  const maxMissing = storedMissing === 99 || MISSING_CHOICES.includes(storedMissing) ? storedMissing : 3
-  /** Zuletzt gewählte Zahl für „Bis zu N fehlen“, bleibt erhalten, wenn man auf „Alle Treffer“ wechselt. */
-  const [missingN, setMissingN] = usePersistentState<number>('cookify.missingN', 3)
-  const missingMode: 'upto' | 'all' = maxMissing === 99 ? 'all' : 'upto'
-  const missingSelect = useRef<HTMLSelectElement>(null)
-  /** Klick auf „Bis zu“ oder „fehlen“: inaktiv → aktivieren, aktiv → Zahlenauswahl öffnen. */
-  const onSegmentClick = () => {
-    if (missingMode !== 'upto') { setMaxMissing(missingN); return }
-    const el = missingSelect.current
-    if (!el) return
-    try { (el as HTMLSelectElement & { showPicker?: () => void }).showPicker?.() } catch { el.focus() }
-  }
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   const [setsOpen, setSetsOpen] = useState(false)
 
   /** Rückgängig-Leiste: letzte Löschaktion mit Wiederherstellen, verschwindet nach 8 Sekunden. */
-  const [undo, setUndo] = useState<{ message: string; restore: () => void } | null>(null)
+  const [undo, setUndo] = useState<{ message: string; restore?: () => void } | null>(null)
   useEffect(() => {
     if (!undo) return
     const t = setTimeout(() => setUndo(null), 8000)
     return () => clearTimeout(t)
   }, [undo])
   const offerUndo = (message: string, restore: () => void) => setUndo({ message, restore })
-  const runUndo = () => { undo?.restore(); setUndo(null) }
+  const runUndo = () => { undo?.restore?.(); setUndo(null) }
   const toggleHidden = (id: string) => {
     if (!hiddenSet.has(id)) offerUndo(`„${BY_ID.get(id)?.title ?? id}“ ausgeblendet`, () => hiddenSet.replace([...hiddenSet.set].filter((x) => x !== id)))
     hiddenSet.toggle(id)
@@ -159,7 +145,8 @@ export default function App() {
     : sortRecipes(allBase, allSort)
 
   const pantryKey = [...pantrySet.set].sort().join(',')
-  const pantryResults = rankByPantry(AVAILABLE, new Set(pantryKey ? pantryKey.split(',') : []), maxMissing)
+  const pantryMatch = autoMatch(AVAILABLE, new Set(pantryKey ? pantryKey.split(',') : []))
+  const pantryResults = pantryMatch.results
 
   /** Treffer gibt es nur, wenn im Konfigurator etwas gesetzt ist. */
   const configured = !isEmpty(filters)
@@ -175,6 +162,17 @@ export default function App() {
   const surprise = () => {
     const pool = results.length ? results : AVAILABLE
     openRecipe(randomOf(pool).id)
+  }
+
+  /** Die ausgeblendeten Rezepte als Liste in die Zwischenablage – zum Weiterschicken. */
+  const copyHidden = async () => {
+    const text = hiddenRecipes.map((r) => `${r.id}  ${r.title}`).join('\n')
+    try {
+      await navigator.clipboard.writeText(text)
+      setUndo({ message: `${hiddenRecipes.length} Rezepte kopiert` })
+    } catch {
+      setUndo({ message: 'Kopieren nicht möglich' })
+    }
   }
 
   /** Alle gerade wirksamen Ernährungsformen: Einstellungen plus die Filter der einzelnen Seiten. */
@@ -312,27 +310,18 @@ export default function App() {
                 ) : (
                   <>
                     <div className="results-head">
-                      <div className="segmented" role="group" aria-label="Fehlende Zutaten">
-                        <span className={`seg ${missingMode === 'upto' ? 'on' : ''}`}>
-                          <button onClick={onSegmentClick}>Bis zu</button>
-                          <select ref={missingSelect} className="mini" value={missingMode === 'upto' ? maxMissing : missingN} aria-label="Anzahl fehlender Zutaten"
-                            onFocus={() => { if (missingMode !== 'upto') setMaxMissing(missingN) }}
-                            onClick={() => { if (missingMode !== 'upto') setMaxMissing(missingN) }}
-                            onChange={(e) => { const n = Number(e.target.value); setMissingN(n); setMaxMissing(n) }}>
-                            {MISSING_CHOICES.map((n) => <option key={n} value={n}>{n}</option>)}
-                          </select>
-                          <button onClick={onSegmentClick}>fehlen</button>
-                        </span>
-                        <button className={missingMode === 'all' ? 'on' : ''} onClick={() => setMaxMissing(99)}>Alle Treffer</button>
-                      </div>
-                      <span className="hint">{pantryResults.length} Treffer</span>
+                      <span className="hint">
+                        {pantryResults.length} Treffer
+                        {pantryResults.length > 0 && (pantryMatch.tolerance === 0 ? ' · alles da'
+                          : pantryMatch.tolerance >= ALL_MATCHES ? ' · alles, was dazu passt'
+                          : ` · bis zu ${pantryMatch.tolerance} ${pantryMatch.tolerance === 1 ? 'Zutat fehlt' : 'Zutaten fehlen'}`)}
+                      </span>
                     </div>
                     <div style={{ height: 4 }} />
                     {pantryResults.length === 0 ? (
                       <div className="empty">
                         <h3>Noch kein passendes Rezept</h3>
-                        <p>Erlaube fehlende Zutaten oder füge etwas hinzu.</p>
-                        {maxMissing !== 99 && <button className="btn" onClick={() => setMaxMissing(99)}>Alle Treffer zeigen</button>}
+                        <p>Füge noch ein, zwei Zutaten hinzu, dann wird es leichter.</p>
                       </div>
                     ) : (
                       <div className="grid">
@@ -397,6 +386,7 @@ export default function App() {
               <details className="hidden-box">
                 <summary><IconChevronDown width={18} height={18} /> Ausgeblendete Rezepte <span className="count">{hiddenRecipes.length}</span></summary>
                 <p className="hint">Mit Daumen runter ausgeblendet. Das Auge blendet ein Rezept wieder ein.</p>
+                <button className="btn sm" onClick={copyHidden}>Liste kopieren</button>
                 <div className="list">
                   {hiddenRecipes.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} hidden onToggleHide={toggleHidden} />)}
                 </div>
@@ -426,7 +416,7 @@ export default function App() {
       {undo && (
         <div className="undo" role="status">
           <span>{undo.message}</span>
-          <button onClick={runUndo}>Rückgängig</button>
+          {undo.restore && <button onClick={runUndo}>Rückgängig</button>}
           <button className="undo-x" onClick={() => setUndo(null)} aria-label="Ausblenden">×</button>
         </div>
       )}
