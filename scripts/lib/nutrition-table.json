@@ -1,0 +1,1409 @@
+{
+  "_hinweis": "Nährwerte je 100 g (bzw. 100 ml) – Grundlage für die Schätzung pro Portion.",
+  "standard": {
+    "kcal": 60,
+    "protein": 2,
+    "carbs": 8,
+    "fat": 1
+  },
+  "keys": {
+    "olivenoel": {
+      "kcal": 890,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "pflanzenoel": {
+      "kcal": 890,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "rapsoel": {
+      "kcal": 890,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "sesamoel": {
+      "kcal": 890,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "kokosoel": {
+      "kcal": 890,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "butter": {
+      "kcal": 740,
+      "protein": 1,
+      "carbs": 1,
+      "fat": 82
+    },
+    "margarine": {
+      "kcal": 720,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 80
+    },
+    "vegane-butter": {
+      "kcal": 720,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 80
+    },
+    "sahne": {
+      "kcal": 290,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 30
+    },
+    "creme-fraiche": {
+      "kcal": 300,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 30
+    },
+    "schmand": {
+      "kcal": 240,
+      "protein": 3,
+      "carbs": 3,
+      "fat": 24
+    },
+    "saure-sahne": {
+      "kcal": 120,
+      "protein": 3,
+      "carbs": 3,
+      "fat": 10
+    },
+    "creme-double": {
+      "kcal": 400,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 42
+    },
+    "hafersahne": {
+      "kcal": 160,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 15
+    },
+    "hafercreme": {
+      "kcal": 160,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 15
+    },
+    "milch": {
+      "kcal": 65,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 4
+    },
+    "hafermilch": {
+      "kcal": 45,
+      "protein": 1,
+      "carbs": 7,
+      "fat": 1
+    },
+    "sojamilch": {
+      "kcal": 40,
+      "protein": 3,
+      "carbs": 2,
+      "fat": 2
+    },
+    "mandelmilch": {
+      "kcal": 25,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 1
+    },
+    "reismilch": {
+      "kcal": 50,
+      "protein": 0,
+      "carbs": 10,
+      "fat": 1
+    },
+    "joghurt": {
+      "kcal": 65,
+      "protein": 4,
+      "carbs": 5,
+      "fat": 3
+    },
+    "griechischer-joghurt": {
+      "kcal": 120,
+      "protein": 8,
+      "carbs": 4,
+      "fat": 8
+    },
+    "sojajoghurt": {
+      "kcal": 55,
+      "protein": 4,
+      "carbs": 3,
+      "fat": 3
+    },
+    "kokosjoghurt": {
+      "kcal": 120,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 10
+    },
+    "quark": {
+      "kcal": 100,
+      "protein": 13,
+      "carbs": 4,
+      "fat": 4
+    },
+    "skyr": {
+      "kcal": 65,
+      "protein": 11,
+      "carbs": 4,
+      "fat": 0
+    },
+    "huettenkaese": {
+      "kcal": 100,
+      "protein": 12,
+      "carbs": 3,
+      "fat": 4
+    },
+    "frischkaese": {
+      "kcal": 250,
+      "protein": 6,
+      "carbs": 3,
+      "fat": 24
+    },
+    "mozzarella": {
+      "kcal": 250,
+      "protein": 18,
+      "carbs": 1,
+      "fat": 20
+    },
+    "burrata": {
+      "kcal": 280,
+      "protein": 15,
+      "carbs": 2,
+      "fat": 24
+    },
+    "feta": {
+      "kcal": 260,
+      "protein": 16,
+      "carbs": 2,
+      "fat": 21
+    },
+    "halloumi": {
+      "kcal": 320,
+      "protein": 22,
+      "carbs": 2,
+      "fat": 25
+    },
+    "parmesan": {
+      "kcal": 400,
+      "protein": 36,
+      "carbs": 1,
+      "fat": 28
+    },
+    "kaese-gerieben": {
+      "kcal": 370,
+      "protein": 26,
+      "carbs": 1,
+      "fat": 29
+    },
+    "gouda": {
+      "kcal": 360,
+      "protein": 25,
+      "carbs": 1,
+      "fat": 28
+    },
+    "cheddar": {
+      "kcal": 400,
+      "protein": 25,
+      "carbs": 1,
+      "fat": 33
+    },
+    "emmentaler": {
+      "kcal": 380,
+      "protein": 28,
+      "carbs": 1,
+      "fat": 30
+    },
+    "bergkaese": {
+      "kcal": 400,
+      "protein": 28,
+      "carbs": 1,
+      "fat": 32
+    },
+    "camembert": {
+      "kcal": 300,
+      "protein": 20,
+      "carbs": 1,
+      "fat": 24
+    },
+    "blauschimmelkaese": {
+      "kcal": 350,
+      "protein": 21,
+      "carbs": 2,
+      "fat": 29
+    },
+    "ziegenkaese": {
+      "kcal": 280,
+      "protein": 18,
+      "carbs": 2,
+      "fat": 22
+    },
+    "ricotta": {
+      "kcal": 170,
+      "protein": 11,
+      "carbs": 3,
+      "fat": 12
+    },
+    "mascarpone": {
+      "kcal": 430,
+      "protein": 5,
+      "carbs": 4,
+      "fat": 44
+    },
+    "veganer-kaese": {
+      "kcal": 300,
+      "protein": 2,
+      "carbs": 20,
+      "fat": 24
+    },
+    "eier": {
+      "kcal": 140,
+      "protein": 12,
+      "carbs": 1,
+      "fat": 10
+    },
+    "haehnchenbrust": {
+      "kcal": 110,
+      "protein": 23,
+      "carbs": 0,
+      "fat": 2
+    },
+    "putenbrust": {
+      "kcal": 105,
+      "protein": 24,
+      "carbs": 0,
+      "fat": 1
+    },
+    "haehnchenschenkel": {
+      "kcal": 180,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 12
+    },
+    "haehnchenfluegel": {
+      "kcal": 200,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 14
+    },
+    "hackfleisch": {
+      "kcal": 230,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 17
+    },
+    "rinderhack": {
+      "kcal": 210,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 14
+    },
+    "rindfleisch": {
+      "kcal": 190,
+      "protein": 21,
+      "carbs": 0,
+      "fat": 12
+    },
+    "rindersteak": {
+      "kcal": 200,
+      "protein": 26,
+      "carbs": 0,
+      "fat": 11
+    },
+    "rinderfilet": {
+      "kcal": 160,
+      "protein": 22,
+      "carbs": 0,
+      "fat": 8
+    },
+    "kalbfleisch": {
+      "kcal": 130,
+      "protein": 21,
+      "carbs": 0,
+      "fat": 5
+    },
+    "schweinefleisch": {
+      "kcal": 180,
+      "protein": 21,
+      "carbs": 0,
+      "fat": 11
+    },
+    "schweineschnitzel": {
+      "kcal": 140,
+      "protein": 22,
+      "carbs": 0,
+      "fat": 6
+    },
+    "lamm": {
+      "kcal": 230,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 17
+    },
+    "ente": {
+      "kcal": 240,
+      "protein": 18,
+      "carbs": 0,
+      "fat": 19
+    },
+    "kaninchen": {
+      "kcal": 140,
+      "protein": 21,
+      "carbs": 0,
+      "fat": 6
+    },
+    "leber": {
+      "kcal": 130,
+      "protein": 20,
+      "carbs": 3,
+      "fat": 4
+    },
+    "speck": {
+      "kcal": 400,
+      "protein": 15,
+      "carbs": 0,
+      "fat": 38
+    },
+    "schinken": {
+      "kcal": 220,
+      "protein": 24,
+      "carbs": 1,
+      "fat": 14
+    },
+    "salami": {
+      "kcal": 400,
+      "protein": 22,
+      "carbs": 1,
+      "fat": 35
+    },
+    "chorizo": {
+      "kcal": 380,
+      "protein": 20,
+      "carbs": 2,
+      "fat": 32
+    },
+    "bratwurst": {
+      "kcal": 300,
+      "protein": 14,
+      "carbs": 1,
+      "fat": 27
+    },
+    "wuerstchen": {
+      "kcal": 290,
+      "protein": 12,
+      "carbs": 1,
+      "fat": 26
+    },
+    "kasseler": {
+      "kcal": 170,
+      "protein": 22,
+      "carbs": 0,
+      "fat": 9
+    },
+    "lachs": {
+      "kcal": 200,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 13
+    },
+    "raeucherlachs": {
+      "kcal": 180,
+      "protein": 22,
+      "carbs": 0,
+      "fat": 10
+    },
+    "thunfischsteak": {
+      "kcal": 130,
+      "protein": 24,
+      "carbs": 0,
+      "fat": 4
+    },
+    "thunfisch-dose": {
+      "kcal": 110,
+      "protein": 24,
+      "carbs": 0,
+      "fat": 1
+    },
+    "kabeljau": {
+      "kcal": 80,
+      "protein": 18,
+      "carbs": 0,
+      "fat": 1
+    },
+    "seelachs": {
+      "kcal": 80,
+      "protein": 18,
+      "carbs": 0,
+      "fat": 1
+    },
+    "zander": {
+      "kcal": 85,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 1
+    },
+    "scholle": {
+      "kcal": 85,
+      "protein": 17,
+      "carbs": 0,
+      "fat": 2
+    },
+    "forelle": {
+      "kcal": 120,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 4
+    },
+    "dorade": {
+      "kcal": 100,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 2
+    },
+    "makrele": {
+      "kcal": 200,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 14
+    },
+    "sardinen": {
+      "kcal": 180,
+      "protein": 21,
+      "carbs": 0,
+      "fat": 11
+    },
+    "hering": {
+      "kcal": 200,
+      "protein": 18,
+      "carbs": 0,
+      "fat": 14
+    },
+    "garnelen": {
+      "kcal": 90,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 1
+    },
+    "muscheln": {
+      "kcal": 85,
+      "protein": 15,
+      "carbs": 3,
+      "fat": 2
+    },
+    "jakobsmuscheln": {
+      "kcal": 90,
+      "protein": 17,
+      "carbs": 3,
+      "fat": 1
+    },
+    "tintenfisch": {
+      "kcal": 90,
+      "protein": 16,
+      "carbs": 3,
+      "fat": 1
+    },
+    "sardellen": {
+      "kcal": 190,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 12
+    },
+    "tofu": {
+      "kcal": 130,
+      "protein": 14,
+      "carbs": 2,
+      "fat": 8
+    },
+    "raeuchertofu": {
+      "kcal": 160,
+      "protein": 17,
+      "carbs": 2,
+      "fat": 9
+    },
+    "seidentofu": {
+      "kcal": 60,
+      "protein": 7,
+      "carbs": 2,
+      "fat": 3
+    },
+    "tempeh": {
+      "kcal": 190,
+      "protein": 19,
+      "carbs": 7,
+      "fat": 10
+    },
+    "seitan": {
+      "kcal": 150,
+      "protein": 25,
+      "carbs": 6,
+      "fat": 2
+    },
+    "sojahack": {
+      "kcal": 170,
+      "protein": 20,
+      "carbs": 6,
+      "fat": 8
+    },
+    "nudeln": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 2
+    },
+    "penne": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 2
+    },
+    "spaghetti": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 2
+    },
+    "tagliatelle": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 2
+    },
+    "orzo": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 2
+    },
+    "lasagneplatten": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 2
+    },
+    "ramen-nudeln": {
+      "kcal": 350,
+      "protein": 11,
+      "carbs": 68,
+      "fat": 3
+    },
+    "udon": {
+      "kcal": 280,
+      "protein": 8,
+      "carbs": 58,
+      "fat": 1
+    },
+    "reisnudeln": {
+      "kcal": 360,
+      "protein": 6,
+      "carbs": 82,
+      "fat": 1
+    },
+    "glasnudeln": {
+      "kcal": 350,
+      "protein": 0,
+      "carbs": 86,
+      "fat": 0
+    },
+    "tortellini": {
+      "kcal": 280,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 8
+    },
+    "ravioli": {
+      "kcal": 260,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 7
+    },
+    "gnocchi": {
+      "kcal": 160,
+      "protein": 4,
+      "carbs": 33,
+      "fat": 1
+    },
+    "spaetzle": {
+      "kcal": 210,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 2
+    },
+    "reis": {
+      "kcal": 350,
+      "protein": 7,
+      "carbs": 78,
+      "fat": 1
+    },
+    "basmatireis": {
+      "kcal": 350,
+      "protein": 7,
+      "carbs": 78,
+      "fat": 1
+    },
+    "risottoreis": {
+      "kcal": 350,
+      "protein": 7,
+      "carbs": 78,
+      "fat": 1
+    },
+    "sushireis": {
+      "kcal": 350,
+      "protein": 6,
+      "carbs": 79,
+      "fat": 1
+    },
+    "milchreis": {
+      "kcal": 350,
+      "protein": 7,
+      "carbs": 78,
+      "fat": 1
+    },
+    "quinoa": {
+      "kcal": 360,
+      "protein": 14,
+      "carbs": 58,
+      "fat": 6
+    },
+    "bulgur": {
+      "kcal": 340,
+      "protein": 12,
+      "carbs": 69,
+      "fat": 2
+    },
+    "couscous": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 72,
+      "fat": 1
+    },
+    "hirse": {
+      "kcal": 350,
+      "protein": 10,
+      "carbs": 69,
+      "fat": 4
+    },
+    "buchweizen": {
+      "kcal": 340,
+      "protein": 13,
+      "carbs": 62,
+      "fat": 3
+    },
+    "amaranth": {
+      "kcal": 370,
+      "protein": 14,
+      "carbs": 60,
+      "fat": 7
+    },
+    "graupen": {
+      "kcal": 340,
+      "protein": 10,
+      "carbs": 70,
+      "fat": 2
+    },
+    "gruenkern": {
+      "kcal": 330,
+      "protein": 12,
+      "carbs": 63,
+      "fat": 3
+    },
+    "dinkel": {
+      "kcal": 340,
+      "protein": 15,
+      "carbs": 62,
+      "fat": 3
+    },
+    "polenta": {
+      "kcal": 350,
+      "protein": 8,
+      "carbs": 76,
+      "fat": 1
+    },
+    "haferflocken": {
+      "kcal": 370,
+      "protein": 13,
+      "carbs": 59,
+      "fat": 7
+    },
+    "granola": {
+      "kcal": 440,
+      "protein": 9,
+      "carbs": 62,
+      "fat": 16
+    },
+    "mehl": {
+      "kcal": 350,
+      "protein": 10,
+      "carbs": 72,
+      "fat": 1
+    },
+    "vollkornmehl": {
+      "kcal": 330,
+      "protein": 12,
+      "carbs": 62,
+      "fat": 2
+    },
+    "dinkelmehl": {
+      "kcal": 350,
+      "protein": 11,
+      "carbs": 70,
+      "fat": 2
+    },
+    "roggenmehl": {
+      "kcal": 330,
+      "protein": 9,
+      "carbs": 68,
+      "fat": 2
+    },
+    "kichererbsenmehl": {
+      "kcal": 380,
+      "protein": 20,
+      "carbs": 50,
+      "fat": 7
+    },
+    "mandelmehl": {
+      "kcal": 400,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 25
+    },
+    "hartweizengriess": {
+      "kcal": 350,
+      "protein": 12,
+      "carbs": 70,
+      "fat": 1
+    },
+    "semmelbroesel": {
+      "kcal": 370,
+      "protein": 12,
+      "carbs": 72,
+      "fat": 3
+    },
+    "panko": {
+      "kcal": 370,
+      "protein": 12,
+      "carbs": 72,
+      "fat": 3
+    },
+    "speisestaerke": {
+      "kcal": 350,
+      "protein": 0,
+      "carbs": 86,
+      "fat": 0
+    },
+    "brot": {
+      "kcal": 250,
+      "protein": 8,
+      "carbs": 47,
+      "fat": 2
+    },
+    "baguette": {
+      "kcal": 270,
+      "protein": 9,
+      "carbs": 53,
+      "fat": 2
+    },
+    "broetchen": {
+      "kcal": 280,
+      "protein": 9,
+      "carbs": 52,
+      "fat": 4
+    },
+    "toast": {
+      "kcal": 260,
+      "protein": 8,
+      "carbs": 48,
+      "fat": 4
+    },
+    "knaeckebrot": {
+      "kcal": 350,
+      "protein": 10,
+      "carbs": 65,
+      "fat": 2
+    },
+    "pita": {
+      "kcal": 270,
+      "protein": 9,
+      "carbs": 53,
+      "fat": 2
+    },
+    "naan": {
+      "kcal": 290,
+      "protein": 8,
+      "carbs": 50,
+      "fat": 6
+    },
+    "tortillas": {
+      "kcal": 300,
+      "protein": 8,
+      "carbs": 50,
+      "fat": 7
+    },
+    "pizzateig": {
+      "kcal": 260,
+      "protein": 8,
+      "carbs": 48,
+      "fat": 3
+    },
+    "blaetterteig": {
+      "kcal": 380,
+      "protein": 6,
+      "carbs": 36,
+      "fat": 23
+    },
+    "linsen-rot": {
+      "kcal": 340,
+      "protein": 24,
+      "carbs": 50,
+      "fat": 2
+    },
+    "linsen-braun": {
+      "kcal": 120,
+      "protein": 9,
+      "carbs": 16,
+      "fat": 1
+    },
+    "berglinsen": {
+      "kcal": 120,
+      "protein": 9,
+      "carbs": 16,
+      "fat": 1
+    },
+    "belugalinsen": {
+      "kcal": 120,
+      "protein": 9,
+      "carbs": 16,
+      "fat": 1
+    },
+    "gelbe-linsen": {
+      "kcal": 340,
+      "protein": 24,
+      "carbs": 50,
+      "fat": 2
+    },
+    "kichererbsen": {
+      "kcal": 130,
+      "protein": 7,
+      "carbs": 18,
+      "fat": 3
+    },
+    "kidneybohnen": {
+      "kcal": 110,
+      "protein": 7,
+      "carbs": 15,
+      "fat": 1
+    },
+    "schwarze-bohnen": {
+      "kcal": 110,
+      "protein": 7,
+      "carbs": 15,
+      "fat": 1
+    },
+    "weisse-bohnen": {
+      "kcal": 110,
+      "protein": 7,
+      "carbs": 15,
+      "fat": 1
+    },
+    "ackerbohnen": {
+      "kcal": 110,
+      "protein": 8,
+      "carbs": 14,
+      "fat": 1
+    },
+    "edamame": {
+      "kcal": 120,
+      "protein": 11,
+      "carbs": 8,
+      "fat": 5
+    },
+    "erbsen": {
+      "kcal": 80,
+      "protein": 5,
+      "carbs": 11,
+      "fat": 1
+    },
+    "mandeln": {
+      "kcal": 600,
+      "protein": 21,
+      "carbs": 6,
+      "fat": 52
+    },
+    "walnuesse": {
+      "kcal": 650,
+      "protein": 15,
+      "carbs": 7,
+      "fat": 63
+    },
+    "haselnuesse": {
+      "kcal": 640,
+      "protein": 15,
+      "carbs": 7,
+      "fat": 61
+    },
+    "cashews": {
+      "kcal": 570,
+      "protein": 18,
+      "carbs": 27,
+      "fat": 44
+    },
+    "erdnuesse": {
+      "kcal": 590,
+      "protein": 25,
+      "carbs": 8,
+      "fat": 49
+    },
+    "pekannuesse": {
+      "kcal": 690,
+      "protein": 9,
+      "carbs": 4,
+      "fat": 72
+    },
+    "paranuesse": {
+      "kcal": 660,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 66
+    },
+    "pistazien": {
+      "kcal": 570,
+      "protein": 20,
+      "carbs": 16,
+      "fat": 45
+    },
+    "pinienkerne": {
+      "kcal": 670,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 68
+    },
+    "kuerbiskerne": {
+      "kcal": 560,
+      "protein": 25,
+      "carbs": 12,
+      "fat": 46
+    },
+    "sonnenblumenkerne": {
+      "kcal": 580,
+      "protein": 21,
+      "carbs": 12,
+      "fat": 49
+    },
+    "sesam": {
+      "kcal": 570,
+      "protein": 18,
+      "carbs": 10,
+      "fat": 50
+    },
+    "leinsamen": {
+      "kcal": 530,
+      "protein": 18,
+      "carbs": 8,
+      "fat": 42
+    },
+    "chiasamen": {
+      "kcal": 490,
+      "protein": 17,
+      "carbs": 8,
+      "fat": 31
+    },
+    "hanfsamen": {
+      "kcal": 550,
+      "protein": 31,
+      "carbs": 5,
+      "fat": 44
+    },
+    "mohn": {
+      "kcal": 520,
+      "protein": 20,
+      "carbs": 5,
+      "fat": 42
+    },
+    "erdnussbutter": {
+      "kcal": 600,
+      "protein": 25,
+      "carbs": 12,
+      "fat": 50
+    },
+    "mandelmus": {
+      "kcal": 620,
+      "protein": 21,
+      "carbs": 7,
+      "fat": 55
+    },
+    "tahini": {
+      "kcal": 600,
+      "protein": 17,
+      "carbs": 10,
+      "fat": 54
+    },
+    "kokosraspeln": {
+      "kcal": 640,
+      "protein": 7,
+      "carbs": 7,
+      "fat": 63
+    },
+    "kokosmilch": {
+      "kcal": 180,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 18
+    },
+    "avocado": {
+      "kcal": 160,
+      "protein": 2,
+      "carbs": 2,
+      "fat": 15
+    },
+    "oliven": {
+      "kcal": 150,
+      "protein": 1,
+      "carbs": 1,
+      "fat": 15
+    },
+    "kartoffel": {
+      "kcal": 75,
+      "protein": 2,
+      "carbs": 15,
+      "fat": 0
+    },
+    "suesskartoffel": {
+      "kcal": 90,
+      "protein": 2,
+      "carbs": 20,
+      "fat": 0
+    },
+    "mais": {
+      "kcal": 90,
+      "protein": 3,
+      "carbs": 17,
+      "fat": 1
+    },
+    "zucker": {
+      "kcal": 400,
+      "protein": 0,
+      "carbs": 100,
+      "fat": 0
+    },
+    "brauner-zucker": {
+      "kcal": 390,
+      "protein": 0,
+      "carbs": 98,
+      "fat": 0
+    },
+    "puderzucker": {
+      "kcal": 400,
+      "protein": 0,
+      "carbs": 100,
+      "fat": 0
+    },
+    "traubenzucker": {
+      "kcal": 380,
+      "protein": 0,
+      "carbs": 95,
+      "fat": 0
+    },
+    "honig": {
+      "kcal": 300,
+      "protein": 0,
+      "carbs": 80,
+      "fat": 0
+    },
+    "ahornsirup": {
+      "kcal": 260,
+      "protein": 0,
+      "carbs": 67,
+      "fat": 0
+    },
+    "agavendicksaft": {
+      "kcal": 300,
+      "protein": 0,
+      "carbs": 76,
+      "fat": 0
+    },
+    "reissirup": {
+      "kcal": 310,
+      "protein": 0,
+      "carbs": 78,
+      "fat": 0
+    },
+    "zuckerruebensirup": {
+      "kcal": 300,
+      "protein": 1,
+      "carbs": 73,
+      "fat": 0
+    },
+    "marmelade": {
+      "kcal": 250,
+      "protein": 0,
+      "carbs": 60,
+      "fat": 0
+    },
+    "schokolade": {
+      "kcal": 540,
+      "protein": 7,
+      "carbs": 55,
+      "fat": 32
+    },
+    "zartbitterschokolade": {
+      "kcal": 550,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 37
+    },
+    "weisse-schokolade": {
+      "kcal": 550,
+      "protein": 6,
+      "carbs": 58,
+      "fat": 32
+    },
+    "kuvertuere": {
+      "kcal": 550,
+      "protein": 6,
+      "carbs": 50,
+      "fat": 35
+    },
+    "kakao": {
+      "kcal": 350,
+      "protein": 20,
+      "carbs": 15,
+      "fat": 22
+    },
+    "butterkekse": {
+      "kcal": 460,
+      "protein": 7,
+      "carbs": 72,
+      "fat": 16
+    },
+    "loeffelbiskuits": {
+      "kcal": 390,
+      "protein": 8,
+      "carbs": 78,
+      "fat": 5
+    },
+    "marzipan": {
+      "kcal": 450,
+      "protein": 8,
+      "carbs": 55,
+      "fat": 22
+    },
+    "eis-vanille": {
+      "kcal": 200,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 10
+    },
+    "mayonnaise": {
+      "kcal": 680,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 75
+    },
+    "ketchup": {
+      "kcal": 110,
+      "protein": 1,
+      "carbs": 25,
+      "fat": 0
+    },
+    "senf": {
+      "kcal": 90,
+      "protein": 5,
+      "carbs": 6,
+      "fat": 5
+    },
+    "pesto": {
+      "kcal": 450,
+      "protein": 6,
+      "carbs": 6,
+      "fat": 45
+    },
+    "sojasauce": {
+      "kcal": 60,
+      "protein": 6,
+      "carbs": 6,
+      "fat": 0
+    },
+    "miso": {
+      "kcal": 200,
+      "protein": 12,
+      "carbs": 25,
+      "fat": 6
+    },
+    "currypaste": {
+      "kcal": 150,
+      "protein": 3,
+      "carbs": 15,
+      "fat": 8
+    },
+    "erdnusssauce": {
+      "kcal": 400,
+      "protein": 12,
+      "carbs": 20,
+      "fat": 30
+    },
+    "sriracha": {
+      "kcal": 120,
+      "protein": 2,
+      "carbs": 25,
+      "fat": 1
+    },
+    "bbq-sauce": {
+      "kcal": 160,
+      "protein": 1,
+      "carbs": 38,
+      "fat": 0
+    },
+    "ajvar": {
+      "kcal": 100,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 6
+    },
+    "harissa": {
+      "kcal": 130,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 8
+    },
+    "passata": {
+      "kcal": 30,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 0
+    },
+    "tomaten-dose": {
+      "kcal": 25,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 0
+    },
+    "tomatenmark": {
+      "kcal": 80,
+      "protein": 4,
+      "carbs": 13,
+      "fat": 1
+    },
+    "getrocknete-tomaten": {
+      "kcal": 220,
+      "protein": 5,
+      "carbs": 20,
+      "fat": 12
+    },
+    "gemuesebruehe": {
+      "kcal": 5,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "huehnerbruehe": {
+      "kcal": 5,
+      "protein": 1,
+      "carbs": 0,
+      "fat": 0
+    },
+    "wasser": {
+      "kcal": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    },
+    "weisswein": {
+      "kcal": 80,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "rotwein": {
+      "kcal": 85,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 0
+    },
+    "bier": {
+      "kcal": 45,
+      "protein": 0,
+      "carbs": 4,
+      "fat": 0
+    },
+    "orangensaft": {
+      "kcal": 45,
+      "protein": 1,
+      "carbs": 10,
+      "fat": 0
+    },
+    "apfelmus": {
+      "kcal": 80,
+      "protein": 0,
+      "carbs": 19,
+      "fat": 0
+    },
+    "banane": {
+      "kcal": 90,
+      "protein": 1,
+      "carbs": 21,
+      "fat": 0
+    },
+    "apfel": {
+      "kcal": 55,
+      "protein": 0,
+      "carbs": 13,
+      "fat": 0
+    },
+    "mango": {
+      "kcal": 60,
+      "protein": 1,
+      "carbs": 14,
+      "fat": 0
+    },
+    "datteln": {
+      "kcal": 280,
+      "protein": 2,
+      "carbs": 66,
+      "fat": 0
+    },
+    "rosinen": {
+      "kcal": 300,
+      "protein": 3,
+      "carbs": 70,
+      "fat": 0
+    },
+    "feigen": {
+      "kcal": 250,
+      "protein": 3,
+      "carbs": 58,
+      "fat": 1
+    },
+    "hefeflocken": {
+      "kcal": 350,
+      "protein": 45,
+      "carbs": 20,
+      "fat": 5
+    },
+    "proteinpulver": {
+      "kcal": 380,
+      "protein": 75,
+      "carbs": 8,
+      "fat": 5
+    },
+    "flohsamenschalen": {
+      "kcal": 200,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 1
+    }
+  }
+}
