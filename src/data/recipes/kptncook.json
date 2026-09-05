@@ -7609,5 +7609,2580 @@
       "url": "https://mobile.kptncook.com/recipe/pinterest/saftiger-zitronenkuchen-mit-mohn/307866d7?lang=de",
       "title": "Saftiger Zitronenkuchen mit Mohn"
     }
+  },
+  {
+    "id": "i-anatolische-linsensuppe",
+    "title": "Anatolische Linsensuppe",
+    "description": "Rote Linsen mit Karotte, Tomate und Kreuzkümmel zu einer sämigen Suppe gekocht, abgerundet mit Minze und Zitrone.",
+    "emoji": "🍲",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 365,
+      "protein": 16,
+      "carbs": 45,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "chiliflocken",
+        "name": "(n) Chiliflocken",
+        "amount": 2,
+        "unit": "Prise"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "minze",
+        "name": "Minze, frisch",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.32,
+        "unit": ""
+      },
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, gestückelt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 700,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Würfle Zwiebel und Karotte fein und hacke den Knoblauch.",
+      "Dünste beides im Olivenöl 5 Minuten an, rühre Tomatenmark, Paprikapulver, Kreuzkümmel und Chiliflocken ein und röste alles 1 Minute.",
+      "Gib die abgespülten Linsen und die stückigen Tomaten dazu und gieß die Brühe an.",
+      "Lass die Suppe 20 Minuten köcheln, bis die Linsen zerfallen.",
+      "Püriere sie grob, schmecke mit Salz, Pfeffer und Zitronensaft ab und streu gehackte Minze darüber."
+    ],
+    "tags": [
+      "suppe",
+      "orientalisch"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Anatolian%20Lentil%20Soup/556a0a7f?lang=de",
+      "title": "Anatolische Linsensuppe"
+    }
+  },
+  {
+    "id": "i-asiatischer-rinder-gemuese-wok",
+    "title": "Asiatischer Rinder-Gemüse-Wok",
+    "description": "Rindersteak in Streifen mit Brokkoli, Paprika und Zuckerschoten im Wok, dazu Eiernudeln in Teriyaki-Orangen-Sauce.",
+    "emoji": "🥢",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 755,
+      "protein": 42,
+      "carbs": 81,
+      "fat": 27
+    },
+    "ingredients": [
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotten",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "zuckerschoten",
+        "name": "Zuckerschoten",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "rindersteak",
+        "name": "Rindersteak",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "nudeln",
+        "name": "Chinesische Eiernudeln",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 160,
+        "unit": "ml"
+      },
+      {
+        "key": "orange",
+        "name": "Orange",
+        "amount": 0.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide das Rindersteak in feine Streifen und mariniere es mit der Hälfte der Sojasauce.",
+      "Koche die Eiernudeln nach Packungsanleitung und schreck sie kalt ab.",
+      "Schneide Paprika, Karotten und Brokkoli in mundgerechte Stücke, hacke Schalotten, Knoblauch, Ingwer und Chili.",
+      "Brate das Fleisch im Sesamöl 2 Minuten scharf an und nimm es heraus.",
+      "Brate das Gemüse 5 Minuten, gib Schalotten, Knoblauch, Ingwer und Chili dazu.",
+      "Gieß Brühe, restliche Sojasauce, Teriyaki-Sauce, Orangensaft und Honig an und lass alles 3 Minuten einkochen.",
+      "Hebe Nudeln und Fleisch unter und schwenke alles durch."
+    ],
+    "tags": [
+      "wok",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Asian-Beef-%26-Vegetable-Stir-fry-/182793ea?lang=de",
+      "title": "Asiatischer Rinder-Gemüse-Wok"
+    }
+  },
+  {
+    "id": "i-blumenkohlreis-mit-kichererbsen-curry",
+    "title": "Blumenkohlreis mit Kichererbsen-Curry",
+    "description": "Cremiges Kichererbsen-Curry mit Kokosmilch und Spinat auf geriebenem Blumenkohlreis – leicht und trotzdem sättigend.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 800,
+      "protein": 17,
+      "carbs": 58,
+      "fat": 49
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Pflanzenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "key": "blumenkohl",
+        "name": "Blumenkohl",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat, frisch",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Reib den Blumenkohl grob zu reisgroßen Krümeln.",
+      "Würfle die Zwiebel, reib den Ingwer und schneide die Karotten in dünne Scheiben.",
+      "Brate Zwiebel, Ingwer und Karotten in der Hälfte des Öls 5 Minuten an und röste Currypulver und Chiliflocken 1 Minute mit.",
+      "Gib die Kichererbsen dazu, gieß Kokosmilch und Brühe an und lass alles 10 Minuten köcheln.",
+      "Brate den Blumenkohlreis im restlichen Öl 5 Minuten an und salze ihn.",
+      "Hebe den Spinat ins Curry, schmecke mit Limettensaft, Salz und Pfeffer ab und streu Koriander darüber."
+    ],
+    "tags": [
+      "curry",
+      "lowcarb"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Cauliflower-Rice-with-Chickpea-Curry/6d5fbeed?lang=de",
+      "title": "Blumenkohlreis mit Kichererbsen-Curry"
+    }
+  },
+  {
+    "id": "i-brokkoli-lachs-gratin",
+    "title": "Brokkoli-Lachs-Gratin",
+    "description": "Lachs und Brokkoli in einer Sahne-Ei-Masse mit Parmesan überbacken, getoppt mit gerösteten Kürbiskernen.",
+    "emoji": "🐟",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 605,
+      "protein": 30,
+      "carbs": 14,
+      "fat": 46
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "lachs",
+        "name": "Lachsfilets, tiefgefroren",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 0.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor und lass den Lachs auftauen.",
+      "Teile den Brokkoli in Röschen und gar sie 4 Minuten in Salzwasser vor.",
+      "Verquirl Ei, Sahne und die Hälfte des Parmesans und würze mit Salz, Pfeffer und Zitronenabrieb.",
+      "Verteile Brokkoli und gewürfelten Lachs in einer Auflaufform und gieß die Eiersahne darüber.",
+      "Streu den restlichen Parmesan darauf und back das Gratin 25 Minuten goldbraun.",
+      "Röste die Kürbiskerne ohne Fett und streu sie vor dem Servieren darüber."
+    ],
+    "tags": [
+      "auflauf",
+      "lowcarb"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Brokkoli-Lachs-Gratin/244c278b?lang=de",
+      "title": "Brokkoli-Lachs-Gratin"
+    }
+  },
+  {
+    "id": "i-brokkoli-rohkostsalat-mit-mandeln",
+    "title": "Brokkoli-Rohkostsalat mit Mandeln",
+    "description": "Roher Brokkoli fein geschnitten mit Apfel, Paprika und gerösteten Mandeln in einem süß-säuerlichen Dressing.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 515,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 31
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "balsamico",
+        "name": "heller Balsamicoessig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "agavendicksaft",
+        "name": "Agavendicksaft",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "apfel",
+        "name": "roter Apfel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide den Brokkoli samt zarter Stiele in sehr feine Stücke.",
+      "Würfle Apfel und Paprika klein.",
+      "Röste die Mandeln ohne Fett goldbraun und hacke sie grob.",
+      "Verrühre Olivenöl, hellen Balsamico, Agavendicksaft, Salz und Pfeffer zum Dressing.",
+      "Mische alles und lass den Salat 10 Minuten durchziehen, bevor du die Mandeln darüberstreust."
+    ],
+    "tags": [
+      "salat",
+      "ohne kochen"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/brokkoli-rohkostsalat-mit-mandeln/3c58d228?lang=de",
+      "title": "Brokkoli-Rohkostsalat mit Mandeln"
+    }
+  },
+  {
+    "id": "i-brokkoli-rosenkohl-salat-mit-honig-senf-dressing",
+    "title": "Brokkoli-Rosenkohl-Salat",
+    "description": "Fein gehobelter Rosenkohl und Brokkoli in einem Honig-Senf-Dressing mit Walnussöl, Mandeln und Parmesan.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 250,
+      "protein": 10,
+      "carbs": 23,
+      "fat": 10
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "apfel",
+        "name": "Apfelweinessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "rosenkohl",
+        "name": "Rosenkohl",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandeln, gehobelt",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "senf",
+        "name": "Dijon Senf",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Hobel den Rosenkohl in feine Streifen und schneide den Brokkoli in kleine Röschen.",
+      "Blanchiere den Brokkoli 2 Minuten und schreck ihn kalt ab.",
+      "Röste die Mandelblättchen ohne Fett goldbraun.",
+      "Verrühre Walnussöl, Apfelweinessig, Honig und Dijon-Senf zu einem Dressing und würze es.",
+      "Mische Rosenkohl, Brokkoli und Dressing und lass alles 10 Minuten ziehen.",
+      "Hobel den Parmesan darüber und streu die Mandeln darauf."
+    ],
+    "tags": [
+      "salat",
+      "winterlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Broccoli-Brussel-Sprouts-Salad-with-Honey-Mustard-Dressing/f6f7d18?lang=de",
+      "title": "Brokkoli-Rosenkohl-Salat mit Honig-Senf-Dressing"
+    }
+  },
+  {
+    "id": "i-bunter-salat-mit-gebackenem-feta",
+    "title": "Bunter Salat mit gebackenem Feta",
+    "description": "In Sesam panierter Feta aus dem Ofen auf buntem Salat mit Gurke, Paprika, Tomate und Granatapfelkernen.",
+    "emoji": "🧀",
+    "category": "salat",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 585,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "apfel",
+        "name": "Apfelweinessig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "essiggurken",
+        "name": "urke",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl, Typ 405",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "salat",
+        "name": "Romana Salatherz",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "sesam",
+        "name": "Sesamsaat",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Feta Käse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "senf",
+        "name": "Dijon Senf",
+        "amount": 1,
+        "unit": "TL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Wende den Feta erst in Mehl, dann im verquirlten Ei und zuletzt im Sesam.",
+      "Back ihn 15 Minuten, bis die Kruste goldbraun ist.",
+      "Schneide Gurke, Paprika und Cherrytomaten mundgerecht und zupf den Salat in Stücke.",
+      "Verrühre Olivenöl, Apfelweinessig, Dijon-Senf, Salz und Pfeffer zum Dressing.",
+      "Mische den Salat mit dem Dressing, setz den Feta darauf und streu Granatapfelkerne darüber."
+    ],
+    "tags": [
+      "salat",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Colourful-Salad-with-Baked-Feta/2b6d2054?lang=de",
+      "title": "Bunter Salat mit gebackenem Feta"
+    }
+  },
+  {
+    "id": "i-burger-bowl",
+    "title": "Burger Bowl",
+    "description": "Alles vom Cheeseburger in einer Schale: gewürztes Rinderhack, Cheddar, Gewürzgurken, Tomaten und Burgersauce auf Eisbergsalat.",
+    "emoji": "🍔",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 575,
+      "protein": 32,
+      "carbs": 14,
+      "fat": 41
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "eisbergsalat",
+        "name": "Eisbergsalat",
+        "amount": 0.4,
+        "unit": ""
+      },
+      {
+        "key": "hackfleisch",
+        "name": "Hackfleisch, Rind",
+        "amount": 226,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "gurke",
+        "name": "Gewürzgurken, im Glas",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "cheddar",
+        "name": "Cheddar Käse",
+        "amount": 56,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchpulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "key": "worcestersauce",
+        "name": "Worcester Sauce",
+        "amount": 2.5,
+        "unit": "ml"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "senf",
+        "name": "Dijon Senf",
+        "amount": 1,
+        "unit": "TL"
+      }
+    ],
+    "steps": [
+      "Verrühre Mayonnaise, Ketchup, Dijon-Senf und Worcestersauce zur Burgersauce.",
+      "Schneide Eisbergsalat in Streifen, halbiere die Cherrytomaten und würfle Gewürzgurken und rote Zwiebel.",
+      "Würze das Hackfleisch mit Knoblauchpulver, Salz und Pfeffer.",
+      "Brate es in einer heißen Pfanne 6 Minuten krümelig an.",
+      "Streu den Cheddar darüber und lass ihn bei kleiner Hitze schmelzen.",
+      "Richte Salat, Hack, Tomaten, Gurken und Zwiebeln in Schalen an und gib die Sauce darüber."
+    ],
+    "tags": [
+      "bowl",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Burger%20Bowl/7b97c6bc?lang=de",
+      "title": "Burger Bowl"
+    }
+  },
+  {
+    "id": "i-burger-mit-grillgemuese",
+    "title": "Burger mit Grillgemüse",
+    "description": "Selbst geformte Rinderpatties im Brötchen mit gegrillter Zucchini und Paprika sowie einer würzigen Tomatensauce.",
+    "emoji": "🍔",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 725,
+      "protein": 34,
+      "carbs": 55,
+      "fat": 38
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "hackfleisch",
+        "name": "Hackfleisch, Rind",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "chili",
+        "name": "Chilischote",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten, geschält",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "broetchen",
+        "name": "Brötchen, lose",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 0.66,
+        "unit": ""
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 0.5,
+        "unit": "TL"
+      }
+    ],
+    "steps": [
+      "Würze das Hackfleisch mit Salz, Pfeffer und gehackter Petersilie und forme zwei Patties.",
+      "Schneide Zucchini und Paprika in Scheiben und die Zwiebel in Ringe.",
+      "Brate das Gemüse im Olivenöl von beiden Seiten kräftig an und stell es beiseite.",
+      "Koche die geschälten Tomaten mit gehackter Chili und Zucker 8 Minuten zu einer Sauce ein und würze sie.",
+      "Brate die Patties 3 bis 4 Minuten pro Seite.",
+      "Röste die Brötchenhälften kurz an und belege sie mit Sauce, Patty, Grillgemüse und Zwiebeln."
+    ],
+    "tags": [
+      "burger",
+      "sommerlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Burger-Grilled-Vegetables/31f3de72?lang=de",
+      "title": "Burger mit Grillgemüse"
+    }
+  },
+  {
+    "id": "i-cremiges-auberginen-curry",
+    "title": "Cremiges Auberginen-Curry",
+    "description": "Auberginen schmoren in Kokosmilch mit Garam Masala und Ingwer, bis sie fast zerfallen.",
+    "emoji": "🍆",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 510,
+      "protein": 9,
+      "carbs": 30,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "kokosoel",
+        "name": "Kokosöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "garam-masala",
+        "name": "Garam Masala",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "ingwer",
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "key": "aubergine",
+        "name": "Auberginen",
+        "amount": 1.5,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Würfle die Auberginen, salze sie und lass sie 10 Minuten ziehen.",
+      "Würfle die Zwiebel und reib den Ingwer.",
+      "Brate die Auberginen im Kokosöl 8 Minuten kräftig an und nimm sie heraus.",
+      "Dünste Zwiebel und Ingwer an, rühre Tomatenmark, Garam Masala, Currypulver und Kreuzkümmel ein und röste alles 1 Minute.",
+      "Gieß die Kokosmilch an, gib die Auberginen zurück und lass alles 12 Minuten schmoren.",
+      "Schmecke mit Salz ab und streu frischen Koriander darüber."
+    ],
+    "tags": [
+      "curry",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Cremiges-Auberginen-Curry/7759fa10?lang=de",
+      "title": "Cremiges Auberginen-Curry"
+    }
+  },
+  {
+    "id": "i-eiersalat-sandwich",
+    "title": "Eiersalat-Sandwich",
+    "description": "Cremiger Eiersalat mit Schnittlauch und Senf auf frischem Brot, dazu Rucola, Tomate und Kresse.",
+    "emoji": "🥪",
+    "category": "salat",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 715,
+      "protein": 26,
+      "carbs": 58,
+      "fat": 39
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "key": "brot",
+        "name": "Brot",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "rucola",
+        "name": "Rucola",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "senf",
+        "name": "Dijon Senf",
+        "amount": 2,
+        "unit": "TL"
+      }
+    ],
+    "steps": [
+      "Koche die Eier 9 Minuten hart, schreck sie kalt ab und schäl sie.",
+      "Zerdrücke die Eier grob mit einer Gabel.",
+      "Rühre Mayonnaise, Dijon-Senf, gehackten Schnittlauch, Salz und Pfeffer unter.",
+      "Schneide die Tomaten in Scheiben und wasch Rucola und Kresse.",
+      "Röste die Brotscheiben kurz an.",
+      "Belege sie mit Rucola, Eiersalat und Tomate und streu die Kresse darüber."
+    ],
+    "tags": [
+      "schnell",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/eiersalat-sandwich/68b47f70?lang=de",
+      "title": "Eiersalat-Sandwich"
+    }
+  },
+  {
+    "id": "i-einfache-soba-nudel-pfanne",
+    "title": "Einfache Soba-Nudel-Pfanne",
+    "description": "Soba-Nudeln mit Pak Choi und Edamame in einer Sauce aus Mandelmus, Sojasauce und Limette – in elf Minuten fertig.",
+    "emoji": "🍜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 11,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 990,
+      "protein": 37,
+      "carbs": 109,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "buchweizen",
+        "name": "Buchweizen-Nudeln",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "key": "edamame",
+        "name": "Edamame, geschält",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Pak Choi",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "mandelmus",
+        "name": "Mandelmus",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "imette",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "key": "agavendicksaft",
+        "name": "Agavendicksaft",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesamsaat",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Soba-Nudeln nach Packungsanleitung und schreck sie kalt ab.",
+      "Verrühre Mandelmus, Sojasauce, Agavendicksaft, Limettensaft und drei Esslöffel Nudelwasser zu einer glatten Sauce.",
+      "Schneide den Pak Choi in Streifen und hacke Knoblauch und Frühlingszwiebeln.",
+      "Brate Knoblauch und Pak Choi im Sesamöl 3 Minuten scharf an.",
+      "Gib Edamame und Nudeln dazu, rühre die Sauce unter und erhitze alles kurz.",
+      "Streu Sesam und Frühlingszwiebelgrün darüber."
+    ],
+    "tags": [
+      "schnell",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Einfache%20Soba-Nudel-Pfanne/58310537?lang=de",
+      "title": "Einfache Soba-Nudel-Pfanne"
+    }
+  },
+  {
+    "id": "i-einfacher-kartoffel-auflauf",
+    "title": "Einfacher Kartoffel-Auflauf",
+    "description": "Dünn geschnittene Kartoffeln in Milch und Sahne mit Knoblauch gegart und mit Gruyère überbacken.",
+    "emoji": "🥔",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 530,
+      "protein": 13,
+      "carbs": 68,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "key": "sahne",
+        "name": "Kochsahne, 15% Fett",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "key": "milch",
+        "name": "Vollmilch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor und reib eine Auflaufform mit Knoblauch aus.",
+      "Schäl die Kartoffeln und hobel sie in dünne Scheiben.",
+      "Erhitze Milch und Sahne mit dem gehackten Knoblauch, Salz und Pfeffer.",
+      "Schichte die Kartoffeln in die Form und gieß die heiße Milch darüber.",
+      "Streu den geriebenen Gruyère darauf und back den Auflauf 40 Minuten goldbraun.",
+      "Lass ihn 5 Minuten ruhen und streu Schnittlauch darüber."
+    ],
+    "tags": [
+      "auflauf",
+      "klassiker"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Easy%20Potato%20Bake/cd172cd6?lang=de",
+      "title": "Einfacher Kartoffel-Auflauf"
+    }
+  },
+  {
+    "id": "i-erdnuss-huhn-mit-reisnudeln",
+    "title": "Erdnuss-Huhn mit Reisnudeln",
+    "description": "Hühnchen mit Paprika, Karotte und Porree in cremiger Erdnusssauce, dazu Reisnudeln und geröstete Erdnüsse.",
+    "emoji": "🥜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 19,
+      "carbs": 90,
+      "fat": 33
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "rote Zwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "sesamoel",
+        "name": "Sesamöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "lauch",
+        "name": "Porree",
+        "amount": 0.3,
+        "unit": ""
+      },
+      {
+        "key": "paprika",
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "erdnuesse",
+        "name": "Erdnüsse geröstet & ungesalzen",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "reisnudeln",
+        "name": "Reisnudeln",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche die Reisnudeln nach Packungsanleitung und schreck sie kalt ab.",
+      "Schneide das Hühnchen in Streifen, die Paprika und den Porree in Ringe und die Karotten in Scheiben.",
+      "Brate das Hühnchen im Sesamöl 6 Minuten goldbraun und nimm es heraus.",
+      "Brate das Gemüse mit Zwiebel und Knoblauch 5 Minuten an und röste das Currypulver mit.",
+      "Rühre Erdnussbutter und Sojasauce mit der Brühe glatt und gieß alles an.",
+      "Lass die Sauce 3 Minuten einkochen, gib Hühnchen und Nudeln dazu und streu die Erdnüsse darüber."
+    ],
+    "tags": [
+      "asiatisch",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/erdnuss-huhn-mit-reisnudeln/26da93a8?lang=de",
+      "title": "Erdnuss-Huhn mit Reisnudeln"
+    }
+  },
+  {
+    "id": "i-flammkuchen-mit-geroesteten-tomaten-karamellisierten-zwiebel",
+    "title": "Flammkuchen mit karamellisierten Zwiebeln",
+    "description": "Flammkuchen mit Crème fraîche, langsam karamellisierten Zwiebeln und gerösteten Cherrytomaten.",
+    "emoji": "🥧",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 660,
+      "protein": 19,
+      "carbs": 10,
+      "fat": 58
+    },
+    "ingredients": [
+      {
+        "key": "muskat",
+        "name": "(n) Muskatnuss, gemahlen",
+        "amount": 2,
+        "unit": "Prise"
+      },
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "emüsezwiebel",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "balsamico",
+        "name": "Aceto Balsamico",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 0.5,
+        "unit": "EL"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "ente",
+        "name": "Flammkuchenteig",
+        "amount": 170,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor.",
+      "Schneide die Gemüsezwiebel in feine Streifen und karamellisiere sie in der Butter bei mittlerer Hitze 15 Minuten.",
+      "Lösche mit dem Balsamico ab und würze mit Salz, Pfeffer und Muskat.",
+      "Verrühre die Crème fraîche mit Salz und Pfeffer und streich sie auf den ausgerollten Teig.",
+      "Belege ihn mit den Zwiebeln und den halbierten Cherrytomaten und beträufle alles mit Olivenöl.",
+      "Back den Flammkuchen 12 Minuten knusprig und garniere ihn mit Basilikum und Balsamico-Creme."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "besonders"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Roasted%20Tomato%20%26%20Caramelized%20Onion%20Tarte%20Flamb%C3%A9e/76010750?lang=de",
+      "title": "Flammkuchen mit gerösteten Tomaten & karamellisierten Zwiebeln"
+    }
+  },
+  {
+    "id": "i-flammkuchen-mit-kichererbsen-rosenkohl-bacon",
+    "title": "Flammkuchen mit Rosenkohl & Bacon",
+    "description": "Selbst gemachter Dinkelteig mit Crème fraîche, Rosenkohl, Kichererbsen, Bacon und Feta.",
+    "emoji": "🥧",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 965,
+      "protein": 27,
+      "carbs": 112,
+      "fat": 39
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "dinkelmehl",
+        "name": "Dinkelmehl, Typ 630",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "rosenkohl",
+        "name": "Rosenkohl",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "feta",
+        "name": "Feta Käse",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Zweig(e) Rosmarin, frisch",
+        "amount": 6,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Verknete Dinkelmehl, Wasser, Olivenöl und Salz zu einem glatten Teig und lass ihn 10 Minuten ruhen.",
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor.",
+      "Hobel den Rosenkohl in Streifen und mische ihn mit den Kichererbsen, Paprikapulver und Kreuzkümmel.",
+      "Roll den Teig dünn aus und bestreiche ihn mit Crème fraîche.",
+      "Belege ihn mit Rosenkohl, Kichererbsen, Bacon und zerbröseltem Feta.",
+      "Back den Flammkuchen 14 Minuten und streu Rosmarinnadeln darüber."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "winterlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/flammkuchen-mit-kichererbsen-rosenkohl-und-bacon/62ff7805?lang=de",
+      "title": "Flammkuchen mit Kichererbsen, Rosenkohl & Bacon"
+    }
+  },
+  {
+    "id": "i-flammkuchen-mit-pfifferlingen",
+    "title": "Flammkuchen mit Pfifferlingen",
+    "description": "Dünner Flammkuchen mit Crème fraîche, gebratenen Pfifferlingen, Cherrytomaten und Rosmarin.",
+    "emoji": "🍄",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 500,
+      "protein": 11,
+      "carbs": 69,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "rosmarin",
+        "name": "Zweig(e) Rosmarin, frisch",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl, Typ 405",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 120,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verknete Mehl, Wasser, Olivenöl und Salz zu einem Teig und lass ihn 10 Minuten ruhen.",
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor.",
+      "Putz die Pfifferlinge und brate sie 4 Minuten scharf an. Würze sie mit Salz und Pfeffer.",
+      "Roll den Teig dünn aus und bestreiche ihn mit der Crème fraîche.",
+      "Belege ihn mit Pilzen, halbierten Cherrytomaten und den Kräutern.",
+      "Back den Flammkuchen 12 Minuten knusprig und streu Frühlingszwiebelringe darüber."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "herbstlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Flammkuchen%20mit%20Pfifferlingen/6d3caf2f?lang=de",
+      "title": "Flammkuchen mit Pfifferlingen"
+    }
+  },
+  {
+    "id": "i-flammkuchen-mit-tomaten-rucola",
+    "title": "Flammkuchen mit Tomaten & Rucola",
+    "description": "Knuspriger Flammkuchen mit Schmand, Bacon und Tomaten, nach dem Backen mit Rucola und Parmesan belegt.",
+    "emoji": "🥧",
+    "category": "nachspeise",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 515,
+      "protein": 10,
+      "carbs": 50,
+      "fat": 29
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2.5,
+        "unit": "EL"
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "mehl",
+        "name": "Weizenmehl, Typ 405",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "rucola",
+        "name": "Rucola",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Verknete Mehl, Wasser, Olivenöl und Salz zu einem Teig und lass ihn 10 Minuten ruhen.",
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor.",
+      "Verrühre Schmand und Crème fraîche mit Salz, Pfeffer und Zitronenabrieb.",
+      "Roll den Teig dünn aus, bestreiche ihn mit der Creme und belege ihn mit Tomatenscheiben und Bacon.",
+      "Back den Flammkuchen 12 Minuten, bis der Rand knusprig ist.",
+      "Belege ihn mit Rucola und gehobeltem Parmesan."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "schnell"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Flammkuchen%20mit%20Tomaten%20%26%20Rucola/e4f19f?lang=de",
+      "title": "Flammkuchen mit Tomaten & Rucola"
+    }
+  },
+  {
+    "id": "i-flammkuchen-pfaennchen-mit-pilzen",
+    "title": "Flammkuchen-Pfännchen mit Pilzen",
+    "description": "Kleine Flammkuchen aus der Pfanne mit Schmand, Champignons und würzigem Höhlenkäse – in einer Viertelstunde fertig.",
+    "emoji": "🍄",
+    "category": "nachspeise",
+    "cuisine": "international",
+    "diet": [],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 145,
+      "protein": 7,
+      "carbs": 3,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "champignons",
+        "name": "braune Champignons",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "schnittlauch",
+        "name": "Schnittlauch, frisch",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "ente",
+        "name": "Flammkuchenteig",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Schneide die Champignons in Scheiben und den Käse in feine Streifen.",
+      "Verrühre den Schmand mit Paprikapulver, Salz und Pfeffer.",
+      "Teile den Flammkuchenteig in zwei kleine Fladen.",
+      "Leg einen Fladen in eine heiße Pfanne, bestreiche ihn mit Schmand und belege ihn mit Pilzen und Käse.",
+      "Back ihn zugedeckt 6 Minuten bei mittlerer Hitze, bis der Käse geschmolzen ist. Wiederhole es mit dem zweiten Fladen.",
+      "Streu Schnittlauch darüber."
+    ],
+    "tags": [
+      "schnell",
+      "snack"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Mini%20Raclette%20Tarts%20with%20Mushrooms/1588ae33?lang=de",
+      "title": "Flammkuchen-Pfännchen mit Pilzen"
+    }
+  },
+  {
+    "id": "i-gegrillter-brokkoli-mit-paprika-sauce",
+    "title": "Gegrillter Brokkoli mit Paprika-Sauce",
+    "description": "Brokkoli mit Röstaromen aus der Pfanne auf einer cremigen Sauce aus gerösteter Paprika und Cashewkernen.",
+    "emoji": "🥦",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 345,
+      "protein": 10,
+      "carbs": 39,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Cayennepfeffer",
+        "amount": 0.25,
+        "unit": "TL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "paprika",
+        "name": "geröstete Paprikas, im Glas",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel (Cumin), gemahlen",
+        "amount": 0.25,
+        "unit": "TL"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Halbiere die Brokkoliköpfe längs und gar sie 4 Minuten über Dampf vor.",
+      "Röste die Cashewkerne ohne Fett goldbraun.",
+      "Püriere geröstete Paprika, Cashewkerne, Knoblauch, Kreuzkümmel und Cayennepfeffer mit etwas Wasser zu einer glatten Sauce und salze sie.",
+      "Brate den Brokkoli im Olivenöl mit der Schnittfläche nach unten 6 Minuten, bis er dunkle Röststellen hat.",
+      "Halbiere die Cherrytomaten.",
+      "Streich die Sauce auf einen Teller, leg den Brokkoli darauf und verteile die Tomaten darüber."
+    ],
+    "tags": [
+      "lowcarb",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Gegrillter-Brokkoli-mit-Paprika-Sauce/358a5dc4?lang=de",
+      "title": "Gegrillter Brokkoli mit Paprika-Sauce"
+    }
+  },
+  {
+    "id": "i-gemuese-creme-suppe",
+    "title": "Gemüse-Creme-Suppe",
+    "description": "Blumenkohl, Brokkoli und Karotte werden mit Curry und Koriander zu einer samtigen Suppe püriert.",
+    "emoji": "🥣",
+    "category": "suppe",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 250,
+      "protein": 6,
+      "carbs": 27,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "creme-fraiche",
+        "name": "Crème fraîche",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie, frisch",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "currypulver",
+        "name": "Currypulver",
+        "amount": 2,
+        "unit": "TL"
+      },
+      {
+        "key": "koriander-gemahlen",
+        "name": "Koriander, gemahlen",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "key": "blumenkohl",
+        "name": "Blumenkohl",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Chiliflocken",
+        "amount": 0.25,
+        "unit": "TL"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Teile Blumenkohl und Brokkoli in Röschen und schneide die Karotten in Scheiben.",
+      "Röste Currypulver und gemahlenen Koriander kurz im Topf an.",
+      "Gib das Gemüse dazu und gieß die Brühe an.",
+      "Lass alles 15 Minuten köcheln, bis das Gemüse weich ist.",
+      "Püriere die Suppe fein und rühre die Crème fraîche unter.",
+      "Schmecke mit Salz, Pfeffer und Chiliflocken ab und streu Petersilie darüber."
+    ],
+    "tags": [
+      "suppe",
+      "cremig"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Vegetable-Cream-Soup/7fdf7626?lang=de",
+      "title": "Gemüse-Creme-Suppe"
+    }
+  },
+  {
+    "id": "i-gemuese-ragout-mit-kartoffel-stampf",
+    "title": "Gemüse-Ragout mit Kartoffelstampf",
+    "description": "Champignons und Karotten in dunkler Sojasoße-Balsamico-Sauce, dazu cremiger veganer Kartoffelstampf.",
+    "emoji": "🥘",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 685,
+      "protein": 19,
+      "carbs": 94,
+      "fat": 16
+    },
+    "ingredients": [
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "karotte",
+        "name": "Karotten",
+        "amount": 3,
+        "unit": ""
+      },
+      {
+        "key": "zwiebel",
+        "name": "Speisezwiebel",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasauce",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "balsamico",
+        "name": "Aceto Balsamico",
+        "amount": 3,
+        "unit": "EL"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "vegane Butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver, edelsüß",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schäl die Kartoffeln, schneide sie in Stücke und koche sie 20 Minuten in Salzwasser weich.",
+      "Viertle die Champignons, schneide die Karotten in Scheiben und würfle Zwiebel und Knoblauch.",
+      "Brate die Pilze im Olivenöl kräftig an, gib Zwiebel, Knoblauch und Karotten dazu und brate alles 5 Minuten.",
+      "Rühre Tomatenmark und Paprikapulver ein, lösche mit Sojasoße und Balsamico ab und gieß die Brühe an.",
+      "Lass das Ragout 12 Minuten einkochen und würze es mit Thymian, Salz und Pfeffer.",
+      "Stampfe die Kartoffeln mit veganer Butter und Haferdrink cremig und richte beides zusammen an."
+    ],
+    "tags": [
+      "deftig",
+      "vegan"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Gem%C3%BCse-Ragout%20mit%20Kartoffel-Stampf/f54486f5?lang=de",
+      "title": "Gemüse-Ragout mit Kartoffel-Stampf"
+    }
+  },
+  {
+    "id": "i-gemuesepfanne-ueberbacken-mit-eiern",
+    "title": "Gemüsepfanne mit Ei überbacken",
+    "description": "Kartoffeln, Champignons und Cherrytomaten aus der Pfanne, mit Eiern und Käse im Ofen überbacken.",
+    "emoji": "🍳",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 595,
+      "protein": 24,
+      "carbs": 51,
+      "fat": 27
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "champignons",
+        "name": "braune Champignons",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "eier",
+        "name": "Eier",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Cherrytomaten",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 200 °C Ober- und Unterhitze vor.",
+      "Würfle die Kartoffeln klein und brate sie in einer ofenfesten Pfanne im Olivenöl 12 Minuten goldbraun.",
+      "Gib die geviertelten Champignons und den gehackten Knoblauch dazu und brate sie 5 Minuten mit.",
+      "Hebe die halbierten Cherrytomaten und den Thymian unter und würze alles.",
+      "Verquirl die Eier, gieß sie über das Gemüse und streu den Käse darüber.",
+      "Überback die Pfanne 12 Minuten und streu Frühlingszwiebelringe darauf."
+    ],
+    "tags": [
+      "eine pfanne",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Gemuesepfanne-ueberbacken-mit-Eiern/15bc9d40?lang=de",
+      "title": "Gemüsepfanne überbacken mit Eiern"
+    }
+  },
+  {
+    "id": "i-gruenkohl-pilz-flammkuchen-mit-hackfleisch",
+    "title": "Grünkohl-Pilz-Flammkuchen",
+    "description": "Pizzateig dünn ausgerollt mit Ricotta, Grünkohl, Austernpilzen und Rinderhack.",
+    "emoji": "🥬",
+    "category": "nachspeise",
+    "cuisine": "deutsch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 795,
+      "protein": 30,
+      "carbs": 77,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "hackfleisch",
+        "name": "Hackfleisch, Rind",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "thymian",
+        "name": "Zweig(e) Thymian, frisch",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 6,
+        "unit": "TL"
+      },
+      {
+        "key": "griechischer-joghurt",
+        "name": "Griechischer Joghurt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "gruenkohl",
+        "name": "Grünkohl",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "pizzateig",
+        "name": "Pizzateig",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "pilze",
+        "name": "Austernpilze",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "ricotta",
+        "name": "Ricotta",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 250 °C Ober- und Unterhitze vor.",
+      "Zupf den Grünkohl von den Stielen und massier ihn mit etwas Olivenöl weich.",
+      "Brate das Hackfleisch mit den zerzupften Austernpilzen und dem Knoblauch 6 Minuten kräftig an und würze es.",
+      "Verrühre Ricotta und Joghurt mit Salz, Pfeffer und Thymian.",
+      "Roll den Teig dünn aus, bestreiche ihn mit der Ricottacreme und belege ihn mit Grünkohl, Pilzen und Hack.",
+      "Back den Flammkuchen 12 Minuten, bis der Rand knusprig ist."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "winterlich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/Gr%C3%BCnkohl-%20%26%20Pilz-Flammkuchen%20mit%20Hackfleisch/1d58cbe2?lang=de",
+      "title": "Grünkohl- & Pilz-Flammkuchen mit Hackfleisch"
+    }
+  },
+  {
+    "id": "i-huehnchen-kartoffel-spinat-pfanne-mit-zitrone",
+    "title": "Hühnchen-Kartoffel-Pfanne mit Zitrone",
+    "description": "Hühnchen mit knusprigen Kartoffeln, Spinat und einer leichten Zitronen-Sahnesauce aus einer Pfanne.",
+    "emoji": "🍋",
+    "category": "hauptgericht",
+    "cuisine": "international",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 555,
+      "protein": 8,
+      "carbs": 47,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "pfeffer",
+        "name": "Pfeffer",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Schlagsahne",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Blattspinat, frisch",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "Zehe"
+      }
+    ],
+    "steps": [
+      "Würfle die Kartoffeln und brate sie im Olivenöl 15 Minuten goldbraun.",
+      "Schneide das Hühnchen in Stücke, würze es und brate es in einer zweiten Pfanne 6 Minuten an.",
+      "Gib die gehackte Schalotte und den Knoblauch dazu und brate sie 2 Minuten mit.",
+      "Gieß die Sahne an und rühre Zitronensaft und -abrieb ein.",
+      "Hebe den Spinat unter, bis er zusammenfällt.",
+      "Mische die Kartoffeln unter und schmecke alles mit Salz und Pfeffer ab."
+    ],
+    "tags": [
+      "eine pfanne",
+      "proteinreich"
+    ],
+    "source": {
+      "site": "kptncook.com",
+      "url": "https://mobile.kptncook.com/recipe/pinterest/huehnchen-kartoffel-spinat-pfanne-mit-zitrone/634fd0e1?lang=de",
+      "title": "Hühnchen-Kartoffel-Spinat-Pfanne mit Zitrone"
+    }
   }
 ]
