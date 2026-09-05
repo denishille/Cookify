@@ -102,13 +102,16 @@ export default function App() {
     }
     pantrySet.toggle(key)
   }
+  /** Zutaten aus den geladenen Sets – die bleiben beim Aufräumen stehen. */
+  const setKeys = [...new Set(sets.filter((s) => loadedSets.includes(s.id)).flatMap((s) => s.keys))]
+  const extraKeys = [...pantrySet.set].filter((k) => !setKeys.includes(k))
+  /** „Alles entfernen“ räumt nur die von Hand ergänzten Zutaten weg – die geladenen Sets bleiben. */
   const clearPantry = () => {
     const before = [...pantrySet.set]
     if (before.length === 0) return
-    const loadedBefore = loadedSets
-    offerUndo(`${before.length} Zutaten entfernt`, () => { pantrySet.replace(before); setLoadedSets(loadedBefore) })
-    pantrySet.clear()
-    setLoadedSets([])
+    if (extraKeys.length === 0) return
+    offerUndo(`${extraKeys.length} ${extraKeys.length === 1 ? 'Zutat' : 'Zutaten'} entfernt`, () => pantrySet.replace(before))
+    pantrySet.replace(setKeys)
   }
   const saveSet = (next: PantrySet) => {
     const before = sets.find((x) => x.id === next.id)
@@ -311,7 +314,7 @@ export default function App() {
             <h1 className="h1">Was hab ich da?</h1>
             <div className="split">
               <div className="sticky">
-                <PantryPicker pantry={pantrySet.set} onToggle={togglePantry} onClear={clearPantry} diets={globalDiets} />
+                <PantryPicker pantry={pantrySet.set} onToggle={togglePantry} onClear={extraKeys.length > 0 ? clearPantry : undefined} diets={globalDiets} />
               </div>
               <div>
                 {pantrySet.set.size === 0 ? (

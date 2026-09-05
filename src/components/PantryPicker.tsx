@@ -6,7 +6,8 @@ import type { Diet } from '../types'
 interface Props {
   pantry: Set<string>
   onToggle: (key: string) => void
-  onClear: () => void
+  /** Fehlt, wenn es nichts zu entfernen gibt (Vorrat kommt nur aus dem geladenen Set). */
+  onClear?: () => void
   diets: readonly Diet[]
 }
 
@@ -23,7 +24,7 @@ export function PantryPicker({ pantry, onToggle, onClear, diets }: Props) {
       <div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
           <span className="eyebrow">Im Vorrat · {selected.length}</span>
-          {selected.length > 0 && <button className="btn sm" onClick={onClear}>Alles entfernen</button>}
+          {onClear && selected.length > 0 && <button className="btn sm" onClick={onClear}>Alles entfernen</button>}
         </div>
         <div className="pantry-selected">
           {selected.length === 0
