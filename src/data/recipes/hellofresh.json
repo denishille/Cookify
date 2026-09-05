@@ -1199,5 +1199,2568 @@
       "rating": 4.4,
       "ratingCount": 1454
     }
+  },
+  {
+    "title": "Teriyaki-Bowl mit Knoblauch-Brokkoli",
+    "description": "Jasminreis mit knusprigen Teriyaki-Streifen, Knoblauch-Brokkoli und schnell eingelegtem Rotkohl.",
+    "emoji": "🥢",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 660,
+      "protein": 28,
+      "carbs": 90,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "tofu",
+        "name": "Vegane Filetstreifen",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "reis",
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "rotkohl",
+        "name": "Rotkohl, geraspelt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Teriyakisoße",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "weissweinessig",
+        "name": "Weißweinessig",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zucker",
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide die Zwiebel in feine Streifen und mische sie mit dem Rotkohl, dem Essig, dem Zucker und einer Prise Salz. Lass alles ziehen.",
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten und lass ihn quellen.",
+      "Teile den Brokkoli in Röschen und hacke den Knoblauch fein.",
+      "Brate Brokkoli und Knoblauch in der Hälfte des Öls 5 bis 6 Minuten an und gib zwei Esslöffel Wasser dazu, damit er gart.",
+      "Brate die Filetstreifen im restlichen Öl 5 Minuten knusprig und lösche mit der Teriyakisoße ab.",
+      "Richte Reis, Brokkoli, Filetstreifen und den eingelegten Rotkohl in Schalen an."
+    ],
+    "tags": [
+      "bowl",
+      "schnell",
+      "asiatisch"
+    ],
+    "id": "i-bunte-bowl-mit-veganen-teriyaki-filetstreifen-eingelegtem-ro",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/bunte-bowl-mit-veganen-teriyaki-filetstreifen-6a3bedbf4e4b173945bdef03",
+      "title": "Bunte Bowl mit veganen Teriyaki-Filetstreifen eingelegtem Rotkohl und Knoblauch-Brokkoli",
+      "rating": 4.1,
+      "ratingCount": 1551
+    }
+  },
+  {
+    "title": "Halloumi-Gemüse-Spieße mit Kokos-Curry-Soße",
+    "description": "Bunte Spieße mit Halloumi, Paprika und Zucchini aus der Pfanne, dazu eine milde Kokos-Curry-Soße und Jasminreis.",
+    "emoji": "🍢",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 860,
+      "protein": 34,
+      "carbs": 82,
+      "fat": 44
+    },
+    "ingredients": [
+      {
+        "key": "halloumi",
+        "name": "Halloumi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "reis",
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "currypaste",
+        "name": "Gelbe Currypaste",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "key": "cashews",
+        "name": "Cashewkerne",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Wasch den Reis, bis das Wasser klar bleibt, und gar ihn in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Schneide Paprika, Zucchini und Halloumi in etwa 3 cm große Stücke.",
+      "Steck Paprika, Zucchini und Halloumi abwechselnd auf vier Holzspieße.",
+      "Brate die Spieße in der Hälfte des Öls rundherum 8 Minuten goldbraun.",
+      "Schwitze den weißen Teil der Frühlingszwiebel im restlichen Öl an, rühre die Currypaste 1 Minute mit und gieß die Kokosmilch an.",
+      "Lass die Soße 5 Minuten einkochen und schmecke sie mit Honig, Salz und Pfeffer ab.",
+      "Richte Reis und Spieße an, gib die Soße darüber und streu Cashewkerne und Frühlingszwiebelgrün darauf."
+    ],
+    "tags": [
+      "spieße",
+      "cremig",
+      "eine pfanne"
+    ],
+    "id": "i-bunte-halloumi-gemuese-spiesse-mit-kokos-curry-sosse-und-jas",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/bunte-halloumi-gemuse-spiesse-5f6b031112fab357e34b5024",
+      "title": "Bunte Halloumi-Gemüse-Spieße mit Kokos-Curry-Soße und Jasminreis",
+      "rating": 3.7,
+      "ratingCount": 651
+    }
+  },
+  {
+    "title": "Halloumi-Brot-Salat mit Kräutern",
+    "description": "Geröstete Fladenbrotwürfel mit Tomate, Gurke, Paprika und gebratenem Halloumi, dazu marinierte Zwiebelringe und viele frische Kräuter.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 44
+    },
+    "ingredients": [
+      {
+        "key": "halloumi",
+        "name": "Halloumi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "pita",
+        "name": "Mini-Fladenbrot",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Paprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum, Minze und Petersilie",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "balsamico",
+        "name": "Balsamicoessig",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Schneide die Zwiebel in sehr feine Streifen und mariniere sie mit dem Balsamico, einer Prise Zucker und Salz.",
+      "Würfle das Fladenbrot und röste es in einer Pfanne mit etwas Öl 5 Minuten knusprig.",
+      "Schneide Tomaten in Spalten, Gurke und Paprika in Würfel und hacke die Kräuter grob.",
+      "Schneide den Halloumi in Scheiben, mariniere ihn kurz mit Zitronensaft, gepresstem Knoblauch und Öl.",
+      "Brate den Halloumi ohne weiteres Fett 3 Minuten pro Seite goldbraun.",
+      "Mische Gemüse, Brotwürfel, Kräuter, Zwiebeln und Olivenöl und leg den Halloumi darauf."
+    ],
+    "tags": [
+      "salat",
+      "sommerlich",
+      "knusprig"
+    ],
+    "id": "i-bunter-halloumi-brot-salat-mit-marinierten-zwiebelringen-tom",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/bunter-halloumi-brot-salat-5cf77d63b818e3001711d261",
+      "title": "Bunter Halloumi-Brot-Salat mit marinierten Zwiebelringen, Tomate, Gurke & Paprika",
+      "rating": 4.1,
+      "ratingCount": 635
+    }
+  },
+  {
+    "title": "Ofengemüse mit Halloumi & Chimichurri",
+    "description": "Süßkartoffel und rote Zwiebeln aus dem Ofen mit gebratenem Halloumi, Avocado und selbst gemachtem Petersilien-Chimichurri.",
+    "emoji": "🧀",
+    "category": "hauptgericht",
+    "cuisine": "mediterran",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 36,
+      "carbs": 44,
+      "fat": 56
+    },
+    "ingredients": [
+      {
+        "key": "halloumi",
+        "name": "Halloumi",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "suesskartoffel",
+        "name": "Süßkartoffel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 0.5,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chilischote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Schäl die Süßkartoffel, würfle sie und schneide die Zwiebel in Spalten.",
+      "Verteile beides auf einem Blech, mische es mit Öl, Kreuzkümmel und Salz und röste es 20 Minuten.",
+      "Hacke Petersilie, Knoblauch und Chili sehr fein und rühre sie mit Olivenöl, Zitronensaft, Salz und Pfeffer zum Chimichurri an.",
+      "Schneide die Tomate in Spalten und die Avocado in Streifen.",
+      "Würfle den Halloumi und brate ihn in einer Pfanne rundum 5 Minuten goldbraun.",
+      "Mische Ofengemüse und Tomate, setz Halloumi und Avocado darauf und beträufle alles mit dem Chimichurri."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "proteinreich",
+      "sommerlich"
+    ],
+    "id": "i-buntes-ofengemuese-mit-halloumi-und-selbst-gemachtem-petersi",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/buntes-ofengemuse-mit-halloumi-5d961c6e9421962e5476e043",
+      "title": "Buntes Ofengemüse mit Halloumi und selbst gemachtem Petersilien-Chimichurri",
+      "rating": 4.4,
+      "ratingCount": 6053
+    }
+  },
+  {
+    "title": "Smashed Potatoes mit Kräuterschmand",
+    "description": "Gekochte Kartoffeln, platt gedrückt und mit Käse überbacken. Dazu Feldsalat mit Kürbiskernöl und ein Kräuterschmand.",
+    "emoji": "🥔",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 700,
+      "protein": 22,
+      "carbs": 58,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Käse-Mix, gerieben",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "feldsalat",
+        "name": "Feldsalat",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "radieschen",
+        "name": "Radieschen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "gurke",
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie und Schnittlauch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "senf",
+        "name": "Mittelscharfer Senf",
+        "amount": 5,
+        "unit": "ml"
+      },
+      {
+        "key": "honig",
+        "name": "Honig",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "essig",
+        "name": "Essig",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor und koche die Kartoffeln in Salzwasser 20 Minuten weich.",
+      "Viertle die Radieschen, entkerne die Gurke und schneide sie in Halbmonde. Schneide die Frühlingszwiebeln in Ringe.",
+      "Hacke die Kräuter fein und rühre sie mit dem Schmand, etwas Senf, Salz und Pfeffer glatt.",
+      "Verrühre Senf, Honig, Essig und Öl zum Dressing und mische es mit Feldsalat, Radieschen und Gurke.",
+      "Verteile die abgegossenen Kartoffeln auf einem Blech, drück jede flach, streu Käse darauf und back sie 15 Minuten.",
+      "Röste die Kürbiskerne in den letzten Minuten mit und richte Kartoffeln, Salat und Kräuterschmand an."
+    ],
+    "tags": [
+      "knusprig",
+      "aus dem ofen",
+      "vegetarisch"
+    ],
+    "id": "i-cheesy-smashed-potatoes-mit-steirischem-salat-und-kraeutersc",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cheesy-smashed-potatoes-6a3bed68f396cfc62f2abbd9",
+      "title": "Cheesy Smashed Potatoes mit steirischem Salat und Kräuterschmand",
+      "rating": 4.2,
+      "ratingCount": 14621
+    }
+  },
+  {
+    "title": "Mac & Cheese mit Schinken & Panko",
+    "description": "Muschelnudeln in cremiger Käsesoße mit Brokkoli und knusprigem Krustenschinken, obendrauf käsiges Panko.",
+    "emoji": "🧀",
+    "category": "hauptgericht",
+    "cuisine": "amerikanisch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 920,
+      "protein": 42,
+      "carbs": 92,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "nudeln",
+        "name": "Conchiglie",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "schinken",
+        "name": "Krustenschinken",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sahne",
+        "name": "Kochsahne",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "gouda",
+        "name": "Junger Gouda, gerieben",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Geriebener Hartkäse",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "panko",
+        "name": "Pankomehl",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": 2,
+        "unit": "Prise"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Schneide den Schinken in Streifen, würfle die Zwiebel und hacke den Knoblauch.",
+      "Brate den Schinken im Olivenöl knusprig aus und nimm ihn aus der Pfanne.",
+      "Koche die Conchiglie in Salzwasser bissfest und heb 100 ml Nudelwasser auf.",
+      "Brate die Brokkoliröschen in der Schinkenpfanne 4 Minuten an.",
+      "Schwitze Zwiebel und Knoblauch in der Butter an, gieß die Kochsahne an und lass den Gouda darin schmelzen. Würze mit Muskat, Salz und Pfeffer.",
+      "Röste das Panko mit dem Hartkäse in einer trockenen Pfanne goldbraun.",
+      "Mische Nudeln, Brokkoli und Soße, richte alles an und streu Schinken und Käse-Panko darüber."
+    ],
+    "tags": [
+      "cremig",
+      "deftig",
+      "familienessen"
+    ],
+    "id": "i-conchiglie-mac-cheese-style-mit-krustenschinken-und-kaesigem",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/conchiglie-mac-and-cheese-style-64a2aeac12826c25880e6568",
+      "title": "Conchiglie Mac & Cheese Style mit Krustenschinken und käsigem Panko",
+      "rating": 4.2,
+      "ratingCount": 744
+    }
+  },
+  {
+    "title": "Pasta mit Grünkohl & Ofenkürbis",
+    "description": "Winterliche Pasta mit Grünkohl in Sahnesoße, dazu rauchig gewürzter Hokkaido aus dem Ofen und geröstete Haselnüsse.",
+    "emoji": "🎃",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 880,
+      "protein": 28,
+      "carbs": 108,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "penne",
+        "name": "Conchiglie",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "gruenkohl",
+        "name": "Baby-Grünkohl",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbis",
+        "name": "Hokkaido-Kürbis",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Kochsahne",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Hartkäse, gerieben",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "key": "haselnuesse",
+        "name": "Haselnüsse",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "schalotte",
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Entkerne den Kürbis, schneide ihn in Spalten und röste ihn mit Öl, Paprikapulver und Salz 25 Minuten.",
+      "Röste die Haselnüsse ohne Fett goldbraun und hacke sie grob.",
+      "Koche die Pasta in Salzwasser bissfest und heb etwas Nudelwasser auf.",
+      "Brate Schalotte und Knoblauch in Öl an und gib den Grünkohl portionsweise dazu, bis er zusammenfällt.",
+      "Gieß die Kochsahne an, rühre Brühepulver und den Käse ein und lass die Soße 3 Minuten einkochen.",
+      "Mische die Pasta unter die Soße, richte sie mit dem Ofenkürbis an und streu die Haselnüsse darüber."
+    ],
+    "tags": [
+      "herbstlich",
+      "cremig",
+      "aus dem ofen"
+    ],
+    "id": "i-conchiglie-mit-baby-gruenkohl-smokey-kuerbis-und-haselnuesse",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/conchiglie-mit-baby-grunkohl-5fb3fa571ae688758b43e6eb",
+      "title": "Conchiglie mit Baby-Grünkohl smokey Kürbis und Haselnüssen",
+      "rating": 4.1,
+      "ratingCount": 1187
+    }
+  },
+  {
+    "title": "Cremige Fusilli in Pilz-Spinat-Soße",
+    "description": "Fusilli in einer sämigen Soße aus Champignons, Spinat und Sojasahne, dazu geschmolzene Kirschtomaten und Pinienkerne.",
+    "emoji": "🍄",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 26,
+      "carbs": 112,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "penne",
+        "name": "Fusilli",
+        "amount": 270,
+        "unit": "g"
+      },
+      {
+        "key": "champignons",
+        "name": "Champignons",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Babyspinat",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "cherrytomate",
+        "name": "Kirschtomaten",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "key": "hafersahne",
+        "name": "Soja-Kochcreme",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehen",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "pinienkerne",
+        "name": "Pinienkerne",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie und Thymian",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasoße",
+        "amount": 12,
+        "unit": "ml"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Geräuchertes Paprikapulver",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 2,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Würfle die Zwiebel, hacke den Knoblauch und viertle die Champignons.",
+      "Röste die Pinienkerne ohne Fett 2 Minuten und stell sie beiseite.",
+      "Brate die Kirschtomaten in derselben Pfanne mit etwas Öl 4 Minuten, bis sie aufplatzen, und nimm sie heraus.",
+      "Brate Zwiebel, Knoblauch und Pilze 6 Minuten kräftig an und würze mit Paprikapulver und Sojasoße.",
+      "Gieß die Soja-Kochcreme an, rühre Brühepulver und Spinat unter und lass alles 3 Minuten köcheln.",
+      "Koche die Fusilli bissfest, mische sie unter die Soße und richte sie mit Tomaten, Pinienkernen und Kräutern an."
+    ],
+    "tags": [
+      "cremig",
+      "vegan",
+      "feierabend"
+    ],
+    "id": "i-cremige-fusilli-in-pilz-spinat-sosse-mit-geschmolzenen-kirsc",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cremige-fusilli-in-pilz-spinat-sosse-64ad73633cfaca8d7803045e",
+      "title": "Cremige Fusilli in Pilz-Spinat Soße mit geschmolzenen Kirschtomaten und Pinienkernen",
+      "rating": 4,
+      "ratingCount": 747
+    }
+  },
+  {
+    "title": "Meerrettich-Spaghetti mit Räucherlachs",
+    "description": "Frische Spaghetti in Frischkäse-Meerrettich-Soße mit Räucherlachs und Dill, dazu Rucolasalat und geröstete Kürbiskerne.",
+    "emoji": "🐟",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 36,
+      "carbs": 88,
+      "fat": 30
+    },
+    "ingredients": [
+      {
+        "key": "spaghetti",
+        "name": "Frische Spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "raeucherlachs",
+        "name": "Räucherlachs",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "frischkaese",
+        "name": "Frischkäse",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "rettich",
+        "name": "Meerrettich",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "rucola",
+        "name": "Rucola",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "dill",
+        "name": "Dill",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Bring reichlich Salzwasser zum Kochen und röste die Kürbiskerne ohne Fett, bis sie duften.",
+      "Reib die Schale einer Zitronenhälfte ab und press den Saft aus.",
+      "Rühre aus Zitronensaft, Olivenöl, Salz, Pfeffer und einer Prise Zucker ein Dressing an und mische es mit dem Rucola.",
+      "Koche die Spaghetti bissfest und heb 100 ml Nudelwasser auf.",
+      "Reib den Meerrettich fein und rühre ihn mit Frischkäse, Zitronenabrieb und Nudelwasser zu einer cremigen Soße.",
+      "Schwenke die Spaghetti in der Soße, hebe Räucherlachsstreifen und Dill unter und richte den Salat mit den Kürbiskernen dazu an."
+    ],
+    "tags": [
+      "schnell",
+      "proteinreich",
+      "cremig"
+    ],
+    "id": "i-cremige-meerrettich-frischkaese-spaghetti-mit-raeucherlachs",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cremige-meerrettich-frischkase-spaghetti-55dc488ffd2cb998138b4567",
+      "title": "Cremige Meerrettich-Frischkäse-Spaghetti mit Räucherlachs, gerösteten Kürbiskernen und Rucola-Salat",
+      "rating": 3.5,
+      "ratingCount": 171
+    }
+  },
+  {
+    "title": "Petersilienwurzel-Porree-Suppe",
+    "description": "Samtige Suppe aus Petersilienwurzel, Porree und Kartoffel mit Schmand, dazu Kürbiskern-Pesto und Käse-Knoblauch-Baguette.",
+    "emoji": "🥣",
+    "category": "suppe",
+    "cuisine": "deutsch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 840,
+      "protein": 22,
+      "carbs": 78,
+      "fat": 48
+    },
+    "ingredients": [
+      {
+        "key": "pastinake",
+        "name": "Petersilienwurzel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "lauch",
+        "name": "Porree",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Mehligkochende Kartoffeln",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "schmand",
+        "name": "Schmand",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "baguette",
+        "name": "Steinofenbaguette",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "kaese-gerieben",
+        "name": "Hartkäse, gerieben",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "kuerbiskerne",
+        "name": "Kürbiskerne",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "key": "muskat",
+        "name": "Muskatnuss",
+        "amount": 2,
+        "unit": "Prise"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 3,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Back Baguette und die ungeschälte Knoblauchzehe 10 Minuten mit.",
+      "Röste die Kürbiskerne im Topf ohne Fett, bis sie duften, und stell sie beiseite.",
+      "Schäl Petersilienwurzel und Kartoffeln, würfle sie und schneide den Porree in Ringe. Wasch ihn gründlich.",
+      "Dünste das Gemüse in etwas Butter an, gieß 600 ml Wasser an, gib das Brühepulver dazu und koche alles 15 Minuten weich.",
+      "Hacke die Kürbiskerne grob und rühre sie mit gehackter Petersilie und Olivenöl zum Pesto.",
+      "Püriere die Suppe fein, rühre die Hälfte des Schmands ein und würze mit Muskat, Salz und Pfeffer.",
+      "Verrühre die restliche Butter mit dem gedrückten Ofenknoblauch und dem Käse, bestreiche das Baguette damit und überback es kurz. Serviere die Suppe mit Pesto und Brot."
+    ],
+    "tags": [
+      "suppe",
+      "cremig",
+      "winterlich"
+    ],
+    "id": "i-cremige-petersilienwurzel-porree-suppe-mit-kuerbiskern-pesto",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cremige-petersilienwurzel-porree-suppe-6006e5a31d87e40a43550d9c",
+      "title": "Cremige Petersilienwurzel-Porree-Suppe mit Kürbiskern-Pesto und Käse-Knoblauch-Baguette",
+      "rating": 4.3,
+      "ratingCount": 3531
+    }
+  },
+  {
+    "title": "Cremiges Tofu-Stir-Fry mit Brokkoli",
+    "description": "Chili-Tofu und Brokkoli aus dem Wok in Kokosmilch, dazu Basmatireis und ein knuspriges Kokos-Mandel-Topping.",
+    "emoji": "🥥",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 20,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 38,
+      "carbs": 88,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "tofu",
+        "name": "Süßer Chili-Grill-Tofu",
+        "amount": 360,
+        "unit": "g"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 180,
+        "unit": "ml"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sriracha",
+        "amount": 8,
+        "unit": "ml"
+      },
+      {
+        "key": "kokosraspeln",
+        "name": "Kokosraspeln",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Röste Kokosraspeln und Mandelblättchen ohne Fett goldbraun und stell sie beiseite.",
+      "Schneide die Zwiebel in Streifen, teile den Brokkoli in Röschen und würfle den Tofu.",
+      "Brate Zwiebel, Tofu und Brokkoli in heißem Öl 6 Minuten kräftig an und würze mit Paprikapulver.",
+      "Gieß die Kokosmilch an, rühre das Sriracha ein und lass alles 4 Minuten einkochen.",
+      "Richte Reis und Stir-Fry an und streu das Kokos-Mandel-Topping darüber."
+    ],
+    "tags": [
+      "schnell",
+      "wok",
+      "cremig"
+    ],
+    "id": "i-cremiges-stir-fry-mit-doppelt-tofu-dazu-knuspriges-kokos-man",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cremiges-stir-fry-mit-doppelt-tofu-6a3bee86bcb653703ca8996c",
+      "title": "Cremiges Stir-Fry mit doppelt Tofu dazu knuspriges Kokos-Mandel-Topping"
+    }
+  },
+  {
+    "title": "Thai-Erdnuss-Curry mit Zucchini",
+    "description": "Rotes Curry mit Kokosmilch und Erdnussbutter, dazu Zucchini, Buschbohnen und Shimeji-Pilze auf Basmatireis.",
+    "emoji": "🥜",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 20,
+      "carbs": 92,
+      "fat": 34
+    },
+    "ingredients": [
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "zucchini",
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "gruene-bohnen",
+        "name": "Buschbohnen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "shiitake",
+        "name": "Shimeji-Pilze",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 180,
+        "unit": "ml"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "currypaste",
+        "name": "Rote Currypaste",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "cashews",
+        "name": "Cashewkerne, geröstet",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Halbiere die Zucchini längs und würfle sie, schneide die Enden der Bohnen ab und zupf die Pilze auseinander.",
+      "Brate Zucchini, Bohnen und Pilze in heißem Öl 5 Minuten scharf an.",
+      "Rühre die Currypaste 1 Minute mit, gieß Kokosmilch und 50 ml Wasser an und rühre die Erdnussbutter ein.",
+      "Lass das Curry 6 Minuten zugedeckt köcheln, bis das Gemüse weich ist.",
+      "Schmecke mit Limettensaft, Salz und Pfeffer ab und richte es mit Reis, Cashewkernen und Koriander an."
+    ],
+    "tags": [
+      "curry",
+      "schnell",
+      "vegan"
+    ],
+    "id": "i-cremiges-thai-erdnuss-curry-mit-zucchini-shimeji-und-cashews",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cremiges-rote-thai-erdnuss-curry-699c83ab1d69a6906de555f9",
+      "title": "Cremiges Thai-Erdnuss-Curry mit Zucchini, Shimeji und Cashews",
+      "rating": 4.1,
+      "ratingCount": 365
+    }
+  },
+  {
+    "title": "Tikka Masala mit Kräuterseitlingen",
+    "description": "Cremiges Tikka Masala mit gebratenen Kräuterseitlingen und Kichererbsen auf Basmatireis, dazu geröstete Mandelblättchen.",
+    "emoji": "🍛",
+    "category": "hauptgericht",
+    "cuisine": "indisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 28,
+      "carbs": 102,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "pilze",
+        "name": "Kräuterseitlinge",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "kichererbsen",
+        "name": "Kichererbsen",
+        "amount": 390,
+        "unit": "g"
+      },
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "key": "currypaste",
+        "name": "Tikka-Masala-Paste",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "key": "mandeln",
+        "name": "Mandelblättchen",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Viertle die Kräuterseitlinge längs und schneide die Zwiebel in feine Streifen.",
+      "Röste die Mandelblättchen ohne Fett goldbraun und stell sie beiseite.",
+      "Brate Zwiebel und Pilze im Öl 6 Minuten kräftig an.",
+      "Gib abgespülte Kichererbsen, Tikka-Masala-Paste und Ketchup dazu und röste alles 1 Minute mit.",
+      "Gieß die Kokosmilch an und lass das Curry 6 Minuten einkochen. Schmecke mit Salz und Pfeffer ab.",
+      "Richte es mit Reis an und streu Mandeln und Petersilie darüber."
+    ],
+    "tags": [
+      "curry",
+      "schnell",
+      "vegan"
+    ],
+    "id": "i-cremiges-tikka-masala-curry-mit-kraeuterseitlingen-dazu-kich",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/cremiges-tikka-masala-curry-mit-krauterseitlingen-692d77d1114b735a006140a1",
+      "title": "Cremiges Tikka Masala Curry mit Kräuterseitlingen dazu Kichererbsen und Basmatireis",
+      "rating": 4.2,
+      "ratingCount": 2171
+    }
+  },
+  {
+    "title": "Crispy-Gnocchi-Salat mit Hähnchen & Bacon",
+    "description": "Knusprige Käse-Gnocchi auf Romanasalat mit Hähnchenstreifen, Bacon und einem Caesar-artigen Joghurt-Dressing.",
+    "emoji": "🥓",
+    "category": "salat",
+    "cuisine": "amerikanisch",
+    "diet": [],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 880,
+      "protein": 52,
+      "carbs": 72,
+      "fat": 42
+    },
+    "ingredients": [
+      {
+        "key": "gnocchi",
+        "name": "Frische Gnocchi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "haehnchenbrust",
+        "name": "Hähnchenbruststreifen",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "key": "speck",
+        "name": "Bacon",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "key": "salat",
+        "name": "Salatherz (Romana)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Hartkäse, gerieben",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "key": "joghurt",
+        "name": "Naturjoghurt",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "worcestersauce",
+        "name": "Worcestersauce",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "senf",
+        "name": "Mittelscharfer Senf",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Mische die Gnocchi mit der Hälfte des Käses und back sie im Ofen oder in der Heißluftfritteuse bei 200 °C 12 Minuten knusprig.",
+      "Schneide die Tomaten in Spalten und den Romanasalat in breite Streifen.",
+      "Brate den Bacon ohne Fett knusprig aus und lass ihn abtropfen.",
+      "Rühre aus restlichem Käse, Joghurt, Mayonnaise, Senf, Worcestersauce und Zitronensaft ein Dressing an.",
+      "Brate die Hähnchenstreifen im Öl 6 Minuten goldbraun und würze sie.",
+      "Mische Salat und Tomaten mit dem Dressing und richte Gnocchi, Hähnchen und zerbröselten Bacon darauf an."
+    ],
+    "tags": [
+      "salat",
+      "proteinreich",
+      "schnell"
+    ],
+    "id": "i-crispy-gnocchi-bacon-salad-mit-extra-bio-haehnchen-zubereitu",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/crispy-gnocchi-blt-salad-mit-bacon-und-extra-bio-hahnchenbrust-692962c6d4fb034401634f5e",
+      "title": "Crispy Gnocchi & Bacon Salad mit extra Bio-Hähnchen Zubereitung in Air-Fryer oder Pfanne",
+      "rating": 4.6,
+      "ratingCount": 120
+    }
+  },
+  {
+    "title": "Buntbarsch in Spinat-Lauch-Soße",
+    "description": "Fischfilet im Ofen auf cremiger Spinat-Lauch-Soße mit Käse-Semmelbrösel-Kruste, dazu knusprige Kartoffelspalten.",
+    "emoji": "🐟",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [],
+    "timeMinutes": 30,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 720,
+      "protein": 52,
+      "carbs": 52,
+      "fat": 32
+    },
+    "ingredients": [
+      {
+        "key": "seelachs",
+        "name": "Buntbarschfilet",
+        "amount": 480,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Babyspinat",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "lauch",
+        "name": "Porree",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "sahne",
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "semmelbroesel",
+        "name": "Semmelbrösel",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Hartkäse, gerieben",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1.5,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor. Schneide die Kartoffeln in Spalten, mische sie mit Öl und Salz und back sie 25 Minuten.",
+      "Viertle den Porree längs, schneide ihn in Streifen und wasch ihn gründlich.",
+      "Mische Semmelbrösel und Hartkäse.",
+      "Dünste den Porree in etwas Öl 5 Minuten, gieß Kochsahne und 50 ml Wasser an und rühre das Brühepulver ein.",
+      "Gib den Spinat portionsweise dazu, bis er zusammenfällt, und füll alles in eine Auflaufform.",
+      "Würze den Fisch, leg ihn auf die Soße, streu die Käsebrösel darüber und back alles 12 Minuten.",
+      "Richte Fisch und Soße mit den Kartoffelspalten an."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "proteinreich",
+      "cremig"
+    ],
+    "id": "i-doppelt-buntbarsch-aus-dem-ofen-in-spinat-lauch-sosse-dazu-k",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/seehecht-in-spinat-lauch-sosse-aus-dem-ofen-and-doppelt-seehecht-69e8819a4af8f3547a65a866",
+      "title": "Doppelt Buntbarsch aus dem Ofen in Spinat-Lauch-Soße, dazu knusprige Kartoffelspalten"
+    }
+  },
+  {
+    "title": "Putenbrust auf Spaghetti Aglio e Olio",
+    "description": "Im Ofen gegarte Putenbrust auf Knoblauch-Spaghetti mit Paprika-Tomaten-Soße und frischer Petersilie.",
+    "emoji": "🍝",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 860,
+      "protein": 68,
+      "carbs": 108,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "putenbrust",
+        "name": "Putenbrust",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "spaghetti",
+        "name": "Spaghetti",
+        "amount": 270,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "Paprika",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "passata",
+        "name": "Tomatensugo",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "chiliflocken",
+        "name": "Milder Chili-Mix",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor und würze die Putenbrust von beiden Seiten.",
+      "Brate sie in Olivenöl rundum 3 Minuten an und gar sie im Ofen 15 Minuten fertig.",
+      "Schneide Paprika in Streifen und die Zwiebel in feine Spalten. Brate beides in der Pfanne 6 Minuten an.",
+      "Gieß das Tomatensugo an, gib 50 ml Wasser dazu und lass die Soße 5 Minuten einkochen.",
+      "Koche die Spaghetti bissfest und schwenke sie mit Olivenöl, gehacktem Knoblauch und dem Chili-Mix.",
+      "Schneide die Putenbrust in Scheiben und richte sie mit Spaghetti, Soße und Petersilie an."
+    ],
+    "tags": [
+      "proteinreich",
+      "aus dem ofen",
+      "italienisch"
+    ],
+    "id": "i-doppelt-putenbrust-aus-dem-ofen-auf-spaghetti-aglio-e-olio-i",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/doppelt-putenbrust-aus-dem-ofen-6a3beda5bcb653703ca893a2",
+      "title": "Doppelt Putenbrust aus dem Ofen auf Spaghetti Aglio e Olio in Paprika-Tomaten-Soße",
+      "rating": 4.3,
+      "ratingCount": 11
+    }
+  },
+  {
+    "title": "Vegane Filetstücke in Orangensauce",
+    "description": "Knusprige pflanzliche Filetstücke in süß-scharfer Orangensauce mit Stir-Fry-Gemüse, Cashews und Thai-Basilikum auf Jasminreis.",
+    "emoji": "🍊",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 15,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 40,
+      "carbs": 104,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "key": "tofu",
+        "name": "Vegane Filetstücke",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "key": "reis",
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "orange",
+        "name": "Orange",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "ingwer",
+        "name": "Knoblauch-Ingwer-Zitronengras-Paste",
+        "amount": 22,
+        "unit": "g"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sweet-Chili-Soße",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Ketjap Manis",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "cashews",
+        "name": "Cashewkerne, geröstet",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "basilikum",
+        "name": "Thai-Basilikum",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "paprika",
+        "name": "Stir-Fry-Gemüsemix",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Koche den Reis in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Press die Orange aus und verrühre den Saft mit Ketjap Manis, Sweet-Chili-Soße und der Würzpaste.",
+      "Brate die Filetstücke in heißem Öl 5 Minuten rundum knusprig und nimm sie heraus.",
+      "Brate das Stir-Fry-Gemüse in derselben Pfanne 4 Minuten scharf an.",
+      "Gieß die Sauce an, lass sie 2 Minuten andicken und schwenke die Filetstücke darin.",
+      "Richte alles auf dem Reis an und streu Cashews, Sesam und Thai-Basilikum darüber."
+    ],
+    "tags": [
+      "schnell",
+      "vegan",
+      "asiatisch"
+    ],
+    "id": "i-doppelt-vegane-filetstuecke-in-orange-sauce-bis-zu-100-reise",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/doppelt-vegane-filetstucke-in-orange-sauce-6a0184c094f418a13b2aca15",
+      "title": "Doppelt vegane Filetstücke in Orange Sauce Bis zu 100 € Reisebudget gewinnen und losreisen"
+    }
+  },
+  {
+    "title": "Schweinefilet im Sesammantel",
+    "description": "Schweinefilet in Sesamkruste aus dem Ofen, dazu ein cremiges Brokkoli-Gratin mit Panko und knusprige Kartoffelecken.",
+    "emoji": "🥩",
+    "category": "hauptgericht",
+    "cuisine": "deutsch",
+    "diet": [],
+    "timeMinutes": 40,
+    "difficulty": "mittel",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 820,
+      "protein": 68,
+      "carbs": 52,
+      "fat": 36
+    },
+    "ingredients": [
+      {
+        "key": "schweinefleisch",
+        "name": "Schweinefilet",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "key": "kartoffel",
+        "name": "Kartoffeln (Drillinge)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "sahne",
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "panko",
+        "name": "Pankomehl",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "sesam",
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Paprikapulver",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Heize den Ofen auf 220 °C Ober- und Unterhitze vor und teile den Brokkoli in Röschen.",
+      "Verrühre Kochsahne, Brühepulver und 50 ml Wasser.",
+      "Halbiere die Kartoffeln, mische sie mit Öl, Paprikapulver und Salz und back sie 30 Minuten.",
+      "Gib den Brokkoli in eine Auflaufform, übergieß ihn mit der Sahne, streu Panko darüber und back ihn 20 Minuten mit.",
+      "Wende die gewürzten Schweinefilets im Sesam und brate sie rundum 4 Minuten scharf an.",
+      "Gar sie im Ofen 10 Minuten fertig, lass sie kurz ruhen und schneide sie in Scheiben.",
+      "Richte Filet, Gratin und Kartoffeln an und streu Petersilie darüber."
+    ],
+    "tags": [
+      "aus dem ofen",
+      "proteinreich",
+      "sonntagsessen"
+    ],
+    "id": "i-doppeltes-schweinefilet-im-sesammantel-dazu-brokkoli-gratin",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/doppeltes-schweinefilet-im-sesammantel-6a575fb43cd318353e2a37f8",
+      "title": "Doppeltes Schweinefilet im Sesammantel dazu Brokkoli-Gratin und Kartoffelecken"
+    }
+  },
+  {
+    "title": "Gnocchi-Pfanne mit Walnuss-Frischkäse-Pesto",
+    "description": "Knusprig gebratene Gnocchi mit Spinat und einem cremigen Pesto aus Walnüssen, Basilikum, Thymian und Frischkäse.",
+    "emoji": "🌰",
+    "category": "hauptgericht",
+    "cuisine": "italienisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 30,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 24,
+      "carbs": 82,
+      "fat": 38
+    },
+    "ingredients": [
+      {
+        "key": "gnocchi",
+        "name": "Frische Gnocchi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "key": "spinat",
+        "name": "Spinat",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "walnuesse",
+        "name": "Walnüsse",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "frischkaese",
+        "name": "Frischkäse",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "key": "parmesan",
+        "name": "Parmesan",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "basilikum",
+        "name": "Basilikum",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "thymian",
+        "name": "Thymian",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "gemuesebruehe",
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Hacke die Zwiebel fein und wasch den Spinat.",
+      "Püriere Parmesan, Knoblauch, Walnüsse, Basilikum, Thymian und Olivenöl zu einem Pesto.",
+      "Rühre das Pesto mit dem Frischkäse glatt und würze es mit Salz und Pfeffer.",
+      "Brate die Gnocchi in etwas Öl 6 bis 8 Minuten knusprig und nimm sie heraus.",
+      "Dünste die Zwiebel 2 Minuten glasig, gib den Spinat dazu und lass ihn zusammenfallen.",
+      "Rühre das Pesto mit einem Schuss Wasser unter, gib die Gnocchi zurück und schwenke alles durch."
+    ],
+    "tags": [
+      "schnell",
+      "cremig",
+      "eine pfanne"
+    ],
+    "id": "i-entspannte-gnocchi-pfanne-mit-walnuss-frischkaese-pesto-und",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/entspannte-gnocchi-pfanne-mit-walnuss-frischkase-pesto-5667f25c4dab7132788b4567",
+      "title": "Entspannte Gnocchi-Pfanne mit Walnuss-Frischkäse-Pesto und Spinat",
+      "rating": 4,
+      "ratingCount": 1228
+    }
+  },
+  {
+    "title": "Erdnuss-Kokos-Bowl mit Pak Choi",
+    "description": "Basmatireis mit Brokkoli, Pak Choi und Paprika in einer Sauce aus Kokosmilch, Erdnussbutter und Limette.",
+    "emoji": "🥥",
+    "category": "hauptgericht",
+    "cuisine": "asiatisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 35,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 690,
+      "protein": 18,
+      "carbs": 92,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "basmatireis",
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "pak-choi",
+        "name": "Baby Pak Choi",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "brokkoli",
+        "name": "Brokkoli",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprika",
+        "name": "Rote Spitzpaprika",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "kokosmilch",
+        "name": "Kokosmilch",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "key": "erdnussbutter",
+        "name": "Erdnussbutter",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "key": "sojasauce",
+        "name": "Sojasoße",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chilischote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "pflanzenoel",
+        "name": "Öl",
+        "amount": 1,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Wasch den Reis und gar ihn in der doppelten Menge Salzwasser zugedeckt 12 Minuten.",
+      "Teile den Brokkoli in Röschen, halbiere den Pak Choi und schneide die Paprika in Streifen.",
+      "Verrühre Kokosmilch, Erdnussbutter, Sojasoße und den Saft einer halben Limette in einem kleinen Topf und erwärme alles.",
+      "Brate Knoblauch, Chili und Frühlingszwiebel in Öl an, gib Brokkoli und Paprika dazu und brate sie 4 Minuten.",
+      "Gieß 150 ml Wasser an und lass das Gemüse zugedeckt 5 Minuten garen. Gib den Pak Choi die letzten 2 Minuten dazu.",
+      "Rühre die Erdnusssauce unter und richte alles mit dem Reis und Limettenabrieb an."
+    ],
+    "tags": [
+      "bowl",
+      "cremig",
+      "vegan"
+    ],
+    "id": "i-erdnuss-kokos-bowl-mit-pak-choi-mindestens-20-kalorien-im-ve",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/erdnuss-kokos-bowl-mit-pak-choi-5f5e070b5432d82ab30f6849",
+      "title": "Erdnuss-Kokos-Bowl mit Pak Choi mindestens -20% Kalorien im Vergleich zu den anderen Rezepten",
+      "rating": 4.3,
+      "ratingCount": 1189
+    }
+  },
+  {
+    "title": "Halloumi mit Blumenkohl-Tabbouleh",
+    "description": "Gewürzter Halloumi aus der Pfanne auf einem Tabbouleh aus rohem Blumenkohl, Tomate und Kräutern, dazu Minzjoghurt.",
+    "emoji": "🥗",
+    "category": "salat",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch"
+    ],
+    "timeMinutes": 40,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 620,
+      "protein": 36,
+      "carbs": 24,
+      "fat": 44
+    },
+    "ingredients": [
+      {
+        "key": "halloumi",
+        "name": "Halloumi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "blumenkohl",
+        "name": "Blumenkohl",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "joghurt",
+        "name": "Joghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "key": "minze",
+        "name": "Minze",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "petersilie",
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "ras-el-hanout",
+        "name": "Baharat-Gewürzmischung",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone",
+        "amount": 0.5,
+        "unit": "Stück"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "salz",
+        "name": "Salz und Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Reib den Blumenkohl grob oder zerkleinere ihn im Mixer zu Couscous-großen Krümeln.",
+      "Schneide den Halloumi in Scheiben und mariniere ihn mit Öl und der Hälfte der Gewürzmischung.",
+      "Würfle die Tomaten fein und schneide die Frühlingszwiebel in Ringe.",
+      "Hacke Minze und Petersilie. Rühre die Hälfte der Minze mit dem Joghurt, Zitronensaft, Salz und Pfeffer glatt.",
+      "Mische Blumenkohl, Tomaten, Frühlingszwiebel, restliche Kräuter, Zitronensaft, Öl und die übrige Gewürzmischung zum Tabbouleh.",
+      "Brate den Halloumi ohne weiteres Fett 3 Minuten pro Seite goldbraun und richte ihn auf dem Tabbouleh mit dem Minzjoghurt an."
+    ],
+    "tags": [
+      "salat",
+      "lowcarb",
+      "orientalisch"
+    ],
+    "id": "i-exotisch-gewuerzter-halloumi-mit-tabbouleh-aus-blumenkohl-un",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/exotisch-gewurzter-halloumi-5c3737a0c445fa326059c3c2",
+      "title": "Exotisch gewürzter Halloumi mit Tabbouleh aus Blumenkohl und Minzjoghurt",
+      "rating": 4.2,
+      "ratingCount": 1770
+    }
+  },
+  {
+    "title": "Fajita-Tacos mit Austernpilzen",
+    "description": "Weiche Tortillas mit gebratenen Austernpilzen, schwarzen Bohnen, Salat und selbst gemachter Salsa Roja.",
+    "emoji": "🌮",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 760,
+      "protein": 26,
+      "carbs": 98,
+      "fat": 26
+    },
+    "ingredients": [
+      {
+        "key": "tortillas",
+        "name": "Weizentortillas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "pilze",
+        "name": "Austernpilze",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "schwarze-bohnen",
+        "name": "Schwarze Bohnen",
+        "amount": 380,
+        "unit": "g"
+      },
+      {
+        "key": "salat",
+        "name": "Salatherz (Romana)",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomaten",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "chili",
+        "name": "Jalapeño",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Fajita-Gewürzmischung",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Schneide die Zwiebeln in feine Streifen, hacke Knoblauch und Jalapeño und würfle die Tomaten.",
+      "Brate die Hälfte der Zwiebeln mit Knoblauch, Jalapeño und Tomaten in Olivenöl 8 Minuten und püriere alles zur Salsa. Würze mit Salz, Zucker und Limettensaft.",
+      "Hebe drei Viertel des gehackten Korianders unter die Salsa.",
+      "Erwärme die Tortillas in einer trockenen Pfanne je 1 Minute pro Seite.",
+      "Brate Austernpilze und restliche Zwiebeln kräftig an, würze mit der Fajita-Mischung und gib die abgespülten Bohnen dazu.",
+      "Belege die Tortillas mit Salatstreifen und Füllung und gib Salsa und Koriander darüber."
+    ],
+    "tags": [
+      "tacos",
+      "mexikanisch",
+      "vegan"
+    ],
+    "id": "i-fajita-tacos-mit-selbst-gemachter-salsa-roja-austernpilzen-s",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/salsa-roja-vegane-fajita-mushroom-tacos-6655c5963c6f67065179f4c1",
+      "title": "Fajita-Tacos mit selbst gemachter Salsa Roja Austernpilzen, schwarzen Bohnen und Salat",
+      "rating": 3.6,
+      "ratingCount": 1245
+    }
+  },
+  {
+    "title": "Fajita-Tacos mit veganen Filetstreifen",
+    "description": "Tacos mit knusprigen pflanzlichen Filetstreifen, Coleslaw, schwarzen Bohnen und selbst gemachter Salsa Roja.",
+    "emoji": "🌮",
+    "category": "hauptgericht",
+    "cuisine": "mexikanisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 25,
+    "difficulty": "einfach",
+    "servings": 2,
+    "nutrition": {
+      "kcal": 780,
+      "protein": 34,
+      "carbs": 96,
+      "fat": 24
+    },
+    "ingredients": [
+      {
+        "key": "tortillas",
+        "name": "Weizentortillas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "tofu",
+        "name": "Vegane Filetstreifen",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "key": "schwarze-bohnen",
+        "name": "Schwarze Bohnen",
+        "amount": 390,
+        "unit": "g"
+      },
+      {
+        "key": "weisskohl",
+        "name": "Coleslaw-Mix",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "key": "tomate",
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Zehe"
+      },
+      {
+        "key": "chili",
+        "name": "Rote Chilischote",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "koriander",
+        "name": "Koriander",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "key": "limette",
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "paprikapulver",
+        "name": "Fajita-Gewürzmischung",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      }
+    ],
+    "steps": [
+      "Schneide die Zwiebel in Streifen, hacke Knoblauch und Chili und würfle die Tomate.",
+      "Brate die halbe Zwiebel mit Knoblauch, Chili und Tomate in Olivenöl 8 Minuten, püriere alles und würze die Salsa mit Limettensaft, Salz und Zucker.",
+      "Hebe den gehackten Koriander unter die Salsa.",
+      "Erwärme die Tortillas in einer trockenen Pfanne kurz von beiden Seiten.",
+      "Brate die Filetstreifen mit der restlichen Zwiebel und der Fajita-Mischung 5 Minuten knusprig und gib die abgespülten Bohnen dazu.",
+      "Belege die Tacos mit Coleslaw und Füllung und gib Salsa und Limette darüber."
+    ],
+    "tags": [
+      "tacos",
+      "vegan",
+      "schnell"
+    ],
+    "id": "i-fajita-tacos-mit-veganen-filetstreifen-dazu-selbst-gemachte",
+    "source": {
+      "site": "hellofresh.de",
+      "url": "https://www.hellofresh.de/recipes/fajita-tacos-mit-veganen-streifen-and-doppel-filet-6a01843994f418a13b2ac444",
+      "title": "Fajita-Tacos mit veganen Filetstreifen dazu selbst gemachte Salsa Roja",
+      "rating": 3.9,
+      "ratingCount": 1392
+    }
   }
 ]
