@@ -1,0 +1,31 @@
+{
+  "title": "Pilz-Spinat-Quesadilla",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "80 g Cheddar Käse",
+    "1 EL Olivenöl",
+    "0.5 Speisezwiebel",
+    "2 Wraps",
+    "100 g braune Champignons",
+    "100 g Blattspinat, frisch",
+    "0.66 Mozzarella",
+    "1 Zehe(n) Knoblauch"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Knoblauch schälen und fein würfeln."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/069b0de9-9594-404c-8344-d8ed5fbd3ee9.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/pilz-spinat-quesadilla/446280e0?lang=de",
+    "title": "Pilz-Spinat-Quesadilla"
+  },
+  "importedAt": "2026-09-05"
+}

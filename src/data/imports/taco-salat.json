@@ -1,0 +1,38 @@
+{
+  "title": "Taco-Salat",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "1 Avocado",
+    "0.5 TL Chilipulver",
+    "0.5 rote Zwiebel",
+    "10 g Koriander, frisch",
+    "200 g Hackfleisch, Rind",
+    "3 EL Olivenöl",
+    "1 Speisezwiebel",
+    "60 g saure Sahne",
+    "0.5 Limette",
+    "0.5 TL Koriander, gemahlen",
+    "1 Romana Salatherz",
+    "0.5 TL Kreuzkümmel (Cumin), gemahlen",
+    "50 g Tortilla-Chips",
+    "180 g Cherrytomaten",
+    "2 Zehe(n) Knoblauch"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Knoblauch schälen und hacken."
+  ],
+  "timeMinutes": 25,
+  "servings": 2,
+  "keywords": "beef",
+  "image": "https://images.kptncook.com/290d7ca0-f7a9-452d-aadb-9ecfb35bf8e5.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/taco-salat/2bdde49c?lang=de",
+    "title": "Taco-Salat"
+  },
+  "importedAt": "2026-09-05"
+}

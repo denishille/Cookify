@@ -1,0 +1,34 @@
+{
+  "title": "Kartoffelsalat mit gegrilltem Spargel & Ei",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "200 g grüner Spargel",
+    "4 EL Olivenöl",
+    "10 g Schnittlauch, frisch",
+    "10 g Petersilie, frisch",
+    "0.5 rote Zwiebel",
+    "1 EL Rotweinessig",
+    "0.5 Zitrone",
+    "400 g Kartoffeln",
+    "100 g Buttermilch",
+    "40 g Kalamata Oliven, entsteint",
+    "2 Eier"
+  ],
+  "steps": [
+    "Kartoffeln waschen und ca. &lt;timer&gt; kochen, bis sie gar sind.",
+    "Ei &lt;timer&gt; kochen und anschließend mit kaltem Wasser abschrecken."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/f9db2752-1f46-444c-b9ec-6ea7dea071b5.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/kartoffelsalat-mit-gegrilltem-spargel-und-ei/94502c5?lang=de",
+    "title": "Kartoffelsalat mit gegrilltem Spargel & Ei"
+  },
+  "importedAt": "2026-09-05"
+}

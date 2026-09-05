@@ -1,0 +1,31 @@
+{
+  "title": "Brokkoli-Rosenkohl-Salat mit Honig-Senf-Dressing",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "20 ml Walnussöl",
+    "1 EL Honig",
+    "1 EL Apfelweinessig",
+    "200 g Rosenkohl",
+    "20 g Mandeln, gehobelt",
+    "20 g Parmesan",
+    "0.5 Brokkoli",
+    "1 EL Dijon Senf"
+  ],
+  "steps": [
+    "Mandelblättchen in einer Pfanne kurz anrösten, bis sie leicht braun werden und dann zur Seite stellen.",
+    "Brokkoli waschen und in Röschen schneiden."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/586fb145c90100ea07e07eed.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Broccoli-Brussel-Sprouts-Salad-with-Honey-Mustard-Dressing/f6f7d18?lang=de",
+    "title": "Brokkoli-Rosenkohl-Salat mit Honig-Senf-Dressing"
+  },
+  "importedAt": "2026-09-05"
+}

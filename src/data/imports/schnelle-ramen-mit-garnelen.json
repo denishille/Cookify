@@ -1,0 +1,32 @@
+{
+  "title": "Schnelle Ramen mit Garnelen",
+  "description": "",
+  "ingredients": [
+    "1 EL Sesamöl, geröstet",
+    "2 EL Pflanzenöl",
+    "150 g Pak Choi",
+    "30 g Ingwer",
+    "2 Frühlingszwiebeln",
+    "50 g Shiitakepilze",
+    "120 g Chinesische Eiernudeln",
+    "1 Ei",
+    "90 g Riesengarnelen, roh",
+    "2 EL Sojasauce",
+    "0.9 l Hühnerbrühe"
+  ],
+  "steps": [
+    "Garnelen auftauen lassen.",
+    "Wasser in einem Topf zum Kochen bringen. Eier ca. &lt;timer&gt; kochen. Dann mit kaltem Wasser abschrecken und abtropfen lassen."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "seafood",
+  "image": "https://images.kptncook.com/600478ac460000030afea1e8.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Schnelle-Ramen-mit-Garnelen/256ab92c?lang=de",
+    "title": "Schnelle Ramen mit Garnelen"
+  },
+  "importedAt": "2026-09-05"
+}

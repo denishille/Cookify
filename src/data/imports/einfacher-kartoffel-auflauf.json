@@ -1,0 +1,29 @@
+{
+  "title": "Einfacher Kartoffel-Auflauf",
+  "description": "",
+  "ingredients": [
+    "100 ml Kochsahne, 15% Fett",
+    "250 ml Vollmilch",
+    "800 g Kartoffeln",
+    "2 Zehe(n) Knoblauch",
+    "3 g Schnittlauch, frisch",
+    "Salz",
+    "Pfeffer",
+    "100 g Gruyère Käse"
+  ],
+  "steps": [
+    "Knoblauch schälen und fein hacken.",
+    "Sahne und Milch in einen großen Topf geben. Knoblauch hinzugeben, kräftig mit Salz und Pfeffer würzen und alles erwärmen."
+  ],
+  "timeMinutes": 40,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/673218983a00006000ffe666.png",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Easy%20Potato%20Bake/cd172cd6?lang=de",
+    "title": "Einfacher Kartoffel-Auflauf"
+  },
+  "importedAt": "2026-09-05"
+}

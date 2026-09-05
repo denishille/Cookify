@@ -1,0 +1,30 @@
+{
+  "title": "Brokkoli-Lachs-Gratin",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "0.5 Zitrone",
+    "160 g Schlagsahne",
+    "20 g Kürbiskerne",
+    "40 g Parmesan",
+    "160 g Lachsfilets, tiefgefroren",
+    "1 Ei",
+    "0.5 Brokkoli"
+  ],
+  "steps": [
+    "Lachsfilet auftauen und trocken tupfen.",
+    "Backofen auf 180 °C (Ober- und Unterhitze, empfohlen) oder 160 °C (Umluft) vorheizen."
+  ],
+  "timeMinutes": 35,
+  "servings": 2,
+  "keywords": "fish",
+  "image": "https://images.kptncook.com/5a840cf127000029115cd70e.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Brokkoli-Lachs-Gratin/244c278b?lang=de",
+    "title": "Brokkoli-Lachs-Gratin"
+  },
+  "importedAt": "2026-09-05"
+}
