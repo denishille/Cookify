@@ -1,0 +1,35 @@
+{
+  "title": "Mini-Pizzen aus Quark-Öl-Teig",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "14 ml Vollmilch",
+    "1 EL Olivenöl",
+    "0.5 TL Backpulver",
+    "60 g Tomaten, passiert",
+    "6 g Basilikum, frisch",
+    "130 g Weizenmehl, Typ 405",
+    "0.66 rote Paprika",
+    "80 g Käse, gerieben",
+    "0.5 TL Kräuter der Provence, getrocknet",
+    "0.5 Ei",
+    "60 g Quark",
+    "6 g Pesto rosso"
+  ],
+  "steps": [
+    "Backofen auf 180 °C (Ober- und Unterhitze, empfohlen) oder 160 °C (Umluft) vorheizen.",
+    "Für den Quark-Öl-Teig Milch, Olivenöl, Quark, Ei und Salz verrühren."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/59919a45480100f10ec76f61.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Mini-Pizzen%20aus%20Quark-%C3%96l-Teig/2351a106?lang=de",
+    "title": "Mini-Pizzen aus Quark-Öl-Teig"
+  },
+  "importedAt": "2026-09-05"
+}

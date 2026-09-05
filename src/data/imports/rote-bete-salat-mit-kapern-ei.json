@@ -1,0 +1,31 @@
+{
+  "title": "Rote-Bete-Salat mit Kapern & Ei",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "1 rote Zwiebel",
+    "2 EL Olivenöl",
+    "2 EL Rotweinessig",
+    "500 g Rote Beten, gekocht",
+    "30 g Walnusskerne",
+    "20 g Kapern",
+    "40 g Rucola",
+    "2 Eier"
+  ],
+  "steps": [
+    "Wasser in einem Topf zum Kochen bringen, Ei hineingeben und ca. &lt;timer&gt; kochen.",
+    "Rucola waschen und abtropfen lassen."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/1dd32906-fa00-46e5-9801-58d397bc3718.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Rote-Bete-Salat%20mit%20Kapern%20&%20Ei/271870ba?lang=de",
+    "title": "Rote-Bete-Salat mit Kapern & Ei"
+  },
+  "importedAt": "2026-09-05"
+}

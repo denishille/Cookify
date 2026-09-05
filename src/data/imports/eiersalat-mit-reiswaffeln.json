@@ -1,0 +1,32 @@
+{
+  "title": "Eiersalat mit Reiswaffeln",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "20 g Dill, frisch",
+    "60 g Griechischer Joghurt",
+    "2 TL Olivenöl",
+    "2 Frühlingszwiebeln",
+    "1 Zitrone",
+    "6 Eier",
+    "40 g Reiswaffeln",
+    "100 g Tomaten",
+    "1 TL Dijon Senf"
+  ],
+  "steps": [
+    "Wasser in einem Topf zum Kochen bringen. Eier ca. &lt;timer&gt; kochen. Dann mit kaltem Wasser abschrecken und abtropfen lassen.",
+    "Frühlingszwiebeln waschen und in Ringe schneiden."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/c03da818-6a19-4b8c-948c-be50e133b75d.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Eiersalat%20mit%20Reiswaffeln/68703090?lang=de",
+    "title": "Eiersalat mit Reiswaffeln"
+  },
+  "importedAt": "2026-09-05"
+}

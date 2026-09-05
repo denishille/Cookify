@@ -1,0 +1,32 @@
+{
+  "title": "Grüner Spargel mit Quark & Kartoffeln",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "500 g grüner Spargel",
+    "10 g Petersilie, frisch",
+    "10 g Schnittlauch, frisch",
+    "4 EL Olivenöl",
+    "0.5 EL heller Balsamicoessig",
+    "0.25 Zitrone",
+    "600 g Kartoffeln",
+    "20 g Rucola",
+    "200 g Quark"
+  ],
+  "steps": [
+    "Backofen auf 180 °C (Ober- und Unterhitze, empfohlen) oder 160 °C (Umluft) vorheizen.",
+    "Kartoffeln waschen, halbieren oder je nach Grösse in große Stücke schneiden."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/590af70c7c0000200f23af11.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Gr%C3%BCner%20Spargel%20mit%20Quark%20&%20Kartoffeln/280fb3c0?lang=de",
+    "title": "Grüner Spargel mit Quark & Kartoffeln"
+  },
+  "importedAt": "2026-09-05"
+}

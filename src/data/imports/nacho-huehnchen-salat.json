@@ -1,0 +1,36 @@
+{
+  "title": "Nacho-Hühnchen-Salat",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "1 Avocado",
+    "2 EL Aceto Balsamico",
+    "6 EL Olivenöl",
+    "2 TL Senf",
+    "1 TL Honig",
+    "20 g Weizenmehl, Typ 405",
+    "240 g Hühnerbrustfilets",
+    "5 g Kresse",
+    "1 Romana Salatherz",
+    "1 Ei",
+    "50 g Tortilla-Chips",
+    "0.5 Bund Radieschen",
+    "200 g Tomaten"
+  ],
+  "steps": [
+    "Tomate waschen, halbieren, entkernen und in Stücke schneiden.",
+    "Avocado halbieren, Kern entfernen, Fruchtfleisch mit einem Löffel aus der Schale lösen und in Scheiben schneiden."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "poultry",
+  "image": "https://images.kptncook.com/dd626536-4937-4c90-84c9-3af7a393b47d.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Nacho-H%C3%BChnchen-Salat/221f9ac5?lang=de",
+    "title": "Nacho-Hühnchen-Salat"
+  },
+  "importedAt": "2026-09-05"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Süßes Omelett mit Erdbeersauce",
+  "description": "",
+  "ingredients": [
+    "80 ml Vollmilch",
+    "0.5 TL Zimt, gemahlen",
+    "100 g Griechischer Joghurt",
+    "4 EL Ahornsirup",
+    "250 g Erdbeeren",
+    "4 Eier",
+    "5 g Butter"
+  ],
+  "steps": [
+    "Erdbeeren waschen, Strunk entfernen und vierteln.",
+    "Erdbeeren und Ahornsirup in einen Topf geben, zum Kochen bringen und ca. &lt;timer&gt; köcheln lassen, bis die Sauce eindickt."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/dea8122b-2a9a-466b-98e5-20b847c20b55.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/S%C3%BC%C3%9Fes%20Omelett%20mit%20Erdbeersauce/55e0b48e?lang=de",
+    "title": "Süßes Omelett mit Erdbeersauce"
+  },
+  "importedAt": "2026-09-05"
+}

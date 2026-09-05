@@ -1,0 +1,28 @@
+{
+  "title": "Sandwich mit Roastbeef & Camembert",
+  "description": "",
+  "ingredients": [
+    "70 g Roastbeef",
+    "100 g Camembert",
+    "30 g Gewürzgurken, im Glas",
+    "2 TL Süßer Senf",
+    "100 g Tomaten",
+    "4 Scheibe(n) Toastbrot",
+    "6 g Butter"
+  ],
+  "steps": [
+    "Tomate waschen und in Scheiben schneiden.",
+    "Käse in feine Scheiben schneiden."
+  ],
+  "timeMinutes": 15,
+  "servings": 2,
+  "keywords": "beef",
+  "image": "https://images.kptncook.com/59a04687aa02005d12d4c976.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Sandwich%20mit%20Roastbeef%20&%20Camembert/29cbdd3c?lang=de",
+    "title": "Sandwich mit Roastbeef & Camembert"
+  },
+  "importedAt": "2026-09-05"
+}

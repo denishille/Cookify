@@ -1,0 +1,33 @@
+{
+  "title": "Gegrillter Steak-Kartoffelsalat mit Honig-Senf-Dressing",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "0.25 rote Zwiebel",
+    "2 EL Apfelweinessig",
+    "1 EL Honig",
+    "6 EL Olivenöl",
+    "30 g Feldsalat",
+    "600 g Kartoffeln",
+    "300 g Rindersteak",
+    "30 g Feta Käse",
+    "1 EL Körniger Senf",
+    "200 g Cherrytomaten"
+  ],
+  "steps": [
+    "Kartoffeln waschen und &lt;timer&gt; in Salzwasser kochen, bis sie gar sind.",
+    "Für das Dressing Senf, Essig, Olivenöl und Honig verrühren, mit Salz und Pfeffer würzen."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "beef",
+  "image": "https://images.kptncook.com/a9acc363-bb20-4744-8f5e-40b4a68ee7d9.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Gegrillter%20Steak-Kartoffelsalat%20mit%20Honig-Senf-Dressing/4d0ad66f?lang=de",
+    "title": "Gegrillter Steak-Kartoffelsalat mit Honig-Senf-Dressing"
+  },
+  "importedAt": "2026-09-05"
+}

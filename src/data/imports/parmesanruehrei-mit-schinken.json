@@ -1,0 +1,30 @@
+{
+  "title": "Parmesanrührei mit Schinken",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "Salz",
+    "0.5 Avocado",
+    "20 g Schwarzwälder Schinken",
+    "6 g Schnittlauch, frisch",
+    "200 g Brot",
+    "20 g Parmesan",
+    "3 Eier",
+    "2 TL Butter"
+  ],
+  "steps": [
+    "Butter in einer Pfanne zerlassen. Eier in einer Schale aufschlagen, salzen, pfeffern und in die heiße Pfanne geben.",
+    "Parmesan reiben und über das Ei geben."
+  ],
+  "timeMinutes": 10,
+  "servings": 2,
+  "keywords": "pork",
+  "image": "https://images.kptncook.com/58a6c896590000c713068292.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Parmesanr%C3%BChrei%20mit%20Schinken/5dfb3af?lang=de",
+    "title": "Parmesanrührei mit Schinken"
+  },
+  "importedAt": "2026-09-05"
+}

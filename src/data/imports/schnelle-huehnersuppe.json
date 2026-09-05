@@ -1,0 +1,33 @@
+{
+  "title": "Schnelle Hühnersuppe",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "2 Lorbeerblätter",
+    "Salz",
+    "1 Porree",
+    "6 Stange(n) Staudensellerie",
+    "15 g Petersilie, frisch",
+    "3 EL Pflanzenöl",
+    "300 g Hähnchenschenkel",
+    "2 Speisezwiebeln",
+    "1 l Gemüsebrühe",
+    "2 Karotten",
+    "60 g Suppen-Nudeln"
+  ],
+  "steps": [
+    "Zwiebel schälen und fein würfeln.",
+    "Sellerie waschen und in feine Scheiben schneiden."
+  ],
+  "timeMinutes": 45,
+  "servings": 2,
+  "keywords": "poultry",
+  "image": "https://images.kptncook.com/0657ad0b-d70d-4412-b368-c7fb9a915ed4.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Schnelle%20H%C3%BChnersuppe/40d5ae08?lang=de",
+    "title": "Schnelle Hühnersuppe"
+  },
+  "importedAt": "2026-09-05"
+}
