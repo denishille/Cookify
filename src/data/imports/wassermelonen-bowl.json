@@ -1,0 +1,28 @@
+{
+  "title": "Wassermelonen-Bowl",
+  "description": "",
+  "ingredients": [
+    "700 g Wassermelonen",
+    "160 g Haferflocken, fein",
+    "50 g Heidelbeeren, frisch",
+    "20 g Kakaonibs",
+    "60 g Himbeeren, tiefgefroren",
+    "10 g Chiasamen",
+    "1 Banane"
+  ],
+  "steps": [
+    "Wassermelone würfeln.",
+    "Banane schälen und in dünne Scheiben schneiden."
+  ],
+  "timeMinutes": 20,
+  "servings": 2,
+  "keywords": "vegan",
+  "image": "https://images.kptncook.com/6144e5b84e00006f0099cd5d.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/wassermelonen-bowl/76d7bc40?lang=de",
+    "title": "Wassermelonen-Bowl"
+  },
+  "importedAt": "2026-09-05"
+}

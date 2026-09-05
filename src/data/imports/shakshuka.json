@@ -1,0 +1,38 @@
+{
+  "title": "Shakshuka",
+  "description": "",
+  "ingredients": [
+    "Pfeffer",
+    "2 Lorbeerblätter",
+    "Salz",
+    "1 EL Paprikapulver, edelsüß",
+    "5 g Petersilie, frisch",
+    "5 g Koriander, frisch",
+    "2 Speisezwiebeln",
+    "2 EL Rapsöl",
+    "1 Zitrone",
+    "60 ml Wasser",
+    "1 rote Paprika",
+    "2 TL Kreuzkümmel (Cumin), gemahlen",
+    "0.5 TL Chiliflocken",
+    "200 g Tomaten, geschält",
+    "4 Eier",
+    "3 Zehe(n) Knoblauch",
+    "200 g Tomaten"
+  ],
+  "steps": [
+    "Zwiebel schälen, halbieren und in Halbringe schneiden.",
+    "Paprika waschen, entkernen und in dünne Streifen schneiden."
+  ],
+  "timeMinutes": 30,
+  "servings": 2,
+  "keywords": "veggie",
+  "image": "https://images.kptncook.com/5fda263e4200006a07c2830f.jpg",
+  "partialSteps": true,
+  "source": {
+    "site": "kptncook.com",
+    "url": "https://mobile.kptncook.com/recipe/pinterest/Shakshuka/3e118a7?lang=de",
+    "title": "Shakshuka"
+  },
+  "importedAt": "2026-09-05"
+}
