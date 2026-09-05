@@ -141,9 +141,12 @@ async function fetchRecipe(url) {
 /** Lädt das Bild einer Quellseite und speichert es als 800×600-JPEG unter src/assets/recipes/<id>.jpg. */
 async function saveImage(imageUrl, id) {
   const { default: sharp } = await import('sharp')
+  const { placeholderReason } = await import('./lib/image-check.mjs')
   const res = await fetch(imageUrl, { headers: { 'User-Agent': UA, Accept: 'image/*' }, redirect: 'follow' })
   if (!res.ok) throw new Error(`Bild HTTP ${res.status}`)
   const buf = Buffer.from(await res.arrayBuffer())
+  const placeholder = await placeholderReason(sharp, buf)
+  if (placeholder) throw new Error(`Platzhalterbild (${placeholder})`)
   mkdirSync(assetsDir, { recursive: true })
   const out = join(assetsDir, `${id}.jpg`)
   await sharp(buf).resize(800, 600, { fit: 'cover', position: 'attention' }).jpeg({ quality: 82, mozjpeg: true }).toFile(out)

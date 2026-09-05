@@ -2043,13 +2043,6 @@
     "rating": 5,
     "ratingCount": 5
   },
-  "i-asiatischer-rindfleischsalat": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/37078-rzpt-asiatischer-rindfleischsalat",
-    "title": "Asiatischer Rindfleischsalat Rezept",
-    "rating": 5,
-    "ratingCount": 1
-  },
   "i-balsamico-schweinefilet-mit-kraeutern": {
     "site": "emmikochteinfach.de",
     "url": "https://emmikochteinfach.de/balsamico-schweinefilet-mit-kraeuter/",
@@ -2575,26 +2568,12 @@
     "rating": 5,
     "ratingCount": 45
   },
-  "i-zitronen-risotto": {
-    "site": "lecker.de",
-    "url": "https://www.lecker.de/zitronen-risotto-6989.html",
-    "title": "Zitronen-Risotto Rezept",
-    "rating": 4.5,
-    "ratingCount": 2
-  },
   "i-zuckerfreier-protein-kaesekuchen": {
     "site": "kitchenstories.com",
     "url": "https://www.kitchenstories.com/de/rezepte/zuckerfreier-protein-kasekuchen-2a51",
     "title": "Zuckerfreier Protein Käsekuchen",
     "rating": 5,
     "ratingCount": 1
-  },
-  "i-aprikosenkuchen-vom-blech": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/37015-rzpt-aprikosenkuchen-vom-blech",
-    "title": "Aprikosenkuchen vom Blech Rezept",
-    "rating": 4.1,
-    "ratingCount": 8
   },
   "i-avocadobrot-strammer-max": {
     "site": "essen-und-trinken.de",
@@ -2889,13 +2868,6 @@
     "title": "Klassischer Nudelsalat mit Fleischwurst und Ei",
     "rating": 4.9,
     "ratingCount": 92
-  },
-  "i-kohlrouladen-mit-meerrettich-schnittlauch-sauce": {
-    "site": "essen-und-trinken.de",
-    "url": "https://www.essen-und-trinken.de/rezepte/48698-rzpt-kohlrouladen-mit-meerrettich-schnittlauch-sauce",
-    "title": "Kohlrouladen mit Meerrettich-Schnittlauch-Sauce Rezept",
-    "rating": 5,
-    "ratingCount": 1
   },
   "i-kokos-panna-cotta-mit-mangopueree": {
     "site": "lecker.de",

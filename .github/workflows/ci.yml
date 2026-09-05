@@ -16,5 +16,6 @@ jobs:
       - run: npm ci
       - run: node scripts/validate-recipes.mjs
       - run: npx tsx scripts/check-diet-rules.mjs
+      - run: node scripts/check-images.mjs
       - run: npm run lint
       - run: npm run build
