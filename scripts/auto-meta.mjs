@@ -7,6 +7,7 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { keyFor, parseIngredient, categoryFor, cuisineFor } from './draft-to-recipe.mjs'
 
+
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const importsDir = join(root, 'src/data/imports')
 const args = process.argv.slice(2)
@@ -83,6 +84,15 @@ function shorten(text, title) {
   return out
 }
 
+// Für die Ersatzbeschreibung zählen nur Zutaten, die das Gericht ausmachen.
+const vocab = JSON.parse(readFileSync(join(root, 'src/data/ingredients.json'), 'utf8'))
+const NAME = Object.fromEntries(Object.values(vocab).flat().map((d) => [d.key, d.name]))
+const SKIP = new Set([
+  ...(vocab['kraeuter-gewuerze'] ?? []).map((d) => d.key),
+  'salz', 'pfeffer', 'zucker', 'olivenoel', 'pflanzenoel', 'sesamoel', 'kokosoel', 'butter', 'margarine',
+  'gemuesebruehe', 'huehnerbruehe', 'wasser', 'mehl', 'weizenmehl', 'staerke', 'backpulver', 'natron', 'essig', 'balsamico',
+])
+
 const meta = {}
 for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).sort()) {
   const d = JSON.parse(readFileSync(join(importsDir, file), 'utf8'))
@@ -102,8 +112,14 @@ for (const file of readdirSync(importsDir).filter((f) => f.endsWith('.json')).so
   if (category === 'nachspeise') tags.add('süß')
   if (sourceTag) tags.add(sourceTag)
   if (tags.size < 3) tags.add('feierabend')
-  const main = ings.filter((i) => !/salz|pfeffer|\u00f6l|wasser|zucker/.test(norm(i))).slice(0, 3)
-  const fallback = `In ${d.timeMinutes ?? 30} Minuten fertig${main.length ? `, mit ${main.slice(0, -1).join(', ')}${main.length > 1 ? ' und ' : ''}${main[main.length - 1]}` : ''}.`
+  const main = []
+  for (const k of keys) {
+    if (SKIP.has(k) || main.includes(k)) continue
+    main.push(k)
+    if (main.length === 3) break
+  }
+  const names = main.map((k) => NAME[k] ?? k)
+  const fallback = `In ${d.timeMinutes ?? 30} Minuten fertig${names.length ? `, mit ${names.slice(0, -1).join(', ')}${names.length > 1 ? ' und ' : ''}${names[names.length - 1]}` : ''}.`
   const raw = /klimaheld|hellofresh|verzehrfertig|kalorienbewusst|nachhaltig zertifiziert/i.test(d.description ?? '') ? '' : d.description
   const desc = shorten(raw, title)
   meta[name] = {
