@@ -6,6 +6,8 @@ export type View = 'rezepte' | 'vorrat' | 'gespeichert' | 'alle'
 export interface Route {
   view: View
   recipeId: string | null
+  /** Kürzel einer geteilten Liste aus #/liste/… */
+  sharedList: string | null
 }
 
 const VIEWS: View[] = ['rezepte', 'vorrat', 'gespeichert', 'alle']
@@ -13,10 +15,11 @@ const LEGACY: Record<string, View> = { entdecken: 'rezepte', neu: 'rezepte', kon
 
 function parse(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean)
-  if (parts[0] === 'rezept' && parts[1]) return { view: 'rezepte', recipeId: decodeURIComponent(parts[1]) }
+  if (parts[0] === 'rezept' && parts[1]) return { view: 'rezepte', recipeId: decodeURIComponent(parts[1]), sharedList: null }
+  if (parts[0] === 'liste' && parts[1]) return { view: 'gespeichert', recipeId: null, sharedList: parts[1] }
   const raw = parts[0] ?? ''
   const view = VIEWS.includes(raw as View) ? (raw as View) : LEGACY[raw] ?? 'rezepte'
-  return { view, recipeId: null }
+  return { view, recipeId: null, sharedList: null }
 }
 
 export function useRoute(): Route {

@@ -12,7 +12,8 @@ const importsDir = join(root, 'src/data/imports')
 const argv = process.argv.slice(2)
 const minIdx = argv.indexOf('--min-zutaten')
 const MIN_INGREDIENTS = minIdx >= 0 ? Number(argv[minIdx + 1]) : 6
-const [metaPath, targetPath] = argv.filter((a) => !a.startsWith('--') && a !== argv[minIdx + 1])
+// Der Wert hinter --min-zutaten ist kein Pfad und darf nicht als Datei durchgehen.
+const [metaPath, targetPath] = argv.filter((a, i) => !a.startsWith('--') && !(minIdx >= 0 && i === minIdx + 1))
 const meta = JSON.parse(readFileSync(metaPath, 'utf8'))
 const target = targetPath ?? join(root, 'src/data/recipes/hellofresh.json')
 

@@ -10,6 +10,8 @@ import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
 import { adaptRecipe } from './lib/adapt'
 import { DEFAULT_SETS, type PantrySet } from './lib/sets'
+import { decodeList, listUrl, useLists } from './lib/lists'
+import { shareLink } from './lib/share'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
@@ -19,9 +21,10 @@ import { useScrollMemory } from './lib/scrollMemory'
 import { SetsDrawer } from './components/SetsDrawer'
 import { SettingsDrawer } from './components/SettingsDrawer'
 import { ShoppingDrawer } from './components/ShoppingDrawer'
+import { ListPicker } from './components/ListPicker'
 import { useShoppingList } from './lib/shopping'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconSearch, IconSettings, IconX } from './components/Icons'
+import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconLayers, IconPencil, IconPlus, IconSearch, IconSettings, IconShare, IconTrash, IconX } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -66,6 +69,11 @@ function related(recipe: Recipe, pool: Recipe[]): Recipe[] {
 export default function App() {
   const route = useRoute()
   const savedSet = usePersistentSet('cookify.saved')
+  const lists = useLists()
+  /** Rezept, das gerade einsortiert wird – null heißt: Schublade zu. */
+  const [pickFor, setPickFor] = useState<string | null>(null)
+  /** Welche eigene Liste unter „Gespeichert“ gerade offen ist. */
+  const [openList, setOpenList] = useState<string | null>(null)
   const [sets, setSets] = usePersistentState<PantrySet[]>('cookify.sets', DEFAULT_SETS)
   /** Welche Sets geladen sind – nur das überlebt einen Neustart, nicht die einzelnen Zutaten. */
   const [loadedSets, setLoadedSets] = usePersistentState<string[]>('cookify.loadedSets', [])
@@ -85,6 +93,8 @@ export default function App() {
     return () => clearTimeout(t)
   }, [undo])
   const offerUndo = (message: string, restore: () => void) => setUndo({ message, restore })
+  /** Kurze Rückmeldung ohne Rückgängig-Knopf. */
+  const notice = (message: string) => setUndo({ message })
   const runUndo = () => { undo?.restore?.(); setUndo(null) }
   const toggleHidden = (id: string) => {
     if (!hiddenSet.has(id)) offerUndo(`„${BY_ID.get(id)?.title ?? id}“ ausgeblendet`, () => hiddenSet.replace([...hiddenSet.set].filter((x) => x !== id)))
@@ -172,6 +182,40 @@ export default function App() {
   const savedRecipes = savedAll.filter((r) => adaptRecipe(r, globalDiets, dietOpts).ok)
   const savedUnfit = savedAll.length - savedRecipes.length
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
+
+  /** Geteilte Liste aus dem Link – und was davon die App kennt. */
+  const shared = route.sharedList ? decodeList(route.sharedList) : null
+  const sharedRecipes = shared ? shared.recipeIds.map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r)) : []
+  const sharedMissing = shared ? shared.recipeIds.length - sharedRecipes.length : 0
+  const takeShared = () => {
+    if (!shared) return
+    const id = lists.create(shared.name, shared.recipeIds)
+    setOpenList(id)
+    navigate('gespeichert')
+    notice(`„${shared.name}“ übernommen`)
+  }
+
+  const activeList = lists.lists.find((l) => l.id === openList) ?? null
+  const listRecipes = activeList ? activeList.recipeIds.map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r)) : []
+  const shareList = async (id: string) => {
+    const l = lists.lists.find((x) => x.id === id)
+    if (!l) return
+    const msg = await shareLink(`Cookify: ${l.name}`, listUrl(l))
+    if (msg) notice(msg)
+  }
+  const renameList = (id: string) => {
+    const l = lists.lists.find((x) => x.id === id)
+    if (!l) return
+    const name = window.prompt('Neuer Name für die Liste', l.name)
+    if (name) lists.rename(id, name)
+  }
+  const deleteList = (id: string) => {
+    const l = lists.lists.find((x) => x.id === id)
+    if (!l) return
+    if (!window.confirm(`„${l.name}“ mit ${l.recipeIds.length} Rezepten löschen?`)) return
+    lists.remove(id)
+    setOpenList(null)
+  }
   // Beim Zurück landet man wieder an der Stelle, an der man weggeklickt hat.
   const mainRef = useRef<HTMLElement>(null)
   useScrollMemory(route.recipeId ? `rezept:${route.recipeId}` : `view:${route.view}`, mainRef, 'y')
@@ -245,6 +289,8 @@ export default function App() {
             recipe={detail}
             saved={savedSet.has(detail.id)}
             onToggleSave={savedSet.toggle}
+            onPickList={() => setPickFor(detail.id)}
+            inLists={lists.listsWith(detail.id).length}
             pantry={pantrySet.set}
             onTogglePantry={togglePantry}
             related={related(detail, AVAILABLE)}
@@ -410,10 +456,53 @@ export default function App() {
           </>
         )}
 
-        {!route.recipeId && route.view === 'gespeichert' && (
+        {!route.recipeId && route.view === 'gespeichert' && shared && (
+          <>
+            <h1 className="h1">{shared.name}</h1>
+            <p className="lead">Geteilte Liste mit {shared.recipeIds.length} {shared.recipeIds.length === 1 ? 'Rezept' : 'Rezepten'}.</p>
+            <div className="controls">
+              <button className="btn primary" onClick={takeShared}><IconPlus width={18} height={18} /> Liste übernehmen</button>
+              <button className="btn" onClick={() => navigate('gespeichert')}>Zu meinen Listen</button>
+            </div>
+            {sharedMissing > 0 && <p className="hint" style={{ marginTop: 14 }}>{sharedMissing} {sharedMissing === 1 ? 'Rezept kennt' : 'Rezepte kennt'} deine App (noch) nicht und {sharedMissing === 1 ? 'fehlt' : 'fehlen'} unten.</p>}
+            {sharedRecipes.length > 0 && <div className="grid" style={{ marginTop: 22 }}>{sharedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>}
+          </>
+        )}
+
+        {!route.recipeId && route.view === 'gespeichert' && !shared && (
           <>
             <h1 className="h1">Gespeichert</h1>
-            {savedRecipes.length === 0 ? (
+            <div className="chips scroll" style={{ marginTop: 16 }}>
+              <button className={`chip ${openList === null ? 'on' : ''}`} onClick={() => setOpenList(null)}>
+                <IconHeart width={16} height={16} filled={openList === null} /> Herzchen {savedSet.set.size > 0 && `· ${savedSet.set.size}`}
+              </button>
+              {lists.lists.map((l) => (
+                <button key={l.id} className={`chip ${openList === l.id ? 'on' : ''}`} onClick={() => setOpenList(l.id)}>
+                  {l.name} · {l.recipeIds.length}
+                </button>
+              ))}
+              <button className="chip soft" onClick={() => setPickFor('')}><IconPlus width={16} height={16} /> Neue Liste</button>
+            </div>
+
+            {activeList ? (
+              <>
+                <div className="results-tools" style={{ marginTop: 18 }}>
+                  <button className="btn sm" onClick={() => shareList(activeList.id)}><IconShare width={16} height={16} /> Teilen</button>
+                  <button className="btn sm" onClick={() => renameList(activeList.id)}><IconPencil width={16} height={16} /> Umbenennen</button>
+                  <button className="btn sm ghost" onClick={() => deleteList(activeList.id)}><IconTrash width={16} height={16} /> Löschen</button>
+                </div>
+                {listRecipes.length === 0 ? (
+                  <div className="empty" style={{ marginTop: 22 }}>
+                    <div className="ico"><IconLayers /></div>
+                    <h3>„{activeList.name}“ ist noch leer</h3>
+                    <p>Öffne ein Rezept und leg es über „Zu Liste“ hier ab.</p>
+                    <button className="btn primary" onClick={() => navigate('alle')}>Rezepte ansehen</button>
+                  </div>
+                ) : (
+                  <div className="grid" style={{ marginTop: 18 }}>{listRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+                )}
+              </>
+            ) : savedRecipes.length === 0 ? (
               <div className="empty" style={{ marginTop: 22 }}>
                 <div className="ico"><IconHeart /></div>
                 <h3>Noch nichts gespeichert</h3>
@@ -423,10 +512,14 @@ export default function App() {
             ) : (
               <div className="grid" style={{ marginTop: 22 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
             )}
-            {savedUnfit > 0 && <p className="hint" style={{ marginTop: 16 }}>{savedUnfit} gespeicherte {savedUnfit === 1 ? 'Rezept passt' : 'Rezepte passen'} nicht zu deiner Ernährungsform und {savedUnfit === 1 ? 'wird' : 'werden'} ausgeblendet.</p>}
+            {!activeList && savedUnfit > 0 && <p className="hint" style={{ marginTop: 16 }}>{savedUnfit} gespeicherte {savedUnfit === 1 ? 'Rezept passt' : 'Rezepte passen'} nicht zu deiner Ernährungsform und {savedUnfit === 1 ? 'wird' : 'werden'} ausgeblendet.</p>}
           </>
         )}
       </main>
+
+      <ListPicker open={pickFor !== null} onClose={() => setPickFor(null)}
+        recipeId={pickFor || null} recipeTitle={pickFor ? BY_ID.get(pickFor)?.title : undefined}
+        lists={lists.lists} onToggle={lists.toggleRecipe} onCreate={lists.create} />
 
       {tabs('tabbar')}
 

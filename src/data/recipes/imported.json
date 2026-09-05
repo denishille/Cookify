@@ -19607,5 +19607,155 @@
       "meal-prep",
       "klassiker"
     ]
+  },
+  {
+    "id": "i-mercimek-koeftesi-rote-linsenbaellchen",
+    "title": "Mercimek Köftesi",
+    "description": "Türkische Linsenbällchen aus roten Linsen und feinem Bulgur, kräftig gewürzt mit Paprikamark und Pul Biber. Vegan, kalt gegessen, mit Zitrone und Salatblättern.",
+    "emoji": "🌶️",
+    "category": "snack",
+    "cuisine": "orientalisch",
+    "diet": [
+      "vegetarisch",
+      "vegan"
+    ],
+    "timeMinutes": 80,
+    "difficulty": "anspruchsvoll",
+    "servings": 8,
+    "nutrition": {
+      "kcal": 380,
+      "protein": 17,
+      "carbs": 47,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "key": "linsen-rot",
+        "name": "Rote Linsen",
+        "amount": 410,
+        "unit": "g"
+      },
+      {
+        "key": "bulgur",
+        "name": "Feiner Bulgur (Köftelik)",
+        "amount": 175,
+        "unit": "g"
+      },
+      {
+        "key": "zwiebel",
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "knoblauch",
+        "name": "Knoblauchzehen",
+        "amount": 2,
+        "unit": "Zehe"
+      },
+      {
+        "key": "paprika",
+        "name": "Scharfes Paprikamark (Acı Biber Salçası)",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "tomatenmark",
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "key": "olivenoel",
+        "name": "Olivenöl",
+        "amount": 6,
+        "unit": "EL"
+      },
+      {
+        "key": "petersilie",
+        "name": "Glatte Petersilie",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "key": "minze",
+        "name": "Minze",
+        "amount": 0.5,
+        "unit": "Bund",
+        "optional": true
+      },
+      {
+        "key": "fruehlingszwiebel",
+        "name": "Frühlingszwiebeln",
+        "amount": 4,
+        "unit": "Stück"
+      },
+      {
+        "key": "kreuzkuemmel",
+        "name": "Kreuzkümmel, gemahlen",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "chili",
+        "name": "Pul Biber (Paprikaflocken)",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "key": "granatapfel",
+        "name": "Granatapfelmelasse (Nar Ekşisi)",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "key": "zitrone",
+        "name": "Zitrone, in Spalten",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "salat",
+        "name": "Kopfsalat, Blätter einzeln",
+        "amount": 1,
+        "unit": "Stück"
+      },
+      {
+        "key": "salz",
+        "name": "Salz",
+        "amount": null,
+        "unit": ""
+      },
+      {
+        "key": "pfeffer",
+        "name": "Schwarzer Pfeffer",
+        "amount": null,
+        "unit": ""
+      }
+    ],
+    "steps": [
+      "Linsen waschen, bis das Wasser klar bleibt. Mit dem Wasser und etwas Salz aufkochen, dann zugedeckt bei kleinster Hitze 20 Minuten weich kochen – sie sollen zerfallen.",
+      "Topf vom Herd ziehen. Es soll noch etwas heißes Wasser darin stehen. Bulgur einrühren, Deckel sofort wieder auflegen und 20 Minuten quellen lassen.",
+      "Zwiebel sehr fein würfeln und in Olivenöl anbraten, bis sie Farbe nimmt. Knoblauch fein reiben und 1–2 Minuten mitdünsten.",
+      "Kreuzkümmel, Pul Biber, Paprikamark und Tomatenmark zugeben, kurz anrösten und die Pfanne vom Herd ziehen. Abkühlen lassen.",
+      "Frühlingszwiebeln in feine Ringe schneiden, Petersilie und Minze fein hacken und unter die abgekühlte Würzmasse heben.",
+      "Würzmasse unter die lauwarme Linsen-Bulgur-Masse geben und ein paar Minuten kräftig durchkneten, bis alles leuchtend orange ist. Bei Bedarf noch Olivenöl zugeben.",
+      "Mit Salz, Pfeffer und Granatapfelmelasse abschmecken. Wenn Zeit ist, die Masse eine Stunde kalt stellen – dann lässt sie sich besser formen.",
+      "Portionsweise abnehmen und in der Hand zu daumendicken Röllchen drücken. Die Mulden der Finger dürfen bleiben, darin sammelt sich später der Zitronensaft.",
+      "Mit Zitronenspalten und Salatblättern anrichten. Zum Essen ein Köfte in ein Blatt legen, Zitrone darüber."
+    ],
+    "tags": [
+      "fingerfood",
+      "party",
+      "meal-prep",
+      "türkisch"
+    ],
+    "source": {
+      "site": "sonachgefuehl.de",
+      "url": "https://sonachgefuehl.de/mercimek-koeftesi-rote-linsenbaellchen/",
+      "title": "Mercimek Köftesi – Rote Linsenbällchen",
+      "rating": 5,
+      "ratingCount": 39
+    }
   }
 ]

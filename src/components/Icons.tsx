@@ -38,3 +38,6 @@ export const IconHeart = ({ filled, ...p }: P & { filled?: boolean }) => (
     <path d="M12 20.5s-7.5-4.6-9.6-9.3A5.2 5.2 0 0 1 12 6.4a5.2 5.2 0 0 1 9.6 4.8C19.5 15.9 12 20.5 12 20.5z" />
   </svg>
 )
+
+export const IconTrash = (p: P) => <svg {...base} {...p}><path d="M4 7h16M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M6 7l1 13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l1-13" /></svg>
+export const IconPencil = (p: P) => <svg {...base} {...p}><path d="M4 20h4L20 8a2.8 2.8 0 0 0-4-4L4 16z" /></svg>

@@ -6,10 +6,11 @@ import { back } from '../lib/router'
 import { TILE_COLORS } from '../lib/tiles'
 import { recipeImage } from '../lib/images'
 import { RecipeCard } from './RecipeCard'
-import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconEye, IconFlame, IconGauge, IconGlobe, IconHeart, IconMinus, IconPlus, IconShare, IconStar, IconThumbDown } from './Icons'
+import { IconCart, IconCheck, IconChevronLeft, IconClock, IconExternal, IconEye, IconFlame, IconGauge, IconGlobe, IconHeart, IconLayers, IconMinus, IconPlus, IconShare, IconStar, IconThumbDown } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { adaptRecipe, recipeFructose, type DietOptions } from '../lib/adapt'
 import { useSwipeRight } from '../lib/swipe'
+import { shareLink } from '../lib/share'
 
 interface Props {
   recipe: Recipe
@@ -26,6 +27,10 @@ interface Props {
   dietOpts?: DietOptions
   onAddIngredientToList: (ing: Ingredient) => void
   onAddRecipeToList: (factor: number) => number
+  /** Öffnet die Auswahl der eigenen Listen. */
+  onPickList: () => void
+  /** In wie vielen eigenen Listen liegt das Rezept? */
+  inLists: number
 }
 
 /** Gramm mit einer Nachkommastelle, deutsch geschrieben. */
@@ -47,7 +52,7 @@ function formatAmount(amount: number | null, factor: number): string {
   return v.toFixed(1).replace('.', ',')
 }
 
-export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, hidden = false, onToggleHide, dietOpts = {}, onAddIngredientToList, onAddRecipeToList }: Props) {
+export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePantry, related, isNew, savedIds, activeDiets, hidden = false, onToggleHide, dietOpts = {}, onAddIngredientToList, onAddRecipeToList, onPickList, inLists }: Props) {
   const [servings, setServings] = useState(recipe.servings)
   const [done, setDone] = useState<Set<number>>(new Set())
   const [toast, setToast] = useState<string | null>(null)
@@ -69,14 +74,8 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
   const haveCount = need.filter((i) => pantry.has(i.key)).length
 
   const share = async () => {
-    const url = window.location.href
-    try {
-      if (navigator.share) { await navigator.share({ title: recipe.title, url }); return }
-      await navigator.clipboard.writeText(url)
-      setToast('Link kopiert')
-    } catch {
-      setToast('Teilen nicht möglich')
-    }
+    const msg = await shareLink(recipe.title, window.location.href)
+    if (msg) setToast(msg)
   }
 
   /** Nach rechts wischen geht zurück, wie in den Schubladen. */
@@ -140,6 +139,9 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
         <div className="actions">
           <button className={`btn ${saved ? '' : 'primary'}`} onClick={() => onToggleSave(recipe.id)}>
             <IconHeart filled={saved} width={18} height={18} /> {saved ? 'Gespeichert' : 'Speichern'}
+          </button>
+          <button className={`btn ${inLists ? 'on' : ''}`} onClick={onPickList}>
+            <IconLayers width={18} height={18} /> {inLists ? `In ${inLists} ${inLists === 1 ? 'Liste' : 'Listen'}` : 'Zu Liste'}
           </button>
           <button className="btn" onClick={share}><IconShare width={18} height={18} /> Teilen</button>
           <button className="btn" onClick={() => { const n = onAddRecipeToList(factor); setToast(n ? `${n} ${n === 1 ? 'Zutat' : 'Zutaten'} auf der Einkaufsliste` : 'Alles schon im Vorrat') }}>
