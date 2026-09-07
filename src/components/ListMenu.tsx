@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react'
 import type { RecipeList } from '../lib/lists'
-import { IconCheck, IconHeart, IconPlus } from './Icons'
+import { IconCheck, IconPlus } from './Icons'
 
 interface Props {
   /** Rezept, um das es geht – null heißt: Menü zu. */
@@ -53,7 +53,7 @@ export function ListMenu({ recipeId, title, at, lists, saved, onToggleSaved, onT
         <p className="card-menu-head">{title}</p>
         <button className={`multi-item ${saved ? 'on' : ''}`} role="menuitemcheckbox" aria-checked={saved} onClick={onToggleSaved}>
           <span className="box">{saved && <IconCheck width={14} height={14} />}</span>
-          <span><IconHeart width={15} height={15} filled={saved} /> Favoriten</span>
+          <span>Favoriten</span>
         </button>
         {lists.map((l) => {
           const drin = l.recipeIds.includes(recipeId)
