@@ -338,24 +338,23 @@ svg { flex-shrink: 0; }
 /* Die Listenreihe bleibt oben stehen: nur so hat man beim Ziehen immer ein Ziel vor Augen. */
 .lists-bar { position: sticky; top: -28px; z-index: 6; background: var(--bg); padding-top: 16px; padding-bottom: 10px; }
 
-/* Ziehen: das Original blasst ab, ein Schildchen hängt am Finger, das Ziel leuchtet. */
-/* Lange auf eine Karte drücken heißt „ziehen“ und nicht „Bild teilen“: iOS bietet sonst
-   sein eigenes Menü an und bricht die Geste ab. Die Bilder nehmen gar keine Berührung mehr an,
-   damit die Karte selbst das Ziel ist. */
-.card, .row { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
-.card img, .row-thumb img { -webkit-user-drag: none; pointer-events: none; }
-.dragging-card { opacity: .4; transform: scale(.97); transition: opacity .12s, transform .12s; }
-body.dragging-anything { user-select: none; -webkit-user-select: none; }
-.drag-ghost {
-  position: fixed; top: 0; left: 0; z-index: 60; pointer-events: none;
-  max-width: 60vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  background: var(--green); color: #fff; box-shadow: var(--shadow);
-  border-radius: 999px; padding: 10px 16px; font-size: .9rem; font-weight: 600;
+/* Halten: die Karte gibt kurz nach, danach geht das Menü auf. */
+.card.pressing .tile { transform: scale(.97); transition: transform .25s ease; }
+.menu-backdrop { position: fixed; inset: 0; z-index: 40; }
+.card-menu {
+  position: fixed; z-index: 41; min-width: 208px; max-width: min(280px, calc(100vw - 24px));
+  background: var(--bg); border: 1px solid var(--border); border-radius: 14px;
+  box-shadow: var(--shadow); padding: 6px; display: grid; gap: 2px;
+  animation: menu-in .13s ease;
 }
-.chip.drop-over {
-  background: var(--lime); border-color: var(--lime); color: var(--lime-text);
-  transform: scale(1.06);
+.card-menu-head {
+  padding: 8px 10px 6px; font-size: .8rem; font-weight: 700; color: var(--muted);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
+.card-menu .multi-item span:last-child { display: inline-flex; align-items: center; gap: 7px; min-width: 0; }
+.card-menu .multi-item .box.plain { border: 0; color: var(--green); }
+@keyframes menu-in { from { opacity: 0; transform: translateY(-4px) scale(.97) } to { opacity: 1; transform: none } }
+@media (prefers-reduced-motion: reduce) { .card-menu { animation: none } .card.pressing .tile { transition: none } }
 .chip {
   display: inline-flex; align-items: center; gap: 6px;
   height: 36px; padding: 0 14px; border-radius: 999px;

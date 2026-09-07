@@ -11,7 +11,7 @@ import { dailyPicks } from './lib/daily'
 import { adaptRecipe } from './lib/adapt'
 import { DEFAULT_SETS, type PantrySet } from './lib/sets'
 import { decodeList, listUrl, useLists } from './lib/lists'
-import { useDragToList } from './lib/dragToList'
+import { useLongPress } from './lib/longPress'
 import { shareLink } from './lib/share'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeRow } from './components/RecipeRow'
@@ -23,6 +23,7 @@ import { SetsDrawer } from './components/SetsDrawer'
 import { SettingsDrawer } from './components/SettingsDrawer'
 import { ShoppingDrawer } from './components/ShoppingDrawer'
 import { ListPicker } from './components/ListPicker'
+import { ListMenu } from './components/ListMenu'
 import { useShoppingList } from './lib/shopping'
 import { FilterGroups } from './components/Filters'
 import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconLayers, IconList, IconPencil, IconPlus, IconSearch, IconSettings, IconShare, IconTrash, IconX } from './components/Icons'
@@ -195,24 +196,29 @@ export default function App() {
     notice(`„${shared.name}“ übernommen`)
   }
 
-  /** Karten aus „Gespeichert“ auf eine Liste ziehen. */
+  /** Karte in „Gespeichert“ gedrückt halten: Menü zum Einsortieren. */
   const savedGridRef = useRef<HTMLDivElement>(null)
-  useDragToList(savedGridRef, {
+  const [menuFor, setMenuFor] = useState<{ id: string; x: number; y: number } | null>(null)
+  useLongPress(savedGridRef, {
     enabled: route.view === 'gespeichert' && !route.recipeId && !route.sharedList,
-    onDrop: (recipeId, listId) => {
-      const titel = BY_ID.get(recipeId)?.title ?? 'Rezept'
-      if (listId === '__fav') {
-        if (savedSet.has(recipeId)) return notice(`„${titel}“ ist schon in den Favoriten`)
-        savedSet.toggle(recipeId)
-        return notice(`„${titel}“ in den Favoriten`)
-      }
-      const liste = lists.lists.find((l) => l.id === listId)
-      if (!liste) return
-      notice(lists.addRecipe(listId, recipeId)
-        ? `„${titel}“ in „${liste.name}“`
-        : `„${titel}“ war schon in „${liste.name}“`)
-    },
+    onHold: (id, x, y) => setMenuFor({ id, x, y }),
   })
+  const menuTitle = menuFor ? BY_ID.get(menuFor.id)?.title ?? 'Rezept' : ''
+  const toggleInList = (listId: string) => {
+    if (!menuFor) return
+    const liste = lists.lists.find((l) => l.id === listId)
+    if (!liste) return
+    const drin = liste.recipeIds.includes(menuFor.id)
+    lists.toggleRecipe(listId, menuFor.id)
+    notice(drin ? `„${menuTitle}“ aus „${liste.name}“ entfernt` : `„${menuTitle}“ in „${liste.name}“`)
+  }
+  const toggleSavedFromMenu = () => {
+    if (!menuFor) return
+    const drin = savedSet.has(menuFor.id)
+    savedSet.toggle(menuFor.id)
+    notice(drin ? `„${menuTitle}“ aus den Favoriten entfernt` : `„${menuTitle}“ in den Favoriten`)
+    setMenuFor(null)
+  }
 
   const activeList = lists.lists.find((l) => l.id === openList) ?? null
   const listRecipes = activeList ? activeList.recipeIds.map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r)) : []
@@ -499,11 +505,11 @@ export default function App() {
           <>
             <h1 className="h1">Gespeichert</h1>
             <div className="chips scroll lists-bar">
-              <button className={`chip ${openList === null ? 'on' : ''}`} data-drop-list="__fav" onClick={() => setOpenList(null)}>
+              <button className={`chip ${openList === null ? 'on' : ''}`} onClick={() => setOpenList(null)}>
                 <IconHeart width={16} height={16} filled={openList === null} /> Favoriten {savedSet.set.size > 0 && `· ${savedSet.set.size}`}
               </button>
               {lists.lists.map((l) => (
-                <button key={l.id} className={`chip ${openList === l.id ? 'on' : ''}`} data-drop-list={l.id} onClick={() => setOpenList(l.id)}>
+                <button key={l.id} className={`chip ${openList === l.id ? 'on' : ''}`} onClick={() => setOpenList(l.id)}>
                   {l.name} · {l.recipeIds.length}
                 </button>
               ))}
@@ -540,7 +546,7 @@ export default function App() {
               </div>
             ) : (
               <>
-                {lists.lists.length > 0 && <p className="hint" style={{ marginTop: 14 }}>Karte gedrückt halten – dann den Namen auf eine Liste oben ziehen.</p>}
+                {lists.lists.length > 0 && <p className="hint" style={{ marginTop: 14 }}>Karte gedrückt halten, um sie in eine Liste zu legen.</p>}
                 <div className="grid" ref={savedGridRef} style={{ marginTop: 14 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
               </>
             )}
@@ -548,6 +554,12 @@ export default function App() {
           </>
         )}
       </main>
+
+      <ListMenu recipeId={menuFor?.id ?? null} title={menuTitle} at={{ x: menuFor?.x ?? 0, y: menuFor?.y ?? 0 }}
+        lists={lists.lists} saved={menuFor ? savedSet.has(menuFor.id) : false}
+        onToggleSaved={toggleSavedFromMenu} onToggleList={toggleInList}
+        onNewList={() => { const id = menuFor?.id ?? null; setMenuFor(null); if (id) setPickFor(id) }}
+        onClose={() => setMenuFor(null)} />
 
       <ListPicker open={pickFor !== null} onClose={() => setPickFor(null)}
         recipeId={pickFor || null} recipeTitle={pickFor ? BY_ID.get(pickFor)?.title : undefined}
