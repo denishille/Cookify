@@ -34,6 +34,8 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
     let dragging = false
     let frame = 0
     let lastX = 0, lastY = 0
+    /** Höhe des Schildchens, einmal gemessen – daraus ergibt sich, wo sein Mittelpunkt liegt. */
+    let ghostH = 0
 
     const clearHold = () => { if (hold) { clearTimeout(hold); hold = undefined } }
 
@@ -44,12 +46,26 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
       target?.classList.add('drop-over')
     }
 
+    /**
+     * Was liegt unter dem Schildchen? Gezogen wird der Name, nicht der Finger – also zählt,
+     * wo der Text landet. Nur wenn er über den oberen Rand hinausragt, gilt ersatzweise der Finger.
+     */
+    const findTarget = () => {
+      // translate(-50%,-170%) setzt die Mitte des Schildchens 1,2 Höhen über den Finger.
+      const points: [number, number][] = ghostH ? [[lastX, lastY - ghostH * 1.2], [lastX, lastY]] : [[lastX, lastY]]
+      for (const [x, y] of points) {
+        const under = document.elementFromPoint(x, y)
+        const hit = under instanceof Element ? (under.closest('[data-drop-list]') as HTMLElement | null) : null
+        if (hit) return hit
+      }
+      return null
+    }
+
     const paint = () => {
       frame = 0
-      // Das Schildchen schwebt über dem Finger, sonst verdeckt es genau das Ziel.
+      // Das Schildchen schwebt über dem Finger, sonst verdeckt der Finger genau das Ziel.
       if (ghost) ghost.style.transform = `translate3d(${lastX}px,${lastY}px,0) translate(-50%,-170%)`
-      const under = document.elementFromPoint(lastX, lastY)
-      highlight(under instanceof Element ? (under.closest('[data-drop-list]') as HTMLElement | null) : null)
+      highlight(findTarget())
     }
 
     const begin = () => {
@@ -60,6 +76,7 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
       ghost.className = 'drag-ghost'
       ghost.textContent = card.querySelector('.card-title')?.textContent ?? 'Rezept'
       document.body.appendChild(ghost)
+      ghostH = ghost.offsetHeight
       document.body.classList.add('dragging-anything')
       paint()
     }
@@ -74,7 +91,7 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
       highlight(null)
       document.body.classList.remove('dragging-anything')
       const wasDragging = dragging
-      card = null; ghost = null; dragging = false
+      card = null; ghost = null; dragging = false; ghostH = 0
       if (dropped && wasDragging && id && listId) drop.current(id, listId)
       return wasDragging
     }

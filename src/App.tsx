@@ -540,7 +540,7 @@ export default function App() {
               </div>
             ) : (
               <>
-                {lists.lists.length > 0 && <p className="hint" style={{ marginTop: 14 }}>Karte gedrückt halten und auf eine Liste oben ziehen.</p>}
+                {lists.lists.length > 0 && <p className="hint" style={{ marginTop: 14 }}>Karte gedrückt halten – dann den Namen auf eine Liste oben ziehen.</p>}
                 <div className="grid" ref={savedGridRef} style={{ marginTop: 14 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
               </>
             )}
