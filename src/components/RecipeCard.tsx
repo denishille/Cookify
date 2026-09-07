@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react'
+import type { CSSProperties, MouseEvent } from 'react'
 import type { Recipe } from '../types'
 import { DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import type { MatchResult } from '../lib/match'
@@ -11,7 +11,7 @@ import { formatCount, formatRating } from '../lib/rating'
 interface Props {
   recipe: Recipe
   saved: boolean
-  onToggleSave: (id: string) => void
+  onToggleSave: (id: string, e: MouseEvent<HTMLElement>) => void
   match?: MatchResult
   isNew?: boolean
   hidden?: boolean
@@ -37,9 +37,9 @@ export function RecipeCard({ recipe, saved, onToggleSave, match, isNew, hidden, 
         {img ? <img src={img} alt="" loading="lazy" decoding="async" /> : <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>}
         <button
           className={`fav ${saved ? 'on' : ''}`}
-          aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'}
-          aria-pressed={saved}
-          onClick={(e) => { e.stopPropagation(); onToggleSave(recipe.id) }}
+          aria-label={saved ? 'Gespeichert – Favoriten und Listen' : 'Speichern oder in eine Liste legen'}
+          aria-haspopup="menu"
+          onClick={(e) => { e.stopPropagation(); onToggleSave(recipe.id, e) }}
         >
           <IconHeart filled={saved} width={18} height={18} />
         </button>

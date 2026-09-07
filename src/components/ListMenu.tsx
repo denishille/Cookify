@@ -17,6 +17,8 @@ interface Props {
 }
 
 const RAND = 12
+/** Unten sitzt die Tab-Leiste – so weit bleibt das Menü davon weg. */
+const UNTEN = 84
 
 /** Kleines Menü, das nach dem Halten einer Karte aufgeht: in welche Liste soll das Rezept? */
 export function ListMenu({ recipeId, title, at, lists, saved, onToggleSaved, onToggleList, onNewList, onClose }: Props) {
@@ -29,7 +31,7 @@ export function ListMenu({ recipeId, title, at, lists, saved, onToggleSaved, onT
     if (!recipeId || !el) return
     const { width, height } = el.getBoundingClientRect()
     const left = Math.min(Math.max(RAND, at.x - width / 2), window.innerWidth - width - RAND)
-    const top = at.y + height + RAND > window.innerHeight
+    const top = at.y + height + UNTEN > window.innerHeight
       ? Math.max(RAND, at.y - height - 8)
       : at.y + 8
     setPos({ left, top })

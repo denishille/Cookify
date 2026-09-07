@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type CSSProperties } from 'react'
+import { useEffect, useRef, useState, type CSSProperties, type MouseEvent } from 'react'
 import type { Diet, Ingredient, Recipe } from '../types'
 import { CATEGORY_LABELS, CUISINE_LABELS, DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { STAPLE_KEYS } from '../data'
@@ -15,7 +15,7 @@ import { shareLink } from '../lib/share'
 interface Props {
   recipe: Recipe
   saved: boolean
-  onToggleSave: (id: string) => void
+  onToggleSave: (id: string, e: MouseEvent<HTMLElement>) => void
   pantry: Set<string>
   onTogglePantry: (key: string) => void
   related: Recipe[]
@@ -91,7 +91,8 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
       <div className={`tile lg ${img ? 'photo' : ''}`} style={{ '--tile': TILE_COLORS[recipe.category] } as CSSProperties}>
         {isNew && <span className="badge-new">Neu diese Woche</span>}
         {img ? <img src={img} alt={recipe.title} decoding="async" /> : <span className="tile-emoji" aria-hidden>{recipe.emoji}</span>}
-        <button className={`fav ${saved ? 'on' : ''}`} aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'} aria-pressed={saved} onClick={() => onToggleSave(recipe.id)}>
+        <button className={`fav ${saved ? 'on' : ''}`} aria-haspopup="menu"
+          aria-label={saved ? 'Gespeichert – Favoriten und Listen' : 'Speichern oder in eine Liste legen'} onClick={(e) => onToggleSave(recipe.id, e)}>
           <IconHeart filled={saved} />
         </button>
         {onToggleHide && (
@@ -136,7 +137,7 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
           </a>
         )}
         <div className="actions">
-          <button className={`btn ${saved ? '' : 'primary'}`} onClick={() => onToggleSave(recipe.id)}>
+          <button className={`btn ${saved ? '' : 'primary'}`} onClick={(e) => onToggleSave(recipe.id, e)}>
             <IconHeart filled={saved} width={18} height={18} /> {saved ? 'Gespeichert' : 'Speichern'}
           </button>
           <button className={`btn ${inLists ? 'on' : ''}`} onClick={onPickList}>

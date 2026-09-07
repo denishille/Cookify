@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react'
+import type { CSSProperties, MouseEvent } from 'react'
 import type { Recipe } from '../types'
 import { DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { openRecipe } from '../lib/router'
@@ -10,7 +10,7 @@ import { IconClock, IconEye, IconHeart, IconStar, IconThumbDown } from './Icons'
 interface Props {
   recipe: Recipe
   saved: boolean
-  onToggleSave: (id: string) => void
+  onToggleSave: (id: string, e: MouseEvent<HTMLElement>) => void
   hidden?: boolean
   onToggleHide?: (id: string) => void
   /** Anzahl Zutaten, die für die aktive Ernährungsform ersetzt oder weggelassen werden */
@@ -49,8 +49,9 @@ export function RecipeRow({ recipe, saved, onToggleSave, hidden, onToggleHide, a
         {recipe.diet.slice(0, adapted > 0 ? 1 : 2).map((d) => <span key={d} className="pill green">{DIET_LABELS[d]}</span>)}
       </div>
       <div className="row-actions">
-        <button className={`row-fav ${saved ? 'on' : ''}`} aria-label={saved ? 'Aus Gespeichert entfernen' : 'Rezept speichern'} aria-pressed={saved}
-          onClick={(e) => { e.stopPropagation(); onToggleSave(recipe.id) }}>
+        <button className={`row-fav ${saved ? 'on' : ''}`} aria-haspopup="menu"
+          aria-label={saved ? 'Gespeichert – Favoriten und Listen' : 'Speichern oder in eine Liste legen'}
+          onClick={(e) => { e.stopPropagation(); onToggleSave(recipe.id, e) }}>
           <IconHeart filled={saved} width={18} height={18} />
         </button>
         {onToggleHide && (
