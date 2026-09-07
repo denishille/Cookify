@@ -43,6 +43,24 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
     const grab = () => { el.classList.add('dragging'); el.style.willChange = 'transform' }
     const release = () => { el.classList.remove('dragging'); el.style.willChange = '' }
 
+    /**
+     * Schiebt ein Abbild der Seite aus dem Bild. Das Original wird beim Umschalten abgebaut,
+     * das Abbild hängt frei über der Seite und trägt die Bewegung zu Ende.
+     */
+    const flyOut = (fromX: number) => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+      const rect = el.getBoundingClientRect()
+      const copy = el.cloneNode(true) as HTMLElement
+      copy.setAttribute('aria-hidden', 'true')
+      // Ohne die Verschiebung gerechnet, damit das Abbild genau dort startet, wo das Original steht.
+      copy.style.cssText = `position:fixed;left:${rect.left - fromX}px;top:${rect.top}px;width:${rect.width}px;`
+        + `margin:0;pointer-events:none;z-index:15;transform:translate3d(${fromX}px,0,0);`
+        + `transition:transform ${SNAP_MS}ms cubic-bezier(.22,.61,.36,1)`
+      document.body.appendChild(copy)
+      requestAnimationFrame(() => { copy.style.transform = `translate3d(${window.innerWidth}px,0,0)` })
+      setTimeout(() => copy.remove(), SNAP_MS + 80)
+    }
+
     /** Liegt der Finger auf etwas, das selbst waagerecht scrollt (z. B. eine Kachelreihe)? */
     const onScroller = (target: EventTarget | null) => {
       let n = target instanceof Element ? target : null
@@ -85,19 +103,26 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
       release()
       const commit = dx > 90 || (dx > 40 && Date.now() - t < 300)
       if (!commit) { dx = 0; el.style.transform = ''; return }
-      // Weiter bis zum Rand – das Ziel deckt sich mit dem geschlossenen Zustand der Schublade,
-      // deshalb ist beim Umschalten kein Sprung zu sehen.
-      dx = el.getBoundingClientRect().width || window.innerWidth
-      el.style.transform = `translate3d(${dx}px,0,0)`
-      // Eine Seite ohne eigenen Endzustand muss erst draußen sein, sonst verschwindet sie mitten
-      // in der Bewegung. Eine Schublade schaltet sofort um und gleitet dabei weiter.
-      if (closesItself) swipe.current()
-      finish = setTimeout(() => {
-        finish = undefined
-        dx = 0
-        if (!closesItself) swipe.current()
-        requestAnimationFrame(() => { el.style.transform = '' })
-      }, SNAP_MS)
+      if (closesItself) {
+        // Eine Schublade steht ohne ihre Klasse `open` ohnehin am rechten Rand: sofort umschalten
+        // und weitergleiten, dann reagieren Hintergrund und Griff im selben Moment.
+        dx = el.getBoundingClientRect().width || window.innerWidth
+        el.style.transform = `translate3d(${dx}px,0,0)`
+        swipe.current()
+        finish = setTimeout(() => {
+          finish = undefined
+          dx = 0
+          requestAnimationFrame(() => { el.style.transform = '' })
+        }, SNAP_MS)
+        return
+      }
+      // Eine Seite verschwindet beim Umschalten. Damit man nicht auf einen leeren Hintergrund
+      // schaut, während sie wegzieht, übernimmt eine Kopie die Bewegung – die neue Ansicht steht
+      // dann schon darunter, statt am Ende hereinzuspringen.
+      flyOut(dx)
+      dx = 0
+      el.style.transform = ''
+      swipe.current()
     }
 
     el.addEventListener('touchstart', onStart, { passive: true })
