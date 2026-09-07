@@ -105,6 +105,8 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
 
     const onTouchEnd = () => { if (stop(true)) suppressClick() }
     const onTouchCancel = () => { stop(false) }
+    /** Beim Halten öffnet der Browser sonst sein eigenes Menü und bricht die Geste ab. */
+    const onContextMenu = (e: Event) => { if (card || dragging) e.preventDefault() }
 
     // --- Maus ---
     const onMouseDown = (e: MouseEvent) => {
@@ -144,6 +146,7 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
     root.addEventListener('touchend', onTouchEnd)
     root.addEventListener('touchcancel', onTouchCancel)
     root.addEventListener('mousedown', onMouseDown)
+    root.addEventListener('contextmenu', onContextMenu)
     return () => {
       stop(false)
       root.removeEventListener('touchstart', onTouchStart)
@@ -151,6 +154,7 @@ export function useDragToList(containerRef: RefObject<HTMLElement | null>, { onD
       root.removeEventListener('touchend', onTouchEnd)
       root.removeEventListener('touchcancel', onTouchCancel)
       root.removeEventListener('mousedown', onMouseDown)
+      root.removeEventListener('contextmenu', onContextMenu)
       window.removeEventListener('mousemove', onMouseMove)
       window.removeEventListener('mouseup', onMouseUp)
     }

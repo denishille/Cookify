@@ -217,8 +217,11 @@ export default function App() {
   const activeList = lists.lists.find((l) => l.id === openList) ?? null
   const listRecipes = activeList ? activeList.recipeIds.map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r)) : []
   const shareList = async (id: string) => {
-    const l = lists.lists.find((x) => x.id === id)
-    if (!l) return
+    // Die Favoriten sind keine gespeicherte Liste, lassen sich aber genauso teilen.
+    const l = id === '__fav'
+      ? { name: 'Favoriten', recipeIds: [...savedSet.set] }
+      : lists.lists.find((x) => x.id === id)
+    if (!l || l.recipeIds.length === 0) return notice('Die Liste ist noch leer')
     const msg = await shareLink(`Cookify: ${l.name}`, listUrl(l))
     if (msg) notice(msg)
   }
@@ -507,13 +510,16 @@ export default function App() {
               <button className="chip soft" onClick={() => setPickFor('')}><IconPlus width={16} height={16} /> Neue Liste</button>
             </div>
 
+            <div className="results-tools" style={{ marginTop: 18 }}>
+              <button className="btn sm" onClick={() => shareList(activeList?.id ?? '__fav')} disabled={(activeList ? activeList.recipeIds.length : savedSet.set.size) === 0}>
+                <IconShare width={16} height={16} /> Teilen
+              </button>
+              {activeList && <button className="btn sm" onClick={() => renameList(activeList.id)}><IconPencil width={16} height={16} /> Umbenennen</button>}
+              {activeList && <button className="btn sm ghost" onClick={() => deleteList(activeList.id)}><IconTrash width={16} height={16} /> Löschen</button>}
+            </div>
+
             {activeList ? (
               <>
-                <div className="results-tools" style={{ marginTop: 18 }}>
-                  <button className="btn sm" onClick={() => shareList(activeList.id)}><IconShare width={16} height={16} /> Teilen</button>
-                  <button className="btn sm" onClick={() => renameList(activeList.id)}><IconPencil width={16} height={16} /> Umbenennen</button>
-                  <button className="btn sm ghost" onClick={() => deleteList(activeList.id)}><IconTrash width={16} height={16} /> Löschen</button>
-                </div>
                 {listRecipes.length === 0 ? (
                   <div className="empty" style={{ marginTop: 22 }}>
                     <div className="ico"><IconLayers /></div>

@@ -339,7 +339,11 @@ svg { flex-shrink: 0; }
 .lists-bar { position: sticky; top: -28px; z-index: 6; background: var(--bg); padding-top: 16px; padding-bottom: 10px; }
 
 /* Ziehen: das Original blasst ab, ein Schildchen hängt am Finger, das Ziel leuchtet. */
-.card img { -webkit-user-drag: none; user-select: none; }
+/* Lange auf eine Karte drücken heißt „ziehen“ und nicht „Bild teilen“: iOS bietet sonst
+   sein eigenes Menü an und bricht die Geste ab. Die Bilder nehmen gar keine Berührung mehr an,
+   damit die Karte selbst das Ziel ist. */
+.card, .row { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+.card img, .row-thumb img { -webkit-user-drag: none; pointer-events: none; }
 .dragging-card { opacity: .4; transform: scale(.97); transition: opacity .12s, transform .12s; }
 body.dragging-anything { user-select: none; -webkit-user-select: none; }
 .drag-ghost {
