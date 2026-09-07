@@ -273,6 +273,14 @@ svg { flex-shrink: 0; }
 
 /* ---------- Typography helpers ---------- */
 .h1 { font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; letter-spacing: -0.02em; }
+/* Überschrift und Knöpfe teilen sich eine Zeile – ein Knopf allein auf einer Zeile sieht verloren aus. */
+.page-head { display: flex; align-items: center; justify-content: space-between; gap: 10px 12px; flex-wrap: wrap; }
+.page-head-tools { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.page-head-tools .btn.icon.sm { width: 40px; height: 40px; }
+/* Löschen bleibt zurückhaltend, behält aber die Form der Nachbarn. */
+.page-head-tools .btn.danger { color: var(--muted); }
+.page-head-tools .btn.danger:hover { color: var(--danger); border-color: var(--danger); }
+
 .lead { color: var(--muted); font-size: 1rem; margin-top: 6px; max-width: 60ch; }
 .section { margin-top: 36px; }
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
@@ -333,7 +341,13 @@ svg { flex-shrink: 0; }
 .chips.scroll {
   flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
   margin: 0 -20px; padding: 2px 20px;
+  /* Weiche Kante, wo die Reihe weitergeht – siehe edgeFade.ts. */
+  --fade-l: 0px; --fade-r: 0px;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
 }
+.chips.scroll.more-left { --fade-l: 26px; }
+.chips.scroll.more-right { --fade-r: 32px; }
 .chips.scroll::-webkit-scrollbar { display: none; }
 /* Die Listenreihe bleibt oben stehen: nur so hat man beim Ziehen immer ein Ziel vor Augen. */
 .lists-bar { position: sticky; top: -28px; z-index: 6; background: var(--bg); padding-top: 16px; padding-bottom: 10px; }

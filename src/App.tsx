@@ -11,6 +11,7 @@ import { dailyPicks } from './lib/daily'
 import { adaptRecipe } from './lib/adapt'
 import { DEFAULT_SETS, type PantrySet } from './lib/sets'
 import { decodeList, listUrl, useLists } from './lib/lists'
+import { useEdgeFade } from './lib/edgeFade'
 import { useLongPress } from './lib/longPress'
 import { shareLink } from './lib/share'
 import { RecipeCard } from './components/RecipeCard'
@@ -207,6 +208,8 @@ export default function App() {
 
   /** Karte in „Gespeichert“ gedrückt halten: Menü zum Einsortieren. */
   const savedGridRef = useRef<HTMLDivElement>(null)
+  const chipsRef = useRef<HTMLDivElement>(null)
+  useEdgeFade(chipsRef)
   const [menuFor, setMenuFor] = useState<{ id: string; x: number; y: number } | null>(null)
   useLongPress(savedGridRef, {
     enabled: route.view === 'gespeichert' && !route.recipeId && !route.sharedList,
@@ -514,8 +517,18 @@ export default function App() {
 
         {!route.recipeId && route.view === 'gespeichert' && !shared && (
           <>
-            <h1 className="h1">Gespeichert</h1>
-            <div className="chips scroll lists-bar">
+            <div className="page-head">
+              <h1 className="h1">Gespeichert</h1>
+              <div className="page-head-tools">
+                <button className="btn icon sm" onClick={() => shareList(activeList?.id ?? '__fav')} disabled={(activeList ? activeList.recipeIds.length : savedSet.set.size) === 0} aria-label={activeList ? 'Liste teilen' : 'Favoriten teilen'} title="Teilen">
+                  <IconShare width={17} height={17} />
+                </button>
+                {activeList && <button className="btn icon sm" onClick={() => renameList(activeList.id)} aria-label="Liste umbenennen" title="Umbenennen"><IconPencil width={16} height={16} /></button>}
+                {activeList && <button className="btn icon sm danger" onClick={() => deleteList(activeList.id)} aria-label="Liste löschen" title="Löschen"><IconTrash width={16} height={16} /></button>}
+              </div>
+            </div>
+            <div className="lists-bar">
+             <div className="chips scroll" ref={chipsRef}>
               <button className={`chip ${openList === null ? 'on' : ''}`} onClick={() => setOpenList(null)}>
                 <IconHeart width={16} height={16} filled={openList === null} /> Favoriten {savedSet.set.size > 0 && `· ${savedSet.set.size}`}
               </button>
@@ -525,14 +538,7 @@ export default function App() {
                 </button>
               ))}
               <button className="chip soft" onClick={() => setPickFor('')}><IconPlus width={16} height={16} /> Neue Liste</button>
-            </div>
-
-            <div className="results-tools" style={{ marginTop: 18 }}>
-              <button className="btn sm" onClick={() => shareList(activeList?.id ?? '__fav')} disabled={(activeList ? activeList.recipeIds.length : savedSet.set.size) === 0}>
-                <IconShare width={16} height={16} /> Teilen
-              </button>
-              {activeList && <button className="btn sm" onClick={() => renameList(activeList.id)}><IconPencil width={16} height={16} /> Umbenennen</button>}
-              {activeList && <button className="btn sm ghost" onClick={() => deleteList(activeList.id)}><IconTrash width={16} height={16} /> Löschen</button>}
+             </div>
             </div>
 
             {activeList ? (
