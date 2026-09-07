@@ -13,7 +13,16 @@ const SNAP_MS = 200
  * Native Listener, damit `preventDefault` greift und die Seite beim seitlichen Wischen nicht mitscrollt.
  * Startpunkte ganz am linken Rand bleiben aus, damit die Zurück-Geste des Browsers nichts dazwischenkommt.
  */
-export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boolean, onSwipe: () => void) {
+interface Options {
+  /**
+   * Das Element kennt einen eigenen Zustand für „zu“ – so wie eine Schublade, die ohne die Klasse
+   * `open` ohnehin am rechten Rand steht. Dann wird sofort umgeschaltet, während das Element noch
+   * hinausgleitet: Hintergrund und Griff reagieren im selben Moment und nicht erst am Ende.
+   */
+  closesItself?: boolean
+}
+
+export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boolean, onSwipe: () => void, { closesItself = false }: Options = {}) {
   // Die Geste wird einmal angemeldet; der Rückruf darf sich trotzdem bei jedem Rendern ändern.
   const swipe = useRef(onSwipe)
   useEffect(() => { swipe.current = onSwipe })
@@ -76,14 +85,17 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
       release()
       const commit = dx > 90 || (dx > 40 && Date.now() - t < 300)
       if (!commit) { dx = 0; el.style.transform = ''; return }
-      // Erst zu Ende schieben, dann umschalten – ein Sprung mitten in der Bewegung fühlt sich falsch an.
+      // Weiter bis zum Rand – das Ziel deckt sich mit dem geschlossenen Zustand der Schublade,
+      // deshalb ist beim Umschalten kein Sprung zu sehen.
       dx = el.getBoundingClientRect().width || window.innerWidth
       el.style.transform = `translate3d(${dx}px,0,0)`
+      // Eine Seite ohne eigenen Endzustand muss erst draußen sein, sonst verschwindet sie mitten
+      // in der Bewegung. Eine Schublade schaltet sofort um und gleitet dabei weiter.
+      if (closesItself) swipe.current()
       finish = setTimeout(() => {
         finish = undefined
         dx = 0
-        // Erst umschalten, dann aufräumen: sonst steht die Schublade für ein Bild wieder mitten im Weg.
-        swipe.current()
+        if (!closesItself) swipe.current()
         requestAnimationFrame(() => { el.style.transform = '' })
       }, SNAP_MS)
     }
@@ -100,7 +112,7 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
       el.removeEventListener('touchstart', onStart); el.removeEventListener('touchmove', onMove)
       el.removeEventListener('touchend', onEnd); el.removeEventListener('touchcancel', onEnd)
     }
-  }, [ref, enabled])
+  }, [ref, enabled, closesItself])
 }
 
 /** Sperrt das Scrollen der Seite, solange eine Schublade offen ist. */

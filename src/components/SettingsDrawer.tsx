@@ -23,14 +23,14 @@ export function SettingsDrawer({ open, onClose, globalDiets, onChange, adapt, on
   }, [open, onClose])
 
   const asideRef = useRef<HTMLElement>(null)
-  useSwipeRight(asideRef, open, onClose)
+  useSwipeRight(asideRef, open, onClose, { closesItself: true })
   useScrollLock(open)
 
   const toggle = (d: Diet) => onChange(globalDiets.includes(d) ? globalDiets.filter((x) => x !== d) : [...globalDiets, d])
 
   return (
     <>
-      {open && <div className="drawer-backdrop" onClick={onClose} />}
+      <div className={`drawer-backdrop ${open ? 'on' : ''}`} onClick={onClose} aria-hidden={!open} />
       <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Einstellungen">
         <div className="drawer-head">
           <h2>Einstellungen</h2>

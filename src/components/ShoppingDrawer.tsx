@@ -34,7 +34,7 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
   }, [open, onClose])
 
   const asideRef = useRef<HTMLElement>(null)
-  useSwipeRight(asideRef, open, onClose)
+  useSwipeRight(asideRef, open, onClose, { closesItself: true })
   useScrollLock(open)
 
   const recipes = [...new Set(items.filter((x) => !x.done && x.from).map((x) => x.from as string))]
@@ -55,7 +55,7 @@ export function ShoppingDrawer({ open, onClose, items, onToggleDone, onRemove, o
 
   return (
     <>
-      {open && <div className="drawer-backdrop" onClick={onClose} />}
+      <div className={`drawer-backdrop ${open ? 'on' : ''}`} onClick={onClose} aria-hidden={!open} />
       <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Einkaufsliste">
         <div className="drawer-head">
           <h2>Einkaufsliste{openItems.length > 0 && <span className="count-pill">{openItems.length}</span>}</h2>

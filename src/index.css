@@ -518,7 +518,10 @@ body.dragging-anything { user-select: none; -webkit-user-select: none; }
   transition: transform 0.15s ease;
 }
 .drawer-handle:hover { transform: translateY(-50%) translateX(-2px); }
-.drawer-backdrop { position: fixed; inset: 0; z-index: 26; background: rgba(20, 30, 24, 0.35); }
+.drawer-handle.away { opacity: 0; pointer-events: none; transform: translateY(-50%) translateX(60%); }
+.drawer-handle { transition: transform .15s, opacity .18s ease; }
+.drawer-backdrop { position: fixed; inset: 0; z-index: 26; background: rgba(20, 30, 24, 0.35); opacity: 0; pointer-events: none; transition: opacity .22s ease; }
+.drawer-backdrop.on { opacity: 1; pointer-events: auto; }
 .drawer {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 27; width: min(380px, 88vw);
   background: var(--bg); box-shadow: var(--shadow); padding: 20px 20px calc(20px + env(safe-area-inset-bottom));

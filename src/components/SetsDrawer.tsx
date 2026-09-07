@@ -26,7 +26,7 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
   const close = () => { setEditing(null); onClose() }
 
   const asideRef = useRef<HTMLElement>(null)
-  useSwipeRight(asideRef, open, close)
+  useSwipeRight(asideRef, open, close, { closesItself: true })
   useScrollLock(open)
 
   const startNew = () => setEditing({ id: '', name: '', keys: [...pantry] })
@@ -40,13 +40,11 @@ export function SetsDrawer({ open, onOpen, onClose, pantry, sets, onApplySet, on
 
   return (
     <>
-      {!open && (
-        <button className="drawer-handle" onClick={onOpen} aria-label="Sets öffnen" title="Sets">
-          <IconChevronLeft width={16} height={16} />
-          <IconLayers width={18} height={18} />
-        </button>
-      )}
-      {open && <div className="drawer-backdrop" onClick={close} />}
+      <button className={`drawer-handle ${open ? 'away' : ''}`} onClick={onOpen} aria-label="Sets öffnen" title="Sets" tabIndex={open ? -1 : 0} aria-hidden={open}>
+        <IconChevronLeft width={16} height={16} />
+        <IconLayers width={18} height={18} />
+      </button>
+      <div className={`drawer-backdrop ${open ? 'on' : ''}`} onClick={close} aria-hidden={!open} />
       <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Sets">
         {editing ? (
           <>

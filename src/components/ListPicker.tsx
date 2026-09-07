@@ -18,7 +18,7 @@ interface Props {
 export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onToggle, onCreate }: Props) {
   const [name, setName] = useState('')
   const asideRef = useRef<HTMLElement>(null)
-  useSwipeRight(asideRef, open, onClose)
+  useSwipeRight(asideRef, open, onClose, { closesItself: true })
   useScrollLock(open)
 
   const add = () => {
@@ -29,7 +29,7 @@ export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onTogg
 
   return (
     <>
-      {open && <div className="drawer-backdrop" onClick={onClose} />}
+      <div className={`drawer-backdrop ${open ? 'on' : ''}`} onClick={onClose} aria-hidden={!open} />
       <aside ref={asideRef} className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open} aria-label="Listen">
         <div className="drawer-head">
           <h2>In welche Liste?</h2>
