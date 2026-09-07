@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 
 /** Wert aus dem localStorage lesen – auch außerhalb von Hooks nutzbar. */
 export function readStored<T>(key: string, fallback: T): T {
@@ -29,7 +29,9 @@ export function usePersistentState<T>(key: string, fallback: T) {
 /** Set<string> in localStorage (als Array gespeichert). */
 export function usePersistentSet(key: string) {
   const [arr, setArr] = usePersistentState<string[]>(key, [])
-  const set = new Set(arr)
+  // Dieselbe Menge über mehrere Durchgänge: sonst gilt alles, was daraus abgeleitet wird,
+  // bei jedem Rendern als neu und wird umsonst noch einmal gerechnet.
+  const set = useMemo(() => new Set(arr), [arr])
   const toggle = useCallback(
     (item: string) =>
       setArr((prev) => (prev.includes(item) ? prev.filter((x) => x !== item) : [...prev, item])),
@@ -37,7 +39,7 @@ export function usePersistentSet(key: string) {
   )
   const clear = useCallback(() => setArr([]), [setArr])
   const replace = useCallback((items: string[]) => setArr([...new Set(items)]), [setArr])
-  return { set, toggle, clear, replace, has: (item: string) => set.has(item) }
+  return useMemo(() => ({ set, toggle, clear, replace, has: (item: string) => set.has(item) }), [set, toggle, clear, replace])
 }
 
 /**
@@ -46,9 +48,9 @@ export function usePersistentSet(key: string) {
  */
 export function useSessionSet(initial: () => string[]) {
   const [arr, setArr] = useState<string[]>(initial)
-  const set = new Set(arr)
+  const set = useMemo(() => new Set(arr), [arr])
   const toggle = useCallback((item: string) => setArr((prev) => (prev.includes(item) ? prev.filter((x) => x !== item) : [...prev, item])), [])
   const clear = useCallback(() => setArr([]), [])
   const replace = useCallback((items: string[]) => setArr([...new Set(items)]), [])
-  return { set, toggle, clear, replace, has: (item: string) => set.has(item) }
+  return useMemo(() => ({ set, toggle, clear, replace, has: (item: string) => set.has(item) }), [set, toggle, clear, replace])
 }

@@ -19,6 +19,7 @@ import { RecipeRow } from './components/RecipeRow'
 import { RecipeDetail } from './components/RecipeDetail'
 import { PantryPicker } from './components/PantryPicker'
 import { ScrollStrip } from './components/ScrollStrip'
+import { useProgressive } from './lib/progressive'
 import { useScrollMemory } from './lib/scrollMemory'
 import { SetsDrawer } from './components/SetsDrawer'
 import { SettingsDrawer } from './components/SettingsDrawer'
@@ -53,6 +54,25 @@ function sortRecipes(list: Recipe[], sort: Sort): Recipe[] {
     case 'protein': return copy.sort((a, b) => b.nutrition.protein - a.nutrition.protein)
     default: return copy
   }
+}
+
+/**
+ * Der Bestand ohne Ausgeblendete und ohne alles, was zur Ernährungsform nicht passt.
+ *
+ * Über tausend Rezepte durchzugehen kostet spürbar, und das Ergebnis ändert sich nur, wenn
+ * sich Daumen-runter oder Ernährungsform ändern – darum gemerkt. Gleiches Ergebnis heißt
+ * auch dieselbe Liste, sodass alles Abgeleitete ebenfalls stehen bleiben kann.
+ */
+const verfuegbarGemerkt = new Map<string, Recipe[]>()
+function verfuegbareRezepte(hidden: Set<string>, diets: Diet[], adapt: boolean): Recipe[] {
+  const schluessel = `${[...hidden].sort().join(',')}|${[...diets].sort().join(',')}|${adapt}`
+  const bekannt = verfuegbarGemerkt.get(schluessel)
+  if (bekannt) return bekannt
+  const liste = ALL_RECIPES.filter((r) => !hidden.has(r.id) && adaptRecipe(r, diets, { adapt }).ok)
+  // Ein paar Stände reichen; ausgeblendet wird selten, die Ernährungsform noch seltener.
+  if (verfuegbarGemerkt.size > 8) verfuegbarGemerkt.clear()
+  verfuegbarGemerkt.set(schluessel, liste)
+  return liste
 }
 
 function randomOf<T>(arr: T[]): T {
@@ -168,18 +188,21 @@ export default function App() {
   }
   /** Ausgeblendete Rezepte (Daumen runter): tauchen nur noch am Ende von „Alle Rezepte“ auf. */
   const hiddenSet = usePersistentSet('cookify.hidden')
-  // Bewusst ohne useMemo: bei rund hundert Rezepten ist das Filtern pro Render billig.
-  const AVAILABLE = ALL_RECIPES.filter((r) => !hiddenSet.has(r.id) && adaptRecipe(r, globalDiets, dietOpts).ok)
+  const AVAILABLE = verfuegbareRezepte(hiddenSet.set, globalDiets, adaptOn)
   const hiddenRecipes = [...hiddenSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
   const DAILY = dailyPicks(AVAILABLE, 5)
 
   /** Alle-Rezepte-Liste: eigene Filter und Sortierung */
+  /** Beim Wechsel der Ansicht entstehen lange Listen in zwei Schritten – siehe progressive.ts. */
+  const wechsel = `${route.view}|${route.recipeId ?? ''}|${route.sharedList ?? ''}|${openList ?? ''}`
+
   const [allFilters, setAllFilters] = useState<FilterState>(EMPTY_FILTERS)
   const [allSort, setAllSort] = useState<Sort>('standard')
   const allBase = applyFilters(AVAILABLE, allFilters, dietOpts)
   const allList = allSort === 'standard'
     ? (allFilters.query.trim() ? rankByQuery(allBase, allFilters.query) : [...allBase].sort((a, b) => a.title.localeCompare(b.title, 'de')))
     : sortRecipes(allBase, allSort)
+  const allZeigen = useProgressive(allList, 8, wechsel)
 
   const pantryKey = [...pantrySet.set].sort().join(',')
   const pantryMatch = autoMatch(AVAILABLE, new Set(pantryKey ? pantryKey.split(',') : []))
@@ -188,11 +211,15 @@ export default function App() {
   /** Treffer gibt es nur, wenn im Konfigurator etwas gesetzt ist. */
   const configured = !isEmpty(filters)
   const results = sortRecipes(applyFilters(AVAILABLE, filters, dietOpts), sort)
+  const ergebnisseZeigen = useProgressive(results, 8, wechsel)
 
   const savedAll = [...savedSet.set].map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r))
   const savedRecipes = savedAll.filter((r) => adaptRecipe(r, globalDiets, dietOpts).ok)
+  const savedZeigen = useProgressive(savedRecipes, 4, wechsel)
   const savedUnfit = savedAll.length - savedRecipes.length
   const detail = route.recipeId ? BY_ID.get(route.recipeId) : null
+  /** Ähnliche Rezepte am Fuß der Rezeptseite. */
+  const verwandte = detail ? related(detail, AVAILABLE) : []
 
   /** Geteilte Liste aus dem Link – und was davon die App kennt. */
   const shared = route.sharedList ? decodeList(route.sharedList) : null
@@ -236,6 +263,7 @@ export default function App() {
 
   const activeList = lists.lists.find((l) => l.id === openList) ?? null
   const listRecipes = activeList ? activeList.recipeIds.map((id) => BY_ID.get(id)).filter((r): r is Recipe => Boolean(r)) : []
+  const listeZeigen = useProgressive(listRecipes, 4, wechsel)
   const shareList = async (id: string) => {
     // Die Favoriten sind keine gespeicherte Liste, lassen sich aber genauso teilen.
     const l = id === '__fav'
@@ -341,7 +369,7 @@ export default function App() {
             inLists={lists.listsWith(detail.id).length}
             pantry={pantrySet.set}
             onTogglePantry={togglePantry}
-            related={related(detail, AVAILABLE)}
+            related={verwandte}
             isNew={detail.addedWeek === CURRENT_WEEK}
             savedIds={savedSet.set}
             activeDiets={activeDiets}
@@ -391,7 +419,7 @@ export default function App() {
                     <button className="btn" onClick={() => setFilters(EMPTY_FILTERS)}>Zurücksetzen</button>
                   </div>
                 ) : (
-                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}</div>
+                  <div className="list">{ergebnisseZeigen.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}</div>
                 )}
               </div>
             )}
@@ -486,7 +514,7 @@ export default function App() {
               </div>
             ) : (
               <div className="list" style={{ marginTop: 18 }}>
-                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}
+                {allZeigen.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}
               </div>
             )}
             {hiddenRecipes.length > 0 && (
@@ -551,7 +579,7 @@ export default function App() {
                     <button className="btn primary" onClick={() => navigate('alle')}>Rezepte ansehen</button>
                   </div>
                 ) : (
-                  <div className="grid" ref={savedGridRef} style={{ marginTop: 18 }}>{listRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+                  <div className="grid" ref={savedGridRef} style={{ marginTop: 18 }}>{listeZeigen.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
                 )}
               </>
             ) : savedRecipes.length === 0 ? (
@@ -564,7 +592,7 @@ export default function App() {
             ) : (
               <>
                 {lists.lists.length > 0 && <p className="hint" style={{ marginTop: 14 }}>Karte gedrückt halten, um sie in eine Liste zu legen.</p>}
-                <div className="grid" ref={savedGridRef} style={{ marginTop: 14 }}>{savedRecipes.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
+                <div className="grid" ref={savedGridRef} style={{ marginTop: 14 }}>{savedZeigen.map((r) => <RecipeCard key={r.id} {...card(r)} />)}</div>
               </>
             )}
             {!activeList && savedUnfit > 0 && <p className="hint" style={{ marginTop: 16 }}>{savedUnfit} gespeicherte {savedUnfit === 1 ? 'Rezept passt' : 'Rezepte passen'} nicht zu deiner Ernährungsform und {savedUnfit === 1 ? 'wird' : 'werden'} ausgeblendet.</p>}

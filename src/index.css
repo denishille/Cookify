@@ -421,7 +421,12 @@ svg { flex-shrink: 0; }
 .card, .row { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
 .card img, .row-thumb img { -webkit-user-drag: none; pointer-events: none; }
 
-.card { display: flex; flex-direction: column; gap: 10px; cursor: pointer; text-align: left; min-width: 0; }
+.card {
+  display: flex; flex-direction: column; gap: 10px; cursor: pointer; text-align: left; min-width: 0;
+  /* Was gerade nicht im Bild ist, wird auch nicht gesetzt und gemalt – sonst kostet der Wechsel
+     zurück in eine lange Liste einen sichtbaren Moment. `auto` merkt sich die zuletzt echte Höhe. */
+  content-visibility: auto; contain-intrinsic-size: auto 330px;
+}
 .card > * { min-width: 0; }
 .card h3 { overflow-wrap: anywhere; }
 .card:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; border-radius: var(--r); }

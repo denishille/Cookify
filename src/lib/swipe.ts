@@ -44,21 +44,44 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
     const release = () => { el.classList.remove('dragging'); el.style.willChange = '' }
 
     /**
-     * Schiebt ein Abbild der Seite aus dem Bild. Das Original wird beim Umschalten abgebaut,
-     * das Abbild hängt frei über der Seite und trägt die Bewegung zu Ende.
+     * Legt ein Standbild der Seite über die Seite und versteckt das Original.
+     *
+     * Danach kann die Zielseite in Ruhe aufgebaut werden: Der Nutzer sieht so lange das
+     * Standbild und damit dasselbe Bild wie vorher – kein weißes Loch, kein Doppelbild.
+     * Erst wenn die neue Ansicht steht, zieht das Standbild zur Seite und gibt sie frei.
+     *
+     * Die Hülle ist genau fensergroß und beschneidet die Kopie: Eine Rezeptseite ist ein
+     * Vielfaches höher als der Bildschirm, und ohne Beschnitt malt der Browser sie komplett.
      */
-    const flyOut = (fromX: number) => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const freeze = (fromX: number) => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return null
       const rect = el.getBoundingClientRect()
+      const huelle = document.createElement('div')
+      huelle.setAttribute('aria-hidden', 'true')
+      huelle.style.cssText = 'position:fixed;inset:0;z-index:15;overflow:hidden;pointer-events:none;'
+        + 'contain:layout paint;will-change:transform;'
+        + `transform:translate3d(${fromX}px,0,0);transition:transform ${SNAP_MS}ms cubic-bezier(.22,.61,.36,1)`
       const copy = el.cloneNode(true) as HTMLElement
-      copy.setAttribute('aria-hidden', 'true')
-      // Ohne die Verschiebung gerechnet, damit das Abbild genau dort startet, wo das Original steht.
-      copy.style.cssText = `position:fixed;left:${rect.left - fromX}px;top:${rect.top}px;width:${rect.width}px;`
-        + `margin:0;pointer-events:none;z-index:15;transform:translate3d(${fromX}px,0,0);`
-        + `transition:transform ${SNAP_MS}ms cubic-bezier(.22,.61,.36,1)`
-      document.body.appendChild(copy)
-      requestAnimationFrame(() => { copy.style.transform = `translate3d(${window.innerWidth}px,0,0)` })
-      setTimeout(() => copy.remove(), SNAP_MS + 80)
+      // Ohne die Verschiebung gerechnet, damit die Kopie genau dort steht, wo das Original stand.
+      copy.style.cssText = `position:absolute;left:${rect.left - fromX}px;top:${rect.top}px;width:${rect.width}px;margin:0;transform:none`
+      huelle.appendChild(copy)
+      document.body.appendChild(huelle)
+      el.style.visibility = 'hidden'
+      let weg = false
+      const abraeumen = () => {
+        if (weg) return
+        weg = true
+        huelle.remove()
+        el.style.visibility = ''
+      }
+      return {
+        /** Zur Seite ziehen und die neue Ansicht freigeben. */
+        raus: () => {
+          huelle.style.transform = `translate3d(${window.innerWidth}px,0,0)`
+          setTimeout(abraeumen, SNAP_MS + 80)
+        },
+        abraeumen,
+      }
     }
 
     /** Liegt der Finger auf etwas, das selbst waagerecht scrollt (z. B. eine Kachelreihe)? */
@@ -116,13 +139,30 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
         }, SNAP_MS)
         return
       }
-      // Eine Seite verschwindet beim Umschalten. Damit man nicht auf einen leeren Hintergrund
-      // schaut, während sie wegzieht, übernimmt eine Kopie die Bewegung – die neue Ansicht steht
-      // dann schon darunter, statt am Ende hereinzuspringen.
-      flyOut(dx)
+      // Eine Seite verschwindet beim Umschalten. Damit dabei nichts blitzt, hält ein Standbild
+      // die alte Ansicht fest, während die neue aufgebaut wird, und zieht erst dann zur Seite.
+      const standbild = freeze(dx)
       dx = 0
       el.style.transform = ''
+      if (!standbild) { swipe.current(); return }
+      const parent = el.parentElement
       swipe.current()
+      // Erst wenn die neue Ansicht wirklich steht, zieht das Standbild zur Seite – sonst schaut
+      // man dahinter ins Leere. Fertig ist sie, sobald React die alte Seite aus dem Baum nimmt;
+      // die Umschaltung läuft über die Adresszeile und kommt darum nicht im selben Zug an.
+      let gestartet = false
+      const los = () => {
+        if (gestartet) return
+        gestartet = true
+        beobachter.disconnect()
+        clearTimeout(notbremse)
+        requestAnimationFrame(() => standbild.raus())
+      }
+      const beobachter = new MutationObserver(() => { if (!el.isConnected) los() })
+      if (parent) beobachter.observe(parent, { childList: true })
+      // Falls die Seite ausnahmsweise stehen bleibt, wartet das Standbild nicht endlos.
+      const notbremse = setTimeout(los, 260)
+      if (!el.isConnected) los()
     }
 
     el.addEventListener('touchstart', onStart, { passive: true })
@@ -134,6 +174,7 @@ export function useSwipeRight(ref: RefObject<HTMLElement | null>, enabled: boole
       if (finish) clearTimeout(finish)
       release()
       el.style.transform = ''
+      el.style.visibility = ''
       el.removeEventListener('touchstart', onStart); el.removeEventListener('touchmove', onMove)
       el.removeEventListener('touchend', onEnd); el.removeEventListener('touchcancel', onEnd)
     }
