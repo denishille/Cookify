@@ -90,8 +90,13 @@ export function useLists() {
       : l)))
   }, [setLists])
 
+  /** Setzt die Rezepte einer Liste am Stück – so kommt ein Rückgängig in der alten Reihenfolge zurück. */
+  const setRecipes = useCallback((listId: string, recipeIds: string[]) => {
+    setLists((prev) => prev.map((l) => (l.id === listId ? { ...l, recipeIds: [...recipeIds] } : l)))
+  }, [setLists])
+
   /** In welchen Listen steckt ein Rezept? */
   const listsWith = useCallback((recipeId: string) => lists.filter((l) => l.recipeIds.includes(recipeId)), [lists])
 
-  return { lists, create, rename, remove, addRecipe, toggleRecipe, listsWith }
+  return { lists, create, rename, remove, addRecipe, toggleRecipe, setRecipes, listsWith }
 }

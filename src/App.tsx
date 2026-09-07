@@ -103,6 +103,15 @@ export default function App() {
     hiddenSet.toggle(id)
   }
 
+  /** Herz umschalten. Beim Entfernen gibt es Rückgängig – ein Fehlgriff soll die Sammlung nicht kosten. */
+  const toggleSaved = (id: string) => {
+    if (savedSet.has(id)) {
+      const before = [...savedSet.set]
+      offerUndo(`„${BY_ID.get(id)?.title ?? id}“ aus den Favoriten entfernt`, () => savedSet.replace(before))
+    }
+    savedSet.toggle(id)
+  }
+
   const applySet = (st: PantrySet) => {
     pantrySet.replace([...pantrySet.set, ...st.keys])
     setLoadedSets((prev) => (prev.includes(st.id) ? prev : [...prev, st.id]))
@@ -209,14 +218,16 @@ export default function App() {
     const liste = lists.lists.find((l) => l.id === listId)
     if (!liste) return
     const drin = liste.recipeIds.includes(menuFor.id)
+    const vorher = [...liste.recipeIds]
     lists.toggleRecipe(listId, menuFor.id)
-    notice(drin ? `„${menuTitle}“ aus „${liste.name}“ entfernt` : `„${menuTitle}“ in „${liste.name}“`)
+    if (drin) offerUndo(`„${menuTitle}“ aus „${liste.name}“ entfernt`, () => lists.setRecipes(listId, vorher))
+    else notice(`„${menuTitle}“ in „${liste.name}“`)
   }
   const toggleSavedFromMenu = () => {
     if (!menuFor) return
     const drin = savedSet.has(menuFor.id)
-    savedSet.toggle(menuFor.id)
-    notice(drin ? `„${menuTitle}“ aus den Favoriten entfernt` : `„${menuTitle}“ in den Favoriten`)
+    toggleSaved(menuFor.id)
+    if (!drin) notice(`„${menuTitle}“ in den Favoriten`)
     setMenuFor(null)
   }
 
@@ -267,7 +278,7 @@ export default function App() {
   /** Alle gerade wirksamen Ernährungsformen: Einstellungen plus die Filter der einzelnen Seiten. */
   const activeDiets: Diet[] = [...new Set<Diet>([...globalDiets, ...filters.diets, ...allFilters.diets])]
   const adaptedCount = (r: Recipe) => adaptRecipe(r, activeDiets, dietOpts).changes.length
-  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: savedSet.toggle, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden, adapted: adaptedCount(r) })
+  const card = (r: Recipe) => ({ recipe: r, saved: savedSet.has(r.id), onToggleSave: toggleSaved, isNew: r.addedWeek === CURRENT_WEEK, hidden: hiddenSet.has(r.id), onToggleHide: toggleHidden, adapted: adaptedCount(r) })
 
   const tabs = (className: string) => (
     <nav className={className} aria-label="Hauptnavigation">
@@ -322,7 +333,7 @@ export default function App() {
             key={detail.id}
             recipe={detail}
             saved={savedSet.has(detail.id)}
-            onToggleSave={savedSet.toggle}
+            onToggleSave={toggleSaved}
             onPickList={() => setPickFor(detail.id)}
             inLists={lists.listsWith(detail.id).length}
             pantry={pantrySet.set}
@@ -377,7 +388,7 @@ export default function App() {
                     <button className="btn" onClick={() => setFilters(EMPTY_FILTERS)}>Zurücksetzen</button>
                   </div>
                 ) : (
-                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}</div>
+                  <div className="list">{results.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}</div>
                 )}
               </div>
             )}
@@ -472,7 +483,7 @@ export default function App() {
               </div>
             ) : (
               <div className="list" style={{ marginTop: 18 }}>
-                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}
+                {allList.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} onToggleHide={toggleHidden} adapted={adaptedCount(r)} />)}
               </div>
             )}
             {hiddenRecipes.length > 0 && (
@@ -481,7 +492,7 @@ export default function App() {
                 <p className="hint">Mit Daumen runter ausgeblendet. Das Auge blendet ein Rezept wieder ein.</p>
                 <button className="btn sm" onClick={copyHidden}>Liste kopieren</button>
                 <div className="list">
-                  {hiddenRecipes.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={savedSet.toggle} hidden onToggleHide={toggleHidden} />)}
+                  {hiddenRecipes.map((r) => <RecipeRow key={r.id} recipe={r} saved={savedSet.has(r.id)} onToggleSave={toggleSaved} hidden onToggleHide={toggleHidden} />)}
                 </div>
               </details>
             )}
