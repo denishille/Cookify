@@ -1,11 +1,19 @@
 #!/usr/bin/env node
 // Erzeugt das Cookify-Logo als fontunabhängige SVG-Pfade:
-//   public/logo.svg            Bildmarke + Wortmarke
-//   public/favicon.svg         Bildmarke
-//   src/components/logo-paths.ts   Pfaddaten für die React-Komponente
-// Schrift: Fredoka SemiBold (rund, freundlich). Die Buchstaben sitzen auf einem
+//   public/logo.svg               Bildmarke + Wortmarke
+//   public/favicon.svg            Bildmarke
+//   public/icon-192.png           Startbildschirm / Web-App-Manifest
+//   public/icon-512.png
+//   public/icon-maskable-512.png  randlos, Motiv im sicheren Bereich (Android beschneidet)
+//   public/apple-touch-icon.png   180 px, iOS nimmt kein SVG
+//   src/components/logo-paths.ts  Pfaddaten für die React-Komponente
+//
+// Bildmarke: Schale mit Keimling – Hinweis auf Kochen und auf die vielen
+// vegetarischen Rezepte. Reine Geometrie, damit sie bis 16 px lesbar bleibt.
+// Wortmarke: Fredoka SemiBold (rund, freundlich). Die Buchstaben sitzen auf einem
 // leichten Bogen und sind minimal mitgedreht – der „Schwung“.
 import * as fontkit from 'fontkit'
+import sharp from 'sharp'
 import { writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -65,42 +73,50 @@ const wordmarkInner = letters.map((l) =>
   `<path d="${l.d}" transform="rotate(${l.rot.toFixed(2)} ${l.cx.toFixed(2)} ${l.cy.toFixed(2)})"/>`).join('\n    ')
 const dot = `<circle cx="${dotX.toFixed(2)}" cy="${dotY.toFixed(2)}" r="${dotR}" fill="${LIME}"/>`
 
-// ---- Bildmarke: abgerundetes Quadrat, weißes C, Limetten-Punkt ----
+// ---- Bildmarke: Schale mit Keimling ----
 const MARK = 100
-const cGlyph = font.glyphsForString('C')[0]
-const cW = cGlyph.advanceWidth * s * 0.78
-const cScale = 0.78
-function glyphPathScaled(glyph, x, y, k) {
-  const cmds = []
-  for (const c of glyph.path.commands) {
-    const a = c.args.map((v, i) => (i % 2 === 0 ? x + v * s * k : y - v * s * k))
-    switch (c.command) {
-      case 'moveTo': cmds.push(`M${a[0].toFixed(2)} ${a[1].toFixed(2)}`); break
-      case 'lineTo': cmds.push(`L${a[0].toFixed(2)} ${a[1].toFixed(2)}`); break
-      case 'quadraticCurveTo': cmds.push(`Q${a.map((v) => v.toFixed(2)).join(' ')}`); break
-      case 'bezierCurveTo': cmds.push(`C${a.map((v) => v.toFixed(2)).join(' ')}`); break
-      case 'closePath': cmds.push('Z'); break
-    }
-  }
-  return cmds.join('')
+/** Rand der Schale – der schmale Spalt darunter macht daraus erst eine Schale. */
+const RIM = { x: 18, y: 48, w: 64, h: 8, r: 4 }
+/** Schalenkörper: gerade Schulter, leicht konisch, runder Boden. */
+const BOWL = 'M24 60 H76 L71 68 A24 24 0 0 1 29 68 L24 60 Z'
+
+/** Ein Blatt, von der Spitze des Keimlings aus gewachsen. */
+function leaf(dir) {
+  const fuss = 44, hoehe = 24, breite = 17 * dir
+  const n = (v) => v.toFixed(2)
+  return `M50 ${fuss}`
+    + ` C50 ${n(fuss - hoehe * 0.57)} ${n(50 + breite * 0.38)} ${n(fuss - hoehe)} ${n(50 + breite)} ${n(fuss - hoehe * 1.08)}`
+    + ` C${n(50 + breite)} ${n(fuss - hoehe * 0.45)} ${n(50 + breite * 0.47)} ${n(fuss - hoehe * 0.1)} 50 ${fuss} Z`
 }
-const cX = (MARK - cW) / 2 - 6
-const cY = MARK / 2 + (font.capHeight * s * cScale) / 2
-const markC = glyphPathScaled(cGlyph, cX, cY, cScale)
-const markDot = { cx: 77, cy: 25, r: 8.5 }
+const LEAVES = [leaf(-1), leaf(1)]
+
+/** Innenleben der Marke. `k` skaliert das Motiv um die Mitte (für das Maskable-Symbol). */
+const markInner = (k = 1) => {
+  const g = k === 1 ? '' : ` transform="translate(${((1 - k) * MARK) / 2} ${((1 - k) * MARK) / 2}) scale(${k})"`
+  return `<g${g}>
+    <rect x="${RIM.x}" y="${RIM.y}" width="${RIM.w}" height="${RIM.h}" rx="${RIM.r}" fill="#ffffff"/>
+    <path d="${BOWL}" fill="#ffffff"/>
+    ${LEAVES.map((d) => `<path d="${d}" fill="${LIME}"/>`).join('\n    ')}
+  </g>`
+}
 
 const markSvg = (withBg = true) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${MARK} ${MARK}">
   ${withBg ? `<rect width="${MARK}" height="${MARK}" rx="26" fill="${GREEN}"/>` : ''}
-  <path d="${markC}" fill="#ffffff"/>
-  <circle cx="${markDot.cx}" cy="${markDot.cy}" r="${markDot.r}" fill="${LIME}"/>
+  ${markInner()}
+</svg>
+`
+
+/** Randloses Quadrat, Motiv auf 76 % – Android beschneidet bis zu 10 % je Seite. */
+const maskableSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${MARK} ${MARK}">
+  <rect width="${MARK}" height="${MARK}" fill="${GREEN}"/>
+  ${markInner(0.76)}
 </svg>
 `
 
 const GAP = 22
 const logoSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${MARK + GAP + wordW} ${wordH}" role="img" aria-label="Cookify">
   <rect width="${MARK}" height="${MARK}" rx="26" fill="${GREEN}"/>
-  <path d="${markC}" fill="#ffffff"/>
-  <circle cx="${markDot.cx}" cy="${markDot.cy}" r="${markDot.r}" fill="${LIME}"/>
+  ${markInner()}
   <g transform="translate(${MARK + GAP} 0)" fill="${GREEN}">
     ${wordmarkInner}
     ${dot}
@@ -112,10 +128,22 @@ writeFileSync(join(root, 'public/logo.svg'), logoSvg)
 writeFileSync(join(root, 'public/favicon.svg'), markSvg())
 writeFileSync(join(root, 'src/components/logo-paths.ts'), `// Generiert von scripts/make-logo.mjs – nicht von Hand bearbeiten.
 export const MARK_VIEWBOX = '0 0 ${MARK} ${MARK}'
-export const MARK_C = '${markC}'
-export const MARK_DOT = { cx: ${markDot.cx}, cy: ${markDot.cy}, r: ${markDot.r} }
+export const MARK_RIM = { x: ${RIM.x}, y: ${RIM.y}, w: ${RIM.w}, h: ${RIM.h}, r: ${RIM.r} }
+export const MARK_BOWL = '${BOWL}'
+export const MARK_LEAVES = ${JSON.stringify(LEAVES)}
 export const WORD_VIEWBOX = '0 0 ${wordW} ${wordH}'
 export const WORD_LETTERS: { d: string; rot: number; cx: number; cy: number }[] = ${JSON.stringify(letters.map((l) => ({ d: l.d, rot: +l.rot.toFixed(2), cx: +l.cx.toFixed(2), cy: +l.cy.toFixed(2) })))}
 export const WORD_DOT = { cx: ${dotX.toFixed(2)}, cy: ${dotY.toFixed(2)}, r: ${dotR} }
 `)
-console.log(`Wortmarke ${wordW}×${wordH}, Logo ${MARK + GAP + wordW}×${wordH}`)
+
+// ---- Rasterbilder für Startbildschirm und Manifest ----
+const png = (svg, size, datei) =>
+  sharp(Buffer.from(svg)).resize(size, size).png({ compressionLevel: 9 }).toFile(join(root, 'public', datei))
+await Promise.all([
+  png(markSvg(), 192, 'icon-192.png'),
+  png(markSvg(), 512, 'icon-512.png'),
+  png(maskableSvg, 512, 'icon-maskable-512.png'),
+  png(markSvg(), 180, 'apple-touch-icon.png'),
+])
+
+console.log(`Wortmarke ${wordW}×${wordH}, Logo ${MARK + GAP + wordW}×${wordH}, Symbole 180/192/512 geschrieben`)

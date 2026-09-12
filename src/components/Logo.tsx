@@ -1,12 +1,18 @@
-import { MARK_C, MARK_DOT, MARK_VIEWBOX, WORD_DOT, WORD_LETTERS, WORD_VIEWBOX } from './logo-paths'
+import { MARK_BOWL, MARK_LEAVES, MARK_RIM, MARK_VIEWBOX, WORD_DOT, WORD_LETTERS, WORD_VIEWBOX } from './logo-paths'
 
-/** Bildmarke: grünes Quadrat, weißes C, Limetten-Punkt. */
+/**
+ * Bildmarke: grünes Quadrat, weiße Schale, Keimling in Limette.
+ *
+ * Die Farben stehen fest und folgen nicht der Hell/Dunkel-Umschaltung – ein Zeichen soll
+ * überall gleich aussehen, und auf dunklem Grund trägt das Quadrat sich selbst.
+ */
 export function LogoMark({ size = 34 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox={MARK_VIEWBOX} aria-hidden>
-      <rect width="100" height="100" rx="26" fill="var(--green)" />
-      <path d={MARK_C} fill="#ffffff" />
-      <circle cx={MARK_DOT.cx} cy={MARK_DOT.cy} r={MARK_DOT.r} fill="var(--lime)" />
+      <rect width="100" height="100" rx="26" fill="#067a46" />
+      <rect x={MARK_RIM.x} y={MARK_RIM.y} width={MARK_RIM.w} height={MARK_RIM.h} rx={MARK_RIM.r} fill="#ffffff" />
+      <path d={MARK_BOWL} fill="#ffffff" />
+      {MARK_LEAVES.map((d) => <path key={d} d={d} fill="#b9df4a" />)}
     </svg>
   )
 }
