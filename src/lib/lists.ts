@@ -41,6 +41,20 @@ export function decodeList(code: string): { name: string; recipeIds: string[] } 
   }
 }
 
+/**
+ * Holt das Kürzel einer geteilten Liste aus eingefügtem Text.
+ *
+ * Erlaubt ist der ganze Link, der Teil ab `#/liste/` oder das nackte Kürzel – auf dem Telefon
+ * hängt am kopierten Link oft noch Text. Null heißt: daraus wird keine Liste.
+ */
+export function listCodeFrom(text: string): string | null {
+  const roh = (text || '').trim()
+  if (!roh) return null
+  const nach = roh.includes('/liste/') ? roh.slice(roh.lastIndexOf('/liste/') + 7) : roh
+  const code = nach.split(/[\s?#&"'<>]/)[0].replace(/[^A-Za-z0-9_-]/g, '')
+  return code && decodeList(code) ? code : null
+}
+
 /** Adresse zum Teilen einer Liste. */
 export function listUrl(list: Pick<RecipeList, 'name' | 'recipeIds'>): string {
   const { origin, pathname } = window.location

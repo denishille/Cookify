@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { ALL_RECIPES, INGREDIENT_BY_KEY } from './data'
 import type { Diet, Recipe } from './types'
-import { useRoute, back, navigate, openRecipe, type View } from './lib/router'
+import { back, navigate, openRecipe, openSharedList, type View, useRoute } from './lib/router'
 import { readStored, useSessionSet, usePersistentSet, usePersistentState } from './lib/storage'
 import { isoWeek } from './lib/week'
 import { autoMatch, ALL_MATCHES } from './lib/match'
@@ -10,7 +10,7 @@ import { ratingScore } from './lib/rating'
 import { dailyPicks } from './lib/daily'
 import { adaptRecipe } from './lib/adapt'
 import { DEFAULT_SETS, type PantrySet } from './lib/sets'
-import { decodeList, listUrl, useLists } from './lib/lists'
+import { decodeList, listCodeFrom, listUrl, useLists } from './lib/lists'
 import { useEdgeFade } from './lib/edgeFade'
 import { useLongPress } from './lib/longPress'
 import { shareLink } from './lib/share'
@@ -28,7 +28,7 @@ import { ListPicker } from './components/ListPicker'
 import { ListMenu } from './components/ListMenu'
 import { useShoppingList } from './lib/shopping'
 import { FilterGroups } from './components/Filters'
-import { IconBasket, IconBook, IconCart, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconLayers, IconList, IconPencil, IconPlus, IconSearch, IconSettings, IconShare, IconTrash, IconX } from './components/Icons'
+import { IconBasket, IconBook, IconCart, IconClipboard, IconChevronDown, IconChevronLeft, IconDice, IconHeart, IconLayers, IconList, IconPencil, IconPlus, IconSearch, IconSettings, IconShare, IconTrash, IconX } from './components/Icons'
 import { LogoMark, Wordmark } from './components/Logo'
 
 const CURRENT_WEEK = isoWeek()
@@ -240,6 +240,24 @@ export default function App() {
     setOpenList(id)
     navigate('gespeichert')
     notice(`„${shared.name}“ übernommen`)
+  }
+
+  /**
+   * Geteilte Liste einfügen: Kommt der Link per Nachricht, öffnet ihn das Telefon im Browser –
+   * und die App auf dem Startbildschirm hat einen eigenen Speicher, sieht davon also nichts.
+   * Darum hier der Weg über die Zwischenablage, mit Eingabefeld als Rückfalltür.
+   */
+  const listeEinfuegen = async () => {
+    let text = ''
+    try { text = await navigator.clipboard.readText() } catch { /* ohne Zugriff eben von Hand */ }
+    let code = listCodeFrom(text)
+    if (!code) {
+      const eingabe = window.prompt('Link zur geteilten Liste einfügen')
+      if (eingabe === null) return
+      code = listCodeFrom(eingabe)
+      if (!code) return notice('Das war kein Cookify-Listenlink')
+    }
+    openSharedList(code)
   }
 
   /** Karte in „Gespeichert“ gedrückt halten: Menü zum Einsortieren. */
@@ -575,6 +593,7 @@ export default function App() {
                 </button>
               ))}
               <button className="chip soft" onClick={() => setPickFor('')}><IconPlus width={16} height={16} /> Neue Liste</button>
+              <button className="chip soft" onClick={listeEinfuegen} title="Geteilte Liste aus der Zwischenablage"><IconClipboard width={16} height={16} /> Einfügen</button>
              </div>
             </div>
 
@@ -617,7 +636,8 @@ export default function App() {
 
       <ListPicker open={pickFor !== null} onClose={() => setPickFor(null)}
         recipeId={pickFor || null} recipeTitle={pickFor ? BY_ID.get(pickFor)?.title : undefined}
-        lists={lists.lists} onToggle={lists.toggleRecipe} onCreate={lists.create} />
+        lists={lists.lists} onToggle={lists.toggleRecipe} onCreate={lists.create}
+        onPaste={() => { setPickFor(null); listeEinfuegen() }} />
 
       {tabs('tabbar')}
 

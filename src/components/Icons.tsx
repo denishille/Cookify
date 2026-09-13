@@ -41,4 +41,5 @@ export const IconHeart = ({ filled, ...p }: P & { filled?: boolean }) => (
 
 export const IconTrash = (p: P) => <svg {...base} {...p}><path d="M4 7h16M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M6 7l1 13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l1-13" /></svg>
 export const IconPencil = (p: P) => <svg {...base} {...p}><path d="M4 20h4L20 8a2.8 2.8 0 0 0-4-4L4 16z" /></svg>
+export const IconClipboard = (p: P) => <svg {...base} {...p}><rect x="8.5" y="3" width="7" height="4" rx="1.5" /><path d="M9 5H6.5a1.5 1.5 0 0 0-1.5 1.5v13A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 17.5 5H15" /></svg>
 export const IconList = (p: P) => <svg {...base} {...p}><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01" /></svg>

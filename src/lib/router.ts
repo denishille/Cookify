@@ -42,6 +42,12 @@ export function openRecipe(id: string) {
   window.location.hash = `#/rezept/${encodeURIComponent(id)}`
 }
 
+/** Geteilte Liste öffnen – aus einem eingefügten Link. */
+export function openSharedList(code: string) {
+  freezeScroll()
+  window.location.hash = `#/liste/${code}`
+}
+
 export function back() {
   freezeScroll()
   if (window.history.length > 1) window.history.back()

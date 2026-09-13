@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import type { RecipeList } from '../lib/lists'
 import { useScrollLock, useSwipeRight } from '../lib/swipe'
-import { IconCheck, IconPlus, IconX } from './Icons'
+import { IconCheck, IconClipboard, IconPlus, IconX } from './Icons'
 
 interface Props {
   open: boolean
@@ -12,10 +12,12 @@ interface Props {
   lists: RecipeList[]
   onToggle: (listId: string, recipeId: string) => void
   onCreate: (name: string, recipeIds?: string[]) => string | null
+  /** Geteilte Liste aus einem eingefügten Link übernehmen. */
+  onPaste: () => void
 }
 
 /** Schublade von rechts: Rezept in eigene Listen legen oder eine neue Liste anlegen. */
-export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onToggle, onCreate }: Props) {
+export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onToggle, onCreate, onPaste }: Props) {
   const [name, setName] = useState('')
   const asideRef = useRef<HTMLElement>(null)
   useSwipeRight(asideRef, open, onClose, { closesItself: true })
@@ -43,6 +45,9 @@ export function ListPicker({ open, onClose, recipeId, recipeTitle, lists, onTogg
               onChange={(e) => setName(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') add() }} aria-label="Name der neuen Liste" />
             <button className="btn sm primary" onClick={add} disabled={!name.trim()}><IconPlus width={16} height={16} /> Anlegen</button>
           </div>
+          <button className="btn sm" style={{ marginTop: 10 }} onClick={onPaste}>
+            <IconClipboard width={16} height={16} /> Geteilte Liste einfügen
+          </button>
         </div>
 
         <div className="drawer-section">
