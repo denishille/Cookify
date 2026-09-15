@@ -1493,7 +1493,7 @@
       },
       {
         "key": "gemuesebruehe",
-        "name": "emüsebrühe",
+        "name": "Gemüsebrühe",
         "amount": null,
         "unit": ""
       },
@@ -4763,7 +4763,7 @@
         "unit": "g"
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 260,
         "unit": "g"
@@ -4891,7 +4891,7 @@
         "unit": "g"
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 260,
         "unit": "g"
@@ -5013,7 +5013,7 @@
         "unit": "g"
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 260,
         "unit": "g"
@@ -5135,7 +5135,7 @@
         "unit": "g"
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 260,
         "unit": "g"
@@ -11246,7 +11246,7 @@
     },
     "ingredients": [
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 260,
         "unit": "g"
@@ -11362,7 +11362,7 @@
     },
     "ingredients": [
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 1,
         "unit": "Stück"
@@ -14218,7 +14218,7 @@
     },
     "ingredients": [
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 1,
         "unit": "Stück"
@@ -30705,7 +30705,7 @@
       },
       {
         "key": "gemuesebruehe",
-        "name": "emüsebrühe",
+        "name": "Gemüsebrühe",
         "amount": null,
         "unit": ""
       },
@@ -34323,7 +34323,7 @@
       },
       {
         "key": "gemuesebruehe",
-        "name": "emüsebrühe",
+        "name": "Gemüsebrühe",
         "amount": null,
         "unit": ""
       }
@@ -40231,7 +40231,7 @@
       },
       {
         "key": "gemuesebruehe",
-        "name": "emüsebrühe",
+        "name": "Gemüsebrühe",
         "amount": null,
         "unit": ""
       }

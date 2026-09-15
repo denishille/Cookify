@@ -21,9 +21,9 @@
     "ingredients": [
       {
         "key": "zwiebel",
-        "name": "emüsezwiebel",
+        "name": "Gemüsezwiebel",
         "amount": 0.5,
-        "unit": "g"
+        "unit": "Stück"
       },
       {
         "key": "knoblauch",
@@ -151,9 +151,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "chinakohl",
@@ -1375,9 +1375,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "mandeln",
@@ -1602,9 +1602,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "buttermilch",
@@ -1933,9 +1933,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "olivenoel",
@@ -4906,9 +4906,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 250,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.25,
+        "unit": "Stück"
       },
       {
         "key": "zitrone",
@@ -6889,9 +6889,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "sesam",
@@ -8295,9 +8295,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "rosenkohl",
@@ -9503,9 +9503,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "reis",
@@ -10086,9 +10086,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "weisse-bohnen",

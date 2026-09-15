@@ -7926,9 +7926,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "blumenkohl",
@@ -8861,9 +8861,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "agavendicksaft",
@@ -9133,9 +9133,9 @@
       },
       {
         "key": "zwiebel",
-        "name": "emüsezwiebel",
+        "name": "Gemüsezwiebel",
         "amount": 1,
-        "unit": "g"
+        "unit": "Stück"
       },
       {
         "key": "creme-fraiche",
@@ -9174,7 +9174,7 @@
         "unit": "g"
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "Flammkuchenteig",
         "amount": 170,
         "unit": "g"
@@ -9550,7 +9550,7 @@
         "unit": ""
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "Flammkuchenteig",
         "amount": 60,
         "unit": "g"
@@ -11132,9 +11132,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "kreuzkuemmel",
@@ -11262,9 +11262,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "sojasauce",
@@ -14035,9 +14035,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "koriander-gemahlen",
@@ -14258,9 +14258,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "kreuzkuemmel",
@@ -14621,9 +14621,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 500,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 0.5,
+        "unit": "Stück"
       },
       {
         "key": "olivenoel",
@@ -14690,9 +14690,9 @@
       },
       {
         "key": "zwiebel",
-        "name": "emüsezwiebel",
+        "name": "Gemüsezwiebel",
         "amount": 0.5,
-        "unit": "g"
+        "unit": "Stück"
       },
       {
         "key": "petersilie",
@@ -15173,9 +15173,9 @@
       },
       {
         "key": "limette",
-        "name": "imette",
-        "amount": 1000,
-        "unit": "ml"
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stück"
       },
       {
         "key": "sprossen",

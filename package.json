@@ -14,6 +14,7 @@
     "recipes:images": "node scripts/generate-images.mjs",
     "recipes:check-images": "node scripts/check-images.mjs",
     "logo": "node scripts/make-logo.mjs",
+    "steps:check": "tsx scripts/check-step-ingredients.ts",
     "recipes:sources": "node scripts/research-sources.mjs",
     "recipes:import": "node scripts/import-recipes.mjs",
     "recipes:promote": "node scripts/promote.mjs"

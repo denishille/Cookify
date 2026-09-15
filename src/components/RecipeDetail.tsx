@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type CSSProperties, type MouseEvent } from 'react'
+import { useEffect, useMemo, useRef, useState, type CSSProperties, type MouseEvent } from 'react'
 import type { Diet, Ingredient, Recipe } from '../types'
 import { CATEGORY_LABELS, CUISINE_LABELS, DIET_LABELS, DIFFICULTY_LABELS } from '../types'
 import { STAPLE_KEYS } from '../data'
@@ -9,6 +9,7 @@ import { RecipeCard } from './RecipeCard'
 import { IconCart, IconCheck, IconClock, IconExternal, IconEye, IconFlame, IconGauge, IconGlobe, IconHeart, IconLayers, IconMinus, IconPlus, IconShare, IconStar, IconThumbDown } from './Icons'
 import { formatCount, formatRating, isTopRated } from '../lib/rating'
 import { adaptRecipe, recipeFructose, type DietOptions } from '../lib/adapt'
+import { stepIngredients } from '../lib/stepIngredients'
 import { useSwipeRight } from '../lib/swipe'
 import { shareLink } from '../lib/share'
 
@@ -70,6 +71,11 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
 
   const img = recipeImage(recipe.id)
   const factor = servings / recipe.servings
+  /** Welche Zutaten in welchem Schritt gebraucht werden – einmal je Rezept ermittelt. */
+  const zutatenJeSchritt = useMemo(
+    () => recipe.steps.map((s) => stepIngredients(s, recipe.ingredients)),
+    [recipe],
+  )
   const need = recipe.ingredients.filter((i) => !i.optional && !STAPLE_KEYS.has(i.key))
   const haveCount = need.filter((i) => pantry.has(i.key)).length
 
@@ -226,7 +232,26 @@ export function RecipeDetail({ recipe, saved, onToggleSave, pantry, onTogglePant
           </div>
           <ol className="steps">
             {recipe.steps.map((s, i) => (
-              <li key={i} className={done.has(i) ? 'done' : ''} onClick={() => toggleStep(i)}><p>{s}</p></li>
+              <li key={i} className={done.has(i) ? 'done' : ''} onClick={() => toggleStep(i)}>
+                <div className="step-body">
+                  <p>{s}</p>
+                  {/* Was der Schritt braucht, mit Menge für die eingestellten Portionen. */}
+                  {zutatenJeSchritt[i].length > 0 && (
+                    <ul className="step-ing">
+                      {zutatenJeSchritt[i].map((ing) => {
+                        const change = changeByKey.get(ing.key)
+                        if (change?.action === 'weglassen') return null
+                        const menge = `${formatAmount(ing.amount, factor)} ${ing.unit}`.trim()
+                        return (
+                          <li key={ing.key}>
+                            {menge && <b>{menge}</b>} {change?.action === 'ersetzen' ? change.by : ing.name}
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  )}
+                </div>
+              </li>
             ))}
           </ol>
         </section>

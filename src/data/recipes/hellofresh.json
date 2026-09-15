@@ -3774,7 +3774,7 @@
     },
     "ingredients": [
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 1,
         "unit": "Packung"
@@ -5914,7 +5914,7 @@
       },
       {
         "key": "gemuesebruehe",
-        "name": "emüsebrühe",
+        "name": "Gemüsebrühe",
         "amount": null,
         "unit": ""
       }
@@ -11941,7 +11941,7 @@
         "unit": "g"
       },
       {
-        "key": "ente",
+        "key": "pizzateig",
         "name": "frischer Flammkuchenteig",
         "amount": 1,
         "unit": "Stück"
